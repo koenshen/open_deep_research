@@ -3,12 +3,14 @@
 import asyncio
 import logging
 import os
+import time
 import warnings
 from datetime import datetime, timedelta, timezone
 from typing import Annotated, Any, Dict, List, Literal, Optional
 
 import aiohttp
 from langchain.chat_models import init_chat_model
+from langchain_core.callbacks.manager import adispatch_custom_event
 from langchain_core.language_models import BaseChatModel
 from langchain_core.messages import (
     AIMessage,
@@ -156,17 +158,66 @@ async def tavily_search_async(
     """
     # Initialize the Tavily client with API key from config
     tavily_client = AsyncTavilyClient(api_key=get_tavily_api_key(config))
+
+    async def emit_stats_event(event: dict[str, Any]) -> None:
+        """Emit optional tracing data without changing search behavior."""
+        try:
+            await adispatch_custom_event(
+                "tavily_search_completed", event, config=config
+            )
+        except Exception:
+            logging.debug("Unable to emit Tavily statistics event", exc_info=True)
     
+    async def search_one(query: str):
+        """Run one query and emit a non-invasive statistics event."""
+        started = time.monotonic()
+        try:
+            response = await tavily_client.search(
+                query,
+                max_results=max_results,
+                include_raw_content=include_raw_content,
+                topic=topic,
+            )
+            results = response.get("results", [])
+            event = {
+                "status": "completed",
+                "query": query,
+                "retriever": "tavily",
+                "topic": topic,
+                "max_results": max_results,
+                "include_raw_content": include_raw_content,
+                "duration_seconds": round(time.monotonic() - started, 3),
+                "num_results": len(results),
+                "results": [
+                    {
+                        "title": result.get("title"),
+                        "url": result.get("url"),
+                        "score": result.get("score"),
+                    }
+                    for result in results
+                ],
+            }
+            await emit_stats_event(event)
+            return response
+        except Exception as exc:
+            event = {
+                "status": "failed",
+                "query": query,
+                "retriever": "tavily",
+                "topic": topic,
+                "max_results": max_results,
+                "include_raw_content": include_raw_content,
+                "duration_seconds": round(time.monotonic() - started, 3),
+                "num_results": 0,
+                "results": [],
+                "error_type": type(exc).__name__,
+                "error": str(exc),
+            }
+            await emit_stats_event(event)
+            raise
+
     # Create search tasks for parallel execution
-    search_tasks = [
-        tavily_client.search(
-            query,
-            max_results=max_results,
-            include_raw_content=include_raw_content,
-            topic=topic
-        )
-        for query in search_queries
-    ]
+    search_tasks = [search_one(query) for query in search_queries]
     
     # Execute all search queries in parallel and return results
     search_results = await asyncio.gather(*search_tasks)
