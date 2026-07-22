@@ -31,6 +31,7 @@ load_dotenv(PROJECT_ROOT / ".env")
 
 from open_deep_research.configuration import Configuration  # noqa: E402
 from open_deep_research.deep_researcher import deep_researcher_builder  # noqa: E402
+from open_deep_research.utils import TavilyUsageLimitExceeded  # noqa: E402
 from liveresearchbench_stats import ResearchStatsCallback  # noqa: E402
 
 try:
@@ -419,6 +420,13 @@ def main() -> int:
     args = parse_args()
     try:
         return asyncio.run(generate_reports(args))
+    except TavilyUsageLimitExceeded as exc:
+        print(
+            "Tavily usage limit exhausted. Update TAVILY_API_KEY in .env and "
+            f"rerun the same command. Tavily response: {exc}",
+            file=sys.stderr,
+        )
+        return 1
     except KeyboardInterrupt:
         print("Interrupted; completed reports remain resumable.", file=sys.stderr)
         return 130
@@ -429,3 +437,7 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
+'''
+为了 resume 机制防止原子写错误，所以并发数只能是 1
+python tests/run_liveresearchbench.py --max-concurrent 1 --model-name "open-deep-research-tavily-openai-bailian-deepseek-v4-flash-260723" --output-dir "outputs/liveresearchbench"
+'''

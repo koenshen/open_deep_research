@@ -30,6 +30,7 @@ from langchain_mcp_adapters.client import MultiServerMCPClient
 from langgraph.config import get_store
 from mcp import McpError
 from tavily import AsyncTavilyClient
+from tavily.errors import ForbiddenError
 
 from open_deep_research.configuration import Configuration, SearchAPI
 from open_deep_research.prompts import summarize_webpage_prompt
@@ -38,6 +39,16 @@ from open_deep_research.state import ResearchComplete, Summary
 ##########################
 # Tavily Search Tool Utils
 ##########################
+TAVILY_USAGE_LIMIT_MESSAGE = (
+    "This request exceeds your plan's set usage limit. Please upgrade your plan "
+    "or contact support@tavily.com"
+)
+
+
+class TavilyUsageLimitExceeded(BaseException):
+    """Stop the current batch when the Tavily plan usage limit is exhausted."""
+
+
 TAVILY_SEARCH_DESCRIPTION = (
     "A search engine optimized for comprehensive, accurate, and trusted results. "
     "Useful for when you need to answer questions about current events."
@@ -214,6 +225,11 @@ async def tavily_search_async(
                 "error": str(exc),
             }
             await emit_stats_event(event)
+            if (
+                isinstance(exc, ForbiddenError)
+                and str(exc).strip() == TAVILY_USAGE_LIMIT_MESSAGE
+            ):
+                raise TavilyUsageLimitExceeded(str(exc)) from exc
             raise
 
     # Create search tasks for parallel execution
