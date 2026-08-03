@@ -94,16 +94,21 @@ async def tavily_search(
     # Character limit to stay within model token limits (configurable)
     max_char_to_include = configurable.max_content_length
     
-    # Initialize summarization model with retry logic
+    # Initialize summarization models for the first attempt and subsequent retries
     model_api_key = get_api_key_for_model(configurable.summarization_model, config)
     summarization_model = init_chat_model(
         model=configurable.summarization_model,
         max_tokens=configurable.summarization_model_max_tokens,
         api_key=model_api_key,
         tags=["langsmith:nostream"]
-    ).with_structured_output(Summary).with_retry(
-        stop_after_attempt=configurable.max_structured_output_retries
-    )
+    ).with_structured_output(Summary)
+    summarization_retry_model = init_chat_model(
+        model=configurable.summarization_model,
+        max_tokens=configurable.summarization_model_max_tokens,
+        api_key=model_api_key,
+        temperature=1,
+        tags=["langsmith:nostream"]
+    ).with_structured_output(Summary)
     
     # Step 4: Create summarization tasks (skip empty content)
     async def noop():
@@ -113,7 +118,8 @@ async def tavily_search(
     summarization_tasks = [
         noop() if not result.get("raw_content") 
         else summarize_webpage(
-            summarization_model, 
+            summarization_model,
+            summarization_retry_model,
             result['raw_content'][:max_char_to_include]
         )
         for result in unique_results.values()
@@ -225,10 +231,7 @@ async def tavily_search_async(
                 "error": str(exc),
             }
             await emit_stats_event(event)
-            if (
-                isinstance(exc, ForbiddenError)
-                and str(exc).strip() == TAVILY_USAGE_LIMIT_MESSAGE
-            ):
+            if isinstance(exc, ForbiddenError):
                 raise TavilyUsageLimitExceeded(str(exc)) from exc
             raise
 
@@ -239,11 +242,12 @@ async def tavily_search_async(
     search_results = await asyncio.gather(*search_tasks)
     return search_results
 
-async def summarize_webpage(model: BaseChatModel, webpage_content: str) -> str:
-    """Summarize webpage content using AI model with timeout protection.
+async def summarize_webpage(model: BaseChatModel, retry_model: BaseChatModel, webpage_content: str) -> str:
+    """Summarize webpage content using AI model with retry handling.
     
     Args:
         model: The chat model configured for summarization
+        retry_model: The temperature-1 model used after the first attempt
         webpage_content: Raw webpage content to be summarized
         
     Returns:
@@ -256,11 +260,22 @@ async def summarize_webpage(model: BaseChatModel, webpage_content: str) -> str:
             date=get_today_str()
         )
         
-        # Execute summarization with timeout to prevent hanging
-        summary = await asyncio.wait_for(
-            model.ainvoke([HumanMessage(content=prompt_content)]),
-            timeout=60.0  # 60 second timeout for summarization
-        )
+        async def invoke_with_retry():
+            last_error = None
+            for attempt in range(20):
+                try:
+                    summary = await (model if attempt == 0 else retry_model).ainvoke(
+                        [HumanMessage(content=prompt_content)]
+                    )
+                    if summary:
+                        return summary
+                except Exception as exc:
+                    last_error = exc
+            if last_error:
+                raise last_error
+            raise RuntimeError("Summarization returned an empty response after 20 attempts")
+
+        summary = await invoke_with_retry()
         
         # Format the summary with structured sections
         formatted_summary = (
@@ -270,10 +285,6 @@ async def summarize_webpage(model: BaseChatModel, webpage_content: str) -> str:
         
         return formatted_summary
         
-    except asyncio.TimeoutError:
-        # Timeout during summarization - return original content
-        logging.warning("Summarization timed out after 60 seconds, returning original content")
-        return webpage_content
     except Exception as e:
         # Other errors during summarization - log and return original content
         logging.warning(f"Summarization failed with error: {str(e)}, returning original content")

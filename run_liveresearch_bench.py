@@ -21,7 +21,7 @@ from dotenv import load_dotenv
 from langgraph.checkpoint.memory import MemorySaver
 
 
-PROJECT_ROOT = Path(__file__).resolve().parents[1]
+PROJECT_ROOT = Path(__file__).resolve().parent
 DEFAULT_OUTPUT_DIR = PROJECT_ROOT / "outputs" / "liveresearchbench"
 BEIJING_TZ = ZoneInfo("Asia/Shanghai")
 
@@ -80,7 +80,7 @@ def parse_args() -> argparse.Namespace:
         "--max-concurrent",
         type=int,
         default=1,
-        help="Maximum benchmark questions to run concurrently (default: 1).",
+        help="为了 resume 机制防止原子写错误，所以并发数只能是 1",
     )
     parser.add_argument(
         "--progress-interval",
@@ -438,6 +438,8 @@ def main() -> int:
 if __name__ == "__main__":
     raise SystemExit(main())
 '''
-为了 resume 机制防止原子写错误，所以并发数只能是 1
-python tests/run_liveresearchbench.py --max-concurrent 1 --model-name "open-deep-research-tavily-openai-bailian-deepseek-v4-flash-260723" --output-dir "outputs/liveresearchbench"
+python run_liveresearch_bench.py \
+    --model-name "open-deep-research-tavily-openai-bailian-deepseek-v4-flash-260804-live" \
+    --output-dir "outputs/liveresearchbench" \
+    --limit 1
 '''
