@@ -1,0 +1,179 @@
+{
+  "total_llm_calls": 6,
+  "llm_calls_with_token_usage": 6,
+  "llm_calls_missing_token_usage": 0,
+  "token_usage_complete": true,
+  "total_input_tokens": 11377,
+  "total_output_tokens": 13274,
+  "total_tokens": 24651,
+  "counted_input_tokens": 11377,
+  "counted_output_tokens": 13274,
+  "counted_total_tokens": 24651,
+  "total_search_count": 0,
+  "total_search_results": 0,
+  "llm_calls_detail": [
+    {
+      "sequence": 1,
+      "status": "completed",
+      "started_at": "2026-08-05T02:42:12.682661+08:00",
+      "completed_at": "2026-08-05T02:42:23.341609+08:00",
+      "duration_seconds": 10.659,
+      "model": "bailian/deepseek-v4-flash",
+      "input_tokens": 453,
+      "output_tokens": 1092,
+      "total_tokens": 1545,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 453,
+        "output_tokens": 1092,
+        "total_tokens": 1545,
+        "input_token_details": {
+          "cache_read": 0
+        },
+        "output_token_details": {
+          "reasoning": 899
+        }
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "sequence": 2,
+      "status": "completed",
+      "started_at": "2026-08-05T02:42:23.348633+08:00",
+      "completed_at": "2026-08-05T02:42:30.196624+08:00",
+      "duration_seconds": 6.848,
+      "model": "bailian/deepseek-v4-flash",
+      "input_tokens": 1272,
+      "output_tokens": 764,
+      "total_tokens": 2036,
+      "message_count": 2,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1272,
+        "output_tokens": 764,
+        "total_tokens": 2036,
+        "input_token_details": {
+          "cache_read": 1024
+        },
+        "output_token_details": {
+          "reasoning": 424
+        }
+      },
+      "finish_reason": "tool_calls"
+    },
+    {
+      "sequence": 3,
+      "status": "completed",
+      "started_at": "2026-08-05T02:42:30.201907+08:00",
+      "completed_at": "2026-08-05T02:43:00.571134+08:00",
+      "duration_seconds": 30.369,
+      "model": "bailian/deepseek-v4-flash",
+      "input_tokens": 1921,
+      "output_tokens": 588,
+      "total_tokens": 2509,
+      "message_count": 4,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1921,
+        "output_tokens": 588,
+        "total_tokens": 2509,
+        "input_token_details": {
+          "cache_read": 1024
+        },
+        "output_token_details": {
+          "reasoning": 209
+        }
+      },
+      "finish_reason": "tool_calls"
+    },
+    {
+      "sequence": 4,
+      "status": "completed",
+      "started_at": "2026-08-05T02:43:00.577349+08:00",
+      "completed_at": "2026-08-05T02:43:04.554760+08:00",
+      "duration_seconds": 3.977,
+      "model": "bailian/deepseek-v4-flash",
+      "input_tokens": 2648,
+      "output_tokens": 425,
+      "total_tokens": 3073,
+      "message_count": 6,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2648,
+        "output_tokens": 425,
+        "total_tokens": 3073,
+        "input_token_details": {
+          "cache_read": 1024
+        },
+        "output_token_details": {
+          "reasoning": 201
+        }
+      },
+      "finish_reason": "tool_calls"
+    },
+    {
+      "sequence": 5,
+      "status": "completed",
+      "started_at": "2026-08-05T02:43:04.560123+08:00",
+      "completed_at": "2026-08-05T02:43:12.074405+08:00",
+      "duration_seconds": 7.514,
+      "model": "bailian/deepseek-v4-flash",
+      "input_tokens": 3065,
+      "output_tokens": 715,
+      "total_tokens": 3780,
+      "message_count": 8,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3065,
+        "output_tokens": 715,
+        "total_tokens": 3780,
+        "input_token_details": {
+          "cache_read": 2560
+        },
+        "output_token_details": {
+          "reasoning": 51
+        }
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "sequence": 6,
+      "status": "completed",
+      "started_at": "2026-08-05T02:43:12.079650+08:00",
+      "completed_at": "2026-08-05T02:44:48.326482+08:00",
+      "duration_seconds": 96.247,
+      "model": "bailian/deepseek-v4-flash",
+      "input_tokens": 2018,
+      "output_tokens": 9690,
+      "total_tokens": 11708,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2018,
+        "output_tokens": 9690,
+        "total_tokens": 11708,
+        "input_token_details": {
+          "cache_read": 0
+        },
+        "output_token_details": {
+          "reasoning": 463
+        }
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "search_calls_detail": [],
+  "id": 61,
+  "prompt": "Research on the price dynamics of chub mackerel in major aquatic markets of Pacific Rim countries, and its interannual variations in weight/length. Combined with oceanographic theory, these research findings can further establish direct correlations between high-quality marine biological resources, aquatic markets, fishery economics, and the marine environment.",
+  "language": "en",
+  "topic": "Science & Technology",
+  "duration_seconds": 155.651,
+  "report_length": 18030
+}
