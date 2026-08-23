@@ -210,6 +210,11 @@ async def tavily_search_async(
                         "title": result.get("title"),
                         "url": result.get("url"),
                         "score": result.get("score"),
+                        "raw_content_available": bool(result.get("raw_content")),
+                        "raw_content_length": len(result.get("raw_content") or ""),
+                        "content_fetch_status": (
+                            "success" if result.get("raw_content") else "missing"
+                        ),
                     }
                     for result in results
                 ],

@@ -145,6 +145,15 @@ def rebuild_submission(tasks: list[dict[str, Any]], model_dir: Path, path: Path)
     return len(rows)
 
 
+def append_submission_row(path: Path, row: dict[str, Any]) -> None:
+    """Append one completed evaluator row and flush it durably."""
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with path.open("a", encoding="utf-8") as file:
+        file.write(json.dumps(row, ensure_ascii=False) + "\n")
+        file.flush()
+        os.fsync(file.fileno())
+
+
 async def generate_reports(args: argparse.Namespace) -> int:
     """Generate selected reports and return a process exit code."""
     query_file = args.benchmark_dir.resolve() / "data" / "prompt_data" / "query.jsonl"
@@ -171,24 +180,52 @@ async def generate_reports(args: argparse.Namespace) -> int:
     events_path = model_dir / "run_events.jsonl"
     semaphore = asyncio.Semaphore(args.max_concurrent)
     event_lock = asyncio.Lock()
+    submission_lock = asyncio.Lock()
     graph = deep_researcher_builder.compile(checkpointer=MemorySaver())
+    rebuild_submission(all_tasks, model_dir, submission_path)
+    submission_ids = {
+        task["id"]
+        for task in all_tasks
+        if (
+            (model_dir / f"task_{task['id']}_report.md").is_file()
+            and (model_dir / f"task_{task['id']}_report.md").stat().st_size
+        )
+    }
 
     async def event(value: dict[str, Any]) -> None:
         async with event_lock:
             with events_path.open("a", encoding="utf-8") as file:
                 file.write(json.dumps(value, ensure_ascii=False) + "\n")
+                file.flush()
+                os.fsync(file.fileno())
 
     async def run_one(task: dict[str, Any]) -> tuple[Any, str]:
         task_id = task["id"]
         report_path = model_dir / f"task_{task_id}_report.md"
         stats_path = model_dir / f"task_{task_id}_stats.json"
-        if report_path.is_file() and report_path.stat().st_size and not args.overwrite:
+        trace_path = model_dir / f"task_{task_id}_llm_trace.jsonl"
+        if (
+            report_path.is_file()
+            and report_path.stat().st_size
+            and stats_path.is_file()
+            and stats_path.stat().st_size
+            and trace_path.is_file()
+            and not args.overwrite
+        ):
             return task_id, "skipped"
         async with semaphore:
             started = time.monotonic()
+            run_id = uuid.uuid4().hex
             print(f"[start] task {task_id}", flush=True)
-            await event({"task_id": task_id, "status": "started", "time": time.time()})
-            stats = ResearchStatsCallback()
+            await event(
+                {
+                    "run_id": run_id,
+                    "task_id": task_id,
+                    "status": "started",
+                    "timestamp": time.time(),
+                }
+            )
+            stats = ResearchStatsCallback(session_id=run_id)
 
             async def heartbeat() -> None:
                 if args.progress_interval == 0:
@@ -213,38 +250,122 @@ async def generate_reports(args: argparse.Namespace) -> int:
                         "recursion_limit": 100,
                     },
                 )
-                report = str(result.get("final_report", "")).strip()
-                if not report or report.startswith("Error generating final report"):
-                    raise RuntimeError(report or "graph returned an empty final_report")
-                elapsed = time.monotonic() - started
                 summary = stats.summary()
+                report = str(result.get("final_report", "")).strip()
+                research_brief = str(result.get("research_brief", "")).strip()
+                raw_notes = result.get("raw_notes", [])
+                validation_errors = []
+                if not research_brief:
+                    validation_errors.append("research_brief is empty")
+                if not any(str(note).strip() for note in raw_notes):
+                    validation_errors.append("no research notes were produced")
+                if (
+                    config.search_api.value == "tavily"
+                    and summary.get("total_search_count", 0) <= 0
+                ):
+                    validation_errors.append("no Tavily search was performed")
+                if not report:
+                    validation_errors.append("final report is empty")
+                elif report.startswith("Error generating final report"):
+                    validation_errors.append("final report generation failed")
+                if validation_errors:
+                    raise RuntimeError(
+                        "invalid research run: " + "; ".join(validation_errors)
+                    )
+                elapsed = time.monotonic() - started
                 summary.update(
                     {
+                        "run_id": run_id,
+                        "status": "completed",
                         "id": task_id,
                         "prompt": task["prompt"],
                         "language": task.get("language"),
                         "topic": task.get("topic"),
                         "duration_seconds": round(elapsed, 3),
                         "report_length": len(report),
+                        "context_length": len(
+                            "\n".join(str(note) for note in result.get("raw_notes", []))
+                        ),
+                        "source_urls_count": len(
+                            {
+                                item.get("url")
+                                for call in summary["search_calls_detail"]
+                                for item in call.get("results", [])
+                                if item.get("url")
+                            }
+                        ),
                     }
                 )
                 write_text_atomically(report_path, report + "\n")
                 write_text_atomically(
                     stats_path, json.dumps(summary, ensure_ascii=False, indent=2) + "\n"
                 )
-                await event(
-                    {"task_id": task_id, "status": "completed", "elapsed": elapsed}
-                )
-                return task_id, "completed"
-            except Exception as exc:
+                stats.write_trace(trace_path)
+                async with submission_lock:
+                    if task_id not in submission_ids:
+                        append_submission_row(
+                            submission_path,
+                            {
+                                "id": task_id,
+                                "prompt": task["prompt"],
+                                "article": report,
+                            },
+                        )
+                        submission_ids.add(task_id)
                 await event(
                     {
+                        "run_id": run_id,
                         "task_id": task_id,
-                        "status": "failed",
-                        "error_type": type(exc).__name__,
-                        "error": str(exc),
+                        "status": "completed",
+                        "elapsed_seconds": round(elapsed, 3),
+                        "report_file_path": str(report_path),
+                        "stats_file_path": str(stats_path),
+                        "trace_file_path": str(trace_path),
                     }
                 )
+                return task_id, "completed"
+            except (Exception, TavilyUsageLimitExceeded) as exc:
+                elapsed = time.monotonic() - started
+                failure_dir = model_dir / "failed"
+                failure_dir.mkdir(parents=True, exist_ok=True)
+                failure_trace_path = (
+                    failure_dir / f"task_{task_id}_{run_id}_llm_trace.jsonl"
+                )
+                stats.write_trace(failure_trace_path)
+                failure_path = failure_dir / f"task_{task_id}_{run_id}_failure.json"
+                failure = stats.summary()
+                failure.update(
+                    {
+                        "run_id": run_id,
+                        "status": "failed",
+                        "id": task_id,
+                        "prompt": task["prompt"],
+                        "language": task.get("language"),
+                        "topic": task.get("topic"),
+                        "duration_seconds": round(elapsed, 3),
+                        "error_type": type(exc).__name__,
+                        "error": str(exc),
+                        "trace_file_path": str(failure_trace_path),
+                    }
+                )
+                write_text_atomically(
+                    failure_path,
+                    json.dumps(failure, ensure_ascii=False, indent=2) + "\n",
+                )
+                await event(
+                    {
+                        "run_id": run_id,
+                        "task_id": task_id,
+                        "status": "failed",
+                        "elapsed_seconds": round(elapsed, 3),
+                        "error_type": type(exc).__name__,
+                        "error": str(exc),
+                        "failure_file_path": str(failure_path),
+                        "trace_file_path": str(failure_trace_path),
+                    }
+                )
+                if isinstance(exc, TavilyUsageLimitExceeded):
+                    raise
                 return task_id, f"failed: {type(exc).__name__}: {exc}"
             finally:
                 progress.cancel()
@@ -279,7 +400,7 @@ if __name__ == "__main__":
     raise SystemExit(main())
 '''
 python run_deepresearch_bench.py \
-    --model-name "open-deep-research-tavily-openai-bailian-deepseek-v4-flash-260804-deep" \
+    --model-name "bailian-deepseek-v4-flash-0731-260823-0349" \
     --output-dir "outputs/deepresearchbench" \
     --id 1
 '''

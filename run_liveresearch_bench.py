@@ -205,6 +205,8 @@ def append_event(path: Path, event: dict[str, Any]) -> None:
     """Append one resumable run event as JSONL."""
     with path.open("a", encoding="utf-8") as file:
         file.write(json.dumps(event, ensure_ascii=False) + "\n")
+        file.flush()
+        os.fsync(file.fileno())
 
 
 def beijing_now() -> datetime:
@@ -268,13 +270,17 @@ async def generate_reports(args: argparse.Namespace) -> int:
     ) -> tuple[str, str, float]:
         report_path = model_dir / f"qid_{qid}_report.md"
         stats_path = model_dir / f"qid_{qid}_stats.json"
+        trace_path = model_dir / f"qid_{qid}_llm_trace.jsonl"
         if report_path.exists() and report_path.stat().st_size > 0 and not args.overwrite:
             if not stats_path.exists() or stats_path.stat().st_size == 0:
                 return qid, "skipped (stats missing; use --overwrite to regenerate)", 0.0
+            if not trace_path.is_file():
+                return qid, "skipped (trace missing; use --overwrite to regenerate)", 0.0
             return qid, "skipped", 0.0
 
         async with semaphore:
             started = time.monotonic()
+            run_id = uuid.uuid4().hex
             print(
                 f"[{beijing_time_text()}] [start {position}/{len(selected)}] {qid}; "
                 f"finished={finished_count}, remaining={len(selected) - finished_count}",
@@ -282,6 +288,7 @@ async def generate_reports(args: argparse.Namespace) -> int:
             )
             await record_event(
                 {
+                    "run_id": run_id,
                     "timestamp": beijing_now().isoformat(),
                     "query_id": qid,
                     "status": "started",
@@ -305,7 +312,7 @@ async def generate_reports(args: argparse.Namespace) -> int:
                     )
 
             progress_task = asyncio.create_task(report_progress())
-            stats = ResearchStatsCallback()
+            stats = ResearchStatsCallback(session_id=run_id)
             try:
                 result = await graph.ainvoke(
                     {"messages": [{"role": "user", "content": question}]},
@@ -318,19 +325,37 @@ async def generate_reports(args: argparse.Namespace) -> int:
                         "recursion_limit": 100,
                     },
                 )
+                summary = stats.summary()
                 report = str(result.get("final_report", "")).strip()
+                research_brief = str(result.get("research_brief", "")).strip()
+                raw_notes = result.get("raw_notes", [])
+                validation_errors = []
+                if not research_brief:
+                    validation_errors.append("research_brief is empty")
+                if not any(str(note).strip() for note in raw_notes):
+                    validation_errors.append("no research notes were produced")
+                if (
+                    effective_config.search_api.value == "tavily"
+                    and summary.get("total_search_count", 0) <= 0
+                ):
+                    validation_errors.append("no Tavily search was performed")
                 if not report:
-                    raise RuntimeError("graph returned an empty final_report")
-                if report.startswith("Error generating final report"):
-                    raise RuntimeError(report)
+                    validation_errors.append("final report is empty")
+                elif report.startswith("Error generating final report"):
+                    validation_errors.append("final report generation failed")
+                if validation_errors:
+                    raise RuntimeError(
+                        "invalid research run: " + "; ".join(validation_errors)
+                    )
 
                 elapsed = time.monotonic() - started
                 raw_context = "\n".join(
                     str(note) for note in result.get("raw_notes", [])
                 )
-                summary = stats.summary()
                 summary.update(
                     {
+                        "run_id": run_id,
+                        "status": "completed",
                         "qid": qid,
                         "query": question,
                         "duration_seconds": round(elapsed, 3),
@@ -352,29 +377,58 @@ async def generate_reports(args: argparse.Namespace) -> int:
                 )
                 write_report_atomically(report_path, report + "\n")
                 write_json_atomically(stats_path, summary)
+                stats.write_trace(trace_path)
                 await record_event(
                     {
+                        "run_id": run_id,
                         "timestamp": beijing_now().isoformat(),
                         "query_id": qid,
                         "status": "completed",
                         "elapsed_seconds": round(elapsed, 3),
                         "report_file_path": str(report_path),
                         "stats_file_path": str(stats_path),
+                        "trace_file_path": str(trace_path),
                     }
                 )
                 return qid, "completed", elapsed
-            except Exception as exc:
+            except (Exception, TavilyUsageLimitExceeded) as exc:
                 elapsed = time.monotonic() - started
+                failure_dir = model_dir / "failed"
+                failure_dir.mkdir(parents=True, exist_ok=True)
+                failure_trace_path = (
+                    failure_dir / f"qid_{qid}_{run_id}_llm_trace.jsonl"
+                )
+                stats.write_trace(failure_trace_path)
+                failure_path = failure_dir / f"qid_{qid}_{run_id}_failure.json"
+                failure = stats.summary()
+                failure.update(
+                    {
+                        "run_id": run_id,
+                        "status": "failed",
+                        "qid": qid,
+                        "query": question,
+                        "duration_seconds": round(elapsed, 3),
+                        "error_type": type(exc).__name__,
+                        "error": str(exc),
+                        "trace_file_path": str(failure_trace_path),
+                    }
+                )
+                write_json_atomically(failure_path, failure)
                 await record_event(
                     {
+                        "run_id": run_id,
                         "timestamp": beijing_now().isoformat(),
                         "query_id": qid,
                         "status": "failed",
                         "elapsed_seconds": round(elapsed, 3),
                         "error_type": type(exc).__name__,
                         "error": str(exc),
+                        "failure_file_path": str(failure_path),
+                        "trace_file_path": str(failure_trace_path),
                     }
                 )
+                if isinstance(exc, TavilyUsageLimitExceeded):
+                    raise
                 return qid, f"failed: {type(exc).__name__}: {exc}", elapsed
             finally:
                 progress_task.cancel()
@@ -439,7 +493,8 @@ if __name__ == "__main__":
     raise SystemExit(main())
 '''
 python run_liveresearch_bench.py \
-    --model-name "open-deep-research-tavily-openai-bailian-deepseek-v4-flash-260804-live" \
+    --model-name "bailian-deepseek-v4-flash-0731-260823-0349" \
     --output-dir "outputs/liveresearchbench" \
-    --limit 1
+    --limit 1 \
+    --qid "market6VWmPyxptfK47civ"
 '''

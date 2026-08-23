@@ -89,7 +89,10 @@ async def clarify_with_user(state: AgentState, config: RunnableConfig) -> Comman
     clarification_model = (
         configurable_model
         .with_structured_output(ClarifyWithUser)
-        .with_retry(stop_after_attempt=configurable.max_structured_output_retries)
+        .with_retry(
+            stop_after_attempt=configurable.max_structured_output_retries,
+            exponential_jitter_params={"initial": 1, "max": 1, "jitter": 0},
+        )
         .with_config(model_config)
     )
     
@@ -142,7 +145,10 @@ async def write_research_brief(state: AgentState, config: RunnableConfig) -> Com
     research_model = (
         configurable_model
         .with_structured_output(ResearchQuestion)
-        .with_retry(stop_after_attempt=configurable.max_structured_output_retries)
+        .with_retry(
+            stop_after_attempt=configurable.max_structured_output_retries,
+            exponential_jitter_params={"initial": 1, "max": 1, "jitter": 0},
+        )
         .with_config(research_model_config)
     )
     
@@ -205,7 +211,10 @@ async def supervisor(state: SupervisorState, config: RunnableConfig) -> Command[
     research_model = (
         configurable_model
         .bind_tools(lead_researcher_tools)
-        .with_retry(stop_after_attempt=configurable.max_structured_output_retries)
+        .with_retry(
+            stop_after_attempt=configurable.max_structured_output_retries,
+            exponential_jitter_params={"initial": 1, "max": 1, "jitter": 0},
+        )
         .with_config(research_model_config)
     )
     
@@ -406,7 +415,10 @@ async def researcher(state: ResearcherState, config: RunnableConfig) -> Command[
     research_model = (
         configurable_model
         .bind_tools(tools)
-        .with_retry(stop_after_attempt=configurable.max_structured_output_retries)
+        .with_retry(
+            stop_after_attempt=configurable.max_structured_output_retries,
+            exponential_jitter_params={"initial": 1, "max": 1, "jitter": 0},
+        )
         .with_config(research_model_config)
     )
     
