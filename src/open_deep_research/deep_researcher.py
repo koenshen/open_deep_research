@@ -88,7 +88,7 @@ async def clarify_with_user(state: AgentState, config: RunnableConfig) -> Comman
     # Configure model with structured output and retry logic
     clarification_model = (
         configurable_model
-        .with_structured_output(ClarifyWithUser)
+        .with_structured_output(ClarifyWithUser, method="function_calling", extra_body={"thinking": {"type": "disabled"}})
         .with_retry(
             stop_after_attempt=configurable.max_structured_output_retries,
             exponential_jitter_params={"initial": 1, "max": 1, "jitter": 0},
@@ -144,7 +144,7 @@ async def write_research_brief(state: AgentState, config: RunnableConfig) -> Com
     # Configure model for structured research question generation
     research_model = (
         configurable_model
-        .with_structured_output(ResearchQuestion)
+        .with_structured_output(ResearchQuestion, method="function_calling", extra_body={"thinking": {"type": "disabled"}})
         .with_retry(
             stop_after_attempt=configurable.max_structured_output_retries,
             exponential_jitter_params={"initial": 1, "max": 1, "jitter": 0},
@@ -443,6 +443,10 @@ async def execute_tool_safely(tool, args, config):
     except Exception as e:
         return f"Error executing tool: {str(e)}"
 
+async def unknown_tool_result(name: str) -> str:
+    """Return an error message for a tool name the model hallucinated."""
+    return f"Error: Unknown tool '{name}'."
+
 
 async def researcher_tools(state: ResearcherState, config: RunnableConfig) -> Command[Literal["researcher", "compress_research"]]:
     """Execute tools called by the researcher, including search tools and strategic thinking.
@@ -485,7 +489,9 @@ async def researcher_tools(state: ResearcherState, config: RunnableConfig) -> Co
     # Execute all tool calls in parallel
     tool_calls = most_recent_message.tool_calls
     tool_execution_tasks = [
-        execute_tool_safely(tools_by_name[tool_call["name"]], tool_call["args"], config) 
+        execute_tool_safely(tools_by_name[tool_call["name"]], tool_call["args"], config)
+        if tool_call["name"] in tools_by_name
+        else unknown_tool_result(tool_call["name"])
         for tool_call in tool_calls
     ]
     observations = await asyncio.gather(*tool_execution_tasks)

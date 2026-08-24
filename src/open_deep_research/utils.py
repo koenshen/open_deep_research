@@ -44,6 +44,8 @@ TAVILY_USAGE_LIMIT_MESSAGE = (
     "or contact support@tavily.com"
 )
 
+_SUMMARY_CACHE: dict[str, str] = {}
+
 
 class TavilyUsageLimitExceeded(BaseException):
     """Stop the current batch when the Tavily plan usage limit is exhausted."""
@@ -56,7 +58,7 @@ TAVILY_SEARCH_DESCRIPTION = (
 @tool(description=TAVILY_SEARCH_DESCRIPTION)
 async def tavily_search(
     queries: List[str],
-    max_results: Annotated[int, InjectedToolArg] = 20,
+    max_results: Annotated[int, InjectedToolArg] = 5,
     topic: Annotated[Literal["general", "news", "finance"], InjectedToolArg] = "general",
     config: RunnableConfig = None
 ) -> str:
@@ -101,28 +103,41 @@ async def tavily_search(
         max_tokens=configurable.summarization_model_max_tokens,
         api_key=model_api_key,
         tags=["langsmith:nostream"]
-    ).with_structured_output(Summary)
+    ).with_structured_output(Summary, method="function_calling", extra_body={"thinking": {"type": "disabled"}})
     summarization_retry_model = init_chat_model(
         model=configurable.summarization_model,
         max_tokens=configurable.summarization_model_max_tokens,
         api_key=model_api_key,
         temperature=1,
         tags=["langsmith:nostream"]
-    ).with_structured_output(Summary)
+    ).with_structured_output(Summary, method="function_calling", extra_body={"thinking": {"type": "disabled"}})
     
-    # Step 4: Create summarization tasks (skip empty content)
-    async def noop():
-        """No-op function for results without raw content."""
-        return None
-    
-    summarization_tasks = [
-        noop() if not result.get("raw_content") 
-        else summarize_webpage(
+    # Step 4: Create summarization tasks (reuse cached summaries, skip empty content)
+    async def summarize_or_reuse(url: str, result: dict):
+        """Return cached summary if available, otherwise summarize and cache."""
+        cached = _SUMMARY_CACHE.get(url)
+        if cached is not None:
+            try:
+                await adispatch_custom_event(
+                    "summary_cache_hit", {"url": url}, config=config
+                )
+            except Exception:
+                logging.debug("Unable to emit summary cache hit event", exc_info=True)
+            return cached
+        if not result.get("raw_content"):
+            return None
+        summary = await summarize_webpage(
             summarization_model,
             summarization_retry_model,
             result['raw_content'][:max_char_to_include]
         )
-        for result in unique_results.values()
+        if summary is not None:
+            _SUMMARY_CACHE[url] = summary
+        return summary
+    
+    summarization_tasks = [
+        summarize_or_reuse(url, result)
+        for url, result in unique_results.items()
     ]
     
     # Step 5: Execute all summarization tasks in parallel

@@ -400,7 +400,7 @@ if __name__ == "__main__":
     raise SystemExit(main())
 '''
 python run_deepresearch_bench.py \
-    --model-name "bailian-deepseek-v4-flash-0731-260823-0349" \
+    --model-name "aionly-deepseek-v4-flash-260823-1543" \
     --output-dir "outputs/deepresearchbench" \
     --id 1
 '''

@@ -54,6 +54,7 @@ class ResearchStatsCallback(BaseCallbackHandler):
         self.session_id = session_id or uuid4().hex
         self.llm_calls: list[dict[str, Any]] = []
         self.search_calls: list[dict[str, Any]] = []
+        self.summary_cache_hits: list[dict[str, Any]] = []
         self.trace_events: list[dict[str, Any]] = []
 
     def _next_sequence(self) -> int:
@@ -292,13 +293,18 @@ class ResearchStatsCallback(BaseCallbackHandler):
         **kwargs: Any,
     ) -> None:
         del run_id, tags, metadata, kwargs
-        if name != "tavily_search_completed" or not isinstance(data, dict):
-            return
-        detail = deepcopy(data)
-        detail["sequence"] = self._next_sequence()
-        detail["timestamp"] = _now_text()
-        with self._lock:
-            self.search_calls.append(detail)
+        if name == "tavily_search_completed" and isinstance(data, dict):
+            detail = deepcopy(data)
+            detail["sequence"] = self._next_sequence()
+            detail["timestamp"] = _now_text()
+            with self._lock:
+                self.search_calls.append(detail)
+        elif name == "summary_cache_hit" and isinstance(data, dict):
+            detail = deepcopy(data)
+            detail["sequence"] = self._next_sequence()
+            detail["timestamp"] = _now_text()
+            with self._lock:
+                self.summary_cache_hits.append(detail)
 
     def summary(self) -> dict[str, Any]:
         """Return a stable snapshot matching GPT Researcher's main fields."""
@@ -353,6 +359,14 @@ class ResearchStatsCallback(BaseCallbackHandler):
             "source_urls_count": len(source_urls),
             "llm_calls_detail": llm_calls,
             "search_calls_detail": search_calls,
+            "summary_cache_hits": len(self.summary_cache_hits),
+            "summary_cache_hit_urls": [
+                hit.get("url")
+                for hit in sorted(
+                    deepcopy(self.summary_cache_hits),
+                    key=lambda item: item["sequence"],
+                )
+            ],
             "visit_calls_detail": visit_calls,
         }
 
