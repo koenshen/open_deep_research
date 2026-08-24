@@ -1,0 +1,2414 @@
+{
+  "session_id": "632b90a7fdd84894927fffc583cd27b2",
+  "total_llm_calls": 51,
+  "llm_calls_with_token_usage": 51,
+  "llm_calls_missing_token_usage": 0,
+  "token_usage_complete": true,
+  "total_input_tokens": 470714,
+  "total_output_tokens": 57792,
+  "total_tokens": 528506,
+  "counted_input_tokens": 470714,
+  "counted_output_tokens": 57792,
+  "counted_total_tokens": 528506,
+  "total_search_count": 13,
+  "total_search_results": 65,
+  "total_visit_count": 65,
+  "total_visit_success": 45,
+  "total_visit_failed": 20,
+  "source_urls_count": 59,
+  "llm_calls_detail": [
+    {
+      "sequence": 1,
+      "status": "completed",
+      "started_at": "2026-08-23T19:07:41.240545+08:00",
+      "completed_at": "2026-08-23T19:07:44.400295+08:00",
+      "duration_seconds": 3.16,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 789,
+      "output_tokens": 206,
+      "total_tokens": 995,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 789,
+        "output_tokens": 206,
+        "total_tokens": 995,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 2,
+      "status": "completed",
+      "started_at": "2026-08-23T19:07:44.409056+08:00",
+      "completed_at": "2026-08-23T19:07:49.623451+08:00",
+      "duration_seconds": 5.214,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1270,
+      "output_tokens": 467,
+      "total_tokens": 1737,
+      "message_count": 2,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1270,
+        "output_tokens": 467,
+        "total_tokens": 1737,
+        "input_token_details": {
+          "cache_read": 1024
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 3,
+      "status": "completed",
+      "started_at": "2026-08-23T19:07:49.629753+08:00",
+      "completed_at": "2026-08-23T19:07:53.834262+08:00",
+      "duration_seconds": 4.205,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1681,
+      "output_tokens": 352,
+      "total_tokens": 2033,
+      "message_count": 4,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1681,
+        "output_tokens": 352,
+        "total_tokens": 2033,
+        "input_token_details": {
+          "cache_read": 1024
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 4,
+      "status": "completed",
+      "started_at": "2026-08-23T19:07:53.847144+08:00",
+      "completed_at": "2026-08-23T19:07:56.090721+08:00",
+      "duration_seconds": 2.244,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1146,
+      "output_tokens": 146,
+      "total_tokens": 1292,
+      "message_count": 2,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1146,
+        "output_tokens": 146,
+        "total_tokens": 1292,
+        "input_token_details": {
+          "cache_read": 768
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 8,
+      "status": "completed",
+      "started_at": "2026-08-23T19:07:59.492096+08:00",
+      "completed_at": "2026-08-23T19:08:07.662101+08:00",
+      "duration_seconds": 8.17,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 10460,
+      "output_tokens": 881,
+      "total_tokens": 11341,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 10460,
+        "output_tokens": 881,
+        "total_tokens": 11341,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 9,
+      "status": "completed",
+      "started_at": "2026-08-23T19:07:59.492436+08:00",
+      "completed_at": "2026-08-23T19:08:08.790884+08:00",
+      "duration_seconds": 9.298,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 9030,
+      "output_tokens": 880,
+      "total_tokens": 9910,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 9030,
+        "output_tokens": 880,
+        "total_tokens": 9910,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 10,
+      "status": "completed",
+      "started_at": "2026-08-23T19:07:59.492573+08:00",
+      "completed_at": "2026-08-23T19:08:03.172227+08:00",
+      "duration_seconds": 3.68,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2234,
+      "output_tokens": 267,
+      "total_tokens": 2501,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2234,
+        "output_tokens": 267,
+        "total_tokens": 2501,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 11,
+      "status": "completed",
+      "started_at": "2026-08-23T19:07:59.492633+08:00",
+      "completed_at": "2026-08-23T19:08:09.612031+08:00",
+      "duration_seconds": 10.119,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 15495,
+      "output_tokens": 1017,
+      "total_tokens": 16512,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 15495,
+        "output_tokens": 1017,
+        "total_tokens": 16512,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 12,
+      "status": "completed",
+      "started_at": "2026-08-23T19:07:59.492674+08:00",
+      "completed_at": "2026-08-23T19:08:07.736174+08:00",
+      "duration_seconds": 8.243,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 14741,
+      "output_tokens": 730,
+      "total_tokens": 15471,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 14741,
+        "output_tokens": 730,
+        "total_tokens": 15471,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 13,
+      "status": "completed",
+      "started_at": "2026-08-23T19:07:59.492709+08:00",
+      "completed_at": "2026-08-23T19:08:07.679235+08:00",
+      "duration_seconds": 8.187,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 16973,
+      "output_tokens": 735,
+      "total_tokens": 17708,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 16973,
+        "output_tokens": 735,
+        "total_tokens": 17708,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 14,
+      "status": "completed",
+      "started_at": "2026-08-23T19:07:59.492751+08:00",
+      "completed_at": "2026-08-23T19:08:05.279155+08:00",
+      "duration_seconds": 5.786,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8055,
+      "output_tokens": 430,
+      "total_tokens": 8485,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 8055,
+        "output_tokens": 430,
+        "total_tokens": 8485,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 15,
+      "status": "completed",
+      "started_at": "2026-08-23T19:07:59.492813+08:00",
+      "completed_at": "2026-08-23T19:08:08.642997+08:00",
+      "duration_seconds": 9.15,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 10957,
+      "output_tokens": 878,
+      "total_tokens": 11835,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 10957,
+        "output_tokens": 878,
+        "total_tokens": 11835,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 16,
+      "status": "completed",
+      "started_at": "2026-08-23T19:07:59.492850+08:00",
+      "completed_at": "2026-08-23T19:08:08.721213+08:00",
+      "duration_seconds": 9.228,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 9680,
+      "output_tokens": 888,
+      "total_tokens": 10568,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 9680,
+        "output_tokens": 888,
+        "total_tokens": 10568,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 17,
+      "status": "completed",
+      "started_at": "2026-08-23T19:08:09.620809+08:00",
+      "completed_at": "2026-08-23T19:08:12.509884+08:00",
+      "duration_seconds": 2.889,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8204,
+      "output_tokens": 139,
+      "total_tokens": 8343,
+      "message_count": 4,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 8204,
+        "output_tokens": 139,
+        "total_tokens": 8343,
+        "input_token_details": {
+          "cache_read": 1024
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 18,
+      "status": "completed",
+      "started_at": "2026-08-23T19:08:12.526053+08:00",
+      "completed_at": "2026-08-23T19:08:15.456131+08:00",
+      "duration_seconds": 2.93,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8371,
+      "output_tokens": 166,
+      "total_tokens": 8537,
+      "message_count": 6,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 8371,
+        "output_tokens": 166,
+        "total_tokens": 8537,
+        "input_token_details": {
+          "cache_read": 8192
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 24,
+      "status": "completed",
+      "started_at": "2026-08-23T19:08:19.236930+08:00",
+      "completed_at": "2026-08-23T19:08:25.893808+08:00",
+      "duration_seconds": 6.657,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 15962,
+      "output_tokens": 604,
+      "total_tokens": 16566,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 15962,
+        "output_tokens": 604,
+        "total_tokens": 16566,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 25,
+      "status": "completed",
+      "started_at": "2026-08-23T19:08:19.237003+08:00",
+      "completed_at": "2026-08-23T19:08:26.043844+08:00",
+      "duration_seconds": 6.807,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4925,
+      "output_tokens": 573,
+      "total_tokens": 5498,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4925,
+        "output_tokens": 573,
+        "total_tokens": 5498,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 26,
+      "status": "completed",
+      "started_at": "2026-08-23T19:08:19.242521+08:00",
+      "completed_at": "2026-08-23T19:08:22.686836+08:00",
+      "duration_seconds": 3.444,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2275,
+      "output_tokens": 202,
+      "total_tokens": 2477,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2275,
+        "output_tokens": 202,
+        "total_tokens": 2477,
+        "input_token_details": {
+          "cache_read": 1280
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 27,
+      "status": "completed",
+      "started_at": "2026-08-23T19:08:19.242859+08:00",
+      "completed_at": "2026-08-23T19:08:24.773481+08:00",
+      "duration_seconds": 5.531,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 18001,
+      "output_tokens": 419,
+      "total_tokens": 18420,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 18001,
+        "output_tokens": 419,
+        "total_tokens": 18420,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 28,
+      "status": "completed",
+      "started_at": "2026-08-23T19:08:19.242895+08:00",
+      "completed_at": "2026-08-23T19:08:26.416681+08:00",
+      "duration_seconds": 7.174,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5280,
+      "output_tokens": 633,
+      "total_tokens": 5913,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5280,
+        "output_tokens": 633,
+        "total_tokens": 5913,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 29,
+      "status": "completed",
+      "started_at": "2026-08-23T19:08:19.242916+08:00",
+      "completed_at": "2026-08-23T19:08:26.487117+08:00",
+      "duration_seconds": 7.244,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6383,
+      "output_tokens": 648,
+      "total_tokens": 7031,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 6383,
+        "output_tokens": 648,
+        "total_tokens": 7031,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 30,
+      "status": "completed",
+      "started_at": "2026-08-23T19:08:19.242933+08:00",
+      "completed_at": "2026-08-23T19:08:22.853008+08:00",
+      "duration_seconds": 3.61,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2264,
+      "output_tokens": 268,
+      "total_tokens": 2532,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2264,
+        "output_tokens": 268,
+        "total_tokens": 2532,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 31,
+      "status": "completed",
+      "started_at": "2026-08-23T19:08:19.242952+08:00",
+      "completed_at": "2026-08-23T19:08:30.083251+08:00",
+      "duration_seconds": 10.84,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7968,
+      "output_tokens": 915,
+      "total_tokens": 8883,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 7968,
+        "output_tokens": 915,
+        "total_tokens": 8883,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 32,
+      "status": "completed",
+      "started_at": "2026-08-23T19:08:19.242967+08:00",
+      "completed_at": "2026-08-23T19:08:26.021749+08:00",
+      "duration_seconds": 6.779,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5105,
+      "output_tokens": 604,
+      "total_tokens": 5709,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5105,
+        "output_tokens": 604,
+        "total_tokens": 5709,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 33,
+      "status": "completed",
+      "started_at": "2026-08-23T19:08:19.242981+08:00",
+      "completed_at": "2026-08-23T19:08:23.802689+08:00",
+      "duration_seconds": 4.56,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7607,
+      "output_tokens": 377,
+      "total_tokens": 7984,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 7607,
+        "output_tokens": 377,
+        "total_tokens": 7984,
+        "input_token_details": {
+          "cache_read": 512
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 34,
+      "status": "completed",
+      "started_at": "2026-08-23T19:08:19.242994+08:00",
+      "completed_at": "2026-08-23T19:08:26.423569+08:00",
+      "duration_seconds": 7.181,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 19479,
+      "output_tokens": 653,
+      "total_tokens": 20132,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 19479,
+        "output_tokens": 653,
+        "total_tokens": 20132,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 35,
+      "status": "completed",
+      "started_at": "2026-08-23T19:08:19.243008+08:00",
+      "completed_at": "2026-08-23T19:08:27.062815+08:00",
+      "duration_seconds": 7.82,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4168,
+      "output_tokens": 741,
+      "total_tokens": 4909,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4168,
+        "output_tokens": 741,
+        "total_tokens": 4909,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 36,
+      "status": "completed",
+      "started_at": "2026-08-23T19:08:19.243021+08:00",
+      "completed_at": "2026-08-23T19:08:24.970935+08:00",
+      "duration_seconds": 5.728,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 9042,
+      "output_tokens": 479,
+      "total_tokens": 9521,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 9042,
+        "output_tokens": 479,
+        "total_tokens": 9521,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 37,
+      "status": "completed",
+      "started_at": "2026-08-23T19:08:19.243034+08:00",
+      "completed_at": "2026-08-23T19:08:26.441484+08:00",
+      "duration_seconds": 7.198,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8718,
+      "output_tokens": 673,
+      "total_tokens": 9391,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 8718,
+        "output_tokens": 673,
+        "total_tokens": 9391,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 38,
+      "status": "completed",
+      "started_at": "2026-08-23T19:08:19.243047+08:00",
+      "completed_at": "2026-08-23T19:08:25.841221+08:00",
+      "duration_seconds": 6.598,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6754,
+      "output_tokens": 633,
+      "total_tokens": 7387,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 6754,
+        "output_tokens": 633,
+        "total_tokens": 7387,
+        "input_token_details": {
+          "cache_read": 512
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 39,
+      "status": "completed",
+      "started_at": "2026-08-23T19:08:19.243061+08:00",
+      "completed_at": "2026-08-23T19:08:27.600297+08:00",
+      "duration_seconds": 8.357,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 20418,
+      "output_tokens": 729,
+      "total_tokens": 21147,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 20418,
+        "output_tokens": 729,
+        "total_tokens": 21147,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 40,
+      "status": "completed",
+      "started_at": "2026-08-23T19:08:19.243074+08:00",
+      "completed_at": "2026-08-23T19:08:26.165324+08:00",
+      "duration_seconds": 6.922,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7694,
+      "output_tokens": 633,
+      "total_tokens": 8327,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 7694,
+        "output_tokens": 633,
+        "total_tokens": 8327,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 41,
+      "status": "completed",
+      "started_at": "2026-08-23T19:08:19.243087+08:00",
+      "completed_at": "2026-08-23T19:08:24.153850+08:00",
+      "duration_seconds": 4.911,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4075,
+      "output_tokens": 406,
+      "total_tokens": 4481,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4075,
+        "output_tokens": 406,
+        "total_tokens": 4481,
+        "input_token_details": {
+          "cache_read": 512
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 42,
+      "status": "completed",
+      "started_at": "2026-08-23T19:08:19.243100+08:00",
+      "completed_at": "2026-08-23T19:08:27.702862+08:00",
+      "duration_seconds": 8.46,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7705,
+      "output_tokens": 769,
+      "total_tokens": 8474,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 7705,
+        "output_tokens": 769,
+        "total_tokens": 8474,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 43,
+      "status": "completed",
+      "started_at": "2026-08-23T19:08:30.093463+08:00",
+      "completed_at": "2026-08-23T19:08:33.429738+08:00",
+      "duration_seconds": 3.336,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 21226,
+      "output_tokens": 169,
+      "total_tokens": 21395,
+      "message_count": 8,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 21226,
+        "output_tokens": 169,
+        "total_tokens": 21395,
+        "input_token_details": {
+          "cache_read": 8192
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 44,
+      "status": "completed",
+      "started_at": "2026-08-23T19:08:33.440368+08:00",
+      "completed_at": "2026-08-23T19:08:36.831650+08:00",
+      "duration_seconds": 3.391,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 21447,
+      "output_tokens": 157,
+      "total_tokens": 21604,
+      "message_count": 10,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 21447,
+        "output_tokens": 157,
+        "total_tokens": 21604,
+        "input_token_details": {
+          "cache_read": 20992
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 50,
+      "status": "completed",
+      "started_at": "2026-08-23T19:08:40.073433+08:00",
+      "completed_at": "2026-08-23T19:08:45.986907+08:00",
+      "duration_seconds": 5.913,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5971,
+      "output_tokens": 538,
+      "total_tokens": 6509,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5971,
+        "output_tokens": 538,
+        "total_tokens": 6509,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 51,
+      "status": "completed",
+      "started_at": "2026-08-23T19:08:40.073528+08:00",
+      "completed_at": "2026-08-23T19:08:45.513888+08:00",
+      "duration_seconds": 5.44,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2966,
+      "output_tokens": 451,
+      "total_tokens": 3417,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2966,
+        "output_tokens": 451,
+        "total_tokens": 3417,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 52,
+      "status": "completed",
+      "started_at": "2026-08-23T19:08:40.073609+08:00",
+      "completed_at": "2026-08-23T19:08:46.094760+08:00",
+      "duration_seconds": 6.021,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4272,
+      "output_tokens": 526,
+      "total_tokens": 4798,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4272,
+        "output_tokens": 526,
+        "total_tokens": 4798,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 53,
+      "status": "completed",
+      "started_at": "2026-08-23T19:08:40.073652+08:00",
+      "completed_at": "2026-08-23T19:08:48.692622+08:00",
+      "duration_seconds": 8.619,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7840,
+      "output_tokens": 710,
+      "total_tokens": 8550,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 7840,
+        "output_tokens": 710,
+        "total_tokens": 8550,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 54,
+      "status": "completed",
+      "started_at": "2026-08-23T19:08:40.073685+08:00",
+      "completed_at": "2026-08-23T19:08:45.996920+08:00",
+      "duration_seconds": 5.923,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3317,
+      "output_tokens": 508,
+      "total_tokens": 3825,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3317,
+        "output_tokens": 508,
+        "total_tokens": 3825,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 55,
+      "status": "completed",
+      "started_at": "2026-08-23T19:08:40.073714+08:00",
+      "completed_at": "2026-08-23T19:08:45.363410+08:00",
+      "duration_seconds": 5.29,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7649,
+      "output_tokens": 410,
+      "total_tokens": 8059,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 7649,
+        "output_tokens": 410,
+        "total_tokens": 8059,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 56,
+      "status": "completed",
+      "started_at": "2026-08-23T19:08:40.073742+08:00",
+      "completed_at": "2026-08-23T19:08:48.692324+08:00",
+      "duration_seconds": 8.619,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6375,
+      "output_tokens": 864,
+      "total_tokens": 7239,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 6375,
+        "output_tokens": 864,
+        "total_tokens": 7239,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 57,
+      "status": "completed",
+      "started_at": "2026-08-23T19:08:40.073769+08:00",
+      "completed_at": "2026-08-23T19:08:46.776347+08:00",
+      "duration_seconds": 6.703,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5636,
+      "output_tokens": 631,
+      "total_tokens": 6267,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5636,
+        "output_tokens": 631,
+        "total_tokens": 6267,
+        "input_token_details": {
+          "cache_read": 768
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 58,
+      "status": "completed",
+      "started_at": "2026-08-23T19:08:40.073796+08:00",
+      "completed_at": "2026-08-23T19:08:46.678686+08:00",
+      "duration_seconds": 6.605,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6196,
+      "output_tokens": 441,
+      "total_tokens": 6637,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 6196,
+        "output_tokens": 441,
+        "total_tokens": 6637,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 59,
+      "status": "completed",
+      "started_at": "2026-08-23T19:08:40.073822+08:00",
+      "completed_at": "2026-08-23T19:08:46.250202+08:00",
+      "duration_seconds": 6.176,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4646,
+      "output_tokens": 507,
+      "total_tokens": 5153,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4646,
+        "output_tokens": 507,
+        "total_tokens": 5153,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 60,
+      "status": "completed",
+      "started_at": "2026-08-23T19:08:40.073849+08:00",
+      "completed_at": "2026-08-23T19:08:44.911857+08:00",
+      "duration_seconds": 4.838,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2182,
+      "output_tokens": 366,
+      "total_tokens": 2548,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2182,
+        "output_tokens": 366,
+        "total_tokens": 2548,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 61,
+      "status": "completed",
+      "started_at": "2026-08-23T19:08:48.700982+08:00",
+      "completed_at": "2026-08-23T19:11:16.915776+08:00",
+      "duration_seconds": 148.214,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 29522,
+      "output_tokens": 18884,
+      "total_tokens": 48406,
+      "message_count": 13,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 29522,
+        "output_tokens": 18884,
+        "total_tokens": 48406,
+        "input_token_details": {
+          "cache_read": 512
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "end_turn"
+    },
+    {
+      "sequence": 62,
+      "status": "completed",
+      "started_at": "2026-08-23T19:11:16.928881+08:00",
+      "completed_at": "2026-08-23T19:11:53.266414+08:00",
+      "duration_seconds": 36.337,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 19456,
+      "output_tokens": 4227,
+      "total_tokens": 23683,
+      "message_count": 6,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 19456,
+        "output_tokens": 4227,
+        "total_tokens": 23683,
+        "input_token_details": {
+          "cache_read": 1536
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 63,
+      "status": "completed",
+      "started_at": "2026-08-23T19:11:53.281945+08:00",
+      "completed_at": "2026-08-23T19:12:00.465754+08:00",
+      "duration_seconds": 7.184,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 20026,
+      "output_tokens": 607,
+      "total_tokens": 20633,
+      "message_count": 8,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 20026,
+        "output_tokens": 607,
+        "total_tokens": 20633,
+        "input_token_details": {
+          "cache_read": 19456
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 64,
+      "status": "completed",
+      "started_at": "2026-08-23T19:12:00.472358+08:00",
+      "completed_at": "2026-08-23T19:13:38.236332+08:00",
+      "duration_seconds": 97.764,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 19078,
+      "output_tokens": 8655,
+      "total_tokens": 27733,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 19078,
+        "output_tokens": 8655,
+        "total_tokens": 27733,
+        "input_token_details": {},
+        "output_token_details": {}
+      },
+      "finish_reason": "end_turn"
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "status": "completed",
+      "query": "top gaming monitors 2026 high refresh rate 360Hz 480Hz 500Hz",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 3.174,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Best high refresh rate gaming monitor in 2026: These are the speedy panels I'd snap up | PC Gamer",
+          "url": "https://www.pcgamer.com/best-high-refresh-rate-monitor-for-gaming",
+          "score": 0.89302075,
+          "raw_content_available": true,
+          "raw_content_length": 55671,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Best Gaming Monitors 2026: Budget, Curved, G-Sync and More",
+          "url": "https://www.tomshardware.com/reviews/best-gaming-monitors,4533.html",
+          "score": 0.8810534,
+          "raw_content_available": true,
+          "raw_content_length": 59995,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "The Best Recommended Gaming Monitors 2026 - TFTCentral",
+          "url": "https://tftcentral.co.uk/recommendations/the-best-recommended-gaming-monitors-2026",
+          "score": 0.8619225,
+          "raw_content_available": true,
+          "raw_content_length": 28972,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Best OLED Gaming Monitors of 2026 (So Far)",
+          "url": "https://www.youtube.com/watch?v=mFdNwE0xhCU",
+          "score": 0.8452414,
+          "raw_content_available": true,
+          "raw_content_length": 28124,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "The 4 Best Gaming Monitors of 2026 | Reviews by Wirecutter",
+          "url": "https://www.nytimes.com/wirecutter/reviews/best-gaming-monitor",
+          "score": 0.8449346,
+          "raw_content_available": true,
+          "raw_content_length": 56332,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 5,
+      "timestamp": "2026-08-23T19:07:59.285643+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "best gaming monitors 2026 August latest models",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 3.359,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "New Monitors In 2026: What To Expect [Professional, Gaming]",
+          "url": "https://www.displayninja.com/new-monitors",
+          "score": 0.90771407,
+          "raw_content_available": true,
+          "raw_content_length": 26731,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "The Best Recommended Gaming Monitors 2026 - TFTCentral",
+          "url": "https://tftcentral.co.uk/recommendations/the-best-recommended-gaming-monitors-2026",
+          "score": 0.90633047,
+          "raw_content_available": true,
+          "raw_content_length": 28972,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "The 7 Best Gaming Monitors of 2026",
+          "url": "https://www.rtings.com/monitor/reviews/best/by-usage/gaming",
+          "score": 0.8877607,
+          "raw_content_available": true,
+          "raw_content_length": 2972,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Best Gaming Monitors 2026: Budget, Curved, G-Sync and More",
+          "url": "https://www.tomshardware.com/reviews/best-gaming-monitors,4533.html",
+          "score": 0.85967577,
+          "raw_content_available": true,
+          "raw_content_length": 59995,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "The 4 Best Gaming Monitors of 2026 | Reviews by Wirecutter",
+          "url": "https://www.nytimes.com/wirecutter/reviews/best-gaming-monitor",
+          "score": 0.8588255,
+          "raw_content_available": true,
+          "raw_content_length": 56332,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 6,
+      "timestamp": "2026-08-23T19:07:59.457260+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "best gaming monitors 2026 mid-range high-end price comparison",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 3.357,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "The Best Gaming Monitors - Early 2026 | TechSpot",
+          "url": "https://www.techspot.com/bestof/gaming-monitors-25-26",
+          "score": 0.9154545,
+          "raw_content_available": true,
+          "raw_content_length": 34826,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Best 1440p Gaming Monitor 2026: Budget, 240Hz & OLED 1440p Gaming Monitors",
+          "url": "https://www.youtube.com/watch?v=cAoZOyOZ07Q",
+          "score": 0.82728493,
+          "raw_content_available": true,
+          "raw_content_length": 32294,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "The 7 Best Gaming Monitors of 2026",
+          "url": "https://www.rtings.com/monitor/reviews/best/by-usage/gaming",
+          "score": 0.8080827,
+          "raw_content_available": true,
+          "raw_content_length": 2972,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "The Best Recommended Gaming Monitors 2026 - TFTCentral",
+          "url": "https://tftcentral.co.uk/recommendations/the-best-recommended-gaming-monitors-2026",
+          "score": 0.8021998,
+          "raw_content_available": true,
+          "raw_content_length": 28972,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Best Gaming Monitors 2026: Budget, Curved, G-Sync and More",
+          "url": "https://www.tomshardware.com/reviews/best-gaming-monitors,4533.html",
+          "score": 0.79732054,
+          "raw_content_available": true,
+          "raw_content_length": 59995,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 7,
+      "timestamp": "2026-08-23T19:07:59.475090+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Samsung Odyssey G60SF 500Hz 1440p OLED price 2026",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.178,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Samsung 27\" Odyssey OLED G6 (G60SF) QHD 500Hz ...",
+          "url": "https://www.bestbuy.com/product/samsung-27-odyssey-oled-g6-g60sf-qhd-500hz-0-03ms-gsync-compatible-and-freesync-prem-pro-gaming-monitor-with-hdr-500-silver/JJGRF33H72",
+          "score": 0.68874115,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "27-Inch 500Hz Odyssey OLED G60SF Gaming Monitor | Samsung US",
+          "url": "https://www.samsung.com/us/monitors/gaming/27-inch-odyssey-oled-g6-g60sf-qhd-500hz-gaming-monitor-sku-ls27fg602snxza",
+          "score": 0.64047897,
+          "raw_content_available": true,
+          "raw_content_length": 3226,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "It's Almost CHEATING! - Samsung OLED G6 G60SF Review!",
+          "url": "https://www.youtube.com/watch?v=3_svlkbJcWw",
+          "score": 0.5631623,
+          "raw_content_available": true,
+          "raw_content_length": 28649,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Samsung Odyssey G60SF Review | The BEST Gaming monitor of 2025?!",
+          "url": "https://www.youtube.com/watch?v=sF6dbIsQXGg",
+          "score": 0.54913354,
+          "raw_content_available": true,
+          "raw_content_length": 15679,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Samsung 27” Odyssey OLED G6 (G60SF) QHD QD ...",
+          "url": "https://www.amazon.com/Samsung-Odyssey-QD-OLED-Gaming-Monitor/dp/B0FJYRV9TK",
+          "score": 0.45348024,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        }
+      ],
+      "sequence": 19,
+      "timestamp": "2026-08-23T19:08:17.660712+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "MSI MPG 321URX QD-OLED 4K 240Hz price 2026",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.613,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "msi MPG 321URX QD-OLED, 32\" 4K UHD Quantum Dot OLED Gaming Monitor, 3840 x 2160, 0.03ms, 240Hz, True Black HDR 400, 90W USB Type C, HDMI, DP Port",
+          "url": "https://camelcamelcamel.com/product/B0CTSC3VS4",
+          "score": 0.94726914,
+          "raw_content_available": true,
+          "raw_content_length": 17931,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Amazon.com: msi MPG 321URX QD-OLED, 32\" 4K UHD Quantum Dot OLED Gaming Monitor, 3840 x 2160, 0.03ms, 240Hz, True Black HDR 400, 90W USB Type C, HDMI, DP Port : Electronics",
+          "url": "https://www.amazon.com/MSI-MPG-321URX-QD-OLED-Quantum/dp/B0CTSC3VS4",
+          "score": 0.9126935,
+          "raw_content_available": true,
+          "raw_content_length": 195188,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "MSI MPG 321URX QD-OLED Review : The Ultimate 4K 32-inch 240Hz Gaming Monitor ?",
+          "url": "https://www.youtube.com/watch?v=z-U8MdpTuDE&vl=en",
+          "score": 0.73023266,
+          "raw_content_available": true,
+          "raw_content_length": 12742,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "MPG 321URX QD-OLED",
+          "url": "https://www.msi.com/Monitor/MPG-321URX-QD-OLED",
+          "score": 0.66464967,
+          "raw_content_available": true,
+          "raw_content_length": 27901,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "MSI MPG 321URX QD-OLED 32\" UHD 240Hz Flat Gaming Monitor - MSI-US Official Store",
+          "url": "https://us-store.msi.com/MPG-321-URX-QD-OLED",
+          "score": 0.5971152,
+          "raw_content_available": true,
+          "raw_content_length": 25282,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 20,
+      "timestamp": "2026-08-23T19:08:18.101391+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "ASUS ROG Swift PG27AQDP 480Hz OLED price buy August 2026",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.944,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Buy ROG Swift OLED PG27AQDP | 27 to 31.5 Inches | Monitors",
+          "url": "https://eshop.asus.com/us/90lm0a20-b01ab2-rog-swift-oled-pg27aqdp.html",
+          "score": 0.73322314,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "ROG Swift OLED PG27AQDP | Monitors | ROG USA",
+          "url": "https://rog.asus.com/us/monitors/27-to-31-5-inches/rog-swift-oled-pg27aqdp",
+          "score": 0.7293082,
+          "raw_content_available": true,
+          "raw_content_length": 52119,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "ASUS ROG SWIFT OLED PG27AQDP Review : The Ultimate 27-inch 480Hz Gaming Monitor ?",
+          "url": "https://www.youtube.com/watch?v=wC88difpif0",
+          "score": 0.6914979,
+          "raw_content_available": true,
+          "raw_content_length": 14346,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "ASUS ROG PG27AQDP 27 Inch 1440p 480Hz OLED ...",
+          "url": "https://www.amazon.com/ASUS-Swift-Gaming-Monitor-PG27AQDP/dp/B0D7NXSQ44",
+          "score": 0.55709904,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "ASUS ROG Swift OLED PG27AQDP Review - RTINGS.com",
+          "url": "https://www.rtings.com/monitor/reviews/asus/rog-swift-oled-pg27aqdp",
+          "score": 0.5100334,
+          "raw_content_available": true,
+          "raw_content_length": 3079,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 21,
+      "timestamp": "2026-08-23T19:08:18.408285+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Alienware AW2524HF 500Hz pricing Amazon Best Buy 2026",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.935,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Premium Alienware 500Hz gaming monitor spotted at 30- ...",
+          "url": "https://www.pcguide.com/deals/premium-alienware-500hz-gaming-monitor-spotted-at-30-day-low-price-with-amazon-deal",
+          "score": 0.8832463,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "Alienware AW2524HF Gaming Monitor - 24.5-inch ...",
+          "url": "https://www.amazon.ae/Alienware-AW2524HF-Gaming-Monitor-Adjustability/dp/B0CK3TG7P6",
+          "score": 0.741169,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "Amazon.com: Dell 24 Monitor AW2524HF, FHD Fast IPS, 0.5ms, AMD FreeSync Premium | 400 cd/m² Brightness, Anti-Glare, 99% sRGB, Height Adjust 4.3in, Pivot, Swivel, VESA Adaptive-Sync, USB 3.2 Hub : Electronics",
+          "url": "https://www.amazon.com/Alienware-AW2524HF-Gaming-Monitor-Adjustability/dp/B0CK3TG7P6",
+          "score": 0.7163977,
+          "raw_content_available": true,
+          "raw_content_length": 218027,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Alienware 500Hz Gaming Monitor (AW2524H) - Computer Monitors | Dell USA",
+          "url": "https://www.dell.com/en-us/shop/alienware-500hz-gaming-monitor-aw2524hf/apd/210-bjws/monitors-monitor-accessories",
+          "score": 0.6260562,
+          "raw_content_available": true,
+          "raw_content_length": 13183,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "My First 500Hz Gaming Monitor (Shocking Results!) Alienware AW2524HF Review",
+          "url": "https://www.youtube.com/watch?v=R3ldsOAQTmE",
+          "score": 0.5596998,
+          "raw_content_available": true,
+          "raw_content_length": 21338,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 22,
+      "timestamp": "2026-08-23T19:08:18.410848+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "LG UltraGear 45GX950A 5K2K price buy 2026",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 3.731,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "LG 45GX950A-B 45-inch Ultragear 5K2K WUHD (5120 x 2160) OLED Curved Gaming Monitor, Dual-Mode, 165Hz, 0.03ms, NVIDIA G-Sync, AMD FreeSync Premium Pro, HDR True Black 400, USB Type-C 90W, DP2.1",
+          "url": "https://camelcamelcamel.com/product/B0DYG9DKX8",
+          "score": 0.9345448,
+          "raw_content_available": true,
+          "raw_content_length": 16342,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Amazon.com: LG 45GX950A-B 45-inch Ultragear 5K2K WUHD (5120 x 2160) OLED Curved Gaming Monitor, Dual-Mode, 165Hz, 0.03ms, NVIDIA G-Sync, AMD FreeSync Premium Pro, HDR True Black 400, USB Type-C 90W, DP2.1 : Electronics",
+          "url": "https://www.amazon.com/LG-45GX950A-B-Ultragear-Dual-Mode-FreeSync/dp/B0DYG9DKX8",
+          "score": 0.78944516,
+          "raw_content_available": true,
+          "raw_content_length": 177562,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Best 5K2K OLED Monitors (2026): LG 39GX950B-B vs 45GX950A-B vs Alienware AW3926QW | ThePCEnthusiast",
+          "url": "https://thepcenthusiast.com/these-are-the-best-5k2k-oled-monitors",
+          "score": 0.78788257,
+          "raw_content_available": true,
+          "raw_content_length": 23056,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "The LG 45-inch 5K2K curved OLED gaming monitor is seeing its first Amazon sale price - Notebookcheck News",
+          "url": "https://www.notebookcheck.net/The-LG-45-inch-5K2K-curved-OLED-gaming-monitor-is-seeing-its-first-Amazon-sale-price.1019998.0.html",
+          "score": 0.6884899,
+          "raw_content_available": true,
+          "raw_content_length": 9579,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "LG UltraGear™ 45-inch OLED Dual-Mode 5K2K Gaming Monitor | 0.03ms (GtG), Rich Bass (10Wx2), DisplayHDR True Black 400, DP 2.1 & USB-C - 45GX950A-B | LG Canada",
+          "url": "https://www.lg.com/ca_en/monitors/gaming/45gx950a-b",
+          "score": 0.5135471,
+          "raw_content_available": true,
+          "raw_content_length": 22372,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 23,
+      "timestamp": "2026-08-23T19:08:19.224613+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "ViewSonic VG3281-8K 8K monitor price 2026",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 1.775,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "ViewSonic VG3281 31.5 inch 8K Monitor",
+          "url": "https://www.smartprix.com/monitors/viewsonic-vg3281-31-5-inch-8k-monitor-ppd16f4yei15",
+          "score": 0.8055255,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "ViewSonic VG3281 with 31.5\" IPS Panel and 8K Resolution Launched - TFTCentral",
+          "url": "https://tftcentral.co.uk/news/viewsonic-vg3281-with-31-5-ips-panel-and-8k-resolution-launched",
+          "score": 0.7467494,
+          "raw_content_available": true,
+          "raw_content_length": 4418,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "ViewSonic has introduced an 8K ULTRA HD IPS monitor ...",
+          "url": "https://gagadget.com/en/announce/305409-viewsonic-has-introduced-an-8k-ultra-hd-ips-monitor-with-stereo-speakers-and-hdmi-21-for-a-price-of-2400",
+          "score": 0.7001783,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "ViewSonic Corporation: Home and Office Monitors",
+          "url": "https://www.amazon.com/stores/ViewSonicCorporation/page/62563320-5F74-49C1-B322-974538E8CD6C",
+          "score": 0.44622982,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "31.5\" ViewSonic VG3281-8K - Specifications",
+          "url": "https://www.displayspecifications.com/en/model/df733c9b",
+          "score": 0.4430467,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        }
+      ],
+      "sequence": 45,
+      "timestamp": "2026-08-23T19:08:38.642788+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Dell Alienware AW2726DM 240Hz OLED price 2026",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.353,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "How is this OLED Monitor SO CHEAP!? [2026]",
+          "url": "https://www.youtube.com/watch?v=IqmLljpZ1Bc",
+          "score": 0.89302075,
+          "raw_content_available": true,
+          "raw_content_length": 8705,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Alienware AW2726DM launches at $350 with 1440p 240Hz QD-OLED panel, but only 200 nits : r/Monitors",
+          "url": "https://www.reddit.com/r/Monitors/comments/1sl8zv6/alienware_aw2726dm_launches_at_350_with_1440p",
+          "score": 0.8775715,
+          "raw_content_available": true,
+          "raw_content_length": 18472,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "I Tested a $350 QD-OLED Gaming Monitor - Dell Alienware AW2726DM Review",
+          "url": "https://www.youtube.com/watch?v=5YqMqrqGQtA",
+          "score": 0.8619225,
+          "raw_content_available": true,
+          "raw_content_length": 22180,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Alienware AW2726DM 27\" QD OLED QHD 240Hz 0.03ms ...",
+          "url": "https://www.bestbuy.com/product/alienware-aw2726dm-27-qd-oled-qhd-240hz-0-03ms-freesync-premium-pro-gaming-monitor-with-hdr-hdmi-displayport-black/J3K4L6WZQ6/sku/6670439",
+          "score": 0.8173562,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "Alienware 27 Inch 240hz Gaming Monitor - QD-OLED | Dell USA",
+          "url": "https://www.dell.com/en-us/shop/alienware-27-240hz-qd-oled-gaming-monitor-aw2726dm/apd/210-bvrc/monitors-monitor-accessories",
+          "score": 0.750937,
+          "raw_content_available": true,
+          "raw_content_length": 14515,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 46,
+      "timestamp": "2026-08-23T19:08:39.209251+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "BenQ Zowie XL2586X+ 600Hz monitor price 2026",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.412,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "BenQ ZOWIE XL2586X+ 24.1\" 600 Hz Esports Gaming ...",
+          "url": "https://www.bhphotovideo.com/c/product/1871886-REG/benq_xl2586x_esports_24_1_full_hd.html",
+          "score": 0.8775715,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "ZOWIE XL2586X+ 24.1\" TN LED 600Hz Gaming Monitor ...",
+          "url": "https://www.bestbuy.com/product/benq-zowie-xl2586x-24-1-tn-led-600hz-gaming-monitor-for-esports-black/J39QZT58QZ",
+          "score": 0.7728226,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "XL2586x+ pricing is ridiculous and no way near worth ...",
+          "url": "https://www.reddit.com/r/Zowie/comments/1taef6v/xl2586x_pricing_is_ridiculous_and_no_way_near",
+          "score": 0.769306,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "Amazon.com: BenQ Zowie XL2586X+ 24.1 DyAc 2 600Hz Fast TN Gaming Monitor for Esports | 600Hz, Fast TN Panel, DyAc 2 Technology, XL Setting to Share, Black eQualizer, Color Vibrance, S Switch, Shielding Hood : Electronics",
+          "url": "https://www.amazon.com/BenQ-XL2586X-Adjustment-Industrial-Grade-Shielding/dp/B0DK5TZMHV",
+          "score": 0.69845337,
+          "raw_content_available": true,
+          "raw_content_length": 15267,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "XL2586X+ 600Hz Fast-TN Gaming Monitor with DyAc 2 for Pro FPS Players | ZOWIE US",
+          "url": "https://zowie.benq.com/en-us/monitor/xl2586x-plus.html",
+          "score": 0.5749443,
+          "raw_content_available": true,
+          "raw_content_length": 12023,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 47,
+      "timestamp": "2026-08-23T19:08:39.274043+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Acer Predator X27U F5 500Hz OLED monitor price 2026",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.893,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "New Predator Monitors Push the Limits with Speedy 500 Hz Refresh Rate and 4K QD-OLED Panels",
+          "url": "https://news.acer.com/new-predator-monitors-push-the-limits-with-speedy-500-hz-refresh-rate-and-4k-qd-oled-panels",
+          "score": 0.83225065,
+          "raw_content_available": true,
+          "raw_content_length": 14953,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "The Acer Predator X27U F5 just hit a tempting price, ...",
+          "url": "https://www.facebook.com/neowin/posts/the-acer-predator-x27u-f5-just-hit-a-tempting-price-making-its-blistering-500hz-/1652073036919237",
+          "score": 0.7548612,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "Best gaming monitor deal: Get $300 off the Acer Predator ...",
+          "url": "https://mashable.com/tech/aug-20-acer-predator-qd-oled-x27u-f5-gaming-monitor-deal",
+          "score": 0.7171114,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "500Hz OLED gaming monitor deal offers one of the most ...",
+          "url": "https://www.pcguide.com/deals/500hz-oled-gaming-monitor-deal-offers-one-of-the-most-serious-competitive-displays-out-there-for-200-off-the-msrp",
+          "score": 0.58777803,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "Acer Predator 26.5in QHD 2560x1440 QD-OLED 500Hz ...",
+          "url": "https://www.amazon.com/Acer-Predator-DisplayHDR-X27U-F5bmiippruzx/dp/B0G539C1Q7",
+          "score": 0.50856906,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        }
+      ],
+      "sequence": 48,
+      "timestamp": "2026-08-23T19:08:39.731552+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Gigabyte MO27Q28GR WOLED 280Hz monitor price 2026",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 3.207,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Budget Glossy Tandem OLED - Gigabyte MO27Q28GR (CES 2026)",
+          "url": "https://www.youtube.com/watch?v=7b1QbArEKnw&vl=en",
+          "score": 0.94785136,
+          "raw_content_available": true,
+          "raw_content_length": 7205,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "[Monitor] Gigabyte MO27Q28GR 27\" Tandem W-OLED Gaming ... - Reddit",
+          "url": "https://www.reddit.com/r/buildapcsales/comments/1ttwlp0/monitor_gigabyte_mo27q28gr_27_tandem_woled_gaming",
+          "score": 0.9047265,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "Ultimate Value 1440p OLED Gets Better! - Gigabyte MO27Q28GR Review",
+          "url": "https://www.youtube.com/watch?v=JUdnOR1rlFI",
+          "score": 0.740494,
+          "raw_content_available": true,
+          "raw_content_length": 13670,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "GIGABYTE 27\" QHD 2K 1440P 280Hz with AMD FreeSync Premium Pro & G-SYNC Compatible 0.03ms HDR500 USB-C KVM OLED Gaming Computer Monitor with Height adjustable, Pivot, Swivel and Tilt stand MO27Q28G - Newegg.com",
+          "url": "https://www.newegg.com/gigabyte-mo27q28g-sa1-27-oled-280-hz-qhd/p/N82E16824012111",
+          "score": 0.5677694,
+          "raw_content_available": true,
+          "raw_content_length": 20518,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "MO27Q28GR OLED Gaming Monitor - GIGABYTE U.S.A.",
+          "url": "https://www.gigabyte.com/us/Monitor/MO27Q28GR",
+          "score": 0.45406118,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        }
+      ],
+      "sequence": 49,
+      "timestamp": "2026-08-23T19:08:40.055336+08:00"
+    }
+  ],
+  "summary_cache_hits": 0,
+  "summary_cache_hit_urls": [],
+  "visit_calls_detail": [
+    {
+      "url": "https://www.pcgamer.com/best-high-refresh-rate-monitor-for-gaming",
+      "status": "success",
+      "content_length": 55671,
+      "duration_seconds": 3.174,
+      "query": "top gaming monitors 2026 high refresh rate 360Hz 480Hz 500Hz"
+    },
+    {
+      "url": "https://www.tomshardware.com/reviews/best-gaming-monitors,4533.html",
+      "status": "success",
+      "content_length": 59995,
+      "duration_seconds": 3.174,
+      "query": "top gaming monitors 2026 high refresh rate 360Hz 480Hz 500Hz"
+    },
+    {
+      "url": "https://tftcentral.co.uk/recommendations/the-best-recommended-gaming-monitors-2026",
+      "status": "success",
+      "content_length": 28972,
+      "duration_seconds": 3.174,
+      "query": "top gaming monitors 2026 high refresh rate 360Hz 480Hz 500Hz"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=mFdNwE0xhCU",
+      "status": "success",
+      "content_length": 28124,
+      "duration_seconds": 3.174,
+      "query": "top gaming monitors 2026 high refresh rate 360Hz 480Hz 500Hz"
+    },
+    {
+      "url": "https://www.nytimes.com/wirecutter/reviews/best-gaming-monitor",
+      "status": "success",
+      "content_length": 56332,
+      "duration_seconds": 3.174,
+      "query": "top gaming monitors 2026 high refresh rate 360Hz 480Hz 500Hz"
+    },
+    {
+      "url": "https://www.displayninja.com/new-monitors",
+      "status": "success",
+      "content_length": 26731,
+      "duration_seconds": 3.359,
+      "query": "best gaming monitors 2026 August latest models"
+    },
+    {
+      "url": "https://tftcentral.co.uk/recommendations/the-best-recommended-gaming-monitors-2026",
+      "status": "success",
+      "content_length": 28972,
+      "duration_seconds": 3.359,
+      "query": "best gaming monitors 2026 August latest models"
+    },
+    {
+      "url": "https://www.rtings.com/monitor/reviews/best/by-usage/gaming",
+      "status": "success",
+      "content_length": 2972,
+      "duration_seconds": 3.359,
+      "query": "best gaming monitors 2026 August latest models"
+    },
+    {
+      "url": "https://www.tomshardware.com/reviews/best-gaming-monitors,4533.html",
+      "status": "success",
+      "content_length": 59995,
+      "duration_seconds": 3.359,
+      "query": "best gaming monitors 2026 August latest models"
+    },
+    {
+      "url": "https://www.nytimes.com/wirecutter/reviews/best-gaming-monitor",
+      "status": "success",
+      "content_length": 56332,
+      "duration_seconds": 3.359,
+      "query": "best gaming monitors 2026 August latest models"
+    },
+    {
+      "url": "https://www.techspot.com/bestof/gaming-monitors-25-26",
+      "status": "success",
+      "content_length": 34826,
+      "duration_seconds": 3.357,
+      "query": "best gaming monitors 2026 mid-range high-end price comparison"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=cAoZOyOZ07Q",
+      "status": "success",
+      "content_length": 32294,
+      "duration_seconds": 3.357,
+      "query": "best gaming monitors 2026 mid-range high-end price comparison"
+    },
+    {
+      "url": "https://www.rtings.com/monitor/reviews/best/by-usage/gaming",
+      "status": "success",
+      "content_length": 2972,
+      "duration_seconds": 3.357,
+      "query": "best gaming monitors 2026 mid-range high-end price comparison"
+    },
+    {
+      "url": "https://tftcentral.co.uk/recommendations/the-best-recommended-gaming-monitors-2026",
+      "status": "success",
+      "content_length": 28972,
+      "duration_seconds": 3.357,
+      "query": "best gaming monitors 2026 mid-range high-end price comparison"
+    },
+    {
+      "url": "https://www.tomshardware.com/reviews/best-gaming-monitors,4533.html",
+      "status": "success",
+      "content_length": 59995,
+      "duration_seconds": 3.357,
+      "query": "best gaming monitors 2026 mid-range high-end price comparison"
+    },
+    {
+      "url": "https://www.bestbuy.com/product/samsung-27-odyssey-oled-g6-g60sf-qhd-500hz-0-03ms-gsync-compatible-and-freesync-prem-pro-gaming-monitor-with-hdr-500-silver/JJGRF33H72",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.178,
+      "query": "Samsung Odyssey G60SF 500Hz 1440p OLED price 2026"
+    },
+    {
+      "url": "https://www.samsung.com/us/monitors/gaming/27-inch-odyssey-oled-g6-g60sf-qhd-500hz-gaming-monitor-sku-ls27fg602snxza",
+      "status": "success",
+      "content_length": 3226,
+      "duration_seconds": 2.178,
+      "query": "Samsung Odyssey G60SF 500Hz 1440p OLED price 2026"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=3_svlkbJcWw",
+      "status": "success",
+      "content_length": 28649,
+      "duration_seconds": 2.178,
+      "query": "Samsung Odyssey G60SF 500Hz 1440p OLED price 2026"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=sF6dbIsQXGg",
+      "status": "success",
+      "content_length": 15679,
+      "duration_seconds": 2.178,
+      "query": "Samsung Odyssey G60SF 500Hz 1440p OLED price 2026"
+    },
+    {
+      "url": "https://www.amazon.com/Samsung-Odyssey-QD-OLED-Gaming-Monitor/dp/B0FJYRV9TK",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.178,
+      "query": "Samsung Odyssey G60SF 500Hz 1440p OLED price 2026"
+    },
+    {
+      "url": "https://camelcamelcamel.com/product/B0CTSC3VS4",
+      "status": "success",
+      "content_length": 17931,
+      "duration_seconds": 2.613,
+      "query": "MSI MPG 321URX QD-OLED 4K 240Hz price 2026"
+    },
+    {
+      "url": "https://www.amazon.com/MSI-MPG-321URX-QD-OLED-Quantum/dp/B0CTSC3VS4",
+      "status": "success",
+      "content_length": 195188,
+      "duration_seconds": 2.613,
+      "query": "MSI MPG 321URX QD-OLED 4K 240Hz price 2026"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=z-U8MdpTuDE&vl=en",
+      "status": "success",
+      "content_length": 12742,
+      "duration_seconds": 2.613,
+      "query": "MSI MPG 321URX QD-OLED 4K 240Hz price 2026"
+    },
+    {
+      "url": "https://www.msi.com/Monitor/MPG-321URX-QD-OLED",
+      "status": "success",
+      "content_length": 27901,
+      "duration_seconds": 2.613,
+      "query": "MSI MPG 321URX QD-OLED 4K 240Hz price 2026"
+    },
+    {
+      "url": "https://us-store.msi.com/MPG-321-URX-QD-OLED",
+      "status": "success",
+      "content_length": 25282,
+      "duration_seconds": 2.613,
+      "query": "MSI MPG 321URX QD-OLED 4K 240Hz price 2026"
+    },
+    {
+      "url": "https://eshop.asus.com/us/90lm0a20-b01ab2-rog-swift-oled-pg27aqdp.html",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.944,
+      "query": "ASUS ROG Swift PG27AQDP 480Hz OLED price buy August 2026"
+    },
+    {
+      "url": "https://rog.asus.com/us/monitors/27-to-31-5-inches/rog-swift-oled-pg27aqdp",
+      "status": "success",
+      "content_length": 52119,
+      "duration_seconds": 2.944,
+      "query": "ASUS ROG Swift PG27AQDP 480Hz OLED price buy August 2026"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=wC88difpif0",
+      "status": "success",
+      "content_length": 14346,
+      "duration_seconds": 2.944,
+      "query": "ASUS ROG Swift PG27AQDP 480Hz OLED price buy August 2026"
+    },
+    {
+      "url": "https://www.amazon.com/ASUS-Swift-Gaming-Monitor-PG27AQDP/dp/B0D7NXSQ44",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.944,
+      "query": "ASUS ROG Swift PG27AQDP 480Hz OLED price buy August 2026"
+    },
+    {
+      "url": "https://www.rtings.com/monitor/reviews/asus/rog-swift-oled-pg27aqdp",
+      "status": "success",
+      "content_length": 3079,
+      "duration_seconds": 2.944,
+      "query": "ASUS ROG Swift PG27AQDP 480Hz OLED price buy August 2026"
+    },
+    {
+      "url": "https://www.pcguide.com/deals/premium-alienware-500hz-gaming-monitor-spotted-at-30-day-low-price-with-amazon-deal",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.935,
+      "query": "Alienware AW2524HF 500Hz pricing Amazon Best Buy 2026"
+    },
+    {
+      "url": "https://www.amazon.ae/Alienware-AW2524HF-Gaming-Monitor-Adjustability/dp/B0CK3TG7P6",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.935,
+      "query": "Alienware AW2524HF 500Hz pricing Amazon Best Buy 2026"
+    },
+    {
+      "url": "https://www.amazon.com/Alienware-AW2524HF-Gaming-Monitor-Adjustability/dp/B0CK3TG7P6",
+      "status": "success",
+      "content_length": 218027,
+      "duration_seconds": 2.935,
+      "query": "Alienware AW2524HF 500Hz pricing Amazon Best Buy 2026"
+    },
+    {
+      "url": "https://www.dell.com/en-us/shop/alienware-500hz-gaming-monitor-aw2524hf/apd/210-bjws/monitors-monitor-accessories",
+      "status": "success",
+      "content_length": 13183,
+      "duration_seconds": 2.935,
+      "query": "Alienware AW2524HF 500Hz pricing Amazon Best Buy 2026"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=R3ldsOAQTmE",
+      "status": "success",
+      "content_length": 21338,
+      "duration_seconds": 2.935,
+      "query": "Alienware AW2524HF 500Hz pricing Amazon Best Buy 2026"
+    },
+    {
+      "url": "https://camelcamelcamel.com/product/B0DYG9DKX8",
+      "status": "success",
+      "content_length": 16342,
+      "duration_seconds": 3.731,
+      "query": "LG UltraGear 45GX950A 5K2K price buy 2026"
+    },
+    {
+      "url": "https://www.amazon.com/LG-45GX950A-B-Ultragear-Dual-Mode-FreeSync/dp/B0DYG9DKX8",
+      "status": "success",
+      "content_length": 177562,
+      "duration_seconds": 3.731,
+      "query": "LG UltraGear 45GX950A 5K2K price buy 2026"
+    },
+    {
+      "url": "https://thepcenthusiast.com/these-are-the-best-5k2k-oled-monitors",
+      "status": "success",
+      "content_length": 23056,
+      "duration_seconds": 3.731,
+      "query": "LG UltraGear 45GX950A 5K2K price buy 2026"
+    },
+    {
+      "url": "https://www.notebookcheck.net/The-LG-45-inch-5K2K-curved-OLED-gaming-monitor-is-seeing-its-first-Amazon-sale-price.1019998.0.html",
+      "status": "success",
+      "content_length": 9579,
+      "duration_seconds": 3.731,
+      "query": "LG UltraGear 45GX950A 5K2K price buy 2026"
+    },
+    {
+      "url": "https://www.lg.com/ca_en/monitors/gaming/45gx950a-b",
+      "status": "success",
+      "content_length": 22372,
+      "duration_seconds": 3.731,
+      "query": "LG UltraGear 45GX950A 5K2K price buy 2026"
+    },
+    {
+      "url": "https://www.smartprix.com/monitors/viewsonic-vg3281-31-5-inch-8k-monitor-ppd16f4yei15",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 1.775,
+      "query": "ViewSonic VG3281-8K 8K monitor price 2026"
+    },
+    {
+      "url": "https://tftcentral.co.uk/news/viewsonic-vg3281-with-31-5-ips-panel-and-8k-resolution-launched",
+      "status": "success",
+      "content_length": 4418,
+      "duration_seconds": 1.775,
+      "query": "ViewSonic VG3281-8K 8K monitor price 2026"
+    },
+    {
+      "url": "https://gagadget.com/en/announce/305409-viewsonic-has-introduced-an-8k-ultra-hd-ips-monitor-with-stereo-speakers-and-hdmi-21-for-a-price-of-2400",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 1.775,
+      "query": "ViewSonic VG3281-8K 8K monitor price 2026"
+    },
+    {
+      "url": "https://www.amazon.com/stores/ViewSonicCorporation/page/62563320-5F74-49C1-B322-974538E8CD6C",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 1.775,
+      "query": "ViewSonic VG3281-8K 8K monitor price 2026"
+    },
+    {
+      "url": "https://www.displayspecifications.com/en/model/df733c9b",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 1.775,
+      "query": "ViewSonic VG3281-8K 8K monitor price 2026"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=IqmLljpZ1Bc",
+      "status": "success",
+      "content_length": 8705,
+      "duration_seconds": 2.353,
+      "query": "Dell Alienware AW2726DM 240Hz OLED price 2026"
+    },
+    {
+      "url": "https://www.reddit.com/r/Monitors/comments/1sl8zv6/alienware_aw2726dm_launches_at_350_with_1440p",
+      "status": "success",
+      "content_length": 18472,
+      "duration_seconds": 2.353,
+      "query": "Dell Alienware AW2726DM 240Hz OLED price 2026"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=5YqMqrqGQtA",
+      "status": "success",
+      "content_length": 22180,
+      "duration_seconds": 2.353,
+      "query": "Dell Alienware AW2726DM 240Hz OLED price 2026"
+    },
+    {
+      "url": "https://www.bestbuy.com/product/alienware-aw2726dm-27-qd-oled-qhd-240hz-0-03ms-freesync-premium-pro-gaming-monitor-with-hdr-hdmi-displayport-black/J3K4L6WZQ6/sku/6670439",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.353,
+      "query": "Dell Alienware AW2726DM 240Hz OLED price 2026"
+    },
+    {
+      "url": "https://www.dell.com/en-us/shop/alienware-27-240hz-qd-oled-gaming-monitor-aw2726dm/apd/210-bvrc/monitors-monitor-accessories",
+      "status": "success",
+      "content_length": 14515,
+      "duration_seconds": 2.353,
+      "query": "Dell Alienware AW2726DM 240Hz OLED price 2026"
+    },
+    {
+      "url": "https://www.bhphotovideo.com/c/product/1871886-REG/benq_xl2586x_esports_24_1_full_hd.html",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.412,
+      "query": "BenQ Zowie XL2586X+ 600Hz monitor price 2026"
+    },
+    {
+      "url": "https://www.bestbuy.com/product/benq-zowie-xl2586x-24-1-tn-led-600hz-gaming-monitor-for-esports-black/J39QZT58QZ",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.412,
+      "query": "BenQ Zowie XL2586X+ 600Hz monitor price 2026"
+    },
+    {
+      "url": "https://www.reddit.com/r/Zowie/comments/1taef6v/xl2586x_pricing_is_ridiculous_and_no_way_near",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.412,
+      "query": "BenQ Zowie XL2586X+ 600Hz monitor price 2026"
+    },
+    {
+      "url": "https://www.amazon.com/BenQ-XL2586X-Adjustment-Industrial-Grade-Shielding/dp/B0DK5TZMHV",
+      "status": "success",
+      "content_length": 15267,
+      "duration_seconds": 2.412,
+      "query": "BenQ Zowie XL2586X+ 600Hz monitor price 2026"
+    },
+    {
+      "url": "https://zowie.benq.com/en-us/monitor/xl2586x-plus.html",
+      "status": "success",
+      "content_length": 12023,
+      "duration_seconds": 2.412,
+      "query": "BenQ Zowie XL2586X+ 600Hz monitor price 2026"
+    },
+    {
+      "url": "https://news.acer.com/new-predator-monitors-push-the-limits-with-speedy-500-hz-refresh-rate-and-4k-qd-oled-panels",
+      "status": "success",
+      "content_length": 14953,
+      "duration_seconds": 2.893,
+      "query": "Acer Predator X27U F5 500Hz OLED monitor price 2026"
+    },
+    {
+      "url": "https://www.facebook.com/neowin/posts/the-acer-predator-x27u-f5-just-hit-a-tempting-price-making-its-blistering-500hz-/1652073036919237",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.893,
+      "query": "Acer Predator X27U F5 500Hz OLED monitor price 2026"
+    },
+    {
+      "url": "https://mashable.com/tech/aug-20-acer-predator-qd-oled-x27u-f5-gaming-monitor-deal",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.893,
+      "query": "Acer Predator X27U F5 500Hz OLED monitor price 2026"
+    },
+    {
+      "url": "https://www.pcguide.com/deals/500hz-oled-gaming-monitor-deal-offers-one-of-the-most-serious-competitive-displays-out-there-for-200-off-the-msrp",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.893,
+      "query": "Acer Predator X27U F5 500Hz OLED monitor price 2026"
+    },
+    {
+      "url": "https://www.amazon.com/Acer-Predator-DisplayHDR-X27U-F5bmiippruzx/dp/B0G539C1Q7",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.893,
+      "query": "Acer Predator X27U F5 500Hz OLED monitor price 2026"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=7b1QbArEKnw&vl=en",
+      "status": "success",
+      "content_length": 7205,
+      "duration_seconds": 3.207,
+      "query": "Gigabyte MO27Q28GR WOLED 280Hz monitor price 2026"
+    },
+    {
+      "url": "https://www.reddit.com/r/buildapcsales/comments/1ttwlp0/monitor_gigabyte_mo27q28gr_27_tandem_woled_gaming",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 3.207,
+      "query": "Gigabyte MO27Q28GR WOLED 280Hz monitor price 2026"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=JUdnOR1rlFI",
+      "status": "success",
+      "content_length": 13670,
+      "duration_seconds": 3.207,
+      "query": "Gigabyte MO27Q28GR WOLED 280Hz monitor price 2026"
+    },
+    {
+      "url": "https://www.newegg.com/gigabyte-mo27q28g-sa1-27-oled-280-hz-qhd/p/N82E16824012111",
+      "status": "success",
+      "content_length": 20518,
+      "duration_seconds": 3.207,
+      "query": "Gigabyte MO27Q28GR WOLED 280Hz monitor price 2026"
+    },
+    {
+      "url": "https://www.gigabyte.com/us/Monitor/MO27Q28GR",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 3.207,
+      "query": "Gigabyte MO27Q28GR WOLED 280Hz monitor price 2026"
+    }
+  ],
+  "run_id": "632b90a7fdd84894927fffc583cd27b2",
+  "status": "completed",
+  "qid": "rankli824vjs9DMOPbb7HD",
+  "query": "What are the top 12 gaming monitors released or available for purchase in 2026, based on refresh rate (Hz), response time (ms), and price per inch of screen size? Please assume all three criteria are weighted equally. No specific panel technologies or size requirements are set; consider all currently available monitors within this timeframe. In the final report, you should include a detailed table for the summarized ranked results, and also provide an analysis explaining the rationale behind the ranking.",
+  "duration_seconds": 357.01,
+  "report_length": 20170,
+  "context_length": 101673,
+  "token_counting": "Token counts come only from API-reported usage; missing usage is never estimated."
+}

@@ -1,0 +1,4301 @@
+{
+  "session_id": "5e46226d3dae4eb18ad292698e20383d",
+  "total_llm_calls": 99,
+  "llm_calls_with_token_usage": 99,
+  "llm_calls_missing_token_usage": 0,
+  "token_usage_complete": true,
+  "total_input_tokens": 1182340,
+  "total_output_tokens": 67691,
+  "total_tokens": 1250031,
+  "counted_input_tokens": 1182340,
+  "counted_output_tokens": 67691,
+  "counted_total_tokens": 1250031,
+  "total_search_count": 21,
+  "total_search_results": 105,
+  "total_visit_count": 105,
+  "total_visit_success": 102,
+  "total_visit_failed": 3,
+  "source_urls_count": 83,
+  "llm_calls_detail": [
+    {
+      "sequence": 1,
+      "status": "completed",
+      "started_at": "2026-08-23T22:54:06.342034+08:00",
+      "completed_at": "2026-08-23T22:54:09.722300+08:00",
+      "duration_seconds": 3.38,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 736,
+      "output_tokens": 211,
+      "total_tokens": 947,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 736,
+        "output_tokens": 211,
+        "total_tokens": 947,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 2,
+      "status": "completed",
+      "started_at": "2026-08-23T22:54:09.730486+08:00",
+      "completed_at": "2026-08-23T22:54:20.703325+08:00",
+      "duration_seconds": 10.973,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1275,
+      "output_tokens": 923,
+      "total_tokens": 2198,
+      "message_count": 2,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1275,
+        "output_tokens": 923,
+        "total_tokens": 2198,
+        "input_token_details": {
+          "cache_read": 1024
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 3,
+      "status": "completed",
+      "started_at": "2026-08-23T22:54:20.709625+08:00",
+      "completed_at": "2026-08-23T22:54:24.973920+08:00",
+      "duration_seconds": 4.264,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1789,
+      "output_tokens": 197,
+      "total_tokens": 1986,
+      "message_count": 4,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1789,
+        "output_tokens": 197,
+        "total_tokens": 1986,
+        "input_token_details": {
+          "cache_read": 1024
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 4,
+      "status": "completed",
+      "started_at": "2026-08-23T22:54:24.984708+08:00",
+      "completed_at": "2026-08-23T22:54:27.521923+08:00",
+      "duration_seconds": 2.537,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 977,
+      "output_tokens": 152,
+      "total_tokens": 1129,
+      "message_count": 2,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 977,
+        "output_tokens": 152,
+        "total_tokens": 1129,
+        "input_token_details": {
+          "cache_read": 768
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 8,
+      "status": "completed",
+      "started_at": "2026-08-23T22:54:30.778558+08:00",
+      "completed_at": "2026-08-23T22:54:36.894482+08:00",
+      "duration_seconds": 6.116,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5483,
+      "output_tokens": 555,
+      "total_tokens": 6038,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5483,
+        "output_tokens": 555,
+        "total_tokens": 6038,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 9,
+      "status": "completed",
+      "started_at": "2026-08-23T22:54:30.778603+08:00",
+      "completed_at": "2026-08-23T22:54:34.813735+08:00",
+      "duration_seconds": 4.035,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2117,
+      "output_tokens": 224,
+      "total_tokens": 2341,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2117,
+        "output_tokens": 224,
+        "total_tokens": 2341,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 10,
+      "status": "completed",
+      "started_at": "2026-08-23T22:54:30.778640+08:00",
+      "completed_at": "2026-08-23T22:54:36.862317+08:00",
+      "duration_seconds": 6.084,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3025,
+      "output_tokens": 487,
+      "total_tokens": 3512,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3025,
+        "output_tokens": 487,
+        "total_tokens": 3512,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 11,
+      "status": "completed",
+      "started_at": "2026-08-23T22:54:30.778659+08:00",
+      "completed_at": "2026-08-23T22:54:40.002349+08:00",
+      "duration_seconds": 9.224,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7918,
+      "output_tokens": 517,
+      "total_tokens": 8435,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 7918,
+        "output_tokens": 517,
+        "total_tokens": 8435,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 12,
+      "status": "completed",
+      "started_at": "2026-08-23T22:54:30.778674+08:00",
+      "completed_at": "2026-08-23T22:54:38.604550+08:00",
+      "duration_seconds": 7.826,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 32002,
+      "output_tokens": 732,
+      "total_tokens": 32734,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 32002,
+        "output_tokens": 732,
+        "total_tokens": 32734,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 13,
+      "status": "completed",
+      "started_at": "2026-08-23T22:54:30.778689+08:00",
+      "completed_at": "2026-08-23T22:54:36.862094+08:00",
+      "duration_seconds": 6.083,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1646,
+      "output_tokens": 388,
+      "total_tokens": 2034,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1646,
+        "output_tokens": 388,
+        "total_tokens": 2034,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 14,
+      "status": "completed",
+      "started_at": "2026-08-23T22:54:30.778702+08:00",
+      "completed_at": "2026-08-23T22:54:40.906183+08:00",
+      "duration_seconds": 10.127,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 32076,
+      "output_tokens": 1165,
+      "total_tokens": 33241,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 32076,
+        "output_tokens": 1165,
+        "total_tokens": 33241,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 15,
+      "status": "completed",
+      "started_at": "2026-08-23T22:54:30.778715+08:00",
+      "completed_at": "2026-08-23T22:54:34.125512+08:00",
+      "duration_seconds": 3.347,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1501,
+      "output_tokens": 212,
+      "total_tokens": 1713,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1501,
+        "output_tokens": 212,
+        "total_tokens": 1713,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 16,
+      "status": "completed",
+      "started_at": "2026-08-23T22:54:30.778726+08:00",
+      "completed_at": "2026-08-23T22:54:36.033967+08:00",
+      "duration_seconds": 5.255,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4013,
+      "output_tokens": 246,
+      "total_tokens": 4259,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4013,
+        "output_tokens": 246,
+        "total_tokens": 4259,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 17,
+      "status": "completed",
+      "started_at": "2026-08-23T22:54:30.778739+08:00",
+      "completed_at": "2026-08-23T22:54:34.557529+08:00",
+      "duration_seconds": 3.779,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3966,
+      "output_tokens": 276,
+      "total_tokens": 4242,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3966,
+        "output_tokens": 276,
+        "total_tokens": 4242,
+        "input_token_details": {
+          "cache_read": 1280
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 18,
+      "status": "completed",
+      "started_at": "2026-08-23T22:54:30.778791+08:00",
+      "completed_at": "2026-08-23T22:54:34.813949+08:00",
+      "duration_seconds": 4.035,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8320,
+      "output_tokens": 266,
+      "total_tokens": 8586,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 8320,
+        "output_tokens": 266,
+        "total_tokens": 8586,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 19,
+      "status": "completed",
+      "started_at": "2026-08-23T22:54:30.778805+08:00",
+      "completed_at": "2026-08-23T22:54:34.991619+08:00",
+      "duration_seconds": 4.213,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1896,
+      "output_tokens": 356,
+      "total_tokens": 2252,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1896,
+        "output_tokens": 356,
+        "total_tokens": 2252,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 20,
+      "status": "completed",
+      "started_at": "2026-08-23T22:54:40.915092+08:00",
+      "completed_at": "2026-08-23T22:54:51.043470+08:00",
+      "duration_seconds": 10.128,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7185,
+      "output_tokens": 890,
+      "total_tokens": 8075,
+      "message_count": 4,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 7185,
+        "output_tokens": 890,
+        "total_tokens": 8075,
+        "input_token_details": {
+          "cache_read": 768
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 30,
+      "status": "completed",
+      "started_at": "2026-08-23T22:54:55.361798+08:00",
+      "completed_at": "2026-08-23T22:54:59.593004+08:00",
+      "duration_seconds": 4.231,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1538,
+      "output_tokens": 320,
+      "total_tokens": 1858,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1538,
+        "output_tokens": 320,
+        "total_tokens": 1858,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 31,
+      "status": "completed",
+      "started_at": "2026-08-23T22:54:55.361878+08:00",
+      "completed_at": "2026-08-23T22:55:01.947789+08:00",
+      "duration_seconds": 6.586,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 14862,
+      "output_tokens": 625,
+      "total_tokens": 15487,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 14862,
+        "output_tokens": 625,
+        "total_tokens": 15487,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 32,
+      "status": "completed",
+      "started_at": "2026-08-23T22:54:55.361916+08:00",
+      "completed_at": "2026-08-23T22:55:03.194454+08:00",
+      "duration_seconds": 7.833,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 12442,
+      "output_tokens": 688,
+      "total_tokens": 13130,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 12442,
+        "output_tokens": 688,
+        "total_tokens": 13130,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 33,
+      "status": "completed",
+      "started_at": "2026-08-23T22:54:55.361950+08:00",
+      "completed_at": "2026-08-23T22:54:58.566948+08:00",
+      "duration_seconds": 3.205,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4103,
+      "output_tokens": 198,
+      "total_tokens": 4301,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4103,
+        "output_tokens": 198,
+        "total_tokens": 4301,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 34,
+      "status": "completed",
+      "started_at": "2026-08-23T22:54:55.361980+08:00",
+      "completed_at": "2026-08-23T22:55:04.218665+08:00",
+      "duration_seconds": 8.857,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3344,
+      "output_tokens": 153,
+      "total_tokens": 3497,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3344,
+        "output_tokens": 153,
+        "total_tokens": 3497,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 35,
+      "status": "completed",
+      "started_at": "2026-08-23T22:55:04.227129+08:00",
+      "completed_at": "2026-08-23T22:55:24.630227+08:00",
+      "duration_seconds": 20.403,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 13654,
+      "output_tokens": 2148,
+      "total_tokens": 15802,
+      "message_count": 7,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 13654,
+        "output_tokens": 2148,
+        "total_tokens": 15802,
+        "input_token_details": {
+          "cache_read": 7168
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 36,
+      "status": "completed",
+      "started_at": "2026-08-23T22:55:24.641593+08:00",
+      "completed_at": "2026-08-23T22:55:38.461928+08:00",
+      "duration_seconds": 13.82,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 14049,
+      "output_tokens": 1455,
+      "total_tokens": 15504,
+      "message_count": 9,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 14049,
+        "output_tokens": 1455,
+        "total_tokens": 15504,
+        "input_token_details": {
+          "cache_read": 13568
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 37,
+      "status": "completed",
+      "started_at": "2026-08-23T22:55:38.469632+08:00",
+      "completed_at": "2026-08-23T22:56:37.442234+08:00",
+      "duration_seconds": 58.972,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 13821,
+      "output_tokens": 6980,
+      "total_tokens": 20801,
+      "message_count": 12,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 13821,
+        "output_tokens": 6980,
+        "total_tokens": 20801,
+        "input_token_details": {
+          "cache_read": 512
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "end_turn"
+    },
+    {
+      "sequence": 38,
+      "status": "completed",
+      "started_at": "2026-08-23T22:56:37.448315+08:00",
+      "completed_at": "2026-08-23T22:56:44.553860+08:00",
+      "duration_seconds": 7.106,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6313,
+      "output_tokens": 613,
+      "total_tokens": 6926,
+      "message_count": 6,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 6313,
+        "output_tokens": 613,
+        "total_tokens": 6926,
+        "input_token_details": {
+          "cache_read": 1536
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 39,
+      "status": "completed",
+      "started_at": "2026-08-23T22:56:44.563148+08:00",
+      "completed_at": "2026-08-23T22:56:49.366830+08:00",
+      "duration_seconds": 4.804,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1146,
+      "output_tokens": 415,
+      "total_tokens": 1561,
+      "message_count": 2,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1146,
+        "output_tokens": 415,
+        "total_tokens": 1561,
+        "input_token_details": {
+          "cache_read": 768
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 45,
+      "status": "completed",
+      "started_at": "2026-08-23T22:56:52.321585+08:00",
+      "completed_at": "2026-08-23T22:57:05.796233+08:00",
+      "duration_seconds": 13.475,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 30918,
+      "output_tokens": 1270,
+      "total_tokens": 32188,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 30918,
+        "output_tokens": 1270,
+        "total_tokens": 32188,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 46,
+      "status": "completed",
+      "started_at": "2026-08-23T22:56:52.321691+08:00",
+      "completed_at": "2026-08-23T22:56:59.483391+08:00",
+      "duration_seconds": 7.162,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 21588,
+      "output_tokens": 577,
+      "total_tokens": 22165,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 21588,
+        "output_tokens": 577,
+        "total_tokens": 22165,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 47,
+      "status": "completed",
+      "started_at": "2026-08-23T22:56:52.321769+08:00",
+      "completed_at": "2026-08-23T22:56:58.380665+08:00",
+      "duration_seconds": 6.059,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6392,
+      "output_tokens": 461,
+      "total_tokens": 6853,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 6392,
+        "output_tokens": 461,
+        "total_tokens": 6853,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 48,
+      "status": "completed",
+      "started_at": "2026-08-23T22:56:52.330689+08:00",
+      "completed_at": "2026-08-23T22:56:56.239675+08:00",
+      "duration_seconds": 3.909,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1655,
+      "output_tokens": 236,
+      "total_tokens": 1891,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1655,
+        "output_tokens": 236,
+        "total_tokens": 1891,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 49,
+      "status": "completed",
+      "started_at": "2026-08-23T22:56:52.330968+08:00",
+      "completed_at": "2026-08-23T22:57:00.347699+08:00",
+      "duration_seconds": 8.017,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 13289,
+      "output_tokens": 776,
+      "total_tokens": 14065,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 13289,
+        "output_tokens": 776,
+        "total_tokens": 14065,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 50,
+      "status": "completed",
+      "started_at": "2026-08-23T22:56:52.331000+08:00",
+      "completed_at": "2026-08-23T22:56:53.556471+08:00",
+      "duration_seconds": 1.225,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 0,
+      "output_tokens": 11,
+      "total_tokens": 11,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 0,
+        "output_tokens": 11,
+        "total_tokens": 11,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 0
+        }
+      },
+      "finish_reason": "end_turn"
+    },
+    {
+      "sequence": 51,
+      "status": "completed",
+      "started_at": "2026-08-23T22:56:52.331026+08:00",
+      "completed_at": "2026-08-23T22:56:59.816213+08:00",
+      "duration_seconds": 7.485,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 18896,
+      "output_tokens": 544,
+      "total_tokens": 19440,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 18896,
+        "output_tokens": 544,
+        "total_tokens": 19440,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 52,
+      "status": "completed",
+      "started_at": "2026-08-23T22:56:52.331048+08:00",
+      "completed_at": "2026-08-23T22:57:05.001043+08:00",
+      "duration_seconds": 12.67,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5192,
+      "output_tokens": 1077,
+      "total_tokens": 6269,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5192,
+        "output_tokens": 1077,
+        "total_tokens": 6269,
+        "input_token_details": {
+          "cache_read": 512
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 53,
+      "status": "completed",
+      "started_at": "2026-08-23T22:56:52.331070+08:00",
+      "completed_at": "2026-08-23T22:56:57.782983+08:00",
+      "duration_seconds": 5.452,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2517,
+      "output_tokens": 420,
+      "total_tokens": 2937,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2517,
+        "output_tokens": 420,
+        "total_tokens": 2937,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 54,
+      "status": "completed",
+      "started_at": "2026-08-23T22:56:52.331091+08:00",
+      "completed_at": "2026-08-23T22:57:02.053126+08:00",
+      "duration_seconds": 9.722,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4205,
+      "output_tokens": 863,
+      "total_tokens": 5068,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4205,
+        "output_tokens": 863,
+        "total_tokens": 5068,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 55,
+      "status": "completed",
+      "started_at": "2026-08-23T22:56:52.331112+08:00",
+      "completed_at": "2026-08-23T22:56:58.551613+08:00",
+      "duration_seconds": 6.22,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 28272,
+      "output_tokens": 444,
+      "total_tokens": 28716,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 28272,
+        "output_tokens": 444,
+        "total_tokens": 28716,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 56,
+      "status": "completed",
+      "started_at": "2026-08-23T22:56:52.331132+08:00",
+      "completed_at": "2026-08-23T22:56:58.435837+08:00",
+      "duration_seconds": 6.105,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 12384,
+      "output_tokens": 525,
+      "total_tokens": 12909,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 12384,
+        "output_tokens": 525,
+        "total_tokens": 12909,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 57,
+      "status": "completed",
+      "started_at": "2026-08-23T22:56:52.331150+08:00",
+      "completed_at": "2026-08-23T22:56:58.779502+08:00",
+      "duration_seconds": 6.448,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6973,
+      "output_tokens": 463,
+      "total_tokens": 7436,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 6973,
+        "output_tokens": 463,
+        "total_tokens": 7436,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 58,
+      "status": "completed",
+      "started_at": "2026-08-23T22:56:52.331169+08:00",
+      "completed_at": "2026-08-23T22:56:58.550058+08:00",
+      "duration_seconds": 6.219,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 27334,
+      "output_tokens": 475,
+      "total_tokens": 27809,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 27334,
+        "output_tokens": 475,
+        "total_tokens": 27809,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 59,
+      "status": "completed",
+      "started_at": "2026-08-23T22:56:52.331190+08:00",
+      "completed_at": "2026-08-23T22:56:56.860382+08:00",
+      "duration_seconds": 4.529,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2291,
+      "output_tokens": 365,
+      "total_tokens": 2656,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2291,
+        "output_tokens": 365,
+        "total_tokens": 2656,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 60,
+      "status": "completed",
+      "started_at": "2026-08-23T22:56:52.331209+08:00",
+      "completed_at": "2026-08-23T22:57:00.441135+08:00",
+      "duration_seconds": 8.11,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 28741,
+      "output_tokens": 617,
+      "total_tokens": 29358,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 28741,
+        "output_tokens": 617,
+        "total_tokens": 29358,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 61,
+      "status": "completed",
+      "started_at": "2026-08-23T22:56:52.331228+08:00",
+      "completed_at": "2026-08-23T22:56:55.704671+08:00",
+      "duration_seconds": 3.373,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1835,
+      "output_tokens": 196,
+      "total_tokens": 2031,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1835,
+        "output_tokens": 196,
+        "total_tokens": 2031,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 62,
+      "status": "completed",
+      "started_at": "2026-08-23T22:56:52.331248+08:00",
+      "completed_at": "2026-08-23T22:56:59.050550+08:00",
+      "duration_seconds": 6.719,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 26853,
+      "output_tokens": 493,
+      "total_tokens": 27346,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 26853,
+        "output_tokens": 493,
+        "total_tokens": 27346,
+        "input_token_details": {
+          "cache_read": 1024
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 63,
+      "status": "completed",
+      "started_at": "2026-08-23T22:56:52.331266+08:00",
+      "completed_at": "2026-08-23T22:57:01.445445+08:00",
+      "duration_seconds": 9.114,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 16890,
+      "output_tokens": 535,
+      "total_tokens": 17425,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 16890,
+        "output_tokens": 535,
+        "total_tokens": 17425,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 64,
+      "status": "completed",
+      "started_at": "2026-08-23T22:56:52.331284+08:00",
+      "completed_at": "2026-08-23T22:57:00.948969+08:00",
+      "duration_seconds": 8.618,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 13934,
+      "output_tokens": 834,
+      "total_tokens": 14768,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 13934,
+        "output_tokens": 834,
+        "total_tokens": 14768,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 65,
+      "status": "completed",
+      "started_at": "2026-08-23T22:56:52.331304+08:00",
+      "completed_at": "2026-08-23T22:56:58.380884+08:00",
+      "duration_seconds": 6.05,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 28017,
+      "output_tokens": 489,
+      "total_tokens": 28506,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 28017,
+        "output_tokens": 489,
+        "total_tokens": 28506,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 66,
+      "status": "completed",
+      "started_at": "2026-08-23T22:56:52.331325+08:00",
+      "completed_at": "2026-08-23T22:57:01.121883+08:00",
+      "duration_seconds": 8.791,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 12455,
+      "output_tokens": 760,
+      "total_tokens": 13215,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 12455,
+        "output_tokens": 760,
+        "total_tokens": 13215,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 67,
+      "status": "completed",
+      "started_at": "2026-08-23T22:56:52.331347+08:00",
+      "completed_at": "2026-08-23T22:56:59.705119+08:00",
+      "duration_seconds": 7.374,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 32094,
+      "output_tokens": 676,
+      "total_tokens": 32770,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 32094,
+        "output_tokens": 676,
+        "total_tokens": 32770,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 68,
+      "status": "completed",
+      "started_at": "2026-08-23T22:56:52.331367+08:00",
+      "completed_at": "2026-08-23T22:57:03.332078+08:00",
+      "duration_seconds": 11.001,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 11163,
+      "output_tokens": 1037,
+      "total_tokens": 12200,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 11163,
+        "output_tokens": 1037,
+        "total_tokens": 12200,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 69,
+      "status": "completed",
+      "started_at": "2026-08-23T22:56:52.331385+08:00",
+      "completed_at": "2026-08-23T22:56:56.982021+08:00",
+      "duration_seconds": 4.651,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3029,
+      "output_tokens": 352,
+      "total_tokens": 3381,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3029,
+        "output_tokens": 352,
+        "total_tokens": 3381,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 70,
+      "status": "completed",
+      "started_at": "2026-08-23T22:56:53.559914+08:00",
+      "completed_at": "2026-08-23T22:56:54.594617+08:00",
+      "duration_seconds": 1.035,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 0,
+      "output_tokens": 11,
+      "total_tokens": 11,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 0,
+        "output_tokens": 11,
+        "total_tokens": 11,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 0
+        }
+      },
+      "finish_reason": "end_turn"
+    },
+    {
+      "sequence": 71,
+      "status": "completed",
+      "started_at": "2026-08-23T22:56:54.597550+08:00",
+      "completed_at": "2026-08-23T22:57:03.794187+08:00",
+      "duration_seconds": 9.197,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 28801,
+      "output_tokens": 848,
+      "total_tokens": 29649,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 28801,
+        "output_tokens": 848,
+        "total_tokens": 29649,
+        "input_token_details": {
+          "cache_read": 28672
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 72,
+      "status": "completed",
+      "started_at": "2026-08-23T22:57:05.806415+08:00",
+      "completed_at": "2026-08-23T22:57:10.501655+08:00",
+      "duration_seconds": 4.695,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 17762,
+      "output_tokens": 382,
+      "total_tokens": 18144,
+      "message_count": 4,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 17762,
+        "output_tokens": 382,
+        "total_tokens": 18144,
+        "input_token_details": {
+          "cache_read": 1024
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 73,
+      "status": "completed",
+      "started_at": "2026-08-23T22:57:10.510538+08:00",
+      "completed_at": "2026-08-23T22:57:13.782158+08:00",
+      "duration_seconds": 3.272,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 17999,
+      "output_tokens": 191,
+      "total_tokens": 18190,
+      "message_count": 6,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 17999,
+        "output_tokens": 191,
+        "total_tokens": 18190,
+        "input_token_details": {},
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 79,
+      "status": "completed",
+      "started_at": "2026-08-23T22:57:16.829863+08:00",
+      "completed_at": "2026-08-23T22:57:25.402920+08:00",
+      "duration_seconds": 8.573,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 17877,
+      "output_tokens": 853,
+      "total_tokens": 18730,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 17877,
+        "output_tokens": 853,
+        "total_tokens": 18730,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 80,
+      "status": "completed",
+      "started_at": "2026-08-23T22:57:16.829960+08:00",
+      "completed_at": "2026-08-23T22:57:31.119295+08:00",
+      "duration_seconds": 14.289,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 31330,
+      "output_tokens": 1355,
+      "total_tokens": 32685,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 31330,
+        "output_tokens": 1355,
+        "total_tokens": 32685,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 81,
+      "status": "completed",
+      "started_at": "2026-08-23T22:57:16.830413+08:00",
+      "completed_at": "2026-08-23T22:57:26.269716+08:00",
+      "duration_seconds": 9.439,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 30013,
+      "output_tokens": 856,
+      "total_tokens": 30869,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 30013,
+        "output_tokens": 856,
+        "total_tokens": 30869,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 82,
+      "status": "completed",
+      "started_at": "2026-08-23T22:57:16.830477+08:00",
+      "completed_at": "2026-08-23T22:57:23.926112+08:00",
+      "duration_seconds": 7.096,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4045,
+      "output_tokens": 612,
+      "total_tokens": 4657,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4045,
+        "output_tokens": 612,
+        "total_tokens": 4657,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 83,
+      "status": "completed",
+      "started_at": "2026-08-23T22:57:16.830537+08:00",
+      "completed_at": "2026-08-23T22:57:21.681699+08:00",
+      "duration_seconds": 4.851,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 9474,
+      "output_tokens": 309,
+      "total_tokens": 9783,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 9474,
+        "output_tokens": 309,
+        "total_tokens": 9783,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 84,
+      "status": "completed",
+      "started_at": "2026-08-23T22:57:16.830620+08:00",
+      "completed_at": "2026-08-23T22:57:23.250111+08:00",
+      "duration_seconds": 6.419,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 9377,
+      "output_tokens": 613,
+      "total_tokens": 9990,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 9377,
+        "output_tokens": 613,
+        "total_tokens": 9990,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 85,
+      "status": "completed",
+      "started_at": "2026-08-23T22:57:16.830680+08:00",
+      "completed_at": "2026-08-23T22:57:28.985912+08:00",
+      "duration_seconds": 12.155,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 13605,
+      "output_tokens": 861,
+      "total_tokens": 14466,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 13605,
+        "output_tokens": 861,
+        "total_tokens": 14466,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 86,
+      "status": "completed",
+      "started_at": "2026-08-23T22:57:16.830718+08:00",
+      "completed_at": "2026-08-23T22:57:25.101651+08:00",
+      "duration_seconds": 8.271,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 14694,
+      "output_tokens": 558,
+      "total_tokens": 15252,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 14694,
+        "output_tokens": 558,
+        "total_tokens": 15252,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 87,
+      "status": "completed",
+      "started_at": "2026-08-23T22:57:16.830746+08:00",
+      "completed_at": "2026-08-23T22:57:27.134063+08:00",
+      "duration_seconds": 10.303,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3497,
+      "output_tokens": 807,
+      "total_tokens": 4304,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3497,
+        "output_tokens": 807,
+        "total_tokens": 4304,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 88,
+      "status": "completed",
+      "started_at": "2026-08-23T22:57:16.830773+08:00",
+      "completed_at": "2026-08-23T22:57:24.529261+08:00",
+      "duration_seconds": 7.698,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 19632,
+      "output_tokens": 655,
+      "total_tokens": 20287,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 19632,
+        "output_tokens": 655,
+        "total_tokens": 20287,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 89,
+      "status": "completed",
+      "started_at": "2026-08-23T22:57:16.830798+08:00",
+      "completed_at": "2026-08-23T22:57:24.440915+08:00",
+      "duration_seconds": 7.61,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 23190,
+      "output_tokens": 745,
+      "total_tokens": 23935,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 23190,
+        "output_tokens": 745,
+        "total_tokens": 23935,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 90,
+      "status": "completed",
+      "started_at": "2026-08-23T22:57:16.830824+08:00",
+      "completed_at": "2026-08-23T22:57:25.783559+08:00",
+      "duration_seconds": 8.953,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 11230,
+      "output_tokens": 800,
+      "total_tokens": 12030,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 11230,
+        "output_tokens": 800,
+        "total_tokens": 12030,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 91,
+      "status": "completed",
+      "started_at": "2026-08-23T22:57:16.830847+08:00",
+      "completed_at": "2026-08-23T22:57:23.626112+08:00",
+      "duration_seconds": 6.795,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 27986,
+      "output_tokens": 542,
+      "total_tokens": 28528,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 27986,
+        "output_tokens": 542,
+        "total_tokens": 28528,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 92,
+      "status": "completed",
+      "started_at": "2026-08-23T22:57:16.830871+08:00",
+      "completed_at": "2026-08-23T22:57:20.529222+08:00",
+      "duration_seconds": 3.698,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 17148,
+      "output_tokens": 214,
+      "total_tokens": 17362,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 17148,
+        "output_tokens": 214,
+        "total_tokens": 17362,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 93,
+      "status": "completed",
+      "started_at": "2026-08-23T22:57:16.830895+08:00",
+      "completed_at": "2026-08-23T22:57:21.894085+08:00",
+      "duration_seconds": 5.063,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 15612,
+      "output_tokens": 417,
+      "total_tokens": 16029,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 15612,
+        "output_tokens": 417,
+        "total_tokens": 16029,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 94,
+      "status": "completed",
+      "started_at": "2026-08-23T22:57:16.830922+08:00",
+      "completed_at": "2026-08-23T22:57:23.827243+08:00",
+      "duration_seconds": 6.996,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 21720,
+      "output_tokens": 589,
+      "total_tokens": 22309,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 21720,
+        "output_tokens": 589,
+        "total_tokens": 22309,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 95,
+      "status": "completed",
+      "started_at": "2026-08-23T22:57:16.830944+08:00",
+      "completed_at": "2026-08-23T22:57:25.452595+08:00",
+      "duration_seconds": 8.622,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 10272,
+      "output_tokens": 713,
+      "total_tokens": 10985,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 10272,
+        "output_tokens": 713,
+        "total_tokens": 10985,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 96,
+      "status": "completed",
+      "started_at": "2026-08-23T22:57:16.830968+08:00",
+      "completed_at": "2026-08-23T22:57:25.857782+08:00",
+      "duration_seconds": 9.027,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 26132,
+      "output_tokens": 815,
+      "total_tokens": 26947,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 26132,
+        "output_tokens": 815,
+        "total_tokens": 26947,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 97,
+      "status": "completed",
+      "started_at": "2026-08-23T22:57:16.830994+08:00",
+      "completed_at": "2026-08-23T22:57:19.928775+08:00",
+      "duration_seconds": 3.098,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1765,
+      "output_tokens": 156,
+      "total_tokens": 1921,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1765,
+        "output_tokens": 156,
+        "total_tokens": 1921,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 98,
+      "status": "completed",
+      "started_at": "2026-08-23T22:57:16.831019+08:00",
+      "completed_at": "2026-08-23T22:57:23.159547+08:00",
+      "duration_seconds": 6.329,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 28279,
+      "output_tokens": 504,
+      "total_tokens": 28783,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 28279,
+        "output_tokens": 504,
+        "total_tokens": 28783,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 99,
+      "status": "completed",
+      "started_at": "2026-08-23T22:57:16.831042+08:00",
+      "completed_at": "2026-08-23T22:57:24.203883+08:00",
+      "duration_seconds": 7.373,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 21456,
+      "output_tokens": 613,
+      "total_tokens": 22069,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 21456,
+        "output_tokens": 613,
+        "total_tokens": 22069,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 100,
+      "status": "completed",
+      "started_at": "2026-08-23T22:57:16.831065+08:00",
+      "completed_at": "2026-08-23T22:57:23.948131+08:00",
+      "duration_seconds": 7.117,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 11004,
+      "output_tokens": 636,
+      "total_tokens": 11640,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 11004,
+        "output_tokens": 636,
+        "total_tokens": 11640,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 101,
+      "status": "completed",
+      "started_at": "2026-08-23T22:57:16.831088+08:00",
+      "completed_at": "2026-08-23T22:57:22.592699+08:00",
+      "duration_seconds": 5.762,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 9529,
+      "output_tokens": 455,
+      "total_tokens": 9984,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 9529,
+        "output_tokens": 455,
+        "total_tokens": 9984,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 102,
+      "status": "completed",
+      "started_at": "2026-08-23T22:57:16.831110+08:00",
+      "completed_at": "2026-08-23T22:57:22.181402+08:00",
+      "duration_seconds": 5.35,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1732,
+      "output_tokens": 338,
+      "total_tokens": 2070,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1732,
+        "output_tokens": 338,
+        "total_tokens": 2070,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 103,
+      "status": "completed",
+      "started_at": "2026-08-23T22:57:16.831134+08:00",
+      "completed_at": "2026-08-23T22:57:20.643923+08:00",
+      "duration_seconds": 3.813,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1360,
+      "output_tokens": 273,
+      "total_tokens": 1633,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1360,
+        "output_tokens": 273,
+        "total_tokens": 1633,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 104,
+      "status": "completed",
+      "started_at": "2026-08-23T22:57:31.128440+08:00",
+      "completed_at": "2026-08-23T22:57:41.047261+08:00",
+      "duration_seconds": 9.919,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 34703,
+      "output_tokens": 960,
+      "total_tokens": 35663,
+      "message_count": 8,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 34703,
+        "output_tokens": 960,
+        "total_tokens": 35663,
+        "input_token_details": {
+          "cache_read": 17664
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 105,
+      "status": "completed",
+      "started_at": "2026-08-23T22:57:41.058279+08:00",
+      "completed_at": "2026-08-23T22:57:44.456189+08:00",
+      "duration_seconds": 3.398,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 34944,
+      "output_tokens": 150,
+      "total_tokens": 35094,
+      "message_count": 10,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 34944,
+        "output_tokens": 150,
+        "total_tokens": 35094,
+        "input_token_details": {
+          "cache_read": 34560
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 120,
+      "status": "completed",
+      "started_at": "2026-08-23T22:57:47.599905+08:00",
+      "completed_at": "2026-08-23T22:57:53.057832+08:00",
+      "duration_seconds": 5.458,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1557,
+      "output_tokens": 421,
+      "total_tokens": 1978,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1557,
+        "output_tokens": 421,
+        "total_tokens": 1978,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 121,
+      "status": "completed",
+      "started_at": "2026-08-23T22:57:47.599997+08:00",
+      "completed_at": "2026-08-23T22:57:53.407405+08:00",
+      "duration_seconds": 5.807,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2568,
+      "output_tokens": 487,
+      "total_tokens": 3055,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2568,
+        "output_tokens": 487,
+        "total_tokens": 3055,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 122,
+      "status": "completed",
+      "started_at": "2026-08-23T22:57:47.600070+08:00",
+      "completed_at": "2026-08-23T22:57:52.029832+08:00",
+      "duration_seconds": 4.43,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1407,
+      "output_tokens": 306,
+      "total_tokens": 1713,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1407,
+        "output_tokens": 306,
+        "total_tokens": 1713,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 123,
+      "status": "completed",
+      "started_at": "2026-08-23T22:57:47.600107+08:00",
+      "completed_at": "2026-08-23T22:57:51.493644+08:00",
+      "duration_seconds": 3.894,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1428,
+      "output_tokens": 256,
+      "total_tokens": 1684,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1428,
+        "output_tokens": 256,
+        "total_tokens": 1684,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 124,
+      "status": "completed",
+      "started_at": "2026-08-23T22:57:47.600134+08:00",
+      "completed_at": "2026-08-23T22:57:54.039928+08:00",
+      "duration_seconds": 6.44,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4963,
+      "output_tokens": 508,
+      "total_tokens": 5471,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4963,
+        "output_tokens": 508,
+        "total_tokens": 5471,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 125,
+      "status": "completed",
+      "started_at": "2026-08-23T22:57:47.600163+08:00",
+      "completed_at": "2026-08-23T22:57:52.213035+08:00",
+      "duration_seconds": 4.613,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1353,
+      "output_tokens": 365,
+      "total_tokens": 1718,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1353,
+        "output_tokens": 365,
+        "total_tokens": 1718,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 126,
+      "status": "completed",
+      "started_at": "2026-08-23T22:57:47.600187+08:00",
+      "completed_at": "2026-08-23T22:57:55.769265+08:00",
+      "duration_seconds": 8.169,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5877,
+      "output_tokens": 675,
+      "total_tokens": 6552,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5877,
+        "output_tokens": 675,
+        "total_tokens": 6552,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 127,
+      "status": "completed",
+      "started_at": "2026-08-23T22:57:47.600214+08:00",
+      "completed_at": "2026-08-23T22:57:55.487961+08:00",
+      "duration_seconds": 7.888,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2238,
+      "output_tokens": 497,
+      "total_tokens": 2735,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2238,
+        "output_tokens": 497,
+        "total_tokens": 2735,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 128,
+      "status": "completed",
+      "started_at": "2026-08-23T22:57:47.600238+08:00",
+      "completed_at": "2026-08-23T22:57:51.657184+08:00",
+      "duration_seconds": 4.057,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1355,
+      "output_tokens": 273,
+      "total_tokens": 1628,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1355,
+        "output_tokens": 273,
+        "total_tokens": 1628,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 129,
+      "status": "completed",
+      "started_at": "2026-08-23T22:57:47.600264+08:00",
+      "completed_at": "2026-08-23T22:57:56.385485+08:00",
+      "duration_seconds": 8.785,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6069,
+      "output_tokens": 748,
+      "total_tokens": 6817,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 6069,
+        "output_tokens": 748,
+        "total_tokens": 6817,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 130,
+      "status": "completed",
+      "started_at": "2026-08-23T22:57:47.600287+08:00",
+      "completed_at": "2026-08-23T22:57:54.158934+08:00",
+      "duration_seconds": 6.559,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5281,
+      "output_tokens": 471,
+      "total_tokens": 5752,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5281,
+        "output_tokens": 471,
+        "total_tokens": 5752,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 131,
+      "status": "completed",
+      "started_at": "2026-08-23T22:57:47.600310+08:00",
+      "completed_at": "2026-08-23T22:57:57.279222+08:00",
+      "duration_seconds": 9.679,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 9700,
+      "output_tokens": 852,
+      "total_tokens": 10552,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 9700,
+        "output_tokens": 852,
+        "total_tokens": 10552,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 132,
+      "status": "completed",
+      "started_at": "2026-08-23T22:57:47.600333+08:00",
+      "completed_at": "2026-08-23T22:57:52.999574+08:00",
+      "duration_seconds": 5.399,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3573,
+      "output_tokens": 422,
+      "total_tokens": 3995,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3573,
+        "output_tokens": 422,
+        "total_tokens": 3995,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 133,
+      "status": "completed",
+      "started_at": "2026-08-23T22:57:57.284911+08:00",
+      "completed_at": "2026-08-23T22:58:11.868672+08:00",
+      "duration_seconds": 14.584,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 48242,
+      "output_tokens": 1735,
+      "total_tokens": 49977,
+      "message_count": 13,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 48242,
+        "output_tokens": 1735,
+        "total_tokens": 49977,
+        "input_token_details": {
+          "cache_read": 512
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 134,
+      "status": "completed",
+      "started_at": "2026-08-23T22:58:11.874864+08:00",
+      "completed_at": "2026-08-23T22:58:14.303905+08:00",
+      "duration_seconds": 2.429,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6686,
+      "output_tokens": 117,
+      "total_tokens": 6803,
+      "message_count": 8,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 6686,
+        "output_tokens": 117,
+        "total_tokens": 6803,
+        "input_token_details": {
+          "cache_read": 6144
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 135,
+      "status": "completed",
+      "started_at": "2026-08-23T22:58:14.311391+08:00",
+      "completed_at": "2026-08-23T22:59:08.676272+08:00",
+      "duration_seconds": 54.365,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5761,
+      "output_tokens": 5839,
+      "total_tokens": 11600,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5761,
+        "output_tokens": 5839,
+        "total_tokens": 11600,
+        "input_token_details": {},
+        "output_token_details": {}
+      },
+      "finish_reason": "end_turn"
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "status": "completed",
+      "query": "中国电影票房总榜2026年8月",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.407,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "2026年8月电影总票房（含预售）突破40亿",
+          "url": "https://xinwen.bjd.com.cn/content/s6a85a0f8e4b0e45f3fd63b76.html",
+          "score": 0.9409691,
+          "raw_content_available": true,
+          "raw_content_length": 759,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "2026年8月电影票房已超30亿元 - 经济观察网 － 专业财经新闻网站",
+          "url": "http://www.eeo.com.cn/2026/0815/999745.shtml",
+          "score": 0.93191636,
+          "raw_content_available": true,
+          "raw_content_length": 6640,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "2026年8月电影票房突破10亿元",
+          "url": "https://www.stcn.com/article/detail/4058424.html",
+          "score": 0.9305657,
+          "raw_content_available": true,
+          "raw_content_length": 6568,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "2026年8月总票房（含预售）突破30亿，《蜘蛛侠：崭新之日》《欢迎来龙餐馆》《八仙！》《奥德赛》《功夫女足》暂列8月票房榜前五_新浪财经_新浪网",
+          "url": "https://finance.sina.com.cn/wm/2026-08-15/doc-ininkwen1820068.shtml",
+          "score": 0.9245858,
+          "raw_content_available": true,
+          "raw_content_length": 17278,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "2026年08月上映影片 | 中国票房 | 中国电影票房排行榜",
+          "url": "http://www.boxofficecn.com/archives/360502",
+          "score": 0.923268,
+          "raw_content_available": true,
+          "raw_content_length": 1681,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 5,
+      "timestamp": "2026-08-23T22:54:29.956267+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "2026年中国大陆电影票房排行榜前十",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.901,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "2026年度电影票房_百度百科",
+          "url": "https://baike.baidu.com/item/2026%E5%B9%B4%E5%BA%A6%E7%94%B5%E5%BD%B1%E7%A5%A8%E6%88%BF/67324842",
+          "score": 0.9018604,
+          "raw_content_available": true,
+          "raw_content_length": 7437,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "[中国电影报道]2026年中国电影市场票房排行榜前十名",
+          "url": "https://tv.cctv.com/2026/05/23/VIDEN0T6lCIpsvtcSJDR3YT3260523.shtml",
+          "score": 0.8588255,
+          "raw_content_available": true,
+          "raw_content_length": 2221,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "突破70亿！2026中国电影票房暂列全球第一_新闻频道_央视网(cctv.com)",
+          "url": "https://news.cctv.com/2026/02/21/ARTIT0prlAg7hWGSlOhw7BOW260221.shtml",
+          "score": 0.8539252,
+          "raw_content_available": true,
+          "raw_content_length": 3354,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "數字看中國／2026年大陸電影市場票房破100億元",
+          "url": "https://tw.news.yahoo.com/%E6%95%B8%E5%AD%97%E7%9C%8B%E4%B8%AD%E5%9C%8B-2026%E5%B9%B4%E5%A4%A7%E9%99%B8%E9%9B%BB%E5%BD%B1%E5%B8%82%E5%A0%B4%E7%A5%A8%E6%88%BF%E7%A0%B4100%E5%84%84%E5%85%83-051858738.html",
+          "score": 0.8443195,
+          "raw_content_available": true,
+          "raw_content_length": 10295,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "中国内地最高电影票房收入列表 - 维基百科，自由的百科全书",
+          "url": "https://zh.wikipedia.org/zh-hans/%E4%B8%AD%E5%9B%BD%E5%86%85%E5%9C%B0%E6%9C%80%E9%AB%98%E7%94%B5%E5%BD%B1%E7%A5%A8%E6%88%BF%E6%94%B6%E5%85%A5%E5%88%97%E8%A1%A8",
+          "score": 0.8430832,
+          "raw_content_available": true,
+          "raw_content_length": 168143,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 6,
+      "timestamp": "2026-08-23T22:54:30.430018+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "2026年中国电影票房总榜排名",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 3.129,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "2026年中国电影年度票房突破200亿元_影片_风起_情书",
+          "url": "https://www.sohu.com/a/1052153536_123753",
+          "score": 0.933534,
+          "raw_content_available": true,
+          "raw_content_length": 1007,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "2026年度电影票房_百度百科",
+          "url": "https://baike.baidu.com/item/2026%E5%B9%B4%E5%BA%A6%E7%94%B5%E5%BD%B1%E7%A5%A8%E6%88%BF/67324842",
+          "score": 0.9165366,
+          "raw_content_available": true,
+          "raw_content_length": 7437,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "突破70亿！2026中国电影票房暂列全球第一 - 新闻频道- 央视网",
+          "url": "https://news.cctv.com/2026/02/21/ARTIT0prlAg7hWGSlOhw7BOW260221.shtml",
+          "score": 0.87166095,
+          "raw_content_available": true,
+          "raw_content_length": 3354,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "中國內地最高電影票房收入列表",
+          "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9B%BD%E5%86%85%E5%9C%B0%E6%9C%80%E9%AB%98%E7%94%B5%E5%BD%B1%E7%A5%A8%E6%88%BF%E6%94%B6%E5%85%A5%E5%88%97%E8%A1%A8",
+          "score": 0.79561085,
+          "raw_content_available": true,
+          "raw_content_length": 168083,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "[中国电影报道]2026年中国电影市场票房排行榜前十名 - CCTV",
+          "url": "https://tv.cctv.com/2026/05/23/VIDEN0T6lCIpsvtcSJDR3YT3260523.shtml",
+          "score": 0.78294516,
+          "raw_content_available": true,
+          "raw_content_length": 2221,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 7,
+      "timestamp": "2026-08-23T22:54:30.670555+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "中国电影票房排行榜前十名 2026年8月",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.665,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "2026年8月电影总票房（含预售）突破40亿",
+          "url": "https://xinwen.bjd.com.cn/content/s6a85a0f8e4b0e45f3fd63b76.html",
+          "score": 0.9134376,
+          "raw_content_available": true,
+          "raw_content_length": 759,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "2026年8月电影票房已超30亿元 _ 东方财富网",
+          "url": "https://finance.eastmoney.com/a/202608153842434372.html",
+          "score": 0.90452427,
+          "raw_content_available": true,
+          "raw_content_length": 7193,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "2026年8月电影票房突破10亿元 - 证券时报",
+          "url": "https://www.stcn.com/article/detail/4058424.html",
+          "score": 0.8943568,
+          "raw_content_available": true,
+          "raw_content_length": 6568,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "2026年8月全国总票房已破45亿 - 新京报",
+          "url": "https://www.bjnews.com.cn/detail/1787381384129370.html",
+          "score": 0.8849276,
+          "raw_content_available": true,
+          "raw_content_length": 4884,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "2026年度电影票房_百度百科",
+          "url": "https://baike.baidu.com/item/2026%E5%B9%B4%E5%BA%A6%E7%94%B5%E5%BD%B1%E7%A5%A8%E6%88%BF/67324842",
+          "score": 0.86441374,
+          "raw_content_available": true,
+          "raw_content_length": 7437,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 21,
+      "timestamp": "2026-08-23T22:54:53.725163+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "中国影史票房前十 最新 2026",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 3.748,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "2026年度电影票房_百度百科",
+          "url": "https://baike.baidu.com/item/2026%E5%B9%B4%E5%BA%A6%E7%94%B5%E5%BD%B1%E7%A5%A8%E6%88%BF/67324842",
+          "score": 0.850382,
+          "raw_content_available": true,
+          "raw_content_length": 7437,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "中国历史票房红榜| 中国票房| 中国电影票房排行榜",
+          "url": "http://www.boxofficecn.com/the-red-box-office",
+          "score": 0.8282873,
+          "raw_content_available": true,
+          "raw_content_length": 19017,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "突破70亿！2026中国电影票房暂列全球第一 - 新闻频道- 央视网",
+          "url": "https://news.cctv.com/2026/02/21/ARTIT0prlAg7hWGSlOhw7BOW260221.shtml",
+          "score": 0.81665546,
+          "raw_content_available": true,
+          "raw_content_length": 3354,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "中国内地最高电影票房收入列表 - 维基百科",
+          "url": "https://zh.wikipedia.org/zh-hans/%E4%B8%AD%E5%9B%BD%E5%86%85%E5%9C%B0%E6%9C%80%E9%AB%98%E7%94%B5%E5%BD%B1%E7%A5%A8%E6%88%BF%E6%94%B6%E5%85%A5%E5%88%97%E8%A1%A8",
+          "score": 0.79080546,
+          "raw_content_available": true,
+          "raw_content_length": 168143,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "中國內地最高電影票房收入列表",
+          "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9B%BD%E5%86%85%E5%9C%B0%E6%9C%80%E9%AB%98%E7%94%B5%E5%BD%B1%E7%A5%A8%E6%88%BF%E6%94%B6%E5%85%A5%E5%88%97%E8%A1%A8",
+          "score": 0.78314424,
+          "raw_content_available": true,
+          "raw_content_length": 168083,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 22,
+      "timestamp": "2026-08-23T22:54:54.815798+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "中国电影票房总榜历史排名 2026",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 4.301,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "2026中国电影年度票房超200亿，暑期档破42亿_腾讯新闻",
+          "url": "https://news.qq.com/rain/a/20260719A05RAR00",
+          "score": 0.8752871,
+          "raw_content_available": true,
+          "raw_content_length": 646,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "中国历史票房红榜| 中国票房| 中国电影票房排行榜",
+          "url": "http://www.boxofficecn.com/the-red-box-office",
+          "score": 0.86052185,
+          "raw_content_available": true,
+          "raw_content_length": 19017,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "中国内地最高电影票房收入列表 - 维基百科",
+          "url": "https://zh.wikipedia.org/zh-hans/%E4%B8%AD%E5%9B%BD%E5%86%85%E5%9C%B0%E6%9C%80%E9%AB%98%E7%94%B5%E5%BD%B1%E7%A5%A8%E6%88%BF%E6%94%B6%E5%85%A5%E5%88%97%E8%A1%A8",
+          "score": 0.81347597,
+          "raw_content_available": true,
+          "raw_content_length": 168143,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "中國內地最高電影票房收入列表",
+          "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9B%BD%E5%86%85%E5%9C%B0%E6%9C%80%E9%AB%98%E7%94%B5%E5%BD%B1%E7%A5%A8%E6%88%BF%E6%94%B6%E5%85%A5%E5%88%97%E8%A1%A8",
+          "score": 0.80771893,
+          "raw_content_available": true,
+          "raw_content_length": 168083,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "中国电影票房_百度百科",
+          "url": "https://baike.baidu.com/item/%E4%B8%AD%E5%9B%BD%E7%94%B5%E5%BD%B1%E7%A5%A8%E6%88%BF/4101787",
+          "score": 0.77994305,
+          "raw_content_available": true,
+          "raw_content_length": 22474,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 23,
+      "timestamp": "2026-08-23T22:54:55.350619+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "长津湖 电影 主题 题材 制作公司 时长 导演 百度百科",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.596,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "长津湖 (电影) - 维基百科，自由的百科全书",
+          "url": "https://zh.wikipedia.org/zh-hans/%E9%95%BF%E6%B4%A5%E6%B9%96_(%E7%94%B5%E5%BD%B1)",
+          "score": 0.796562,
+          "raw_content_available": true,
+          "raw_content_length": 114656,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "长津湖（2021年陈凯歌、徐克、林超贤联合执导的历史战争电影）_百度百科",
+          "url": "https://baike.baidu.com/item/%E9%95%BF%E6%B4%A5%E6%B9%96/54100039",
+          "score": 0.7395922,
+          "raw_content_available": true,
+          "raw_content_length": 35910,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "《长津湖》系列电影票房近百亿",
+          "url": "http://paper.people.com.cn/rmrbhwb/html/2022-03/18/content_25908055.htm",
+          "score": 0.59655124,
+          "raw_content_available": true,
+          "raw_content_length": 7239,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "176分钟的电影《长津湖》凭何引人“热追”？-新华网",
+          "url": "http://www.news.cn/culture/2021-10/07/c_1127934230.htm",
+          "score": 0.59033114,
+          "raw_content_available": true,
+          "raw_content_length": 2467,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "主创详解《长津湖》六大疑问-新华网",
+          "url": "http://www.news.cn/ent/20211011/b79be9ea5c044bacbf288250a8938e7c/c.html",
+          "score": 0.491725,
+          "raw_content_available": true,
+          "raw_content_length": 5174,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 40,
+      "timestamp": "2026-08-23T22:56:51.979934+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "你好李焕英 电影 主题 题材 制作公司 时长 导演 百度百科",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.73,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "你好，李焕英 - 维基百科，自由的百科全书",
+          "url": "https://zh.wikipedia.org/zh-hans/%E4%BD%A0%E5%A5%BD%EF%BC%8C%E6%9D%8E%E7%84%95%E8%8B%B1",
+          "score": 0.7927375,
+          "raw_content_available": true,
+          "raw_content_length": 48077,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "你好，李焕英（索尼影业翻拍的电影）_百度百科",
+          "url": "https://baike.baidu.com/item/%E4%BD%A0%E5%A5%BD%EF%BC%8C%E6%9D%8E%E7%84%95%E8%8B%B1/63611577",
+          "score": 0.6747586,
+          "raw_content_available": true,
+          "raw_content_length": 1456,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "你好，李焕英",
+          "url": "https://baike.baidu.com/item/%E4%BD%A0%E5%A5%BD%EF%BC%8C%E6%9D%8E%E7%84%95%E8%8B%B1/20427874",
+          "score": 0.6453216,
+          "raw_content_available": true,
+          "raw_content_length": 96211,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "你好，李焕英",
+          "url": "https://baike.baidu.com/item/%E4%BD%A0%E5%A5%BD%EF%BC%8C%E6%9D%8E%E7%84%95%E8%8B%B1/19962814",
+          "score": 0.61140573,
+          "raw_content_available": true,
+          "raw_content_length": 28756,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "贾玲（中国内地女演员、导演、编剧）_百度百科",
+          "url": "https://baike.baidu.com/item/%E8%B4%BE%E7%8E%B2/55854",
+          "score": 0.46774563,
+          "raw_content_available": true,
+          "raw_content_length": 24448,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 41,
+      "timestamp": "2026-08-23T22:56:52.127943+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "战狼2 电影 主题 题材 制作公司 时长 导演 百度百科",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.809,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "戰狼2 - 维基百科，自由的百科全书",
+          "url": "https://zh.wikipedia.org/wiki/%E6%88%B0%E7%8B%BC2",
+          "score": 0.657033,
+          "raw_content_available": true,
+          "raw_content_length": 68974,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "战狼Ⅱ_百度百科",
+          "url": "https://baike.baidu.com/item/%E6%88%98%E7%8B%BC%E2%85%A1/20794668",
+          "score": 0.62852204,
+          "raw_content_available": true,
+          "raw_content_length": 22499,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "战狼·战狼_百度百科",
+          "url": "https://baike.baidu.com/item/%E6%88%98%E7%8B%BC%C2%B7%E6%88%98%E7%8B%BC/19245848",
+          "score": 0.3804832,
+          "raw_content_available": true,
+          "raw_content_length": 12094,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "战狼",
+          "url": "https://baike.baidu.com/item/%E6%88%98%E7%8B%BC/80549",
+          "score": 0.3553503,
+          "raw_content_available": true,
+          "raw_content_length": 65348,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "战狼Ⅲ_百度百科",
+          "url": "https://baike.baidu.com/item/%E6%88%98%E7%8B%BC%E2%85%A2/22056907",
+          "score": 0.3110087,
+          "raw_content_available": true,
+          "raw_content_length": 2473,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 42,
+      "timestamp": "2026-08-23T22:56:52.200683+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "哪吒之魔童降世 电影 主题 题材 制作公司 时长 导演 百度百科",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.841,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "哪吒之魔童降世 - 维基百科，自由的百科全书",
+          "url": "https://zh.wikipedia.org/zh-hans/%E5%93%AA%E5%90%92%E4%B9%8B%E9%AD%94%E7%AB%A5%E9%99%8D%E4%B8%96",
+          "score": 0.79883134,
+          "raw_content_available": true,
+          "raw_content_length": 70664,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "哪吒之魔童降世_百度百科",
+          "url": "https://baike.baidu.com/item/%E5%93%AA%E5%90%92%E4%B9%8B%E9%AD%94%E7%AB%A5%E9%99%8D%E4%B8%96/22187580",
+          "score": 0.70871735,
+          "raw_content_available": true,
+          "raw_content_length": 22653,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "哪吒之魔童降世 - 萌娘百科 萬物皆可萌的百科全書",
+          "url": "https://zh.moegirl.org.cn/zh-hk/%E5%93%AA%E5%90%92%E4%B9%8B%E9%AD%94%E7%AB%A5%E9%99%8D%E4%B8%96",
+          "score": 0.70531887,
+          "raw_content_available": true,
+          "raw_content_length": 122329,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "哪吒（饺子执导的动画系列电影）_百度百科",
+          "url": "https://baike.baidu.com/item/%E5%93%AA%E5%90%92/65360747",
+          "score": 0.7050753,
+          "raw_content_available": true,
+          "raw_content_length": 19857,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "哪吒（电影《哪吒之魔童降世》主题曲）_百度百科",
+          "url": "https://baike.baidu.com/item/%E5%93%AA%E5%90%92/24101686",
+          "score": 0.5342973,
+          "raw_content_available": true,
+          "raw_content_length": 3719,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 43,
+      "timestamp": "2026-08-23T22:56:52.243724+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "哪吒之魔童闹海 2025 主题 题材 制作公司 时长 导演 百度百科",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.933,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "哪吒之魔童鬧海",
+          "url": "https://zh.wikipedia.org/wiki/%E5%93%AA%E5%90%92%E4%B9%8B%E9%AD%94%E7%AB%A5%E9%97%B9%E6%B5%B7",
+          "score": 0.82795376,
+          "raw_content_available": true,
+          "raw_content_length": 173192,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "哪吒之魔童闹海（2025年饺子执导的动画电影）",
+          "url": "https://baike.baidu.com/item/%E5%93%AA%E5%90%92%E4%B9%8B%E9%AD%94%E7%AB%A5%E9%97%B9%E6%B5%B7/61115689",
+          "score": 0.7482976,
+          "raw_content_available": true,
+          "raw_content_length": 38277,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "饺子（中国内地动画男导演、编剧、制作人）_百度百科",
+          "url": "https://baike.baidu.com/item/%E9%A5%BA%E5%AD%90/23621816",
+          "score": 0.7197191,
+          "raw_content_available": true,
+          "raw_content_length": 9575,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "不破不立（《哪吒之魔童闹海》幕后纪录片）_百度百科",
+          "url": "https://baike.baidu.com/item/%E4%B8%8D%E7%A0%B4%E4%B8%8D%E7%AB%8B/65389208",
+          "score": 0.61668247,
+          "raw_content_available": true,
+          "raw_content_length": 1117,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "哪吒之魔童闹海",
+          "url": "https://baike.baidu.com/item/%E5%93%AA%E5%90%92%E4%B9%8B%E9%AD%94%E7%AB%A5%E9%97%B9%E6%B5%B7/65712431",
+          "score": 0.43885794,
+          "raw_content_available": true,
+          "raw_content_length": 22784,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 44,
+      "timestamp": "2026-08-23T22:56:52.306315+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "飞驰人生3 2026 电影 主题 题材 制作公司 时长 导演 韩寒 百度百科",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.306,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "飞驰人生3 - 维基百科，自由的百科全书",
+          "url": "https://zh.wikipedia.org/wiki/%E9%A3%9E%E9%A9%B0%E4%BA%BA%E7%94%9F3",
+          "score": 0.8646883,
+          "raw_content_available": true,
+          "raw_content_length": 34083,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "韩寒（中国内地作家、导演、赛车手）_百度百科",
+          "url": "https://baike.baidu.com/item/%E9%9F%A9%E5%AF%92/72916",
+          "score": 0.7636429,
+          "raw_content_available": true,
+          "raw_content_length": 20189,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "飞驰人生3_百度百科",
+          "url": "https://baike.baidu.com/item/%E9%A3%9E%E9%A9%B0%E4%BA%BA%E7%94%9F3/65573816",
+          "score": 0.68420124,
+          "raw_content_available": true,
+          "raw_content_length": 17079,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "《飞驰人生3》发布终极预告 演绎高原赛道拼搏故事 - 新华网客户端",
+          "url": "https://app.xinhuanet.com/news/article.html?articleId=69dcb831fc5d8fc8ca776f0181f2e15b",
+          "score": 0.52773094,
+          "raw_content_available": true,
+          "raw_content_length": 948,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "《飞驰人生3》 | PEGASUS 3 (OFFICIAL TRAILER 官方预告) IN CINEMAS 26 MARCH 2026",
+          "url": "https://www.youtube.com/watch?v=XJDuhWS6L4Y",
+          "score": 0.46482924,
+          "raw_content_available": true,
+          "raw_content_length": 527,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 74,
+      "timestamp": "2026-08-23T22:57:16.123750+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "疯狂动物城2 2025 电影 Zootopia 2 主题 题材 制作公司 时长 导演 迪士尼",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.437,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Zootopia 2 - Disney Movies",
+          "url": "https://movies.disney.com/zootopia-2",
+          "score": 0.79484755,
+          "raw_content_available": true,
+          "raw_content_length": 24896,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "迪士尼《疯狂动物城2》创意团队带我们重返都市丛林—— Animation Magazine",
+          "url": "https://www.animationmagazine.net/zh-CN/2025/11/%E8%BF%AA%E5%A3%AB%E5%B0%BC%E3%80%8A%E7%96%AF%E7%8B%82%E5%8A%A8%E7%89%A9%E5%9F%8E2%E3%80%8B%E7%9A%84%E5%88%9B%E4%BD%9C%E5%9B%A2%E9%98%9F%E5%B0%86%E5%B8%A6%E9%A2%86%E6%88%91%E4%BB%AC%E9%87%8D%E8%BF%94%E9%83%BD%E5%B8%82%E4%B8%9B%E6%9E%97%E3%80%82",
+          "score": 0.7574541,
+          "raw_content_available": true,
+          "raw_content_length": 23610,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "疯狂动物城2（美国2025年拜伦·霍华德和杰拉德·布什执导的动画电影）",
+          "url": "https://baike.baidu.com/item/%E7%96%AF%E7%8B%82%E5%8A%A8%E7%89%A9%E5%9F%8E2/19912782",
+          "score": 0.67501575,
+          "raw_content_available": true,
+          "raw_content_length": 29133,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "【疯狂动物城2】 幕后故事｜动画流程和艺术创作｜制片人和两位导演",
+          "url": "https://www.youtube.com/watch?v=2Kf47Y6YaTo",
+          "score": 0.6083387,
+          "raw_content_available": true,
+          "raw_content_length": 4259,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Zootopia 2 (2025) - IMDb",
+          "url": "https://m.imdb.com/title/tt26443597",
+          "score": 0.51193684,
+          "raw_content_available": true,
+          "raw_content_length": 57216,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 75,
+      "timestamp": "2026-08-23T22:57:16.235343+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "满江红 2023 电影 主题 题材 制作公司 时长 导演 张艺谋 百度百科",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.571,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "满江红 (2023年电影) - 维基百科，自由的百科全书",
+          "url": "https://zh.wikipedia.org/zh-hans/%E6%BB%A1%E6%B1%9F%E7%BA%A2_(2023%E5%B9%B4%E7%94%B5%E5%BD%B1)",
+          "score": 0.8727061,
+          "raw_content_available": true,
+          "raw_content_length": 38358,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "满江红（2023年张艺谋执导的古装悬疑喜剧电影）_百度百科",
+          "url": "https://baike.baidu.com/item/%E6%BB%A1%E6%B1%9F%E7%BA%A2/60344617",
+          "score": 0.80625874,
+          "raw_content_available": true,
+          "raw_content_length": 19641,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "张艺谋",
+          "url": "https://baike.baidu.com/item/%E5%BC%A0%E8%89%BA%E8%B0%8B/147018",
+          "score": 0.54608524,
+          "raw_content_available": true,
+          "raw_content_length": 108144,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "满江红2",
+          "url": "https://baike.baidu.com/item/%E6%BB%A1%E6%B1%9F%E7%BA%A22/65573438",
+          "score": 0.3503997,
+          "raw_content_available": true,
+          "raw_content_length": 26352,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "满江红（京剧）",
+          "url": "https://baike.baidu.com/item/%E6%BB%A1%E6%B1%9F%E7%BA%A2%EF%BC%88%E4%BA%AC%E5%89%A7%EF%BC%89/57246704",
+          "score": 0.30148593,
+          "raw_content_available": true,
+          "raw_content_length": 27026,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 76,
+      "timestamp": "2026-08-23T22:57:16.377844+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "流浪地球 2019 电影 主题 题材 制作公司 时长 导演 百度百科",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 3.018,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "流浪地球（2019年郭帆执导的科幻片）_百度百科",
+          "url": "https://baike.baidu.com/item/%E6%B5%81%E6%B5%AA%E5%9C%B0%E7%90%83/16278407",
+          "score": 0.79196626,
+          "raw_content_available": true,
+          "raw_content_length": 32013,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "流浪地球 - 萌娘百科 万物皆可萌的百科全书",
+          "url": "https://zh.moegirl.org.cn/%E6%B5%81%E6%B5%AA%E5%9C%B0%E7%90%83",
+          "score": 0.7591723,
+          "raw_content_available": true,
+          "raw_content_length": 145569,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "流浪地球 (电影) - 维基百科，自由的百科全书",
+          "url": "https://zh.wikipedia.org/wiki/%E6%B5%81%E6%B5%AA%E5%9C%B0%E7%90%83_(%E7%94%B5%E5%BD%B1)",
+          "score": 0.7515939,
+          "raw_content_available": true,
+          "raw_content_length": 129613,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "流浪地球（根据刘慈欣同名小说改编的系列科幻电影，由郭帆执导）_百度百科",
+          "url": "https://baike.baidu.com/item/%E6%B5%81%E6%B5%AA%E5%9C%B0%E7%90%83/62691407",
+          "score": 0.74004334,
+          "raw_content_available": true,
+          "raw_content_length": 5918,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "《流浪地球》电影制作手记",
+          "url": "https://baike.baidu.com/item/%E3%80%8A%E6%B5%81%E6%B5%AA%E5%9C%B0%E7%90%83%E3%80%8B%E7%94%B5%E5%BD%B1%E5%88%B6%E4%BD%9C%E6%89%8B%E8%AE%B0/23299342",
+          "score": 0.3684062,
+          "raw_content_available": true,
+          "raw_content_length": 15849,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 77,
+      "timestamp": "2026-08-23T22:57:16.806482+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "唐人街探案3 2021 电影 主题 题材 制作公司 时长 导演 百度百科",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.998,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "唐人街探案3 - 维基百科，自由的百科全书",
+          "url": "https://zh.wikipedia.org/wiki/%E5%94%90%E4%BA%BA%E8%A1%97%E6%8E%A2%E6%A1%883",
+          "score": 0.8449346,
+          "raw_content_available": true,
+          "raw_content_length": 34538,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "唐人街探案3_百度百科",
+          "url": "https://baike.baidu.com/item/%E5%94%90%E4%BA%BA%E8%A1%97%E6%8E%A2%E6%A1%883/22401169",
+          "score": 0.76173395,
+          "raw_content_available": true,
+          "raw_content_length": 19341,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "唐人街探案2",
+          "url": "https://baike.baidu.com/item/%E5%94%90%E4%BA%BA%E8%A1%97%E6%8E%A2%E6%A1%882/19185945",
+          "score": 0.70336664,
+          "raw_content_available": true,
+          "raw_content_length": 45318,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "唐人街探案4_百度百科",
+          "url": "https://baike.baidu.com/item/%E5%94%90%E4%BA%BA%E8%A1%97%E6%8E%A2%E6%A1%884/54159639",
+          "score": 0.2227597,
+          "raw_content_available": true,
+          "raw_content_length": 1454,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "陈思诚_百度百科",
+          "url": "https://baike.baidu.com/item/%E9%99%88%E6%80%9D%E8%AF%9A/7632851",
+          "score": 0.20606238,
+          "raw_content_available": true,
+          "raw_content_length": 51478,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 78,
+      "timestamp": "2026-08-23T22:57:16.810525+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "唐人街探案3 片长 分钟 时长 136分钟",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.186,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "唐人街探案3",
+          "url": "https://zh.wikipedia.org/wiki/%E5%94%90%E4%BA%BA%E8%A1%97%E6%8E%A2%E6%A1%883",
+          "score": 0.9202254,
+          "raw_content_available": true,
+          "raw_content_length": 34538,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "唐人街探案3-电影网",
+          "url": "https://m.1905.com/Mdb/mdbDetail/filmid/2244528",
+          "score": 0.8351749,
+          "raw_content_available": true,
+          "raw_content_length": 9173,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "​《唐人街探案3》为何赢了票房却输了口碑-36氪",
+          "url": "https://m.36kr.com/p/1099028366149641",
+          "score": 0.818055,
+          "raw_content_available": true,
+          "raw_content_length": 17042,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "‎《唐人街探案3》- Apple TV",
+          "url": "https://tv.apple.com/tw/movie/%E5%94%90%E4%BA%BA%E8%A1%97%E6%8E%A2%E6%A1%883/umc.cmc.6kudwahhyo195dua57mp0a5pr",
+          "score": 0.7316155,
+          "raw_content_available": true,
+          "raw_content_length": 4332,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "唐人街探案3",
+          "url": "https://baike.baidu.com/item/%E5%94%90%E4%BA%BA%E8%A1%97%E6%8E%A2%E6%A1%883/22401169",
+          "score": 0.511644,
+          "raw_content_available": true,
+          "raw_content_length": 19341,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 106,
+      "timestamp": "2026-08-23T22:57:46.678861+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "满江红 片长 分钟 时长 159分钟",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.239,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "满江红- 电影",
+          "url": "https://m.douban.com/movie/subject/35766491",
+          "score": 0.82254606,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "《满江红》独家幕后：计划过全片一镜到底，孙均代表热血和希望",
+          "url": "https://kandian.sina.cn/article_5737990122_15602c7ea019010jyw.html",
+          "score": 0.7750779,
+          "raw_content_available": true,
+          "raw_content_length": 8623,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "最快50亿纪录！春节档电影票房二、三日超过2019年",
+          "url": "https://wallstreetcn.com/articles/3680509",
+          "score": 0.7366474,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "春节档电影总票房已突破33亿！排名第一的是……",
+          "url": "https://m.gmw.cn/2023-01/24/content_1303263104.htm",
+          "score": 0.51369345,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "满江红（2023年张艺谋执导的古装悬疑喜剧电影）_百度百科",
+          "url": "https://baike.baidu.com/item/%E6%BB%A1%E6%B1%9F%E7%BA%A2/60344617",
+          "score": 0.46818325,
+          "raw_content_available": true,
+          "raw_content_length": 19641,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 107,
+      "timestamp": "2026-08-23T22:57:46.726932+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "你好李焕英 片长 分钟 时长 制作公司 出品方",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.493,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "你好，李焕英- 维基百科，自由的百科全书",
+          "url": "https://zh.wikipedia.org/zh-hans/%E4%BD%A0%E5%A5%BD%EF%BC%8C%E6%9D%8E%E7%84%95%E8%8B%B1",
+          "score": 0.87981987,
+          "raw_content_available": true,
+          "raw_content_length": 48077,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "你好，李焕英（2021年贾玲执导的奇幻喜剧电影） - 百度百科",
+          "url": "https://baike.baidu.com/item/%E4%BD%A0%E5%A5%BD%EF%BC%8C%E6%9D%8E%E7%84%95%E8%8B%B1/20427874",
+          "score": 0.3995779,
+          "raw_content_available": true,
+          "raw_content_length": 96211,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "李焕英出圈，电影行业却快出局了？|界面新闻 · JMedia",
+          "url": "https://www.jiemian.com/article/5798599.html",
+          "score": 0.39110413,
+          "raw_content_available": true,
+          "raw_content_length": 8545,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "《你好，李焕英》大卖 第一出品方北京文化为何收入有限-新华网",
+          "url": "http://www.xinhuanet.com/fortune/2021-02/20/c_1127119373.htm",
+          "score": 0.35864556,
+          "raw_content_available": true,
+          "raw_content_length": 2006,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "全球最高票房女性導演作品！【你好，李煥英】Hi, Mom 電影預告5/6(五 ...",
+          "url": "https://www.youtube.com/watch?v=xEs3fisYNRM",
+          "score": 0.31292662,
+          "raw_content_available": true,
+          "raw_content_length": 415,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 108,
+      "timestamp": "2026-08-23T22:57:46.974561+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "战狼2 片长 分钟 时长 123分钟",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 3.074,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "戰狼2 - 維基百科，自由的百科全書",
+          "url": "https://zh.wikipedia.org/wiki/%E6%88%B0%E7%8B%BC2",
+          "score": 0.88564163,
+          "raw_content_available": true,
+          "raw_content_length": 68974,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "战狼2",
+          "url": "https://piaofang.maoyan.com/movie/344264",
+          "score": 0.86108357,
+          "raw_content_available": true,
+          "raw_content_length": 572,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "《战狼2》吴京真的很拼 开头水下搏斗戏就值回票价--传媒--人民网",
+          "url": "http://media.people.com.cn/n1/2017/0728/c40606-29433650.html",
+          "score": 0.75723875,
+          "raw_content_available": true,
+          "raw_content_length": 8292,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "战狼Ⅱ_百度百科",
+          "url": "https://baike.baidu.com/item/%E6%88%98%E7%8B%BC%E2%85%A1/20794668",
+          "score": 0.46075046,
+          "raw_content_available": true,
+          "raw_content_length": 22499,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "《戰狼II Wolf Warrior II》 - HK Regular Trailer 香港版正式預告 - YouTube",
+          "url": "https://www.youtube.com/watch?v=xMVozCJ62Fg",
+          "score": 0.28252566,
+          "raw_content_available": true,
+          "raw_content_length": 388,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 109,
+      "timestamp": "2026-08-23T22:57:47.547642+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "哪吒之魔童闹海 片长 分钟 时长 144分钟",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 3.118,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "哪吒之魔童鬧海",
+          "url": "https://zh.wikipedia.org/wiki/%E5%93%AA%E5%90%92%E4%B9%8B%E9%AD%94%E7%AB%A5%E9%97%B9%E6%B5%B7",
+          "score": 0.91760606,
+          "raw_content_available": true,
+          "raw_content_length": 173192,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "哪吒之魔童闹海",
+          "url": "https://piaofang.maoyan.com/movie/1294273",
+          "score": 0.85567063,
+          "raw_content_available": true,
+          "raw_content_length": 801,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "哪吒之魔童闹海（2025年饺子执导的动画电影）",
+          "url": "https://baike.baidu.com/item/%E5%93%AA%E5%90%92%E4%B9%8B%E9%AD%94%E7%AB%A5%E9%97%B9%E6%B5%B7/61115689",
+          "score": 0.6052631,
+          "raw_content_available": true,
+          "raw_content_length": 38277,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "《哪吒之魔童闹海》：跨越数百年的认祖归宗",
+          "url": "https://theinitium.com/20250223-culture-film-nezha2-review-zh-hans",
+          "score": 0.3697024,
+          "raw_content_available": true,
+          "raw_content_length": 3024,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "《哪吒之魔童鬧海》首回繁體版預告",
+          "url": "https://www.youtube.com/watch?v=oVURYfWg3RU",
+          "score": 0.31085178,
+          "raw_content_available": true,
+          "raw_content_length": 488,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 110,
+      "timestamp": "2026-08-23T22:57:47.580779+08:00"
+    }
+  ],
+  "summary_cache_hits": 15,
+  "summary_cache_hit_urls": [
+    "https://zh.wikipedia.org/zh-hans/%E4%B8%AD%E5%9B%BD%E5%86%85%E5%9C%B0%E6%9C%80%E9%AB%98%E7%94%B5%E5%BD%B1%E7%A5%A8%E6%88%BF%E6%94%B6%E5%85%A5%E5%88%97%E8%A1%A8",
+    "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9B%BD%E5%86%85%E5%9C%B0%E6%9C%80%E9%AB%98%E7%94%B5%E5%BD%B1%E7%A5%A8%E6%88%BF%E6%94%B6%E5%85%A5%E5%88%97%E8%A1%A8",
+    "https://xinwen.bjd.com.cn/content/s6a85a0f8e4b0e45f3fd63b76.html",
+    "https://www.stcn.com/article/detail/4058424.html",
+    "https://baike.baidu.com/item/2026%E5%B9%B4%E5%BA%A6%E7%94%B5%E5%BD%B1%E7%A5%A8%E6%88%BF/67324842",
+    "https://news.cctv.com/2026/02/21/ARTIT0prlAg7hWGSlOhw7BOW260221.shtml",
+    "https://zh.wikipedia.org/wiki/%E5%93%AA%E5%90%92%E4%B9%8B%E9%AD%94%E7%AB%A5%E9%97%B9%E6%B5%B7",
+    "https://baike.baidu.com/item/%E5%93%AA%E5%90%92%E4%B9%8B%E9%AD%94%E7%AB%A5%E9%97%B9%E6%B5%B7/61115689",
+    "https://zh.wikipedia.org/wiki/%E6%88%B0%E7%8B%BC2",
+    "https://baike.baidu.com/item/%E6%88%98%E7%8B%BC%E2%85%A1/20794668",
+    "https://zh.wikipedia.org/zh-hans/%E4%BD%A0%E5%A5%BD%EF%BC%8C%E6%9D%8E%E7%84%95%E8%8B%B1",
+    "https://baike.baidu.com/item/%E4%BD%A0%E5%A5%BD%EF%BC%8C%E6%9D%8E%E7%84%95%E8%8B%B1/20427874",
+    "https://baike.baidu.com/item/%E6%BB%A1%E6%B1%9F%E7%BA%A2/60344617",
+    "https://zh.wikipedia.org/wiki/%E5%94%90%E4%BA%BA%E8%A1%97%E6%8E%A2%E6%A1%883",
+    "https://baike.baidu.com/item/%E5%94%90%E4%BA%BA%E8%A1%97%E6%8E%A2%E6%A1%883/22401169"
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://xinwen.bjd.com.cn/content/s6a85a0f8e4b0e45f3fd63b76.html",
+      "status": "success",
+      "content_length": 759,
+      "duration_seconds": 2.407,
+      "query": "中国电影票房总榜2026年8月"
+    },
+    {
+      "url": "http://www.eeo.com.cn/2026/0815/999745.shtml",
+      "status": "success",
+      "content_length": 6640,
+      "duration_seconds": 2.407,
+      "query": "中国电影票房总榜2026年8月"
+    },
+    {
+      "url": "https://www.stcn.com/article/detail/4058424.html",
+      "status": "success",
+      "content_length": 6568,
+      "duration_seconds": 2.407,
+      "query": "中国电影票房总榜2026年8月"
+    },
+    {
+      "url": "https://finance.sina.com.cn/wm/2026-08-15/doc-ininkwen1820068.shtml",
+      "status": "success",
+      "content_length": 17278,
+      "duration_seconds": 2.407,
+      "query": "中国电影票房总榜2026年8月"
+    },
+    {
+      "url": "http://www.boxofficecn.com/archives/360502",
+      "status": "success",
+      "content_length": 1681,
+      "duration_seconds": 2.407,
+      "query": "中国电影票房总榜2026年8月"
+    },
+    {
+      "url": "https://baike.baidu.com/item/2026%E5%B9%B4%E5%BA%A6%E7%94%B5%E5%BD%B1%E7%A5%A8%E6%88%BF/67324842",
+      "status": "success",
+      "content_length": 7437,
+      "duration_seconds": 2.901,
+      "query": "2026年中国大陆电影票房排行榜前十"
+    },
+    {
+      "url": "https://tv.cctv.com/2026/05/23/VIDEN0T6lCIpsvtcSJDR3YT3260523.shtml",
+      "status": "success",
+      "content_length": 2221,
+      "duration_seconds": 2.901,
+      "query": "2026年中国大陆电影票房排行榜前十"
+    },
+    {
+      "url": "https://news.cctv.com/2026/02/21/ARTIT0prlAg7hWGSlOhw7BOW260221.shtml",
+      "status": "success",
+      "content_length": 3354,
+      "duration_seconds": 2.901,
+      "query": "2026年中国大陆电影票房排行榜前十"
+    },
+    {
+      "url": "https://tw.news.yahoo.com/%E6%95%B8%E5%AD%97%E7%9C%8B%E4%B8%AD%E5%9C%8B-2026%E5%B9%B4%E5%A4%A7%E9%99%B8%E9%9B%BB%E5%BD%B1%E5%B8%82%E5%A0%B4%E7%A5%A8%E6%88%BF%E7%A0%B4100%E5%84%84%E5%85%83-051858738.html",
+      "status": "success",
+      "content_length": 10295,
+      "duration_seconds": 2.901,
+      "query": "2026年中国大陆电影票房排行榜前十"
+    },
+    {
+      "url": "https://zh.wikipedia.org/zh-hans/%E4%B8%AD%E5%9B%BD%E5%86%85%E5%9C%B0%E6%9C%80%E9%AB%98%E7%94%B5%E5%BD%B1%E7%A5%A8%E6%88%BF%E6%94%B6%E5%85%A5%E5%88%97%E8%A1%A8",
+      "status": "success",
+      "content_length": 168143,
+      "duration_seconds": 2.901,
+      "query": "2026年中国大陆电影票房排行榜前十"
+    },
+    {
+      "url": "https://www.sohu.com/a/1052153536_123753",
+      "status": "success",
+      "content_length": 1007,
+      "duration_seconds": 3.129,
+      "query": "2026年中国电影票房总榜排名"
+    },
+    {
+      "url": "https://baike.baidu.com/item/2026%E5%B9%B4%E5%BA%A6%E7%94%B5%E5%BD%B1%E7%A5%A8%E6%88%BF/67324842",
+      "status": "success",
+      "content_length": 7437,
+      "duration_seconds": 3.129,
+      "query": "2026年中国电影票房总榜排名"
+    },
+    {
+      "url": "https://news.cctv.com/2026/02/21/ARTIT0prlAg7hWGSlOhw7BOW260221.shtml",
+      "status": "success",
+      "content_length": 3354,
+      "duration_seconds": 3.129,
+      "query": "2026年中国电影票房总榜排名"
+    },
+    {
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9B%BD%E5%86%85%E5%9C%B0%E6%9C%80%E9%AB%98%E7%94%B5%E5%BD%B1%E7%A5%A8%E6%88%BF%E6%94%B6%E5%85%A5%E5%88%97%E8%A1%A8",
+      "status": "success",
+      "content_length": 168083,
+      "duration_seconds": 3.129,
+      "query": "2026年中国电影票房总榜排名"
+    },
+    {
+      "url": "https://tv.cctv.com/2026/05/23/VIDEN0T6lCIpsvtcSJDR3YT3260523.shtml",
+      "status": "success",
+      "content_length": 2221,
+      "duration_seconds": 3.129,
+      "query": "2026年中国电影票房总榜排名"
+    },
+    {
+      "url": "https://xinwen.bjd.com.cn/content/s6a85a0f8e4b0e45f3fd63b76.html",
+      "status": "success",
+      "content_length": 759,
+      "duration_seconds": 2.665,
+      "query": "中国电影票房排行榜前十名 2026年8月"
+    },
+    {
+      "url": "https://finance.eastmoney.com/a/202608153842434372.html",
+      "status": "success",
+      "content_length": 7193,
+      "duration_seconds": 2.665,
+      "query": "中国电影票房排行榜前十名 2026年8月"
+    },
+    {
+      "url": "https://www.stcn.com/article/detail/4058424.html",
+      "status": "success",
+      "content_length": 6568,
+      "duration_seconds": 2.665,
+      "query": "中国电影票房排行榜前十名 2026年8月"
+    },
+    {
+      "url": "https://www.bjnews.com.cn/detail/1787381384129370.html",
+      "status": "success",
+      "content_length": 4884,
+      "duration_seconds": 2.665,
+      "query": "中国电影票房排行榜前十名 2026年8月"
+    },
+    {
+      "url": "https://baike.baidu.com/item/2026%E5%B9%B4%E5%BA%A6%E7%94%B5%E5%BD%B1%E7%A5%A8%E6%88%BF/67324842",
+      "status": "success",
+      "content_length": 7437,
+      "duration_seconds": 2.665,
+      "query": "中国电影票房排行榜前十名 2026年8月"
+    },
+    {
+      "url": "https://baike.baidu.com/item/2026%E5%B9%B4%E5%BA%A6%E7%94%B5%E5%BD%B1%E7%A5%A8%E6%88%BF/67324842",
+      "status": "success",
+      "content_length": 7437,
+      "duration_seconds": 3.748,
+      "query": "中国影史票房前十 最新 2026"
+    },
+    {
+      "url": "http://www.boxofficecn.com/the-red-box-office",
+      "status": "success",
+      "content_length": 19017,
+      "duration_seconds": 3.748,
+      "query": "中国影史票房前十 最新 2026"
+    },
+    {
+      "url": "https://news.cctv.com/2026/02/21/ARTIT0prlAg7hWGSlOhw7BOW260221.shtml",
+      "status": "success",
+      "content_length": 3354,
+      "duration_seconds": 3.748,
+      "query": "中国影史票房前十 最新 2026"
+    },
+    {
+      "url": "https://zh.wikipedia.org/zh-hans/%E4%B8%AD%E5%9B%BD%E5%86%85%E5%9C%B0%E6%9C%80%E9%AB%98%E7%94%B5%E5%BD%B1%E7%A5%A8%E6%88%BF%E6%94%B6%E5%85%A5%E5%88%97%E8%A1%A8",
+      "status": "success",
+      "content_length": 168143,
+      "duration_seconds": 3.748,
+      "query": "中国影史票房前十 最新 2026"
+    },
+    {
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9B%BD%E5%86%85%E5%9C%B0%E6%9C%80%E9%AB%98%E7%94%B5%E5%BD%B1%E7%A5%A8%E6%88%BF%E6%94%B6%E5%85%A5%E5%88%97%E8%A1%A8",
+      "status": "success",
+      "content_length": 168083,
+      "duration_seconds": 3.748,
+      "query": "中国影史票房前十 最新 2026"
+    },
+    {
+      "url": "https://news.qq.com/rain/a/20260719A05RAR00",
+      "status": "success",
+      "content_length": 646,
+      "duration_seconds": 4.301,
+      "query": "中国电影票房总榜历史排名 2026"
+    },
+    {
+      "url": "http://www.boxofficecn.com/the-red-box-office",
+      "status": "success",
+      "content_length": 19017,
+      "duration_seconds": 4.301,
+      "query": "中国电影票房总榜历史排名 2026"
+    },
+    {
+      "url": "https://zh.wikipedia.org/zh-hans/%E4%B8%AD%E5%9B%BD%E5%86%85%E5%9C%B0%E6%9C%80%E9%AB%98%E7%94%B5%E5%BD%B1%E7%A5%A8%E6%88%BF%E6%94%B6%E5%85%A5%E5%88%97%E8%A1%A8",
+      "status": "success",
+      "content_length": 168143,
+      "duration_seconds": 4.301,
+      "query": "中国电影票房总榜历史排名 2026"
+    },
+    {
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9B%BD%E5%86%85%E5%9C%B0%E6%9C%80%E9%AB%98%E7%94%B5%E5%BD%B1%E7%A5%A8%E6%88%BF%E6%94%B6%E5%85%A5%E5%88%97%E8%A1%A8",
+      "status": "success",
+      "content_length": 168083,
+      "duration_seconds": 4.301,
+      "query": "中国电影票房总榜历史排名 2026"
+    },
+    {
+      "url": "https://baike.baidu.com/item/%E4%B8%AD%E5%9B%BD%E7%94%B5%E5%BD%B1%E7%A5%A8%E6%88%BF/4101787",
+      "status": "success",
+      "content_length": 22474,
+      "duration_seconds": 4.301,
+      "query": "中国电影票房总榜历史排名 2026"
+    },
+    {
+      "url": "https://zh.wikipedia.org/zh-hans/%E9%95%BF%E6%B4%A5%E6%B9%96_(%E7%94%B5%E5%BD%B1)",
+      "status": "success",
+      "content_length": 114656,
+      "duration_seconds": 2.596,
+      "query": "长津湖 电影 主题 题材 制作公司 时长 导演 百度百科"
+    },
+    {
+      "url": "https://baike.baidu.com/item/%E9%95%BF%E6%B4%A5%E6%B9%96/54100039",
+      "status": "success",
+      "content_length": 35910,
+      "duration_seconds": 2.596,
+      "query": "长津湖 电影 主题 题材 制作公司 时长 导演 百度百科"
+    },
+    {
+      "url": "http://paper.people.com.cn/rmrbhwb/html/2022-03/18/content_25908055.htm",
+      "status": "success",
+      "content_length": 7239,
+      "duration_seconds": 2.596,
+      "query": "长津湖 电影 主题 题材 制作公司 时长 导演 百度百科"
+    },
+    {
+      "url": "http://www.news.cn/culture/2021-10/07/c_1127934230.htm",
+      "status": "success",
+      "content_length": 2467,
+      "duration_seconds": 2.596,
+      "query": "长津湖 电影 主题 题材 制作公司 时长 导演 百度百科"
+    },
+    {
+      "url": "http://www.news.cn/ent/20211011/b79be9ea5c044bacbf288250a8938e7c/c.html",
+      "status": "success",
+      "content_length": 5174,
+      "duration_seconds": 2.596,
+      "query": "长津湖 电影 主题 题材 制作公司 时长 导演 百度百科"
+    },
+    {
+      "url": "https://zh.wikipedia.org/zh-hans/%E4%BD%A0%E5%A5%BD%EF%BC%8C%E6%9D%8E%E7%84%95%E8%8B%B1",
+      "status": "success",
+      "content_length": 48077,
+      "duration_seconds": 2.73,
+      "query": "你好李焕英 电影 主题 题材 制作公司 时长 导演 百度百科"
+    },
+    {
+      "url": "https://baike.baidu.com/item/%E4%BD%A0%E5%A5%BD%EF%BC%8C%E6%9D%8E%E7%84%95%E8%8B%B1/63611577",
+      "status": "success",
+      "content_length": 1456,
+      "duration_seconds": 2.73,
+      "query": "你好李焕英 电影 主题 题材 制作公司 时长 导演 百度百科"
+    },
+    {
+      "url": "https://baike.baidu.com/item/%E4%BD%A0%E5%A5%BD%EF%BC%8C%E6%9D%8E%E7%84%95%E8%8B%B1/20427874",
+      "status": "success",
+      "content_length": 96211,
+      "duration_seconds": 2.73,
+      "query": "你好李焕英 电影 主题 题材 制作公司 时长 导演 百度百科"
+    },
+    {
+      "url": "https://baike.baidu.com/item/%E4%BD%A0%E5%A5%BD%EF%BC%8C%E6%9D%8E%E7%84%95%E8%8B%B1/19962814",
+      "status": "success",
+      "content_length": 28756,
+      "duration_seconds": 2.73,
+      "query": "你好李焕英 电影 主题 题材 制作公司 时长 导演 百度百科"
+    },
+    {
+      "url": "https://baike.baidu.com/item/%E8%B4%BE%E7%8E%B2/55854",
+      "status": "success",
+      "content_length": 24448,
+      "duration_seconds": 2.73,
+      "query": "你好李焕英 电影 主题 题材 制作公司 时长 导演 百度百科"
+    },
+    {
+      "url": "https://zh.wikipedia.org/wiki/%E6%88%B0%E7%8B%BC2",
+      "status": "success",
+      "content_length": 68974,
+      "duration_seconds": 2.809,
+      "query": "战狼2 电影 主题 题材 制作公司 时长 导演 百度百科"
+    },
+    {
+      "url": "https://baike.baidu.com/item/%E6%88%98%E7%8B%BC%E2%85%A1/20794668",
+      "status": "success",
+      "content_length": 22499,
+      "duration_seconds": 2.809,
+      "query": "战狼2 电影 主题 题材 制作公司 时长 导演 百度百科"
+    },
+    {
+      "url": "https://baike.baidu.com/item/%E6%88%98%E7%8B%BC%C2%B7%E6%88%98%E7%8B%BC/19245848",
+      "status": "success",
+      "content_length": 12094,
+      "duration_seconds": 2.809,
+      "query": "战狼2 电影 主题 题材 制作公司 时长 导演 百度百科"
+    },
+    {
+      "url": "https://baike.baidu.com/item/%E6%88%98%E7%8B%BC/80549",
+      "status": "success",
+      "content_length": 65348,
+      "duration_seconds": 2.809,
+      "query": "战狼2 电影 主题 题材 制作公司 时长 导演 百度百科"
+    },
+    {
+      "url": "https://baike.baidu.com/item/%E6%88%98%E7%8B%BC%E2%85%A2/22056907",
+      "status": "success",
+      "content_length": 2473,
+      "duration_seconds": 2.809,
+      "query": "战狼2 电影 主题 题材 制作公司 时长 导演 百度百科"
+    },
+    {
+      "url": "https://zh.wikipedia.org/zh-hans/%E5%93%AA%E5%90%92%E4%B9%8B%E9%AD%94%E7%AB%A5%E9%99%8D%E4%B8%96",
+      "status": "success",
+      "content_length": 70664,
+      "duration_seconds": 2.841,
+      "query": "哪吒之魔童降世 电影 主题 题材 制作公司 时长 导演 百度百科"
+    },
+    {
+      "url": "https://baike.baidu.com/item/%E5%93%AA%E5%90%92%E4%B9%8B%E9%AD%94%E7%AB%A5%E9%99%8D%E4%B8%96/22187580",
+      "status": "success",
+      "content_length": 22653,
+      "duration_seconds": 2.841,
+      "query": "哪吒之魔童降世 电影 主题 题材 制作公司 时长 导演 百度百科"
+    },
+    {
+      "url": "https://zh.moegirl.org.cn/zh-hk/%E5%93%AA%E5%90%92%E4%B9%8B%E9%AD%94%E7%AB%A5%E9%99%8D%E4%B8%96",
+      "status": "success",
+      "content_length": 122329,
+      "duration_seconds": 2.841,
+      "query": "哪吒之魔童降世 电影 主题 题材 制作公司 时长 导演 百度百科"
+    },
+    {
+      "url": "https://baike.baidu.com/item/%E5%93%AA%E5%90%92/65360747",
+      "status": "success",
+      "content_length": 19857,
+      "duration_seconds": 2.841,
+      "query": "哪吒之魔童降世 电影 主题 题材 制作公司 时长 导演 百度百科"
+    },
+    {
+      "url": "https://baike.baidu.com/item/%E5%93%AA%E5%90%92/24101686",
+      "status": "success",
+      "content_length": 3719,
+      "duration_seconds": 2.841,
+      "query": "哪吒之魔童降世 电影 主题 题材 制作公司 时长 导演 百度百科"
+    },
+    {
+      "url": "https://zh.wikipedia.org/wiki/%E5%93%AA%E5%90%92%E4%B9%8B%E9%AD%94%E7%AB%A5%E9%97%B9%E6%B5%B7",
+      "status": "success",
+      "content_length": 173192,
+      "duration_seconds": 2.933,
+      "query": "哪吒之魔童闹海 2025 主题 题材 制作公司 时长 导演 百度百科"
+    },
+    {
+      "url": "https://baike.baidu.com/item/%E5%93%AA%E5%90%92%E4%B9%8B%E9%AD%94%E7%AB%A5%E9%97%B9%E6%B5%B7/61115689",
+      "status": "success",
+      "content_length": 38277,
+      "duration_seconds": 2.933,
+      "query": "哪吒之魔童闹海 2025 主题 题材 制作公司 时长 导演 百度百科"
+    },
+    {
+      "url": "https://baike.baidu.com/item/%E9%A5%BA%E5%AD%90/23621816",
+      "status": "success",
+      "content_length": 9575,
+      "duration_seconds": 2.933,
+      "query": "哪吒之魔童闹海 2025 主题 题材 制作公司 时长 导演 百度百科"
+    },
+    {
+      "url": "https://baike.baidu.com/item/%E4%B8%8D%E7%A0%B4%E4%B8%8D%E7%AB%8B/65389208",
+      "status": "success",
+      "content_length": 1117,
+      "duration_seconds": 2.933,
+      "query": "哪吒之魔童闹海 2025 主题 题材 制作公司 时长 导演 百度百科"
+    },
+    {
+      "url": "https://baike.baidu.com/item/%E5%93%AA%E5%90%92%E4%B9%8B%E9%AD%94%E7%AB%A5%E9%97%B9%E6%B5%B7/65712431",
+      "status": "success",
+      "content_length": 22784,
+      "duration_seconds": 2.933,
+      "query": "哪吒之魔童闹海 2025 主题 题材 制作公司 时长 导演 百度百科"
+    },
+    {
+      "url": "https://zh.wikipedia.org/wiki/%E9%A3%9E%E9%A9%B0%E4%BA%BA%E7%94%9F3",
+      "status": "success",
+      "content_length": 34083,
+      "duration_seconds": 2.306,
+      "query": "飞驰人生3 2026 电影 主题 题材 制作公司 时长 导演 韩寒 百度百科"
+    },
+    {
+      "url": "https://baike.baidu.com/item/%E9%9F%A9%E5%AF%92/72916",
+      "status": "success",
+      "content_length": 20189,
+      "duration_seconds": 2.306,
+      "query": "飞驰人生3 2026 电影 主题 题材 制作公司 时长 导演 韩寒 百度百科"
+    },
+    {
+      "url": "https://baike.baidu.com/item/%E9%A3%9E%E9%A9%B0%E4%BA%BA%E7%94%9F3/65573816",
+      "status": "success",
+      "content_length": 17079,
+      "duration_seconds": 2.306,
+      "query": "飞驰人生3 2026 电影 主题 题材 制作公司 时长 导演 韩寒 百度百科"
+    },
+    {
+      "url": "https://app.xinhuanet.com/news/article.html?articleId=69dcb831fc5d8fc8ca776f0181f2e15b",
+      "status": "success",
+      "content_length": 948,
+      "duration_seconds": 2.306,
+      "query": "飞驰人生3 2026 电影 主题 题材 制作公司 时长 导演 韩寒 百度百科"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=XJDuhWS6L4Y",
+      "status": "success",
+      "content_length": 527,
+      "duration_seconds": 2.306,
+      "query": "飞驰人生3 2026 电影 主题 题材 制作公司 时长 导演 韩寒 百度百科"
+    },
+    {
+      "url": "https://movies.disney.com/zootopia-2",
+      "status": "success",
+      "content_length": 24896,
+      "duration_seconds": 2.437,
+      "query": "疯狂动物城2 2025 电影 Zootopia 2 主题 题材 制作公司 时长 导演 迪士尼"
+    },
+    {
+      "url": "https://www.animationmagazine.net/zh-CN/2025/11/%E8%BF%AA%E5%A3%AB%E5%B0%BC%E3%80%8A%E7%96%AF%E7%8B%82%E5%8A%A8%E7%89%A9%E5%9F%8E2%E3%80%8B%E7%9A%84%E5%88%9B%E4%BD%9C%E5%9B%A2%E9%98%9F%E5%B0%86%E5%B8%A6%E9%A2%86%E6%88%91%E4%BB%AC%E9%87%8D%E8%BF%94%E9%83%BD%E5%B8%82%E4%B8%9B%E6%9E%97%E3%80%82",
+      "status": "success",
+      "content_length": 23610,
+      "duration_seconds": 2.437,
+      "query": "疯狂动物城2 2025 电影 Zootopia 2 主题 题材 制作公司 时长 导演 迪士尼"
+    },
+    {
+      "url": "https://baike.baidu.com/item/%E7%96%AF%E7%8B%82%E5%8A%A8%E7%89%A9%E5%9F%8E2/19912782",
+      "status": "success",
+      "content_length": 29133,
+      "duration_seconds": 2.437,
+      "query": "疯狂动物城2 2025 电影 Zootopia 2 主题 题材 制作公司 时长 导演 迪士尼"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=2Kf47Y6YaTo",
+      "status": "success",
+      "content_length": 4259,
+      "duration_seconds": 2.437,
+      "query": "疯狂动物城2 2025 电影 Zootopia 2 主题 题材 制作公司 时长 导演 迪士尼"
+    },
+    {
+      "url": "https://m.imdb.com/title/tt26443597",
+      "status": "success",
+      "content_length": 57216,
+      "duration_seconds": 2.437,
+      "query": "疯狂动物城2 2025 电影 Zootopia 2 主题 题材 制作公司 时长 导演 迪士尼"
+    },
+    {
+      "url": "https://zh.wikipedia.org/zh-hans/%E6%BB%A1%E6%B1%9F%E7%BA%A2_(2023%E5%B9%B4%E7%94%B5%E5%BD%B1)",
+      "status": "success",
+      "content_length": 38358,
+      "duration_seconds": 2.571,
+      "query": "满江红 2023 电影 主题 题材 制作公司 时长 导演 张艺谋 百度百科"
+    },
+    {
+      "url": "https://baike.baidu.com/item/%E6%BB%A1%E6%B1%9F%E7%BA%A2/60344617",
+      "status": "success",
+      "content_length": 19641,
+      "duration_seconds": 2.571,
+      "query": "满江红 2023 电影 主题 题材 制作公司 时长 导演 张艺谋 百度百科"
+    },
+    {
+      "url": "https://baike.baidu.com/item/%E5%BC%A0%E8%89%BA%E8%B0%8B/147018",
+      "status": "success",
+      "content_length": 108144,
+      "duration_seconds": 2.571,
+      "query": "满江红 2023 电影 主题 题材 制作公司 时长 导演 张艺谋 百度百科"
+    },
+    {
+      "url": "https://baike.baidu.com/item/%E6%BB%A1%E6%B1%9F%E7%BA%A22/65573438",
+      "status": "success",
+      "content_length": 26352,
+      "duration_seconds": 2.571,
+      "query": "满江红 2023 电影 主题 题材 制作公司 时长 导演 张艺谋 百度百科"
+    },
+    {
+      "url": "https://baike.baidu.com/item/%E6%BB%A1%E6%B1%9F%E7%BA%A2%EF%BC%88%E4%BA%AC%E5%89%A7%EF%BC%89/57246704",
+      "status": "success",
+      "content_length": 27026,
+      "duration_seconds": 2.571,
+      "query": "满江红 2023 电影 主题 题材 制作公司 时长 导演 张艺谋 百度百科"
+    },
+    {
+      "url": "https://baike.baidu.com/item/%E6%B5%81%E6%B5%AA%E5%9C%B0%E7%90%83/16278407",
+      "status": "success",
+      "content_length": 32013,
+      "duration_seconds": 3.018,
+      "query": "流浪地球 2019 电影 主题 题材 制作公司 时长 导演 百度百科"
+    },
+    {
+      "url": "https://zh.moegirl.org.cn/%E6%B5%81%E6%B5%AA%E5%9C%B0%E7%90%83",
+      "status": "success",
+      "content_length": 145569,
+      "duration_seconds": 3.018,
+      "query": "流浪地球 2019 电影 主题 题材 制作公司 时长 导演 百度百科"
+    },
+    {
+      "url": "https://zh.wikipedia.org/wiki/%E6%B5%81%E6%B5%AA%E5%9C%B0%E7%90%83_(%E7%94%B5%E5%BD%B1)",
+      "status": "success",
+      "content_length": 129613,
+      "duration_seconds": 3.018,
+      "query": "流浪地球 2019 电影 主题 题材 制作公司 时长 导演 百度百科"
+    },
+    {
+      "url": "https://baike.baidu.com/item/%E6%B5%81%E6%B5%AA%E5%9C%B0%E7%90%83/62691407",
+      "status": "success",
+      "content_length": 5918,
+      "duration_seconds": 3.018,
+      "query": "流浪地球 2019 电影 主题 题材 制作公司 时长 导演 百度百科"
+    },
+    {
+      "url": "https://baike.baidu.com/item/%E3%80%8A%E6%B5%81%E6%B5%AA%E5%9C%B0%E7%90%83%E3%80%8B%E7%94%B5%E5%BD%B1%E5%88%B6%E4%BD%9C%E6%89%8B%E8%AE%B0/23299342",
+      "status": "success",
+      "content_length": 15849,
+      "duration_seconds": 3.018,
+      "query": "流浪地球 2019 电影 主题 题材 制作公司 时长 导演 百度百科"
+    },
+    {
+      "url": "https://zh.wikipedia.org/wiki/%E5%94%90%E4%BA%BA%E8%A1%97%E6%8E%A2%E6%A1%883",
+      "status": "success",
+      "content_length": 34538,
+      "duration_seconds": 2.998,
+      "query": "唐人街探案3 2021 电影 主题 题材 制作公司 时长 导演 百度百科"
+    },
+    {
+      "url": "https://baike.baidu.com/item/%E5%94%90%E4%BA%BA%E8%A1%97%E6%8E%A2%E6%A1%883/22401169",
+      "status": "success",
+      "content_length": 19341,
+      "duration_seconds": 2.998,
+      "query": "唐人街探案3 2021 电影 主题 题材 制作公司 时长 导演 百度百科"
+    },
+    {
+      "url": "https://baike.baidu.com/item/%E5%94%90%E4%BA%BA%E8%A1%97%E6%8E%A2%E6%A1%882/19185945",
+      "status": "success",
+      "content_length": 45318,
+      "duration_seconds": 2.998,
+      "query": "唐人街探案3 2021 电影 主题 题材 制作公司 时长 导演 百度百科"
+    },
+    {
+      "url": "https://baike.baidu.com/item/%E5%94%90%E4%BA%BA%E8%A1%97%E6%8E%A2%E6%A1%884/54159639",
+      "status": "success",
+      "content_length": 1454,
+      "duration_seconds": 2.998,
+      "query": "唐人街探案3 2021 电影 主题 题材 制作公司 时长 导演 百度百科"
+    },
+    {
+      "url": "https://baike.baidu.com/item/%E9%99%88%E6%80%9D%E8%AF%9A/7632851",
+      "status": "success",
+      "content_length": 51478,
+      "duration_seconds": 2.998,
+      "query": "唐人街探案3 2021 电影 主题 题材 制作公司 时长 导演 百度百科"
+    },
+    {
+      "url": "https://zh.wikipedia.org/wiki/%E5%94%90%E4%BA%BA%E8%A1%97%E6%8E%A2%E6%A1%883",
+      "status": "success",
+      "content_length": 34538,
+      "duration_seconds": 2.186,
+      "query": "唐人街探案3 片长 分钟 时长 136分钟"
+    },
+    {
+      "url": "https://m.1905.com/Mdb/mdbDetail/filmid/2244528",
+      "status": "success",
+      "content_length": 9173,
+      "duration_seconds": 2.186,
+      "query": "唐人街探案3 片长 分钟 时长 136分钟"
+    },
+    {
+      "url": "https://m.36kr.com/p/1099028366149641",
+      "status": "success",
+      "content_length": 17042,
+      "duration_seconds": 2.186,
+      "query": "唐人街探案3 片长 分钟 时长 136分钟"
+    },
+    {
+      "url": "https://tv.apple.com/tw/movie/%E5%94%90%E4%BA%BA%E8%A1%97%E6%8E%A2%E6%A1%883/umc.cmc.6kudwahhyo195dua57mp0a5pr",
+      "status": "success",
+      "content_length": 4332,
+      "duration_seconds": 2.186,
+      "query": "唐人街探案3 片长 分钟 时长 136分钟"
+    },
+    {
+      "url": "https://baike.baidu.com/item/%E5%94%90%E4%BA%BA%E8%A1%97%E6%8E%A2%E6%A1%883/22401169",
+      "status": "success",
+      "content_length": 19341,
+      "duration_seconds": 2.186,
+      "query": "唐人街探案3 片长 分钟 时长 136分钟"
+    },
+    {
+      "url": "https://m.douban.com/movie/subject/35766491",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.239,
+      "query": "满江红 片长 分钟 时长 159分钟"
+    },
+    {
+      "url": "https://kandian.sina.cn/article_5737990122_15602c7ea019010jyw.html",
+      "status": "success",
+      "content_length": 8623,
+      "duration_seconds": 2.239,
+      "query": "满江红 片长 分钟 时长 159分钟"
+    },
+    {
+      "url": "https://wallstreetcn.com/articles/3680509",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.239,
+      "query": "满江红 片长 分钟 时长 159分钟"
+    },
+    {
+      "url": "https://m.gmw.cn/2023-01/24/content_1303263104.htm",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.239,
+      "query": "满江红 片长 分钟 时长 159分钟"
+    },
+    {
+      "url": "https://baike.baidu.com/item/%E6%BB%A1%E6%B1%9F%E7%BA%A2/60344617",
+      "status": "success",
+      "content_length": 19641,
+      "duration_seconds": 2.239,
+      "query": "满江红 片长 分钟 时长 159分钟"
+    },
+    {
+      "url": "https://zh.wikipedia.org/zh-hans/%E4%BD%A0%E5%A5%BD%EF%BC%8C%E6%9D%8E%E7%84%95%E8%8B%B1",
+      "status": "success",
+      "content_length": 48077,
+      "duration_seconds": 2.493,
+      "query": "你好李焕英 片长 分钟 时长 制作公司 出品方"
+    },
+    {
+      "url": "https://baike.baidu.com/item/%E4%BD%A0%E5%A5%BD%EF%BC%8C%E6%9D%8E%E7%84%95%E8%8B%B1/20427874",
+      "status": "success",
+      "content_length": 96211,
+      "duration_seconds": 2.493,
+      "query": "你好李焕英 片长 分钟 时长 制作公司 出品方"
+    },
+    {
+      "url": "https://www.jiemian.com/article/5798599.html",
+      "status": "success",
+      "content_length": 8545,
+      "duration_seconds": 2.493,
+      "query": "你好李焕英 片长 分钟 时长 制作公司 出品方"
+    },
+    {
+      "url": "http://www.xinhuanet.com/fortune/2021-02/20/c_1127119373.htm",
+      "status": "success",
+      "content_length": 2006,
+      "duration_seconds": 2.493,
+      "query": "你好李焕英 片长 分钟 时长 制作公司 出品方"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=xEs3fisYNRM",
+      "status": "success",
+      "content_length": 415,
+      "duration_seconds": 2.493,
+      "query": "你好李焕英 片长 分钟 时长 制作公司 出品方"
+    },
+    {
+      "url": "https://zh.wikipedia.org/wiki/%E6%88%B0%E7%8B%BC2",
+      "status": "success",
+      "content_length": 68974,
+      "duration_seconds": 3.074,
+      "query": "战狼2 片长 分钟 时长 123分钟"
+    },
+    {
+      "url": "https://piaofang.maoyan.com/movie/344264",
+      "status": "success",
+      "content_length": 572,
+      "duration_seconds": 3.074,
+      "query": "战狼2 片长 分钟 时长 123分钟"
+    },
+    {
+      "url": "http://media.people.com.cn/n1/2017/0728/c40606-29433650.html",
+      "status": "success",
+      "content_length": 8292,
+      "duration_seconds": 3.074,
+      "query": "战狼2 片长 分钟 时长 123分钟"
+    },
+    {
+      "url": "https://baike.baidu.com/item/%E6%88%98%E7%8B%BC%E2%85%A1/20794668",
+      "status": "success",
+      "content_length": 22499,
+      "duration_seconds": 3.074,
+      "query": "战狼2 片长 分钟 时长 123分钟"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=xMVozCJ62Fg",
+      "status": "success",
+      "content_length": 388,
+      "duration_seconds": 3.074,
+      "query": "战狼2 片长 分钟 时长 123分钟"
+    },
+    {
+      "url": "https://zh.wikipedia.org/wiki/%E5%93%AA%E5%90%92%E4%B9%8B%E9%AD%94%E7%AB%A5%E9%97%B9%E6%B5%B7",
+      "status": "success",
+      "content_length": 173192,
+      "duration_seconds": 3.118,
+      "query": "哪吒之魔童闹海 片长 分钟 时长 144分钟"
+    },
+    {
+      "url": "https://piaofang.maoyan.com/movie/1294273",
+      "status": "success",
+      "content_length": 801,
+      "duration_seconds": 3.118,
+      "query": "哪吒之魔童闹海 片长 分钟 时长 144分钟"
+    },
+    {
+      "url": "https://baike.baidu.com/item/%E5%93%AA%E5%90%92%E4%B9%8B%E9%AD%94%E7%AB%A5%E9%97%B9%E6%B5%B7/61115689",
+      "status": "success",
+      "content_length": 38277,
+      "duration_seconds": 3.118,
+      "query": "哪吒之魔童闹海 片长 分钟 时长 144分钟"
+    },
+    {
+      "url": "https://theinitium.com/20250223-culture-film-nezha2-review-zh-hans",
+      "status": "success",
+      "content_length": 3024,
+      "duration_seconds": 3.118,
+      "query": "哪吒之魔童闹海 片长 分钟 时长 144分钟"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=oVURYfWg3RU",
+      "status": "success",
+      "content_length": 488,
+      "duration_seconds": 3.118,
+      "query": "哪吒之魔童闹海 片长 分钟 时长 144分钟"
+    }
+  ],
+  "run_id": "5e46226d3dae4eb18ad292698e20383d",
+  "status": "completed",
+  "id": 41,
+  "prompt": "收集整理目前中国电影票房前十的电影的相关资料，横向比较各电影的主题、技制作公司、题材、时长等维度，并为我评估出最有可能在未来实现高票房的电影类型",
+  "language": "zh",
+  "topic": "Entertainment",
+  "duration_seconds": 302.345,
+  "report_length": 7542,
+  "context_length": 169663
+}

@@ -1,0 +1,3470 @@
+{
+  "session_id": "caf075adaf564fbcaad9ff20d4266448",
+  "total_llm_calls": 84,
+  "llm_calls_with_token_usage": 84,
+  "llm_calls_missing_token_usage": 0,
+  "token_usage_complete": true,
+  "total_input_tokens": 747940,
+  "total_output_tokens": 80121,
+  "total_tokens": 828061,
+  "counted_input_tokens": 747940,
+  "counted_output_tokens": 80121,
+  "counted_total_tokens": 828061,
+  "total_search_count": 16,
+  "total_search_results": 80,
+  "total_visit_count": 80,
+  "total_visit_success": 80,
+  "total_visit_failed": 0,
+  "source_urls_count": 72,
+  "llm_calls_detail": [
+    {
+      "sequence": 1,
+      "status": "completed",
+      "started_at": "2026-08-23T16:43:52.746666+08:00",
+      "completed_at": "2026-08-23T16:43:57.149800+08:00",
+      "duration_seconds": 4.403,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 749,
+      "output_tokens": 363,
+      "total_tokens": 1112,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 749,
+        "output_tokens": 363,
+        "total_tokens": 1112,
+        "input_token_details": {},
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 2,
+      "status": "completed",
+      "started_at": "2026-08-23T16:43:57.158001+08:00",
+      "completed_at": "2026-08-23T16:44:03.909171+08:00",
+      "duration_seconds": 6.751,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1438,
+      "output_tokens": 574,
+      "total_tokens": 2012,
+      "message_count": 2,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1438,
+        "output_tokens": 574,
+        "total_tokens": 2012,
+        "input_token_details": {},
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 3,
+      "status": "completed",
+      "started_at": "2026-08-23T16:44:03.913977+08:00",
+      "completed_at": "2026-08-23T16:44:07.161435+08:00",
+      "duration_seconds": 3.247,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1704,
+      "output_tokens": 204,
+      "total_tokens": 1908,
+      "message_count": 4,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1704,
+        "output_tokens": 204,
+        "total_tokens": 1908,
+        "input_token_details": {},
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 4,
+      "status": "completed",
+      "started_at": "2026-08-23T16:44:07.173827+08:00",
+      "completed_at": "2026-08-23T16:44:09.726501+08:00",
+      "duration_seconds": 2.553,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 998,
+      "output_tokens": 145,
+      "total_tokens": 1143,
+      "message_count": 2,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 998,
+        "output_tokens": 145,
+        "total_tokens": 1143,
+        "input_token_details": {},
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 8,
+      "status": "completed",
+      "started_at": "2026-08-23T16:44:12.989180+08:00",
+      "completed_at": "2026-08-23T16:44:38.689434+08:00",
+      "duration_seconds": 25.7,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 21490,
+      "output_tokens": 769,
+      "total_tokens": 22259,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 21490,
+        "output_tokens": 769,
+        "total_tokens": 22259,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 9,
+      "status": "completed",
+      "started_at": "2026-08-23T16:44:12.989222+08:00",
+      "completed_at": "2026-08-23T16:44:17.946766+08:00",
+      "duration_seconds": 4.958,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2098,
+      "output_tokens": 462,
+      "total_tokens": 2560,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2098,
+        "output_tokens": 462,
+        "total_tokens": 2560,
+        "input_token_details": {},
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 10,
+      "status": "completed",
+      "started_at": "2026-08-23T16:44:12.989248+08:00",
+      "completed_at": "2026-08-23T16:44:18.408349+08:00",
+      "duration_seconds": 5.419,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 15837,
+      "output_tokens": 462,
+      "total_tokens": 16299,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 15837,
+        "output_tokens": 462,
+        "total_tokens": 16299,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 11,
+      "status": "completed",
+      "started_at": "2026-08-23T16:44:12.989317+08:00",
+      "completed_at": "2026-08-23T16:44:22.677988+08:00",
+      "duration_seconds": 9.689,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 29120,
+      "output_tokens": 962,
+      "total_tokens": 30082,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 29120,
+        "output_tokens": 962,
+        "total_tokens": 30082,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 12,
+      "status": "completed",
+      "started_at": "2026-08-23T16:44:12.989372+08:00",
+      "completed_at": "2026-08-23T16:44:18.298462+08:00",
+      "duration_seconds": 5.309,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 28458,
+      "output_tokens": 467,
+      "total_tokens": 28925,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 28458,
+        "output_tokens": 467,
+        "total_tokens": 28925,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 13,
+      "status": "completed",
+      "started_at": "2026-08-23T16:44:12.989388+08:00",
+      "completed_at": "2026-08-23T16:44:20.705198+08:00",
+      "duration_seconds": 7.716,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 15179,
+      "output_tokens": 696,
+      "total_tokens": 15875,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 15179,
+        "output_tokens": 696,
+        "total_tokens": 15875,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 14,
+      "status": "completed",
+      "started_at": "2026-08-23T16:44:12.989400+08:00",
+      "completed_at": "2026-08-23T16:44:21.016188+08:00",
+      "duration_seconds": 8.027,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5450,
+      "output_tokens": 651,
+      "total_tokens": 6101,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5450,
+        "output_tokens": 651,
+        "total_tokens": 6101,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 15,
+      "status": "completed",
+      "started_at": "2026-08-23T16:44:12.989411+08:00",
+      "completed_at": "2026-08-23T16:44:23.542370+08:00",
+      "duration_seconds": 10.553,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 20969,
+      "output_tokens": 950,
+      "total_tokens": 21919,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 20969,
+        "output_tokens": 950,
+        "total_tokens": 21919,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 16,
+      "status": "completed",
+      "started_at": "2026-08-23T16:44:12.989424+08:00",
+      "completed_at": "2026-08-23T16:44:20.704963+08:00",
+      "duration_seconds": 7.716,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5238,
+      "output_tokens": 737,
+      "total_tokens": 5975,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5238,
+        "output_tokens": 737,
+        "total_tokens": 5975,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 17,
+      "status": "completed",
+      "started_at": "2026-08-23T16:44:12.989518+08:00",
+      "completed_at": "2026-08-23T16:44:18.765199+08:00",
+      "duration_seconds": 5.776,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3902,
+      "output_tokens": 300,
+      "total_tokens": 4202,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3902,
+        "output_tokens": 300,
+        "total_tokens": 4202,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 18,
+      "status": "completed",
+      "started_at": "2026-08-23T16:44:12.989531+08:00",
+      "completed_at": "2026-08-23T16:44:18.688363+08:00",
+      "duration_seconds": 5.699,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4593,
+      "output_tokens": 479,
+      "total_tokens": 5072,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4593,
+        "output_tokens": 479,
+        "total_tokens": 5072,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 19,
+      "status": "completed",
+      "started_at": "2026-08-23T16:44:12.989542+08:00",
+      "completed_at": "2026-08-23T16:44:19.819419+08:00",
+      "duration_seconds": 6.83,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 10537,
+      "output_tokens": 671,
+      "total_tokens": 11208,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 10537,
+        "output_tokens": 671,
+        "total_tokens": 11208,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 20,
+      "status": "completed",
+      "started_at": "2026-08-23T16:44:12.989552+08:00",
+      "completed_at": "2026-08-23T16:44:17.054960+08:00",
+      "duration_seconds": 4.065,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1701,
+      "output_tokens": 349,
+      "total_tokens": 2050,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1701,
+        "output_tokens": 349,
+        "total_tokens": 2050,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 21,
+      "status": "completed",
+      "started_at": "2026-08-23T16:44:12.989561+08:00",
+      "completed_at": "2026-08-23T16:44:16.184392+08:00",
+      "duration_seconds": 3.195,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1800,
+      "output_tokens": 205,
+      "total_tokens": 2005,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1800,
+        "output_tokens": 205,
+        "total_tokens": 2005,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 22,
+      "status": "completed",
+      "started_at": "2026-08-23T16:44:38.713260+08:00",
+      "completed_at": "2026-08-23T16:44:44.305343+08:00",
+      "duration_seconds": 5.592,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 9814,
+      "output_tokens": 507,
+      "total_tokens": 10321,
+      "message_count": 4,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 9814,
+        "output_tokens": 507,
+        "total_tokens": 10321,
+        "input_token_details": {
+          "cache_read": 768
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 23,
+      "status": "completed",
+      "started_at": "2026-08-23T16:44:44.315197+08:00",
+      "completed_at": "2026-08-23T16:44:47.023340+08:00",
+      "duration_seconds": 2.708,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 10233,
+      "output_tokens": 149,
+      "total_tokens": 10382,
+      "message_count": 6,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 10233,
+        "output_tokens": 149,
+        "total_tokens": 10382,
+        "input_token_details": {
+          "cache_read": 9728
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 34,
+      "status": "completed",
+      "started_at": "2026-08-23T16:44:51.937061+08:00",
+      "completed_at": "2026-08-23T16:44:57.185155+08:00",
+      "duration_seconds": 5.248,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8147,
+      "output_tokens": 557,
+      "total_tokens": 8704,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 8147,
+        "output_tokens": 557,
+        "total_tokens": 8704,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 35,
+      "status": "completed",
+      "started_at": "2026-08-23T16:44:51.937105+08:00",
+      "completed_at": "2026-08-23T16:44:58.333524+08:00",
+      "duration_seconds": 6.396,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2678,
+      "output_tokens": 603,
+      "total_tokens": 3281,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2678,
+        "output_tokens": 603,
+        "total_tokens": 3281,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 36,
+      "status": "completed",
+      "started_at": "2026-08-23T16:44:51.937129+08:00",
+      "completed_at": "2026-08-23T16:44:55.961037+08:00",
+      "duration_seconds": 4.024,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2385,
+      "output_tokens": 309,
+      "total_tokens": 2694,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2385,
+        "output_tokens": 309,
+        "total_tokens": 2694,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 37,
+      "status": "completed",
+      "started_at": "2026-08-23T16:44:51.937232+08:00",
+      "completed_at": "2026-08-23T16:45:03.300511+08:00",
+      "duration_seconds": 11.363,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5104,
+      "output_tokens": 1164,
+      "total_tokens": 6268,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5104,
+        "output_tokens": 1164,
+        "total_tokens": 6268,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 38,
+      "status": "completed",
+      "started_at": "2026-08-23T16:44:51.937256+08:00",
+      "completed_at": "2026-08-23T16:44:57.952942+08:00",
+      "duration_seconds": 6.016,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2417,
+      "output_tokens": 571,
+      "total_tokens": 2988,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2417,
+        "output_tokens": 571,
+        "total_tokens": 2988,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 39,
+      "status": "completed",
+      "started_at": "2026-08-23T16:44:51.937275+08:00",
+      "completed_at": "2026-08-23T16:44:56.932193+08:00",
+      "duration_seconds": 4.995,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2973,
+      "output_tokens": 443,
+      "total_tokens": 3416,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2973,
+        "output_tokens": 443,
+        "total_tokens": 3416,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 40,
+      "status": "completed",
+      "started_at": "2026-08-23T16:44:51.937292+08:00",
+      "completed_at": "2026-08-23T16:45:00.741245+08:00",
+      "duration_seconds": 8.804,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6147,
+      "output_tokens": 424,
+      "total_tokens": 6571,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 6147,
+        "output_tokens": 424,
+        "total_tokens": 6571,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 41,
+      "status": "completed",
+      "started_at": "2026-08-23T16:44:51.937309+08:00",
+      "completed_at": "2026-08-23T16:45:00.014528+08:00",
+      "duration_seconds": 8.077,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5462,
+      "output_tokens": 791,
+      "total_tokens": 6253,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5462,
+        "output_tokens": 791,
+        "total_tokens": 6253,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 42,
+      "status": "completed",
+      "started_at": "2026-08-23T16:45:03.310051+08:00",
+      "completed_at": "2026-08-23T16:45:11.673390+08:00",
+      "duration_seconds": 8.363,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 19127,
+      "output_tokens": 791,
+      "total_tokens": 19918,
+      "message_count": 8,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 19127,
+        "output_tokens": 791,
+        "total_tokens": 19918,
+        "input_token_details": {
+          "cache_read": 9984
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 53,
+      "status": "completed",
+      "started_at": "2026-08-23T16:45:19.341376+08:00",
+      "completed_at": "2026-08-23T16:45:28.211552+08:00",
+      "duration_seconds": 8.87,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 14920,
+      "output_tokens": 894,
+      "total_tokens": 15814,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 14920,
+        "output_tokens": 894,
+        "total_tokens": 15814,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 54,
+      "status": "completed",
+      "started_at": "2026-08-23T16:45:19.341406+08:00",
+      "completed_at": "2026-08-23T16:45:29.598280+08:00",
+      "duration_seconds": 10.257,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8954,
+      "output_tokens": 729,
+      "total_tokens": 9683,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 8954,
+        "output_tokens": 729,
+        "total_tokens": 9683,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 55,
+      "status": "completed",
+      "started_at": "2026-08-23T16:45:19.341421+08:00",
+      "completed_at": "2026-08-23T16:45:24.302969+08:00",
+      "duration_seconds": 4.962,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2374,
+      "output_tokens": 292,
+      "total_tokens": 2666,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2374,
+        "output_tokens": 292,
+        "total_tokens": 2666,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 56,
+      "status": "completed",
+      "started_at": "2026-08-23T16:45:19.342076+08:00",
+      "completed_at": "2026-08-23T16:45:24.714953+08:00",
+      "duration_seconds": 5.373,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5578,
+      "output_tokens": 461,
+      "total_tokens": 6039,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5578,
+        "output_tokens": 461,
+        "total_tokens": 6039,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 57,
+      "status": "completed",
+      "started_at": "2026-08-23T16:45:19.342092+08:00",
+      "completed_at": "2026-08-23T16:45:24.873303+08:00",
+      "duration_seconds": 5.531,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3232,
+      "output_tokens": 508,
+      "total_tokens": 3740,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3232,
+        "output_tokens": 508,
+        "total_tokens": 3740,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 58,
+      "status": "completed",
+      "started_at": "2026-08-23T16:45:19.342104+08:00",
+      "completed_at": "2026-08-23T16:45:26.209126+08:00",
+      "duration_seconds": 6.867,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 15548,
+      "output_tokens": 617,
+      "total_tokens": 16165,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 15548,
+        "output_tokens": 617,
+        "total_tokens": 16165,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 59,
+      "status": "completed",
+      "started_at": "2026-08-23T16:45:19.342116+08:00",
+      "completed_at": "2026-08-23T16:45:32.105859+08:00",
+      "duration_seconds": 12.764,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8261,
+      "output_tokens": 1241,
+      "total_tokens": 9502,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 8261,
+        "output_tokens": 1241,
+        "total_tokens": 9502,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 60,
+      "status": "completed",
+      "started_at": "2026-08-23T16:45:19.342128+08:00",
+      "completed_at": "2026-08-23T16:45:28.896002+08:00",
+      "duration_seconds": 9.554,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8582,
+      "output_tokens": 951,
+      "total_tokens": 9533,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 8582,
+        "output_tokens": 951,
+        "total_tokens": 9533,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 61,
+      "status": "completed",
+      "started_at": "2026-08-23T16:45:19.343349+08:00",
+      "completed_at": "2026-08-23T16:45:26.410016+08:00",
+      "duration_seconds": 7.067,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2385,
+      "output_tokens": 695,
+      "total_tokens": 3080,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2385,
+        "output_tokens": 695,
+        "total_tokens": 3080,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 62,
+      "status": "completed",
+      "started_at": "2026-08-23T16:45:19.343374+08:00",
+      "completed_at": "2026-08-23T16:45:24.302625+08:00",
+      "duration_seconds": 4.959,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1864,
+      "output_tokens": 452,
+      "total_tokens": 2316,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1864,
+        "output_tokens": 452,
+        "total_tokens": 2316,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 63,
+      "status": "completed",
+      "started_at": "2026-08-23T16:45:19.343389+08:00",
+      "completed_at": "2026-08-23T16:45:27.235123+08:00",
+      "duration_seconds": 7.892,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 15278,
+      "output_tokens": 767,
+      "total_tokens": 16045,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 15278,
+        "output_tokens": 767,
+        "total_tokens": 16045,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 64,
+      "status": "completed",
+      "started_at": "2026-08-23T16:45:19.343402+08:00",
+      "completed_at": "2026-08-23T16:45:26.032736+08:00",
+      "duration_seconds": 6.689,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 9258,
+      "output_tokens": 633,
+      "total_tokens": 9891,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 9258,
+        "output_tokens": 633,
+        "total_tokens": 9891,
+        "input_token_details": {
+          "cache_read": 512
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 65,
+      "status": "completed",
+      "started_at": "2026-08-23T16:45:19.343414+08:00",
+      "completed_at": "2026-08-23T16:45:25.593832+08:00",
+      "duration_seconds": 6.25,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4465,
+      "output_tokens": 470,
+      "total_tokens": 4935,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4465,
+        "output_tokens": 470,
+        "total_tokens": 4935,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 66,
+      "status": "completed",
+      "started_at": "2026-08-23T16:45:19.348901+08:00",
+      "completed_at": "2026-08-23T16:45:30.908812+08:00",
+      "duration_seconds": 11.56,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 12452,
+      "output_tokens": 1071,
+      "total_tokens": 13523,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 12452,
+        "output_tokens": 1071,
+        "total_tokens": 13523,
+        "input_token_details": {
+          "cache_read": 512
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 67,
+      "status": "completed",
+      "started_at": "2026-08-23T16:45:19.348915+08:00",
+      "completed_at": "2026-08-23T16:45:24.971374+08:00",
+      "duration_seconds": 5.622,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3350,
+      "output_tokens": 463,
+      "total_tokens": 3813,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3350,
+        "output_tokens": 463,
+        "total_tokens": 3813,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 68,
+      "status": "completed",
+      "started_at": "2026-08-23T16:45:19.348926+08:00",
+      "completed_at": "2026-08-23T16:45:23.640847+08:00",
+      "duration_seconds": 4.292,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3533,
+      "output_tokens": 350,
+      "total_tokens": 3883,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3533,
+        "output_tokens": 350,
+        "total_tokens": 3883,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 69,
+      "status": "completed",
+      "started_at": "2026-08-23T16:45:19.348937+08:00",
+      "completed_at": "2026-08-23T16:45:25.403095+08:00",
+      "duration_seconds": 6.054,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2079,
+      "output_tokens": 534,
+      "total_tokens": 2613,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2079,
+        "output_tokens": 534,
+        "total_tokens": 2613,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 70,
+      "status": "completed",
+      "started_at": "2026-08-23T16:45:19.348948+08:00",
+      "completed_at": "2026-08-23T16:45:25.464464+08:00",
+      "duration_seconds": 6.116,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2517,
+      "output_tokens": 543,
+      "total_tokens": 3060,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2517,
+        "output_tokens": 543,
+        "total_tokens": 3060,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 71,
+      "status": "completed",
+      "started_at": "2026-08-23T16:45:19.348958+08:00",
+      "completed_at": "2026-08-23T16:45:24.119241+08:00",
+      "duration_seconds": 4.77,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7675,
+      "output_tokens": 403,
+      "total_tokens": 8078,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 7675,
+        "output_tokens": 403,
+        "total_tokens": 8078,
+        "input_token_details": {
+          "cache_read": 1792
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 72,
+      "status": "completed",
+      "started_at": "2026-08-23T16:45:19.386755+08:00",
+      "completed_at": "2026-08-23T16:45:24.685369+08:00",
+      "duration_seconds": 5.299,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3793,
+      "output_tokens": 373,
+      "total_tokens": 4166,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3793,
+        "output_tokens": 373,
+        "total_tokens": 4166,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 73,
+      "status": "completed",
+      "started_at": "2026-08-23T16:45:19.386811+08:00",
+      "completed_at": "2026-08-23T16:45:27.021971+08:00",
+      "duration_seconds": 7.635,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 16113,
+      "output_tokens": 726,
+      "total_tokens": 16839,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 16113,
+        "output_tokens": 726,
+        "total_tokens": 16839,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 74,
+      "status": "completed",
+      "started_at": "2026-08-23T16:45:19.387941+08:00",
+      "completed_at": "2026-08-23T16:45:27.084893+08:00",
+      "duration_seconds": 7.697,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8467,
+      "output_tokens": 687,
+      "total_tokens": 9154,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 8467,
+        "output_tokens": 687,
+        "total_tokens": 9154,
+        "input_token_details": {
+          "cache_read": 512
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 75,
+      "status": "completed",
+      "started_at": "2026-08-23T16:45:19.387965+08:00",
+      "completed_at": "2026-08-23T16:45:25.861017+08:00",
+      "duration_seconds": 6.473,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7358,
+      "output_tokens": 591,
+      "total_tokens": 7949,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 7358,
+        "output_tokens": 591,
+        "total_tokens": 7949,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 76,
+      "status": "completed",
+      "started_at": "2026-08-23T16:45:19.387980+08:00",
+      "completed_at": "2026-08-23T16:45:25.254796+08:00",
+      "duration_seconds": 5.867,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7664,
+      "output_tokens": 449,
+      "total_tokens": 8113,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 7664,
+        "output_tokens": 449,
+        "total_tokens": 8113,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 77,
+      "status": "completed",
+      "started_at": "2026-08-23T16:45:19.387993+08:00",
+      "completed_at": "2026-08-23T16:45:25.987091+08:00",
+      "duration_seconds": 6.599,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3448,
+      "output_tokens": 517,
+      "total_tokens": 3965,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3448,
+        "output_tokens": 517,
+        "total_tokens": 3965,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 78,
+      "status": "completed",
+      "started_at": "2026-08-23T16:45:19.388003+08:00",
+      "completed_at": "2026-08-23T16:45:26.032499+08:00",
+      "duration_seconds": 6.644,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 15596,
+      "output_tokens": 609,
+      "total_tokens": 16205,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 15596,
+        "output_tokens": 609,
+        "total_tokens": 16205,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 79,
+      "status": "completed",
+      "started_at": "2026-08-23T16:45:19.388013+08:00",
+      "completed_at": "2026-08-23T16:45:24.835194+08:00",
+      "duration_seconds": 5.447,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3838,
+      "output_tokens": 516,
+      "total_tokens": 4354,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3838,
+        "output_tokens": 516,
+        "total_tokens": 4354,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 80,
+      "status": "completed",
+      "started_at": "2026-08-23T16:45:19.388023+08:00",
+      "completed_at": "2026-08-23T16:45:23.774012+08:00",
+      "duration_seconds": 4.386,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1964,
+      "output_tokens": 408,
+      "total_tokens": 2372,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1964,
+        "output_tokens": 408,
+        "total_tokens": 2372,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 81,
+      "status": "completed",
+      "started_at": "2026-08-23T16:45:19.388033+08:00",
+      "completed_at": "2026-08-23T16:45:25.488603+08:00",
+      "duration_seconds": 6.101,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4221,
+      "output_tokens": 551,
+      "total_tokens": 4772,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4221,
+        "output_tokens": 551,
+        "total_tokens": 4772,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 82,
+      "status": "completed",
+      "started_at": "2026-08-23T16:45:19.388043+08:00",
+      "completed_at": "2026-08-23T16:45:24.937410+08:00",
+      "duration_seconds": 5.549,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3439,
+      "output_tokens": 509,
+      "total_tokens": 3948,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3439,
+        "output_tokens": 509,
+        "total_tokens": 3948,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 83,
+      "status": "completed",
+      "started_at": "2026-08-23T16:45:19.388052+08:00",
+      "completed_at": "2026-08-23T16:45:27.312497+08:00",
+      "duration_seconds": 7.924,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 14787,
+      "output_tokens": 718,
+      "total_tokens": 15505,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 14787,
+        "output_tokens": 718,
+        "total_tokens": 15505,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 84,
+      "status": "completed",
+      "started_at": "2026-08-23T16:45:19.388063+08:00",
+      "completed_at": "2026-08-23T16:45:24.456473+08:00",
+      "duration_seconds": 5.068,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2328,
+      "output_tokens": 447,
+      "total_tokens": 2775,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2328,
+        "output_tokens": 447,
+        "total_tokens": 2775,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 85,
+      "status": "completed",
+      "started_at": "2026-08-23T16:45:19.388072+08:00",
+      "completed_at": "2026-08-23T16:45:26.378343+08:00",
+      "duration_seconds": 6.99,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3953,
+      "output_tokens": 598,
+      "total_tokens": 4551,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3953,
+        "output_tokens": 598,
+        "total_tokens": 4551,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 86,
+      "status": "completed",
+      "started_at": "2026-08-23T16:45:19.388084+08:00",
+      "completed_at": "2026-08-23T16:45:29.265777+08:00",
+      "duration_seconds": 9.878,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 15791,
+      "output_tokens": 913,
+      "total_tokens": 16704,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 15791,
+        "output_tokens": 913,
+        "total_tokens": 16704,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 87,
+      "status": "completed",
+      "started_at": "2026-08-23T16:45:19.388093+08:00",
+      "completed_at": "2026-08-23T16:45:23.599239+08:00",
+      "duration_seconds": 4.211,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2005,
+      "output_tokens": 291,
+      "total_tokens": 2296,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2005,
+        "output_tokens": 291,
+        "total_tokens": 2296,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 88,
+      "status": "completed",
+      "started_at": "2026-08-23T16:45:19.388103+08:00",
+      "completed_at": "2026-08-23T16:45:25.505213+08:00",
+      "duration_seconds": 6.117,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 15413,
+      "output_tokens": 581,
+      "total_tokens": 15994,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 15413,
+        "output_tokens": 581,
+        "total_tokens": 15994,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 89,
+      "status": "completed",
+      "started_at": "2026-08-23T16:45:19.388112+08:00",
+      "completed_at": "2026-08-23T16:45:26.634205+08:00",
+      "duration_seconds": 7.246,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4242,
+      "output_tokens": 620,
+      "total_tokens": 4862,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4242,
+        "output_tokens": 620,
+        "total_tokens": 4862,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 90,
+      "status": "completed",
+      "started_at": "2026-08-23T16:45:19.388121+08:00",
+      "completed_at": "2026-08-23T16:45:23.774409+08:00",
+      "duration_seconds": 4.386,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2475,
+      "output_tokens": 381,
+      "total_tokens": 2856,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2475,
+        "output_tokens": 381,
+        "total_tokens": 2856,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 91,
+      "status": "completed",
+      "started_at": "2026-08-23T16:45:19.388130+08:00",
+      "completed_at": "2026-08-23T16:45:24.549186+08:00",
+      "duration_seconds": 5.161,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3493,
+      "output_tokens": 461,
+      "total_tokens": 3954,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3493,
+        "output_tokens": 461,
+        "total_tokens": 3954,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 92,
+      "status": "completed",
+      "started_at": "2026-08-23T16:45:19.388140+08:00",
+      "completed_at": "2026-08-23T16:45:22.992264+08:00",
+      "duration_seconds": 3.604,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1359,
+      "output_tokens": 250,
+      "total_tokens": 1609,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1359,
+        "output_tokens": 250,
+        "total_tokens": 1609,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 93,
+      "status": "completed",
+      "started_at": "2026-08-23T16:45:19.388149+08:00",
+      "completed_at": "2026-08-23T16:45:28.525217+08:00",
+      "duration_seconds": 9.137,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5672,
+      "output_tokens": 977,
+      "total_tokens": 6649,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5672,
+        "output_tokens": 977,
+        "total_tokens": 6649,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 94,
+      "status": "completed",
+      "started_at": "2026-08-23T16:45:19.388159+08:00",
+      "completed_at": "2026-08-23T16:45:26.215175+08:00",
+      "duration_seconds": 6.827,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 15042,
+      "output_tokens": 635,
+      "total_tokens": 15677,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 15042,
+        "output_tokens": 635,
+        "total_tokens": 15677,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 95,
+      "status": "completed",
+      "started_at": "2026-08-23T16:45:19.388168+08:00",
+      "completed_at": "2026-08-23T16:45:29.660352+08:00",
+      "duration_seconds": 10.272,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 10916,
+      "output_tokens": 812,
+      "total_tokens": 11728,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 10916,
+        "output_tokens": 812,
+        "total_tokens": 11728,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 96,
+      "status": "completed",
+      "started_at": "2026-08-23T16:45:19.388178+08:00",
+      "completed_at": "2026-08-23T16:45:26.949105+08:00",
+      "duration_seconds": 7.561,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4631,
+      "output_tokens": 753,
+      "total_tokens": 5384,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4631,
+        "output_tokens": 753,
+        "total_tokens": 5384,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 97,
+      "status": "completed",
+      "started_at": "2026-08-23T16:45:19.388187+08:00",
+      "completed_at": "2026-08-23T16:45:24.922060+08:00",
+      "duration_seconds": 5.534,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3790,
+      "output_tokens": 511,
+      "total_tokens": 4301,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3790,
+        "output_tokens": 511,
+        "total_tokens": 4301,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 98,
+      "status": "completed",
+      "started_at": "2026-08-23T16:45:19.388196+08:00",
+      "completed_at": "2026-08-23T16:45:25.488894+08:00",
+      "duration_seconds": 6.101,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4035,
+      "output_tokens": 552,
+      "total_tokens": 4587,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4035,
+        "output_tokens": 552,
+        "total_tokens": 4587,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 99,
+      "status": "completed",
+      "started_at": "2026-08-23T16:45:19.388205+08:00",
+      "completed_at": "2026-08-23T16:45:29.207556+08:00",
+      "duration_seconds": 9.819,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 16436,
+      "output_tokens": 896,
+      "total_tokens": 17332,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 16436,
+        "output_tokens": 896,
+        "total_tokens": 17332,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 100,
+      "status": "completed",
+      "started_at": "2026-08-23T16:45:19.388214+08:00",
+      "completed_at": "2026-08-23T16:45:27.611495+08:00",
+      "duration_seconds": 8.223,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 9796,
+      "output_tokens": 797,
+      "total_tokens": 10593,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 9796,
+        "output_tokens": 797,
+        "total_tokens": 10593,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 101,
+      "status": "completed",
+      "started_at": "2026-08-23T16:45:19.388224+08:00",
+      "completed_at": "2026-08-23T16:45:24.685123+08:00",
+      "duration_seconds": 5.297,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3622,
+      "output_tokens": 465,
+      "total_tokens": 4087,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3622,
+        "output_tokens": 465,
+        "total_tokens": 4087,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 102,
+      "status": "completed",
+      "started_at": "2026-08-23T16:45:19.388233+08:00",
+      "completed_at": "2026-08-23T16:45:27.246460+08:00",
+      "duration_seconds": 7.858,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 10068,
+      "output_tokens": 756,
+      "total_tokens": 10824,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 10068,
+        "output_tokens": 756,
+        "total_tokens": 10824,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 103,
+      "status": "completed",
+      "started_at": "2026-08-23T16:45:32.115751+08:00",
+      "completed_at": "2026-08-23T16:45:47.865780+08:00",
+      "duration_seconds": 15.75,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 51123,
+      "output_tokens": 1329,
+      "total_tokens": 52452,
+      "message_count": 11,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 51123,
+        "output_tokens": 1329,
+        "total_tokens": 52452,
+        "input_token_details": {
+          "cache_read": 18944
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 104,
+      "status": "completed",
+      "started_at": "2026-08-23T16:45:47.874233+08:00",
+      "completed_at": "2026-08-23T16:47:41.943407+08:00",
+      "duration_seconds": 114.069,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 51475,
+      "output_tokens": 11936,
+      "total_tokens": 63411,
+      "message_count": 14,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 51475,
+        "output_tokens": 11936,
+        "total_tokens": 63411,
+        "input_token_details": {
+          "cache_read": 512
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "end_turn"
+    },
+    {
+      "sequence": 105,
+      "status": "completed",
+      "started_at": "2026-08-23T16:47:41.957754+08:00",
+      "completed_at": "2026-08-23T16:47:54.513503+08:00",
+      "duration_seconds": 12.556,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 13792,
+      "output_tokens": 1033,
+      "total_tokens": 14825,
+      "message_count": 6,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 13792,
+        "output_tokens": 1033,
+        "total_tokens": 14825,
+        "input_token_details": {},
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 106,
+      "status": "completed",
+      "started_at": "2026-08-23T16:47:54.520862+08:00",
+      "completed_at": "2026-08-23T16:48:10.093687+08:00",
+      "duration_seconds": 15.573,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 14279,
+      "output_tokens": 1346,
+      "total_tokens": 15625,
+      "message_count": 8,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 14279,
+        "output_tokens": 1346,
+        "total_tokens": 15625,
+        "input_token_details": {
+          "cache_read": 13312
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 107,
+      "status": "completed",
+      "started_at": "2026-08-23T16:48:10.101413+08:00",
+      "completed_at": "2026-08-23T16:51:38.179822+08:00",
+      "duration_seconds": 208.078,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 13463,
+      "output_tokens": 18298,
+      "total_tokens": 31761,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 13463,
+        "output_tokens": 18298,
+        "total_tokens": 31761,
+        "input_token_details": {},
+        "output_token_details": {}
+      },
+      "finish_reason": "end_turn"
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "status": "completed",
+      "query": "2026年全球保险集团排名 Forbes Global 2000 insurance companies",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.649,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Ping An Ranks No. 26 on Forbes 2026 Global 2000 List, No. 2 Among Global Insurers",
+          "url": "https://www.prnewswire.com/news-releases/ping-an-ranks-no-26-on-forbes-2026-global-2000-list-no-2-among-global-insurers-302812690.html",
+          "score": 0.9224337,
+          "raw_content_available": true,
+          "raw_content_length": 8918,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Forbes - The Global 2000 Companies - 2026",
+          "url": "https://www.kaggle.com/datasets/ellimaaac/forbes-the-global-2000-companies-2026",
+          "score": 0.9121316,
+          "raw_content_available": true,
+          "raw_content_length": 21715,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Ping An Ranks No. 26 on Forbes 2026 Global 2000 List, No. 2 Among Global Insurers",
+          "url": "https://group.pingan.com/media/news/2026/Ping-An-Ranks-No.-26-on-Forbes-2026-Global-2000-List--No.-2-Among-Global-Insurers.html",
+          "score": 0.9037116,
+          "raw_content_available": true,
+          "raw_content_length": 2461,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Forbes 2026 Global 2000 List - The World's Largest ...",
+          "url": "https://www.forbes.com/lists/global2000",
+          "score": 0.8342047,
+          "raw_content_available": true,
+          "raw_content_length": 67672,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Forbes America's Best Insurance Companies 2026",
+          "url": "https://www.forbes.com/lists/best-insurance-companies",
+          "score": 0.6519982,
+          "raw_content_available": true,
+          "raw_content_length": 2181,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 5,
+      "timestamp": "2026-08-23T16:44:12.389747+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "2025 2026 全球保险公司排名 Top 10 福布斯全球2000强 财富世界500强",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.948,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "2026《财富》世界500强· 完整榜单",
+          "url": "https://www.caifuzhongwen.com/fortune500/rankings/global500/2026",
+          "score": 0.8296166,
+          "raw_content_available": true,
+          "raw_content_length": 46073,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "2026年《财富》世界500强排行榜出炉:这7家中国保险公司上榜_ZAKER新闻",
+          "url": "https://app.myzaker.com/news/article.php?pk=6a6ac7a7b15ec0496321ea2f",
+          "score": 0.81979275,
+          "raw_content_available": true,
+          "raw_content_length": 1818,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Forbes 2026 Global 2000 List - The World's Largest ...",
+          "url": "https://www.forbes.com/lists/global2000",
+          "score": 0.7621591,
+          "raw_content_available": true,
+          "raw_content_length": 67672,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "《財星》世界500強- 維基百科，自由的百科全書",
+          "url": "https://zh.wikipedia.org/wiki/%E8%B4%A2%E5%AF%8C%E4%B8%96%E7%95%8C500%E5%BC%BA",
+          "score": 0.6063825,
+          "raw_content_available": true,
+          "raw_content_length": 217963,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "财富世界500强_百度百科",
+          "url": "https://baike.baidu.com/item/%E8%B4%A2%E5%AF%8C%E4%B8%96%E7%95%8C500%E5%BC%BA/65517988",
+          "score": 0.5973971,
+          "raw_content_available": true,
+          "raw_content_length": 93010,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 6,
+      "timestamp": "2026-08-23T16:44:12.678599+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "2025年全球最大保险公司 总资产 市值 营业收入 排名",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 3.248,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "2025全球保险公司市值TOP50排行：联合健康缩水超三成遭“重创”！中国国寿、中国平安强势位列全球前三！|保诚|新华保险|中国人寿|知名企业_网易订阅",
+          "url": "https://www.163.com/dy/article/KMNGPLF20539U8OD.html",
+          "score": 0.9307171,
+          "raw_content_available": true,
+          "raw_content_length": 29862,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "2025年世界保险市值百强：平安第五、国寿第六，市值均超“万亿”__财经头条__新浪财经",
+          "url": "https://cj.sina.cn/articles/view/6363707782/17b4e798602701gan0",
+          "score": 0.8834878,
+          "raw_content_available": true,
+          "raw_content_length": 9003,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "2025《财富》世界500强 · 完整榜单",
+          "url": "https://www.caifuzhongwen.com/fortune500/rankings/global500/2025",
+          "score": 0.8773195,
+          "raw_content_available": true,
+          "raw_content_length": 45212,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "全球保险公司100强揭晓：联合健康、平安领跑，阳光保险成新面孔 | 未央网",
+          "url": "https://www.weiyangx.com/425745.html",
+          "score": 0.725824,
+          "raw_content_available": true,
+          "raw_content_length": 8534,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "2025世界保险公司排名",
+          "url": "https://www.shenlanbao.com/he/1582285",
+          "score": 0.59880555,
+          "raw_content_available": true,
+          "raw_content_length": 6972,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 7,
+      "timestamp": "2026-08-23T16:44:12.982890+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "2025年全球保险公司市值排名前十 UnitedHealth Allianz AXA Chubb Progressive AIA Zurich",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.364,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "2025全球保险公司市值TOP50排行",
+          "url": "https://fintecdaily.com/2025quanqiubaoxian",
+          "score": 0.95838624,
+          "raw_content_available": true,
+          "raw_content_length": 7929,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Leading Global Insurers by Market Capitalization | GlobalData",
+          "url": "https://www.globaldata.com/companies/top-companies-by-sector/financial-services/global-insurers-by-market-cap",
+          "score": 0.8127637,
+          "raw_content_available": true,
+          "raw_content_length": 5088,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Insurance 2025 | Reports | Brandirectory",
+          "url": "https://brandirectory.com/reports/insurance/2025",
+          "score": 0.7746691,
+          "raw_content_available": true,
+          "raw_content_length": 7015,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Instagram",
+          "url": "https://www.instagram.com/p/DYjv1y8Dnnr",
+          "score": 0.73981786,
+          "raw_content_available": true,
+          "raw_content_length": 10410,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Top 10 largest insurance companies in the world by market cap | Insurance Business",
+          "url": "https://www.insurancebusinessmag.com/us/guides/top-10-largest-insurance-companies-in-the-world-by-market-cap-438712.aspx",
+          "score": 0.6693348,
+          "raw_content_available": true,
+          "raw_content_length": 19166,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 24,
+      "timestamp": "2026-08-23T16:44:49.414665+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "2026 Forbes Global 2000 insurance companies ranking top 10 UnitedHealth Ping An Allianz",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.454,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Ping An Ranks No. 26 on Forbes 2026 Global 2000 List ...",
+          "url": "https://group.pingan.com/media/news/2026/Ping-An-Ranks-No.-26-on-Forbes-2026-Global-2000-List--No.-2-Among-Global-Insurers.html",
+          "score": 0.81133276,
+          "raw_content_available": true,
+          "raw_content_length": 2461,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Ping An Ranks No. 26 on Forbes 2026 Global 2000 List ...",
+          "url": "https://www.prnewswire.com/news-releases/ping-an-ranks-no-26-on-forbes-2026-global-2000-list-no-2-among-global-insurers-302812690.html",
+          "score": 0.76972175,
+          "raw_content_available": true,
+          "raw_content_length": 8918,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Forbes 2026 Global 2000 List - The World's Largest ...",
+          "url": "https://www.forbes.com/lists/global2000",
+          "score": 0.66229486,
+          "raw_content_available": true,
+          "raw_content_length": 67672,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "List of largest insurance companies - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_largest_insurance_companies",
+          "score": 0.5792344,
+          "raw_content_available": true,
+          "raw_content_length": 24527,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Forbes America's Best Insurance Companies 2026",
+          "url": "https://www.forbes.com/lists/best-insurance-companies",
+          "score": 0.56719416,
+          "raw_content_available": true,
+          "raw_content_length": 2181,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 25,
+      "timestamp": "2026-08-23T16:44:49.484612+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "2025 2026 全球保险公司总资产排名 最大保险公司 伯克希尔哈撒韦 联合健康 安联 安盛",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 4.887,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "全球保险公司100强揭晓：联合健康、平安领跑",
+          "url": "https://www.weiyangx.com/425745.html",
+          "score": 0.8095324,
+          "raw_content_available": true,
+          "raw_content_length": 8534,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "全球最大的保险公司-风险预警-外贸资讯-催全球",
+          "url": "https://www.cuiqq.com/newsdetail/10532",
+          "score": 0.8020137,
+          "raw_content_available": true,
+          "raw_content_length": 3738,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "巴菲特的伯克希爾哈撒韋超越安聯，成為全球最大保險公司！ | 美股放大鏡",
+          "url": "https://www.forecastock.tw/article/cmoneyairesearcher-954621f5-ea54-11f0-9b8a-12ea467c8c7f",
+          "score": 0.79675186,
+          "raw_content_available": true,
+          "raw_content_length": 2262,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "2026年《财富》世界500强排行榜出炉:这7家中国保险公司上榜 - ZAKER",
+          "url": "https://app.myzaker.com/news/article.php?pk=6a6ac7a7b15ec0496321ea2f",
+          "score": 0.77548623,
+          "raw_content_available": true,
+          "raw_content_length": 1818,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "2026《财富》世界500强· 完整榜单",
+          "url": "https://www.caifuzhongwen.com/fortune500/rankings/global500/2026",
+          "score": 0.70726365,
+          "raw_content_available": true,
+          "raw_content_length": 46073,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 26,
+      "timestamp": "2026-08-23T16:44:51.929704+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "AIA Group founded year headquarters Hong Kong",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.287,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "AIA Group - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/AIA_Group",
+          "score": 0.9119436,
+          "raw_content_available": true,
+          "raw_content_length": 65075,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "AIA | Insurance Business",
+          "url": "https://www.insurancebusinessmag.com/asia/companies/aia-211529.aspx",
+          "score": 0.8729662,
+          "raw_content_available": true,
+          "raw_content_length": 12730,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "About Us | Asia's Leading Insurance Company | AIA Group Limited",
+          "url": "https://www.aia.com/en/about-aia/overview",
+          "score": 0.83290404,
+          "raw_content_available": true,
+          "raw_content_length": 5752,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "AIA Group Limited Company Profile - AIA Group Limited Overview - GlobalData",
+          "url": "https://www.globaldata.com/company-profile/aia-group-limited",
+          "score": 0.72884524,
+          "raw_content_available": true,
+          "raw_content_length": 9781,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "AIA Group",
+          "url": "https://www.zoominfo.com/c/aia-group-ltd/4853944",
+          "score": 0.63125396,
+          "raw_content_available": true,
+          "raw_content_length": 855,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 43,
+      "timestamp": "2026-08-23T16:45:14.009197+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Chubb insurance founded year headquarters Zurich Switzerland",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.342,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Chubb Limited",
+          "url": "https://en.wikipedia.org/wiki/Chubb_Limited",
+          "score": 0.90289277,
+          "raw_content_available": true,
+          "raw_content_length": 99775,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Chubb : Everything you need to know | Insurance Business",
+          "url": "https://www.insurancebusinessmag.com/us/companies/chubb/67002",
+          "score": 0.8808076,
+          "raw_content_available": true,
+          "raw_content_length": 10867,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Chubb Limited - History and Company profile (overview)",
+          "url": "https://www.youtube.com/watch?v=e-IC-UHyc1E",
+          "score": 0.8458536,
+          "raw_content_available": true,
+          "raw_content_length": 3754,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Chubb Corporation",
+          "url": "https://www.companieshistory.com/chubb-corporation",
+          "score": 0.8335554,
+          "raw_content_available": true,
+          "raw_content_length": 13361,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Chubb Ltd Company Profile - Chubb Ltd Overview - GlobalData",
+          "url": "https://www.globaldata.com/company-profile/chubb-ltd",
+          "score": 0.6826801,
+          "raw_content_available": true,
+          "raw_content_length": 9480,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 44,
+      "timestamp": "2026-08-23T16:45:14.055585+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Allianz founded 1890 headquarters Munich business areas property life health reinsurance",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.643,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Allianz - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Allianz",
+          "score": 0.8482825,
+          "raw_content_available": true,
+          "raw_content_length": 173888,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Allianz Strategy and Business Model",
+          "url": "https://umbrex.com/resources/company-profiles/allianz",
+          "score": 0.8412138,
+          "raw_content_available": true,
+          "raw_content_length": 42411,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Allianz News | Insurance Business",
+          "url": "https://www.insurancebusinessmag.com/us/companies/allianz/66992",
+          "score": 0.79732054,
+          "raw_content_available": true,
+          "raw_content_length": 13515,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Allianz AG | Encyclopedia.com",
+          "url": "https://www.encyclopedia.com/books/politics-and-business-magazines/allianz-ag",
+          "score": 0.73322314,
+          "raw_content_available": true,
+          "raw_content_length": 53874,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Corporate Facts, Mission, and Vision",
+          "url": "https://www.allianzlife.com/about",
+          "score": 0.71088976,
+          "raw_content_available": true,
+          "raw_content_length": 8843,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 45,
+      "timestamp": "2026-08-23T16:45:14.340405+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Ping An Insurance founded 1988 headquarters Shenzhen business lines",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.872,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Ping An Insurance - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ping_An_Insurance",
+          "score": 0.9035075,
+          "raw_content_available": true,
+          "raw_content_length": 98838,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Ping An Strategy and Business Model",
+          "url": "https://umbrex.com/resources/company-profiles/ping-an-insurance-group-co-of-china-ltd",
+          "score": 0.8775715,
+          "raw_content_available": true,
+          "raw_content_length": 37664,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Ping An Insurance (Group) Company of China, Ltd.（A financial and insurance enterprise founded in 1988.）_Baiduwiki",
+          "url": "https://baike.baidu.com/en/item/Ping%20An%20Insurance%20(Group)%20Company%20of%20China%2C%20Ltd./933037",
+          "score": 0.8533396,
+          "raw_content_available": true,
+          "raw_content_length": 25138,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Ping An Insurance (Group) Company Of China, Ltd.-AFCA",
+          "url": "https://www.afca-asia.org/Portal.do?method=memberDetailView&returnChannelID=29&resourceID=31",
+          "score": 0.83742094,
+          "raw_content_available": true,
+          "raw_content_length": 6033,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Ping An Insurance Becomes Goldman Sachs’ First Principal Investment in China | Goldman Sachs",
+          "url": "https://www.goldmansachs.com/our-firm/history/moments/1994-ping-an",
+          "score": 0.77873385,
+          "raw_content_available": true,
+          "raw_content_length": 3328,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 46,
+      "timestamp": "2026-08-23T16:45:14.562142+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Berkshire Hathaway insurance business founded year headquarters Omaha",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 3.122,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Berkshire Hathaway - Products, Competitors, Financials, Employees, Headquarters Locations",
+          "url": "https://www.cbinsights.com/company/berkshire-hathaway",
+          "score": 0.8732259,
+          "raw_content_available": true,
+          "raw_content_length": 9358,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Our History | BHHC",
+          "url": "https://bhhc.com/about/our-history",
+          "score": 0.8332299,
+          "raw_content_available": true,
+          "raw_content_length": 4433,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Berkshire Hathaway Inc. - Omaha",
+          "url": "https://www.omahaimc.org/berkshire-hathaway-inc",
+          "score": 0.83290404,
+          "raw_content_available": true,
+          "raw_content_length": 5968,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Berkshire Hathaway Inc. (Berkshire Hathaway Inc.) - Financial Holding Company, United States",
+          "url": "https://www.swfinstitute.org/profile/5c27ed155efa2c6153b83d58",
+          "score": 0.7892503,
+          "raw_content_available": true,
+          "raw_content_length": 22706,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Berkshire Hathaway: Company Profile, Ownership & M&A Activity | Mergr",
+          "url": "https://mergr.com/company/berkshire-hathaway",
+          "score": 0.7672197,
+          "raw_content_available": true,
+          "raw_content_length": 8991,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 47,
+      "timestamp": "2026-08-23T16:45:14.825535+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Zurich Insurance Group founded year headquarters",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 3.158,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Zurich Insurance Group - Products, Competitors, Financials, Employees, Headquarters Locations",
+          "url": "https://www.cbinsights.com/company/zurich-insurance-group",
+          "score": 0.9063574931311678,
+          "raw_content_available": true,
+          "raw_content_length": 18972,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Zurich Insurance Group - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Zurich_Insurance_Group",
+          "score": 0.8853681765587956,
+          "raw_content_available": true,
+          "raw_content_length": 80533,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "History and Heritage | Zurich Insurance",
+          "url": "https://www.zurich.com/about-us/history-and-heritage",
+          "score": 0.8768227917219944,
+          "raw_content_available": true,
+          "raw_content_length": 40528,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "History, timeline and milestones | Zurich Insurance",
+          "url": "https://www.zurichna.com/about/history",
+          "score": 0.8661886136190644,
+          "raw_content_available": true,
+          "raw_content_length": 13220,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "About Us | Zurich U.S. | Commercial Insurance",
+          "url": "https://www.zurichna.com/about",
+          "score": 0.8650833081406382,
+          "raw_content_available": true,
+          "raw_content_length": 11229,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 48,
+      "timestamp": "2026-08-23T16:45:14.883719+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "MetLife Generali Munich Re insurance company founded year headquarters",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 3.464,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Munich Re | Insurance Business",
+          "url": "https://www.insurancebusinessmag.com/us/companies/munich-re-215451.aspx",
+          "score": 0.8033131,
+          "raw_content_available": true,
+          "raw_content_length": 11618,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Munich Re - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Munich_Re_Group",
+          "score": 0.780947,
+          "raw_content_available": true,
+          "raw_content_length": 89311,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "The early years – On the way to the top of the world (1880–1914) | Munich Re",
+          "url": "https://www.munichre.com/en/company/about-munich-re/group-history/the-early-years-on-the-way-to-the-top-of-the-world-1880-1914.html",
+          "score": 0.69024646,
+          "raw_content_available": true,
+          "raw_content_length": 29749,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "History | Munich Re",
+          "url": "https://www.munichre.com/en/company/about-munich-re/munich-re-worldwide/france/history.html",
+          "score": 0.6546525,
+          "raw_content_available": true,
+          "raw_content_length": 9083,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Munich Re (Münchener Rückversicherungs-Gesellschaft Aktiengesellschaft in München) | Encyclopedia.com",
+          "url": "https://www.encyclopedia.com/books/politics-and-business-magazines/munich-re-munchener-ruckversicherungs-gesellschaft-aktiengesellschaft-munchen",
+          "score": 0.57952,
+          "raw_content_available": true,
+          "raw_content_length": 38249,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 49,
+      "timestamp": "2026-08-23T16:45:15.193073+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "AXA founded year headquarters Paris France insurance business",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 3.989,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Axa - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Axa",
+          "score": 0.952963363716428,
+          "raw_content_available": true,
+          "raw_content_length": 107470,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "AXA Strategy and Business Model",
+          "url": "https://umbrex.com/resources/company-profiles/axa-sa",
+          "score": 0.9340121535247093,
+          "raw_content_available": true,
+          "raw_content_length": 37720,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "AXA group: history and growth | Atlas Magazine",
+          "url": "http://www.atlas-mag.net/en/articles/axa-group-history-and-growth-0",
+          "score": 0.9290109992979924,
+          "raw_content_available": true,
+          "raw_content_length": 23620,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "AXA SA (AXA) - Insurance, France",
+          "url": "https://www.swfinstitute.org/profile/598cdaa50124e9fd2d05a962",
+          "score": 0.9243548119480766,
+          "raw_content_available": true,
+          "raw_content_length": 22451,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "AXA SA Company Profile - Overview - GlobalData",
+          "url": "https://www.globaldata.com/company-profile/axa-sa",
+          "score": 0.9150383565046528,
+          "raw_content_available": true,
+          "raw_content_length": 9308,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 50,
+      "timestamp": "2026-08-23T16:45:15.696883+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "UnitedHealth Group founded year headquarters business areas",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 5.925,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "UnitedHealth Group - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/UnitedHealth_Group",
+          "score": 0.8319231,
+          "raw_content_available": true,
+          "raw_content_length": 238609,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "UnitedHealth Group | Consumer Health | Research Starters | EBSCO Research",
+          "url": "https://www.ebsco.com/research-starters/consumer-health/unitedhealth-group",
+          "score": 0.78194773,
+          "raw_content_available": true,
+          "raw_content_length": 36233,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "UnitedHealth Group Headquarters & Office Locations - Global Reach",
+          "url": "https://exa.ai/websets/directory/unitedhealthcare-offices",
+          "score": 0.7703443,
+          "raw_content_available": true,
+          "raw_content_length": 6257,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "UnitedHealth Group | UNH Stock Price, Company Overview & News",
+          "url": "https://www.forbes.com/companies/unitedhealth-group",
+          "score": 0.7265231,
+          "raw_content_available": true,
+          "raw_content_length": 14531,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "UnitedHealth Group | History, Growth, & Controversies | Britannica Money",
+          "url": "https://www.britannica.com/money/UnitedHealth-Group",
+          "score": 0.6469293,
+          "raw_content_available": true,
+          "raw_content_length": 8950,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 51,
+      "timestamp": "2026-08-23T16:45:17.606240+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Progressive insurance founded year headquarters Ohio",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 7.611,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Progressive Corporation - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Progressive_Corporation",
+          "score": 0.92588276,
+          "raw_content_available": true,
+          "raw_content_length": 130442,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "PROGRESSIVE CORP. | Encyclopedia of Cleveland History | Case Western Reserve University",
+          "url": "https://case.edu/ech/articles/p/progressive-corp",
+          "score": 0.8539252,
+          "raw_content_available": true,
+          "raw_content_length": 5305,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Our History | Progressive",
+          "url": "https://www.progressive.com/about/history",
+          "score": 0.7522497,
+          "raw_content_available": true,
+          "raw_content_length": 10343,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "The Progressive Corporation     10-K",
+          "url": "https://www.sec.gov/Archives/edgar/data/80661/000095015208001442/l30025ae10vk.htm",
+          "score": 0.68723184,
+          "raw_content_available": true,
+          "raw_content_length": 11124511,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Corporate Headquarters in Mayfield Village, Ohio | Progressive",
+          "url": "https://www.progressive.com/locations/mayfield-village-oh-headquarters",
+          "score": 0.6609831,
+          "raw_content_available": true,
+          "raw_content_length": 3224,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 52,
+      "timestamp": "2026-08-23T16:45:19.328600+08:00"
+    }
+  ],
+  "summary_cache_hits": 7,
+  "summary_cache_hit_urls": [
+    "https://group.pingan.com/media/news/2026/Ping-An-Ranks-No.-26-on-Forbes-2026-Global-2000-List--No.-2-Among-Global-Insurers.html",
+    "https://www.prnewswire.com/news-releases/ping-an-ranks-no-26-on-forbes-2026-global-2000-list-no-2-among-global-insurers-302812690.html",
+    "https://www.forbes.com/lists/global2000",
+    "https://www.forbes.com/lists/best-insurance-companies",
+    "https://www.weiyangx.com/425745.html",
+    "https://app.myzaker.com/news/article.php?pk=6a6ac7a7b15ec0496321ea2f",
+    "https://www.caifuzhongwen.com/fortune500/rankings/global500/2026"
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://www.prnewswire.com/news-releases/ping-an-ranks-no-26-on-forbes-2026-global-2000-list-no-2-among-global-insurers-302812690.html",
+      "status": "success",
+      "content_length": 8918,
+      "duration_seconds": 2.649,
+      "query": "2026年全球保险集团排名 Forbes Global 2000 insurance companies"
+    },
+    {
+      "url": "https://www.kaggle.com/datasets/ellimaaac/forbes-the-global-2000-companies-2026",
+      "status": "success",
+      "content_length": 21715,
+      "duration_seconds": 2.649,
+      "query": "2026年全球保险集团排名 Forbes Global 2000 insurance companies"
+    },
+    {
+      "url": "https://group.pingan.com/media/news/2026/Ping-An-Ranks-No.-26-on-Forbes-2026-Global-2000-List--No.-2-Among-Global-Insurers.html",
+      "status": "success",
+      "content_length": 2461,
+      "duration_seconds": 2.649,
+      "query": "2026年全球保险集团排名 Forbes Global 2000 insurance companies"
+    },
+    {
+      "url": "https://www.forbes.com/lists/global2000",
+      "status": "success",
+      "content_length": 67672,
+      "duration_seconds": 2.649,
+      "query": "2026年全球保险集团排名 Forbes Global 2000 insurance companies"
+    },
+    {
+      "url": "https://www.forbes.com/lists/best-insurance-companies",
+      "status": "success",
+      "content_length": 2181,
+      "duration_seconds": 2.649,
+      "query": "2026年全球保险集团排名 Forbes Global 2000 insurance companies"
+    },
+    {
+      "url": "https://www.caifuzhongwen.com/fortune500/rankings/global500/2026",
+      "status": "success",
+      "content_length": 46073,
+      "duration_seconds": 2.948,
+      "query": "2025 2026 全球保险公司排名 Top 10 福布斯全球2000强 财富世界500强"
+    },
+    {
+      "url": "https://app.myzaker.com/news/article.php?pk=6a6ac7a7b15ec0496321ea2f",
+      "status": "success",
+      "content_length": 1818,
+      "duration_seconds": 2.948,
+      "query": "2025 2026 全球保险公司排名 Top 10 福布斯全球2000强 财富世界500强"
+    },
+    {
+      "url": "https://www.forbes.com/lists/global2000",
+      "status": "success",
+      "content_length": 67672,
+      "duration_seconds": 2.948,
+      "query": "2025 2026 全球保险公司排名 Top 10 福布斯全球2000强 财富世界500强"
+    },
+    {
+      "url": "https://zh.wikipedia.org/wiki/%E8%B4%A2%E5%AF%8C%E4%B8%96%E7%95%8C500%E5%BC%BA",
+      "status": "success",
+      "content_length": 217963,
+      "duration_seconds": 2.948,
+      "query": "2025 2026 全球保险公司排名 Top 10 福布斯全球2000强 财富世界500强"
+    },
+    {
+      "url": "https://baike.baidu.com/item/%E8%B4%A2%E5%AF%8C%E4%B8%96%E7%95%8C500%E5%BC%BA/65517988",
+      "status": "success",
+      "content_length": 93010,
+      "duration_seconds": 2.948,
+      "query": "2025 2026 全球保险公司排名 Top 10 福布斯全球2000强 财富世界500强"
+    },
+    {
+      "url": "https://www.163.com/dy/article/KMNGPLF20539U8OD.html",
+      "status": "success",
+      "content_length": 29862,
+      "duration_seconds": 3.248,
+      "query": "2025年全球最大保险公司 总资产 市值 营业收入 排名"
+    },
+    {
+      "url": "https://cj.sina.cn/articles/view/6363707782/17b4e798602701gan0",
+      "status": "success",
+      "content_length": 9003,
+      "duration_seconds": 3.248,
+      "query": "2025年全球最大保险公司 总资产 市值 营业收入 排名"
+    },
+    {
+      "url": "https://www.caifuzhongwen.com/fortune500/rankings/global500/2025",
+      "status": "success",
+      "content_length": 45212,
+      "duration_seconds": 3.248,
+      "query": "2025年全球最大保险公司 总资产 市值 营业收入 排名"
+    },
+    {
+      "url": "https://www.weiyangx.com/425745.html",
+      "status": "success",
+      "content_length": 8534,
+      "duration_seconds": 3.248,
+      "query": "2025年全球最大保险公司 总资产 市值 营业收入 排名"
+    },
+    {
+      "url": "https://www.shenlanbao.com/he/1582285",
+      "status": "success",
+      "content_length": 6972,
+      "duration_seconds": 3.248,
+      "query": "2025年全球最大保险公司 总资产 市值 营业收入 排名"
+    },
+    {
+      "url": "https://fintecdaily.com/2025quanqiubaoxian",
+      "status": "success",
+      "content_length": 7929,
+      "duration_seconds": 2.364,
+      "query": "2025年全球保险公司市值排名前十 UnitedHealth Allianz AXA Chubb Progressive AIA Zurich"
+    },
+    {
+      "url": "https://www.globaldata.com/companies/top-companies-by-sector/financial-services/global-insurers-by-market-cap",
+      "status": "success",
+      "content_length": 5088,
+      "duration_seconds": 2.364,
+      "query": "2025年全球保险公司市值排名前十 UnitedHealth Allianz AXA Chubb Progressive AIA Zurich"
+    },
+    {
+      "url": "https://brandirectory.com/reports/insurance/2025",
+      "status": "success",
+      "content_length": 7015,
+      "duration_seconds": 2.364,
+      "query": "2025年全球保险公司市值排名前十 UnitedHealth Allianz AXA Chubb Progressive AIA Zurich"
+    },
+    {
+      "url": "https://www.instagram.com/p/DYjv1y8Dnnr",
+      "status": "success",
+      "content_length": 10410,
+      "duration_seconds": 2.364,
+      "query": "2025年全球保险公司市值排名前十 UnitedHealth Allianz AXA Chubb Progressive AIA Zurich"
+    },
+    {
+      "url": "https://www.insurancebusinessmag.com/us/guides/top-10-largest-insurance-companies-in-the-world-by-market-cap-438712.aspx",
+      "status": "success",
+      "content_length": 19166,
+      "duration_seconds": 2.364,
+      "query": "2025年全球保险公司市值排名前十 UnitedHealth Allianz AXA Chubb Progressive AIA Zurich"
+    },
+    {
+      "url": "https://group.pingan.com/media/news/2026/Ping-An-Ranks-No.-26-on-Forbes-2026-Global-2000-List--No.-2-Among-Global-Insurers.html",
+      "status": "success",
+      "content_length": 2461,
+      "duration_seconds": 2.454,
+      "query": "2026 Forbes Global 2000 insurance companies ranking top 10 UnitedHealth Ping An Allianz"
+    },
+    {
+      "url": "https://www.prnewswire.com/news-releases/ping-an-ranks-no-26-on-forbes-2026-global-2000-list-no-2-among-global-insurers-302812690.html",
+      "status": "success",
+      "content_length": 8918,
+      "duration_seconds": 2.454,
+      "query": "2026 Forbes Global 2000 insurance companies ranking top 10 UnitedHealth Ping An Allianz"
+    },
+    {
+      "url": "https://www.forbes.com/lists/global2000",
+      "status": "success",
+      "content_length": 67672,
+      "duration_seconds": 2.454,
+      "query": "2026 Forbes Global 2000 insurance companies ranking top 10 UnitedHealth Ping An Allianz"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/List_of_largest_insurance_companies",
+      "status": "success",
+      "content_length": 24527,
+      "duration_seconds": 2.454,
+      "query": "2026 Forbes Global 2000 insurance companies ranking top 10 UnitedHealth Ping An Allianz"
+    },
+    {
+      "url": "https://www.forbes.com/lists/best-insurance-companies",
+      "status": "success",
+      "content_length": 2181,
+      "duration_seconds": 2.454,
+      "query": "2026 Forbes Global 2000 insurance companies ranking top 10 UnitedHealth Ping An Allianz"
+    },
+    {
+      "url": "https://www.weiyangx.com/425745.html",
+      "status": "success",
+      "content_length": 8534,
+      "duration_seconds": 4.887,
+      "query": "2025 2026 全球保险公司总资产排名 最大保险公司 伯克希尔哈撒韦 联合健康 安联 安盛"
+    },
+    {
+      "url": "https://www.cuiqq.com/newsdetail/10532",
+      "status": "success",
+      "content_length": 3738,
+      "duration_seconds": 4.887,
+      "query": "2025 2026 全球保险公司总资产排名 最大保险公司 伯克希尔哈撒韦 联合健康 安联 安盛"
+    },
+    {
+      "url": "https://www.forecastock.tw/article/cmoneyairesearcher-954621f5-ea54-11f0-9b8a-12ea467c8c7f",
+      "status": "success",
+      "content_length": 2262,
+      "duration_seconds": 4.887,
+      "query": "2025 2026 全球保险公司总资产排名 最大保险公司 伯克希尔哈撒韦 联合健康 安联 安盛"
+    },
+    {
+      "url": "https://app.myzaker.com/news/article.php?pk=6a6ac7a7b15ec0496321ea2f",
+      "status": "success",
+      "content_length": 1818,
+      "duration_seconds": 4.887,
+      "query": "2025 2026 全球保险公司总资产排名 最大保险公司 伯克希尔哈撒韦 联合健康 安联 安盛"
+    },
+    {
+      "url": "https://www.caifuzhongwen.com/fortune500/rankings/global500/2026",
+      "status": "success",
+      "content_length": 46073,
+      "duration_seconds": 4.887,
+      "query": "2025 2026 全球保险公司总资产排名 最大保险公司 伯克希尔哈撒韦 联合健康 安联 安盛"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/AIA_Group",
+      "status": "success",
+      "content_length": 65075,
+      "duration_seconds": 2.287,
+      "query": "AIA Group founded year headquarters Hong Kong"
+    },
+    {
+      "url": "https://www.insurancebusinessmag.com/asia/companies/aia-211529.aspx",
+      "status": "success",
+      "content_length": 12730,
+      "duration_seconds": 2.287,
+      "query": "AIA Group founded year headquarters Hong Kong"
+    },
+    {
+      "url": "https://www.aia.com/en/about-aia/overview",
+      "status": "success",
+      "content_length": 5752,
+      "duration_seconds": 2.287,
+      "query": "AIA Group founded year headquarters Hong Kong"
+    },
+    {
+      "url": "https://www.globaldata.com/company-profile/aia-group-limited",
+      "status": "success",
+      "content_length": 9781,
+      "duration_seconds": 2.287,
+      "query": "AIA Group founded year headquarters Hong Kong"
+    },
+    {
+      "url": "https://www.zoominfo.com/c/aia-group-ltd/4853944",
+      "status": "success",
+      "content_length": 855,
+      "duration_seconds": 2.287,
+      "query": "AIA Group founded year headquarters Hong Kong"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Chubb_Limited",
+      "status": "success",
+      "content_length": 99775,
+      "duration_seconds": 2.342,
+      "query": "Chubb insurance founded year headquarters Zurich Switzerland"
+    },
+    {
+      "url": "https://www.insurancebusinessmag.com/us/companies/chubb/67002",
+      "status": "success",
+      "content_length": 10867,
+      "duration_seconds": 2.342,
+      "query": "Chubb insurance founded year headquarters Zurich Switzerland"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=e-IC-UHyc1E",
+      "status": "success",
+      "content_length": 3754,
+      "duration_seconds": 2.342,
+      "query": "Chubb insurance founded year headquarters Zurich Switzerland"
+    },
+    {
+      "url": "https://www.companieshistory.com/chubb-corporation",
+      "status": "success",
+      "content_length": 13361,
+      "duration_seconds": 2.342,
+      "query": "Chubb insurance founded year headquarters Zurich Switzerland"
+    },
+    {
+      "url": "https://www.globaldata.com/company-profile/chubb-ltd",
+      "status": "success",
+      "content_length": 9480,
+      "duration_seconds": 2.342,
+      "query": "Chubb insurance founded year headquarters Zurich Switzerland"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Allianz",
+      "status": "success",
+      "content_length": 173888,
+      "duration_seconds": 2.643,
+      "query": "Allianz founded 1890 headquarters Munich business areas property life health reinsurance"
+    },
+    {
+      "url": "https://umbrex.com/resources/company-profiles/allianz",
+      "status": "success",
+      "content_length": 42411,
+      "duration_seconds": 2.643,
+      "query": "Allianz founded 1890 headquarters Munich business areas property life health reinsurance"
+    },
+    {
+      "url": "https://www.insurancebusinessmag.com/us/companies/allianz/66992",
+      "status": "success",
+      "content_length": 13515,
+      "duration_seconds": 2.643,
+      "query": "Allianz founded 1890 headquarters Munich business areas property life health reinsurance"
+    },
+    {
+      "url": "https://www.encyclopedia.com/books/politics-and-business-magazines/allianz-ag",
+      "status": "success",
+      "content_length": 53874,
+      "duration_seconds": 2.643,
+      "query": "Allianz founded 1890 headquarters Munich business areas property life health reinsurance"
+    },
+    {
+      "url": "https://www.allianzlife.com/about",
+      "status": "success",
+      "content_length": 8843,
+      "duration_seconds": 2.643,
+      "query": "Allianz founded 1890 headquarters Munich business areas property life health reinsurance"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Ping_An_Insurance",
+      "status": "success",
+      "content_length": 98838,
+      "duration_seconds": 2.872,
+      "query": "Ping An Insurance founded 1988 headquarters Shenzhen business lines"
+    },
+    {
+      "url": "https://umbrex.com/resources/company-profiles/ping-an-insurance-group-co-of-china-ltd",
+      "status": "success",
+      "content_length": 37664,
+      "duration_seconds": 2.872,
+      "query": "Ping An Insurance founded 1988 headquarters Shenzhen business lines"
+    },
+    {
+      "url": "https://baike.baidu.com/en/item/Ping%20An%20Insurance%20(Group)%20Company%20of%20China%2C%20Ltd./933037",
+      "status": "success",
+      "content_length": 25138,
+      "duration_seconds": 2.872,
+      "query": "Ping An Insurance founded 1988 headquarters Shenzhen business lines"
+    },
+    {
+      "url": "https://www.afca-asia.org/Portal.do?method=memberDetailView&returnChannelID=29&resourceID=31",
+      "status": "success",
+      "content_length": 6033,
+      "duration_seconds": 2.872,
+      "query": "Ping An Insurance founded 1988 headquarters Shenzhen business lines"
+    },
+    {
+      "url": "https://www.goldmansachs.com/our-firm/history/moments/1994-ping-an",
+      "status": "success",
+      "content_length": 3328,
+      "duration_seconds": 2.872,
+      "query": "Ping An Insurance founded 1988 headquarters Shenzhen business lines"
+    },
+    {
+      "url": "https://www.cbinsights.com/company/berkshire-hathaway",
+      "status": "success",
+      "content_length": 9358,
+      "duration_seconds": 3.122,
+      "query": "Berkshire Hathaway insurance business founded year headquarters Omaha"
+    },
+    {
+      "url": "https://bhhc.com/about/our-history",
+      "status": "success",
+      "content_length": 4433,
+      "duration_seconds": 3.122,
+      "query": "Berkshire Hathaway insurance business founded year headquarters Omaha"
+    },
+    {
+      "url": "https://www.omahaimc.org/berkshire-hathaway-inc",
+      "status": "success",
+      "content_length": 5968,
+      "duration_seconds": 3.122,
+      "query": "Berkshire Hathaway insurance business founded year headquarters Omaha"
+    },
+    {
+      "url": "https://www.swfinstitute.org/profile/5c27ed155efa2c6153b83d58",
+      "status": "success",
+      "content_length": 22706,
+      "duration_seconds": 3.122,
+      "query": "Berkshire Hathaway insurance business founded year headquarters Omaha"
+    },
+    {
+      "url": "https://mergr.com/company/berkshire-hathaway",
+      "status": "success",
+      "content_length": 8991,
+      "duration_seconds": 3.122,
+      "query": "Berkshire Hathaway insurance business founded year headquarters Omaha"
+    },
+    {
+      "url": "https://www.cbinsights.com/company/zurich-insurance-group",
+      "status": "success",
+      "content_length": 18972,
+      "duration_seconds": 3.158,
+      "query": "Zurich Insurance Group founded year headquarters"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Zurich_Insurance_Group",
+      "status": "success",
+      "content_length": 80533,
+      "duration_seconds": 3.158,
+      "query": "Zurich Insurance Group founded year headquarters"
+    },
+    {
+      "url": "https://www.zurich.com/about-us/history-and-heritage",
+      "status": "success",
+      "content_length": 40528,
+      "duration_seconds": 3.158,
+      "query": "Zurich Insurance Group founded year headquarters"
+    },
+    {
+      "url": "https://www.zurichna.com/about/history",
+      "status": "success",
+      "content_length": 13220,
+      "duration_seconds": 3.158,
+      "query": "Zurich Insurance Group founded year headquarters"
+    },
+    {
+      "url": "https://www.zurichna.com/about",
+      "status": "success",
+      "content_length": 11229,
+      "duration_seconds": 3.158,
+      "query": "Zurich Insurance Group founded year headquarters"
+    },
+    {
+      "url": "https://www.insurancebusinessmag.com/us/companies/munich-re-215451.aspx",
+      "status": "success",
+      "content_length": 11618,
+      "duration_seconds": 3.464,
+      "query": "MetLife Generali Munich Re insurance company founded year headquarters"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Munich_Re_Group",
+      "status": "success",
+      "content_length": 89311,
+      "duration_seconds": 3.464,
+      "query": "MetLife Generali Munich Re insurance company founded year headquarters"
+    },
+    {
+      "url": "https://www.munichre.com/en/company/about-munich-re/group-history/the-early-years-on-the-way-to-the-top-of-the-world-1880-1914.html",
+      "status": "success",
+      "content_length": 29749,
+      "duration_seconds": 3.464,
+      "query": "MetLife Generali Munich Re insurance company founded year headquarters"
+    },
+    {
+      "url": "https://www.munichre.com/en/company/about-munich-re/munich-re-worldwide/france/history.html",
+      "status": "success",
+      "content_length": 9083,
+      "duration_seconds": 3.464,
+      "query": "MetLife Generali Munich Re insurance company founded year headquarters"
+    },
+    {
+      "url": "https://www.encyclopedia.com/books/politics-and-business-magazines/munich-re-munchener-ruckversicherungs-gesellschaft-aktiengesellschaft-munchen",
+      "status": "success",
+      "content_length": 38249,
+      "duration_seconds": 3.464,
+      "query": "MetLife Generali Munich Re insurance company founded year headquarters"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Axa",
+      "status": "success",
+      "content_length": 107470,
+      "duration_seconds": 3.989,
+      "query": "AXA founded year headquarters Paris France insurance business"
+    },
+    {
+      "url": "https://umbrex.com/resources/company-profiles/axa-sa",
+      "status": "success",
+      "content_length": 37720,
+      "duration_seconds": 3.989,
+      "query": "AXA founded year headquarters Paris France insurance business"
+    },
+    {
+      "url": "http://www.atlas-mag.net/en/articles/axa-group-history-and-growth-0",
+      "status": "success",
+      "content_length": 23620,
+      "duration_seconds": 3.989,
+      "query": "AXA founded year headquarters Paris France insurance business"
+    },
+    {
+      "url": "https://www.swfinstitute.org/profile/598cdaa50124e9fd2d05a962",
+      "status": "success",
+      "content_length": 22451,
+      "duration_seconds": 3.989,
+      "query": "AXA founded year headquarters Paris France insurance business"
+    },
+    {
+      "url": "https://www.globaldata.com/company-profile/axa-sa",
+      "status": "success",
+      "content_length": 9308,
+      "duration_seconds": 3.989,
+      "query": "AXA founded year headquarters Paris France insurance business"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/UnitedHealth_Group",
+      "status": "success",
+      "content_length": 238609,
+      "duration_seconds": 5.925,
+      "query": "UnitedHealth Group founded year headquarters business areas"
+    },
+    {
+      "url": "https://www.ebsco.com/research-starters/consumer-health/unitedhealth-group",
+      "status": "success",
+      "content_length": 36233,
+      "duration_seconds": 5.925,
+      "query": "UnitedHealth Group founded year headquarters business areas"
+    },
+    {
+      "url": "https://exa.ai/websets/directory/unitedhealthcare-offices",
+      "status": "success",
+      "content_length": 6257,
+      "duration_seconds": 5.925,
+      "query": "UnitedHealth Group founded year headquarters business areas"
+    },
+    {
+      "url": "https://www.forbes.com/companies/unitedhealth-group",
+      "status": "success",
+      "content_length": 14531,
+      "duration_seconds": 5.925,
+      "query": "UnitedHealth Group founded year headquarters business areas"
+    },
+    {
+      "url": "https://www.britannica.com/money/UnitedHealth-Group",
+      "status": "success",
+      "content_length": 8950,
+      "duration_seconds": 5.925,
+      "query": "UnitedHealth Group founded year headquarters business areas"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Progressive_Corporation",
+      "status": "success",
+      "content_length": 130442,
+      "duration_seconds": 7.611,
+      "query": "Progressive insurance founded year headquarters Ohio"
+    },
+    {
+      "url": "https://case.edu/ech/articles/p/progressive-corp",
+      "status": "success",
+      "content_length": 5305,
+      "duration_seconds": 7.611,
+      "query": "Progressive insurance founded year headquarters Ohio"
+    },
+    {
+      "url": "https://www.progressive.com/about/history",
+      "status": "success",
+      "content_length": 10343,
+      "duration_seconds": 7.611,
+      "query": "Progressive insurance founded year headquarters Ohio"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/80661/000095015208001442/l30025ae10vk.htm",
+      "status": "success",
+      "content_length": 11124511,
+      "duration_seconds": 7.611,
+      "query": "Progressive insurance founded year headquarters Ohio"
+    },
+    {
+      "url": "https://www.progressive.com/locations/mayfield-village-oh-headquarters",
+      "status": "success",
+      "content_length": 3224,
+      "duration_seconds": 7.611,
+      "query": "Progressive insurance founded year headquarters Ohio"
+    }
+  ],
+  "run_id": "caf075adaf564fbcaad9ff20d4266448",
+  "status": "completed",
+  "id": 2,
+  "prompt": "收集整理目前国际综合实力前十的保险公司的相关资料，横向比较各公司的融资情况、信誉度、过往五年的增长幅度、实际分红、未来在中国发展潜力等维度，并为我评估出最有可能在未来资产排名靠前的2-3家公司",
+  "language": "zh",
+  "topic": "Finance & Business",
+  "duration_seconds": 465.875,
+  "report_length": 16117,
+  "context_length": 208403
+}

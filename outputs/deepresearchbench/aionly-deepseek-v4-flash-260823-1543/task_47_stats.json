@@ -1,0 +1,4315 @@
+{
+  "session_id": "d7b3ad527e9a4dd7862def3600f95140",
+  "total_llm_calls": 104,
+  "llm_calls_with_token_usage": 104,
+  "llm_calls_missing_token_usage": 0,
+  "token_usage_complete": true,
+  "total_input_tokens": 811524,
+  "total_output_tokens": 89427,
+  "total_tokens": 900951,
+  "counted_input_tokens": 811524,
+  "counted_output_tokens": 89427,
+  "counted_total_tokens": 900951,
+  "total_search_count": 20,
+  "total_search_results": 100,
+  "total_visit_count": 100,
+  "total_visit_success": 93,
+  "total_visit_failed": 7,
+  "source_urls_count": 90,
+  "llm_calls_detail": [
+    {
+      "sequence": 1,
+      "status": "completed",
+      "started_at": "2026-08-23T23:50:48.828083+08:00",
+      "completed_at": "2026-08-23T23:51:05.957801+08:00",
+      "duration_seconds": 17.13,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 710,
+      "output_tokens": 275,
+      "total_tokens": 985,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 710,
+        "output_tokens": 275,
+        "total_tokens": 985,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 2,
+      "status": "completed",
+      "started_at": "2026-08-23T23:51:05.965837+08:00",
+      "completed_at": "2026-08-23T23:51:12.263319+08:00",
+      "duration_seconds": 6.297,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1339,
+      "output_tokens": 580,
+      "total_tokens": 1919,
+      "message_count": 2,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1339,
+        "output_tokens": 580,
+        "total_tokens": 1919,
+        "input_token_details": {
+          "cache_read": 1024
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 3,
+      "status": "completed",
+      "started_at": "2026-08-23T23:51:12.269516+08:00",
+      "completed_at": "2026-08-23T23:51:19.940017+08:00",
+      "duration_seconds": 7.67,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1756,
+      "output_tokens": 722,
+      "total_tokens": 2478,
+      "message_count": 4,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1756,
+        "output_tokens": 722,
+        "total_tokens": 2478,
+        "input_token_details": {
+          "cache_read": 1280
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 4,
+      "status": "completed",
+      "started_at": "2026-08-23T23:51:19.951319+08:00",
+      "completed_at": "2026-08-23T23:51:22.954522+08:00",
+      "duration_seconds": 3.003,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1136,
+      "output_tokens": 190,
+      "total_tokens": 1326,
+      "message_count": 2,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1136,
+        "output_tokens": 190,
+        "total_tokens": 1326,
+        "input_token_details": {
+          "cache_read": 768
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 5,
+      "status": "completed",
+      "started_at": "2026-08-23T23:51:19.951421+08:00",
+      "completed_at": "2026-08-23T23:51:22.997784+08:00",
+      "duration_seconds": 3.046,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1218,
+      "output_tokens": 187,
+      "total_tokens": 1405,
+      "message_count": 2,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1218,
+        "output_tokens": 187,
+        "total_tokens": 1405,
+        "input_token_details": {},
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 14,
+      "status": "completed",
+      "started_at": "2026-08-23T23:51:26.565008+08:00",
+      "completed_at": "2026-08-23T23:51:33.273989+08:00",
+      "duration_seconds": 6.709,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6051,
+      "output_tokens": 616,
+      "total_tokens": 6667,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 6051,
+        "output_tokens": 616,
+        "total_tokens": 6667,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 15,
+      "status": "completed",
+      "started_at": "2026-08-23T23:51:26.565074+08:00",
+      "completed_at": "2026-08-23T23:51:32.797789+08:00",
+      "duration_seconds": 6.233,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4970,
+      "output_tokens": 573,
+      "total_tokens": 5543,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4970,
+        "output_tokens": 573,
+        "total_tokens": 5543,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 16,
+      "status": "completed",
+      "started_at": "2026-08-23T23:51:26.565102+08:00",
+      "completed_at": "2026-08-23T23:51:34.322893+08:00",
+      "duration_seconds": 7.758,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5701,
+      "output_tokens": 771,
+      "total_tokens": 6472,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5701,
+        "output_tokens": 771,
+        "total_tokens": 6472,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 17,
+      "status": "completed",
+      "started_at": "2026-08-23T23:51:26.565124+08:00",
+      "completed_at": "2026-08-23T23:51:31.971977+08:00",
+      "duration_seconds": 5.407,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2910,
+      "output_tokens": 476,
+      "total_tokens": 3386,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2910,
+        "output_tokens": 476,
+        "total_tokens": 3386,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 18,
+      "status": "completed",
+      "started_at": "2026-08-23T23:51:26.565145+08:00",
+      "completed_at": "2026-08-23T23:51:32.534286+08:00",
+      "duration_seconds": 5.969,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3087,
+      "output_tokens": 531,
+      "total_tokens": 3618,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3087,
+        "output_tokens": 531,
+        "total_tokens": 3618,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 19,
+      "status": "completed",
+      "started_at": "2026-08-23T23:51:26.565165+08:00",
+      "completed_at": "2026-08-23T23:51:36.608718+08:00",
+      "duration_seconds": 10.044,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 12921,
+      "output_tokens": 915,
+      "total_tokens": 13836,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 12921,
+        "output_tokens": 915,
+        "total_tokens": 13836,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 20,
+      "status": "completed",
+      "started_at": "2026-08-23T23:51:26.565186+08:00",
+      "completed_at": "2026-08-23T23:51:31.810251+08:00",
+      "duration_seconds": 5.245,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2909,
+      "output_tokens": 515,
+      "total_tokens": 3424,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2909,
+        "output_tokens": 515,
+        "total_tokens": 3424,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 21,
+      "status": "completed",
+      "started_at": "2026-08-23T23:51:26.565206+08:00",
+      "completed_at": "2026-08-23T23:51:34.796638+08:00",
+      "duration_seconds": 8.231,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5980,
+      "output_tokens": 753,
+      "total_tokens": 6733,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5980,
+        "output_tokens": 753,
+        "total_tokens": 6733,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 22,
+      "status": "completed",
+      "started_at": "2026-08-23T23:51:26.565226+08:00",
+      "completed_at": "2026-08-23T23:51:31.195569+08:00",
+      "duration_seconds": 4.63,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 9404,
+      "output_tokens": 355,
+      "total_tokens": 9759,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 9404,
+        "output_tokens": 355,
+        "total_tokens": 9759,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 23,
+      "status": "completed",
+      "started_at": "2026-08-23T23:51:26.565247+08:00",
+      "completed_at": "2026-08-23T23:51:30.605532+08:00",
+      "duration_seconds": 4.04,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6568,
+      "output_tokens": 248,
+      "total_tokens": 6816,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 6568,
+        "output_tokens": 248,
+        "total_tokens": 6816,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 24,
+      "status": "completed",
+      "started_at": "2026-08-23T23:51:26.565268+08:00",
+      "completed_at": "2026-08-23T23:51:32.637132+08:00",
+      "duration_seconds": 6.072,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8461,
+      "output_tokens": 516,
+      "total_tokens": 8977,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 8461,
+        "output_tokens": 516,
+        "total_tokens": 8977,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 25,
+      "status": "completed",
+      "started_at": "2026-08-23T23:51:26.565288+08:00",
+      "completed_at": "2026-08-23T23:51:32.835775+08:00",
+      "duration_seconds": 6.27,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5521,
+      "output_tokens": 587,
+      "total_tokens": 6108,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5521,
+        "output_tokens": 587,
+        "total_tokens": 6108,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 26,
+      "status": "completed",
+      "started_at": "2026-08-23T23:51:26.565307+08:00",
+      "completed_at": "2026-08-23T23:51:32.837909+08:00",
+      "duration_seconds": 6.273,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5040,
+      "output_tokens": 551,
+      "total_tokens": 5591,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5040,
+        "output_tokens": 551,
+        "total_tokens": 5591,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 27,
+      "status": "completed",
+      "started_at": "2026-08-23T23:51:26.565329+08:00",
+      "completed_at": "2026-08-23T23:51:34.122460+08:00",
+      "duration_seconds": 7.557,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 13381,
+      "output_tokens": 721,
+      "total_tokens": 14102,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 13381,
+        "output_tokens": 721,
+        "total_tokens": 14102,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 28,
+      "status": "completed",
+      "started_at": "2026-08-23T23:51:26.565349+08:00",
+      "completed_at": "2026-08-23T23:51:32.394883+08:00",
+      "duration_seconds": 5.83,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2660,
+      "output_tokens": 505,
+      "total_tokens": 3165,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2660,
+        "output_tokens": 505,
+        "total_tokens": 3165,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 29,
+      "status": "completed",
+      "started_at": "2026-08-23T23:51:26.565369+08:00",
+      "completed_at": "2026-08-23T23:51:31.237302+08:00",
+      "duration_seconds": 4.672,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4392,
+      "output_tokens": 329,
+      "total_tokens": 4721,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4392,
+        "output_tokens": 329,
+        "total_tokens": 4721,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 30,
+      "status": "completed",
+      "started_at": "2026-08-23T23:51:26.565388+08:00",
+      "completed_at": "2026-08-23T23:51:32.940257+08:00",
+      "duration_seconds": 6.375,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6492,
+      "output_tokens": 581,
+      "total_tokens": 7073,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 6492,
+        "output_tokens": 581,
+        "total_tokens": 7073,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 31,
+      "status": "completed",
+      "started_at": "2026-08-23T23:51:26.565408+08:00",
+      "completed_at": "2026-08-23T23:51:31.574830+08:00",
+      "duration_seconds": 5.009,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6989,
+      "output_tokens": 363,
+      "total_tokens": 7352,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 6989,
+        "output_tokens": 363,
+        "total_tokens": 7352,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 32,
+      "status": "completed",
+      "started_at": "2026-08-23T23:51:26.565427+08:00",
+      "completed_at": "2026-08-23T23:51:30.465668+08:00",
+      "duration_seconds": 3.9,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2578,
+      "output_tokens": 263,
+      "total_tokens": 2841,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2578,
+        "output_tokens": 263,
+        "total_tokens": 2841,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 33,
+      "status": "completed",
+      "started_at": "2026-08-23T23:51:26.565447+08:00",
+      "completed_at": "2026-08-23T23:51:31.586865+08:00",
+      "duration_seconds": 5.021,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3464,
+      "output_tokens": 405,
+      "total_tokens": 3869,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3464,
+        "output_tokens": 405,
+        "total_tokens": 3869,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 35,
+      "status": "completed",
+      "started_at": "2026-08-23T23:51:27.321362+08:00",
+      "completed_at": "2026-08-23T23:51:33.469671+08:00",
+      "duration_seconds": 6.148,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3054,
+      "output_tokens": 523,
+      "total_tokens": 3577,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3054,
+        "output_tokens": 523,
+        "total_tokens": 3577,
+        "input_token_details": {
+          "cache_read": 768
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 36,
+      "status": "completed",
+      "started_at": "2026-08-23T23:51:27.321443+08:00",
+      "completed_at": "2026-08-23T23:51:32.609846+08:00",
+      "duration_seconds": 5.288,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3087,
+      "output_tokens": 469,
+      "total_tokens": 3556,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3087,
+        "output_tokens": 469,
+        "total_tokens": 3556,
+        "input_token_details": {
+          "cache_read": 3072
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 37,
+      "status": "completed",
+      "started_at": "2026-08-23T23:51:27.322565+08:00",
+      "completed_at": "2026-08-23T23:51:32.860625+08:00",
+      "duration_seconds": 5.538,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4970,
+      "output_tokens": 477,
+      "total_tokens": 5447,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4970,
+        "output_tokens": 477,
+        "total_tokens": 5447,
+        "input_token_details": {
+          "cache_read": 4864
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 38,
+      "status": "completed",
+      "started_at": "2026-08-23T23:51:27.322602+08:00",
+      "completed_at": "2026-08-23T23:51:35.615690+08:00",
+      "duration_seconds": 8.293,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6051,
+      "output_tokens": 761,
+      "total_tokens": 6812,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 6051,
+        "output_tokens": 761,
+        "total_tokens": 6812,
+        "input_token_details": {
+          "cache_read": 5888
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 39,
+      "status": "completed",
+      "started_at": "2026-08-23T23:51:27.322636+08:00",
+      "completed_at": "2026-08-23T23:51:31.490175+08:00",
+      "duration_seconds": 4.168,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3244,
+      "output_tokens": 281,
+      "total_tokens": 3525,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3244,
+        "output_tokens": 281,
+        "total_tokens": 3525,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 40,
+      "status": "completed",
+      "started_at": "2026-08-23T23:51:27.322663+08:00",
+      "completed_at": "2026-08-23T23:51:33.814010+08:00",
+      "duration_seconds": 6.491,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 11539,
+      "output_tokens": 546,
+      "total_tokens": 12085,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 11539,
+        "output_tokens": 546,
+        "total_tokens": 12085,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 41,
+      "status": "completed",
+      "started_at": "2026-08-23T23:51:27.322690+08:00",
+      "completed_at": "2026-08-23T23:51:33.505625+08:00",
+      "duration_seconds": 6.183,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4131,
+      "output_tokens": 498,
+      "total_tokens": 4629,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4131,
+        "output_tokens": 498,
+        "total_tokens": 4629,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 42,
+      "status": "completed",
+      "started_at": "2026-08-23T23:51:27.322718+08:00",
+      "completed_at": "2026-08-23T23:51:32.468917+08:00",
+      "duration_seconds": 5.146,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1915,
+      "output_tokens": 484,
+      "total_tokens": 2399,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1915,
+        "output_tokens": 484,
+        "total_tokens": 2399,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 43,
+      "status": "completed",
+      "started_at": "2026-08-23T23:51:27.322747+08:00",
+      "completed_at": "2026-08-23T23:51:31.366175+08:00",
+      "duration_seconds": 4.043,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2519,
+      "output_tokens": 352,
+      "total_tokens": 2871,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2519,
+        "output_tokens": 352,
+        "total_tokens": 2871,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 44,
+      "status": "completed",
+      "started_at": "2026-08-23T23:51:27.322774+08:00",
+      "completed_at": "2026-08-23T23:51:35.206192+08:00",
+      "duration_seconds": 7.883,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3336,
+      "output_tokens": 719,
+      "total_tokens": 4055,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3336,
+        "output_tokens": 719,
+        "total_tokens": 4055,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 45,
+      "status": "completed",
+      "started_at": "2026-08-23T23:51:27.322800+08:00",
+      "completed_at": "2026-08-23T23:51:35.300285+08:00",
+      "duration_seconds": 7.977,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5453,
+      "output_tokens": 788,
+      "total_tokens": 6241,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5453,
+        "output_tokens": 788,
+        "total_tokens": 6241,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 46,
+      "status": "completed",
+      "started_at": "2026-08-23T23:51:27.322827+08:00",
+      "completed_at": "2026-08-23T23:51:34.010524+08:00",
+      "duration_seconds": 6.688,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4949,
+      "output_tokens": 624,
+      "total_tokens": 5573,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4949,
+        "output_tokens": 624,
+        "total_tokens": 5573,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 47,
+      "status": "completed",
+      "started_at": "2026-08-23T23:51:27.322853+08:00",
+      "completed_at": "2026-08-23T23:51:34.214346+08:00",
+      "duration_seconds": 6.891,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6481,
+      "output_tokens": 609,
+      "total_tokens": 7090,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 6481,
+        "output_tokens": 609,
+        "total_tokens": 7090,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 48,
+      "status": "completed",
+      "started_at": "2026-08-23T23:51:27.322879+08:00",
+      "completed_at": "2026-08-23T23:51:33.119314+08:00",
+      "duration_seconds": 5.796,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 10711,
+      "output_tokens": 496,
+      "total_tokens": 11207,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 10711,
+        "output_tokens": 496,
+        "total_tokens": 11207,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 49,
+      "status": "completed",
+      "started_at": "2026-08-23T23:51:27.322907+08:00",
+      "completed_at": "2026-08-23T23:51:32.837486+08:00",
+      "duration_seconds": 5.515,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 13303,
+      "output_tokens": 441,
+      "total_tokens": 13744,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 13303,
+        "output_tokens": 441,
+        "total_tokens": 13744,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 50,
+      "status": "completed",
+      "started_at": "2026-08-23T23:51:27.322936+08:00",
+      "completed_at": "2026-08-23T23:51:36.512661+08:00",
+      "duration_seconds": 9.19,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 16073,
+      "output_tokens": 911,
+      "total_tokens": 16984,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 16073,
+        "output_tokens": 911,
+        "total_tokens": 16984,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 51,
+      "status": "completed",
+      "started_at": "2026-08-23T23:51:27.322963+08:00",
+      "completed_at": "2026-08-23T23:51:33.742621+08:00",
+      "duration_seconds": 6.42,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 13162,
+      "output_tokens": 595,
+      "total_tokens": 13757,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 13162,
+        "output_tokens": 595,
+        "total_tokens": 13757,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 52,
+      "status": "completed",
+      "started_at": "2026-08-23T23:51:27.322990+08:00",
+      "completed_at": "2026-08-23T23:51:30.808312+08:00",
+      "duration_seconds": 3.485,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2964,
+      "output_tokens": 226,
+      "total_tokens": 3190,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2964,
+        "output_tokens": 226,
+        "total_tokens": 3190,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 53,
+      "status": "completed",
+      "started_at": "2026-08-23T23:51:27.323020+08:00",
+      "completed_at": "2026-08-23T23:51:33.624885+08:00",
+      "duration_seconds": 6.302,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3034,
+      "output_tokens": 591,
+      "total_tokens": 3625,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3034,
+        "output_tokens": 591,
+        "total_tokens": 3625,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 54,
+      "status": "completed",
+      "started_at": "2026-08-23T23:51:27.323045+08:00",
+      "completed_at": "2026-08-23T23:51:33.520622+08:00",
+      "duration_seconds": 6.198,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3378,
+      "output_tokens": 510,
+      "total_tokens": 3888,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3378,
+        "output_tokens": 510,
+        "total_tokens": 3888,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 55,
+      "status": "completed",
+      "started_at": "2026-08-23T23:51:27.323071+08:00",
+      "completed_at": "2026-08-23T23:51:33.679226+08:00",
+      "duration_seconds": 6.356,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 9177,
+      "output_tokens": 558,
+      "total_tokens": 9735,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 9177,
+        "output_tokens": 558,
+        "total_tokens": 9735,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 56,
+      "status": "completed",
+      "started_at": "2026-08-23T23:51:27.323095+08:00",
+      "completed_at": "2026-08-23T23:51:31.296531+08:00",
+      "duration_seconds": 3.973,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3426,
+      "output_tokens": 256,
+      "total_tokens": 3682,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3426,
+        "output_tokens": 256,
+        "total_tokens": 3682,
+        "input_token_details": {
+          "cache_read": 512
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 57,
+      "status": "completed",
+      "started_at": "2026-08-23T23:51:36.521343+08:00",
+      "completed_at": "2026-08-23T23:51:43.380165+08:00",
+      "duration_seconds": 6.859,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 13890,
+      "output_tokens": 501,
+      "total_tokens": 14391,
+      "message_count": 4,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 13890,
+        "output_tokens": 501,
+        "total_tokens": 14391,
+        "input_token_details": {
+          "cache_read": 1024
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 58,
+      "status": "completed",
+      "started_at": "2026-08-23T23:51:36.617454+08:00",
+      "completed_at": "2026-08-23T23:51:41.764694+08:00",
+      "duration_seconds": 5.147,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 12508,
+      "output_tokens": 317,
+      "total_tokens": 12825,
+      "message_count": 4,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 12508,
+        "output_tokens": 317,
+        "total_tokens": 12825,
+        "input_token_details": {
+          "cache_read": 768
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 59,
+      "status": "completed",
+      "started_at": "2026-08-23T23:51:41.775560+08:00",
+      "completed_at": "2026-08-23T23:51:44.414665+08:00",
+      "duration_seconds": 2.639,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 13007,
+      "output_tokens": 131,
+      "total_tokens": 13138,
+      "message_count": 6,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 13007,
+        "output_tokens": 131,
+        "total_tokens": 13138,
+        "input_token_details": {
+          "cache_read": 12288
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 66,
+      "status": "completed",
+      "started_at": "2026-08-23T23:51:46.095240+08:00",
+      "completed_at": "2026-08-23T23:51:51.564754+08:00",
+      "duration_seconds": 5.47,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 15481,
+      "output_tokens": 450,
+      "total_tokens": 15931,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 15481,
+        "output_tokens": 450,
+        "total_tokens": 15931,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 67,
+      "status": "completed",
+      "started_at": "2026-08-23T23:51:46.095305+08:00",
+      "completed_at": "2026-08-23T23:51:53.058285+08:00",
+      "duration_seconds": 6.963,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 9006,
+      "output_tokens": 656,
+      "total_tokens": 9662,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 9006,
+        "output_tokens": 656,
+        "total_tokens": 9662,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 68,
+      "status": "completed",
+      "started_at": "2026-08-23T23:51:46.095342+08:00",
+      "completed_at": "2026-08-23T23:51:53.892049+08:00",
+      "duration_seconds": 7.797,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6669,
+      "output_tokens": 700,
+      "total_tokens": 7369,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 6669,
+        "output_tokens": 700,
+        "total_tokens": 7369,
+        "input_token_details": {
+          "cache_read": 1536
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 69,
+      "status": "completed",
+      "started_at": "2026-08-23T23:51:46.095366+08:00",
+      "completed_at": "2026-08-23T23:51:50.753767+08:00",
+      "duration_seconds": 4.658,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3026,
+      "output_tokens": 374,
+      "total_tokens": 3400,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3026,
+        "output_tokens": 374,
+        "total_tokens": 3400,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 70,
+      "status": "completed",
+      "started_at": "2026-08-23T23:51:46.095391+08:00",
+      "completed_at": "2026-08-23T23:51:50.633596+08:00",
+      "duration_seconds": 4.538,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 15129,
+      "output_tokens": 365,
+      "total_tokens": 15494,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 15129,
+        "output_tokens": 365,
+        "total_tokens": 15494,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 71,
+      "status": "completed",
+      "started_at": "2026-08-23T23:51:46.095411+08:00",
+      "completed_at": "2026-08-23T23:51:52.911873+08:00",
+      "duration_seconds": 6.816,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 9209,
+      "output_tokens": 630,
+      "total_tokens": 9839,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 9209,
+        "output_tokens": 630,
+        "total_tokens": 9839,
+        "input_token_details": {
+          "cache_read": 1024
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 72,
+      "status": "completed",
+      "started_at": "2026-08-23T23:51:46.095435+08:00",
+      "completed_at": "2026-08-23T23:51:54.712006+08:00",
+      "duration_seconds": 8.617,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8437,
+      "output_tokens": 784,
+      "total_tokens": 9221,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 8437,
+        "output_tokens": 784,
+        "total_tokens": 9221,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 73,
+      "status": "completed",
+      "started_at": "2026-08-23T23:51:46.095455+08:00",
+      "completed_at": "2026-08-23T23:51:51.992290+08:00",
+      "duration_seconds": 5.897,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2819,
+      "output_tokens": 475,
+      "total_tokens": 3294,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2819,
+        "output_tokens": 475,
+        "total_tokens": 3294,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 74,
+      "status": "completed",
+      "started_at": "2026-08-23T23:51:46.095477+08:00",
+      "completed_at": "2026-08-23T23:51:51.909668+08:00",
+      "duration_seconds": 5.814,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5803,
+      "output_tokens": 558,
+      "total_tokens": 6361,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5803,
+        "output_tokens": 558,
+        "total_tokens": 6361,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 75,
+      "status": "completed",
+      "started_at": "2026-08-23T23:51:46.095498+08:00",
+      "completed_at": "2026-08-23T23:51:50.134198+08:00",
+      "duration_seconds": 4.039,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2014,
+      "output_tokens": 306,
+      "total_tokens": 2320,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2014,
+        "output_tokens": 306,
+        "total_tokens": 2320,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 76,
+      "status": "completed",
+      "started_at": "2026-08-23T23:51:46.095519+08:00",
+      "completed_at": "2026-08-23T23:51:53.567292+08:00",
+      "duration_seconds": 7.472,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 14204,
+      "output_tokens": 654,
+      "total_tokens": 14858,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 14204,
+        "output_tokens": 654,
+        "total_tokens": 14858,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 77,
+      "status": "completed",
+      "started_at": "2026-08-23T23:51:46.095541+08:00",
+      "completed_at": "2026-08-23T23:51:49.335445+08:00",
+      "duration_seconds": 3.24,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3446,
+      "output_tokens": 187,
+      "total_tokens": 3633,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3446,
+        "output_tokens": 187,
+        "total_tokens": 3633,
+        "input_token_details": {
+          "cache_read": 1024
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 78,
+      "status": "completed",
+      "started_at": "2026-08-23T23:51:46.095561+08:00",
+      "completed_at": "2026-08-23T23:51:55.518893+08:00",
+      "duration_seconds": 9.423,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 13724,
+      "output_tokens": 889,
+      "total_tokens": 14613,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 13724,
+        "output_tokens": 889,
+        "total_tokens": 14613,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 79,
+      "status": "completed",
+      "started_at": "2026-08-23T23:51:46.095581+08:00",
+      "completed_at": "2026-08-23T23:51:52.723582+08:00",
+      "duration_seconds": 6.628,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1957,
+      "output_tokens": 544,
+      "total_tokens": 2501,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1957,
+        "output_tokens": 544,
+        "total_tokens": 2501,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 80,
+      "status": "completed",
+      "started_at": "2026-08-23T23:51:46.095600+08:00",
+      "completed_at": "2026-08-23T23:51:50.101957+08:00",
+      "duration_seconds": 4.006,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1838,
+      "output_tokens": 252,
+      "total_tokens": 2090,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1838,
+        "output_tokens": 252,
+        "total_tokens": 2090,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 81,
+      "status": "completed",
+      "started_at": "2026-08-23T23:51:46.095620+08:00",
+      "completed_at": "2026-08-23T23:51:49.459697+08:00",
+      "duration_seconds": 3.364,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1792,
+      "output_tokens": 237,
+      "total_tokens": 2029,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1792,
+        "output_tokens": 237,
+        "total_tokens": 2029,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 82,
+      "status": "completed",
+      "started_at": "2026-08-23T23:51:46.095639+08:00",
+      "completed_at": "2026-08-23T23:51:55.624832+08:00",
+      "duration_seconds": 9.529,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3534,
+      "output_tokens": 939,
+      "total_tokens": 4473,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3534,
+        "output_tokens": 939,
+        "total_tokens": 4473,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 83,
+      "status": "completed",
+      "started_at": "2026-08-23T23:51:46.095658+08:00",
+      "completed_at": "2026-08-23T23:51:53.242612+08:00",
+      "duration_seconds": 7.147,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8489,
+      "output_tokens": 668,
+      "total_tokens": 9157,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 8489,
+        "output_tokens": 668,
+        "total_tokens": 9157,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 84,
+      "status": "completed",
+      "started_at": "2026-08-23T23:51:46.095680+08:00",
+      "completed_at": "2026-08-23T23:51:51.253170+08:00",
+      "duration_seconds": 5.158,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3527,
+      "output_tokens": 433,
+      "total_tokens": 3960,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3527,
+        "output_tokens": 433,
+        "total_tokens": 3960,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 85,
+      "status": "completed",
+      "started_at": "2026-08-23T23:51:46.095855+08:00",
+      "completed_at": "2026-08-23T23:51:53.915583+08:00",
+      "duration_seconds": 7.82,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4544,
+      "output_tokens": 700,
+      "total_tokens": 5244,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4544,
+        "output_tokens": 700,
+        "total_tokens": 5244,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 92,
+      "status": "completed",
+      "started_at": "2026-08-23T23:51:47.526372+08:00",
+      "completed_at": "2026-08-23T23:51:53.242844+08:00",
+      "duration_seconds": 5.716,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6260,
+      "output_tokens": 503,
+      "total_tokens": 6763,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 6260,
+        "output_tokens": 503,
+        "total_tokens": 6763,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 93,
+      "status": "completed",
+      "started_at": "2026-08-23T23:51:47.526474+08:00",
+      "completed_at": "2026-08-23T23:51:55.866543+08:00",
+      "duration_seconds": 8.34,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5017,
+      "output_tokens": 750,
+      "total_tokens": 5767,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5017,
+        "output_tokens": 750,
+        "total_tokens": 5767,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 94,
+      "status": "completed",
+      "started_at": "2026-08-23T23:51:47.526863+08:00",
+      "completed_at": "2026-08-23T23:51:52.802238+08:00",
+      "duration_seconds": 5.275,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2312,
+      "output_tokens": 410,
+      "total_tokens": 2722,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2312,
+        "output_tokens": 410,
+        "total_tokens": 2722,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 95,
+      "status": "completed",
+      "started_at": "2026-08-23T23:51:47.526914+08:00",
+      "completed_at": "2026-08-23T23:51:54.389984+08:00",
+      "duration_seconds": 6.863,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 9479,
+      "output_tokens": 511,
+      "total_tokens": 9990,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 9479,
+        "output_tokens": 511,
+        "total_tokens": 9990,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 96,
+      "status": "completed",
+      "started_at": "2026-08-23T23:51:47.526954+08:00",
+      "completed_at": "2026-08-23T23:51:55.295790+08:00",
+      "duration_seconds": 7.769,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3285,
+      "output_tokens": 728,
+      "total_tokens": 4013,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3285,
+        "output_tokens": 728,
+        "total_tokens": 4013,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 97,
+      "status": "completed",
+      "started_at": "2026-08-23T23:51:47.526986+08:00",
+      "completed_at": "2026-08-23T23:51:55.376468+08:00",
+      "duration_seconds": 7.849,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3199,
+      "output_tokens": 799,
+      "total_tokens": 3998,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3199,
+        "output_tokens": 799,
+        "total_tokens": 3998,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 98,
+      "status": "completed",
+      "started_at": "2026-08-23T23:51:47.527016+08:00",
+      "completed_at": "2026-08-23T23:51:55.070116+08:00",
+      "duration_seconds": 7.543,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 13111,
+      "output_tokens": 743,
+      "total_tokens": 13854,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 13111,
+        "output_tokens": 743,
+        "total_tokens": 13854,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 99,
+      "status": "completed",
+      "started_at": "2026-08-23T23:51:47.527048+08:00",
+      "completed_at": "2026-08-23T23:51:54.519490+08:00",
+      "duration_seconds": 6.992,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2937,
+      "output_tokens": 684,
+      "total_tokens": 3621,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2937,
+        "output_tokens": 684,
+        "total_tokens": 3621,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 100,
+      "status": "completed",
+      "started_at": "2026-08-23T23:51:47.527079+08:00",
+      "completed_at": "2026-08-23T23:51:54.327255+08:00",
+      "duration_seconds": 6.8,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8437,
+      "output_tokens": 596,
+      "total_tokens": 9033,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 8437,
+        "output_tokens": 596,
+        "total_tokens": 9033,
+        "input_token_details": {
+          "cache_read": 8192
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 101,
+      "status": "completed",
+      "started_at": "2026-08-23T23:51:47.527106+08:00",
+      "completed_at": "2026-08-23T23:51:54.220143+08:00",
+      "duration_seconds": 6.693,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2745,
+      "output_tokens": 547,
+      "total_tokens": 3292,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2745,
+        "output_tokens": 547,
+        "total_tokens": 3292,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 102,
+      "status": "completed",
+      "started_at": "2026-08-23T23:51:47.527138+08:00",
+      "completed_at": "2026-08-23T23:51:54.181765+08:00",
+      "duration_seconds": 6.655,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5892,
+      "output_tokens": 607,
+      "total_tokens": 6499,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5892,
+        "output_tokens": 607,
+        "total_tokens": 6499,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 103,
+      "status": "completed",
+      "started_at": "2026-08-23T23:51:47.527168+08:00",
+      "completed_at": "2026-08-23T23:51:51.480311+08:00",
+      "duration_seconds": 3.953,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5791,
+      "output_tokens": 278,
+      "total_tokens": 6069,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5791,
+        "output_tokens": 278,
+        "total_tokens": 6069,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 104,
+      "status": "completed",
+      "started_at": "2026-08-23T23:51:55.633728+08:00",
+      "completed_at": "2026-08-23T23:52:05.472072+08:00",
+      "duration_seconds": 9.838,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 26900,
+      "output_tokens": 907,
+      "total_tokens": 27807,
+      "message_count": 7,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 26900,
+        "output_tokens": 907,
+        "total_tokens": 27807,
+        "input_token_details": {
+          "cache_read": 13824
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 105,
+      "status": "completed",
+      "started_at": "2026-08-23T23:51:55.875771+08:00",
+      "completed_at": "2026-08-23T23:52:00.271947+08:00",
+      "duration_seconds": 4.396,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 22445,
+      "output_tokens": 166,
+      "total_tokens": 22611,
+      "message_count": 8,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 22445,
+        "output_tokens": 166,
+        "total_tokens": 22611,
+        "input_token_details": {
+          "cache_read": 1024
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 106,
+      "status": "completed",
+      "started_at": "2026-08-23T23:52:00.281900+08:00",
+      "completed_at": "2026-08-23T23:52:03.261723+08:00",
+      "duration_seconds": 2.98,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 22652,
+      "output_tokens": 117,
+      "total_tokens": 22769,
+      "message_count": 10,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 22652,
+        "output_tokens": 117,
+        "total_tokens": 22769,
+        "input_token_details": {
+          "cache_read": 12800
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 107,
+      "status": "completed",
+      "started_at": "2026-08-23T23:52:05.484985+08:00",
+      "completed_at": "2026-08-23T23:52:08.540363+08:00",
+      "duration_seconds": 3.055,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 27381,
+      "output_tokens": 46,
+      "total_tokens": 27427,
+      "message_count": 9,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 27381,
+        "output_tokens": 46,
+        "total_tokens": 27427,
+        "input_token_details": {
+          "cache_read": 26880
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 113,
+      "status": "completed",
+      "started_at": "2026-08-23T23:52:06.176605+08:00",
+      "completed_at": "2026-08-23T23:52:11.865526+08:00",
+      "duration_seconds": 5.689,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2889,
+      "output_tokens": 514,
+      "total_tokens": 3403,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2889,
+        "output_tokens": 514,
+        "total_tokens": 3403,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 114,
+      "status": "completed",
+      "started_at": "2026-08-23T23:52:06.176733+08:00",
+      "completed_at": "2026-08-23T23:52:11.894477+08:00",
+      "duration_seconds": 5.718,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2830,
+      "output_tokens": 465,
+      "total_tokens": 3295,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2830,
+        "output_tokens": 465,
+        "total_tokens": 3295,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 115,
+      "status": "completed",
+      "started_at": "2026-08-23T23:52:06.177142+08:00",
+      "completed_at": "2026-08-23T23:52:12.169230+08:00",
+      "duration_seconds": 5.992,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3965,
+      "output_tokens": 495,
+      "total_tokens": 4460,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3965,
+        "output_tokens": 495,
+        "total_tokens": 4460,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 116,
+      "status": "completed",
+      "started_at": "2026-08-23T23:52:06.177253+08:00",
+      "completed_at": "2026-08-23T23:52:12.008493+08:00",
+      "duration_seconds": 5.831,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2334,
+      "output_tokens": 508,
+      "total_tokens": 2842,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2334,
+        "output_tokens": 508,
+        "total_tokens": 2842,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 117,
+      "status": "completed",
+      "started_at": "2026-08-23T23:52:06.177299+08:00",
+      "completed_at": "2026-08-23T23:52:11.941674+08:00",
+      "duration_seconds": 5.764,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 13154,
+      "output_tokens": 495,
+      "total_tokens": 13649,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 13154,
+        "output_tokens": 495,
+        "total_tokens": 13649,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 118,
+      "status": "completed",
+      "started_at": "2026-08-23T23:52:06.177333+08:00",
+      "completed_at": "2026-08-23T23:52:10.643891+08:00",
+      "duration_seconds": 4.467,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2075,
+      "output_tokens": 366,
+      "total_tokens": 2441,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2075,
+        "output_tokens": 366,
+        "total_tokens": 2441,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 119,
+      "status": "completed",
+      "started_at": "2026-08-23T23:52:06.177362+08:00",
+      "completed_at": "2026-08-23T23:52:12.477171+08:00",
+      "duration_seconds": 6.3,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3182,
+      "output_tokens": 569,
+      "total_tokens": 3751,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3182,
+        "output_tokens": 569,
+        "total_tokens": 3751,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 120,
+      "status": "completed",
+      "started_at": "2026-08-23T23:52:06.177391+08:00",
+      "completed_at": "2026-08-23T23:52:12.019558+08:00",
+      "duration_seconds": 5.842,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7455,
+      "output_tokens": 480,
+      "total_tokens": 7935,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 7455,
+        "output_tokens": 480,
+        "total_tokens": 7935,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 121,
+      "status": "completed",
+      "started_at": "2026-08-23T23:52:06.177420+08:00",
+      "completed_at": "2026-08-23T23:52:12.274753+08:00",
+      "duration_seconds": 6.097,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2992,
+      "output_tokens": 500,
+      "total_tokens": 3492,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2992,
+        "output_tokens": 500,
+        "total_tokens": 3492,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 122,
+      "status": "completed",
+      "started_at": "2026-08-23T23:52:06.177449+08:00",
+      "completed_at": "2026-08-23T23:52:10.827493+08:00",
+      "duration_seconds": 4.65,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2845,
+      "output_tokens": 425,
+      "total_tokens": 3270,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2845,
+        "output_tokens": 425,
+        "total_tokens": 3270,
+        "input_token_details": {
+          "cache_read": 768
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 123,
+      "status": "completed",
+      "started_at": "2026-08-23T23:52:06.177475+08:00",
+      "completed_at": "2026-08-23T23:52:10.326076+08:00",
+      "duration_seconds": 4.149,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3527,
+      "output_tokens": 260,
+      "total_tokens": 3787,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3527,
+        "output_tokens": 260,
+        "total_tokens": 3787,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 124,
+      "status": "completed",
+      "started_at": "2026-08-23T23:52:06.177502+08:00",
+      "completed_at": "2026-08-23T23:52:12.145716+08:00",
+      "duration_seconds": 5.968,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4517,
+      "output_tokens": 514,
+      "total_tokens": 5031,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4517,
+        "output_tokens": 514,
+        "total_tokens": 5031,
+        "input_token_details": {
+          "cache_read": 768
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 125,
+      "status": "completed",
+      "started_at": "2026-08-23T23:52:06.177530+08:00",
+      "completed_at": "2026-08-23T23:52:16.586897+08:00",
+      "duration_seconds": 10.409,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 11468,
+      "output_tokens": 954,
+      "total_tokens": 12422,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 11468,
+        "output_tokens": 954,
+        "total_tokens": 12422,
+        "input_token_details": {
+          "cache_read": 1024
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 126,
+      "status": "completed",
+      "started_at": "2026-08-23T23:52:08.548511+08:00",
+      "completed_at": "2026-08-23T23:54:07.823935+08:00",
+      "duration_seconds": 119.275,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 27153,
+      "output_tokens": 14644,
+      "total_tokens": 41797,
+      "message_count": 12,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 27153,
+        "output_tokens": 14644,
+        "total_tokens": 41797,
+        "input_token_details": {
+          "cache_read": 512
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "end_turn"
+    },
+    {
+      "sequence": 127,
+      "status": "completed",
+      "started_at": "2026-08-23T23:52:16.592303+08:00",
+      "completed_at": "2026-08-23T23:54:09.581022+08:00",
+      "duration_seconds": 112.989,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 30147,
+      "output_tokens": 14938,
+      "total_tokens": 45085,
+      "message_count": 13,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 30147,
+        "output_tokens": 14938,
+        "total_tokens": 45085,
+        "input_token_details": {
+          "cache_read": 512
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "end_turn"
+    },
+    {
+      "sequence": 128,
+      "status": "completed",
+      "started_at": "2026-08-23T23:54:09.592805+08:00",
+      "completed_at": "2026-08-23T23:54:18.549543+08:00",
+      "duration_seconds": 8.957,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 29151,
+      "output_tokens": 810,
+      "total_tokens": 29961,
+      "message_count": 7,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 29151,
+        "output_tokens": 810,
+        "total_tokens": 29961,
+        "input_token_details": {
+          "cache_read": 1536
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 129,
+      "status": "completed",
+      "started_at": "2026-08-23T23:54:18.560562+08:00",
+      "completed_at": "2026-08-23T23:54:21.502039+08:00",
+      "duration_seconds": 2.942,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 29916,
+      "output_tokens": 81,
+      "total_tokens": 29997,
+      "message_count": 9,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 29916,
+        "output_tokens": 81,
+        "total_tokens": 29997,
+        "input_token_details": {
+          "cache_read": 28928
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 130,
+      "status": "completed",
+      "started_at": "2026-08-23T23:54:21.509524+08:00",
+      "completed_at": "2026-08-23T23:55:32.530068+08:00",
+      "duration_seconds": 71.02,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 28433,
+      "output_tokens": 8024,
+      "total_tokens": 36457,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 28433,
+        "output_tokens": 8024,
+        "total_tokens": 36457,
+        "input_token_details": {},
+        "output_token_details": {}
+      },
+      "finish_reason": "end_turn"
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "status": "completed",
+      "query": "2025 travel trends destination choice economic factors WTTC UNWTO report",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.39,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Travel & Tourism Economic Impact Research (EIR)",
+          "url": "https://wttc.org/research/economic-impact",
+          "score": 0.7961819,
+          "raw_content_available": true,
+          "raw_content_length": 8593,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "World Travel & Tourism Council (WTTC)",
+          "url": "https://wttc.org",
+          "score": 0.70287734,
+          "raw_content_available": true,
+          "raw_content_length": 8836,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "UN Tourism World Tourism Barometer",
+          "url": "https://www.untourism.int/un-tourism-world-tourism-barometer-data",
+          "score": 0.64639384,
+          "raw_content_available": true,
+          "raw_content_length": 13573,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Tourism in 2025: Key Trends, Developments and EU Policy Highlights | EU Tourism Platform",
+          "url": "https://transition-pathways.europa.eu/tourism/articles/tourism-2025-key-trends-developments-and-eu-policy-highlights",
+          "score": 0.61168414,
+          "raw_content_available": true,
+          "raw_content_length": 23157,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Travel Industry Economics | Oxford Economics",
+          "url": "https://www.oxfordeconomics.com/travel-and-tourism",
+          "score": 0.39950758,
+          "raw_content_available": true,
+          "raw_content_length": 8485,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 6,
+      "timestamp": "2026-08-23T23:51:25.351458+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "2025 geopolitical factors travel visa policies political stability destination choice",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.441,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Geopolitical Impact on Travel in 2025",
+          "url": "https://riskline.com/december-travel-outlook-2025-travel",
+          "score": 0.76152116,
+          "raw_content_available": true,
+          "raw_content_length": 9027,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Geopolitical Risk and the U.S. Visa Policy Shift: A Tectonic Shift in Global Travel and Tourism Investment",
+          "url": "https://www.ainvest.com/news/geopolitical-risk-visa-policy-shift-tectonic-shift-global-travel-tourism-investment-2508",
+          "score": 0.60049355,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "Tourists tackle geopolitical risks, currency moves and extreme heat",
+          "url": "https://www.cnbc.com/2025/08/20/tourists-tackle-geopolitical-risks-currency-moves-and-extreme-heat.html",
+          "score": 0.5489884,
+          "raw_content_available": true,
+          "raw_content_length": 9208,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "What to do when geopolitical instability impacts global travel",
+          "url": "https://www.zurich.com/insights/travel/what-to-do-when-geopolitical-instability-impacts-global-travel",
+          "score": 0.4920179,
+          "raw_content_available": true,
+          "raw_content_length": 32519,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Navigating The Future of Travel in 2025: Travel Security, Overtourism and Experiences – Global Rescue",
+          "url": "https://www.globalrescue.com/common/blog/detail/travel-info-2025-destinations-security-overtourism-experiences",
+          "score": 0.20008872,
+          "raw_content_available": true,
+          "raw_content_length": 9892,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 7,
+      "timestamp": "2026-08-23T23:51:25.431940+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "China Tourism Academy 2025 outbound tourism report 中国旅游研究院出境旅游",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.583,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "\"Annual Report on the Development of China's Outbound Tourism 2025-2026\" has been published and released.",
+          "url": "https://www.ctaweb.org.cn/en/gongzuodongtai/10502.html",
+          "score": 0.8969848,
+          "raw_content_available": true,
+          "raw_content_length": 4737,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Inside China’s 2025–26 Outbound Travel Shift: How Consumer Behaviour and Digital Trends Are Reshaping Global Tourism | Latest China News from China Trading Desk",
+          "url": "https://www.chinatradingdesk.com/post/inside-china-s-2025-26-outbound-travel-shift-how-consumer-behaviour-and-digital-trends-are-reshapin",
+          "score": 0.8338803,
+          "raw_content_available": true,
+          "raw_content_length": 10071,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "8 Chinese Outbound Travel Trends of 2025 - Dragon Trail International",
+          "url": "https://www.dragontrail.com/resources/blog/chinese-outbound-travel-trends-of-2025",
+          "score": 0.81418616,
+          "raw_content_available": true,
+          "raw_content_length": 18265,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "CHINA TOURISM ACADEMY (Data Center ofthe Ministry ofCulture and Tourism)_CHINA TOURISM ACADEMY (Data Center ofthe Ministry ofCulture and Tourism)",
+          "url": "https://www.ctaweb.org.cn/en",
+          "score": 0.7672197,
+          "raw_content_available": true,
+          "raw_content_length": 11220,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "China Outbound Tourism Market and Forecast 2025-2033",
+          "url": "https://www.researchandmarkets.com/reports/5264355/china-outbound-tourism-market-and-forecast-2025",
+          "score": 0.7440808,
+          "raw_content_available": true,
+          "raw_content_length": 21678,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 8,
+      "timestamp": "2026-08-23T23:51:25.563301+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "2025 health safety travel restrictions pandemic policies destination selection survey",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.671,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "AARP Survey: More Older Adults Plan to Travel in 2025",
+          "url": "https://www.aarp.org/travel/travel-tips/travel-trends-survey",
+          "score": 0.5883458,
+          "raw_content_available": true,
+          "raw_content_length": 35813,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "High-risk travel destinations – MIT Global Support Resources",
+          "url": "https://globalsupport.mit.edu/travel-safety-abroad/safety-abroad/country-warning-levels",
+          "score": 0.5486983,
+          "raw_content_available": true,
+          "raw_content_length": 49452,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Travel Advisories - State Department",
+          "url": "https://travel.state.gov/en/international-travel/travel-advisories.html",
+          "score": 0.5097406,
+          "raw_content_available": true,
+          "raw_content_length": 49078,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Impact of COVID-19 Pandemic on Tourist Travel Risk Perception and Travel Behaviour: A Case Study of Poland",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10139158",
+          "score": 0.39201146,
+          "raw_content_available": true,
+          "raw_content_length": 125334,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Government Travel Advisories Shape Travel Plans and Perceptions – Global Rescue",
+          "url": "https://www.globalrescue.com/common/blog/detail/government-travel-advisories-shape-travel-plans",
+          "score": 0.26136202,
+          "raw_content_available": true,
+          "raw_content_length": 8043,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 9,
+      "timestamp": "2026-08-23T23:51:25.657395+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "cultural experiential travel trends 2025 authentic experiences food tourism",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.706,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Destination marketing 2025: Supporting authentic cultural experiences",
+          "url": "https://envisionitagency.com/blog/destination-marketing-2025-and-the-power-of-authentic-cultural-experiences",
+          "score": 0.8665964,
+          "raw_content_available": true,
+          "raw_content_length": 12491,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "US Tourism Trends 2025: What Consumers Want and Expect",
+          "url": "https://iges.us/news/us-tourism-travel-trends-2025/987501392",
+          "score": 0.8657814,
+          "raw_content_available": true,
+          "raw_content_length": 24803,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "18 New Travel Trends in 2025",
+          "url": "https://rusticpathways.com/blog/what-travel-trends-to-expect-in-2025",
+          "score": 0.8124067,
+          "raw_content_available": true,
+          "raw_content_length": 26117,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Ask Skift: What Are Key Trends in Food Tourism?",
+          "url": "https://skift.com/2024/10/10/ask-skift-what-are-key-trends-in-food-tourism",
+          "score": 0.767638,
+          "raw_content_available": true,
+          "raw_content_length": 5785,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "'Live like a Local' Travel Trend: Redefining the Authentic Travel Experience",
+          "url": "https://www.hbxgroup.com/resources/articles/authentic-travel",
+          "score": 0.76194656,
+          "raw_content_available": true,
+          "raw_content_length": 11544,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 10,
+      "timestamp": "2026-08-23T23:51:25.719031+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "technology influencing travel decisions 2025 AI digital nomads social media",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.751,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Phocuswright's Travel Innovation and Technology Trends 2025",
+          "url": "https://www.phocuswright.com/Travel-Research/Research-Updates/2025/Travel-Innovation-and-Technology-Trends-2025",
+          "score": 0.75268626,
+          "raw_content_available": true,
+          "raw_content_length": 47252,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Gen Z and AI Redefine Global Travel as 2026 Marks a New Era of Digital Discovery and Rising Demand | Simon-Kucher",
+          "url": "https://www.simon-kucher.com/en/who-we-are/newsroom/gen-z-and-ai-redefine-global-travel-2026-marks-new-era-digital-discovery-and",
+          "score": 0.74004334,
+          "raw_content_available": true,
+          "raw_content_length": 7702,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "2025 Digital Nomads Trends Report: A Niche Workforce Becomes Mainstream - MBO Partners",
+          "url": "https://www.mbopartners.com/state-of-independence/digital-nomads",
+          "score": 0.72418857,
+          "raw_content_available": true,
+          "raw_content_length": 22362,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Decoding digital nomad destination decisions through user-generated content",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0040162523007837",
+          "score": 0.69249696,
+          "raw_content_available": true,
+          "raw_content_length": 33886,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "How Technology Is Transforming Travel Agencies in 2026: Tools, Impact and Real Examples",
+          "url": "https://phptravels.com/blog/impact-of-technology-on-travel-agencies",
+          "score": 0.47899243,
+          "raw_content_available": true,
+          "raw_content_length": 26923,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 11,
+      "timestamp": "2026-08-23T23:51:25.756936+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "demographic travel trends 2025 Gen Z Millennials destination preferences",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.796,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "30+ Gen Z travel statistics & trends | Perk",
+          "url": "https://www.perk.com/blog/gen-z-travel-statistics-trends",
+          "score": 0.850382,
+          "raw_content_available": true,
+          "raw_content_length": 25828,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Gen Z Travel Statistics & Trends 2026  | Skyscanner US",
+          "url": "https://www.skyscanner.com/tips-and-inspiration/gen-z-travel-statistics",
+          "score": 0.7178241,
+          "raw_content_available": true,
+          "raw_content_length": 16735,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "How Gen Z and Millennial Travelers are Reshaping Sustainable Travel | Expedia Group Blog",
+          "url": "https://partner.expediagroup.com/en-us/resources/blog/how-gen-z-and-millennials-are-reshaping-sustainable-travel",
+          "score": 0.7018975,
+          "raw_content_available": true,
+          "raw_content_length": 15676,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Generation Z and Travel Motivations: The Impact of Age, Gender, and Residence",
+          "url": "https://www.mdpi.com/2673-5768/6/2/82",
+          "score": 0.69795954,
+          "raw_content_available": true,
+          "raw_content_length": 101403,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "How Gen Z And Millennials Impact Travel And The Experience Economy",
+          "url": "https://www.forbes.com/sites/jefffromm/2025/09/09/how-gen-z-and-millennials-impact-travel-and-the-experience-economy",
+          "score": 0.6972179,
+          "raw_content_available": true,
+          "raw_content_length": 6834,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 12,
+      "timestamp": "2026-08-23T23:51:25.805953+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "sustainable tourism trends 2025 UNWTO WTTC overtourism destination choice",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 3.541,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Tourism in 2025: Key Trends, Developments and EU Policy ...",
+          "url": "https://transition-pathways.europa.eu/tourism/articles/tourism-2025-key-trends-developments-and-eu-policy-highlights",
+          "score": 0.7304634,
+          "raw_content_available": true,
+          "raw_content_length": 23157,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "UN Tourism World Tourism Barometer",
+          "url": "https://www.untourism.int/un-tourism-world-tourism-barometer-data",
+          "score": 0.66959417,
+          "raw_content_available": true,
+          "raw_content_length": 13573,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Sustainable Tourism Market Size & YoY Growth Rate, 2026-2033",
+          "url": "https://www.coherentmarketinsights.com/industry-reports/sustainable-tourism-market",
+          "score": 0.6326168,
+          "raw_content_available": true,
+          "raw_content_length": 21334,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "WTTC and TRIP.COM Group Global Traveller Report Reveals Shift Towards Sustainable Travel",
+          "url": "https://wttc.org/news/wttc-and-tripcom-group-global-traveller-report-reveals-shift-towards-sustainable-travel",
+          "score": 0.6255073,
+          "raw_content_available": true,
+          "raw_content_length": 8127,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "World Travel & Tourism Council (WTTC)",
+          "url": "https://wttc.org",
+          "score": 0.4845514,
+          "raw_content_available": true,
+          "raw_content_length": 8836,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 13,
+      "timestamp": "2026-08-23T23:51:26.541740+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "2024 2025 airfare prices accommodation costs inflation travel budget destination choice",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 4.333,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Average Vacation Cost: Our 2026 Guide to Travel | Pacaso",
+          "url": "https://www.pacaso.com/blog/average-vacation-cost",
+          "score": 0.28774327,
+          "raw_content_available": true,
+          "raw_content_length": 100529,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "How to Evaluate Travel Costs to Decide Your Destination | North Shore Community Bank & Trust Company",
+          "url": "https://www.nscbank.com/articles/2022/06/how-to-evaluate-travel-costs-to-decide-your-destination.html",
+          "score": 0.2251528,
+          "raw_content_available": true,
+          "raw_content_length": 13059,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Travel Price Index (2026-08-12)",
+          "url": "https://www.ustravel.org/research/travel-price-index",
+          "score": 0.14644116,
+          "raw_content_available": true,
+          "raw_content_length": 2907,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Travel costs are 'off the charts,' experts say. Here's how to ...",
+          "url": "https://www.cnbc.com/2023/04/17/travel-costs-are-off-the-charts-experts-say-heres-how-to-save.html",
+          "score": 0.08076994,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "Would you rather spend $$ on flights (good seats, first ...",
+          "url": "https://www.reddit.com/r/travel/comments/1jlybmh/would_you_rather_spend_on_flights_good_seats",
+          "score": 0.060114354,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        }
+      ],
+      "sequence": 34,
+      "timestamp": "2026-08-23T23:51:27.304946+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Deloitte travel industry outlook 2025",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.249,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Deloitte's 2025 outlook for the travel industry | Nuvho | Smart Hoteliers posted on the topic | LinkedIn",
+          "url": "https://www.linkedin.com/posts/nuvho_the-deloitte-travel-industry-outlook-for-activity-7340287495806361600-e9jq",
+          "score": 0.9595845,
+          "raw_content_available": true,
+          "raw_content_length": 45221,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "2026 Travel industry outlook | Deloitte Insights",
+          "url": "https://www.deloitte.com/us/en/insights/industry/transportation/travel-hospitality-industry-outlook.html",
+          "score": 0.95696133,
+          "raw_content_available": true,
+          "raw_content_length": 39186,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "2025 Deloitte Corporate Travel Study | Deloitte Insights",
+          "url": "https://www.deloitte.com/us/en/insights/industry/transportation/corporate-business-travel-survey.html",
+          "score": 0.93191636,
+          "raw_content_available": true,
+          "raw_content_length": 31688,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "2025 Travel Industry Outlook | Deloitte US",
+          "url": "https://www.deloitte.com/us/en/industries/consumer/articles/travel-hospitality-industry-outlook.html",
+          "score": 0.9168945,
+          "raw_content_available": true,
+          "raw_content_length": 6879,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "2026 summer travel survey",
+          "url": "https://www.deloitte.com/us/en/insights/industry/transportation/2026-summer-travel-trends-survey.html",
+          "score": 0.9041187,
+          "raw_content_available": true,
+          "raw_content_length": 22263,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 60,
+      "timestamp": "2026-08-23T23:51:45.647337+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "exchange rate impact travel destination choice 2025",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.327,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Exchange rate elasticities of international tourism and the role of dominant currency pricing",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0261560623001092",
+          "score": 0.57064295,
+          "raw_content_available": true,
+          "raw_content_length": 33193,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Exchange Rate Movements and Their Influence on Global Tourism Flo",
+          "url": "https://www.longdom.org/open-access/exchange-rate-movements-and-their-influence-on-global-tourism-flow-patterns-1105888.html",
+          "score": 0.5476824,
+          "raw_content_available": true,
+          "raw_content_length": 9851,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Travel & Tourism Economic Impact Research (EIR)",
+          "url": "https://wttc.org/research/economic-impact",
+          "score": 0.52071625,
+          "raw_content_available": true,
+          "raw_content_length": 8593,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Currency tourism - the FX effect",
+          "url": "https://www.mesirow.com/currency-viewpoints/currency-tourism-the-fx-effect",
+          "score": 0.51413256,
+          "raw_content_available": true,
+          "raw_content_length": 15803,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Currency Exchange Rates and International Leisure Travel",
+          "url": "https://www.linkedin.com/pulse/currency-exchange-rates-international-leisure-travel-david-giersdorf-zfcvc",
+          "score": 0.40613216,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        }
+      ],
+      "sequence": 61,
+      "timestamp": "2026-08-23T23:51:45.744170+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "McKinsey travel tourism report 2025 destination choice",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.436,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "\"Remapping Travel with Agentic AI: A New Report\" | McKinsey & Company posted on the topic | LinkedIn",
+          "url": "https://www.linkedin.com/posts/mckinsey_world-tourism-day-is-the-perfect-moment-to-activity-7377794217370353664-Lv_K",
+          "score": 0.72629017,
+          "raw_content_available": true,
+          "raw_content_length": 44861,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "The Future of Tourism: The Great Realignment",
+          "url": "https://medium.com/@mkl/the-future-of-tourism-the-great-realignment-24c42b39e50a",
+          "score": 0.51969254,
+          "raw_content_available": true,
+          "raw_content_length": 32186,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Travel industry trends and the opportunity for private equity",
+          "url": "https://www.mckinsey.com/industries/private-capital/our-insights/travel-industry-trends-and-the-opportunity-for-private-equity",
+          "score": 0.44434834,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "Travel Trends Q2 2025: Global Search and Booking Insights for Travelers | Expedia Group Blog",
+          "url": "https://partner.expediagroup.com/en-us/resources/blog/q2-2025-travel-trends-insights",
+          "score": 0.44174582,
+          "raw_content_available": true,
+          "raw_content_length": 21659,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Chart: Travelers Choose Destinations for the Experience—When Safety and Costs Check Out | Statista",
+          "url": "https://www.statista.com/chart/34437/factors-when-considering-a-travel-destination-worldwide",
+          "score": 0.36547986,
+          "raw_content_available": true,
+          "raw_content_length": 8007,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 62,
+      "timestamp": "2026-08-23T23:51:45.824518+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Chinese outbound tourism visa-free policy 2025 中国出境旅游免签政策",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.609,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "China Visa-Free Travel - A Complete Guide",
+          "url": "https://www.china-briefing.com/news/china-visa-free-travel-policies-complete-guide",
+          "score": 0.8939131,
+          "raw_content_available": true,
+          "raw_content_length": 57482,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "China Focus: China's cross-border travel hits record in 2025 on expanded visa-free access-Xinhua",
+          "url": "https://english.news.cn/20260128/379db85403634609b82cb8136004dced/c.html",
+          "score": 0.8679453,
+          "raw_content_available": true,
+          "raw_content_length": 4093,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "China’s visa-free policy pays dividends as overseas entries soar in 2025 | South China Morning Post",
+          "url": "https://www.scmp.com/economy/china-economy/article/3317241/chinas-visa-free-policy-pays-dividends-overseas-entries-soar-2025",
+          "score": 0.83932644,
+          "raw_content_available": true,
+          "raw_content_length": 2713,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Notice on Extension of Visa-free Policy",
+          "url": "https://hk.ocmfa.gov.cn/eng/fwxx/wgrqz/202511/t20251110_11749818.htm",
+          "score": 0.82492816,
+          "raw_content_available": true,
+          "raw_content_length": 1264,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Visa-Free Entry Policies for Foreign Nationals-FAQ",
+          "url": "https://www.visaforchina.cn/SGP3_EN/qianzhengyewu/jichuzhishi/changjianwenti/220323827614355469.html",
+          "score": 0.7997713,
+          "raw_content_available": true,
+          "raw_content_length": 10622,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 63,
+      "timestamp": "2026-08-23T23:51:46.020644+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "2025 traveler health safety perceptions survey post-pandemic",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.669,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Skift Travel Health Index: 2025 in Review - Skift Research",
+          "url": "https://research.skift.com/reports/skift-travel-health-index-2025-in-review",
+          "score": 0.82186085,
+          "raw_content_available": true,
+          "raw_content_length": 3286,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Understanding international travelers’ health risk perceptions, preferences, and decisions: a segmentation analysis",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12167583",
+          "score": 0.6172364,
+          "raw_content_available": true,
+          "raw_content_length": 79029,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Travel, physical activity, perceived accessibility and mental ...",
+          "url": "https://www.sciencedirect.com/science/article/pii/S2214140525001355",
+          "score": 0.5837973,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "How US Policy Is Shaping Global Travel Behavior – Global Rescue",
+          "url": "https://www.globalrescue.com/common/blog/detail/us-policy-shaping-global-travel-behavior",
+          "score": 0.33613545,
+          "raw_content_available": true,
+          "raw_content_length": 9898,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Understanding the Impacts of Safety Perception on ...",
+          "url": "https://journals.sagepub.com/doi/10.1177/21582440251391906",
+          "score": 0.2709621,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        }
+      ],
+      "sequence": 64,
+      "timestamp": "2026-08-23T23:51:46.075453+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Chinese travel trends 2025 outbound tourism demographic data Xiaohongshu Douyin",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.23,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "\"Annual Report on the Development of China's Outbound ...",
+          "url": "https://www.ctaweb.org.cn/en/gongzuodongtai/10502.html",
+          "score": 0.915091,
+          "raw_content_available": true,
+          "raw_content_length": 4737,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "2025 China Tourism Facts & Figures: Inbound and Outbound",
+          "url": "https://www.travelchinaguide.com/tourism/2025-statistics",
+          "score": 0.91175514,
+          "raw_content_available": true,
+          "raw_content_length": 7883,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Trends, Growth, and Opportunity Analysis of Outbound Tourism in China | Global Market Analysis Report - 2035",
+          "url": "https://www.futuremarketinsights.com/reports/china-outbound-travel-industry-analysis-and-forecast",
+          "score": 0.8965509,
+          "raw_content_available": true,
+          "raw_content_length": 51883,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Chinese Travel Trends 2025 - News - Travel Sentry",
+          "url": "https://www.luggage-factories.com/news-detail/113505",
+          "score": 0.846159,
+          "raw_content_available": true,
+          "raw_content_length": 7343,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "8 Chinese Outbound Travel Trends of 2025",
+          "url": "https://www.dragontrail.com/resources/blog/chinese-outbound-travel-trends-of-2025",
+          "score": 0.84183896,
+          "raw_content_available": true,
+          "raw_content_length": 18265,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 86,
+      "timestamp": "2026-08-23T23:51:46.659915+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "中国旅游 2025 趋势 小红书 携程 报告 出境游",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.663,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "2025中国出境游趋势 ：亚洲主导、安全为先 | TTG China",
+          "url": "https://ttgchina.com/2025/04/24/2025%E4%B8%AD%E5%9B%BD%E5%87%BA%E5%A2%83%E6%B8%B8%E8%B6%8B%E5%8A%BF-%EF%BC%9A%E4%BA%9A%E6%B4%B2%E4%B8%BB%E5%AF%BC%E3%80%81%E5%AE%89%E5%85%A8%E4%B8%BA%E5%85%88",
+          "score": 0.918663,
+          "raw_content_available": true,
+          "raw_content_length": 9554,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "[ITB China]：旅游趋势报告2024-2025 - 发现报告",
+          "url": "https://www.fxbaogao.com/detail/4441501",
+          "score": 0.8682137,
+          "raw_content_available": true,
+          "raw_content_length": 7582,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "中国年轻人重新定义出境游“看世界” - 新华网客户端",
+          "url": "https://app.xinhuanet.com/news/article.html?articleId=20260519f693ae2df45a4607a3181c11c028cfeb",
+          "score": 0.8638634,
+          "raw_content_available": true,
+          "raw_content_length": 2089,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "中国年轻人重新定义出境游“看世界” - 中国一带一路网",
+          "url": "https://www.yidaiyilu.gov.cn/p/04TB6MNJ.html",
+          "score": 0.85825616,
+          "raw_content_available": true,
+          "raw_content_length": 13775,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Booking.com缤客首次发布2025中国旅客出境游趋势报告",
+          "url": "https://news.booking.com/zh-chs/Booking-.com%E7%BC%A4%E5%AE%A2%E9%A6%96%E6%AC%A1%E5%8F%91%E5%B8%832025%E4%B8%AD%E5%9B%BD%E6%97%85%E5%AE%A2%E5%87%BA%E5%A2%83%E6%B8%B8%E8%B6%8B%E5%8A%BF%E6%8A%A5%E5%91%8A",
+          "score": 0.82048416,
+          "raw_content_available": true,
+          "raw_content_length": 4149,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 87,
+      "timestamp": "2026-08-23T23:51:47.083957+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "McKinsey Deloitte travel tourism trends 2025 report destination choice",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 3.072,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Forecast in flux: 2025 Deloitte Corporate Travel Study",
+          "url": "https://www.deloitte.com/us/en/insights/industry/transportation/corporate-business-travel-survey.html",
+          "score": 0.90771407,
+          "raw_content_available": true,
+          "raw_content_length": 31688,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Travel Trends to Guide Destination Marketing in 2025 - DCI",
+          "url": "https://aboutdci.com/blog/travel-trends-to-guide-destination-marketing-in-2025",
+          "score": 0.73023266,
+          "raw_content_available": true,
+          "raw_content_length": 6640,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "18 New Travel Trends in 2025 - Rustic Pathways",
+          "url": "https://rusticpathways.com/blog/what-travel-trends-to-expect-in-2025",
+          "score": 0.70726365,
+          "raw_content_available": true,
+          "raw_content_length": 26117,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Top 2025 Travel Trends & Tips for Marketers | Zeta",
+          "url": "https://zetaglobal.com/resource-center/2025-travel-trends",
+          "score": 0.62824833,
+          "raw_content_available": true,
+          "raw_content_length": 20909,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "New report on travel trends by Skift | McKinsey & Company posted on the topic | LinkedIn",
+          "url": "https://www.linkedin.com/posts/mckinsey_the-global-marketplace-for-travel-experiences-activity-7245084759029161984-H9hM",
+          "score": 0.60358196,
+          "raw_content_available": true,
+          "raw_content_length": 14417,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 88,
+      "timestamp": "2026-08-23T23:51:47.510249+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "sustainable travel certifications eco-tourism consumer behavior 2025 survey",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.59,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Booking.com's 2025 Research Reveals Growing Traveler Awareness of Tourism Impact on Communities Both at Home and Abroad",
+          "url": "https://news.booking.com/bookingcoms-2025-research-reveals-growing-traveler-awareness-of-tourism-impact-on-communities-both-at-home-and-abroad",
+          "score": 0.81347597,
+          "raw_content_available": true,
+          "raw_content_length": 8372,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Consumers in favour of sustainable travel but cost is king",
+          "url": "https://wttc.org/news/consumers-in-favour-of-sustainable-travel-but-cost-is-king-reveals-wttc-report",
+          "score": 0.6739866,
+          "raw_content_available": true,
+          "raw_content_length": 8293,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Booking.com report on 2025 sustainable travel trends | EU Tourism Platform",
+          "url": "https://transition-pathways.europa.eu/tourism/knowledge-documents/bookingcom-report-2025-sustainable-travel-trends",
+          "score": 0.6562404,
+          "raw_content_available": true,
+          "raw_content_length": 10203,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Sustainable tourism worldwide - statistics & facts",
+          "url": "https://www.statista.com/topics/1916/green-tourism",
+          "score": 0.572078,
+          "raw_content_available": true,
+          "raw_content_length": 14198,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Explore the Global Sustainable Tourism Market— analysis of key trends, regional growth, top players, and a 10-year forecast from 2026 to 2036.",
+          "url": "https://www.futuremarketinsights.com/reports/sustainable-tourism-sector-overview-and-analysis",
+          "score": 0.50241756,
+          "raw_content_available": true,
+          "raw_content_length": 59492,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 108,
+      "timestamp": "2026-08-23T23:52:05.876299+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "McKinsey Skift travel experiences report 2025 trillion dollar",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.729,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "McKinsey and Skift release report on agentic AI in travel | Ben Ellencweig posted on the topic | LinkedIn",
+          "url": "https://www.linkedin.com/posts/benellencweig_mckinsey-travel-agenticai-activity-7375907999095136256-jnH5",
+          "score": 0.725824,
+          "raw_content_available": true,
+          "raw_content_length": 37716,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "State of Travel 2026",
+          "url": "https://skift.com/insights/state-of-travel",
+          "score": 0.6952351,
+          "raw_content_available": true,
+          "raw_content_length": 4054,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "New report on travel trends by Skift | McKinsey & Company ...",
+          "url": "https://www.linkedin.com/posts/mckinsey_the-global-marketplace-for-travel-experiences-activity-7245084759029161984-H9hM",
+          "score": 0.69199765,
+          "raw_content_available": true,
+          "raw_content_length": 14417,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "The Luxury Travel Market: Acceleration and Growth in 2025 | The Edit | Private Luxury Events",
+          "url": "https://privateluxuryevents.com/the-edit/the-luxury-travel-market-acceleration-and-growth-in-2025",
+          "score": 0.47913864,
+          "raw_content_available": true,
+          "raw_content_length": 9041,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Remapping travel with agentic AI",
+          "url": "https://www.mckinsey.com/industries/travel/our-insights/remapping-travel-with-agentic-ai",
+          "score": 0.34840176,
+          "raw_content_available": true,
+          "raw_content_length": 28341,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 109,
+      "timestamp": "2026-08-23T23:52:06.007469+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "climate change overtourism last chance tourism coolcationing destination choice 2025",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.894,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Coolcationing and Sustainable Tourism Trends in 2025",
+          "url": "https://riskline.com/coolcationing-sustainable-tourism-2025",
+          "score": 0.86413884,
+          "raw_content_available": true,
+          "raw_content_length": 8760,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Coolcationing Sustainable Travel Trends in 2025",
+          "url": "https://riskline.com/forecasts/climate-change-keeps-reshaping-travel-patterns",
+          "score": 0.8091708,
+          "raw_content_available": true,
+          "raw_content_length": 7521,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Coolcations 2025: Sustainable Travel to Cooler Destinations Like Gstaad, Iceland & Finland",
+          "url": "https://www.sustainability-lifestyle.com/sustainable-lifestyle-blog/coolcations-travel-trend",
+          "score": 0.7760977,
+          "raw_content_available": true,
+          "raw_content_length": 13349,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Coolcation Trend Rising for Destinations | Dana Communications",
+          "url": "https://www.danacommunications.com/coolcation-travel-trend",
+          "score": 0.6757865,
+          "raw_content_available": true,
+          "raw_content_length": 5584,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "18 New Travel Trends in 2025 - Rustic Pathways",
+          "url": "https://rusticpathways.com/blog/what-travel-trends-to-expect-in-2025",
+          "score": 0.6580885,
+          "raw_content_available": true,
+          "raw_content_length": 26117,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 110,
+      "timestamp": "2026-08-23T23:52:06.162377+08:00"
+    }
+  ],
+  "summary_cache_hits": 6,
+  "summary_cache_hit_urls": [
+    "https://wttc.org/research/economic-impact",
+    "https://www.ctaweb.org.cn/en/gongzuodongtai/10502.html",
+    "https://www.dragontrail.com/resources/blog/chinese-outbound-travel-trends-of-2025",
+    "https://rusticpathways.com/blog/what-travel-trends-to-expect-in-2025",
+    "https://rusticpathways.com/blog/what-travel-trends-to-expect-in-2025",
+    "https://www.linkedin.com/posts/mckinsey_the-global-marketplace-for-travel-experiences-activity-7245084759029161984-H9hM"
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://wttc.org/research/economic-impact",
+      "status": "success",
+      "content_length": 8593,
+      "duration_seconds": 2.39,
+      "query": "2025 travel trends destination choice economic factors WTTC UNWTO report"
+    },
+    {
+      "url": "https://wttc.org",
+      "status": "success",
+      "content_length": 8836,
+      "duration_seconds": 2.39,
+      "query": "2025 travel trends destination choice economic factors WTTC UNWTO report"
+    },
+    {
+      "url": "https://www.untourism.int/un-tourism-world-tourism-barometer-data",
+      "status": "success",
+      "content_length": 13573,
+      "duration_seconds": 2.39,
+      "query": "2025 travel trends destination choice economic factors WTTC UNWTO report"
+    },
+    {
+      "url": "https://transition-pathways.europa.eu/tourism/articles/tourism-2025-key-trends-developments-and-eu-policy-highlights",
+      "status": "success",
+      "content_length": 23157,
+      "duration_seconds": 2.39,
+      "query": "2025 travel trends destination choice economic factors WTTC UNWTO report"
+    },
+    {
+      "url": "https://www.oxfordeconomics.com/travel-and-tourism",
+      "status": "success",
+      "content_length": 8485,
+      "duration_seconds": 2.39,
+      "query": "2025 travel trends destination choice economic factors WTTC UNWTO report"
+    },
+    {
+      "url": "https://riskline.com/december-travel-outlook-2025-travel",
+      "status": "success",
+      "content_length": 9027,
+      "duration_seconds": 2.441,
+      "query": "2025 geopolitical factors travel visa policies political stability destination choice"
+    },
+    {
+      "url": "https://www.ainvest.com/news/geopolitical-risk-visa-policy-shift-tectonic-shift-global-travel-tourism-investment-2508",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.441,
+      "query": "2025 geopolitical factors travel visa policies political stability destination choice"
+    },
+    {
+      "url": "https://www.cnbc.com/2025/08/20/tourists-tackle-geopolitical-risks-currency-moves-and-extreme-heat.html",
+      "status": "success",
+      "content_length": 9208,
+      "duration_seconds": 2.441,
+      "query": "2025 geopolitical factors travel visa policies political stability destination choice"
+    },
+    {
+      "url": "https://www.zurich.com/insights/travel/what-to-do-when-geopolitical-instability-impacts-global-travel",
+      "status": "success",
+      "content_length": 32519,
+      "duration_seconds": 2.441,
+      "query": "2025 geopolitical factors travel visa policies political stability destination choice"
+    },
+    {
+      "url": "https://www.globalrescue.com/common/blog/detail/travel-info-2025-destinations-security-overtourism-experiences",
+      "status": "success",
+      "content_length": 9892,
+      "duration_seconds": 2.441,
+      "query": "2025 geopolitical factors travel visa policies political stability destination choice"
+    },
+    {
+      "url": "https://www.ctaweb.org.cn/en/gongzuodongtai/10502.html",
+      "status": "success",
+      "content_length": 4737,
+      "duration_seconds": 2.583,
+      "query": "China Tourism Academy 2025 outbound tourism report 中国旅游研究院出境旅游"
+    },
+    {
+      "url": "https://www.chinatradingdesk.com/post/inside-china-s-2025-26-outbound-travel-shift-how-consumer-behaviour-and-digital-trends-are-reshapin",
+      "status": "success",
+      "content_length": 10071,
+      "duration_seconds": 2.583,
+      "query": "China Tourism Academy 2025 outbound tourism report 中国旅游研究院出境旅游"
+    },
+    {
+      "url": "https://www.dragontrail.com/resources/blog/chinese-outbound-travel-trends-of-2025",
+      "status": "success",
+      "content_length": 18265,
+      "duration_seconds": 2.583,
+      "query": "China Tourism Academy 2025 outbound tourism report 中国旅游研究院出境旅游"
+    },
+    {
+      "url": "https://www.ctaweb.org.cn/en",
+      "status": "success",
+      "content_length": 11220,
+      "duration_seconds": 2.583,
+      "query": "China Tourism Academy 2025 outbound tourism report 中国旅游研究院出境旅游"
+    },
+    {
+      "url": "https://www.researchandmarkets.com/reports/5264355/china-outbound-tourism-market-and-forecast-2025",
+      "status": "success",
+      "content_length": 21678,
+      "duration_seconds": 2.583,
+      "query": "China Tourism Academy 2025 outbound tourism report 中国旅游研究院出境旅游"
+    },
+    {
+      "url": "https://www.aarp.org/travel/travel-tips/travel-trends-survey",
+      "status": "success",
+      "content_length": 35813,
+      "duration_seconds": 2.671,
+      "query": "2025 health safety travel restrictions pandemic policies destination selection survey"
+    },
+    {
+      "url": "https://globalsupport.mit.edu/travel-safety-abroad/safety-abroad/country-warning-levels",
+      "status": "success",
+      "content_length": 49452,
+      "duration_seconds": 2.671,
+      "query": "2025 health safety travel restrictions pandemic policies destination selection survey"
+    },
+    {
+      "url": "https://travel.state.gov/en/international-travel/travel-advisories.html",
+      "status": "success",
+      "content_length": 49078,
+      "duration_seconds": 2.671,
+      "query": "2025 health safety travel restrictions pandemic policies destination selection survey"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10139158",
+      "status": "success",
+      "content_length": 125334,
+      "duration_seconds": 2.671,
+      "query": "2025 health safety travel restrictions pandemic policies destination selection survey"
+    },
+    {
+      "url": "https://www.globalrescue.com/common/blog/detail/government-travel-advisories-shape-travel-plans",
+      "status": "success",
+      "content_length": 8043,
+      "duration_seconds": 2.671,
+      "query": "2025 health safety travel restrictions pandemic policies destination selection survey"
+    },
+    {
+      "url": "https://envisionitagency.com/blog/destination-marketing-2025-and-the-power-of-authentic-cultural-experiences",
+      "status": "success",
+      "content_length": 12491,
+      "duration_seconds": 2.706,
+      "query": "cultural experiential travel trends 2025 authentic experiences food tourism"
+    },
+    {
+      "url": "https://iges.us/news/us-tourism-travel-trends-2025/987501392",
+      "status": "success",
+      "content_length": 24803,
+      "duration_seconds": 2.706,
+      "query": "cultural experiential travel trends 2025 authentic experiences food tourism"
+    },
+    {
+      "url": "https://rusticpathways.com/blog/what-travel-trends-to-expect-in-2025",
+      "status": "success",
+      "content_length": 26117,
+      "duration_seconds": 2.706,
+      "query": "cultural experiential travel trends 2025 authentic experiences food tourism"
+    },
+    {
+      "url": "https://skift.com/2024/10/10/ask-skift-what-are-key-trends-in-food-tourism",
+      "status": "success",
+      "content_length": 5785,
+      "duration_seconds": 2.706,
+      "query": "cultural experiential travel trends 2025 authentic experiences food tourism"
+    },
+    {
+      "url": "https://www.hbxgroup.com/resources/articles/authentic-travel",
+      "status": "success",
+      "content_length": 11544,
+      "duration_seconds": 2.706,
+      "query": "cultural experiential travel trends 2025 authentic experiences food tourism"
+    },
+    {
+      "url": "https://www.phocuswright.com/Travel-Research/Research-Updates/2025/Travel-Innovation-and-Technology-Trends-2025",
+      "status": "success",
+      "content_length": 47252,
+      "duration_seconds": 2.751,
+      "query": "technology influencing travel decisions 2025 AI digital nomads social media"
+    },
+    {
+      "url": "https://www.simon-kucher.com/en/who-we-are/newsroom/gen-z-and-ai-redefine-global-travel-2026-marks-new-era-digital-discovery-and",
+      "status": "success",
+      "content_length": 7702,
+      "duration_seconds": 2.751,
+      "query": "technology influencing travel decisions 2025 AI digital nomads social media"
+    },
+    {
+      "url": "https://www.mbopartners.com/state-of-independence/digital-nomads",
+      "status": "success",
+      "content_length": 22362,
+      "duration_seconds": 2.751,
+      "query": "technology influencing travel decisions 2025 AI digital nomads social media"
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S0040162523007837",
+      "status": "success",
+      "content_length": 33886,
+      "duration_seconds": 2.751,
+      "query": "technology influencing travel decisions 2025 AI digital nomads social media"
+    },
+    {
+      "url": "https://phptravels.com/blog/impact-of-technology-on-travel-agencies",
+      "status": "success",
+      "content_length": 26923,
+      "duration_seconds": 2.751,
+      "query": "technology influencing travel decisions 2025 AI digital nomads social media"
+    },
+    {
+      "url": "https://www.perk.com/blog/gen-z-travel-statistics-trends",
+      "status": "success",
+      "content_length": 25828,
+      "duration_seconds": 2.796,
+      "query": "demographic travel trends 2025 Gen Z Millennials destination preferences"
+    },
+    {
+      "url": "https://www.skyscanner.com/tips-and-inspiration/gen-z-travel-statistics",
+      "status": "success",
+      "content_length": 16735,
+      "duration_seconds": 2.796,
+      "query": "demographic travel trends 2025 Gen Z Millennials destination preferences"
+    },
+    {
+      "url": "https://partner.expediagroup.com/en-us/resources/blog/how-gen-z-and-millennials-are-reshaping-sustainable-travel",
+      "status": "success",
+      "content_length": 15676,
+      "duration_seconds": 2.796,
+      "query": "demographic travel trends 2025 Gen Z Millennials destination preferences"
+    },
+    {
+      "url": "https://www.mdpi.com/2673-5768/6/2/82",
+      "status": "success",
+      "content_length": 101403,
+      "duration_seconds": 2.796,
+      "query": "demographic travel trends 2025 Gen Z Millennials destination preferences"
+    },
+    {
+      "url": "https://www.forbes.com/sites/jefffromm/2025/09/09/how-gen-z-and-millennials-impact-travel-and-the-experience-economy",
+      "status": "success",
+      "content_length": 6834,
+      "duration_seconds": 2.796,
+      "query": "demographic travel trends 2025 Gen Z Millennials destination preferences"
+    },
+    {
+      "url": "https://transition-pathways.europa.eu/tourism/articles/tourism-2025-key-trends-developments-and-eu-policy-highlights",
+      "status": "success",
+      "content_length": 23157,
+      "duration_seconds": 3.541,
+      "query": "sustainable tourism trends 2025 UNWTO WTTC overtourism destination choice"
+    },
+    {
+      "url": "https://www.untourism.int/un-tourism-world-tourism-barometer-data",
+      "status": "success",
+      "content_length": 13573,
+      "duration_seconds": 3.541,
+      "query": "sustainable tourism trends 2025 UNWTO WTTC overtourism destination choice"
+    },
+    {
+      "url": "https://www.coherentmarketinsights.com/industry-reports/sustainable-tourism-market",
+      "status": "success",
+      "content_length": 21334,
+      "duration_seconds": 3.541,
+      "query": "sustainable tourism trends 2025 UNWTO WTTC overtourism destination choice"
+    },
+    {
+      "url": "https://wttc.org/news/wttc-and-tripcom-group-global-traveller-report-reveals-shift-towards-sustainable-travel",
+      "status": "success",
+      "content_length": 8127,
+      "duration_seconds": 3.541,
+      "query": "sustainable tourism trends 2025 UNWTO WTTC overtourism destination choice"
+    },
+    {
+      "url": "https://wttc.org",
+      "status": "success",
+      "content_length": 8836,
+      "duration_seconds": 3.541,
+      "query": "sustainable tourism trends 2025 UNWTO WTTC overtourism destination choice"
+    },
+    {
+      "url": "https://www.pacaso.com/blog/average-vacation-cost",
+      "status": "success",
+      "content_length": 100529,
+      "duration_seconds": 4.333,
+      "query": "2024 2025 airfare prices accommodation costs inflation travel budget destination choice"
+    },
+    {
+      "url": "https://www.nscbank.com/articles/2022/06/how-to-evaluate-travel-costs-to-decide-your-destination.html",
+      "status": "success",
+      "content_length": 13059,
+      "duration_seconds": 4.333,
+      "query": "2024 2025 airfare prices accommodation costs inflation travel budget destination choice"
+    },
+    {
+      "url": "https://www.ustravel.org/research/travel-price-index",
+      "status": "success",
+      "content_length": 2907,
+      "duration_seconds": 4.333,
+      "query": "2024 2025 airfare prices accommodation costs inflation travel budget destination choice"
+    },
+    {
+      "url": "https://www.cnbc.com/2023/04/17/travel-costs-are-off-the-charts-experts-say-heres-how-to-save.html",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 4.333,
+      "query": "2024 2025 airfare prices accommodation costs inflation travel budget destination choice"
+    },
+    {
+      "url": "https://www.reddit.com/r/travel/comments/1jlybmh/would_you_rather_spend_on_flights_good_seats",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 4.333,
+      "query": "2024 2025 airfare prices accommodation costs inflation travel budget destination choice"
+    },
+    {
+      "url": "https://www.linkedin.com/posts/nuvho_the-deloitte-travel-industry-outlook-for-activity-7340287495806361600-e9jq",
+      "status": "success",
+      "content_length": 45221,
+      "duration_seconds": 2.249,
+      "query": "Deloitte travel industry outlook 2025"
+    },
+    {
+      "url": "https://www.deloitte.com/us/en/insights/industry/transportation/travel-hospitality-industry-outlook.html",
+      "status": "success",
+      "content_length": 39186,
+      "duration_seconds": 2.249,
+      "query": "Deloitte travel industry outlook 2025"
+    },
+    {
+      "url": "https://www.deloitte.com/us/en/insights/industry/transportation/corporate-business-travel-survey.html",
+      "status": "success",
+      "content_length": 31688,
+      "duration_seconds": 2.249,
+      "query": "Deloitte travel industry outlook 2025"
+    },
+    {
+      "url": "https://www.deloitte.com/us/en/industries/consumer/articles/travel-hospitality-industry-outlook.html",
+      "status": "success",
+      "content_length": 6879,
+      "duration_seconds": 2.249,
+      "query": "Deloitte travel industry outlook 2025"
+    },
+    {
+      "url": "https://www.deloitte.com/us/en/insights/industry/transportation/2026-summer-travel-trends-survey.html",
+      "status": "success",
+      "content_length": 22263,
+      "duration_seconds": 2.249,
+      "query": "Deloitte travel industry outlook 2025"
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0261560623001092",
+      "status": "success",
+      "content_length": 33193,
+      "duration_seconds": 2.327,
+      "query": "exchange rate impact travel destination choice 2025"
+    },
+    {
+      "url": "https://www.longdom.org/open-access/exchange-rate-movements-and-their-influence-on-global-tourism-flow-patterns-1105888.html",
+      "status": "success",
+      "content_length": 9851,
+      "duration_seconds": 2.327,
+      "query": "exchange rate impact travel destination choice 2025"
+    },
+    {
+      "url": "https://wttc.org/research/economic-impact",
+      "status": "success",
+      "content_length": 8593,
+      "duration_seconds": 2.327,
+      "query": "exchange rate impact travel destination choice 2025"
+    },
+    {
+      "url": "https://www.mesirow.com/currency-viewpoints/currency-tourism-the-fx-effect",
+      "status": "success",
+      "content_length": 15803,
+      "duration_seconds": 2.327,
+      "query": "exchange rate impact travel destination choice 2025"
+    },
+    {
+      "url": "https://www.linkedin.com/pulse/currency-exchange-rates-international-leisure-travel-david-giersdorf-zfcvc",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.327,
+      "query": "exchange rate impact travel destination choice 2025"
+    },
+    {
+      "url": "https://www.linkedin.com/posts/mckinsey_world-tourism-day-is-the-perfect-moment-to-activity-7377794217370353664-Lv_K",
+      "status": "success",
+      "content_length": 44861,
+      "duration_seconds": 2.436,
+      "query": "McKinsey travel tourism report 2025 destination choice"
+    },
+    {
+      "url": "https://medium.com/@mkl/the-future-of-tourism-the-great-realignment-24c42b39e50a",
+      "status": "success",
+      "content_length": 32186,
+      "duration_seconds": 2.436,
+      "query": "McKinsey travel tourism report 2025 destination choice"
+    },
+    {
+      "url": "https://www.mckinsey.com/industries/private-capital/our-insights/travel-industry-trends-and-the-opportunity-for-private-equity",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.436,
+      "query": "McKinsey travel tourism report 2025 destination choice"
+    },
+    {
+      "url": "https://partner.expediagroup.com/en-us/resources/blog/q2-2025-travel-trends-insights",
+      "status": "success",
+      "content_length": 21659,
+      "duration_seconds": 2.436,
+      "query": "McKinsey travel tourism report 2025 destination choice"
+    },
+    {
+      "url": "https://www.statista.com/chart/34437/factors-when-considering-a-travel-destination-worldwide",
+      "status": "success",
+      "content_length": 8007,
+      "duration_seconds": 2.436,
+      "query": "McKinsey travel tourism report 2025 destination choice"
+    },
+    {
+      "url": "https://www.china-briefing.com/news/china-visa-free-travel-policies-complete-guide",
+      "status": "success",
+      "content_length": 57482,
+      "duration_seconds": 2.609,
+      "query": "Chinese outbound tourism visa-free policy 2025 中国出境旅游免签政策"
+    },
+    {
+      "url": "https://english.news.cn/20260128/379db85403634609b82cb8136004dced/c.html",
+      "status": "success",
+      "content_length": 4093,
+      "duration_seconds": 2.609,
+      "query": "Chinese outbound tourism visa-free policy 2025 中国出境旅游免签政策"
+    },
+    {
+      "url": "https://www.scmp.com/economy/china-economy/article/3317241/chinas-visa-free-policy-pays-dividends-overseas-entries-soar-2025",
+      "status": "success",
+      "content_length": 2713,
+      "duration_seconds": 2.609,
+      "query": "Chinese outbound tourism visa-free policy 2025 中国出境旅游免签政策"
+    },
+    {
+      "url": "https://hk.ocmfa.gov.cn/eng/fwxx/wgrqz/202511/t20251110_11749818.htm",
+      "status": "success",
+      "content_length": 1264,
+      "duration_seconds": 2.609,
+      "query": "Chinese outbound tourism visa-free policy 2025 中国出境旅游免签政策"
+    },
+    {
+      "url": "https://www.visaforchina.cn/SGP3_EN/qianzhengyewu/jichuzhishi/changjianwenti/220323827614355469.html",
+      "status": "success",
+      "content_length": 10622,
+      "duration_seconds": 2.609,
+      "query": "Chinese outbound tourism visa-free policy 2025 中国出境旅游免签政策"
+    },
+    {
+      "url": "https://research.skift.com/reports/skift-travel-health-index-2025-in-review",
+      "status": "success",
+      "content_length": 3286,
+      "duration_seconds": 2.669,
+      "query": "2025 traveler health safety perceptions survey post-pandemic"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12167583",
+      "status": "success",
+      "content_length": 79029,
+      "duration_seconds": 2.669,
+      "query": "2025 traveler health safety perceptions survey post-pandemic"
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S2214140525001355",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.669,
+      "query": "2025 traveler health safety perceptions survey post-pandemic"
+    },
+    {
+      "url": "https://www.globalrescue.com/common/blog/detail/us-policy-shaping-global-travel-behavior",
+      "status": "success",
+      "content_length": 9898,
+      "duration_seconds": 2.669,
+      "query": "2025 traveler health safety perceptions survey post-pandemic"
+    },
+    {
+      "url": "https://journals.sagepub.com/doi/10.1177/21582440251391906",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.669,
+      "query": "2025 traveler health safety perceptions survey post-pandemic"
+    },
+    {
+      "url": "https://www.ctaweb.org.cn/en/gongzuodongtai/10502.html",
+      "status": "success",
+      "content_length": 4737,
+      "duration_seconds": 2.23,
+      "query": "Chinese travel trends 2025 outbound tourism demographic data Xiaohongshu Douyin"
+    },
+    {
+      "url": "https://www.travelchinaguide.com/tourism/2025-statistics",
+      "status": "success",
+      "content_length": 7883,
+      "duration_seconds": 2.23,
+      "query": "Chinese travel trends 2025 outbound tourism demographic data Xiaohongshu Douyin"
+    },
+    {
+      "url": "https://www.futuremarketinsights.com/reports/china-outbound-travel-industry-analysis-and-forecast",
+      "status": "success",
+      "content_length": 51883,
+      "duration_seconds": 2.23,
+      "query": "Chinese travel trends 2025 outbound tourism demographic data Xiaohongshu Douyin"
+    },
+    {
+      "url": "https://www.luggage-factories.com/news-detail/113505",
+      "status": "success",
+      "content_length": 7343,
+      "duration_seconds": 2.23,
+      "query": "Chinese travel trends 2025 outbound tourism demographic data Xiaohongshu Douyin"
+    },
+    {
+      "url": "https://www.dragontrail.com/resources/blog/chinese-outbound-travel-trends-of-2025",
+      "status": "success",
+      "content_length": 18265,
+      "duration_seconds": 2.23,
+      "query": "Chinese travel trends 2025 outbound tourism demographic data Xiaohongshu Douyin"
+    },
+    {
+      "url": "https://ttgchina.com/2025/04/24/2025%E4%B8%AD%E5%9B%BD%E5%87%BA%E5%A2%83%E6%B8%B8%E8%B6%8B%E5%8A%BF-%EF%BC%9A%E4%BA%9A%E6%B4%B2%E4%B8%BB%E5%AF%BC%E3%80%81%E5%AE%89%E5%85%A8%E4%B8%BA%E5%85%88",
+      "status": "success",
+      "content_length": 9554,
+      "duration_seconds": 2.663,
+      "query": "中国旅游 2025 趋势 小红书 携程 报告 出境游"
+    },
+    {
+      "url": "https://www.fxbaogao.com/detail/4441501",
+      "status": "success",
+      "content_length": 7582,
+      "duration_seconds": 2.663,
+      "query": "中国旅游 2025 趋势 小红书 携程 报告 出境游"
+    },
+    {
+      "url": "https://app.xinhuanet.com/news/article.html?articleId=20260519f693ae2df45a4607a3181c11c028cfeb",
+      "status": "success",
+      "content_length": 2089,
+      "duration_seconds": 2.663,
+      "query": "中国旅游 2025 趋势 小红书 携程 报告 出境游"
+    },
+    {
+      "url": "https://www.yidaiyilu.gov.cn/p/04TB6MNJ.html",
+      "status": "success",
+      "content_length": 13775,
+      "duration_seconds": 2.663,
+      "query": "中国旅游 2025 趋势 小红书 携程 报告 出境游"
+    },
+    {
+      "url": "https://news.booking.com/zh-chs/Booking-.com%E7%BC%A4%E5%AE%A2%E9%A6%96%E6%AC%A1%E5%8F%91%E5%B8%832025%E4%B8%AD%E5%9B%BD%E6%97%85%E5%AE%A2%E5%87%BA%E5%A2%83%E6%B8%B8%E8%B6%8B%E5%8A%BF%E6%8A%A5%E5%91%8A",
+      "status": "success",
+      "content_length": 4149,
+      "duration_seconds": 2.663,
+      "query": "中国旅游 2025 趋势 小红书 携程 报告 出境游"
+    },
+    {
+      "url": "https://www.deloitte.com/us/en/insights/industry/transportation/corporate-business-travel-survey.html",
+      "status": "success",
+      "content_length": 31688,
+      "duration_seconds": 3.072,
+      "query": "McKinsey Deloitte travel tourism trends 2025 report destination choice"
+    },
+    {
+      "url": "https://aboutdci.com/blog/travel-trends-to-guide-destination-marketing-in-2025",
+      "status": "success",
+      "content_length": 6640,
+      "duration_seconds": 3.072,
+      "query": "McKinsey Deloitte travel tourism trends 2025 report destination choice"
+    },
+    {
+      "url": "https://rusticpathways.com/blog/what-travel-trends-to-expect-in-2025",
+      "status": "success",
+      "content_length": 26117,
+      "duration_seconds": 3.072,
+      "query": "McKinsey Deloitte travel tourism trends 2025 report destination choice"
+    },
+    {
+      "url": "https://zetaglobal.com/resource-center/2025-travel-trends",
+      "status": "success",
+      "content_length": 20909,
+      "duration_seconds": 3.072,
+      "query": "McKinsey Deloitte travel tourism trends 2025 report destination choice"
+    },
+    {
+      "url": "https://www.linkedin.com/posts/mckinsey_the-global-marketplace-for-travel-experiences-activity-7245084759029161984-H9hM",
+      "status": "success",
+      "content_length": 14417,
+      "duration_seconds": 3.072,
+      "query": "McKinsey Deloitte travel tourism trends 2025 report destination choice"
+    },
+    {
+      "url": "https://news.booking.com/bookingcoms-2025-research-reveals-growing-traveler-awareness-of-tourism-impact-on-communities-both-at-home-and-abroad",
+      "status": "success",
+      "content_length": 8372,
+      "duration_seconds": 2.59,
+      "query": "sustainable travel certifications eco-tourism consumer behavior 2025 survey"
+    },
+    {
+      "url": "https://wttc.org/news/consumers-in-favour-of-sustainable-travel-but-cost-is-king-reveals-wttc-report",
+      "status": "success",
+      "content_length": 8293,
+      "duration_seconds": 2.59,
+      "query": "sustainable travel certifications eco-tourism consumer behavior 2025 survey"
+    },
+    {
+      "url": "https://transition-pathways.europa.eu/tourism/knowledge-documents/bookingcom-report-2025-sustainable-travel-trends",
+      "status": "success",
+      "content_length": 10203,
+      "duration_seconds": 2.59,
+      "query": "sustainable travel certifications eco-tourism consumer behavior 2025 survey"
+    },
+    {
+      "url": "https://www.statista.com/topics/1916/green-tourism",
+      "status": "success",
+      "content_length": 14198,
+      "duration_seconds": 2.59,
+      "query": "sustainable travel certifications eco-tourism consumer behavior 2025 survey"
+    },
+    {
+      "url": "https://www.futuremarketinsights.com/reports/sustainable-tourism-sector-overview-and-analysis",
+      "status": "success",
+      "content_length": 59492,
+      "duration_seconds": 2.59,
+      "query": "sustainable travel certifications eco-tourism consumer behavior 2025 survey"
+    },
+    {
+      "url": "https://www.linkedin.com/posts/benellencweig_mckinsey-travel-agenticai-activity-7375907999095136256-jnH5",
+      "status": "success",
+      "content_length": 37716,
+      "duration_seconds": 2.729,
+      "query": "McKinsey Skift travel experiences report 2025 trillion dollar"
+    },
+    {
+      "url": "https://skift.com/insights/state-of-travel",
+      "status": "success",
+      "content_length": 4054,
+      "duration_seconds": 2.729,
+      "query": "McKinsey Skift travel experiences report 2025 trillion dollar"
+    },
+    {
+      "url": "https://www.linkedin.com/posts/mckinsey_the-global-marketplace-for-travel-experiences-activity-7245084759029161984-H9hM",
+      "status": "success",
+      "content_length": 14417,
+      "duration_seconds": 2.729,
+      "query": "McKinsey Skift travel experiences report 2025 trillion dollar"
+    },
+    {
+      "url": "https://privateluxuryevents.com/the-edit/the-luxury-travel-market-acceleration-and-growth-in-2025",
+      "status": "success",
+      "content_length": 9041,
+      "duration_seconds": 2.729,
+      "query": "McKinsey Skift travel experiences report 2025 trillion dollar"
+    },
+    {
+      "url": "https://www.mckinsey.com/industries/travel/our-insights/remapping-travel-with-agentic-ai",
+      "status": "success",
+      "content_length": 28341,
+      "duration_seconds": 2.729,
+      "query": "McKinsey Skift travel experiences report 2025 trillion dollar"
+    },
+    {
+      "url": "https://riskline.com/coolcationing-sustainable-tourism-2025",
+      "status": "success",
+      "content_length": 8760,
+      "duration_seconds": 2.894,
+      "query": "climate change overtourism last chance tourism coolcationing destination choice 2025"
+    },
+    {
+      "url": "https://riskline.com/forecasts/climate-change-keeps-reshaping-travel-patterns",
+      "status": "success",
+      "content_length": 7521,
+      "duration_seconds": 2.894,
+      "query": "climate change overtourism last chance tourism coolcationing destination choice 2025"
+    },
+    {
+      "url": "https://www.sustainability-lifestyle.com/sustainable-lifestyle-blog/coolcations-travel-trend",
+      "status": "success",
+      "content_length": 13349,
+      "duration_seconds": 2.894,
+      "query": "climate change overtourism last chance tourism coolcationing destination choice 2025"
+    },
+    {
+      "url": "https://www.danacommunications.com/coolcation-travel-trend",
+      "status": "success",
+      "content_length": 5584,
+      "duration_seconds": 2.894,
+      "query": "climate change overtourism last chance tourism coolcationing destination choice 2025"
+    },
+    {
+      "url": "https://rusticpathways.com/blog/what-travel-trends-to-expect-in-2025",
+      "status": "success",
+      "content_length": 26117,
+      "duration_seconds": 2.894,
+      "query": "climate change overtourism last chance tourism coolcationing destination choice 2025"
+    }
+  ],
+  "run_id": "d7b3ad527e9a4dd7862def3600f95140",
+  "status": "completed",
+  "id": 47,
+  "prompt": "2025 年，有哪些因素影响着旅客选择前往不同目的地旅游",
+  "language": "zh",
+  "topic": "Travel",
+  "duration_seconds": 283.711,
+  "report_length": 17373,
+  "context_length": 252243
+}

@@ -1,0 +1,2916 @@
+{
+  "session_id": "e70c3b39b9f54b459074ebc5b6a13ff9",
+  "total_llm_calls": 68,
+  "llm_calls_with_token_usage": 68,
+  "llm_calls_missing_token_usage": 0,
+  "token_usage_complete": true,
+  "total_input_tokens": 548656,
+  "total_output_tokens": 63577,
+  "total_tokens": 612233,
+  "counted_input_tokens": 548656,
+  "counted_output_tokens": 63577,
+  "counted_total_tokens": 612233,
+  "total_search_count": 14,
+  "total_search_results": 70,
+  "total_visit_count": 70,
+  "total_visit_success": 62,
+  "total_visit_failed": 8,
+  "source_urls_count": 64,
+  "llm_calls_detail": [
+    {
+      "sequence": 1,
+      "status": "completed",
+      "started_at": "2026-08-24T05:26:59.591994+08:00",
+      "completed_at": "2026-08-24T05:27:03.466160+08:00",
+      "duration_seconds": 3.874,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 762,
+      "output_tokens": 275,
+      "total_tokens": 1037,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 762,
+        "output_tokens": 275,
+        "total_tokens": 1037,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 2,
+      "status": "completed",
+      "started_at": "2026-08-24T05:27:03.475603+08:00",
+      "completed_at": "2026-08-24T05:27:08.866973+08:00",
+      "duration_seconds": 5.391,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1339,
+      "output_tokens": 477,
+      "total_tokens": 1816,
+      "message_count": 2,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1339,
+        "output_tokens": 477,
+        "total_tokens": 1816,
+        "input_token_details": {
+          "cache_read": 1024
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 3,
+      "status": "completed",
+      "started_at": "2026-08-24T05:27:08.873258+08:00",
+      "completed_at": "2026-08-24T05:27:14.137525+08:00",
+      "duration_seconds": 5.264,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1622,
+      "output_tokens": 465,
+      "total_tokens": 2087,
+      "message_count": 4,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1622,
+        "output_tokens": 465,
+        "total_tokens": 2087,
+        "input_token_details": {
+          "cache_read": 1280
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 4,
+      "status": "completed",
+      "started_at": "2026-08-24T05:27:14.148138+08:00",
+      "completed_at": "2026-08-24T05:27:16.590973+08:00",
+      "duration_seconds": 2.443,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1265,
+      "output_tokens": 155,
+      "total_tokens": 1420,
+      "message_count": 2,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1265,
+        "output_tokens": 155,
+        "total_tokens": 1420,
+        "input_token_details": {
+          "cache_read": 768
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 9,
+      "status": "completed",
+      "started_at": "2026-08-24T05:27:19.921122+08:00",
+      "completed_at": "2026-08-24T05:27:24.839735+08:00",
+      "duration_seconds": 4.919,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4992,
+      "output_tokens": 439,
+      "total_tokens": 5431,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4992,
+        "output_tokens": 439,
+        "total_tokens": 5431,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 10,
+      "status": "completed",
+      "started_at": "2026-08-24T05:27:19.923723+08:00",
+      "completed_at": "2026-08-24T05:27:26.788364+08:00",
+      "duration_seconds": 6.865,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 11665,
+      "output_tokens": 671,
+      "total_tokens": 12336,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 11665,
+        "output_tokens": 671,
+        "total_tokens": 12336,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 11,
+      "status": "completed",
+      "started_at": "2026-08-24T05:27:19.923763+08:00",
+      "completed_at": "2026-08-24T05:27:25.845971+08:00",
+      "duration_seconds": 5.922,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5405,
+      "output_tokens": 479,
+      "total_tokens": 5884,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5405,
+        "output_tokens": 479,
+        "total_tokens": 5884,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 12,
+      "status": "completed",
+      "started_at": "2026-08-24T05:27:19.923791+08:00",
+      "completed_at": "2026-08-24T05:27:26.965011+08:00",
+      "duration_seconds": 7.041,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5083,
+      "output_tokens": 731,
+      "total_tokens": 5814,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5083,
+        "output_tokens": 731,
+        "total_tokens": 5814,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 13,
+      "status": "completed",
+      "started_at": "2026-08-24T05:27:19.923816+08:00",
+      "completed_at": "2026-08-24T05:27:23.137982+08:00",
+      "duration_seconds": 3.214,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1643,
+      "output_tokens": 199,
+      "total_tokens": 1842,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1643,
+        "output_tokens": 199,
+        "total_tokens": 1842,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 14,
+      "status": "completed",
+      "started_at": "2026-08-24T05:27:19.923839+08:00",
+      "completed_at": "2026-08-24T05:27:25.566665+08:00",
+      "duration_seconds": 5.643,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 9063,
+      "output_tokens": 518,
+      "total_tokens": 9581,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 9063,
+        "output_tokens": 518,
+        "total_tokens": 9581,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 15,
+      "status": "completed",
+      "started_at": "2026-08-24T05:27:19.923862+08:00",
+      "completed_at": "2026-08-24T05:27:25.475361+08:00",
+      "duration_seconds": 5.552,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3048,
+      "output_tokens": 487,
+      "total_tokens": 3535,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3048,
+        "output_tokens": 487,
+        "total_tokens": 3535,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 16,
+      "status": "completed",
+      "started_at": "2026-08-24T05:27:19.923885+08:00",
+      "completed_at": "2026-08-24T05:27:23.818109+08:00",
+      "duration_seconds": 3.894,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1813,
+      "output_tokens": 317,
+      "total_tokens": 2130,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1813,
+        "output_tokens": 317,
+        "total_tokens": 2130,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 17,
+      "status": "completed",
+      "started_at": "2026-08-24T05:27:19.923908+08:00",
+      "completed_at": "2026-08-24T05:27:24.881478+08:00",
+      "duration_seconds": 4.958,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3247,
+      "output_tokens": 419,
+      "total_tokens": 3666,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3247,
+        "output_tokens": 419,
+        "total_tokens": 3666,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 18,
+      "status": "completed",
+      "started_at": "2026-08-24T05:27:19.923932+08:00",
+      "completed_at": "2026-08-24T05:27:26.172874+08:00",
+      "duration_seconds": 6.249,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 11981,
+      "output_tokens": 601,
+      "total_tokens": 12582,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 11981,
+        "output_tokens": 601,
+        "total_tokens": 12582,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 19,
+      "status": "completed",
+      "started_at": "2026-08-24T05:27:19.923957+08:00",
+      "completed_at": "2026-08-24T05:27:24.839539+08:00",
+      "duration_seconds": 4.916,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 10445,
+      "output_tokens": 443,
+      "total_tokens": 10888,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 10445,
+        "output_tokens": 443,
+        "total_tokens": 10888,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 20,
+      "status": "completed",
+      "started_at": "2026-08-24T05:27:19.923980+08:00",
+      "completed_at": "2026-08-24T05:27:23.702432+08:00",
+      "duration_seconds": 3.778,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1491,
+      "output_tokens": 295,
+      "total_tokens": 1786,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1491,
+        "output_tokens": 295,
+        "total_tokens": 1786,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 21,
+      "status": "completed",
+      "started_at": "2026-08-24T05:27:19.924003+08:00",
+      "completed_at": "2026-08-24T05:27:25.371006+08:00",
+      "duration_seconds": 5.447,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5701,
+      "output_tokens": 498,
+      "total_tokens": 6199,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5701,
+        "output_tokens": 498,
+        "total_tokens": 6199,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 22,
+      "status": "completed",
+      "started_at": "2026-08-24T05:27:19.924027+08:00",
+      "completed_at": "2026-08-24T05:27:25.251910+08:00",
+      "duration_seconds": 5.328,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4729,
+      "output_tokens": 456,
+      "total_tokens": 5185,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4729,
+        "output_tokens": 456,
+        "total_tokens": 5185,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 23,
+      "status": "completed",
+      "started_at": "2026-08-24T05:27:19.924051+08:00",
+      "completed_at": "2026-08-24T05:27:29.719981+08:00",
+      "duration_seconds": 9.796,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 11072,
+      "output_tokens": 912,
+      "total_tokens": 11984,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 11072,
+        "output_tokens": 912,
+        "total_tokens": 11984,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 24,
+      "status": "completed",
+      "started_at": "2026-08-24T05:27:19.924073+08:00",
+      "completed_at": "2026-08-24T05:27:25.832976+08:00",
+      "duration_seconds": 5.909,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2199,
+      "output_tokens": 486,
+      "total_tokens": 2685,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2199,
+        "output_tokens": 486,
+        "total_tokens": 2685,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 25,
+      "status": "completed",
+      "started_at": "2026-08-24T05:27:19.924095+08:00",
+      "completed_at": "2026-08-24T05:27:26.180722+08:00",
+      "duration_seconds": 6.257,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4931,
+      "output_tokens": 512,
+      "total_tokens": 5443,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4931,
+        "output_tokens": 512,
+        "total_tokens": 5443,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 26,
+      "status": "completed",
+      "started_at": "2026-08-24T05:27:19.924118+08:00",
+      "completed_at": "2026-08-24T05:27:25.838897+08:00",
+      "duration_seconds": 5.915,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6728,
+      "output_tokens": 580,
+      "total_tokens": 7308,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 6728,
+        "output_tokens": 580,
+        "total_tokens": 7308,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 27,
+      "status": "completed",
+      "started_at": "2026-08-24T05:27:19.924143+08:00",
+      "completed_at": "2026-08-24T05:27:25.876622+08:00",
+      "duration_seconds": 5.952,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 13549,
+      "output_tokens": 508,
+      "total_tokens": 14057,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 13549,
+        "output_tokens": 508,
+        "total_tokens": 14057,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 28,
+      "status": "completed",
+      "started_at": "2026-08-24T05:27:29.729039+08:00",
+      "completed_at": "2026-08-24T05:27:33.440740+08:00",
+      "duration_seconds": 3.712,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 11365,
+      "output_tokens": 263,
+      "total_tokens": 11628,
+      "message_count": 4,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 11365,
+        "output_tokens": 263,
+        "total_tokens": 11628,
+        "input_token_details": {
+          "cache_read": 1024
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 29,
+      "status": "completed",
+      "started_at": "2026-08-24T05:27:33.451256+08:00",
+      "completed_at": "2026-08-24T05:27:35.587838+08:00",
+      "duration_seconds": 2.137,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 11778,
+      "output_tokens": 105,
+      "total_tokens": 11883,
+      "message_count": 6,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 11778,
+        "output_tokens": 105,
+        "total_tokens": 11883,
+        "input_token_details": {
+          "cache_read": 11264
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 36,
+      "status": "completed",
+      "started_at": "2026-08-24T05:27:38.430778+08:00",
+      "completed_at": "2026-08-24T05:27:43.562947+08:00",
+      "duration_seconds": 5.132,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5024,
+      "output_tokens": 474,
+      "total_tokens": 5498,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5024,
+        "output_tokens": 474,
+        "total_tokens": 5498,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 37,
+      "status": "completed",
+      "started_at": "2026-08-24T05:27:38.430865+08:00",
+      "completed_at": "2026-08-24T05:27:41.417120+08:00",
+      "duration_seconds": 2.986,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2034,
+      "output_tokens": 215,
+      "total_tokens": 2249,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2034,
+        "output_tokens": 215,
+        "total_tokens": 2249,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 38,
+      "status": "completed",
+      "started_at": "2026-08-24T05:27:38.431214+08:00",
+      "completed_at": "2026-08-24T05:27:45.657711+08:00",
+      "duration_seconds": 7.227,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 10882,
+      "output_tokens": 653,
+      "total_tokens": 11535,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 10882,
+        "output_tokens": 653,
+        "total_tokens": 11535,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 39,
+      "status": "completed",
+      "started_at": "2026-08-24T05:27:38.431254+08:00",
+      "completed_at": "2026-08-24T05:27:44.505492+08:00",
+      "duration_seconds": 6.074,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 11613,
+      "output_tokens": 538,
+      "total_tokens": 12151,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 11613,
+        "output_tokens": 538,
+        "total_tokens": 12151,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 40,
+      "status": "completed",
+      "started_at": "2026-08-24T05:27:38.431283+08:00",
+      "completed_at": "2026-08-24T05:27:42.759336+08:00",
+      "duration_seconds": 4.328,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 18756,
+      "output_tokens": 321,
+      "total_tokens": 19077,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 18756,
+        "output_tokens": 321,
+        "total_tokens": 19077,
+        "input_token_details": {
+          "cache_read": 512
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 41,
+      "status": "completed",
+      "started_at": "2026-08-24T05:27:38.431309+08:00",
+      "completed_at": "2026-08-24T05:27:43.762169+08:00",
+      "duration_seconds": 5.331,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4744,
+      "output_tokens": 444,
+      "total_tokens": 5188,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4744,
+        "output_tokens": 444,
+        "total_tokens": 5188,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 42,
+      "status": "completed",
+      "started_at": "2026-08-24T05:27:38.431337+08:00",
+      "completed_at": "2026-08-24T05:27:43.909432+08:00",
+      "duration_seconds": 5.478,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6509,
+      "output_tokens": 506,
+      "total_tokens": 7015,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 6509,
+        "output_tokens": 506,
+        "total_tokens": 7015,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 43,
+      "status": "completed",
+      "started_at": "2026-08-24T05:27:38.431361+08:00",
+      "completed_at": "2026-08-24T05:27:50.260690+08:00",
+      "duration_seconds": 11.829,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 11209,
+      "output_tokens": 1193,
+      "total_tokens": 12402,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 11209,
+        "output_tokens": 1193,
+        "total_tokens": 12402,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 44,
+      "status": "completed",
+      "started_at": "2026-08-24T05:27:38.431386+08:00",
+      "completed_at": "2026-08-24T05:27:42.759572+08:00",
+      "duration_seconds": 4.328,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2294,
+      "output_tokens": 338,
+      "total_tokens": 2632,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2294,
+        "output_tokens": 338,
+        "total_tokens": 2632,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 45,
+      "status": "completed",
+      "started_at": "2026-08-24T05:27:38.431409+08:00",
+      "completed_at": "2026-08-24T05:27:44.806177+08:00",
+      "duration_seconds": 6.375,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 13436,
+      "output_tokens": 600,
+      "total_tokens": 14036,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 13436,
+        "output_tokens": 600,
+        "total_tokens": 14036,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 46,
+      "status": "completed",
+      "started_at": "2026-08-24T05:27:38.431437+08:00",
+      "completed_at": "2026-08-24T05:27:41.715148+08:00",
+      "duration_seconds": 3.284,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3331,
+      "output_tokens": 229,
+      "total_tokens": 3560,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3331,
+        "output_tokens": 229,
+        "total_tokens": 3560,
+        "input_token_details": {
+          "cache_read": 2048
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 47,
+      "status": "completed",
+      "started_at": "2026-08-24T05:27:38.431467+08:00",
+      "completed_at": "2026-08-24T05:27:44.071973+08:00",
+      "duration_seconds": 5.641,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3086,
+      "output_tokens": 484,
+      "total_tokens": 3570,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3086,
+        "output_tokens": 484,
+        "total_tokens": 3570,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 48,
+      "status": "completed",
+      "started_at": "2026-08-24T05:27:38.431491+08:00",
+      "completed_at": "2026-08-24T05:27:52.080212+08:00",
+      "duration_seconds": 13.649,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 14420,
+      "output_tokens": 1211,
+      "total_tokens": 15631,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 14420,
+        "output_tokens": 1211,
+        "total_tokens": 15631,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 49,
+      "status": "completed",
+      "started_at": "2026-08-24T05:27:38.431514+08:00",
+      "completed_at": "2026-08-24T05:27:44.850501+08:00",
+      "duration_seconds": 6.419,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8232,
+      "output_tokens": 602,
+      "total_tokens": 8834,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 8232,
+        "output_tokens": 602,
+        "total_tokens": 8834,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 50,
+      "status": "completed",
+      "started_at": "2026-08-24T05:27:38.431536+08:00",
+      "completed_at": "2026-08-24T05:27:47.243721+08:00",
+      "duration_seconds": 8.812,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 10785,
+      "output_tokens": 841,
+      "total_tokens": 11626,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 10785,
+        "output_tokens": 841,
+        "total_tokens": 11626,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 51,
+      "status": "completed",
+      "started_at": "2026-08-24T05:27:38.431557+08:00",
+      "completed_at": "2026-08-24T05:27:46.708391+08:00",
+      "duration_seconds": 8.277,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5192,
+      "output_tokens": 778,
+      "total_tokens": 5970,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5192,
+        "output_tokens": 778,
+        "total_tokens": 5970,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 52,
+      "status": "completed",
+      "started_at": "2026-08-24T05:27:38.431581+08:00",
+      "completed_at": "2026-08-24T05:27:43.474422+08:00",
+      "duration_seconds": 5.043,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3413,
+      "output_tokens": 412,
+      "total_tokens": 3825,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3413,
+        "output_tokens": 412,
+        "total_tokens": 3825,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 53,
+      "status": "completed",
+      "started_at": "2026-08-24T05:27:38.431602+08:00",
+      "completed_at": "2026-08-24T05:27:45.844491+08:00",
+      "duration_seconds": 7.413,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7126,
+      "output_tokens": 688,
+      "total_tokens": 7814,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 7126,
+        "output_tokens": 688,
+        "total_tokens": 7814,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 54,
+      "status": "completed",
+      "started_at": "2026-08-24T05:27:38.431624+08:00",
+      "completed_at": "2026-08-24T05:27:44.396357+08:00",
+      "duration_seconds": 5.965,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6368,
+      "output_tokens": 505,
+      "total_tokens": 6873,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 6368,
+        "output_tokens": 505,
+        "total_tokens": 6873,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 55,
+      "status": "completed",
+      "started_at": "2026-08-24T05:27:52.089773+08:00",
+      "completed_at": "2026-08-24T05:27:56.829666+08:00",
+      "duration_seconds": 4.74,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 25505,
+      "output_tokens": 341,
+      "total_tokens": 25846,
+      "message_count": 8,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 25505,
+        "output_tokens": 341,
+        "total_tokens": 25846,
+        "input_token_details": {
+          "cache_read": 11776
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 56,
+      "status": "completed",
+      "started_at": "2026-08-24T05:27:56.840591+08:00",
+      "completed_at": "2026-08-24T05:27:59.565091+08:00",
+      "duration_seconds": 2.725,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 25720,
+      "output_tokens": 114,
+      "total_tokens": 25834,
+      "message_count": 10,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 25720,
+        "output_tokens": 114,
+        "total_tokens": 25834,
+        "input_token_details": {
+          "cache_read": 25344
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 66,
+      "status": "completed",
+      "started_at": "2026-08-24T05:28:02.645226+08:00",
+      "completed_at": "2026-08-24T05:28:08.331436+08:00",
+      "duration_seconds": 5.686,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7704,
+      "output_tokens": 514,
+      "total_tokens": 8218,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 7704,
+        "output_tokens": 514,
+        "total_tokens": 8218,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 67,
+      "status": "completed",
+      "started_at": "2026-08-24T05:28:02.645316+08:00",
+      "completed_at": "2026-08-24T05:28:09.166075+08:00",
+      "duration_seconds": 6.521,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 9891,
+      "output_tokens": 623,
+      "total_tokens": 10514,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 9891,
+        "output_tokens": 623,
+        "total_tokens": 10514,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 68,
+      "status": "completed",
+      "started_at": "2026-08-24T05:28:02.645383+08:00",
+      "completed_at": "2026-08-24T05:28:08.784661+08:00",
+      "duration_seconds": 6.139,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5090,
+      "output_tokens": 545,
+      "total_tokens": 5635,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5090,
+        "output_tokens": 545,
+        "total_tokens": 5635,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 69,
+      "status": "completed",
+      "started_at": "2026-08-24T05:28:02.645421+08:00",
+      "completed_at": "2026-08-24T05:28:10.781193+08:00",
+      "duration_seconds": 8.136,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3696,
+      "output_tokens": 679,
+      "total_tokens": 4375,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3696,
+        "output_tokens": 679,
+        "total_tokens": 4375,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 70,
+      "status": "completed",
+      "started_at": "2026-08-24T05:28:02.645452+08:00",
+      "completed_at": "2026-08-24T05:28:07.808944+08:00",
+      "duration_seconds": 5.164,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5156,
+      "output_tokens": 455,
+      "total_tokens": 5611,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5156,
+        "output_tokens": 455,
+        "total_tokens": 5611,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 71,
+      "status": "completed",
+      "started_at": "2026-08-24T05:28:02.645481+08:00",
+      "completed_at": "2026-08-24T05:28:08.668664+08:00",
+      "duration_seconds": 6.023,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2206,
+      "output_tokens": 524,
+      "total_tokens": 2730,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2206,
+        "output_tokens": 524,
+        "total_tokens": 2730,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 72,
+      "status": "completed",
+      "started_at": "2026-08-24T05:28:02.645512+08:00",
+      "completed_at": "2026-08-24T05:28:06.659813+08:00",
+      "duration_seconds": 4.014,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3424,
+      "output_tokens": 281,
+      "total_tokens": 3705,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3424,
+        "output_tokens": 281,
+        "total_tokens": 3705,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 73,
+      "status": "completed",
+      "started_at": "2026-08-24T05:28:02.645538+08:00",
+      "completed_at": "2026-08-24T05:28:10.058419+08:00",
+      "duration_seconds": 7.413,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5598,
+      "output_tokens": 704,
+      "total_tokens": 6302,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5598,
+        "output_tokens": 704,
+        "total_tokens": 6302,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 74,
+      "status": "completed",
+      "started_at": "2026-08-24T05:28:02.645562+08:00",
+      "completed_at": "2026-08-24T05:28:11.961639+08:00",
+      "duration_seconds": 9.316,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 13528,
+      "output_tokens": 881,
+      "total_tokens": 14409,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 13528,
+        "output_tokens": 881,
+        "total_tokens": 14409,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 75,
+      "status": "completed",
+      "started_at": "2026-08-24T05:28:02.645590+08:00",
+      "completed_at": "2026-08-24T05:28:07.925592+08:00",
+      "duration_seconds": 5.28,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 10316,
+      "output_tokens": 490,
+      "total_tokens": 10806,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 10316,
+        "output_tokens": 490,
+        "total_tokens": 10806,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 76,
+      "status": "completed",
+      "started_at": "2026-08-24T05:28:02.645613+08:00",
+      "completed_at": "2026-08-24T05:28:07.200726+08:00",
+      "duration_seconds": 4.555,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4264,
+      "output_tokens": 333,
+      "total_tokens": 4597,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4264,
+        "output_tokens": 333,
+        "total_tokens": 4597,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 77,
+      "status": "completed",
+      "started_at": "2026-08-24T05:28:02.645635+08:00",
+      "completed_at": "2026-08-24T05:28:07.857741+08:00",
+      "duration_seconds": 5.212,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3437,
+      "output_tokens": 460,
+      "total_tokens": 3897,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3437,
+        "output_tokens": 460,
+        "total_tokens": 3897,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 78,
+      "status": "completed",
+      "started_at": "2026-08-24T05:28:02.645660+08:00",
+      "completed_at": "2026-08-24T05:28:09.738675+08:00",
+      "duration_seconds": 7.093,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5153,
+      "output_tokens": 676,
+      "total_tokens": 5829,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5153,
+        "output_tokens": 676,
+        "total_tokens": 5829,
+        "input_token_details": {
+          "cache_read": 512
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 79,
+      "status": "completed",
+      "started_at": "2026-08-24T05:28:02.645682+08:00",
+      "completed_at": "2026-08-24T05:28:08.668868+08:00",
+      "duration_seconds": 6.023,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 9572,
+      "output_tokens": 538,
+      "total_tokens": 10110,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 9572,
+        "output_tokens": 538,
+        "total_tokens": 10110,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 80,
+      "status": "completed",
+      "started_at": "2026-08-24T05:28:02.645705+08:00",
+      "completed_at": "2026-08-24T05:28:10.494499+08:00",
+      "duration_seconds": 7.849,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5104,
+      "output_tokens": 754,
+      "total_tokens": 5858,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5104,
+        "output_tokens": 754,
+        "total_tokens": 5858,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 81,
+      "status": "completed",
+      "started_at": "2026-08-24T05:28:02.645727+08:00",
+      "completed_at": "2026-08-24T05:28:10.385464+08:00",
+      "duration_seconds": 7.74,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 13684,
+      "output_tokens": 660,
+      "total_tokens": 14344,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 13684,
+        "output_tokens": 660,
+        "total_tokens": 14344,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 82,
+      "status": "completed",
+      "started_at": "2026-08-24T05:28:02.645750+08:00",
+      "completed_at": "2026-08-24T05:28:09.203486+08:00",
+      "duration_seconds": 6.558,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4278,
+      "output_tokens": 545,
+      "total_tokens": 4823,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4278,
+        "output_tokens": 545,
+        "total_tokens": 4823,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 83,
+      "status": "completed",
+      "started_at": "2026-08-24T05:28:02.645771+08:00",
+      "completed_at": "2026-08-24T05:28:06.513034+08:00",
+      "duration_seconds": 3.867,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1810,
+      "output_tokens": 285,
+      "total_tokens": 2095,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1810,
+        "output_tokens": 285,
+        "total_tokens": 2095,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 84,
+      "status": "completed",
+      "started_at": "2026-08-24T05:28:11.966162+08:00",
+      "completed_at": "2026-08-24T05:30:06.214531+08:00",
+      "duration_seconds": 114.248,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 38934,
+      "output_tokens": 16243,
+      "total_tokens": 55177,
+      "message_count": 13,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 38934,
+        "output_tokens": 16243,
+        "total_tokens": 55177,
+        "input_token_details": {
+          "cache_read": 512
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "end_turn"
+    },
+    {
+      "sequence": 85,
+      "status": "completed",
+      "started_at": "2026-08-24T05:30:06.228610+08:00",
+      "completed_at": "2026-08-24T05:30:11.643095+08:00",
+      "duration_seconds": 5.414,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 16478,
+      "output_tokens": 398,
+      "total_tokens": 16876,
+      "message_count": 6,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 16478,
+        "output_tokens": 398,
+        "total_tokens": 16876,
+        "input_token_details": {},
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 86,
+      "status": "completed",
+      "started_at": "2026-08-24T05:30:11.653998+08:00",
+      "completed_at": "2026-08-24T05:30:14.634184+08:00",
+      "duration_seconds": 2.98,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 16819,
+      "output_tokens": 78,
+      "total_tokens": 16897,
+      "message_count": 8,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 16819,
+        "output_tokens": 78,
+        "total_tokens": 16897,
+        "input_token_details": {
+          "cache_read": 1536
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 87,
+      "status": "completed",
+      "started_at": "2026-08-24T05:30:14.641142+08:00",
+      "completed_at": "2026-08-24T05:32:04.768732+08:00",
+      "duration_seconds": 110.127,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 15919,
+      "output_tokens": 14133,
+      "total_tokens": 30052,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 15919,
+        "output_tokens": 14133,
+        "total_tokens": 30052,
+        "input_token_details": {},
+        "output_token_details": {}
+      },
+      "finish_reason": "end_turn"
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "status": "completed",
+      "query": "rotary swaging hollow motor shaft electric vehicle",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.499,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Lightweight manufacturing via rotary swaging process: Validation for hollow railway motor shafts",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0959652625003610",
+          "score": 0.8909888,
+          "raw_content_available": true,
+          "raw_content_length": 33762,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Rotary swaging - Felss",
+          "url": "https://felss.com/en/technologies/rotary-swaging",
+          "score": 0.8396422,
+          "raw_content_available": true,
+          "raw_content_length": 8042,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "NETFORM's Two-Piece Hollow Rotor Shaft - NETFORM",
+          "url": "https://netform.com/netforms-two-piece-hollow-rotor-shaft",
+          "score": 0.7557276,
+          "raw_content_available": true,
+          "raw_content_length": 3077,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Rotary Swaging Applications From Aerospace to Automotive",
+          "url": "https://www.fenn-torin.com/blog/rotary-swaging-applications",
+          "score": 0.6854659,
+          "raw_content_available": true,
+          "raw_content_length": 9216,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "US20160305469A1 - Hollow drive shaft for vehicle and manufacturing method thereof - Google Patents",
+          "url": "https://patents.google.com/patent/US20160305469A1/en",
+          "score": 0.6672566,
+          "raw_content_available": true,
+          "raw_content_length": 59749,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 5,
+      "timestamp": "2026-08-24T05:27:19.108854+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "hollow motor shaft manufacturing techniques NEV electric vehicle",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.586,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "How to Design Lightweight Hollow Shaft Motors for EVs",
+          "url": "https://eureka.patsnap.com/report-how-to-design-lightweight-hollow-shaft-motors-for-evs",
+          "score": 0.798643,
+          "raw_content_available": true,
+          "raw_content_length": 24510,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Lightweight Electric Motor Design: Paving the Way for the Next Generation of Electric Vehicles",
+          "url": "https://www.addcomposites.com/post/lightweight-electric-motor-design-paving-the-way-for-the-next-generation-of-electric-vehicles",
+          "score": 0.68571854,
+          "raw_content_available": true,
+          "raw_content_length": 49302,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Automotive - EV Motor shaft - Industries - Tungaloy-NTK America, Inc.",
+          "url": "https://tungaloy.com/us/industries/automotive_ev-motor-shaft",
+          "score": 0.46628717,
+          "raw_content_available": true,
+          "raw_content_length": 16154,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Motor Manufacturing FEATURE",
+          "url": "https://digitaledition.assemblymag.com/aem-may-2021/motor-manufacturing--feature",
+          "score": 0.22326735,
+          "raw_content_available": true,
+          "raw_content_length": 19347,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "route Error",
+          "url": "https://xdmotor.tech/index.php?c=",
+          "score": 0.024631085,
+          "raw_content_available": true,
+          "raw_content_length": 1369,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 6,
+      "timestamp": "2026-08-24T05:27:19.183792+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "flow forming shear spinning hollow shaft electric drive",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.721,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Rotor shafts - one-piece type | WF machines made in Germany",
+          "url": "https://wf-machinery.com/end-products-overview/components-for-e-drive-systems/rotor-shafts",
+          "score": 0.614464,
+          "raw_content_available": true,
+          "raw_content_length": 32843,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Flow Forming Machine for Efficient Production of Drive Components | LEIFELD FFC Series",
+          "url": "https://www.youtube.com/watch?v=ifJCry-qCfU",
+          "score": 0.5843666,
+          "raw_content_available": true,
+          "raw_content_length": 1635,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "LEIFELD machine tools for metal forming",
+          "url": "https://leifeldms.com/en/index.html",
+          "score": 0.57780564,
+          "raw_content_available": true,
+          "raw_content_length": 19815,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "NETFORM's Two-Piece Hollow Rotor Shaft",
+          "url": "https://netform.com/netforms-two-piece-hollow-rotor-shaft",
+          "score": 0.5697814,
+          "raw_content_available": true,
+          "raw_content_length": 3077,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Metal Spinning & Flow Forming Explained",
+          "url": "https://globalmetalspinning.com/metal-spinning-flow-forming-explained",
+          "score": 0.53094244,
+          "raw_content_available": true,
+          "raw_content_length": 15507,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 7,
+      "timestamp": "2026-08-24T05:27:19.337949+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "hollow shaft manufacturing automotive review comparison",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 3.28,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Tempered Steel Hollow Shaft Market Research Report 2034",
+          "url": "https://dataintelo.com/report/tempered-steel-hollow-shaft-market",
+          "score": 0.71185225,
+          "raw_content_available": true,
+          "raw_content_length": 78673,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Which Shaft Wins? | Hollow vs Solid for Maximum Torque",
+          "url": "https://www.youtube.com/watch?v=xvll7HnayN8",
+          "score": 0.6947383,
+          "raw_content_available": true,
+          "raw_content_length": 5427,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Hollow Shaft Motors for Automotive Applications: Performance Insights",
+          "url": "https://eureka.patsnap.com/report-hollow-shaft-motors-for-automotive-applications-performance-insights",
+          "score": 0.6747586,
+          "raw_content_available": true,
+          "raw_content_length": 24455,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "New warm forming processes to produce hollow shafts",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0924013601009396",
+          "score": 0.6180666,
+          "raw_content_available": true,
+          "raw_content_length": 22915,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Analysis of the Causes of Damage to the Steel Drive Shaft Used in a Paint Mixer",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12566000",
+          "score": 0.45406118,
+          "raw_content_available": true,
+          "raw_content_length": 79928,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 8,
+      "timestamp": "2026-08-24T05:27:19.903169+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "cross wedge rolling hollow shaft manufacturing",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.342,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Modified Cross-Wedge Rolling for Creating Hollow Shafts",
+          "url": "https://www.sciencedirect.com/science/article/pii/S235197891830129X",
+          "score": 0.91137725,
+          "raw_content_available": true,
+          "raw_content_length": 15619,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Cross wedge roll - LASCO Umformtechnik GmbH",
+          "url": "https://www.lasco.com/en/forming-technology/cross-wedge-roll.html",
+          "score": 0.8361405,
+          "raw_content_available": true,
+          "raw_content_length": 3117,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "[PDF] Comparative analysis of cross-wedge rolling methods",
+          "url": "https://www.astrj.com/pdf-211379-132267?filename=Comparative+analysis+of.pdf",
+          "score": 0.82254606,
+          "raw_content_available": true,
+          "raw_content_length": 35792,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Cross-Wedge Rolling Guide: Die Design, Process, and Applications",
+          "url": "https://www.alekvs.com/guide-to-cross-wedge-rolling-die-design-forming-process-and-application-cases",
+          "score": 0.8173562,
+          "raw_content_available": true,
+          "raw_content_length": 37072,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Evolution of microstructure of aluminum alloy hollow shaft in cross wedge rolling without mandrel",
+          "url": "https://link.springer.com/article/10.1007/s11771-022-4950-8",
+          "score": 0.79215926,
+          "raw_content_available": true,
+          "raw_content_length": 60068,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 30,
+      "timestamp": "2026-08-24T05:27:37.936426+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "cold extrusion hollow shaft manufacturing process",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.452,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Design and finite element analysis of cold extrusion die to form the hollow shaft",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S2214785322050970",
+          "score": 0.8800674,
+          "raw_content_available": true,
+          "raw_content_length": 21700,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Cold Extrusion Process for Steel – IspatGuru",
+          "url": "https://www.ispatguru.com/cold-extrusion-process-for-steel",
+          "score": 0.7366474,
+          "raw_content_available": true,
+          "raw_content_length": 67515,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "cold extrusion of steel 1 | Total Materia",
+          "url": "https://www.totalmateria.com/en-us/articles/cold-extrusion-of-steel-1",
+          "score": 0.71040785,
+          "raw_content_available": true,
+          "raw_content_length": 5820,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "US9446445B2 - Method for manufacturing hollow shafts - Google Patents",
+          "url": "https://patents.google.com/patent/US9446445B2/en",
+          "score": 0.7060491,
+          "raw_content_available": true,
+          "raw_content_length": 55964,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Rolling-Extrusion of Hollow Shafts | PDF | Forging | Rolling (Metalworking)",
+          "url": "https://www.scribd.com/document/78767774/Hollow-Shaft-Making-Process",
+          "score": 0.6437107,
+          "raw_content_available": true,
+          "raw_content_length": 4287,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 31,
+      "timestamp": "2026-08-24T05:27:38.062408+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "additive manufacturing hollow motor shaft electric vehicle",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.492,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "How to Design Lightweight Hollow Shaft Motors for EVs",
+          "url": "https://eureka.patsnap.com/report-how-to-design-lightweight-hollow-shaft-motors-for-evs",
+          "score": 0.82560414,
+          "raw_content_available": true,
+          "raw_content_length": 24510,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "3D Printed Tool for Machining Electric Vehicle Motors | The Cool Parts Show #39",
+          "url": "https://www.youtube.com/watch?v=UgwSUyNURnw",
+          "score": 0.73023266,
+          "raw_content_available": true,
+          "raw_content_length": 17871,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Comparative Insights: Traditional vs. Additive Manufacturing for Electric Motor Design and Performance – Inside Metal Additive Manufacturing",
+          "url": "https://insidemetaladditivemanufacturing.com/2025/01/13/comparative-insights-traditional-vs-additive-manufacturing-for-electric-motor-design-and-performance",
+          "score": 0.6617704,
+          "raw_content_available": true,
+          "raw_content_length": 10734,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Electric Vehicle (EV) Microsite | Additive Manufacturing",
+          "url": "https://www.additivemanufacturing.media/kc/am-for-ev",
+          "score": 0.54956865,
+          "raw_content_available": true,
+          "raw_content_length": 22811,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "[Case Study] Building the Next Electric Hypercar with Passion, Innovation, and Additive Manufacturing - UltiMaker",
+          "url": "https://ultimaker.com/learn/case-study-building-the-next-electric-hypercar-with-passion-innovation-and-additive-manufacturing",
+          "score": 0.42577294,
+          "raw_content_available": true,
+          "raw_content_length": 20478,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 32,
+      "timestamp": "2026-08-24T05:27:38.114245+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "powder metallurgy sinter forging hollow shaft",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.703,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Powder Forging Technology | GKN Powder Metallurgy - GKN Powdermetallurgy",
+          "url": "https://www.gknpm.com/en/technologies/forged-powder-metallurgy",
+          "score": 0.73322314,
+          "raw_content_available": true,
+          "raw_content_length": 8640,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Powder metallurgy - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Powder_metallurgy",
+          "score": 0.59089786,
+          "raw_content_available": true,
+          "raw_content_length": 82082,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Powder Metallurgy Part Manufacturing Concentrated in North-Central Pennsylvania | Journal of Technology Studies",
+          "url": "https://jotsjournal.org/articles/10.21061/jts.413",
+          "score": 0.5863576,
+          "raw_content_available": true,
+          "raw_content_length": 32839,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Powder Metal Forging: Is It Possible?",
+          "url": "https://www.horizontechnology.biz/blog/powder-metal-forging",
+          "score": 0.57035583,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "How Metal Parts Are Made From Powder | Powder Metallurgy Factory Process",
+          "url": "https://www.youtube.com/watch?v=B-loZ35aiC8",
+          "score": 0.3620219,
+          "raw_content_available": true,
+          "raw_content_length": 62308,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 33,
+      "timestamp": "2026-08-24T05:27:38.319847+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "friction welding hollow motor shaft electric vehicle",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.806,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Friction welding of lightweight motor shafts for electric vehicles - ADS",
+          "url": "https://ui.adsabs.harvard.edu/abs/2016icre.conf..202A/abstract",
+          "score": 0.93666285,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "Hollow Motor Shaft | USUI CO., LTD.",
+          "url": "https://www.usui.co.jp/en/products/hollow_motor_shaft",
+          "score": 0.91671574,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "Friction welding of lightweight motor shafts for electric vehicles",
+          "url": "http://ieeexplore.ieee.org/document/7884548",
+          "score": 0.9125066,
+          "raw_content_available": true,
+          "raw_content_length": 13366,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Friction welding of lightweight motor shafts for electric vehicles",
+          "url": "https://ieeexplore.ieee.org/document/7884548",
+          "score": 0.9053309,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "Electric vehicle motor with hollow rotor shaft? : r/EVConversion",
+          "url": "https://www.reddit.com/r/EVConversion/comments/ovhapb/electric_vehicle_motor_with_hollow_rotor_shaft",
+          "score": 0.57035583,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        }
+      ],
+      "sequence": 34,
+      "timestamp": "2026-08-24T05:27:38.408450+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "hollow shaft manufacturing cost comparison forming techniques",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.292,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "[PDF] Hollow Forged AHD Steel Rotor Shafts for Wind Turbines - WES",
+          "url": "https://wes.copernicus.org/preprints/wes-2025-94/wes-2025-94-manuscript-version2.pdf",
+          "score": 0.7206637,
+          "raw_content_available": true,
+          "raw_content_length": 57565,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "US9446445B2 - Method for manufacturing hollow shafts",
+          "url": "https://patents.google.com/patent/US9446445B2/en",
+          "score": 0.6519982,
+          "raw_content_available": true,
+          "raw_content_length": 55964,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "A Comprehensive Guide to Hollow Shaft Forging Technology | PartsForged",
+          "url": "https://www.partsforged.com/news/a-comprehensive-guide-to-hollow-shaft-forging-technology.html",
+          "score": 0.61972505,
+          "raw_content_available": true,
+          "raw_content_length": 15164,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "New warm forming processes to produce hollow shafts",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0924013601009396",
+          "score": 0.5993685,
+          "raw_content_available": true,
+          "raw_content_length": 22915,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "HOLLOW SHAFT｜NEW TECHNOLOGY｜KANETA KOGYO CO., LTD.",
+          "url": "https://www.kanetakogyo.co.jp/en/latest_technology/hollow_shaft",
+          "score": 0.50344294,
+          "raw_content_available": true,
+          "raw_content_length": 2773,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 57,
+      "timestamp": "2026-08-24T05:28:01.891650+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "seamless tube hollow shaft manufacturing electric vehicle",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.339,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Tempered Steel Hollow Shaft Market Research Report 2034",
+          "url": "https://dataintelo.com/report/tempered-steel-hollow-shaft-market",
+          "score": 0.67192334,
+          "raw_content_available": true,
+          "raw_content_length": 78673,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Usui International Corporation Products Information",
+          "url": "https://www.usuiusa.com/products.php",
+          "score": 0.6708892,
+          "raw_content_available": true,
+          "raw_content_length": 19795,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "How to Design Lightweight Hollow Shaft Motors for EVs",
+          "url": "https://eureka.patsnap.com/report-how-to-design-lightweight-hollow-shaft-motors-for-evs",
+          "score": 0.59033114,
+          "raw_content_available": true,
+          "raw_content_length": 24510,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Application of Seamless Steel Tube in Automobile ...",
+          "url": "https://www.openpr.com/news/2138161/application-of-seamless-steel-tube-in-automobile-manufacturing",
+          "score": 0.4811862,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "Future Applications of SS Tubes in Electric & Hybrid Vehicles",
+          "url": "https://www.leoscoralloys.com/blog/future-use-of-stainless-steel-tubes-in-electric-and-hybrid-vehicles",
+          "score": 0.21762875,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        }
+      ],
+      "sequence": 58,
+      "timestamp": "2026-08-24T05:28:01.933650+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "steel grades NEV electric motor shaft material specifications",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.42,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Shaft Material Selection: Grades, Hardness & Heat Treatment",
+          "url": "https://ontariodynamics.com/blog/shaft-materialselection-heat-treat",
+          "score": 0.80442166,
+          "raw_content_available": true,
+          "raw_content_length": 27153,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Essential Guide: Choosing the Right Material for Electric Motor Shafts - Loyal Bearings",
+          "url": "https://www.loyal.sg/article/essential-guide-choosing-the-right-material-for-electric-motor-shafts.html",
+          "score": 0.6601948,
+          "raw_content_available": true,
+          "raw_content_length": 39031,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "What material is better for motor shaft?_Professional Motor Manufacturer for BG Motor_DC Motor_AC Universal Motor_DC Brushless Motor_Customizable Motor",
+          "url": "https://www.china-bgmotor.com/allnews/news/What-material-is-better-for-motor-shaft-.html",
+          "score": 0.46964246,
+          "raw_content_available": true,
+          "raw_content_length": 16595,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Motor Shaft: A Comprehensive Guide To Design, Function, And Applications - KeSu Group",
+          "url": "https://kesugroup.com/motor-shaft-guide",
+          "score": 0.4286405,
+          "raw_content_available": true,
+          "raw_content_length": 12617,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Electric Motor Shaft Types and Frame Sizes: What You Need to Know",
+          "url": "https://www.regalrexnord.com/regal-rexnord-insights/everything-you-need-to-know-about-electric-motor-shaft-types",
+          "score": 0.39375854,
+          "raw_content_available": true,
+          "raw_content_length": 9311,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 59,
+      "timestamp": "2026-08-24T05:28:01.991387+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "heat treatment machining hollow shaft balancing NVH",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.514,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Heat treatment and heavy duty hollow shaft - Industry knowledge - Luoyang Yujie",
+          "url": "https://www.yogiemachinery.com/info/heat-treatment-and-heavy-duty-hollow-shaft-85147188.html",
+          "score": 0.62742686,
+          "raw_content_available": true,
+          "raw_content_length": 11701,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Heat Treatment Processes for Shafts and Their Impact on Precision | Precision Machining Experts | MFG SOLUTION",
+          "url": "https://mfg-solution.com/heat-treatment-processes-for-shafts-and-their-impact-on-precision",
+          "score": 0.5158888,
+          "raw_content_available": true,
+          "raw_content_length": 9966,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "How to Balance Rotating Components in Hollow Shaft Motor Assemblies",
+          "url": "https://eureka.patsnap.com/report-how-to-balance-rotating-components-in-hollow-shaft-motor-assemblies",
+          "score": 0.4813325,
+          "raw_content_available": true,
+          "raw_content_length": 25505,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Shaft Machining: Process, Methods and Key Considerations",
+          "url": "https://jlccnc.com/blog/shaft-machining",
+          "score": 0.31776538,
+          "raw_content_available": true,
+          "raw_content_length": 40122,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Can a crank be dynamically balanced with mercury or ...",
+          "url": "https://www.facebook.com/groups/671081149638729/posts/8572550949491670",
+          "score": 0.037120476,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        }
+      ],
+      "sequence": 60,
+      "timestamp": "2026-08-24T05:28:02.102580+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "additive manufacturing hollow rotor shaft 3D printing",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 3.043,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "3D Printing Rotors for Electric Motors",
+          "url": "https://www.youtube.com/watch?v=CuQqNzGQivE",
+          "score": 0.7756902,
+          "raw_content_available": true,
+          "raw_content_length": 4893,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "3D Printing Rotors for Electric Motors (Video) | Additive Manufacturing",
+          "url": "https://www.additivemanufacturing.media/articles/video-3d-printing-rotors-for-electric-motors",
+          "score": 0.76427686,
+          "raw_content_available": true,
+          "raw_content_length": 8381,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Innovations in Hollow 3D Printing: An In-depth Analysis | The Virtual Foundry",
+          "url": "https://thevirtualfoundry.com/hollow-3d-print",
+          "score": 0.740494,
+          "raw_content_available": true,
+          "raw_content_length": 22227,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Metal Additive Manufacturing for Electrical Machines: Technology Review and Latest Advancements",
+          "url": "https://www.mdpi.com/1996-1073/15/3/1076",
+          "score": 0.71305263,
+          "raw_content_available": true,
+          "raw_content_length": 95489,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "3D printing for optimized electric motors | voxeljet",
+          "url": "https://www.voxeljet.com/additive-manufacturing/case-studies/automotive/3d-printing-for-optimized-electric-motors",
+          "score": 0.3539422,
+          "raw_content_available": true,
+          "raw_content_length": 29330,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 61,
+      "timestamp": "2026-08-24T05:28:02.623261+08:00"
+    }
+  ],
+  "summary_cache_hits": 5,
+  "summary_cache_hit_urls": [
+    "https://eureka.patsnap.com/report-how-to-design-lightweight-hollow-shaft-motors-for-evs",
+    "https://dataintelo.com/report/tempered-steel-hollow-shaft-market",
+    "https://eureka.patsnap.com/report-how-to-design-lightweight-hollow-shaft-motors-for-evs",
+    "https://patents.google.com/patent/US9446445B2/en",
+    "https://www.sciencedirect.com/science/article/abs/pii/S0924013601009396"
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0959652625003610",
+      "status": "success",
+      "content_length": 33762,
+      "duration_seconds": 2.499,
+      "query": "rotary swaging hollow motor shaft electric vehicle"
+    },
+    {
+      "url": "https://felss.com/en/technologies/rotary-swaging",
+      "status": "success",
+      "content_length": 8042,
+      "duration_seconds": 2.499,
+      "query": "rotary swaging hollow motor shaft electric vehicle"
+    },
+    {
+      "url": "https://netform.com/netforms-two-piece-hollow-rotor-shaft",
+      "status": "success",
+      "content_length": 3077,
+      "duration_seconds": 2.499,
+      "query": "rotary swaging hollow motor shaft electric vehicle"
+    },
+    {
+      "url": "https://www.fenn-torin.com/blog/rotary-swaging-applications",
+      "status": "success",
+      "content_length": 9216,
+      "duration_seconds": 2.499,
+      "query": "rotary swaging hollow motor shaft electric vehicle"
+    },
+    {
+      "url": "https://patents.google.com/patent/US20160305469A1/en",
+      "status": "success",
+      "content_length": 59749,
+      "duration_seconds": 2.499,
+      "query": "rotary swaging hollow motor shaft electric vehicle"
+    },
+    {
+      "url": "https://eureka.patsnap.com/report-how-to-design-lightweight-hollow-shaft-motors-for-evs",
+      "status": "success",
+      "content_length": 24510,
+      "duration_seconds": 2.586,
+      "query": "hollow motor shaft manufacturing techniques NEV electric vehicle"
+    },
+    {
+      "url": "https://www.addcomposites.com/post/lightweight-electric-motor-design-paving-the-way-for-the-next-generation-of-electric-vehicles",
+      "status": "success",
+      "content_length": 49302,
+      "duration_seconds": 2.586,
+      "query": "hollow motor shaft manufacturing techniques NEV electric vehicle"
+    },
+    {
+      "url": "https://tungaloy.com/us/industries/automotive_ev-motor-shaft",
+      "status": "success",
+      "content_length": 16154,
+      "duration_seconds": 2.586,
+      "query": "hollow motor shaft manufacturing techniques NEV electric vehicle"
+    },
+    {
+      "url": "https://digitaledition.assemblymag.com/aem-may-2021/motor-manufacturing--feature",
+      "status": "success",
+      "content_length": 19347,
+      "duration_seconds": 2.586,
+      "query": "hollow motor shaft manufacturing techniques NEV electric vehicle"
+    },
+    {
+      "url": "https://xdmotor.tech/index.php?c=",
+      "status": "success",
+      "content_length": 1369,
+      "duration_seconds": 2.586,
+      "query": "hollow motor shaft manufacturing techniques NEV electric vehicle"
+    },
+    {
+      "url": "https://wf-machinery.com/end-products-overview/components-for-e-drive-systems/rotor-shafts",
+      "status": "success",
+      "content_length": 32843,
+      "duration_seconds": 2.721,
+      "query": "flow forming shear spinning hollow shaft electric drive"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=ifJCry-qCfU",
+      "status": "success",
+      "content_length": 1635,
+      "duration_seconds": 2.721,
+      "query": "flow forming shear spinning hollow shaft electric drive"
+    },
+    {
+      "url": "https://leifeldms.com/en/index.html",
+      "status": "success",
+      "content_length": 19815,
+      "duration_seconds": 2.721,
+      "query": "flow forming shear spinning hollow shaft electric drive"
+    },
+    {
+      "url": "https://netform.com/netforms-two-piece-hollow-rotor-shaft",
+      "status": "success",
+      "content_length": 3077,
+      "duration_seconds": 2.721,
+      "query": "flow forming shear spinning hollow shaft electric drive"
+    },
+    {
+      "url": "https://globalmetalspinning.com/metal-spinning-flow-forming-explained",
+      "status": "success",
+      "content_length": 15507,
+      "duration_seconds": 2.721,
+      "query": "flow forming shear spinning hollow shaft electric drive"
+    },
+    {
+      "url": "https://dataintelo.com/report/tempered-steel-hollow-shaft-market",
+      "status": "success",
+      "content_length": 78673,
+      "duration_seconds": 3.28,
+      "query": "hollow shaft manufacturing automotive review comparison"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=xvll7HnayN8",
+      "status": "success",
+      "content_length": 5427,
+      "duration_seconds": 3.28,
+      "query": "hollow shaft manufacturing automotive review comparison"
+    },
+    {
+      "url": "https://eureka.patsnap.com/report-hollow-shaft-motors-for-automotive-applications-performance-insights",
+      "status": "success",
+      "content_length": 24455,
+      "duration_seconds": 3.28,
+      "query": "hollow shaft manufacturing automotive review comparison"
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0924013601009396",
+      "status": "success",
+      "content_length": 22915,
+      "duration_seconds": 3.28,
+      "query": "hollow shaft manufacturing automotive review comparison"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12566000",
+      "status": "success",
+      "content_length": 79928,
+      "duration_seconds": 3.28,
+      "query": "hollow shaft manufacturing automotive review comparison"
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S235197891830129X",
+      "status": "success",
+      "content_length": 15619,
+      "duration_seconds": 2.342,
+      "query": "cross wedge rolling hollow shaft manufacturing"
+    },
+    {
+      "url": "https://www.lasco.com/en/forming-technology/cross-wedge-roll.html",
+      "status": "success",
+      "content_length": 3117,
+      "duration_seconds": 2.342,
+      "query": "cross wedge rolling hollow shaft manufacturing"
+    },
+    {
+      "url": "https://www.astrj.com/pdf-211379-132267?filename=Comparative+analysis+of.pdf",
+      "status": "success",
+      "content_length": 35792,
+      "duration_seconds": 2.342,
+      "query": "cross wedge rolling hollow shaft manufacturing"
+    },
+    {
+      "url": "https://www.alekvs.com/guide-to-cross-wedge-rolling-die-design-forming-process-and-application-cases",
+      "status": "success",
+      "content_length": 37072,
+      "duration_seconds": 2.342,
+      "query": "cross wedge rolling hollow shaft manufacturing"
+    },
+    {
+      "url": "https://link.springer.com/article/10.1007/s11771-022-4950-8",
+      "status": "success",
+      "content_length": 60068,
+      "duration_seconds": 2.342,
+      "query": "cross wedge rolling hollow shaft manufacturing"
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S2214785322050970",
+      "status": "success",
+      "content_length": 21700,
+      "duration_seconds": 2.452,
+      "query": "cold extrusion hollow shaft manufacturing process"
+    },
+    {
+      "url": "https://www.ispatguru.com/cold-extrusion-process-for-steel",
+      "status": "success",
+      "content_length": 67515,
+      "duration_seconds": 2.452,
+      "query": "cold extrusion hollow shaft manufacturing process"
+    },
+    {
+      "url": "https://www.totalmateria.com/en-us/articles/cold-extrusion-of-steel-1",
+      "status": "success",
+      "content_length": 5820,
+      "duration_seconds": 2.452,
+      "query": "cold extrusion hollow shaft manufacturing process"
+    },
+    {
+      "url": "https://patents.google.com/patent/US9446445B2/en",
+      "status": "success",
+      "content_length": 55964,
+      "duration_seconds": 2.452,
+      "query": "cold extrusion hollow shaft manufacturing process"
+    },
+    {
+      "url": "https://www.scribd.com/document/78767774/Hollow-Shaft-Making-Process",
+      "status": "success",
+      "content_length": 4287,
+      "duration_seconds": 2.452,
+      "query": "cold extrusion hollow shaft manufacturing process"
+    },
+    {
+      "url": "https://eureka.patsnap.com/report-how-to-design-lightweight-hollow-shaft-motors-for-evs",
+      "status": "success",
+      "content_length": 24510,
+      "duration_seconds": 2.492,
+      "query": "additive manufacturing hollow motor shaft electric vehicle"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=UgwSUyNURnw",
+      "status": "success",
+      "content_length": 17871,
+      "duration_seconds": 2.492,
+      "query": "additive manufacturing hollow motor shaft electric vehicle"
+    },
+    {
+      "url": "https://insidemetaladditivemanufacturing.com/2025/01/13/comparative-insights-traditional-vs-additive-manufacturing-for-electric-motor-design-and-performance",
+      "status": "success",
+      "content_length": 10734,
+      "duration_seconds": 2.492,
+      "query": "additive manufacturing hollow motor shaft electric vehicle"
+    },
+    {
+      "url": "https://www.additivemanufacturing.media/kc/am-for-ev",
+      "status": "success",
+      "content_length": 22811,
+      "duration_seconds": 2.492,
+      "query": "additive manufacturing hollow motor shaft electric vehicle"
+    },
+    {
+      "url": "https://ultimaker.com/learn/case-study-building-the-next-electric-hypercar-with-passion-innovation-and-additive-manufacturing",
+      "status": "success",
+      "content_length": 20478,
+      "duration_seconds": 2.492,
+      "query": "additive manufacturing hollow motor shaft electric vehicle"
+    },
+    {
+      "url": "https://www.gknpm.com/en/technologies/forged-powder-metallurgy",
+      "status": "success",
+      "content_length": 8640,
+      "duration_seconds": 2.703,
+      "query": "powder metallurgy sinter forging hollow shaft"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Powder_metallurgy",
+      "status": "success",
+      "content_length": 82082,
+      "duration_seconds": 2.703,
+      "query": "powder metallurgy sinter forging hollow shaft"
+    },
+    {
+      "url": "https://jotsjournal.org/articles/10.21061/jts.413",
+      "status": "success",
+      "content_length": 32839,
+      "duration_seconds": 2.703,
+      "query": "powder metallurgy sinter forging hollow shaft"
+    },
+    {
+      "url": "https://www.horizontechnology.biz/blog/powder-metal-forging",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.703,
+      "query": "powder metallurgy sinter forging hollow shaft"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=B-loZ35aiC8",
+      "status": "success",
+      "content_length": 62308,
+      "duration_seconds": 2.703,
+      "query": "powder metallurgy sinter forging hollow shaft"
+    },
+    {
+      "url": "https://ui.adsabs.harvard.edu/abs/2016icre.conf..202A/abstract",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.806,
+      "query": "friction welding hollow motor shaft electric vehicle"
+    },
+    {
+      "url": "https://www.usui.co.jp/en/products/hollow_motor_shaft",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.806,
+      "query": "friction welding hollow motor shaft electric vehicle"
+    },
+    {
+      "url": "http://ieeexplore.ieee.org/document/7884548",
+      "status": "success",
+      "content_length": 13366,
+      "duration_seconds": 2.806,
+      "query": "friction welding hollow motor shaft electric vehicle"
+    },
+    {
+      "url": "https://ieeexplore.ieee.org/document/7884548",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.806,
+      "query": "friction welding hollow motor shaft electric vehicle"
+    },
+    {
+      "url": "https://www.reddit.com/r/EVConversion/comments/ovhapb/electric_vehicle_motor_with_hollow_rotor_shaft",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.806,
+      "query": "friction welding hollow motor shaft electric vehicle"
+    },
+    {
+      "url": "https://wes.copernicus.org/preprints/wes-2025-94/wes-2025-94-manuscript-version2.pdf",
+      "status": "success",
+      "content_length": 57565,
+      "duration_seconds": 2.292,
+      "query": "hollow shaft manufacturing cost comparison forming techniques"
+    },
+    {
+      "url": "https://patents.google.com/patent/US9446445B2/en",
+      "status": "success",
+      "content_length": 55964,
+      "duration_seconds": 2.292,
+      "query": "hollow shaft manufacturing cost comparison forming techniques"
+    },
+    {
+      "url": "https://www.partsforged.com/news/a-comprehensive-guide-to-hollow-shaft-forging-technology.html",
+      "status": "success",
+      "content_length": 15164,
+      "duration_seconds": 2.292,
+      "query": "hollow shaft manufacturing cost comparison forming techniques"
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0924013601009396",
+      "status": "success",
+      "content_length": 22915,
+      "duration_seconds": 2.292,
+      "query": "hollow shaft manufacturing cost comparison forming techniques"
+    },
+    {
+      "url": "https://www.kanetakogyo.co.jp/en/latest_technology/hollow_shaft",
+      "status": "success",
+      "content_length": 2773,
+      "duration_seconds": 2.292,
+      "query": "hollow shaft manufacturing cost comparison forming techniques"
+    },
+    {
+      "url": "https://dataintelo.com/report/tempered-steel-hollow-shaft-market",
+      "status": "success",
+      "content_length": 78673,
+      "duration_seconds": 2.339,
+      "query": "seamless tube hollow shaft manufacturing electric vehicle"
+    },
+    {
+      "url": "https://www.usuiusa.com/products.php",
+      "status": "success",
+      "content_length": 19795,
+      "duration_seconds": 2.339,
+      "query": "seamless tube hollow shaft manufacturing electric vehicle"
+    },
+    {
+      "url": "https://eureka.patsnap.com/report-how-to-design-lightweight-hollow-shaft-motors-for-evs",
+      "status": "success",
+      "content_length": 24510,
+      "duration_seconds": 2.339,
+      "query": "seamless tube hollow shaft manufacturing electric vehicle"
+    },
+    {
+      "url": "https://www.openpr.com/news/2138161/application-of-seamless-steel-tube-in-automobile-manufacturing",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.339,
+      "query": "seamless tube hollow shaft manufacturing electric vehicle"
+    },
+    {
+      "url": "https://www.leoscoralloys.com/blog/future-use-of-stainless-steel-tubes-in-electric-and-hybrid-vehicles",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.339,
+      "query": "seamless tube hollow shaft manufacturing electric vehicle"
+    },
+    {
+      "url": "https://ontariodynamics.com/blog/shaft-materialselection-heat-treat",
+      "status": "success",
+      "content_length": 27153,
+      "duration_seconds": 2.42,
+      "query": "steel grades NEV electric motor shaft material specifications"
+    },
+    {
+      "url": "https://www.loyal.sg/article/essential-guide-choosing-the-right-material-for-electric-motor-shafts.html",
+      "status": "success",
+      "content_length": 39031,
+      "duration_seconds": 2.42,
+      "query": "steel grades NEV electric motor shaft material specifications"
+    },
+    {
+      "url": "https://www.china-bgmotor.com/allnews/news/What-material-is-better-for-motor-shaft-.html",
+      "status": "success",
+      "content_length": 16595,
+      "duration_seconds": 2.42,
+      "query": "steel grades NEV electric motor shaft material specifications"
+    },
+    {
+      "url": "https://kesugroup.com/motor-shaft-guide",
+      "status": "success",
+      "content_length": 12617,
+      "duration_seconds": 2.42,
+      "query": "steel grades NEV electric motor shaft material specifications"
+    },
+    {
+      "url": "https://www.regalrexnord.com/regal-rexnord-insights/everything-you-need-to-know-about-electric-motor-shaft-types",
+      "status": "success",
+      "content_length": 9311,
+      "duration_seconds": 2.42,
+      "query": "steel grades NEV electric motor shaft material specifications"
+    },
+    {
+      "url": "https://www.yogiemachinery.com/info/heat-treatment-and-heavy-duty-hollow-shaft-85147188.html",
+      "status": "success",
+      "content_length": 11701,
+      "duration_seconds": 2.514,
+      "query": "heat treatment machining hollow shaft balancing NVH"
+    },
+    {
+      "url": "https://mfg-solution.com/heat-treatment-processes-for-shafts-and-their-impact-on-precision",
+      "status": "success",
+      "content_length": 9966,
+      "duration_seconds": 2.514,
+      "query": "heat treatment machining hollow shaft balancing NVH"
+    },
+    {
+      "url": "https://eureka.patsnap.com/report-how-to-balance-rotating-components-in-hollow-shaft-motor-assemblies",
+      "status": "success",
+      "content_length": 25505,
+      "duration_seconds": 2.514,
+      "query": "heat treatment machining hollow shaft balancing NVH"
+    },
+    {
+      "url": "https://jlccnc.com/blog/shaft-machining",
+      "status": "success",
+      "content_length": 40122,
+      "duration_seconds": 2.514,
+      "query": "heat treatment machining hollow shaft balancing NVH"
+    },
+    {
+      "url": "https://www.facebook.com/groups/671081149638729/posts/8572550949491670",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.514,
+      "query": "heat treatment machining hollow shaft balancing NVH"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=CuQqNzGQivE",
+      "status": "success",
+      "content_length": 4893,
+      "duration_seconds": 3.043,
+      "query": "additive manufacturing hollow rotor shaft 3D printing"
+    },
+    {
+      "url": "https://www.additivemanufacturing.media/articles/video-3d-printing-rotors-for-electric-motors",
+      "status": "success",
+      "content_length": 8381,
+      "duration_seconds": 3.043,
+      "query": "additive manufacturing hollow rotor shaft 3D printing"
+    },
+    {
+      "url": "https://thevirtualfoundry.com/hollow-3d-print",
+      "status": "success",
+      "content_length": 22227,
+      "duration_seconds": 3.043,
+      "query": "additive manufacturing hollow rotor shaft 3D printing"
+    },
+    {
+      "url": "https://www.mdpi.com/1996-1073/15/3/1076",
+      "status": "success",
+      "content_length": 95489,
+      "duration_seconds": 3.043,
+      "query": "additive manufacturing hollow rotor shaft 3D printing"
+    },
+    {
+      "url": "https://www.voxeljet.com/additive-manufacturing/case-studies/automotive/3d-printing-for-optimized-electric-motors",
+      "status": "success",
+      "content_length": 29330,
+      "duration_seconds": 3.043,
+      "query": "additive manufacturing hollow rotor shaft 3D printing"
+    }
+  ],
+  "run_id": "e70c3b39b9f54b459074ebc5b6a13ff9",
+  "status": "completed",
+  "id": 86,
+  "prompt": "Conduct a research report on the manufacturing technology options for hollow motor shafts used in New Energy Vehicle (NEV) electric drive units. List all current forming techniques, compare them based on criteria such as suitable materials, cost-effectiveness, required subsequent processing steps, and other relevant factors. Finally, identify the most suitable manufacturing routes for this specific application.",
+  "language": "en",
+  "topic": "Industrial",
+  "duration_seconds": 305.185,
+  "report_length": 60672,
+  "context_length": 182375
+}

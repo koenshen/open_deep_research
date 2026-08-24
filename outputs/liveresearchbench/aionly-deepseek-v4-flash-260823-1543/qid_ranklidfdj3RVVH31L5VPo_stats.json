@@ -1,0 +1,2683 @@
+{
+  "session_id": "4561807a63ca4a68b8c91d8d163db8ba",
+  "total_llm_calls": 58,
+  "llm_calls_with_token_usage": 58,
+  "llm_calls_missing_token_usage": 0,
+  "token_usage_complete": true,
+  "total_input_tokens": 610567,
+  "total_output_tokens": 64560,
+  "total_tokens": 675127,
+  "counted_input_tokens": 610567,
+  "counted_output_tokens": 64560,
+  "counted_total_tokens": 675127,
+  "total_search_count": 14,
+  "total_search_results": 70,
+  "total_visit_count": 70,
+  "total_visit_success": 67,
+  "total_visit_failed": 3,
+  "source_urls_count": 49,
+  "llm_calls_detail": [
+    {
+      "sequence": 1,
+      "status": "completed",
+      "started_at": "2026-08-23T19:19:52.723579+08:00",
+      "completed_at": "2026-08-23T19:19:55.976972+08:00",
+      "duration_seconds": 3.253,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 785,
+      "output_tokens": 193,
+      "total_tokens": 978,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 785,
+        "output_tokens": 193,
+        "total_tokens": 978,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 2,
+      "status": "completed",
+      "started_at": "2026-08-23T19:19:55.987613+08:00",
+      "completed_at": "2026-08-23T19:20:04.557990+08:00",
+      "duration_seconds": 8.57,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1257,
+      "output_tokens": 803,
+      "total_tokens": 2060,
+      "message_count": 2,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1257,
+        "output_tokens": 803,
+        "total_tokens": 2060,
+        "input_token_details": {
+          "cache_read": 1024
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 3,
+      "status": "completed",
+      "started_at": "2026-08-23T19:20:04.563869+08:00",
+      "completed_at": "2026-08-23T19:20:09.124894+08:00",
+      "duration_seconds": 4.561,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1770,
+      "output_tokens": 350,
+      "total_tokens": 2120,
+      "message_count": 4,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1770,
+        "output_tokens": 350,
+        "total_tokens": 2120,
+        "input_token_details": {
+          "cache_read": 1024
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 4,
+      "status": "completed",
+      "started_at": "2026-08-23T19:20:09.137569+08:00",
+      "completed_at": "2026-08-23T19:20:11.897094+08:00",
+      "duration_seconds": 2.76,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1133,
+      "output_tokens": 118,
+      "total_tokens": 1251,
+      "message_count": 2,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1133,
+        "output_tokens": 118,
+        "total_tokens": 1251,
+        "input_token_details": {
+          "cache_read": 768
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 8,
+      "status": "completed",
+      "started_at": "2026-08-23T19:20:14.758363+08:00",
+      "completed_at": "2026-08-23T19:20:26.617747+08:00",
+      "duration_seconds": 11.859,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 18415,
+      "output_tokens": 1142,
+      "total_tokens": 19557,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 18415,
+        "output_tokens": 1142,
+        "total_tokens": 19557,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 9,
+      "status": "completed",
+      "started_at": "2026-08-23T19:20:14.758479+08:00",
+      "completed_at": "2026-08-23T19:20:19.902782+08:00",
+      "duration_seconds": 5.144,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7567,
+      "output_tokens": 467,
+      "total_tokens": 8034,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 7567,
+        "output_tokens": 467,
+        "total_tokens": 8034,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 10,
+      "status": "completed",
+      "started_at": "2026-08-23T19:20:14.758541+08:00",
+      "completed_at": "2026-08-23T19:20:20.957426+08:00",
+      "duration_seconds": 6.199,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6864,
+      "output_tokens": 460,
+      "total_tokens": 7324,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 6864,
+        "output_tokens": 460,
+        "total_tokens": 7324,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 11,
+      "status": "completed",
+      "started_at": "2026-08-23T19:20:14.758593+08:00",
+      "completed_at": "2026-08-23T19:20:25.060376+08:00",
+      "duration_seconds": 10.302,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 15070,
+      "output_tokens": 912,
+      "total_tokens": 15982,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 15070,
+        "output_tokens": 912,
+        "total_tokens": 15982,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 12,
+      "status": "completed",
+      "started_at": "2026-08-23T19:20:14.758642+08:00",
+      "completed_at": "2026-08-23T19:20:25.264253+08:00",
+      "duration_seconds": 10.506,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 14886,
+      "output_tokens": 857,
+      "total_tokens": 15743,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 14886,
+        "output_tokens": 857,
+        "total_tokens": 15743,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 13,
+      "status": "completed",
+      "started_at": "2026-08-23T19:20:14.758676+08:00",
+      "completed_at": "2026-08-23T19:20:25.593385+08:00",
+      "duration_seconds": 10.835,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 13853,
+      "output_tokens": 1033,
+      "total_tokens": 14886,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 13853,
+        "output_tokens": 1033,
+        "total_tokens": 14886,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 14,
+      "status": "completed",
+      "started_at": "2026-08-23T19:20:14.758712+08:00",
+      "completed_at": "2026-08-23T19:20:23.198777+08:00",
+      "duration_seconds": 8.44,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 15929,
+      "output_tokens": 730,
+      "total_tokens": 16659,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 15929,
+        "output_tokens": 730,
+        "total_tokens": 16659,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 15,
+      "status": "completed",
+      "started_at": "2026-08-23T19:20:14.758744+08:00",
+      "completed_at": "2026-08-23T19:20:27.508212+08:00",
+      "duration_seconds": 12.749,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 17487,
+      "output_tokens": 1320,
+      "total_tokens": 18807,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 17487,
+        "output_tokens": 1320,
+        "total_tokens": 18807,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 16,
+      "status": "completed",
+      "started_at": "2026-08-23T19:20:27.518609+08:00",
+      "completed_at": "2026-08-23T19:20:38.804954+08:00",
+      "duration_seconds": 11.286,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8339,
+      "output_tokens": 1173,
+      "total_tokens": 9512,
+      "message_count": 4,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 8339,
+        "output_tokens": 1173,
+        "total_tokens": 9512,
+        "input_token_details": {
+          "cache_read": 1024
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 17,
+      "status": "completed",
+      "started_at": "2026-08-23T19:20:38.818854+08:00",
+      "completed_at": "2026-08-23T19:20:41.574448+08:00",
+      "duration_seconds": 2.756,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8668,
+      "output_tokens": 117,
+      "total_tokens": 8785,
+      "message_count": 6,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 8668,
+        "output_tokens": 117,
+        "total_tokens": 8785,
+        "input_token_details": {
+          "cache_read": 8192
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 26,
+      "status": "completed",
+      "started_at": "2026-08-23T19:20:44.368988+08:00",
+      "completed_at": "2026-08-23T19:20:54.773858+08:00",
+      "duration_seconds": 10.405,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 9761,
+      "output_tokens": 675,
+      "total_tokens": 10436,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 9761,
+        "output_tokens": 675,
+        "total_tokens": 10436,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 27,
+      "status": "completed",
+      "started_at": "2026-08-23T19:20:44.369080+08:00",
+      "completed_at": "2026-08-23T19:20:49.322563+08:00",
+      "duration_seconds": 4.953,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4939,
+      "output_tokens": 378,
+      "total_tokens": 5317,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4939,
+        "output_tokens": 378,
+        "total_tokens": 5317,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 28,
+      "status": "completed",
+      "started_at": "2026-08-23T19:20:44.369134+08:00",
+      "completed_at": "2026-08-23T19:20:52.461460+08:00",
+      "duration_seconds": 8.092,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3989,
+      "output_tokens": 647,
+      "total_tokens": 4636,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3989,
+        "output_tokens": 647,
+        "total_tokens": 4636,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 29,
+      "status": "completed",
+      "started_at": "2026-08-23T19:20:44.369184+08:00",
+      "completed_at": "2026-08-23T19:20:55.661313+08:00",
+      "duration_seconds": 11.292,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 13422,
+      "output_tokens": 1036,
+      "total_tokens": 14458,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 13422,
+        "output_tokens": 1036,
+        "total_tokens": 14458,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 30,
+      "status": "completed",
+      "started_at": "2026-08-23T19:20:44.369216+08:00",
+      "completed_at": "2026-08-23T19:20:50.845104+08:00",
+      "duration_seconds": 6.476,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6707,
+      "output_tokens": 488,
+      "total_tokens": 7195,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 6707,
+        "output_tokens": 488,
+        "total_tokens": 7195,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 31,
+      "status": "completed",
+      "started_at": "2026-08-23T19:20:44.369246+08:00",
+      "completed_at": "2026-08-23T19:20:52.965186+08:00",
+      "duration_seconds": 8.596,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 12864,
+      "output_tokens": 805,
+      "total_tokens": 13669,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 12864,
+        "output_tokens": 805,
+        "total_tokens": 13669,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 32,
+      "status": "completed",
+      "started_at": "2026-08-23T19:20:44.369276+08:00",
+      "completed_at": "2026-08-23T19:20:47.110696+08:00",
+      "duration_seconds": 2.741,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4341,
+      "output_tokens": 136,
+      "total_tokens": 4477,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4341,
+        "output_tokens": 136,
+        "total_tokens": 4477,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 33,
+      "status": "completed",
+      "started_at": "2026-08-23T19:20:55.671129+08:00",
+      "completed_at": "2026-08-23T19:21:00.665288+08:00",
+      "duration_seconds": 4.994,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 16879,
+      "output_tokens": 271,
+      "total_tokens": 17150,
+      "message_count": 8,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 16879,
+        "output_tokens": 271,
+        "total_tokens": 17150,
+        "input_token_details": {
+          "cache_read": 8448
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 42,
+      "status": "completed",
+      "started_at": "2026-08-23T19:21:04.426808+08:00",
+      "completed_at": "2026-08-23T19:21:15.394281+08:00",
+      "duration_seconds": 10.967,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 18786,
+      "output_tokens": 988,
+      "total_tokens": 19774,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 18786,
+        "output_tokens": 988,
+        "total_tokens": 19774,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 43,
+      "status": "completed",
+      "started_at": "2026-08-23T19:21:04.426889+08:00",
+      "completed_at": "2026-08-23T19:21:11.731104+08:00",
+      "duration_seconds": 7.304,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 11103,
+      "output_tokens": 385,
+      "total_tokens": 11488,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 11103,
+        "output_tokens": 385,
+        "total_tokens": 11488,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 44,
+      "status": "completed",
+      "started_at": "2026-08-23T19:21:04.426942+08:00",
+      "completed_at": "2026-08-23T19:21:14.064203+08:00",
+      "duration_seconds": 9.637,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5124,
+      "output_tokens": 717,
+      "total_tokens": 5841,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5124,
+        "output_tokens": 717,
+        "total_tokens": 5841,
+        "input_token_details": {
+          "cache_read": 512
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 45,
+      "status": "completed",
+      "started_at": "2026-08-23T19:21:04.426992+08:00",
+      "completed_at": "2026-08-23T19:21:16.362230+08:00",
+      "duration_seconds": 11.935,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 17909,
+      "output_tokens": 995,
+      "total_tokens": 18904,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 17909,
+        "output_tokens": 995,
+        "total_tokens": 18904,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 46,
+      "status": "completed",
+      "started_at": "2026-08-23T19:21:04.427027+08:00",
+      "completed_at": "2026-08-23T19:21:15.631993+08:00",
+      "duration_seconds": 11.205,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 11964,
+      "output_tokens": 1137,
+      "total_tokens": 13101,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 11964,
+        "output_tokens": 1137,
+        "total_tokens": 13101,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 47,
+      "status": "completed",
+      "started_at": "2026-08-23T19:21:04.427195+08:00",
+      "completed_at": "2026-08-23T19:21:10.782190+08:00",
+      "duration_seconds": 6.355,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4645,
+      "output_tokens": 538,
+      "total_tokens": 5183,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4645,
+        "output_tokens": 538,
+        "total_tokens": 5183,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 48,
+      "status": "completed",
+      "started_at": "2026-08-23T19:21:04.427250+08:00",
+      "completed_at": "2026-08-23T19:21:08.591191+08:00",
+      "duration_seconds": 4.164,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2786,
+      "output_tokens": 295,
+      "total_tokens": 3081,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2786,
+        "output_tokens": 295,
+        "total_tokens": 3081,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 49,
+      "status": "completed",
+      "started_at": "2026-08-23T19:21:04.427279+08:00",
+      "completed_at": "2026-08-23T19:21:09.989261+08:00",
+      "duration_seconds": 5.562,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5878,
+      "output_tokens": 487,
+      "total_tokens": 6365,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5878,
+        "output_tokens": 487,
+        "total_tokens": 6365,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 50,
+      "status": "completed",
+      "started_at": "2026-08-23T19:21:04.427356+08:00",
+      "completed_at": "2026-08-23T19:21:11.918193+08:00",
+      "duration_seconds": 7.491,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3816,
+      "output_tokens": 628,
+      "total_tokens": 4444,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3816,
+        "output_tokens": 628,
+        "total_tokens": 4444,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 51,
+      "status": "completed",
+      "started_at": "2026-08-23T19:21:04.427400+08:00",
+      "completed_at": "2026-08-23T19:21:10.638553+08:00",
+      "duration_seconds": 6.211,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2701,
+      "output_tokens": 528,
+      "total_tokens": 3229,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2701,
+        "output_tokens": 528,
+        "total_tokens": 3229,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 52,
+      "status": "completed",
+      "started_at": "2026-08-23T19:21:04.427429+08:00",
+      "completed_at": "2026-08-23T19:21:11.768489+08:00",
+      "duration_seconds": 7.341,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7037,
+      "output_tokens": 703,
+      "total_tokens": 7740,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 7037,
+        "output_tokens": 703,
+        "total_tokens": 7740,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 53,
+      "status": "completed",
+      "started_at": "2026-08-23T19:21:04.427455+08:00",
+      "completed_at": "2026-08-23T19:21:10.092201+08:00",
+      "duration_seconds": 5.665,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4914,
+      "output_tokens": 448,
+      "total_tokens": 5362,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4914,
+        "output_tokens": 448,
+        "total_tokens": 5362,
+        "input_token_details": {
+          "cache_read": 512
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 54,
+      "status": "completed",
+      "started_at": "2026-08-23T19:21:04.427477+08:00",
+      "completed_at": "2026-08-23T19:21:13.212670+08:00",
+      "duration_seconds": 8.785,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4849,
+      "output_tokens": 796,
+      "total_tokens": 5645,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4849,
+        "output_tokens": 796,
+        "total_tokens": 5645,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 55,
+      "status": "completed",
+      "started_at": "2026-08-23T19:21:04.427499+08:00",
+      "completed_at": "2026-08-23T19:21:11.238425+08:00",
+      "duration_seconds": 6.811,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4669,
+      "output_tokens": 586,
+      "total_tokens": 5255,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4669,
+        "output_tokens": 586,
+        "total_tokens": 5255,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 56,
+      "status": "completed",
+      "started_at": "2026-08-23T19:21:16.371430+08:00",
+      "completed_at": "2026-08-23T19:21:19.764740+08:00",
+      "duration_seconds": 3.393,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 29639,
+      "output_tokens": 144,
+      "total_tokens": 29783,
+      "message_count": 10,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 29639,
+        "output_tokens": 144,
+        "total_tokens": 29783,
+        "input_token_details": {
+          "cache_read": 16640
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 63,
+      "status": "completed",
+      "started_at": "2026-08-23T19:21:23.069495+08:00",
+      "completed_at": "2026-08-23T19:21:33.676114+08:00",
+      "duration_seconds": 10.607,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 15486,
+      "output_tokens": 1038,
+      "total_tokens": 16524,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 15486,
+        "output_tokens": 1038,
+        "total_tokens": 16524,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 64,
+      "status": "completed",
+      "started_at": "2026-08-23T19:21:23.069562+08:00",
+      "completed_at": "2026-08-23T19:21:40.085824+08:00",
+      "duration_seconds": 17.016,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 17167,
+      "output_tokens": 1247,
+      "total_tokens": 18414,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 17167,
+        "output_tokens": 1247,
+        "total_tokens": 18414,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 65,
+      "status": "completed",
+      "started_at": "2026-08-23T19:21:23.069603+08:00",
+      "completed_at": "2026-08-23T19:21:32.403594+08:00",
+      "duration_seconds": 9.334,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 19164,
+      "output_tokens": 891,
+      "total_tokens": 20055,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 19164,
+        "output_tokens": 891,
+        "total_tokens": 20055,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 66,
+      "status": "completed",
+      "started_at": "2026-08-23T19:21:23.069631+08:00",
+      "completed_at": "2026-08-23T19:21:28.770637+08:00",
+      "duration_seconds": 5.701,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5021,
+      "output_tokens": 473,
+      "total_tokens": 5494,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5021,
+        "output_tokens": 473,
+        "total_tokens": 5494,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 67,
+      "status": "completed",
+      "started_at": "2026-08-23T19:21:23.069709+08:00",
+      "completed_at": "2026-08-23T19:21:29.488115+08:00",
+      "duration_seconds": 6.418,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3200,
+      "output_tokens": 565,
+      "total_tokens": 3765,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3200,
+        "output_tokens": 565,
+        "total_tokens": 3765,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 68,
+      "status": "completed",
+      "started_at": "2026-08-23T19:21:23.069871+08:00",
+      "completed_at": "2026-08-23T19:21:39.106905+08:00",
+      "duration_seconds": 16.037,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 14408,
+      "output_tokens": 1637,
+      "total_tokens": 16045,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 14408,
+        "output_tokens": 1637,
+        "total_tokens": 16045,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 69,
+      "status": "completed",
+      "started_at": "2026-08-23T19:21:23.069896+08:00",
+      "completed_at": "2026-08-23T19:21:28.960528+08:00",
+      "duration_seconds": 5.891,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4859,
+      "output_tokens": 335,
+      "total_tokens": 5194,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4859,
+        "output_tokens": 335,
+        "total_tokens": 5194,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 70,
+      "status": "completed",
+      "started_at": "2026-08-23T19:21:23.069918+08:00",
+      "completed_at": "2026-08-23T19:21:33.450543+08:00",
+      "duration_seconds": 10.381,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 12128,
+      "output_tokens": 914,
+      "total_tokens": 13042,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 12128,
+        "output_tokens": 914,
+        "total_tokens": 13042,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 71,
+      "status": "completed",
+      "started_at": "2026-08-23T19:21:23.069938+08:00",
+      "completed_at": "2026-08-23T19:21:28.865427+08:00",
+      "duration_seconds": 5.795,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4627,
+      "output_tokens": 490,
+      "total_tokens": 5117,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4627,
+        "output_tokens": 490,
+        "total_tokens": 5117,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 72,
+      "status": "completed",
+      "started_at": "2026-08-23T19:21:23.069956+08:00",
+      "completed_at": "2026-08-23T19:21:29.894146+08:00",
+      "duration_seconds": 6.824,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 10381,
+      "output_tokens": 605,
+      "total_tokens": 10986,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 10381,
+        "output_tokens": 605,
+        "total_tokens": 10986,
+        "input_token_details": {
+          "cache_read": 1536
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 73,
+      "status": "completed",
+      "started_at": "2026-08-23T19:21:23.069971+08:00",
+      "completed_at": "2026-08-23T19:21:30.356705+08:00",
+      "duration_seconds": 7.287,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4720,
+      "output_tokens": 495,
+      "total_tokens": 5215,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4720,
+        "output_tokens": 495,
+        "total_tokens": 5215,
+        "input_token_details": {
+          "cache_read": 512
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 74,
+      "status": "completed",
+      "started_at": "2026-08-23T19:21:23.069985+08:00",
+      "completed_at": "2026-08-23T19:21:30.983156+08:00",
+      "duration_seconds": 7.913,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7755,
+      "output_tokens": 680,
+      "total_tokens": 8435,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 7755,
+        "output_tokens": 680,
+        "total_tokens": 8435,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 75,
+      "status": "completed",
+      "started_at": "2026-08-23T19:21:23.069999+08:00",
+      "completed_at": "2026-08-23T19:21:34.218683+08:00",
+      "duration_seconds": 11.149,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 11552,
+      "output_tokens": 889,
+      "total_tokens": 12441,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 11552,
+        "output_tokens": 889,
+        "total_tokens": 12441,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 76,
+      "status": "completed",
+      "started_at": "2026-08-23T19:21:23.070012+08:00",
+      "completed_at": "2026-08-23T19:21:29.853396+08:00",
+      "duration_seconds": 6.783,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4931,
+      "output_tokens": 554,
+      "total_tokens": 5485,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4931,
+        "output_tokens": 554,
+        "total_tokens": 5485,
+        "input_token_details": {
+          "cache_read": 512
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 77,
+      "status": "completed",
+      "started_at": "2026-08-23T19:21:23.071455+08:00",
+      "completed_at": "2026-08-23T19:21:29.407150+08:00",
+      "duration_seconds": 6.336,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 16335,
+      "output_tokens": 501,
+      "total_tokens": 16836,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 16335,
+        "output_tokens": 501,
+        "total_tokens": 16836,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 78,
+      "status": "completed",
+      "started_at": "2026-08-23T19:21:23.071481+08:00",
+      "completed_at": "2026-08-23T19:21:29.357198+08:00",
+      "duration_seconds": 6.286,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5629,
+      "output_tokens": 504,
+      "total_tokens": 6133,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5629,
+        "output_tokens": 504,
+        "total_tokens": 6133,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 79,
+      "status": "completed",
+      "started_at": "2026-08-23T19:21:23.071497+08:00",
+      "completed_at": "2026-08-23T19:21:30.336857+08:00",
+      "duration_seconds": 7.265,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 10073,
+      "output_tokens": 651,
+      "total_tokens": 10724,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 10073,
+        "output_tokens": 651,
+        "total_tokens": 10724,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 80,
+      "status": "completed",
+      "started_at": "2026-08-23T19:21:40.092141+08:00",
+      "completed_at": "2026-08-23T19:24:01.280830+08:00",
+      "duration_seconds": 141.188,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 43513,
+      "output_tokens": 19175,
+      "total_tokens": 62688,
+      "message_count": 13,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 43513,
+        "output_tokens": 19175,
+        "total_tokens": 62688,
+        "input_token_details": {
+          "cache_read": 512
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "end_turn"
+    },
+    {
+      "sequence": 81,
+      "status": "completed",
+      "started_at": "2026-08-23T19:24:01.293437+08:00",
+      "completed_at": "2026-08-23T19:24:09.648149+08:00",
+      "duration_seconds": 8.355,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 19681,
+      "output_tokens": 775,
+      "total_tokens": 20456,
+      "message_count": 6,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 19681,
+        "output_tokens": 775,
+        "total_tokens": 20456,
+        "input_token_details": {
+          "cache_read": 1536
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 82,
+      "status": "completed",
+      "started_at": "2026-08-23T19:24:09.662454+08:00",
+      "completed_at": "2026-08-23T19:24:14.837644+08:00",
+      "duration_seconds": 5.175,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 20024,
+      "output_tokens": 362,
+      "total_tokens": 20386,
+      "message_count": 8,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 20024,
+        "output_tokens": 362,
+        "total_tokens": 20386,
+        "input_token_details": {
+          "cache_read": 19456
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 83,
+      "status": "completed",
+      "started_at": "2026-08-23T19:24:14.846433+08:00",
+      "completed_at": "2026-08-23T19:25:27.538514+08:00",
+      "duration_seconds": 72.692,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 19168,
+      "output_tokens": 8293,
+      "total_tokens": 27461,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 19168,
+        "output_tokens": 8293,
+        "total_tokens": 27461,
+        "input_token_details": {},
+        "output_token_details": {}
+      },
+      "finish_reason": "end_turn"
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "status": "completed",
+      "query": "Runner's World best running shoes 2026 ratings",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.715,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "The 15 Best Running Shoes of 2026, Tested by Runner's World",
+          "url": "https://www.runnersworld.com/gear/a19663621/best-running-shoes",
+          "score": 0.90289277,
+          "raw_content_available": true,
+          "raw_content_length": 77638,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Runner’s World 2026 Shoe Awards",
+          "url": "https://www.runnersworld.com/gear/a71282136/shoe-awards-2026",
+          "score": 0.8974172,
+          "raw_content_available": true,
+          "raw_content_length": 19053,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Running Shoes | Runner's World",
+          "url": "https://www.runnersworld.com/running-shoes",
+          "score": 0.8941352,
+          "raw_content_available": true,
+          "raw_content_length": 17137,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Best Road Running Shoes (Summer 2026): Over 100 Shoes Tested",
+          "url": "https://www.outsideonline.com/outdoor-gear/run/best-running-shoes",
+          "score": 0.8649622,
+          "raw_content_available": true,
+          "raw_content_length": 48628,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "The 7 Best Running Shoes of 2026 | Reviews by Wirecutter",
+          "url": "https://www.nytimes.com/wirecutter/reviews/best-running-shoes",
+          "score": 0.8539252,
+          "raw_content_available": true,
+          "raw_content_length": 98769,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 5,
+      "timestamp": "2026-08-23T19:20:14.620347+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Runner's World shoe guide 2026 top rated running shoes",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.792,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "The 15 Best Running Shoes of 2026, Tested by Runner's World",
+          "url": "https://www.runnersworld.com/gear/a19663621/best-running-shoes",
+          "score": 0.9416167,
+          "raw_content_available": true,
+          "raw_content_length": 77638,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Best Road Running Shoes (Summer 2026): Over 100 Shoes Tested",
+          "url": "https://www.outsideonline.com/outdoor-gear/run/best-running-shoes",
+          "score": 0.91760606,
+          "raw_content_available": true,
+          "raw_content_length": 48628,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Running Shoes | Runner's World",
+          "url": "https://www.runnersworld.com/running-shoes",
+          "score": 0.8952393,
+          "raw_content_available": true,
+          "raw_content_length": 17137,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "The 10 Best Running Shoes of 2026 | Tested & Reviewed",
+          "url": "https://www.fleetfeet.com/running-shoe-buyers-guide",
+          "score": 0.88822687,
+          "raw_content_available": true,
+          "raw_content_length": 47150,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "7 Best Running Shoes in 2026 - RunRepeat",
+          "url": "https://runrepeat.com/guides/best-running-shoes",
+          "score": 0.8808076,
+          "raw_content_available": true,
+          "raw_content_length": 98065,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 6,
+      "timestamp": "2026-08-23T19:20:14.709886+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "runnersworld.com best running shoes 2026 review scores",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.824,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "The 15 Best Running Shoes of 2026, Tested by Runner's World",
+          "url": "https://www.runnersworld.com/gear/a19663621/best-running-shoes",
+          "score": 0.8808076,
+          "raw_content_available": true,
+          "raw_content_length": 77638,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Runner's World 2026 Shoe Awards",
+          "url": "https://www.runnersworld.com/gear/a71282136/shoe-awards-2026",
+          "score": 0.87139857,
+          "raw_content_available": true,
+          "raw_content_length": 19053,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "7 Best Running Shoes in 2026 - RunRepeat",
+          "url": "https://runrepeat.com/guides/best-running-shoes",
+          "score": 0.86136365,
+          "raw_content_available": true,
+          "raw_content_length": 98065,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Running Shoes - Runner's World",
+          "url": "https://www.runnersworld.com/running-shoes",
+          "score": 0.853046,
+          "raw_content_available": true,
+          "raw_content_length": 17137,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Runner’s World Shoe Awards 2026 - Training Shoes",
+          "url": "https://www.runnersworld.com/gear/a71282549/runners-world-shoe-awards-2026-training-shoes",
+          "score": 0.8497846,
+          "raw_content_available": true,
+          "raw_content_length": 62421,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 7,
+      "timestamp": "2026-08-23T19:20:14.749134+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Runner's World shoe awards 2026 numerical score rating",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.735,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Runner's World 2026 Shoe Awards - Facebook",
+          "url": "https://www.facebook.com/RunnersWorld/posts/runners-world-2026-shoe-awards/1544887190331846",
+          "score": 0.740494,
+          "raw_content_available": true,
+          "raw_content_length": 5543,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "The 15 Best Running Shoes of 2026, Tested by Runner's World",
+          "url": "https://www.runnersworld.com/gear/a19663621/best-running-shoes",
+          "score": 0.68090034,
+          "raw_content_available": true,
+          "raw_content_length": 77638,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "7 Best Running Shoes in 2026 - RunRepeat",
+          "url": "https://runrepeat.com/guides/best-running-shoes",
+          "score": 0.6208291,
+          "raw_content_available": true,
+          "raw_content_length": 98065,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Runner's World 2026 Shoe Awards",
+          "url": "https://www.runnersworld.com/gear/a71282136/shoe-awards-2026",
+          "score": 0.529337,
+          "raw_content_available": true,
+          "raw_content_length": 19053,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Best Road Running Shoes (Summer 2026) - Outside Magazine",
+          "url": "https://www.outsideonline.com/outdoor-gear/run/best-running-shoes",
+          "score": 0.4718322,
+          "raw_content_available": true,
+          "raw_content_length": 48628,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 18,
+      "timestamp": "2026-08-23T19:20:44.330831+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "runnersworld.com rating system how Runner's World rates shoes",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.741,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Why Trust Us - Runner's World Shoe and Gear Testing",
+          "url": "https://www.runnersworld.com/gear/a29111408/runners-world-shoe-reviews",
+          "score": 0.63098115,
+          "raw_content_available": true,
+          "raw_content_length": 19124,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Running Shoes - Runner's World",
+          "url": "https://www.runnersworld.com/running-shoes",
+          "score": 0.46964246,
+          "raw_content_available": true,
+          "raw_content_length": 17137,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "The 15 Best Running Shoes of 2026, Tested by Runner's World",
+          "url": "https://www.runnersworld.com/gear/a19663621/best-running-shoes",
+          "score": 0.4630806,
+          "raw_content_available": true,
+          "raw_content_length": 77638,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "We Rank The Best Road Shoes You Can Buy Right Now | Runner's World",
+          "url": "https://www.youtube.com/watch?v=jV42G4I2duA",
+          "score": 0.44666424,
+          "raw_content_available": true,
+          "raw_content_length": 50958,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Runner's World",
+          "url": "https://www.runnersworld.com",
+          "score": 0.36922464,
+          "raw_content_available": true,
+          "raw_content_length": 36516,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 19,
+      "timestamp": "2026-08-23T19:20:44.332149+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Runner's World shoe review rating scale scores 1-100",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.774,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "The Best Running Shoes For Every Type of Run | Runner's World Australia and New Zealand",
+          "url": "https://runnersworldonline.com.au/the-best-running-shoes-for-every-type-of-run",
+          "score": 0.84918517,
+          "raw_content_available": true,
+          "raw_content_length": 33513,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "100+ Running Shoe Reviews",
+          "url": "https://runrepeat.com/catalog/running-shoes",
+          "score": 0.6257817,
+          "raw_content_available": true,
+          "raw_content_length": 11460,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "5 Best Beginner Running Shoes | REVIEWED | Runner's World",
+          "url": "https://www.youtube.com/watch?v=kOhZHGyX7t0",
+          "score": 0.42462727,
+          "raw_content_available": true,
+          "raw_content_length": 11884,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "We Rank The Best Road Shoes You Can Buy Right Now | Runner's World",
+          "url": "https://www.youtube.com/watch?v=jV42G4I2duA",
+          "score": 0.38089764,
+          "raw_content_available": true,
+          "raw_content_length": 50958,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "The 15 Best Running Shoes of 2026, Tested by Runner's World",
+          "url": "https://www.runnersworld.com/gear/a19663621/best-running-shoes",
+          "score": 0.36134556,
+          "raw_content_available": true,
+          "raw_content_length": 77638,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 20,
+      "timestamp": "2026-08-23T19:20:44.355049+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Nike Pegasus 42 Runner's World review weight drop",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.138,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Nike Pegasus 42 Overview & First Run Review | Supwell",
+          "url": "https://www.supwell.com/supbeat/nike-pegasus-42-overview-first-run-review",
+          "score": 0.85538095,
+          "raw_content_available": true,
+          "raw_content_length": 5570,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Pegasus 42 Review",
+          "url": "https://www.runningwarehouse.com/reviews/nike-shoe-reviews/nike-pegasus-42.html",
+          "score": 0.84858394,
+          "raw_content_available": true,
+          "raw_content_length": 21376,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Nike Pegasus 42 Review | Who is Going to Love this Shoe? - RunToTheFinish",
+          "url": "https://runtothefinish.com/nike-pegasus-42-review",
+          "score": 0.8479807,
+          "raw_content_available": true,
+          "raw_content_length": 13988,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Nike Pegasus 42 100% Honest Review (buy these instead)",
+          "url": "https://www.youtube.com/watch?v=ypjElZmr4CU",
+          "score": 0.8351749,
+          "raw_content_available": true,
+          "raw_content_length": 15169,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Nike Pegasus 42 Review | Fleet Feet",
+          "url": "https://www.fleetfeet.com/blog/nike-pegasus-42-review-a-versatile-workhorse",
+          "score": 0.829285,
+          "raw_content_available": true,
+          "raw_content_length": 13084,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 34,
+      "timestamp": "2026-08-23T19:21:02.833604+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Brooks Ghost 18 Runner's World review rating score",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 3.302,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Cut in half: Brooks Ghost 18 Review (2026) | RunRepeat",
+          "url": "https://runrepeat.com/brooks-ghost-18",
+          "score": 0.86954874,
+          "raw_content_available": true,
+          "raw_content_length": 35677,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Brooks Ghost 18 Review | Unsponsored",
+          "url": "https://mountaineerjourney.com/blog/brooks-ghost-18-review",
+          "score": 0.8380581,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "Brooks Ghost 18 Review | Still the Most Polarizing Neutral Shoe in the Lineup - RunToTheFinish",
+          "url": "https://runtothefinish.com/brooks-ghost-18-review",
+          "score": 0.8361405,
+          "raw_content_available": true,
+          "raw_content_length": 15023,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Brooks Ghost 18 review: softer, smoother, more refined",
+          "url": "https://www.alastairrunning.com/brooks-ghost-18-review",
+          "score": 0.6721816,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "The 10 Best Brooks Running Shoes of 2026 - Running Shoe Reviews",
+          "url": "https://www.runnersworld.com/gear/a20866339/best-brooks-running-shoes",
+          "score": 0.638588,
+          "raw_content_available": true,
+          "raw_content_length": 55866,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 35,
+      "timestamp": "2026-08-23T19:21:03.985047+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Runner's World shoe review star rating system how they rate",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 3.718,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "5 Best Beginner Running Shoes | REVIEWED | Runner's World",
+          "url": "https://www.youtube.com/watch?v=kOhZHGyX7t0",
+          "score": 0.42691937,
+          "raw_content_available": true,
+          "raw_content_length": 11884,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "The 15 Best Running Shoes of 2026, Tested by Runner's World",
+          "url": "https://www.runnersworld.com/gear/a19663621/best-running-shoes",
+          "score": 0.4116553,
+          "raw_content_available": true,
+          "raw_content_length": 77638,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Best Running Shoes Reviewed + Ranked by Experts",
+          "url": "https://marathonhandbook.com/best-running-shoes-reviewed",
+          "score": 0.39068562,
+          "raw_content_available": true,
+          "raw_content_length": 66435,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "The 7 Best Running Shoes of 2026 | Reviews by Wirecutter",
+          "url": "https://www.nytimes.com/wirecutter/reviews/best-running-shoes",
+          "score": 0.37106878,
+          "raw_content_available": true,
+          "raw_content_length": 98769,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Runner's World 2026 Shoe Awards - Facebook",
+          "url": "https://www.facebook.com/RunnersWorld/posts/runners-world-2026-shoe-awards/1544887190331846",
+          "score": 0.30489007,
+          "raw_content_available": true,
+          "raw_content_length": 5543,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 36,
+      "timestamp": "2026-08-23T19:21:04.389892+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "New Balance 1080v15 Runner's World review rating",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 3.721,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Cut in half: New Balance 1080 v15 Review (2026) | RunRepeat",
+          "url": "https://runrepeat.com/new-balance-1080-v-15",
+          "score": 0.84246206,
+          "raw_content_available": true,
+          "raw_content_length": 36959,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "New Balance 1080 v15 Review: The Ultimate Cushioned Daily Running Shoe - RunToTheFinish",
+          "url": "https://runtothefinish.com/new-balance-1080-v15-review",
+          "score": 0.83710164,
+          "raw_content_available": true,
+          "raw_content_length": 12812,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "SHOE REVIEW: New Balance 1080v15 - Canadian Running Magazine",
+          "url": "https://runningmagazine.ca/sections/gear/shoe-review-new-balance-1080v15",
+          "score": 0.80771893,
+          "raw_content_available": true,
+          "raw_content_length": 6189,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "New Balance 1080v15 review: lighter, more planted, and the best yet",
+          "url": "https://www.alastairrunning.com/new-balance-1080v15-review",
+          "score": 0.7703443,
+          "raw_content_available": true,
+          "raw_content_length": 16807,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "New Balance 1080v15 Review: The Best 1080 Yet, And It's Not Close",
+          "url": "https://www.youtube.com/watch?v=59qi5pj215U",
+          "score": 0.75852895,
+          "raw_content_available": true,
+          "raw_content_length": 10804,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 37,
+      "timestamp": "2026-08-23T19:21:04.411237+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Adidas Adizero Evo SL Runner's World review rating",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.339,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Adidas Adizero Evo SL Review | Tested & Rated",
+          "url": "https://www.outdoorgearlab.com/reviews/shoes-and-boots/running-shoes-men/adidas-adizero-evo-sl",
+          "score": 0.8976328,
+          "raw_content_available": true,
+          "raw_content_length": 13328,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Adidas Adizero Evo SL Review: The Best Daily Trainer? | Runner's World",
+          "url": "https://www.youtube.com/watch?v=8AAcs3eiwnk",
+          "score": 0.8803145,
+          "raw_content_available": true,
+          "raw_content_length": 8764,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Cut in half: adidas Adizero EVO SL Review | RunRepeat",
+          "url": "https://runrepeat.com/adidas-adizero-evo-sl",
+          "score": 0.8452414,
+          "raw_content_available": true,
+          "raw_content_length": 47090,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "The Adizero EVO SL has been picked up by Runners World as the best running shoe in 2025",
+          "url": "https://news.adidas.com/editors-picks/the-adizero-evo-sl-has-been-picked-up-by-runners-world-as-the-best-running-shoe-in-2025/s/e38f296b-da9e-4c88-9742-bef4be4651d3",
+          "score": 0.767847,
+          "raw_content_available": true,
+          "raw_content_length": 11211,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Adidas Adizero Evo SL review - geeks on feet",
+          "url": "https://geeksonfeet.com/shoegeeks/adidas-adizeroevosl-001017001",
+          "score": 0.76279575,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        }
+      ],
+      "sequence": 57,
+      "timestamp": "2026-08-23T19:21:22.119338+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Brooks Glycerin 23 Runner's World review rating",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.708,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Cut in half: Brooks Glycerin 23 Review (2026) | RunRepeat",
+          "url": "https://runrepeat.com/brooks-glycerin-23",
+          "score": 0.8576849,
+          "raw_content_available": true,
+          "raw_content_length": 35958,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "What Makes the Brooks Glycerin 23 Better Than Ever? Our Review - RunToTheFinish",
+          "url": "https://runtothefinish.com/brooks-glycerin-23-review",
+          "score": 0.83290404,
+          "raw_content_available": true,
+          "raw_content_length": 14322,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Brooks Glycerin 23 Review | Running Shoes Guru",
+          "url": "https://www.runningshoesguru.com/reviews/road/brooks-glycerin-23-review",
+          "score": 0.82048416,
+          "raw_content_available": true,
+          "raw_content_length": 46260,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Brooks Glycerin 23 Review (2026) - Doctors of Running",
+          "url": "https://www.doctorsofrunning.com/brooks-glycerin-23-review-2026",
+          "score": 0.82048416,
+          "raw_content_available": true,
+          "raw_content_length": 17561,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Brooks Glycerin 23 Review: Sound At The Core - Believe in the Run",
+          "url": "https://believeintherun.com/shoe-reviews/brooks-glycerin-23-review",
+          "score": 0.80089486,
+          "raw_content_available": true,
+          "raw_content_length": 32419,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 58,
+      "timestamp": "2026-08-23T19:21:22.501119+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Runner's World individual shoe review rating score site:runnersworld.com",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 3.165,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "The Most Cushioned Running Shoes, Tested by Runner’s World",
+          "url": "https://www.runnersworld.com/gear/a20865760/best-cushioned-running-shoes",
+          "score": 0.4358301,
+          "raw_content_available": true,
+          "raw_content_length": 45758,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Runner's World 2025 Winter Shoe Guide — Running Shoe Reviews",
+          "url": "https://www.runnersworld.com/gear/a69425936/runners-world-2025-winter-shoe-guide",
+          "score": 0.3844273,
+          "raw_content_available": true,
+          "raw_content_length": 78637,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Runner’s World Shoe Awards 2025 - Training Shoes",
+          "url": "https://www.runnersworld.com/gear/a64756374/runners-world-shoe-awards-2025-training-shoes",
+          "score": 0.36888355,
+          "raw_content_available": true,
+          "raw_content_length": 70654,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Runner's World 2026 Shoe Awards",
+          "url": "https://www.runnersworld.com/gear/a71282136/shoe-awards-2026",
+          "score": 0.36874714,
+          "raw_content_available": true,
+          "raw_content_length": 19053,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Running Shoes - Runner's World",
+          "url": "https://www.runnersworld.com/running-shoes",
+          "score": 0.3654119,
+          "raw_content_available": true,
+          "raw_content_length": 17137,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 59,
+      "timestamp": "2026-08-23T19:21:22.935787+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Asics Superblast 3 Runner's World review rating score",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 3.264,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Cut in half: ASICS Superblast 3 Review (2026) | RunRepeat",
+          "url": "https://runrepeat.com/asics-superblast-3",
+          "score": 0.9039154,
+          "raw_content_available": true,
+          "raw_content_length": 39218,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "ASICS Superblast 3 l Did the World's Best Running Shoe actually get BETTER?",
+          "url": "https://www.youtube.com/watch?v=3smamb4U9CY",
+          "score": 0.843393,
+          "raw_content_available": true,
+          "raw_content_length": 12706,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Asics Superblast 3 Review: The Blast Samurai - Believe in the Run",
+          "url": "https://believeintherun.com/shoe-reviews/asics-superblast-3-review",
+          "score": 0.81097376,
+          "raw_content_available": true,
+          "raw_content_length": 33913,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Asics Superblast 3 Review | So Bouncy You'll Forget It's Supposed to Be a Daily Trainer - RunToTheFinish",
+          "url": "https://runtothefinish.com/asics-superblast-3-review",
+          "score": 0.7898345,
+          "raw_content_available": true,
+          "raw_content_length": 13378,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "ASICS Superblast 3 Review (2026) - Doctors of Running",
+          "url": "https://www.doctorsofrunning.com/asics-superblast-3-review-2026",
+          "score": 0.76951396,
+          "raw_content_available": true,
+          "raw_content_length": 27268,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 60,
+      "timestamp": "2026-08-23T19:21:23.051919+08:00"
+    }
+  ],
+  "summary_cache_hits": 11,
+  "summary_cache_hit_urls": [
+    "https://www.runnersworld.com/gear/a19663621/best-running-shoes",
+    "https://www.runnersworld.com/running-shoes",
+    "https://runrepeat.com/guides/best-running-shoes",
+    "https://www.runnersworld.com/gear/a71282136/shoe-awards-2026",
+    "https://www.outsideonline.com/outdoor-gear/run/best-running-shoes",
+    "https://www.youtube.com/watch?v=kOhZHGyX7t0",
+    "https://www.runnersworld.com/gear/a19663621/best-running-shoes",
+    "https://www.nytimes.com/wirecutter/reviews/best-running-shoes",
+    "https://www.facebook.com/RunnersWorld/posts/runners-world-2026-shoe-awards/1544887190331846",
+    "https://www.runnersworld.com/gear/a71282136/shoe-awards-2026",
+    "https://www.runnersworld.com/running-shoes"
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://www.runnersworld.com/gear/a19663621/best-running-shoes",
+      "status": "success",
+      "content_length": 77638,
+      "duration_seconds": 2.715,
+      "query": "Runner's World best running shoes 2026 ratings"
+    },
+    {
+      "url": "https://www.runnersworld.com/gear/a71282136/shoe-awards-2026",
+      "status": "success",
+      "content_length": 19053,
+      "duration_seconds": 2.715,
+      "query": "Runner's World best running shoes 2026 ratings"
+    },
+    {
+      "url": "https://www.runnersworld.com/running-shoes",
+      "status": "success",
+      "content_length": 17137,
+      "duration_seconds": 2.715,
+      "query": "Runner's World best running shoes 2026 ratings"
+    },
+    {
+      "url": "https://www.outsideonline.com/outdoor-gear/run/best-running-shoes",
+      "status": "success",
+      "content_length": 48628,
+      "duration_seconds": 2.715,
+      "query": "Runner's World best running shoes 2026 ratings"
+    },
+    {
+      "url": "https://www.nytimes.com/wirecutter/reviews/best-running-shoes",
+      "status": "success",
+      "content_length": 98769,
+      "duration_seconds": 2.715,
+      "query": "Runner's World best running shoes 2026 ratings"
+    },
+    {
+      "url": "https://www.runnersworld.com/gear/a19663621/best-running-shoes",
+      "status": "success",
+      "content_length": 77638,
+      "duration_seconds": 2.792,
+      "query": "Runner's World shoe guide 2026 top rated running shoes"
+    },
+    {
+      "url": "https://www.outsideonline.com/outdoor-gear/run/best-running-shoes",
+      "status": "success",
+      "content_length": 48628,
+      "duration_seconds": 2.792,
+      "query": "Runner's World shoe guide 2026 top rated running shoes"
+    },
+    {
+      "url": "https://www.runnersworld.com/running-shoes",
+      "status": "success",
+      "content_length": 17137,
+      "duration_seconds": 2.792,
+      "query": "Runner's World shoe guide 2026 top rated running shoes"
+    },
+    {
+      "url": "https://www.fleetfeet.com/running-shoe-buyers-guide",
+      "status": "success",
+      "content_length": 47150,
+      "duration_seconds": 2.792,
+      "query": "Runner's World shoe guide 2026 top rated running shoes"
+    },
+    {
+      "url": "https://runrepeat.com/guides/best-running-shoes",
+      "status": "success",
+      "content_length": 98065,
+      "duration_seconds": 2.792,
+      "query": "Runner's World shoe guide 2026 top rated running shoes"
+    },
+    {
+      "url": "https://www.runnersworld.com/gear/a19663621/best-running-shoes",
+      "status": "success",
+      "content_length": 77638,
+      "duration_seconds": 2.824,
+      "query": "runnersworld.com best running shoes 2026 review scores"
+    },
+    {
+      "url": "https://www.runnersworld.com/gear/a71282136/shoe-awards-2026",
+      "status": "success",
+      "content_length": 19053,
+      "duration_seconds": 2.824,
+      "query": "runnersworld.com best running shoes 2026 review scores"
+    },
+    {
+      "url": "https://runrepeat.com/guides/best-running-shoes",
+      "status": "success",
+      "content_length": 98065,
+      "duration_seconds": 2.824,
+      "query": "runnersworld.com best running shoes 2026 review scores"
+    },
+    {
+      "url": "https://www.runnersworld.com/running-shoes",
+      "status": "success",
+      "content_length": 17137,
+      "duration_seconds": 2.824,
+      "query": "runnersworld.com best running shoes 2026 review scores"
+    },
+    {
+      "url": "https://www.runnersworld.com/gear/a71282549/runners-world-shoe-awards-2026-training-shoes",
+      "status": "success",
+      "content_length": 62421,
+      "duration_seconds": 2.824,
+      "query": "runnersworld.com best running shoes 2026 review scores"
+    },
+    {
+      "url": "https://www.facebook.com/RunnersWorld/posts/runners-world-2026-shoe-awards/1544887190331846",
+      "status": "success",
+      "content_length": 5543,
+      "duration_seconds": 2.735,
+      "query": "Runner's World shoe awards 2026 numerical score rating"
+    },
+    {
+      "url": "https://www.runnersworld.com/gear/a19663621/best-running-shoes",
+      "status": "success",
+      "content_length": 77638,
+      "duration_seconds": 2.735,
+      "query": "Runner's World shoe awards 2026 numerical score rating"
+    },
+    {
+      "url": "https://runrepeat.com/guides/best-running-shoes",
+      "status": "success",
+      "content_length": 98065,
+      "duration_seconds": 2.735,
+      "query": "Runner's World shoe awards 2026 numerical score rating"
+    },
+    {
+      "url": "https://www.runnersworld.com/gear/a71282136/shoe-awards-2026",
+      "status": "success",
+      "content_length": 19053,
+      "duration_seconds": 2.735,
+      "query": "Runner's World shoe awards 2026 numerical score rating"
+    },
+    {
+      "url": "https://www.outsideonline.com/outdoor-gear/run/best-running-shoes",
+      "status": "success",
+      "content_length": 48628,
+      "duration_seconds": 2.735,
+      "query": "Runner's World shoe awards 2026 numerical score rating"
+    },
+    {
+      "url": "https://www.runnersworld.com/gear/a29111408/runners-world-shoe-reviews",
+      "status": "success",
+      "content_length": 19124,
+      "duration_seconds": 2.741,
+      "query": "runnersworld.com rating system how Runner's World rates shoes"
+    },
+    {
+      "url": "https://www.runnersworld.com/running-shoes",
+      "status": "success",
+      "content_length": 17137,
+      "duration_seconds": 2.741,
+      "query": "runnersworld.com rating system how Runner's World rates shoes"
+    },
+    {
+      "url": "https://www.runnersworld.com/gear/a19663621/best-running-shoes",
+      "status": "success",
+      "content_length": 77638,
+      "duration_seconds": 2.741,
+      "query": "runnersworld.com rating system how Runner's World rates shoes"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=jV42G4I2duA",
+      "status": "success",
+      "content_length": 50958,
+      "duration_seconds": 2.741,
+      "query": "runnersworld.com rating system how Runner's World rates shoes"
+    },
+    {
+      "url": "https://www.runnersworld.com",
+      "status": "success",
+      "content_length": 36516,
+      "duration_seconds": 2.741,
+      "query": "runnersworld.com rating system how Runner's World rates shoes"
+    },
+    {
+      "url": "https://runnersworldonline.com.au/the-best-running-shoes-for-every-type-of-run",
+      "status": "success",
+      "content_length": 33513,
+      "duration_seconds": 2.774,
+      "query": "Runner's World shoe review rating scale scores 1-100"
+    },
+    {
+      "url": "https://runrepeat.com/catalog/running-shoes",
+      "status": "success",
+      "content_length": 11460,
+      "duration_seconds": 2.774,
+      "query": "Runner's World shoe review rating scale scores 1-100"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=kOhZHGyX7t0",
+      "status": "success",
+      "content_length": 11884,
+      "duration_seconds": 2.774,
+      "query": "Runner's World shoe review rating scale scores 1-100"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=jV42G4I2duA",
+      "status": "success",
+      "content_length": 50958,
+      "duration_seconds": 2.774,
+      "query": "Runner's World shoe review rating scale scores 1-100"
+    },
+    {
+      "url": "https://www.runnersworld.com/gear/a19663621/best-running-shoes",
+      "status": "success",
+      "content_length": 77638,
+      "duration_seconds": 2.774,
+      "query": "Runner's World shoe review rating scale scores 1-100"
+    },
+    {
+      "url": "https://www.supwell.com/supbeat/nike-pegasus-42-overview-first-run-review",
+      "status": "success",
+      "content_length": 5570,
+      "duration_seconds": 2.138,
+      "query": "Nike Pegasus 42 Runner's World review weight drop"
+    },
+    {
+      "url": "https://www.runningwarehouse.com/reviews/nike-shoe-reviews/nike-pegasus-42.html",
+      "status": "success",
+      "content_length": 21376,
+      "duration_seconds": 2.138,
+      "query": "Nike Pegasus 42 Runner's World review weight drop"
+    },
+    {
+      "url": "https://runtothefinish.com/nike-pegasus-42-review",
+      "status": "success",
+      "content_length": 13988,
+      "duration_seconds": 2.138,
+      "query": "Nike Pegasus 42 Runner's World review weight drop"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=ypjElZmr4CU",
+      "status": "success",
+      "content_length": 15169,
+      "duration_seconds": 2.138,
+      "query": "Nike Pegasus 42 Runner's World review weight drop"
+    },
+    {
+      "url": "https://www.fleetfeet.com/blog/nike-pegasus-42-review-a-versatile-workhorse",
+      "status": "success",
+      "content_length": 13084,
+      "duration_seconds": 2.138,
+      "query": "Nike Pegasus 42 Runner's World review weight drop"
+    },
+    {
+      "url": "https://runrepeat.com/brooks-ghost-18",
+      "status": "success",
+      "content_length": 35677,
+      "duration_seconds": 3.302,
+      "query": "Brooks Ghost 18 Runner's World review rating score"
+    },
+    {
+      "url": "https://mountaineerjourney.com/blog/brooks-ghost-18-review",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 3.302,
+      "query": "Brooks Ghost 18 Runner's World review rating score"
+    },
+    {
+      "url": "https://runtothefinish.com/brooks-ghost-18-review",
+      "status": "success",
+      "content_length": 15023,
+      "duration_seconds": 3.302,
+      "query": "Brooks Ghost 18 Runner's World review rating score"
+    },
+    {
+      "url": "https://www.alastairrunning.com/brooks-ghost-18-review",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 3.302,
+      "query": "Brooks Ghost 18 Runner's World review rating score"
+    },
+    {
+      "url": "https://www.runnersworld.com/gear/a20866339/best-brooks-running-shoes",
+      "status": "success",
+      "content_length": 55866,
+      "duration_seconds": 3.302,
+      "query": "Brooks Ghost 18 Runner's World review rating score"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=kOhZHGyX7t0",
+      "status": "success",
+      "content_length": 11884,
+      "duration_seconds": 3.718,
+      "query": "Runner's World shoe review star rating system how they rate"
+    },
+    {
+      "url": "https://www.runnersworld.com/gear/a19663621/best-running-shoes",
+      "status": "success",
+      "content_length": 77638,
+      "duration_seconds": 3.718,
+      "query": "Runner's World shoe review star rating system how they rate"
+    },
+    {
+      "url": "https://marathonhandbook.com/best-running-shoes-reviewed",
+      "status": "success",
+      "content_length": 66435,
+      "duration_seconds": 3.718,
+      "query": "Runner's World shoe review star rating system how they rate"
+    },
+    {
+      "url": "https://www.nytimes.com/wirecutter/reviews/best-running-shoes",
+      "status": "success",
+      "content_length": 98769,
+      "duration_seconds": 3.718,
+      "query": "Runner's World shoe review star rating system how they rate"
+    },
+    {
+      "url": "https://www.facebook.com/RunnersWorld/posts/runners-world-2026-shoe-awards/1544887190331846",
+      "status": "success",
+      "content_length": 5543,
+      "duration_seconds": 3.718,
+      "query": "Runner's World shoe review star rating system how they rate"
+    },
+    {
+      "url": "https://runrepeat.com/new-balance-1080-v-15",
+      "status": "success",
+      "content_length": 36959,
+      "duration_seconds": 3.721,
+      "query": "New Balance 1080v15 Runner's World review rating"
+    },
+    {
+      "url": "https://runtothefinish.com/new-balance-1080-v15-review",
+      "status": "success",
+      "content_length": 12812,
+      "duration_seconds": 3.721,
+      "query": "New Balance 1080v15 Runner's World review rating"
+    },
+    {
+      "url": "https://runningmagazine.ca/sections/gear/shoe-review-new-balance-1080v15",
+      "status": "success",
+      "content_length": 6189,
+      "duration_seconds": 3.721,
+      "query": "New Balance 1080v15 Runner's World review rating"
+    },
+    {
+      "url": "https://www.alastairrunning.com/new-balance-1080v15-review",
+      "status": "success",
+      "content_length": 16807,
+      "duration_seconds": 3.721,
+      "query": "New Balance 1080v15 Runner's World review rating"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=59qi5pj215U",
+      "status": "success",
+      "content_length": 10804,
+      "duration_seconds": 3.721,
+      "query": "New Balance 1080v15 Runner's World review rating"
+    },
+    {
+      "url": "https://www.outdoorgearlab.com/reviews/shoes-and-boots/running-shoes-men/adidas-adizero-evo-sl",
+      "status": "success",
+      "content_length": 13328,
+      "duration_seconds": 2.339,
+      "query": "Adidas Adizero Evo SL Runner's World review rating"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=8AAcs3eiwnk",
+      "status": "success",
+      "content_length": 8764,
+      "duration_seconds": 2.339,
+      "query": "Adidas Adizero Evo SL Runner's World review rating"
+    },
+    {
+      "url": "https://runrepeat.com/adidas-adizero-evo-sl",
+      "status": "success",
+      "content_length": 47090,
+      "duration_seconds": 2.339,
+      "query": "Adidas Adizero Evo SL Runner's World review rating"
+    },
+    {
+      "url": "https://news.adidas.com/editors-picks/the-adizero-evo-sl-has-been-picked-up-by-runners-world-as-the-best-running-shoe-in-2025/s/e38f296b-da9e-4c88-9742-bef4be4651d3",
+      "status": "success",
+      "content_length": 11211,
+      "duration_seconds": 2.339,
+      "query": "Adidas Adizero Evo SL Runner's World review rating"
+    },
+    {
+      "url": "https://geeksonfeet.com/shoegeeks/adidas-adizeroevosl-001017001",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.339,
+      "query": "Adidas Adizero Evo SL Runner's World review rating"
+    },
+    {
+      "url": "https://runrepeat.com/brooks-glycerin-23",
+      "status": "success",
+      "content_length": 35958,
+      "duration_seconds": 2.708,
+      "query": "Brooks Glycerin 23 Runner's World review rating"
+    },
+    {
+      "url": "https://runtothefinish.com/brooks-glycerin-23-review",
+      "status": "success",
+      "content_length": 14322,
+      "duration_seconds": 2.708,
+      "query": "Brooks Glycerin 23 Runner's World review rating"
+    },
+    {
+      "url": "https://www.runningshoesguru.com/reviews/road/brooks-glycerin-23-review",
+      "status": "success",
+      "content_length": 46260,
+      "duration_seconds": 2.708,
+      "query": "Brooks Glycerin 23 Runner's World review rating"
+    },
+    {
+      "url": "https://www.doctorsofrunning.com/brooks-glycerin-23-review-2026",
+      "status": "success",
+      "content_length": 17561,
+      "duration_seconds": 2.708,
+      "query": "Brooks Glycerin 23 Runner's World review rating"
+    },
+    {
+      "url": "https://believeintherun.com/shoe-reviews/brooks-glycerin-23-review",
+      "status": "success",
+      "content_length": 32419,
+      "duration_seconds": 2.708,
+      "query": "Brooks Glycerin 23 Runner's World review rating"
+    },
+    {
+      "url": "https://www.runnersworld.com/gear/a20865760/best-cushioned-running-shoes",
+      "status": "success",
+      "content_length": 45758,
+      "duration_seconds": 3.165,
+      "query": "Runner's World individual shoe review rating score site:runnersworld.com"
+    },
+    {
+      "url": "https://www.runnersworld.com/gear/a69425936/runners-world-2025-winter-shoe-guide",
+      "status": "success",
+      "content_length": 78637,
+      "duration_seconds": 3.165,
+      "query": "Runner's World individual shoe review rating score site:runnersworld.com"
+    },
+    {
+      "url": "https://www.runnersworld.com/gear/a64756374/runners-world-shoe-awards-2025-training-shoes",
+      "status": "success",
+      "content_length": 70654,
+      "duration_seconds": 3.165,
+      "query": "Runner's World individual shoe review rating score site:runnersworld.com"
+    },
+    {
+      "url": "https://www.runnersworld.com/gear/a71282136/shoe-awards-2026",
+      "status": "success",
+      "content_length": 19053,
+      "duration_seconds": 3.165,
+      "query": "Runner's World individual shoe review rating score site:runnersworld.com"
+    },
+    {
+      "url": "https://www.runnersworld.com/running-shoes",
+      "status": "success",
+      "content_length": 17137,
+      "duration_seconds": 3.165,
+      "query": "Runner's World individual shoe review rating score site:runnersworld.com"
+    },
+    {
+      "url": "https://runrepeat.com/asics-superblast-3",
+      "status": "success",
+      "content_length": 39218,
+      "duration_seconds": 3.264,
+      "query": "Asics Superblast 3 Runner's World review rating score"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=3smamb4U9CY",
+      "status": "success",
+      "content_length": 12706,
+      "duration_seconds": 3.264,
+      "query": "Asics Superblast 3 Runner's World review rating score"
+    },
+    {
+      "url": "https://believeintherun.com/shoe-reviews/asics-superblast-3-review",
+      "status": "success",
+      "content_length": 33913,
+      "duration_seconds": 3.264,
+      "query": "Asics Superblast 3 Runner's World review rating score"
+    },
+    {
+      "url": "https://runtothefinish.com/asics-superblast-3-review",
+      "status": "success",
+      "content_length": 13378,
+      "duration_seconds": 3.264,
+      "query": "Asics Superblast 3 Runner's World review rating score"
+    },
+    {
+      "url": "https://www.doctorsofrunning.com/asics-superblast-3-review-2026",
+      "status": "success",
+      "content_length": 27268,
+      "duration_seconds": 3.264,
+      "query": "Asics Superblast 3 Runner's World review rating score"
+    }
+  ],
+  "run_id": "4561807a63ca4a68b8c91d8d163db8ba",
+  "status": "completed",
+  "qid": "ranklidfdj3RVVH31L5VPo",
+  "query": "What are the top 12 running shoes based on heel-to-toe drop (mm), weight (ounces), and Runner's World rating score, considering the most recent Runner's World ratings as of now ({{current_date}})? Please assume all three criteria are weighted equally, and include only currently available models. In the final report, you should include a detailed table for the summarized ranked results, and also provide an analysis explaining the rationale behind the ranking.",
+  "duration_seconds": 334.833,
+  "report_length": 25533,
+  "context_length": 165403,
+  "token_counting": "Token counts come only from API-reported usage; missing usage is never estimated."
+}

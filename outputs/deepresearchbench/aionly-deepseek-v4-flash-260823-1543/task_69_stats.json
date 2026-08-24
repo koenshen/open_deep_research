@@ -1,0 +1,4579 @@
+{
+  "session_id": "542353488dfb4a2986ee8c90cf8abd29",
+  "total_llm_calls": 111,
+  "llm_calls_with_token_usage": 111,
+  "llm_calls_missing_token_usage": 0,
+  "token_usage_complete": true,
+  "total_input_tokens": 914921,
+  "total_output_tokens": 88586,
+  "total_tokens": 1003507,
+  "counted_input_tokens": 914921,
+  "counted_output_tokens": 88586,
+  "counted_total_tokens": 1003507,
+  "total_search_count": 21,
+  "total_search_results": 105,
+  "total_visit_count": 105,
+  "total_visit_success": 105,
+  "total_visit_failed": 0,
+  "source_urls_count": 87,
+  "llm_calls_detail": [
+    {
+      "sequence": 1,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:16.458006+08:00",
+      "completed_at": "2026-08-24T03:05:19.989154+08:00",
+      "duration_seconds": 3.531,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 742,
+      "output_tokens": 250,
+      "total_tokens": 992,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 742,
+        "output_tokens": 250,
+        "total_tokens": 992,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 2,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:19.997436+08:00",
+      "completed_at": "2026-08-24T03:05:24.362185+08:00",
+      "duration_seconds": 4.365,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1314,
+      "output_tokens": 371,
+      "total_tokens": 1685,
+      "message_count": 2,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1314,
+        "output_tokens": 371,
+        "total_tokens": 1685,
+        "input_token_details": {
+          "cache_read": 1024
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 3,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:24.368331+08:00",
+      "completed_at": "2026-08-24T03:05:30.507880+08:00",
+      "duration_seconds": 6.14,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1775,
+      "output_tokens": 620,
+      "total_tokens": 2395,
+      "message_count": 4,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1775,
+        "output_tokens": 620,
+        "total_tokens": 2395,
+        "input_token_details": {
+          "cache_read": 1280
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 4,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:30.526866+08:00",
+      "completed_at": "2026-08-24T03:05:33.070704+08:00",
+      "duration_seconds": 2.544,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1020,
+      "output_tokens": 126,
+      "total_tokens": 1146,
+      "message_count": 2,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1020,
+        "output_tokens": 126,
+        "total_tokens": 1146,
+        "input_token_details": {
+          "cache_read": 768
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 5,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:30.526973+08:00",
+      "completed_at": "2026-08-24T03:05:33.538429+08:00",
+      "duration_seconds": 3.011,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1035,
+      "output_tokens": 118,
+      "total_tokens": 1153,
+      "message_count": 2,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1035,
+        "output_tokens": 118,
+        "total_tokens": 1153,
+        "input_token_details": {
+          "cache_read": 768
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 6,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:30.527231+08:00",
+      "completed_at": "2026-08-24T03:05:32.678258+08:00",
+      "duration_seconds": 2.151,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1018,
+      "output_tokens": 117,
+      "total_tokens": 1135,
+      "message_count": 2,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1018,
+        "output_tokens": 117,
+        "total_tokens": 1135,
+        "input_token_details": {
+          "cache_read": 768
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 11,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:35.812173+08:00",
+      "completed_at": "2026-08-24T03:05:41.337990+08:00",
+      "duration_seconds": 5.526,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 17922,
+      "output_tokens": 439,
+      "total_tokens": 18361,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 17922,
+        "output_tokens": 439,
+        "total_tokens": 18361,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 12,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:35.812258+08:00",
+      "completed_at": "2026-08-24T03:05:41.381318+08:00",
+      "duration_seconds": 5.569,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6663,
+      "output_tokens": 490,
+      "total_tokens": 7153,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 6663,
+        "output_tokens": 490,
+        "total_tokens": 7153,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 13,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:35.812291+08:00",
+      "completed_at": "2026-08-24T03:05:42.835349+08:00",
+      "duration_seconds": 7.023,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4337,
+      "output_tokens": 608,
+      "total_tokens": 4945,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4337,
+        "output_tokens": 608,
+        "total_tokens": 4945,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 14,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:35.812315+08:00",
+      "completed_at": "2026-08-24T03:05:41.892043+08:00",
+      "duration_seconds": 6.08,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3527,
+      "output_tokens": 537,
+      "total_tokens": 4064,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3527,
+        "output_tokens": 537,
+        "total_tokens": 4064,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 15,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:35.812338+08:00",
+      "completed_at": "2026-08-24T03:05:41.059288+08:00",
+      "duration_seconds": 5.247,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2450,
+      "output_tokens": 441,
+      "total_tokens": 2891,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2450,
+        "output_tokens": 441,
+        "total_tokens": 2891,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 16,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:35.812362+08:00",
+      "completed_at": "2026-08-24T03:05:45.145297+08:00",
+      "duration_seconds": 9.333,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7010,
+      "output_tokens": 892,
+      "total_tokens": 7902,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 7010,
+        "output_tokens": 892,
+        "total_tokens": 7902,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 17,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:35.812754+08:00",
+      "completed_at": "2026-08-24T03:05:42.326636+08:00",
+      "duration_seconds": 6.514,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5722,
+      "output_tokens": 598,
+      "total_tokens": 6320,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5722,
+        "output_tokens": 598,
+        "total_tokens": 6320,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 18,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:35.812805+08:00",
+      "completed_at": "2026-08-24T03:05:43.305521+08:00",
+      "duration_seconds": 7.493,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5341,
+      "output_tokens": 701,
+      "total_tokens": 6042,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5341,
+        "output_tokens": 701,
+        "total_tokens": 6042,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 19,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:35.812836+08:00",
+      "completed_at": "2026-08-24T03:05:42.648366+08:00",
+      "duration_seconds": 6.836,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3517,
+      "output_tokens": 567,
+      "total_tokens": 4084,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3517,
+        "output_tokens": 567,
+        "total_tokens": 4084,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 20,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:35.812862+08:00",
+      "completed_at": "2026-08-24T03:05:40.197633+08:00",
+      "duration_seconds": 4.385,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2258,
+      "output_tokens": 319,
+      "total_tokens": 2577,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2258,
+        "output_tokens": 319,
+        "total_tokens": 2577,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 21,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:35.812886+08:00",
+      "completed_at": "2026-08-24T03:05:41.944354+08:00",
+      "duration_seconds": 6.131,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7972,
+      "output_tokens": 546,
+      "total_tokens": 8518,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 7972,
+        "output_tokens": 546,
+        "total_tokens": 8518,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 22,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:35.812914+08:00",
+      "completed_at": "2026-08-24T03:05:41.200456+08:00",
+      "duration_seconds": 5.388,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2412,
+      "output_tokens": 517,
+      "total_tokens": 2929,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2412,
+        "output_tokens": 517,
+        "total_tokens": 2929,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 23,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:35.812934+08:00",
+      "completed_at": "2026-08-24T03:05:40.197408+08:00",
+      "duration_seconds": 4.384,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6175,
+      "output_tokens": 337,
+      "total_tokens": 6512,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 6175,
+        "output_tokens": 337,
+        "total_tokens": 6512,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 24,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:35.812957+08:00",
+      "completed_at": "2026-08-24T03:05:44.927737+08:00",
+      "duration_seconds": 9.115,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7560,
+      "output_tokens": 857,
+      "total_tokens": 8417,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 7560,
+        "output_tokens": 857,
+        "total_tokens": 8417,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 25,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:35.813068+08:00",
+      "completed_at": "2026-08-24T03:05:40.239086+08:00",
+      "duration_seconds": 4.426,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2836,
+      "output_tokens": 327,
+      "total_tokens": 3163,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2836,
+        "output_tokens": 327,
+        "total_tokens": 3163,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 28,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:35.972059+08:00",
+      "completed_at": "2026-08-24T03:05:42.409096+08:00",
+      "duration_seconds": 6.437,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 14414,
+      "output_tokens": 563,
+      "total_tokens": 14977,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 14414,
+        "output_tokens": 563,
+        "total_tokens": 14977,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 29,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:35.972122+08:00",
+      "completed_at": "2026-08-24T03:05:41.059207+08:00",
+      "duration_seconds": 5.087,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2126,
+      "output_tokens": 427,
+      "total_tokens": 2553,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2126,
+        "output_tokens": 427,
+        "total_tokens": 2553,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 30,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:35.972156+08:00",
+      "completed_at": "2026-08-24T03:05:39.390234+08:00",
+      "duration_seconds": 3.418,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1373,
+      "output_tokens": 206,
+      "total_tokens": 1579,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1373,
+        "output_tokens": 206,
+        "total_tokens": 1579,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 31,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:35.972182+08:00",
+      "completed_at": "2026-08-24T03:05:42.359485+08:00",
+      "duration_seconds": 6.387,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7972,
+      "output_tokens": 592,
+      "total_tokens": 8564,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 7972,
+        "output_tokens": 592,
+        "total_tokens": 8564,
+        "input_token_details": {
+          "cache_read": 7936
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 32,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:35.972207+08:00",
+      "completed_at": "2026-08-24T03:05:42.466514+08:00",
+      "duration_seconds": 6.494,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5112,
+      "output_tokens": 625,
+      "total_tokens": 5737,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5112,
+        "output_tokens": 625,
+        "total_tokens": 5737,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 33,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:35.972230+08:00",
+      "completed_at": "2026-08-24T03:05:42.778180+08:00",
+      "duration_seconds": 6.806,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 11931,
+      "output_tokens": 616,
+      "total_tokens": 12547,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 11931,
+        "output_tokens": 616,
+        "total_tokens": 12547,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 34,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:35.972253+08:00",
+      "completed_at": "2026-08-24T03:05:44.126554+08:00",
+      "duration_seconds": 8.154,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 10756,
+      "output_tokens": 748,
+      "total_tokens": 11504,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 10756,
+        "output_tokens": 748,
+        "total_tokens": 11504,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 35,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:35.972280+08:00",
+      "completed_at": "2026-08-24T03:05:43.079651+08:00",
+      "duration_seconds": 7.107,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3821,
+      "output_tokens": 663,
+      "total_tokens": 4484,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3821,
+        "output_tokens": 663,
+        "total_tokens": 4484,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 36,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:35.972303+08:00",
+      "completed_at": "2026-08-24T03:05:42.134387+08:00",
+      "duration_seconds": 6.162,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 13327,
+      "output_tokens": 490,
+      "total_tokens": 13817,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 13327,
+        "output_tokens": 490,
+        "total_tokens": 13817,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 37,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:35.972326+08:00",
+      "completed_at": "2026-08-24T03:05:42.389133+08:00",
+      "duration_seconds": 6.417,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5963,
+      "output_tokens": 608,
+      "total_tokens": 6571,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5963,
+        "output_tokens": 608,
+        "total_tokens": 6571,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 38,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:35.972349+08:00",
+      "completed_at": "2026-08-24T03:05:41.058982+08:00",
+      "duration_seconds": 5.087,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6175,
+      "output_tokens": 342,
+      "total_tokens": 6517,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 6175,
+        "output_tokens": 342,
+        "total_tokens": 6517,
+        "input_token_details": {
+          "cache_read": 6144
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 39,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:35.972371+08:00",
+      "completed_at": "2026-08-24T03:05:41.694970+08:00",
+      "duration_seconds": 5.723,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5028,
+      "output_tokens": 482,
+      "total_tokens": 5510,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5028,
+        "output_tokens": 482,
+        "total_tokens": 5510,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 43,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:36.562709+08:00",
+      "completed_at": "2026-08-24T03:05:42.993076+08:00",
+      "duration_seconds": 6.43,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3117,
+      "output_tokens": 546,
+      "total_tokens": 3663,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3117,
+        "output_tokens": 546,
+        "total_tokens": 3663,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 44,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:36.562793+08:00",
+      "completed_at": "2026-08-24T03:05:43.794880+08:00",
+      "duration_seconds": 7.232,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 15233,
+      "output_tokens": 601,
+      "total_tokens": 15834,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 15233,
+        "output_tokens": 601,
+        "total_tokens": 15834,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 45,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:36.562841+08:00",
+      "completed_at": "2026-08-24T03:05:43.448901+08:00",
+      "duration_seconds": 6.886,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 10713,
+      "output_tokens": 584,
+      "total_tokens": 11297,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 10713,
+        "output_tokens": 584,
+        "total_tokens": 11297,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 46,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:36.562871+08:00",
+      "completed_at": "2026-08-24T03:05:41.531707+08:00",
+      "duration_seconds": 4.969,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4128,
+      "output_tokens": 410,
+      "total_tokens": 4538,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4128,
+        "output_tokens": 410,
+        "total_tokens": 4538,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 47,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:36.562896+08:00",
+      "completed_at": "2026-08-24T03:05:43.974884+08:00",
+      "duration_seconds": 7.412,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4178,
+      "output_tokens": 677,
+      "total_tokens": 4855,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4178,
+        "output_tokens": 677,
+        "total_tokens": 4855,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 48,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:36.562926+08:00",
+      "completed_at": "2026-08-24T03:05:42.053915+08:00",
+      "duration_seconds": 5.491,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4973,
+      "output_tokens": 498,
+      "total_tokens": 5471,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4973,
+        "output_tokens": 498,
+        "total_tokens": 5471,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 49,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:36.562953+08:00",
+      "completed_at": "2026-08-24T03:05:43.042433+08:00",
+      "duration_seconds": 6.479,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5438,
+      "output_tokens": 548,
+      "total_tokens": 5986,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5438,
+        "output_tokens": 548,
+        "total_tokens": 5986,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 50,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:36.562986+08:00",
+      "completed_at": "2026-08-24T03:05:42.825498+08:00",
+      "duration_seconds": 6.263,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3039,
+      "output_tokens": 565,
+      "total_tokens": 3604,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3039,
+        "output_tokens": 565,
+        "total_tokens": 3604,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 51,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:36.563016+08:00",
+      "completed_at": "2026-08-24T03:05:43.893869+08:00",
+      "duration_seconds": 7.331,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 12006,
+      "output_tokens": 696,
+      "total_tokens": 12702,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 12006,
+        "output_tokens": 696,
+        "total_tokens": 12702,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 52,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:36.563042+08:00",
+      "completed_at": "2026-08-24T03:05:39.830320+08:00",
+      "duration_seconds": 3.267,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2415,
+      "output_tokens": 224,
+      "total_tokens": 2639,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2415,
+        "output_tokens": 224,
+        "total_tokens": 2639,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 53,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:36.563079+08:00",
+      "completed_at": "2026-08-24T03:05:44.745006+08:00",
+      "duration_seconds": 8.182,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 16787,
+      "output_tokens": 742,
+      "total_tokens": 17529,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 16787,
+        "output_tokens": 742,
+        "total_tokens": 17529,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 54,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:36.563114+08:00",
+      "completed_at": "2026-08-24T03:05:41.944132+08:00",
+      "duration_seconds": 5.381,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3799,
+      "output_tokens": 450,
+      "total_tokens": 4249,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3799,
+        "output_tokens": 450,
+        "total_tokens": 4249,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 55,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:36.563144+08:00",
+      "completed_at": "2026-08-24T03:05:42.273851+08:00",
+      "duration_seconds": 5.711,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7594,
+      "output_tokens": 462,
+      "total_tokens": 8056,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 7594,
+        "output_tokens": 462,
+        "total_tokens": 8056,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 56,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:36.563179+08:00",
+      "completed_at": "2026-08-24T03:05:41.166260+08:00",
+      "duration_seconds": 4.603,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5093,
+      "output_tokens": 362,
+      "total_tokens": 5455,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5093,
+        "output_tokens": 362,
+        "total_tokens": 5455,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 57,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:44.135152+08:00",
+      "completed_at": "2026-08-24T03:05:48.420556+08:00",
+      "duration_seconds": 4.285,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7825,
+      "output_tokens": 283,
+      "total_tokens": 8108,
+      "message_count": 4,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 7825,
+        "output_tokens": 283,
+        "total_tokens": 8108,
+        "input_token_details": {
+          "cache_read": 768
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 58,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:44.753682+08:00",
+      "completed_at": "2026-08-24T03:05:47.803262+08:00",
+      "duration_seconds": 3.05,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8791,
+      "output_tokens": 182,
+      "total_tokens": 8973,
+      "message_count": 4,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 8791,
+        "output_tokens": 182,
+        "total_tokens": 8973,
+        "input_token_details": {
+          "cache_read": 1024
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 59,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:45.154059+08:00",
+      "completed_at": "2026-08-24T03:05:48.030904+08:00",
+      "duration_seconds": 2.877,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 9853,
+      "output_tokens": 158,
+      "total_tokens": 10011,
+      "message_count": 4,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 9853,
+        "output_tokens": 158,
+        "total_tokens": 10011,
+        "input_token_details": {
+          "cache_read": 768
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 60,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:47.813542+08:00",
+      "completed_at": "2026-08-24T03:05:50.639603+08:00",
+      "duration_seconds": 2.826,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 9050,
+      "output_tokens": 123,
+      "total_tokens": 9173,
+      "message_count": 6,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 9050,
+        "output_tokens": 123,
+        "total_tokens": 9173,
+        "input_token_details": {
+          "cache_read": 8704
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 61,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:48.041808+08:00",
+      "completed_at": "2026-08-24T03:05:50.425171+08:00",
+      "duration_seconds": 2.383,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 10084,
+      "output_tokens": 138,
+      "total_tokens": 10222,
+      "message_count": 6,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 10084,
+        "output_tokens": 138,
+        "total_tokens": 10222,
+        "input_token_details": {
+          "cache_read": 9728
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 69,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:51.487092+08:00",
+      "completed_at": "2026-08-24T03:05:56.530405+08:00",
+      "duration_seconds": 5.043,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4998,
+      "output_tokens": 422,
+      "total_tokens": 5420,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4998,
+        "output_tokens": 422,
+        "total_tokens": 5420,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 70,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:51.487137+08:00",
+      "completed_at": "2026-08-24T03:05:59.117739+08:00",
+      "duration_seconds": 7.631,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 15596,
+      "output_tokens": 741,
+      "total_tokens": 16337,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 15596,
+        "output_tokens": 741,
+        "total_tokens": 16337,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 71,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:51.487156+08:00",
+      "completed_at": "2026-08-24T03:05:57.379522+08:00",
+      "duration_seconds": 5.892,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 16742,
+      "output_tokens": 510,
+      "total_tokens": 17252,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 16742,
+        "output_tokens": 510,
+        "total_tokens": 17252,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 72,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:51.487171+08:00",
+      "completed_at": "2026-08-24T03:05:58.437299+08:00",
+      "duration_seconds": 6.95,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8571,
+      "output_tokens": 583,
+      "total_tokens": 9154,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 8571,
+        "output_tokens": 583,
+        "total_tokens": 9154,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 73,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:51.487184+08:00",
+      "completed_at": "2026-08-24T03:05:57.470440+08:00",
+      "duration_seconds": 5.983,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4115,
+      "output_tokens": 490,
+      "total_tokens": 4605,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4115,
+        "output_tokens": 490,
+        "total_tokens": 4605,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 74,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:51.487319+08:00",
+      "completed_at": "2026-08-24T03:05:57.207884+08:00",
+      "duration_seconds": 5.721,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2744,
+      "output_tokens": 510,
+      "total_tokens": 3254,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2744,
+        "output_tokens": 510,
+        "total_tokens": 3254,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 75,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:51.487359+08:00",
+      "completed_at": "2026-08-24T03:05:56.830725+08:00",
+      "duration_seconds": 5.343,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5358,
+      "output_tokens": 417,
+      "total_tokens": 5775,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5358,
+        "output_tokens": 417,
+        "total_tokens": 5775,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 76,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:51.487383+08:00",
+      "completed_at": "2026-08-24T03:05:56.664983+08:00",
+      "duration_seconds": 5.178,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3581,
+      "output_tokens": 443,
+      "total_tokens": 4024,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3581,
+        "output_tokens": 443,
+        "total_tokens": 4024,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 77,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:51.487400+08:00",
+      "completed_at": "2026-08-24T03:05:58.335399+08:00",
+      "duration_seconds": 6.848,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7747,
+      "output_tokens": 683,
+      "total_tokens": 8430,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 7747,
+        "output_tokens": 683,
+        "total_tokens": 8430,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 78,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:51.487415+08:00",
+      "completed_at": "2026-08-24T03:05:56.560982+08:00",
+      "duration_seconds": 5.074,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2822,
+      "output_tokens": 428,
+      "total_tokens": 3250,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2822,
+        "output_tokens": 428,
+        "total_tokens": 3250,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 79,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:51.487427+08:00",
+      "completed_at": "2026-08-24T03:05:58.437526+08:00",
+      "duration_seconds": 6.95,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 10707,
+      "output_tokens": 567,
+      "total_tokens": 11274,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 10707,
+        "output_tokens": 567,
+        "total_tokens": 11274,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 80,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:51.487442+08:00",
+      "completed_at": "2026-08-24T03:05:57.332414+08:00",
+      "duration_seconds": 5.845,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 13722,
+      "output_tokens": 467,
+      "total_tokens": 14189,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 13722,
+        "output_tokens": 467,
+        "total_tokens": 14189,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 81,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:51.487455+08:00",
+      "completed_at": "2026-08-24T03:05:55.897656+08:00",
+      "duration_seconds": 4.41,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3159,
+      "output_tokens": 392,
+      "total_tokens": 3551,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3159,
+        "output_tokens": 392,
+        "total_tokens": 3551,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 82,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:51.487469+08:00",
+      "completed_at": "2026-08-24T03:05:57.188725+08:00",
+      "duration_seconds": 5.701,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 15186,
+      "output_tokens": 489,
+      "total_tokens": 15675,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 15186,
+        "output_tokens": 489,
+        "total_tokens": 15675,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 83,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:51.487483+08:00",
+      "completed_at": "2026-08-24T03:05:58.061399+08:00",
+      "duration_seconds": 6.574,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6359,
+      "output_tokens": 535,
+      "total_tokens": 6894,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 6359,
+        "output_tokens": 535,
+        "total_tokens": 6894,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 84,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:51.487496+08:00",
+      "completed_at": "2026-08-24T03:05:56.869468+08:00",
+      "duration_seconds": 5.382,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3180,
+      "output_tokens": 454,
+      "total_tokens": 3634,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3180,
+        "output_tokens": 454,
+        "total_tokens": 3634,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 85,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:51.487508+08:00",
+      "completed_at": "2026-08-24T03:05:57.403615+08:00",
+      "duration_seconds": 5.916,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7526,
+      "output_tokens": 502,
+      "total_tokens": 8028,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 7526,
+        "output_tokens": 502,
+        "total_tokens": 8028,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 97,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:53.728915+08:00",
+      "completed_at": "2026-08-24T03:06:01.864871+08:00",
+      "duration_seconds": 8.136,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5831,
+      "output_tokens": 797,
+      "total_tokens": 6628,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5831,
+        "output_tokens": 797,
+        "total_tokens": 6628,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 98,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:53.728977+08:00",
+      "completed_at": "2026-08-24T03:06:03.763569+08:00",
+      "duration_seconds": 10.035,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8766,
+      "output_tokens": 1028,
+      "total_tokens": 9794,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 8766,
+        "output_tokens": 1028,
+        "total_tokens": 9794,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 99,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:53.729007+08:00",
+      "completed_at": "2026-08-24T03:06:02.360218+08:00",
+      "duration_seconds": 8.631,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5822,
+      "output_tokens": 846,
+      "total_tokens": 6668,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5822,
+        "output_tokens": 846,
+        "total_tokens": 6668,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 100,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:53.729034+08:00",
+      "completed_at": "2026-08-24T03:05:59.432033+08:00",
+      "duration_seconds": 5.703,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3032,
+      "output_tokens": 509,
+      "total_tokens": 3541,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3032,
+        "output_tokens": 509,
+        "total_tokens": 3541,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 101,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:53.729059+08:00",
+      "completed_at": "2026-08-24T03:06:00.040902+08:00",
+      "duration_seconds": 6.312,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2900,
+      "output_tokens": 551,
+      "total_tokens": 3451,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2900,
+        "output_tokens": 551,
+        "total_tokens": 3451,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 102,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:53.729083+08:00",
+      "completed_at": "2026-08-24T03:06:01.437319+08:00",
+      "duration_seconds": 7.708,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3697,
+      "output_tokens": 660,
+      "total_tokens": 4357,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3697,
+        "output_tokens": 660,
+        "total_tokens": 4357,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 103,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:53.729106+08:00",
+      "completed_at": "2026-08-24T03:06:00.931647+08:00",
+      "duration_seconds": 7.203,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3215,
+      "output_tokens": 714,
+      "total_tokens": 3929,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3215,
+        "output_tokens": 714,
+        "total_tokens": 3929,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 104,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:53.729128+08:00",
+      "completed_at": "2026-08-24T03:06:00.613125+08:00",
+      "duration_seconds": 6.884,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3910,
+      "output_tokens": 659,
+      "total_tokens": 4569,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3910,
+        "output_tokens": 659,
+        "total_tokens": 4569,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 105,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:53.729149+08:00",
+      "completed_at": "2026-08-24T03:05:57.337362+08:00",
+      "duration_seconds": 3.608,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1553,
+      "output_tokens": 281,
+      "total_tokens": 1834,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1553,
+        "output_tokens": 281,
+        "total_tokens": 1834,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 106,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:53.729322+08:00",
+      "completed_at": "2026-08-24T03:06:00.333861+08:00",
+      "duration_seconds": 6.605,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6823,
+      "output_tokens": 618,
+      "total_tokens": 7441,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 6823,
+        "output_tokens": 618,
+        "total_tokens": 7441,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 107,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:53.729356+08:00",
+      "completed_at": "2026-08-24T03:06:02.654063+08:00",
+      "duration_seconds": 8.925,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4824,
+      "output_tokens": 904,
+      "total_tokens": 5728,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4824,
+        "output_tokens": 904,
+        "total_tokens": 5728,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 108,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:53.729380+08:00",
+      "completed_at": "2026-08-24T03:05:58.540240+08:00",
+      "duration_seconds": 4.811,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1832,
+      "output_tokens": 401,
+      "total_tokens": 2233,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1832,
+        "output_tokens": 401,
+        "total_tokens": 2233,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 109,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:53.729404+08:00",
+      "completed_at": "2026-08-24T03:06:01.367508+08:00",
+      "duration_seconds": 7.638,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5320,
+      "output_tokens": 774,
+      "total_tokens": 6094,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5320,
+        "output_tokens": 774,
+        "total_tokens": 6094,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 110,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:53.729429+08:00",
+      "completed_at": "2026-08-24T03:06:01.491184+08:00",
+      "duration_seconds": 7.762,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 15788,
+      "output_tokens": 729,
+      "total_tokens": 16517,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 15788,
+        "output_tokens": 729,
+        "total_tokens": 16517,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 111,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:53.729462+08:00",
+      "completed_at": "2026-08-24T03:05:59.690472+08:00",
+      "duration_seconds": 5.961,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1847,
+      "output_tokens": 545,
+      "total_tokens": 2392,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1847,
+        "output_tokens": 545,
+        "total_tokens": 2392,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 117,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:54.335617+08:00",
+      "completed_at": "2026-08-24T03:06:01.058611+08:00",
+      "duration_seconds": 6.723,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 16527,
+      "output_tokens": 605,
+      "total_tokens": 17132,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 16527,
+        "output_tokens": 605,
+        "total_tokens": 17132,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 118,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:54.335700+08:00",
+      "completed_at": "2026-08-24T03:05:59.544275+08:00",
+      "duration_seconds": 5.209,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6505,
+      "output_tokens": 445,
+      "total_tokens": 6950,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 6505,
+        "output_tokens": 445,
+        "total_tokens": 6950,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 119,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:54.335750+08:00",
+      "completed_at": "2026-08-24T03:05:58.673646+08:00",
+      "duration_seconds": 4.338,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3251,
+      "output_tokens": 295,
+      "total_tokens": 3546,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3251,
+        "output_tokens": 295,
+        "total_tokens": 3546,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 120,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:54.335784+08:00",
+      "completed_at": "2026-08-24T03:05:57.589653+08:00",
+      "duration_seconds": 3.254,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1473,
+      "output_tokens": 225,
+      "total_tokens": 1698,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1473,
+        "output_tokens": 225,
+        "total_tokens": 1698,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 121,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:54.335819+08:00",
+      "completed_at": "2026-08-24T03:05:57.772782+08:00",
+      "duration_seconds": 3.437,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1833,
+      "output_tokens": 209,
+      "total_tokens": 2042,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1833,
+        "output_tokens": 209,
+        "total_tokens": 2042,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 122,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:54.335846+08:00",
+      "completed_at": "2026-08-24T03:06:00.985248+08:00",
+      "duration_seconds": 6.649,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 17423,
+      "output_tokens": 632,
+      "total_tokens": 18055,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 17423,
+        "output_tokens": 632,
+        "total_tokens": 18055,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 123,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:54.335877+08:00",
+      "completed_at": "2026-08-24T03:06:01.585252+08:00",
+      "duration_seconds": 7.249,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3367,
+      "output_tokens": 720,
+      "total_tokens": 4087,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3367,
+        "output_tokens": 720,
+        "total_tokens": 4087,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 124,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:54.335913+08:00",
+      "completed_at": "2026-08-24T03:06:01.074575+08:00",
+      "duration_seconds": 6.739,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8571,
+      "output_tokens": 512,
+      "total_tokens": 9083,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 8571,
+        "output_tokens": 512,
+        "total_tokens": 9083,
+        "input_token_details": {
+          "cache_read": 8448
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 125,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:54.335942+08:00",
+      "completed_at": "2026-08-24T03:06:03.781718+08:00",
+      "duration_seconds": 9.446,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 11501,
+      "output_tokens": 872,
+      "total_tokens": 12373,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 11501,
+        "output_tokens": 872,
+        "total_tokens": 12373,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 126,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:54.335974+08:00",
+      "completed_at": "2026-08-24T03:06:01.327366+08:00",
+      "duration_seconds": 6.991,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7695,
+      "output_tokens": 603,
+      "total_tokens": 8298,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 7695,
+        "output_tokens": 603,
+        "total_tokens": 8298,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 127,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:54.336006+08:00",
+      "completed_at": "2026-08-24T03:06:01.050344+08:00",
+      "duration_seconds": 6.714,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6781,
+      "output_tokens": 597,
+      "total_tokens": 7378,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 6781,
+        "output_tokens": 597,
+        "total_tokens": 7378,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 128,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:54.336040+08:00",
+      "completed_at": "2026-08-24T03:06:02.359970+08:00",
+      "duration_seconds": 8.024,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7919,
+      "output_tokens": 762,
+      "total_tokens": 8681,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 7919,
+        "output_tokens": 762,
+        "total_tokens": 8681,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 129,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:54.336072+08:00",
+      "completed_at": "2026-08-24T03:06:11.347903+08:00",
+      "duration_seconds": 17.012,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 10566,
+      "output_tokens": 1833,
+      "total_tokens": 12399,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 10566,
+        "output_tokens": 1833,
+        "total_tokens": 12399,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 130,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:54.336103+08:00",
+      "completed_at": "2026-08-24T03:06:00.218943+08:00",
+      "duration_seconds": 5.883,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 16782,
+      "output_tokens": 502,
+      "total_tokens": 17284,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 16782,
+        "output_tokens": 502,
+        "total_tokens": 17284,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 131,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:54.336129+08:00",
+      "completed_at": "2026-08-24T03:06:01.914372+08:00",
+      "duration_seconds": 7.578,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5647,
+      "output_tokens": 697,
+      "total_tokens": 6344,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5647,
+        "output_tokens": 697,
+        "total_tokens": 6344,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 132,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:54.336156+08:00",
+      "completed_at": "2026-08-24T03:05:59.953161+08:00",
+      "duration_seconds": 5.617,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3910,
+      "output_tokens": 546,
+      "total_tokens": 4456,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3910,
+        "output_tokens": 546,
+        "total_tokens": 4456,
+        "input_token_details": {
+          "cache_read": 3840
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 133,
+      "status": "completed",
+      "started_at": "2026-08-24T03:05:59.126807+08:00",
+      "completed_at": "2026-08-24T03:06:03.682323+08:00",
+      "duration_seconds": 4.556,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 19374,
+      "output_tokens": 340,
+      "total_tokens": 19714,
+      "message_count": 7,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 19374,
+        "output_tokens": 340,
+        "total_tokens": 19714,
+        "input_token_details": {
+          "cache_read": 7680
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 134,
+      "status": "completed",
+      "started_at": "2026-08-24T03:06:03.694331+08:00",
+      "completed_at": "2026-08-24T03:06:06.033606+08:00",
+      "duration_seconds": 2.339,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 19947,
+      "output_tokens": 43,
+      "total_tokens": 19990,
+      "message_count": 9,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 19947,
+        "output_tokens": 43,
+        "total_tokens": 19990,
+        "input_token_details": {
+          "cache_read": 19200
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 135,
+      "status": "completed",
+      "started_at": "2026-08-24T03:06:03.773427+08:00",
+      "completed_at": "2026-08-24T03:06:06.885174+08:00",
+      "duration_seconds": 3.112,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 22222,
+      "output_tokens": 176,
+      "total_tokens": 22398,
+      "message_count": 8,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 22222,
+        "output_tokens": 176,
+        "total_tokens": 22398,
+        "input_token_details": {
+          "cache_read": 8960
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 136,
+      "status": "completed",
+      "started_at": "2026-08-24T03:06:06.041124+08:00",
+      "completed_at": "2026-08-24T03:07:17.396699+08:00",
+      "duration_seconds": 71.355,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 19719,
+      "output_tokens": 8221,
+      "total_tokens": 27940,
+      "message_count": 12,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 19719,
+        "output_tokens": 8221,
+        "total_tokens": 27940,
+        "input_token_details": {
+          "cache_read": 512
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "end_turn"
+    },
+    {
+      "sequence": 137,
+      "status": "completed",
+      "started_at": "2026-08-24T03:06:06.892494+08:00",
+      "completed_at": "2026-08-24T03:07:12.630033+08:00",
+      "duration_seconds": 65.737,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 21994,
+      "output_tokens": 7666,
+      "total_tokens": 29660,
+      "message_count": 11,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 21994,
+        "output_tokens": 7666,
+        "total_tokens": 29660,
+        "input_token_details": {
+          "cache_read": 512
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "end_turn"
+    },
+    {
+      "sequence": 138,
+      "status": "completed",
+      "started_at": "2026-08-24T03:06:11.358007+08:00",
+      "completed_at": "2026-08-24T03:06:19.099552+08:00",
+      "duration_seconds": 7.742,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 23224,
+      "output_tokens": 616,
+      "total_tokens": 23840,
+      "message_count": 8,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 23224,
+        "output_tokens": 616,
+        "total_tokens": 23840,
+        "input_token_details": {
+          "cache_read": 9984
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 139,
+      "status": "completed",
+      "started_at": "2026-08-24T03:06:19.110524+08:00",
+      "completed_at": "2026-08-24T03:06:21.399395+08:00",
+      "duration_seconds": 2.289,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 23595,
+      "output_tokens": 47,
+      "total_tokens": 23642,
+      "message_count": 10,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 23595,
+        "output_tokens": 47,
+        "total_tokens": 23642,
+        "input_token_details": {
+          "cache_read": 23040
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 140,
+      "status": "completed",
+      "started_at": "2026-08-24T03:06:21.407377+08:00",
+      "completed_at": "2026-08-24T03:07:33.242216+08:00",
+      "duration_seconds": 71.835,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 23367,
+      "output_tokens": 8767,
+      "total_tokens": 32134,
+      "message_count": 13,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 23367,
+        "output_tokens": 8767,
+        "total_tokens": 32134,
+        "input_token_details": {
+          "cache_read": 512
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "end_turn"
+    },
+    {
+      "sequence": 141,
+      "status": "completed",
+      "started_at": "2026-08-24T03:07:33.255430+08:00",
+      "completed_at": "2026-08-24T03:07:42.482844+08:00",
+      "duration_seconds": 9.227,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 26644,
+      "output_tokens": 928,
+      "total_tokens": 27572,
+      "message_count": 8,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 26644,
+        "output_tokens": 928,
+        "total_tokens": 27572,
+        "input_token_details": {
+          "cache_read": 1536
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 142,
+      "status": "completed",
+      "started_at": "2026-08-24T03:07:42.491629+08:00",
+      "completed_at": "2026-08-24T03:07:44.742110+08:00",
+      "duration_seconds": 2.25,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 27175,
+      "output_tokens": 56,
+      "total_tokens": 27231,
+      "message_count": 10,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 27175,
+        "output_tokens": 56,
+        "total_tokens": 27231,
+        "input_token_details": {
+          "cache_read": 26624
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 143,
+      "status": "completed",
+      "started_at": "2026-08-24T03:07:44.749627+08:00",
+      "completed_at": "2026-08-24T03:08:55.523849+08:00",
+      "duration_seconds": 70.774,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 25916,
+      "output_tokens": 8633,
+      "total_tokens": 34549,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 25916,
+        "output_tokens": 8633,
+        "total_tokens": 34549,
+        "input_token_details": {},
+        "output_token_details": {}
+      },
+      "finish_reason": "end_turn"
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "status": "completed",
+      "query": "Google A2A agent interoperability protocol announcement 2024 2025",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.21,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Google A2A Protocol: How Agent-to-Agent Coordination ...",
+          "url": "https://atlan.com/know/google-a2a-protocol",
+          "score": 0.91901255,
+          "raw_content_available": true,
+          "raw_content_length": 68296,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Google A2A Protocol: Agent-to-Agent Communication Guide",
+          "url": "https://www.digitalapplied.com/blog/google-a2a-protocol-agent-to-agent-communication-guide",
+          "score": 0.9184877,
+          "raw_content_available": true,
+          "raw_content_length": 24988,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Google announces A2A protocol for AI agents at Cloud Next 2025 - LinkedIn",
+          "url": "https://www.linkedin.com/posts/mikhailbaklanov_announcing-the-agent2agent-protocol-a2a-activity-7315976730186293249-Fu5c",
+          "score": 0.9119436,
+          "raw_content_available": true,
+          "raw_content_length": 15072,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Announcing the Agent2Agent Protocol (A2A)",
+          "url": "https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability",
+          "score": 0.90985113,
+          "raw_content_available": true,
+          "raw_content_length": 30673,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Google's Agent2Agent Protocol Explained",
+          "url": "https://galileo.ai/blog/google-agent2agent-a2a-protocol-guide",
+          "score": 0.8961153,
+          "raw_content_available": true,
+          "raw_content_length": 21577,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 7,
+      "timestamp": "2026-08-24T03:05:35.304519+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "A2A MCP protocol relationship complementary AI stack",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.665,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Agent protocols: A complete guide to MCP, A2A, and ACP",
+          "url": "https://tyk.io/learning-center/agent-protocols-a-complete-guide-to-mcp-a2a-and-acp",
+          "score": 0.8173562,
+          "raw_content_available": true,
+          "raw_content_length": 25454,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "MCP vs A2A: Protocols for Multi-Agent Collaboration 2026",
+          "url": "https://onereach.ai/blog/guide-choosing-mcp-vs-a2a-protocols",
+          "score": 0.7935067,
+          "raw_content_available": true,
+          "raw_content_length": 21048,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "MCP vs A2A Protocol",
+          "url": "https://www.theunwindai.com/p/mcp-vs-a2a-complementing-or-supplementing",
+          "score": 0.7440808,
+          "raw_content_available": true,
+          "raw_content_length": 18580,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "A2A vs MCP: The Two Protocols Reshaping How AI Systems Talk to Each Other",
+          "url": "https://aishwaryasrinivasan.substack.com/p/a2a-vs-mcp-the-two-protocols-reshaping",
+          "score": 0.7018975,
+          "raw_content_available": true,
+          "raw_content_length": 10169,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "What is MCP and A2A [How AI agents use tools and APIs EXPLAINED]",
+          "url": "https://www.youtube.com/watch?v=nIf_b4GQpII",
+          "score": 0.6999322,
+          "raw_content_available": true,
+          "raw_content_length": 4959,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 8,
+      "timestamp": "2026-08-24T03:05:35.361017+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Google A2A Agent-to-Agent protocol vs Anthropic MCP Model Context Protocol comparison",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.868,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "\"A2A vs MCP: Two AI protocols compared\" | Ashish Bhatia posted on the topic | LinkedIn",
+          "url": "https://www.linkedin.com/posts/ashbhatia_multiagent-agenthandoff-mcp-activity-7315947664049659904-YKp3",
+          "score": 0.9322132,
+          "raw_content_available": true,
+          "raw_content_length": 58565,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Google's Agent-to-Agent (A2A) and Anthropic's Model ...",
+          "url": "https://www.gravitee.io/blog/googles-agent-to-agent-a2a-and-anthropics-model-context-protocol-mcp",
+          "score": 0.9174287,
+          "raw_content_available": true,
+          "raw_content_length": 23840,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "MCP vs A2A | Google's Answer to Anthropic's Protocol",
+          "url": "https://www.youtube.com/watch?v=vVMlEBMIdKo&vl=en",
+          "score": 0.8898454,
+          "raw_content_available": true,
+          "raw_content_length": 14185,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Agent-to-Agent (A2A) vs. Model Context Protocol (MCP): When to Use Which? | Stride",
+          "url": "https://www.stride.build/blog/agent-to-agent-a2a-vs-model-context-protocol-mcp-when-to-use-which",
+          "score": 0.87782305,
+          "raw_content_available": true,
+          "raw_content_length": 9763,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "An Unbiased Comparison of MCP, ACP, and A2A Protocols",
+          "url": "https://medium.com/@sandibesen/an-unbiased-comparison-of-mcp-acp-and-a2a-protocols-0b45923a20f3",
+          "score": 0.8497846,
+          "raw_content_available": true,
+          "raw_content_length": 5937,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 9,
+      "timestamp": "2026-08-24T03:05:35.552878+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Google A2A protocol announcement 2025",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 3.087,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Announcing the Agent2Agent Protocol (A2A)",
+          "url": "https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability",
+          "score": 0.92857105,
+          "raw_content_available": true,
+          "raw_content_length": 30673,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Best of 2025: Google Cloud Unveils Agent2Agent Protocol: A New Standard for AI Agent Interoperability - Platform Engineering",
+          "url": "https://platformengineering.com/editorial-calendar/best-of-2025/google-cloud-unveils-agent2agent-protocol-a-new-standard-for-ai-agent-interoperability-2",
+          "score": 0.92794675,
+          "raw_content_available": true,
+          "raw_content_length": 6861,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Google announces A2A protocol for AI agents at Cloud ...",
+          "url": "https://www.linkedin.com/posts/mikhailbaklanov_announcing-the-agent2agent-protocol-a2a-activity-7315976730186293249-Fu5c",
+          "score": 0.9242583,
+          "raw_content_available": true,
+          "raw_content_length": 15072,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Google A2A Protocol in 2026: Adoption, Hype, and Reality",
+          "url": "https://www.glukhov.org/ai-systems/comparisons/a2a-protocol-2026-adoption",
+          "score": 0.91760606,
+          "raw_content_available": true,
+          "raw_content_length": 30362,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Google's A2A protocol gets a new home",
+          "url": "https://www.axios.com/2026/08/17/a2a-agentic-ai-foundation-open-ai-standards",
+          "score": 0.86358756,
+          "raw_content_available": true,
+          "raw_content_length": 6314,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 10,
+      "timestamp": "2026-08-24T03:05:35.790393+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Google A2A Agent-to-Agent protocol official documentation",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.751,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Getting Started with Agent2Agent (A2A) Protocol: A Purchasing Concierge and Remote Seller Agent Interactions on Cloud Run and Agent Engine  |  Google Codelabs",
+          "url": "https://codelabs.developers.google.com/intro-a2a-purchasing-concierge",
+          "score": 0.8820324,
+          "raw_content_available": true,
+          "raw_content_length": 62907,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "About Agent2Agent.Info - The Agent2Agent Protocol Technology Hub – A2A Protocol - Agent智能体通信开放标准",
+          "url": "https://a2acn.com/en/about",
+          "score": 0.85995835,
+          "raw_content_available": true,
+          "raw_content_length": 4300,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "A2A Protocol Technical Documentation – Agent2Agent Protocol - The A2A Protocol Community",
+          "url": "https://agent2agent.info/docs",
+          "score": 0.8571119,
+          "raw_content_available": true,
+          "raw_content_length": 1010,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Announcing the Agent2Agent Protocol (A2A)",
+          "url": "https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability",
+          "score": 0.826278,
+          "raw_content_available": true,
+          "raw_content_length": 30673,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "What is A2A protocol (Agent2Agent)? - IBM",
+          "url": "https://www.ibm.com/think/topics/agent2agent-protocol",
+          "score": 0.81595254,
+          "raw_content_available": true,
+          "raw_content_length": 17280,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 26,
+      "timestamp": "2026-08-24T03:05:35.827452+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Google A2A protocol specification architecture design principles",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.875,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "A2A Protocol: Scope, Core Components, Security, and ... - ZBrain",
+          "url": "https://zbrain.ai/understanding-the-a2a-protocol",
+          "score": 0.86052185,
+          "raw_content_available": true,
+          "raw_content_length": 61290,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Google's A2A and Anthropic's MCP: In-Depth Analysis - iKala",
+          "url": "https://ikala.ai/blog/ai-trends/an-in-depth-analysis-of-googles-a2a-protocol-and-its-relationship-with-anthropics-mcp-en",
+          "score": 0.85216236,
+          "raw_content_available": true,
+          "raw_content_length": 59571,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "A2A Protocol: An In-Depth Guide",
+          "url": "https://medium.com/@saeedhajebi/a2a-protocol-an-in-depth-guide-78387f992f59",
+          "score": 0.8296166,
+          "raw_content_available": true,
+          "raw_content_length": 11893,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Announcing the Agent2Agent Protocol (A2A)",
+          "url": "https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability",
+          "score": 0.8232293,
+          "raw_content_available": true,
+          "raw_content_length": 30673,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "What is A2A protocol (Agent2Agent)? - IBM",
+          "url": "https://www.ibm.com/think/topics/agent2agent-protocol",
+          "score": 0.6238588,
+          "raw_content_available": true,
+          "raw_content_length": 17280,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 27,
+      "timestamp": "2026-08-24T03:05:35.961014+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "MCP Model Context Protocol GitHub repository Anthropic",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.732,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "GitHub - madhukarkumar/anthropic-mcp-servers: Model Context Protocol Servers · GitHub",
+          "url": "https://github.com/madhukarkumar/anthropic-mcp-servers",
+          "score": 0.8812988,
+          "raw_content_available": true,
+          "raw_content_length": 52394,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Model Context Protocol for GitHub Integration | by Eleventh Hour Enthusiast | Medium",
+          "url": "https://medium.com/@EleventhHourEnthusiast/model-context-protocol-for-github-integration-0605ecf29f96",
+          "score": 0.8646883,
+          "raw_content_available": true,
+          "raw_content_length": 13603,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Model Context Protocol (MCP)",
+          "url": "https://www.blackhillsinfosec.com/model-context-protocol",
+          "score": 0.85097736,
+          "raw_content_available": true,
+          "raw_content_length": 9178,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Microsoft partners with Anthropic to create official C# SDK for Model Context Protocol - Microsoft for Developers",
+          "url": "https://developer.microsoft.com/blog/microsoft-partners-with-anthropic-to-create-official-c-sdk-for-model-context-protocol",
+          "score": 0.7978881,
+          "raw_content_available": true,
+          "raw_content_length": 24643,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Model Context Protocol - GitHub",
+          "url": "https://github.com/modelcontextprotocol",
+          "score": 0.73138535,
+          "raw_content_available": true,
+          "raw_content_length": 14600,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 40,
+      "timestamp": "2026-08-24T03:05:36.292846+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Anthropic Model Context Protocol MCP official documentation 2024 2025",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.761,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Medium",
+          "url": "https://mirilittleme.medium.com/the-model-context-protocol-how-mcp-became-the-usb-c-of-ai-in-just-one-year-11a15e3611d2",
+          "score": 0.8729662,
+          "raw_content_available": true,
+          "raw_content_length": 9024,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Model Context Protocol",
+          "url": "https://en.wikipedia.org/wiki/Model_Context_Protocol",
+          "score": 0.8655088,
+          "raw_content_available": true,
+          "raw_content_length": 67827,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Model Context Protocol (MCP): Landscape, Security ...",
+          "url": "https://arxiv.org/pdf/2503.23278",
+          "score": 0.78214747,
+          "raw_content_available": true,
+          "raw_content_length": 154681,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Introducing the Model Context Protocol",
+          "url": "https://www.anthropic.com/news/model-context-protocol",
+          "score": 0.585789,
+          "raw_content_available": true,
+          "raw_content_length": 11628,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Code execution with MCP: building more efficient AI agents",
+          "url": "https://www.anthropic.com/engineering/code-execution-with-mcp",
+          "score": 0.5752307,
+          "raw_content_available": true,
+          "raw_content_length": 14267,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 41,
+      "timestamp": "2026-08-24T03:05:36.305630+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Model Context Protocol MCP specification architecture design principles Anthropic",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.996,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "What is Anthropic's Model Context Protocol (MCP)?",
+          "url": "https://blog.promptlayer.com/mcp",
+          "score": 0.85967577,
+          "raw_content_available": true,
+          "raw_content_length": 15695,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Anthropic's Model Context Protocol (MCP): A Deep Dive for ...",
+          "url": "https://medium.com/@amanatulla1606/anthropics-model-context-protocol-mcp-a-deep-dive-for-developers-1d3db39c9fdc",
+          "score": 0.84027237,
+          "raw_content_available": true,
+          "raw_content_length": 22255,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Model Context Protocol (MCP)",
+          "url": "https://www.blackhillsinfosec.com/model-context-protocol",
+          "score": 0.8033131,
+          "raw_content_available": true,
+          "raw_content_length": 9178,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "What is Model Context Protocol (MCP)? A guide",
+          "url": "https://cloud.google.com/discover/what-is-model-context-protocol",
+          "score": 0.75027883,
+          "raw_content_available": true,
+          "raw_content_length": 96000,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Specification",
+          "url": "https://modelcontextprotocol.io/specification/2026-07-28",
+          "score": 0.7206637,
+          "raw_content_available": true,
+          "raw_content_length": 5899,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 42,
+      "timestamp": "2026-08-24T03:05:36.549892+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "A2A agent card specification JSON schema",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 1.957,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Agent Card v1.0 Schema Specification · GitHub",
+          "url": "https://gist.github.com/SecureAgentTools/0815a2de9cc31c71468afd3d2eef260a",
+          "score": 0.9006087,
+          "raw_content_available": true,
+          "raw_content_length": 6256,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Agent Card Schema - CapiscIO Documentation",
+          "url": "https://docs.capisc.io/reference/agent-card-schema",
+          "score": 0.89166987,
+          "raw_content_available": true,
+          "raw_content_length": 15279,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "JSON schemas | Agent Registry",
+          "url": "https://docs.cloud.google.com/agent-registry/json-schemas",
+          "score": 0.8914433,
+          "raw_content_available": true,
+          "raw_content_length": 9309,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "A2A Protocol: The Definitive Agent-to-Agent Guide",
+          "url": "https://tyk.io/learning-center/a2a-protocol-architecture-and-technical-specification",
+          "score": 0.8296166,
+          "raw_content_available": true,
+          "raw_content_length": 27997,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "AgentCard – Agent2Agent Protocol - The A2A Protocol Community",
+          "url": "https://agent2agent.info/docs/concepts/agentcard",
+          "score": 0.8282873,
+          "raw_content_available": true,
+          "raw_content_length": 7813,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 62,
+      "timestamp": "2026-08-24T03:05:50.394616+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "A2A protocol update 2026 Linux Foundation adoption",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.557,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Linux Foundation A2A Protocol Marks One Year with Broad Enterprise and Cloud Adoption",
+          "url": "https://www.hpcwire.com/aiwire/2026/04/09/linux-foundation-a2a-protocol-marks-one-year-with-broad-enterprise-and-cloud-adoption",
+          "score": 0.9353998,
+          "raw_content_available": true,
+          "raw_content_length": 78590,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "A2A Protocol Guide 2026 [April Update + Agent Directory] | Rapid Claw",
+          "url": "https://rapidclaw.dev/blog/a2a-protocol-complete-guide-2026",
+          "score": 0.9152729,
+          "raw_content_available": true,
+          "raw_content_length": 21273,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "A2A Protocol Surpasses 150 Organizations, Lands in ...",
+          "url": "https://www.linuxfoundation.org/press/a2a-protocol-surpasses-150-organizations-lands-in-major-cloud-platforms-and-sees-enterprise-production-use-in-first-year",
+          "score": 0.91399205,
+          "raw_content_available": true,
+          "raw_content_length": 9472,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "A2A Protocol Surpasses 150 Organizations, Lands in ...",
+          "url": "https://www.prnewswire.com/news-releases/a2a-protocol-surpasses-150-organizations-lands-in-major-cloud-platforms-and-sees-enterprise-production-use-in-first-year-302737641.html",
+          "score": 0.9104262,
+          "raw_content_available": true,
+          "raw_content_length": 18466,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Google A2A Protocol in 2026: Adoption, Hype, and Reality",
+          "url": "https://www.glukhov.org/ai-systems/comparisons/a2a-protocol-2026-adoption",
+          "score": 0.9055316,
+          "raw_content_available": true,
+          "raw_content_length": 30362,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 63,
+      "timestamp": "2026-08-24T03:05:51.007837+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Google A2A protocol GitHub repository specification",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.604,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "GitHub - a2aproject/a2a-samples: Samples using the Agent2Agent (A2A) Protocol · GitHub",
+          "url": "https://github.com/a2aproject/a2a-samples",
+          "score": 0.8252664,
+          "raw_content_available": true,
+          "raw_content_length": 12698,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Official Python SDK for the Agent2Agent (A2A) Protocol - GitHub",
+          "url": "https://github.com/a2aproject/a2a-python",
+          "score": 0.81097376,
+          "raw_content_available": true,
+          "raw_content_length": 87324,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Agent2Agent (A2A) is an open protocol enabling ...",
+          "url": "https://github.com/a2aproject/A2A",
+          "score": 0.72629017,
+          "raw_content_available": true,
+          "raw_content_length": 56477,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Mastering Google's A2A Protocol: The Complete Guide to Agent ... - Cybage",
+          "url": "https://www.cybage.com/blog/mastering-google-s-a2a-protocol-the-complete-guide-to-agent-to-agent-communication",
+          "score": 0.60861784,
+          "raw_content_available": true,
+          "raw_content_length": 31710,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Medium",
+          "url": "https://medium.com/@shamim_ru/google-agent-to-agent-a2a-protocol-explained-with-real-working-examples-99e362b61ba8",
+          "score": 0.6033015,
+          "raw_content_available": true,
+          "raw_content_length": 11890,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 64,
+      "timestamp": "2026-08-24T03:05:51.031118+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Google A2A protocol security authentication OAuth 2.0",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.961,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Google's Agent2Agent Protocol Explained",
+          "url": "https://galileo.ai/blog/google-agent2agent-a2a-protocol-guide",
+          "score": 0.8708723,
+          "raw_content_available": true,
+          "raw_content_length": 21577,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "A2A Protocol: Scope, Core Components, Security, and ... - ZBrain",
+          "url": "https://zbrain.ai/understanding-the-a2a-protocol",
+          "score": 0.8708723,
+          "raw_content_available": true,
+          "raw_content_length": 61290,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Improving Google A2A Protocol: Protecting Sensitive Data ...",
+          "url": "https://arxiv.org/pdf/2505.12490",
+          "score": 0.8622012,
+          "raw_content_available": true,
+          "raw_content_length": 70052,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Safeguarding AI Agents: A2A Protocol Security Guide",
+          "url": "https://live.paloaltonetworks.com/t5/community-blogs/safeguarding-ai-agents-an-in-depth-look-at-a2a-protocol-risks/ba-p/1235996",
+          "score": 0.8138313,
+          "raw_content_available": true,
+          "raw_content_length": 201816,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "How to Secure Your A2A Server Agent with Keycloak OAuth2 - Medium",
+          "url": "https://medium.com/google-cloud/how-to-secure-your-a2a-server-agent-with-keycloak-oauth2-6112810ec7bb",
+          "score": 0.8020137,
+          "raw_content_available": true,
+          "raw_content_length": 7624,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 65,
+      "timestamp": "2026-08-24T03:05:51.406182+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "A2A MCP integration architecture diagram layered stack agentic AI",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.358,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "MCP and A2A: The Architecture Behind Agentic AI",
+          "url": "https://schemasauce.com/mcp-and-a2a",
+          "score": 0.81524754,
+          "raw_content_available": true,
+          "raw_content_length": 10933,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Mastering Google's A2A Protocol: The Complete Guide to Agent ... - Cybage",
+          "url": "https://www.cybage.com/blog/mastering-google-s-a2a-protocol-the-complete-guide-to-agent-to-agent-communication",
+          "score": 0.7982658,
+          "raw_content_available": true,
+          "raw_content_length": 31710,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Architecting Agentic MLOps: a Layered Protocol Strategy with A2A and MCP - InfoQ",
+          "url": "https://www.infoq.com/articles/architecting-agentic-mlops-a2a-mcp",
+          "score": 0.7892503,
+          "raw_content_available": true,
+          "raw_content_length": 46091,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "MCP vs A2A: Architecture, Security, and When to Use Each | StackOne",
+          "url": "https://www.stackone.com/blog/mcp-vs-a2a-protocol",
+          "score": 0.7587435,
+          "raw_content_available": true,
+          "raw_content_length": 29945,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "The Agent Protocol Stack: Why MCP + A2A + A2UI Is the TCP/IP Moment for Agentic AI | Subhadip Mitra",
+          "url": "https://subhadipmitra.com/blog/2026/agent-protocol-stack",
+          "score": 0.7555112,
+          "raw_content_available": true,
+          "raw_content_length": 23584,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 86,
+      "timestamp": "2026-08-24T03:05:52.809492+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Agentic AI Foundation AAIF Linux Foundation MCP December 2025",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.312,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Linux Foundation Announces the Formation of the Agentic AI Foundation (AAIF), Anchored by New Project Contributions Including Model Context Protocol (MCP), goose and AGENTS.md",
+          "url": "https://www.linuxfoundation.org/press/linux-foundation-announces-the-formation-of-the-agentic-ai-foundation",
+          "score": 0.91435975,
+          "raw_content_available": true,
+          "raw_content_length": 13104,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Agentic AI Foundation | SAP Architecture Center",
+          "url": "https://architecture.learning.sap.com/docs/global-standards-for-agentic-ai/agentic-ai-foundation",
+          "score": 0.9123193,
+          "raw_content_available": true,
+          "raw_content_length": 1944,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Agentic AI Foundation (AAIF): Open Standards Guide",
+          "url": "https://amquesteducation.com/blog/agentic-ai-foundation-aaif",
+          "score": 0.902481,
+          "raw_content_available": true,
+          "raw_content_length": 25123,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Agentic AI Foundation: Open Source Agent Standards",
+          "url": "https://www.digitalapplied.com/blog/agentic-ai-foundation-open-source-agents",
+          "score": 0.8891543,
+          "raw_content_available": true,
+          "raw_content_length": 17755,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "MCP joins the Agentic AI Foundation | Model Context Protocol Blog",
+          "url": "https://blog.modelcontextprotocol.io/posts/2025-12-09-mcp-joins-agentic-ai-foundation",
+          "score": 0.8687491,
+          "raw_content_available": true,
+          "raw_content_length": 3209,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 87,
+      "timestamp": "2026-08-24T03:05:52.971177+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Agentic AI Foundation AAIF A2A MCP governance 2026",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.762,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "What Is the Agentic AI Foundation (AAIF)? 2026 Guide",
+          "url": "https://alatirok.com/agentic-ai-foundation",
+          "score": 0.8687491,
+          "raw_content_available": true,
+          "raw_content_length": 27694,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Agent Interoperability Protocols 2026: MCP, A2A, ACP and the Path to Convergence | Zylos Research",
+          "url": "https://zylos.ai/research/2026-03-26-agent-interoperability-protocols-mcp-a2a-acp-convergence",
+          "score": 0.85509074,
+          "raw_content_available": true,
+          "raw_content_length": 46740,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Agentic AI Foundation (AAIF) - Agentic AI Foundation (AAIF)",
+          "url": "https://aaif.io",
+          "score": 0.8467682,
+          "raw_content_available": true,
+          "raw_content_length": 34098,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "What the AAIF Means for MCP and Agentic AI",
+          "url": "https://gingerlabs.ai/blog/agentic-ai-foundation-aaif-mcp-future-of-agentic-ai",
+          "score": 0.8437023,
+          "raw_content_available": true,
+          "raw_content_length": 18984,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Linux Foundation Announces the Formation of the Agentic AI Foundation (AAIF), Anchored by New Project Contributions Including Model Context Protocol (MCP), goose and AGENTS.md",
+          "url": "https://www.linuxfoundation.org/press/linux-foundation-announces-the-formation-of-the-agentic-ai-foundation",
+          "score": 0.8091708,
+          "raw_content_available": true,
+          "raw_content_length": 13104,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 88,
+      "timestamp": "2026-08-24T03:05:53.219617+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "modelcontextprotocol.io specification latest 2026",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.727,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "The 2026-07-28 Specification",
+          "url": "https://blog.modelcontextprotocol.io/posts/2026-07-28",
+          "score": 0.9006087,
+          "raw_content_available": true,
+          "raw_content_length": 18595,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "The 2026-07-28 MCP Specification Release Candidate",
+          "url": "https://blog.modelcontextprotocol.io/posts/2026-07-28-release-candidate",
+          "score": 0.8539252,
+          "raw_content_available": true,
+          "raw_content_length": 23007,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "MCP 2026-07-28 Specification: transport going stateless",
+          "url": "https://news.ycombinator.com/item?id=49088058",
+          "score": 0.8440111,
+          "raw_content_available": true,
+          "raw_content_length": 94788,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "MCP Cheat Sheet: Complete Model Context Protocol Reference (2026)",
+          "url": "https://www.webfuse.com/mcp-cheat-sheet",
+          "score": 0.8361405,
+          "raw_content_available": true,
+          "raw_content_length": 20834,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Release | Model Context Protocol Blog",
+          "url": "https://blog.modelcontextprotocol.io/tags/release",
+          "score": 0.8235701,
+          "raw_content_available": true,
+          "raw_content_length": 3154,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 89,
+      "timestamp": "2026-08-24T03:05:53.391311+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Anthropic MCP design principles blog post announcement 2024",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.853,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Engineering AI systems with Model Context Protocol · Raygun Blog",
+          "url": "https://raygun.com/blog/announcing-mcp",
+          "score": 0.8638634,
+          "raw_content_available": true,
+          "raw_content_length": 8545,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "MCP And The Future Of LLMs: A New Standard For Enterprise SaaS Integration",
+          "url": "https://www.verdantix.com/client-portal/blog/mcp-and-the-future-of-llms-a-new-standard-for-enterprise-saas-integration",
+          "score": 0.8455478,
+          "raw_content_available": true,
+          "raw_content_length": 7695,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Anthropic's New MCP Blog Post is Huge",
+          "url": "https://www.youtube.com/watch?v=CT4WfKEQY6M",
+          "score": 0.8156003,
+          "raw_content_available": true,
+          "raw_content_length": 11815,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "MCP Protocol Blog – Model Context Protocol （MCP）",
+          "url": "https://modelcontextprotocol.info/blog",
+          "score": 0.7811474,
+          "raw_content_available": true,
+          "raw_content_length": 8743,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "What is Anthropic's Model Context Protocol (MCP)?",
+          "url": "https://blog.promptlayer.com/mcp",
+          "score": 0.7533401,
+          "raw_content_available": true,
+          "raw_content_length": 15695,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 90,
+      "timestamp": "2026-08-24T03:05:53.505822+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Google A2A MCP complementary 'MCP for tools A2A for agents' official statement",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 3.111,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Google",
+          "url": "https://en.wikipedia.org/wiki/Google",
+          "score": 0.11270771,
+          "raw_content_available": true,
+          "raw_content_length": 566457,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Google",
+          "url": "https://www.linkedin.com/company/google",
+          "score": 0.079217605,
+          "raw_content_available": true,
+          "raw_content_length": 16766,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "About Google: Our products, technology and company ...",
+          "url": "https://about.google",
+          "score": 0.057838324,
+          "raw_content_available": true,
+          "raw_content_length": 7333,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Google Blog",
+          "url": "https://blog.google",
+          "score": 0.049299963,
+          "raw_content_available": true,
+          "raw_content_length": 1353,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Google",
+          "url": "https://www.google.com",
+          "score": 0.03425846,
+          "raw_content_available": true,
+          "raw_content_length": 1570,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 91,
+      "timestamp": "2026-08-24T03:05:53.542404+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "MCP Model Context Protocol specification JSON-RPC 2.0 architecture hosts clients servers resources tools prompts sampling",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 3.061,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Using the Model Context Protocol (MCP) for Intent-Based Network Troubleshooting Automation",
+          "url": "https://www.ietf.org/archive/id/draft-zeng-mcp-troubleshooting-00.html",
+          "score": 0.7913865,
+          "raw_content_available": true,
+          "raw_content_length": 16277,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Model Context Protocol (MCP) — Knowledge Base",
+          "url": "https://yobitel.com/knowledge-base/model-context-protocol",
+          "score": 0.7811474,
+          "raw_content_available": true,
+          "raw_content_length": 33332,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "MCP Cheat Sheet: Complete Model Context Protocol Reference (2026)",
+          "url": "https://www.webfuse.com/mcp-cheat-sheet",
+          "score": 0.77731717,
+          "raw_content_available": true,
+          "raw_content_length": 20834,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Specification",
+          "url": "https://modelcontextprotocol.io/specification/2026-07-28",
+          "score": 0.740494,
+          "raw_content_available": true,
+          "raw_content_length": 5899,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "What is the Model Context Protocol (MCP)?",
+          "url": "https://www.databricks.com/blog/what-is-model-context-protocol",
+          "score": 0.7382357,
+          "raw_content_available": true,
+          "raw_content_length": 26665,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 92,
+      "timestamp": "2026-08-24T03:05:53.705853+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Anthropic response to Google A2A protocol statement 2025 2026",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 3.88,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Google A2A Protocol in 2026: Adoption, Hype, and Reality",
+          "url": "https://www.glukhov.org/ai-systems/comparisons/a2a-protocol-2026-adoption",
+          "score": 0.7935067,
+          "raw_content_available": true,
+          "raw_content_length": 30362,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "2025 is the Year of Anthropic's MCP and Google's A2A. | Manthan Patel",
+          "url": "https://www.linkedin.com/posts/leadgenmanthan_2025-is-the-year-of-anthropics-mcp-and-googles-activity-7317424356840636417-MyaS",
+          "score": 0.7371019,
+          "raw_content_available": true,
+          "raw_content_length": 62295,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Google's A2A and Anthropic's MCP: In-Depth Analysis",
+          "url": "https://ikala.ai/blog/ai-trends/an-in-depth-analysis-of-googles-a2a-protocol-and-its-relationship-with-anthropics-mcp-en",
+          "score": 0.7251239,
+          "raw_content_available": true,
+          "raw_content_length": 59571,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Google's A2A protocol gets a new home",
+          "url": "https://www.axios.com/2026/08/17/a2a-agentic-ai-foundation-open-ai-standards",
+          "score": 0.71040785,
+          "raw_content_available": true,
+          "raw_content_length": 6314,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Google's Agent-to-Agent (A2A) and Anthropic's Model ...",
+          "url": "https://www.gravitee.io/blog/googles-agent-to-agent-a2a-and-anthropics-model-context-protocol-mcp",
+          "score": 0.657297,
+          "raw_content_available": true,
+          "raw_content_length": 23840,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 112,
+      "timestamp": "2026-08-24T03:05:54.321567+08:00"
+    }
+  ],
+  "summary_cache_hits": 11,
+  "summary_cache_hit_urls": [
+    "https://galileo.ai/blog/google-agent2agent-a2a-protocol-guide",
+    "https://zbrain.ai/understanding-the-a2a-protocol",
+    "https://www.glukhov.org/ai-systems/comparisons/a2a-protocol-2026-adoption",
+    "https://www.webfuse.com/mcp-cheat-sheet",
+    "https://modelcontextprotocol.io/specification/2026-07-28",
+    "https://blog.promptlayer.com/mcp",
+    "https://blog.modelcontextprotocol.io/posts/2026-07-28-release-candidate",
+    "https://www.glukhov.org/ai-systems/comparisons/a2a-protocol-2026-adoption",
+    "https://ikala.ai/blog/ai-trends/an-in-depth-analysis-of-googles-a2a-protocol-and-its-relationship-with-anthropics-mcp-en",
+    "https://www.axios.com/2026/08/17/a2a-agentic-ai-foundation-open-ai-standards",
+    "https://www.gravitee.io/blog/googles-agent-to-agent-a2a-and-anthropics-model-context-protocol-mcp"
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://atlan.com/know/google-a2a-protocol",
+      "status": "success",
+      "content_length": 68296,
+      "duration_seconds": 2.21,
+      "query": "Google A2A agent interoperability protocol announcement 2024 2025"
+    },
+    {
+      "url": "https://www.digitalapplied.com/blog/google-a2a-protocol-agent-to-agent-communication-guide",
+      "status": "success",
+      "content_length": 24988,
+      "duration_seconds": 2.21,
+      "query": "Google A2A agent interoperability protocol announcement 2024 2025"
+    },
+    {
+      "url": "https://www.linkedin.com/posts/mikhailbaklanov_announcing-the-agent2agent-protocol-a2a-activity-7315976730186293249-Fu5c",
+      "status": "success",
+      "content_length": 15072,
+      "duration_seconds": 2.21,
+      "query": "Google A2A agent interoperability protocol announcement 2024 2025"
+    },
+    {
+      "url": "https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability",
+      "status": "success",
+      "content_length": 30673,
+      "duration_seconds": 2.21,
+      "query": "Google A2A agent interoperability protocol announcement 2024 2025"
+    },
+    {
+      "url": "https://galileo.ai/blog/google-agent2agent-a2a-protocol-guide",
+      "status": "success",
+      "content_length": 21577,
+      "duration_seconds": 2.21,
+      "query": "Google A2A agent interoperability protocol announcement 2024 2025"
+    },
+    {
+      "url": "https://tyk.io/learning-center/agent-protocols-a-complete-guide-to-mcp-a2a-and-acp",
+      "status": "success",
+      "content_length": 25454,
+      "duration_seconds": 2.665,
+      "query": "A2A MCP protocol relationship complementary AI stack"
+    },
+    {
+      "url": "https://onereach.ai/blog/guide-choosing-mcp-vs-a2a-protocols",
+      "status": "success",
+      "content_length": 21048,
+      "duration_seconds": 2.665,
+      "query": "A2A MCP protocol relationship complementary AI stack"
+    },
+    {
+      "url": "https://www.theunwindai.com/p/mcp-vs-a2a-complementing-or-supplementing",
+      "status": "success",
+      "content_length": 18580,
+      "duration_seconds": 2.665,
+      "query": "A2A MCP protocol relationship complementary AI stack"
+    },
+    {
+      "url": "https://aishwaryasrinivasan.substack.com/p/a2a-vs-mcp-the-two-protocols-reshaping",
+      "status": "success",
+      "content_length": 10169,
+      "duration_seconds": 2.665,
+      "query": "A2A MCP protocol relationship complementary AI stack"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=nIf_b4GQpII",
+      "status": "success",
+      "content_length": 4959,
+      "duration_seconds": 2.665,
+      "query": "A2A MCP protocol relationship complementary AI stack"
+    },
+    {
+      "url": "https://www.linkedin.com/posts/ashbhatia_multiagent-agenthandoff-mcp-activity-7315947664049659904-YKp3",
+      "status": "success",
+      "content_length": 58565,
+      "duration_seconds": 2.868,
+      "query": "Google A2A Agent-to-Agent protocol vs Anthropic MCP Model Context Protocol comparison"
+    },
+    {
+      "url": "https://www.gravitee.io/blog/googles-agent-to-agent-a2a-and-anthropics-model-context-protocol-mcp",
+      "status": "success",
+      "content_length": 23840,
+      "duration_seconds": 2.868,
+      "query": "Google A2A Agent-to-Agent protocol vs Anthropic MCP Model Context Protocol comparison"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=vVMlEBMIdKo&vl=en",
+      "status": "success",
+      "content_length": 14185,
+      "duration_seconds": 2.868,
+      "query": "Google A2A Agent-to-Agent protocol vs Anthropic MCP Model Context Protocol comparison"
+    },
+    {
+      "url": "https://www.stride.build/blog/agent-to-agent-a2a-vs-model-context-protocol-mcp-when-to-use-which",
+      "status": "success",
+      "content_length": 9763,
+      "duration_seconds": 2.868,
+      "query": "Google A2A Agent-to-Agent protocol vs Anthropic MCP Model Context Protocol comparison"
+    },
+    {
+      "url": "https://medium.com/@sandibesen/an-unbiased-comparison-of-mcp-acp-and-a2a-protocols-0b45923a20f3",
+      "status": "success",
+      "content_length": 5937,
+      "duration_seconds": 2.868,
+      "query": "Google A2A Agent-to-Agent protocol vs Anthropic MCP Model Context Protocol comparison"
+    },
+    {
+      "url": "https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability",
+      "status": "success",
+      "content_length": 30673,
+      "duration_seconds": 3.087,
+      "query": "Google A2A protocol announcement 2025"
+    },
+    {
+      "url": "https://platformengineering.com/editorial-calendar/best-of-2025/google-cloud-unveils-agent2agent-protocol-a-new-standard-for-ai-agent-interoperability-2",
+      "status": "success",
+      "content_length": 6861,
+      "duration_seconds": 3.087,
+      "query": "Google A2A protocol announcement 2025"
+    },
+    {
+      "url": "https://www.linkedin.com/posts/mikhailbaklanov_announcing-the-agent2agent-protocol-a2a-activity-7315976730186293249-Fu5c",
+      "status": "success",
+      "content_length": 15072,
+      "duration_seconds": 3.087,
+      "query": "Google A2A protocol announcement 2025"
+    },
+    {
+      "url": "https://www.glukhov.org/ai-systems/comparisons/a2a-protocol-2026-adoption",
+      "status": "success",
+      "content_length": 30362,
+      "duration_seconds": 3.087,
+      "query": "Google A2A protocol announcement 2025"
+    },
+    {
+      "url": "https://www.axios.com/2026/08/17/a2a-agentic-ai-foundation-open-ai-standards",
+      "status": "success",
+      "content_length": 6314,
+      "duration_seconds": 3.087,
+      "query": "Google A2A protocol announcement 2025"
+    },
+    {
+      "url": "https://codelabs.developers.google.com/intro-a2a-purchasing-concierge",
+      "status": "success",
+      "content_length": 62907,
+      "duration_seconds": 2.751,
+      "query": "Google A2A Agent-to-Agent protocol official documentation"
+    },
+    {
+      "url": "https://a2acn.com/en/about",
+      "status": "success",
+      "content_length": 4300,
+      "duration_seconds": 2.751,
+      "query": "Google A2A Agent-to-Agent protocol official documentation"
+    },
+    {
+      "url": "https://agent2agent.info/docs",
+      "status": "success",
+      "content_length": 1010,
+      "duration_seconds": 2.751,
+      "query": "Google A2A Agent-to-Agent protocol official documentation"
+    },
+    {
+      "url": "https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability",
+      "status": "success",
+      "content_length": 30673,
+      "duration_seconds": 2.751,
+      "query": "Google A2A Agent-to-Agent protocol official documentation"
+    },
+    {
+      "url": "https://www.ibm.com/think/topics/agent2agent-protocol",
+      "status": "success",
+      "content_length": 17280,
+      "duration_seconds": 2.751,
+      "query": "Google A2A Agent-to-Agent protocol official documentation"
+    },
+    {
+      "url": "https://zbrain.ai/understanding-the-a2a-protocol",
+      "status": "success",
+      "content_length": 61290,
+      "duration_seconds": 2.875,
+      "query": "Google A2A protocol specification architecture design principles"
+    },
+    {
+      "url": "https://ikala.ai/blog/ai-trends/an-in-depth-analysis-of-googles-a2a-protocol-and-its-relationship-with-anthropics-mcp-en",
+      "status": "success",
+      "content_length": 59571,
+      "duration_seconds": 2.875,
+      "query": "Google A2A protocol specification architecture design principles"
+    },
+    {
+      "url": "https://medium.com/@saeedhajebi/a2a-protocol-an-in-depth-guide-78387f992f59",
+      "status": "success",
+      "content_length": 11893,
+      "duration_seconds": 2.875,
+      "query": "Google A2A protocol specification architecture design principles"
+    },
+    {
+      "url": "https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability",
+      "status": "success",
+      "content_length": 30673,
+      "duration_seconds": 2.875,
+      "query": "Google A2A protocol specification architecture design principles"
+    },
+    {
+      "url": "https://www.ibm.com/think/topics/agent2agent-protocol",
+      "status": "success",
+      "content_length": 17280,
+      "duration_seconds": 2.875,
+      "query": "Google A2A protocol specification architecture design principles"
+    },
+    {
+      "url": "https://github.com/madhukarkumar/anthropic-mcp-servers",
+      "status": "success",
+      "content_length": 52394,
+      "duration_seconds": 2.732,
+      "query": "MCP Model Context Protocol GitHub repository Anthropic"
+    },
+    {
+      "url": "https://medium.com/@EleventhHourEnthusiast/model-context-protocol-for-github-integration-0605ecf29f96",
+      "status": "success",
+      "content_length": 13603,
+      "duration_seconds": 2.732,
+      "query": "MCP Model Context Protocol GitHub repository Anthropic"
+    },
+    {
+      "url": "https://www.blackhillsinfosec.com/model-context-protocol",
+      "status": "success",
+      "content_length": 9178,
+      "duration_seconds": 2.732,
+      "query": "MCP Model Context Protocol GitHub repository Anthropic"
+    },
+    {
+      "url": "https://developer.microsoft.com/blog/microsoft-partners-with-anthropic-to-create-official-c-sdk-for-model-context-protocol",
+      "status": "success",
+      "content_length": 24643,
+      "duration_seconds": 2.732,
+      "query": "MCP Model Context Protocol GitHub repository Anthropic"
+    },
+    {
+      "url": "https://github.com/modelcontextprotocol",
+      "status": "success",
+      "content_length": 14600,
+      "duration_seconds": 2.732,
+      "query": "MCP Model Context Protocol GitHub repository Anthropic"
+    },
+    {
+      "url": "https://mirilittleme.medium.com/the-model-context-protocol-how-mcp-became-the-usb-c-of-ai-in-just-one-year-11a15e3611d2",
+      "status": "success",
+      "content_length": 9024,
+      "duration_seconds": 2.761,
+      "query": "Anthropic Model Context Protocol MCP official documentation 2024 2025"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Model_Context_Protocol",
+      "status": "success",
+      "content_length": 67827,
+      "duration_seconds": 2.761,
+      "query": "Anthropic Model Context Protocol MCP official documentation 2024 2025"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2503.23278",
+      "status": "success",
+      "content_length": 154681,
+      "duration_seconds": 2.761,
+      "query": "Anthropic Model Context Protocol MCP official documentation 2024 2025"
+    },
+    {
+      "url": "https://www.anthropic.com/news/model-context-protocol",
+      "status": "success",
+      "content_length": 11628,
+      "duration_seconds": 2.761,
+      "query": "Anthropic Model Context Protocol MCP official documentation 2024 2025"
+    },
+    {
+      "url": "https://www.anthropic.com/engineering/code-execution-with-mcp",
+      "status": "success",
+      "content_length": 14267,
+      "duration_seconds": 2.761,
+      "query": "Anthropic Model Context Protocol MCP official documentation 2024 2025"
+    },
+    {
+      "url": "https://blog.promptlayer.com/mcp",
+      "status": "success",
+      "content_length": 15695,
+      "duration_seconds": 2.996,
+      "query": "Model Context Protocol MCP specification architecture design principles Anthropic"
+    },
+    {
+      "url": "https://medium.com/@amanatulla1606/anthropics-model-context-protocol-mcp-a-deep-dive-for-developers-1d3db39c9fdc",
+      "status": "success",
+      "content_length": 22255,
+      "duration_seconds": 2.996,
+      "query": "Model Context Protocol MCP specification architecture design principles Anthropic"
+    },
+    {
+      "url": "https://www.blackhillsinfosec.com/model-context-protocol",
+      "status": "success",
+      "content_length": 9178,
+      "duration_seconds": 2.996,
+      "query": "Model Context Protocol MCP specification architecture design principles Anthropic"
+    },
+    {
+      "url": "https://cloud.google.com/discover/what-is-model-context-protocol",
+      "status": "success",
+      "content_length": 96000,
+      "duration_seconds": 2.996,
+      "query": "Model Context Protocol MCP specification architecture design principles Anthropic"
+    },
+    {
+      "url": "https://modelcontextprotocol.io/specification/2026-07-28",
+      "status": "success",
+      "content_length": 5899,
+      "duration_seconds": 2.996,
+      "query": "Model Context Protocol MCP specification architecture design principles Anthropic"
+    },
+    {
+      "url": "https://gist.github.com/SecureAgentTools/0815a2de9cc31c71468afd3d2eef260a",
+      "status": "success",
+      "content_length": 6256,
+      "duration_seconds": 1.957,
+      "query": "A2A agent card specification JSON schema"
+    },
+    {
+      "url": "https://docs.capisc.io/reference/agent-card-schema",
+      "status": "success",
+      "content_length": 15279,
+      "duration_seconds": 1.957,
+      "query": "A2A agent card specification JSON schema"
+    },
+    {
+      "url": "https://docs.cloud.google.com/agent-registry/json-schemas",
+      "status": "success",
+      "content_length": 9309,
+      "duration_seconds": 1.957,
+      "query": "A2A agent card specification JSON schema"
+    },
+    {
+      "url": "https://tyk.io/learning-center/a2a-protocol-architecture-and-technical-specification",
+      "status": "success",
+      "content_length": 27997,
+      "duration_seconds": 1.957,
+      "query": "A2A agent card specification JSON schema"
+    },
+    {
+      "url": "https://agent2agent.info/docs/concepts/agentcard",
+      "status": "success",
+      "content_length": 7813,
+      "duration_seconds": 1.957,
+      "query": "A2A agent card specification JSON schema"
+    },
+    {
+      "url": "https://www.hpcwire.com/aiwire/2026/04/09/linux-foundation-a2a-protocol-marks-one-year-with-broad-enterprise-and-cloud-adoption",
+      "status": "success",
+      "content_length": 78590,
+      "duration_seconds": 2.557,
+      "query": "A2A protocol update 2026 Linux Foundation adoption"
+    },
+    {
+      "url": "https://rapidclaw.dev/blog/a2a-protocol-complete-guide-2026",
+      "status": "success",
+      "content_length": 21273,
+      "duration_seconds": 2.557,
+      "query": "A2A protocol update 2026 Linux Foundation adoption"
+    },
+    {
+      "url": "https://www.linuxfoundation.org/press/a2a-protocol-surpasses-150-organizations-lands-in-major-cloud-platforms-and-sees-enterprise-production-use-in-first-year",
+      "status": "success",
+      "content_length": 9472,
+      "duration_seconds": 2.557,
+      "query": "A2A protocol update 2026 Linux Foundation adoption"
+    },
+    {
+      "url": "https://www.prnewswire.com/news-releases/a2a-protocol-surpasses-150-organizations-lands-in-major-cloud-platforms-and-sees-enterprise-production-use-in-first-year-302737641.html",
+      "status": "success",
+      "content_length": 18466,
+      "duration_seconds": 2.557,
+      "query": "A2A protocol update 2026 Linux Foundation adoption"
+    },
+    {
+      "url": "https://www.glukhov.org/ai-systems/comparisons/a2a-protocol-2026-adoption",
+      "status": "success",
+      "content_length": 30362,
+      "duration_seconds": 2.557,
+      "query": "A2A protocol update 2026 Linux Foundation adoption"
+    },
+    {
+      "url": "https://github.com/a2aproject/a2a-samples",
+      "status": "success",
+      "content_length": 12698,
+      "duration_seconds": 2.604,
+      "query": "Google A2A protocol GitHub repository specification"
+    },
+    {
+      "url": "https://github.com/a2aproject/a2a-python",
+      "status": "success",
+      "content_length": 87324,
+      "duration_seconds": 2.604,
+      "query": "Google A2A protocol GitHub repository specification"
+    },
+    {
+      "url": "https://github.com/a2aproject/A2A",
+      "status": "success",
+      "content_length": 56477,
+      "duration_seconds": 2.604,
+      "query": "Google A2A protocol GitHub repository specification"
+    },
+    {
+      "url": "https://www.cybage.com/blog/mastering-google-s-a2a-protocol-the-complete-guide-to-agent-to-agent-communication",
+      "status": "success",
+      "content_length": 31710,
+      "duration_seconds": 2.604,
+      "query": "Google A2A protocol GitHub repository specification"
+    },
+    {
+      "url": "https://medium.com/@shamim_ru/google-agent-to-agent-a2a-protocol-explained-with-real-working-examples-99e362b61ba8",
+      "status": "success",
+      "content_length": 11890,
+      "duration_seconds": 2.604,
+      "query": "Google A2A protocol GitHub repository specification"
+    },
+    {
+      "url": "https://galileo.ai/blog/google-agent2agent-a2a-protocol-guide",
+      "status": "success",
+      "content_length": 21577,
+      "duration_seconds": 2.961,
+      "query": "Google A2A protocol security authentication OAuth 2.0"
+    },
+    {
+      "url": "https://zbrain.ai/understanding-the-a2a-protocol",
+      "status": "success",
+      "content_length": 61290,
+      "duration_seconds": 2.961,
+      "query": "Google A2A protocol security authentication OAuth 2.0"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2505.12490",
+      "status": "success",
+      "content_length": 70052,
+      "duration_seconds": 2.961,
+      "query": "Google A2A protocol security authentication OAuth 2.0"
+    },
+    {
+      "url": "https://live.paloaltonetworks.com/t5/community-blogs/safeguarding-ai-agents-an-in-depth-look-at-a2a-protocol-risks/ba-p/1235996",
+      "status": "success",
+      "content_length": 201816,
+      "duration_seconds": 2.961,
+      "query": "Google A2A protocol security authentication OAuth 2.0"
+    },
+    {
+      "url": "https://medium.com/google-cloud/how-to-secure-your-a2a-server-agent-with-keycloak-oauth2-6112810ec7bb",
+      "status": "success",
+      "content_length": 7624,
+      "duration_seconds": 2.961,
+      "query": "Google A2A protocol security authentication OAuth 2.0"
+    },
+    {
+      "url": "https://schemasauce.com/mcp-and-a2a",
+      "status": "success",
+      "content_length": 10933,
+      "duration_seconds": 2.358,
+      "query": "A2A MCP integration architecture diagram layered stack agentic AI"
+    },
+    {
+      "url": "https://www.cybage.com/blog/mastering-google-s-a2a-protocol-the-complete-guide-to-agent-to-agent-communication",
+      "status": "success",
+      "content_length": 31710,
+      "duration_seconds": 2.358,
+      "query": "A2A MCP integration architecture diagram layered stack agentic AI"
+    },
+    {
+      "url": "https://www.infoq.com/articles/architecting-agentic-mlops-a2a-mcp",
+      "status": "success",
+      "content_length": 46091,
+      "duration_seconds": 2.358,
+      "query": "A2A MCP integration architecture diagram layered stack agentic AI"
+    },
+    {
+      "url": "https://www.stackone.com/blog/mcp-vs-a2a-protocol",
+      "status": "success",
+      "content_length": 29945,
+      "duration_seconds": 2.358,
+      "query": "A2A MCP integration architecture diagram layered stack agentic AI"
+    },
+    {
+      "url": "https://subhadipmitra.com/blog/2026/agent-protocol-stack",
+      "status": "success",
+      "content_length": 23584,
+      "duration_seconds": 2.358,
+      "query": "A2A MCP integration architecture diagram layered stack agentic AI"
+    },
+    {
+      "url": "https://www.linuxfoundation.org/press/linux-foundation-announces-the-formation-of-the-agentic-ai-foundation",
+      "status": "success",
+      "content_length": 13104,
+      "duration_seconds": 2.312,
+      "query": "Agentic AI Foundation AAIF Linux Foundation MCP December 2025"
+    },
+    {
+      "url": "https://architecture.learning.sap.com/docs/global-standards-for-agentic-ai/agentic-ai-foundation",
+      "status": "success",
+      "content_length": 1944,
+      "duration_seconds": 2.312,
+      "query": "Agentic AI Foundation AAIF Linux Foundation MCP December 2025"
+    },
+    {
+      "url": "https://amquesteducation.com/blog/agentic-ai-foundation-aaif",
+      "status": "success",
+      "content_length": 25123,
+      "duration_seconds": 2.312,
+      "query": "Agentic AI Foundation AAIF Linux Foundation MCP December 2025"
+    },
+    {
+      "url": "https://www.digitalapplied.com/blog/agentic-ai-foundation-open-source-agents",
+      "status": "success",
+      "content_length": 17755,
+      "duration_seconds": 2.312,
+      "query": "Agentic AI Foundation AAIF Linux Foundation MCP December 2025"
+    },
+    {
+      "url": "https://blog.modelcontextprotocol.io/posts/2025-12-09-mcp-joins-agentic-ai-foundation",
+      "status": "success",
+      "content_length": 3209,
+      "duration_seconds": 2.312,
+      "query": "Agentic AI Foundation AAIF Linux Foundation MCP December 2025"
+    },
+    {
+      "url": "https://alatirok.com/agentic-ai-foundation",
+      "status": "success",
+      "content_length": 27694,
+      "duration_seconds": 2.762,
+      "query": "Agentic AI Foundation AAIF A2A MCP governance 2026"
+    },
+    {
+      "url": "https://zylos.ai/research/2026-03-26-agent-interoperability-protocols-mcp-a2a-acp-convergence",
+      "status": "success",
+      "content_length": 46740,
+      "duration_seconds": 2.762,
+      "query": "Agentic AI Foundation AAIF A2A MCP governance 2026"
+    },
+    {
+      "url": "https://aaif.io",
+      "status": "success",
+      "content_length": 34098,
+      "duration_seconds": 2.762,
+      "query": "Agentic AI Foundation AAIF A2A MCP governance 2026"
+    },
+    {
+      "url": "https://gingerlabs.ai/blog/agentic-ai-foundation-aaif-mcp-future-of-agentic-ai",
+      "status": "success",
+      "content_length": 18984,
+      "duration_seconds": 2.762,
+      "query": "Agentic AI Foundation AAIF A2A MCP governance 2026"
+    },
+    {
+      "url": "https://www.linuxfoundation.org/press/linux-foundation-announces-the-formation-of-the-agentic-ai-foundation",
+      "status": "success",
+      "content_length": 13104,
+      "duration_seconds": 2.762,
+      "query": "Agentic AI Foundation AAIF A2A MCP governance 2026"
+    },
+    {
+      "url": "https://blog.modelcontextprotocol.io/posts/2026-07-28",
+      "status": "success",
+      "content_length": 18595,
+      "duration_seconds": 2.727,
+      "query": "modelcontextprotocol.io specification latest 2026"
+    },
+    {
+      "url": "https://blog.modelcontextprotocol.io/posts/2026-07-28-release-candidate",
+      "status": "success",
+      "content_length": 23007,
+      "duration_seconds": 2.727,
+      "query": "modelcontextprotocol.io specification latest 2026"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=49088058",
+      "status": "success",
+      "content_length": 94788,
+      "duration_seconds": 2.727,
+      "query": "modelcontextprotocol.io specification latest 2026"
+    },
+    {
+      "url": "https://www.webfuse.com/mcp-cheat-sheet",
+      "status": "success",
+      "content_length": 20834,
+      "duration_seconds": 2.727,
+      "query": "modelcontextprotocol.io specification latest 2026"
+    },
+    {
+      "url": "https://blog.modelcontextprotocol.io/tags/release",
+      "status": "success",
+      "content_length": 3154,
+      "duration_seconds": 2.727,
+      "query": "modelcontextprotocol.io specification latest 2026"
+    },
+    {
+      "url": "https://raygun.com/blog/announcing-mcp",
+      "status": "success",
+      "content_length": 8545,
+      "duration_seconds": 2.853,
+      "query": "Anthropic MCP design principles blog post announcement 2024"
+    },
+    {
+      "url": "https://www.verdantix.com/client-portal/blog/mcp-and-the-future-of-llms-a-new-standard-for-enterprise-saas-integration",
+      "status": "success",
+      "content_length": 7695,
+      "duration_seconds": 2.853,
+      "query": "Anthropic MCP design principles blog post announcement 2024"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=CT4WfKEQY6M",
+      "status": "success",
+      "content_length": 11815,
+      "duration_seconds": 2.853,
+      "query": "Anthropic MCP design principles blog post announcement 2024"
+    },
+    {
+      "url": "https://modelcontextprotocol.info/blog",
+      "status": "success",
+      "content_length": 8743,
+      "duration_seconds": 2.853,
+      "query": "Anthropic MCP design principles blog post announcement 2024"
+    },
+    {
+      "url": "https://blog.promptlayer.com/mcp",
+      "status": "success",
+      "content_length": 15695,
+      "duration_seconds": 2.853,
+      "query": "Anthropic MCP design principles blog post announcement 2024"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Google",
+      "status": "success",
+      "content_length": 566457,
+      "duration_seconds": 3.111,
+      "query": "Google A2A MCP complementary 'MCP for tools A2A for agents' official statement"
+    },
+    {
+      "url": "https://www.linkedin.com/company/google",
+      "status": "success",
+      "content_length": 16766,
+      "duration_seconds": 3.111,
+      "query": "Google A2A MCP complementary 'MCP for tools A2A for agents' official statement"
+    },
+    {
+      "url": "https://about.google",
+      "status": "success",
+      "content_length": 7333,
+      "duration_seconds": 3.111,
+      "query": "Google A2A MCP complementary 'MCP for tools A2A for agents' official statement"
+    },
+    {
+      "url": "https://blog.google",
+      "status": "success",
+      "content_length": 1353,
+      "duration_seconds": 3.111,
+      "query": "Google A2A MCP complementary 'MCP for tools A2A for agents' official statement"
+    },
+    {
+      "url": "https://www.google.com",
+      "status": "success",
+      "content_length": 1570,
+      "duration_seconds": 3.111,
+      "query": "Google A2A MCP complementary 'MCP for tools A2A for agents' official statement"
+    },
+    {
+      "url": "https://www.ietf.org/archive/id/draft-zeng-mcp-troubleshooting-00.html",
+      "status": "success",
+      "content_length": 16277,
+      "duration_seconds": 3.061,
+      "query": "MCP Model Context Protocol specification JSON-RPC 2.0 architecture hosts clients servers resources tools prompts sampling"
+    },
+    {
+      "url": "https://yobitel.com/knowledge-base/model-context-protocol",
+      "status": "success",
+      "content_length": 33332,
+      "duration_seconds": 3.061,
+      "query": "MCP Model Context Protocol specification JSON-RPC 2.0 architecture hosts clients servers resources tools prompts sampling"
+    },
+    {
+      "url": "https://www.webfuse.com/mcp-cheat-sheet",
+      "status": "success",
+      "content_length": 20834,
+      "duration_seconds": 3.061,
+      "query": "MCP Model Context Protocol specification JSON-RPC 2.0 architecture hosts clients servers resources tools prompts sampling"
+    },
+    {
+      "url": "https://modelcontextprotocol.io/specification/2026-07-28",
+      "status": "success",
+      "content_length": 5899,
+      "duration_seconds": 3.061,
+      "query": "MCP Model Context Protocol specification JSON-RPC 2.0 architecture hosts clients servers resources tools prompts sampling"
+    },
+    {
+      "url": "https://www.databricks.com/blog/what-is-model-context-protocol",
+      "status": "success",
+      "content_length": 26665,
+      "duration_seconds": 3.061,
+      "query": "MCP Model Context Protocol specification JSON-RPC 2.0 architecture hosts clients servers resources tools prompts sampling"
+    },
+    {
+      "url": "https://www.glukhov.org/ai-systems/comparisons/a2a-protocol-2026-adoption",
+      "status": "success",
+      "content_length": 30362,
+      "duration_seconds": 3.88,
+      "query": "Anthropic response to Google A2A protocol statement 2025 2026"
+    },
+    {
+      "url": "https://www.linkedin.com/posts/leadgenmanthan_2025-is-the-year-of-anthropics-mcp-and-googles-activity-7317424356840636417-MyaS",
+      "status": "success",
+      "content_length": 62295,
+      "duration_seconds": 3.88,
+      "query": "Anthropic response to Google A2A protocol statement 2025 2026"
+    },
+    {
+      "url": "https://ikala.ai/blog/ai-trends/an-in-depth-analysis-of-googles-a2a-protocol-and-its-relationship-with-anthropics-mcp-en",
+      "status": "success",
+      "content_length": 59571,
+      "duration_seconds": 3.88,
+      "query": "Anthropic response to Google A2A protocol statement 2025 2026"
+    },
+    {
+      "url": "https://www.axios.com/2026/08/17/a2a-agentic-ai-foundation-open-ai-standards",
+      "status": "success",
+      "content_length": 6314,
+      "duration_seconds": 3.88,
+      "query": "Anthropic response to Google A2A protocol statement 2025 2026"
+    },
+    {
+      "url": "https://www.gravitee.io/blog/googles-agent-to-agent-a2a-and-anthropics-model-context-protocol-mcp",
+      "status": "success",
+      "content_length": 23840,
+      "duration_seconds": 3.88,
+      "query": "Anthropic response to Google A2A protocol statement 2025 2026"
+    }
+  ],
+  "run_id": "542353488dfb4a2986ee8c90cf8abd29",
+  "status": "completed",
+  "id": 69,
+  "prompt": "Please provide a detailed explanation of the differences and connections between Google's recently released A2A protocol and the MCP protocol. Furthermore, elaborate on the innovative aspects of the A2A protocol and the specific problems it is designed to address.",
+  "language": "en",
+  "topic": "Software Development",
+  "duration_seconds": 219.078,
+  "report_length": 36301,
+  "context_length": 290003
+}

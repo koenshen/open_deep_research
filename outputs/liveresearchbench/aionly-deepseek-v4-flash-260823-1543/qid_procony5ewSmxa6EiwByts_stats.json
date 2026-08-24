@@ -1,0 +1,4568 @@
+{
+  "session_id": "a73c4335dcb54fd7b4c36887755ffadf",
+  "total_llm_calls": 92,
+  "llm_calls_with_token_usage": 91,
+  "llm_calls_missing_token_usage": 1,
+  "token_usage_complete": false,
+  "total_input_tokens": null,
+  "total_output_tokens": null,
+  "total_tokens": null,
+  "counted_input_tokens": 826068,
+  "counted_output_tokens": 91956,
+  "counted_total_tokens": 918024,
+  "total_search_count": 26,
+  "total_search_results": 130,
+  "total_visit_count": 130,
+  "total_visit_success": 105,
+  "total_visit_failed": 25,
+  "source_urls_count": 90,
+  "llm_calls_detail": [
+    {
+      "sequence": 1,
+      "status": "completed",
+      "started_at": "2026-08-24T03:42:06.608538+08:00",
+      "completed_at": "2026-08-24T03:42:09.771058+08:00",
+      "duration_seconds": 3.163,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 802,
+      "output_tokens": 183,
+      "total_tokens": 985,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 802,
+        "output_tokens": 183,
+        "total_tokens": 985,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 2,
+      "status": "completed",
+      "started_at": "2026-08-24T03:42:09.779463+08:00",
+      "completed_at": "2026-08-24T03:42:15.478266+08:00",
+      "duration_seconds": 5.699,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1247,
+      "output_tokens": 484,
+      "total_tokens": 1731,
+      "message_count": 2,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1247,
+        "output_tokens": 484,
+        "total_tokens": 1731,
+        "input_token_details": {
+          "cache_read": 1024
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 3,
+      "status": "completed",
+      "started_at": "2026-08-24T03:42:15.484693+08:00",
+      "completed_at": "2026-08-24T03:42:23.515882+08:00",
+      "duration_seconds": 8.031,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1600,
+      "output_tokens": 774,
+      "total_tokens": 2374,
+      "message_count": 4,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1600,
+        "output_tokens": 774,
+        "total_tokens": 2374,
+        "input_token_details": {
+          "cache_read": 1024
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 4,
+      "status": "completed",
+      "started_at": "2026-08-24T03:42:23.530241+08:00",
+      "completed_at": "2026-08-24T03:42:26.056133+08:00",
+      "duration_seconds": 2.526,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1195,
+      "output_tokens": 151,
+      "total_tokens": 1346,
+      "message_count": 2,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1195,
+        "output_tokens": 151,
+        "total_tokens": 1346,
+        "input_token_details": {
+          "cache_read": 768
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 5,
+      "status": "completed",
+      "started_at": "2026-08-24T03:42:23.530335+08:00",
+      "completed_at": "2026-08-24T03:42:26.574433+08:00",
+      "duration_seconds": 3.044,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1208,
+      "output_tokens": 171,
+      "total_tokens": 1379,
+      "message_count": 2,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1208,
+        "output_tokens": 171,
+        "total_tokens": 1379,
+        "input_token_details": {
+          "cache_read": 768
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 10,
+      "status": "completed",
+      "started_at": "2026-08-24T03:42:28.860669+08:00",
+      "completed_at": "2026-08-24T03:42:34.427008+08:00",
+      "duration_seconds": 5.566,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 13618,
+      "output_tokens": 452,
+      "total_tokens": 14070,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 13618,
+        "output_tokens": 452,
+        "total_tokens": 14070,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 11,
+      "status": "completed",
+      "started_at": "2026-08-24T03:42:28.860761+08:00",
+      "completed_at": "2026-08-24T03:42:37.897393+08:00",
+      "duration_seconds": 9.037,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 12165,
+      "output_tokens": 887,
+      "total_tokens": 13052,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 12165,
+        "output_tokens": 887,
+        "total_tokens": 13052,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 12,
+      "status": "completed",
+      "started_at": "2026-08-24T03:42:28.860803+08:00",
+      "completed_at": "2026-08-24T03:42:33.672803+08:00",
+      "duration_seconds": 4.812,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3118,
+      "output_tokens": 453,
+      "total_tokens": 3571,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3118,
+        "output_tokens": 453,
+        "total_tokens": 3571,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 13,
+      "status": "completed",
+      "started_at": "2026-08-24T03:42:28.860834+08:00",
+      "completed_at": "2026-08-24T03:42:33.732869+08:00",
+      "duration_seconds": 4.872,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1838,
+      "output_tokens": 397,
+      "total_tokens": 2235,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1838,
+        "output_tokens": 397,
+        "total_tokens": 2235,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 14,
+      "status": "completed",
+      "started_at": "2026-08-24T03:42:28.861074+08:00",
+      "completed_at": "2026-08-24T03:42:36.356121+08:00",
+      "duration_seconds": 7.495,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 12834,
+      "output_tokens": 609,
+      "total_tokens": 13443,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 12834,
+        "output_tokens": 609,
+        "total_tokens": 13443,
+        "input_token_details": {
+          "cache_read": 1536
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 15,
+      "status": "completed",
+      "started_at": "2026-08-24T03:42:28.861131+08:00",
+      "completed_at": "2026-08-24T03:42:33.387410+08:00",
+      "duration_seconds": 4.526,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4793,
+      "output_tokens": 369,
+      "total_tokens": 5162,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4793,
+        "output_tokens": 369,
+        "total_tokens": 5162,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 16,
+      "status": "completed",
+      "started_at": "2026-08-24T03:42:28.861168+08:00",
+      "completed_at": "2026-08-24T03:42:38.880500+08:00",
+      "duration_seconds": 10.019,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8672,
+      "output_tokens": 965,
+      "total_tokens": 9637,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 8672,
+        "output_tokens": 965,
+        "total_tokens": 9637,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 17,
+      "status": "completed",
+      "started_at": "2026-08-24T03:42:28.861200+08:00",
+      "completed_at": "2026-08-24T03:42:38.612883+08:00",
+      "duration_seconds": 9.752,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 12037,
+      "output_tokens": 896,
+      "total_tokens": 12933,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 12037,
+        "output_tokens": 896,
+        "total_tokens": 12933,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 18,
+      "status": "completed",
+      "started_at": "2026-08-24T03:42:28.861228+08:00",
+      "completed_at": "2026-08-24T03:42:35.592531+08:00",
+      "duration_seconds": 6.731,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6296,
+      "output_tokens": 624,
+      "total_tokens": 6920,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 6296,
+        "output_tokens": 624,
+        "total_tokens": 6920,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 19,
+      "status": "completed",
+      "started_at": "2026-08-24T03:42:28.861255+08:00",
+      "completed_at": "2026-08-24T03:42:36.055569+08:00",
+      "duration_seconds": 7.194,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3689,
+      "output_tokens": 764,
+      "total_tokens": 4453,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3689,
+        "output_tokens": 764,
+        "total_tokens": 4453,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 20,
+      "status": "completed",
+      "started_at": "2026-08-24T03:42:28.861281+08:00",
+      "completed_at": "2026-08-24T03:42:47.485618+08:00",
+      "duration_seconds": 18.624,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3331,
+      "output_tokens": 398,
+      "total_tokens": 3729,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3331,
+        "output_tokens": 398,
+        "total_tokens": 3729,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 21,
+      "status": "completed",
+      "started_at": "2026-08-24T03:42:28.861306+08:00",
+      "completed_at": "2026-08-24T03:42:34.746503+08:00",
+      "duration_seconds": 5.885,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 16149,
+      "output_tokens": 488,
+      "total_tokens": 16637,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 16149,
+        "output_tokens": 488,
+        "total_tokens": 16637,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 22,
+      "status": "completed",
+      "started_at": "2026-08-24T03:42:28.861330+08:00",
+      "completed_at": "2026-08-24T03:42:36.752203+08:00",
+      "duration_seconds": 7.891,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 13327,
+      "output_tokens": 718,
+      "total_tokens": 14045,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 13327,
+        "output_tokens": 718,
+        "total_tokens": 14045,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 27,
+      "status": "completed",
+      "started_at": "2026-08-24T03:42:29.387976+08:00",
+      "completed_at": "2026-08-24T03:42:34.742937+08:00",
+      "duration_seconds": 5.355,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3719,
+      "output_tokens": 486,
+      "total_tokens": 4205,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3719,
+        "output_tokens": 486,
+        "total_tokens": 4205,
+        "input_token_details": {
+          "cache_read": 1536
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 28,
+      "status": "completed",
+      "started_at": "2026-08-24T03:42:29.388030+08:00",
+      "completed_at": "2026-08-24T03:42:34.474103+08:00",
+      "duration_seconds": 5.086,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6296,
+      "output_tokens": 410,
+      "total_tokens": 6706,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 6296,
+        "output_tokens": 410,
+        "total_tokens": 6706,
+        "input_token_details": {
+          "cache_read": 6144
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 29,
+      "status": "completed",
+      "started_at": "2026-08-24T03:42:29.388062+08:00",
+      "completed_at": "2026-08-24T03:42:34.821091+08:00",
+      "duration_seconds": 5.433,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5854,
+      "output_tokens": 444,
+      "total_tokens": 6298,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5854,
+        "output_tokens": 444,
+        "total_tokens": 6298,
+        "input_token_details": {
+          "cache_read": 768
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 30,
+      "status": "completed",
+      "started_at": "2026-08-24T03:42:29.388177+08:00",
+      "completed_at": "2026-08-24T03:42:36.662809+08:00",
+      "duration_seconds": 7.275,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 13979,
+      "output_tokens": 686,
+      "total_tokens": 14665,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 13979,
+        "output_tokens": 686,
+        "total_tokens": 14665,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 31,
+      "status": "completed",
+      "started_at": "2026-08-24T03:42:29.388207+08:00",
+      "completed_at": "2026-08-24T03:42:33.248673+08:00",
+      "duration_seconds": 3.86,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1770,
+      "output_tokens": 322,
+      "total_tokens": 2092,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1770,
+        "output_tokens": 322,
+        "total_tokens": 2092,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 32,
+      "status": "completed",
+      "started_at": "2026-08-24T03:42:29.388230+08:00",
+      "completed_at": "2026-08-24T03:42:35.850745+08:00",
+      "duration_seconds": 6.463,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6592,
+      "output_tokens": 557,
+      "total_tokens": 7149,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 6592,
+        "output_tokens": 557,
+        "total_tokens": 7149,
+        "input_token_details": {
+          "cache_read": 1536
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 33,
+      "status": "completed",
+      "started_at": "2026-08-24T03:42:29.388455+08:00",
+      "completed_at": "2026-08-24T03:42:36.473135+08:00",
+      "duration_seconds": 7.085,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2422,
+      "output_tokens": 698,
+      "total_tokens": 3120,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2422,
+        "output_tokens": 698,
+        "total_tokens": 3120,
+        "input_token_details": {
+          "cache_read": 512
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 34,
+      "status": "completed",
+      "started_at": "2026-08-24T03:42:29.388507+08:00",
+      "completed_at": "2026-08-24T03:42:36.424149+08:00",
+      "duration_seconds": 7.036,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3828,
+      "output_tokens": 704,
+      "total_tokens": 4532,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3828,
+        "output_tokens": 704,
+        "total_tokens": 4532,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 35,
+      "status": "completed",
+      "started_at": "2026-08-24T03:42:29.388539+08:00",
+      "completed_at": "2026-08-24T03:42:35.169239+08:00",
+      "duration_seconds": 5.781,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3226,
+      "output_tokens": 496,
+      "total_tokens": 3722,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3226,
+        "output_tokens": 496,
+        "total_tokens": 3722,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 36,
+      "status": "completed",
+      "started_at": "2026-08-24T03:42:29.388566+08:00",
+      "completed_at": "2026-08-24T03:42:36.435332+08:00",
+      "duration_seconds": 7.047,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4012,
+      "output_tokens": 634,
+      "total_tokens": 4646,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4012,
+        "output_tokens": 634,
+        "total_tokens": 4646,
+        "input_token_details": {
+          "cache_read": 512
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 37,
+      "status": "completed",
+      "started_at": "2026-08-24T03:42:29.388593+08:00",
+      "completed_at": "2026-08-24T03:42:34.423204+08:00",
+      "duration_seconds": 5.035,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2934,
+      "output_tokens": 479,
+      "total_tokens": 3413,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2934,
+        "output_tokens": 479,
+        "total_tokens": 3413,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 38,
+      "status": "completed",
+      "started_at": "2026-08-24T03:42:29.388616+08:00",
+      "completed_at": "2026-08-24T03:42:35.635194+08:00",
+      "duration_seconds": 6.247,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4542,
+      "output_tokens": 556,
+      "total_tokens": 5098,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4542,
+        "output_tokens": 556,
+        "total_tokens": 5098,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 39,
+      "status": "completed",
+      "started_at": "2026-08-24T03:42:29.388640+08:00",
+      "completed_at": "2026-08-24T03:42:36.068161+08:00",
+      "duration_seconds": 6.68,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 9967,
+      "output_tokens": 574,
+      "total_tokens": 10541,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 9967,
+        "output_tokens": 574,
+        "total_tokens": 10541,
+        "input_token_details": {
+          "cache_read": 1536
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 40,
+      "status": "completed",
+      "started_at": "2026-08-24T03:42:29.388664+08:00",
+      "completed_at": "2026-08-24T03:42:39.053363+08:00",
+      "duration_seconds": 9.665,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 10900,
+      "output_tokens": 938,
+      "total_tokens": 11838,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 10900,
+        "output_tokens": 938,
+        "total_tokens": 11838,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 41,
+      "status": "completed",
+      "started_at": "2026-08-24T03:42:29.388691+08:00",
+      "completed_at": "2026-08-24T03:42:35.621431+08:00",
+      "duration_seconds": 6.233,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1910,
+      "output_tokens": 567,
+      "total_tokens": 2477,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1910,
+        "output_tokens": 567,
+        "total_tokens": 2477,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 42,
+      "status": "completed",
+      "started_at": "2026-08-24T03:42:29.388721+08:00",
+      "completed_at": "2026-08-24T03:42:34.970231+08:00",
+      "duration_seconds": 5.582,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2457,
+      "output_tokens": 512,
+      "total_tokens": 2969,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2457,
+        "output_tokens": 512,
+        "total_tokens": 2969,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 43,
+      "status": "completed",
+      "started_at": "2026-08-24T03:42:39.062124+08:00",
+      "completed_at": "2026-08-24T03:42:42.283622+08:00",
+      "duration_seconds": 3.222,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 10851,
+      "output_tokens": 204,
+      "total_tokens": 11055,
+      "message_count": 4,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 10851,
+        "output_tokens": 204,
+        "total_tokens": 11055,
+        "input_token_details": {
+          "cache_read": 1024
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 44,
+      "status": "completed",
+      "started_at": "2026-08-24T03:42:42.294393+08:00",
+      "completed_at": "2026-08-24T03:42:44.997080+08:00",
+      "duration_seconds": 2.703,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 11172,
+      "output_tokens": 140,
+      "total_tokens": 11312,
+      "message_count": 6,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 11172,
+        "output_tokens": 140,
+        "total_tokens": 11312,
+        "input_token_details": {
+          "cache_read": 10752
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 47,
+      "status": "completed",
+      "started_at": "2026-08-24T03:42:47.494252+08:00",
+      "completed_at": "2026-08-24T03:42:52.061711+08:00",
+      "duration_seconds": 4.567,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 10132,
+      "output_tokens": 319,
+      "total_tokens": 10451,
+      "message_count": 4,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 10132,
+        "output_tokens": 319,
+        "total_tokens": 10451,
+        "input_token_details": {
+          "cache_read": 1024
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 55,
+      "status": "completed",
+      "started_at": "2026-08-24T03:42:48.261118+08:00",
+      "completed_at": "2026-08-24T03:42:53.488979+08:00",
+      "duration_seconds": 5.228,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4620,
+      "output_tokens": 446,
+      "total_tokens": 5066,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4620,
+        "output_tokens": 446,
+        "total_tokens": 5066,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 56,
+      "status": "completed",
+      "started_at": "2026-08-24T03:42:48.261205+08:00",
+      "completed_at": "2026-08-24T03:42:53.993147+08:00",
+      "duration_seconds": 5.732,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4269,
+      "output_tokens": 491,
+      "total_tokens": 4760,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4269,
+        "output_tokens": 491,
+        "total_tokens": 4760,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 57,
+      "status": "completed",
+      "started_at": "2026-08-24T03:42:48.261259+08:00",
+      "completed_at": "2026-08-24T03:42:54.072718+08:00",
+      "duration_seconds": 5.811,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4447,
+      "output_tokens": 490,
+      "total_tokens": 4937,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4447,
+        "output_tokens": 490,
+        "total_tokens": 4937,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 58,
+      "status": "completed",
+      "started_at": "2026-08-24T03:42:48.261295+08:00",
+      "completed_at": "2026-08-24T03:42:55.595790+08:00",
+      "duration_seconds": 7.335,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5218,
+      "output_tokens": 697,
+      "total_tokens": 5915,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5218,
+        "output_tokens": 697,
+        "total_tokens": 5915,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 59,
+      "status": "completed",
+      "started_at": "2026-08-24T03:42:48.261328+08:00",
+      "completed_at": "2026-08-24T03:42:55.248536+08:00",
+      "duration_seconds": 6.987,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3966,
+      "output_tokens": 676,
+      "total_tokens": 4642,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3966,
+        "output_tokens": 676,
+        "total_tokens": 4642,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 60,
+      "status": "completed",
+      "started_at": "2026-08-24T03:42:48.261361+08:00",
+      "completed_at": "2026-08-24T03:42:53.497473+08:00",
+      "duration_seconds": 5.236,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4066,
+      "output_tokens": 456,
+      "total_tokens": 4522,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4066,
+        "output_tokens": 456,
+        "total_tokens": 4522,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 61,
+      "status": "completed",
+      "started_at": "2026-08-24T03:42:48.261391+08:00",
+      "completed_at": "2026-08-24T03:42:54.776967+08:00",
+      "duration_seconds": 6.516,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 11220,
+      "output_tokens": 621,
+      "total_tokens": 11841,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 11220,
+        "output_tokens": 621,
+        "total_tokens": 11841,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 62,
+      "status": "completed",
+      "started_at": "2026-08-24T03:42:48.261419+08:00",
+      "completed_at": "2026-08-24T03:42:54.484618+08:00",
+      "duration_seconds": 6.223,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7138,
+      "output_tokens": 529,
+      "total_tokens": 7667,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 7138,
+        "output_tokens": 529,
+        "total_tokens": 7667,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 63,
+      "status": "completed",
+      "started_at": "2026-08-24T03:42:48.261450+08:00",
+      "completed_at": "2026-08-24T03:42:52.563308+08:00",
+      "duration_seconds": 4.302,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5690,
+      "output_tokens": 341,
+      "total_tokens": 6031,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5690,
+        "output_tokens": 341,
+        "total_tokens": 6031,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 64,
+      "status": "completed",
+      "started_at": "2026-08-24T03:42:48.261482+08:00",
+      "completed_at": "2026-08-24T03:42:55.041921+08:00",
+      "duration_seconds": 6.78,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7620,
+      "output_tokens": 685,
+      "total_tokens": 8305,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 7620,
+        "output_tokens": 685,
+        "total_tokens": 8305,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 65,
+      "status": "completed",
+      "started_at": "2026-08-24T03:42:48.261510+08:00",
+      "completed_at": "2026-08-24T03:42:54.381223+08:00",
+      "duration_seconds": 6.12,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4892,
+      "output_tokens": 504,
+      "total_tokens": 5396,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4892,
+        "output_tokens": 504,
+        "total_tokens": 5396,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 66,
+      "status": "completed",
+      "started_at": "2026-08-24T03:42:48.261541+08:00",
+      "completed_at": "2026-08-24T03:42:55.192723+08:00",
+      "duration_seconds": 6.931,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6866,
+      "output_tokens": 627,
+      "total_tokens": 7493,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 6866,
+        "output_tokens": 627,
+        "total_tokens": 7493,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 67,
+      "status": "completed",
+      "started_at": "2026-08-24T03:42:48.261570+08:00",
+      "completed_at": "2026-08-24T03:42:56.327973+08:00",
+      "duration_seconds": 8.066,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 13273,
+      "output_tokens": 770,
+      "total_tokens": 14043,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 13273,
+        "output_tokens": 770,
+        "total_tokens": 14043,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 68,
+      "status": "failed",
+      "started_at": "2026-08-24T03:42:48.261599+08:00",
+      "completed_at": "2026-08-24T03:42:54.911448+08:00",
+      "duration_seconds": 6.65,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": null,
+      "output_tokens": null,
+      "total_tokens": null,
+      "message_count": 1,
+      "token_usage_source": "missing",
+      "token_usage_available": false,
+      "token_usage_details": null,
+      "error_type": "ValidationError",
+      "error": "1 validation error for AIMessage\ntool_calls.0.args\n  Input should be a valid dictionary [type=dict_type, input_value='{\"summary\": \"This scient... youth turned 21\\\\\"\\\\n}', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.11/v/dict_type"
+    },
+    {
+      "sequence": 69,
+      "status": "completed",
+      "started_at": "2026-08-24T03:42:48.261632+08:00",
+      "completed_at": "2026-08-24T03:42:53.799632+08:00",
+      "duration_seconds": 5.538,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4989,
+      "output_tokens": 417,
+      "total_tokens": 5406,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4989,
+        "output_tokens": 417,
+        "total_tokens": 5406,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 81,
+      "status": "completed",
+      "started_at": "2026-08-24T03:42:54.823145+08:00",
+      "completed_at": "2026-08-24T03:43:02.066050+08:00",
+      "duration_seconds": 7.243,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 12807,
+      "output_tokens": 643,
+      "total_tokens": 13450,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 12807,
+        "output_tokens": 643,
+        "total_tokens": 13450,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 82,
+      "status": "completed",
+      "started_at": "2026-08-24T03:42:54.823212+08:00",
+      "completed_at": "2026-08-24T03:43:07.099993+08:00",
+      "duration_seconds": 12.277,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5939,
+      "output_tokens": 475,
+      "total_tokens": 6414,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5939,
+        "output_tokens": 475,
+        "total_tokens": 6414,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 83,
+      "status": "completed",
+      "started_at": "2026-08-24T03:42:54.823247+08:00",
+      "completed_at": "2026-08-24T03:43:02.170636+08:00",
+      "duration_seconds": 7.347,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6866,
+      "output_tokens": 693,
+      "total_tokens": 7559,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 6866,
+        "output_tokens": 693,
+        "total_tokens": 7559,
+        "input_token_details": {
+          "cache_read": 6656
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 84,
+      "status": "completed",
+      "started_at": "2026-08-24T03:42:54.823275+08:00",
+      "completed_at": "2026-08-24T03:43:02.265353+08:00",
+      "duration_seconds": 7.442,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 13273,
+      "output_tokens": 722,
+      "total_tokens": 13995,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 13273,
+        "output_tokens": 722,
+        "total_tokens": 13995,
+        "input_token_details": {
+          "cache_read": 13056
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 85,
+      "status": "completed",
+      "started_at": "2026-08-24T03:42:54.823299+08:00",
+      "completed_at": "2026-08-24T03:43:00.797788+08:00",
+      "duration_seconds": 5.974,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 17625,
+      "output_tokens": 578,
+      "total_tokens": 18203,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 17625,
+        "output_tokens": 578,
+        "total_tokens": 18203,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 86,
+      "status": "completed",
+      "started_at": "2026-08-24T03:42:54.823324+08:00",
+      "completed_at": "2026-08-24T03:43:00.717687+08:00",
+      "duration_seconds": 5.894,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6215,
+      "output_tokens": 549,
+      "total_tokens": 6764,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 6215,
+        "output_tokens": 549,
+        "total_tokens": 6764,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 87,
+      "status": "completed",
+      "started_at": "2026-08-24T03:42:54.823347+08:00",
+      "completed_at": "2026-08-24T03:43:02.802090+08:00",
+      "duration_seconds": 7.979,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5575,
+      "output_tokens": 893,
+      "total_tokens": 6468,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5575,
+        "output_tokens": 893,
+        "total_tokens": 6468,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 88,
+      "status": "completed",
+      "started_at": "2026-08-24T03:42:54.823368+08:00",
+      "completed_at": "2026-08-24T03:43:01.418345+08:00",
+      "duration_seconds": 6.595,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4584,
+      "output_tokens": 644,
+      "total_tokens": 5228,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4584,
+        "output_tokens": 644,
+        "total_tokens": 5228,
+        "input_token_details": {
+          "cache_read": 512
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 89,
+      "status": "completed",
+      "started_at": "2026-08-24T03:42:54.823392+08:00",
+      "completed_at": "2026-08-24T03:43:02.826187+08:00",
+      "duration_seconds": 8.003,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8234,
+      "output_tokens": 755,
+      "total_tokens": 8989,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 8234,
+        "output_tokens": 755,
+        "total_tokens": 8989,
+        "input_token_details": {
+          "cache_read": 512
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 90,
+      "status": "completed",
+      "started_at": "2026-08-24T03:42:54.913324+08:00",
+      "completed_at": "2026-08-24T03:43:03.027225+08:00",
+      "duration_seconds": 8.114,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 15081,
+      "output_tokens": 760,
+      "total_tokens": 15841,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 15081,
+        "output_tokens": 760,
+        "total_tokens": 15841,
+        "input_token_details": {
+          "cache_read": 14848
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 91,
+      "status": "completed",
+      "started_at": "2026-08-24T03:43:03.036653+08:00",
+      "completed_at": "2026-08-24T03:43:14.373226+08:00",
+      "duration_seconds": 11.337,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 22627,
+      "output_tokens": 1078,
+      "total_tokens": 23705,
+      "message_count": 8,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 22627,
+        "output_tokens": 1078,
+        "total_tokens": 23705,
+        "input_token_details": {
+          "cache_read": 11008
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 92,
+      "status": "completed",
+      "started_at": "2026-08-24T03:43:07.109270+08:00",
+      "completed_at": "2026-08-24T03:43:11.499979+08:00",
+      "duration_seconds": 4.391,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 21757,
+      "output_tokens": 297,
+      "total_tokens": 22054,
+      "message_count": 7,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 21757,
+        "output_tokens": 297,
+        "total_tokens": 22054,
+        "input_token_details": {
+          "cache_read": 9984
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 94,
+      "status": "completed",
+      "started_at": "2026-08-24T03:43:14.387355+08:00",
+      "completed_at": "2026-08-24T03:43:16.531406+08:00",
+      "duration_seconds": 2.144,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 23276,
+      "output_tokens": 47,
+      "total_tokens": 23323,
+      "message_count": 10,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 23276,
+        "output_tokens": 47,
+        "total_tokens": 23323,
+        "input_token_details": {
+          "cache_read": 22528
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 101,
+      "status": "completed",
+      "started_at": "2026-08-24T03:43:16.139655+08:00",
+      "completed_at": "2026-08-24T03:43:22.686934+08:00",
+      "duration_seconds": 6.547,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 14138,
+      "output_tokens": 576,
+      "total_tokens": 14714,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 14138,
+        "output_tokens": 576,
+        "total_tokens": 14714,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 102,
+      "status": "completed",
+      "started_at": "2026-08-24T03:43:16.139742+08:00",
+      "completed_at": "2026-08-24T03:43:21.095725+08:00",
+      "duration_seconds": 4.956,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3909,
+      "output_tokens": 384,
+      "total_tokens": 4293,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3909,
+        "output_tokens": 384,
+        "total_tokens": 4293,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 103,
+      "status": "completed",
+      "started_at": "2026-08-24T03:43:16.139795+08:00",
+      "completed_at": "2026-08-24T03:43:22.475134+08:00",
+      "duration_seconds": 6.335,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7877,
+      "output_tokens": 571,
+      "total_tokens": 8448,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 7877,
+        "output_tokens": 571,
+        "total_tokens": 8448,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 104,
+      "status": "completed",
+      "started_at": "2026-08-24T03:43:16.139828+08:00",
+      "completed_at": "2026-08-24T03:43:24.682877+08:00",
+      "duration_seconds": 8.543,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 15197,
+      "output_tokens": 740,
+      "total_tokens": 15937,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 15197,
+        "output_tokens": 740,
+        "total_tokens": 15937,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 105,
+      "status": "completed",
+      "started_at": "2026-08-24T03:43:16.139858+08:00",
+      "completed_at": "2026-08-24T03:43:20.128936+08:00",
+      "duration_seconds": 3.989,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 16650,
+      "output_tokens": 305,
+      "total_tokens": 16955,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 16650,
+        "output_tokens": 305,
+        "total_tokens": 16955,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 106,
+      "status": "completed",
+      "started_at": "2026-08-24T03:43:16.139891+08:00",
+      "completed_at": "2026-08-24T03:43:20.922515+08:00",
+      "duration_seconds": 4.783,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2791,
+      "output_tokens": 399,
+      "total_tokens": 3190,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2791,
+        "output_tokens": 399,
+        "total_tokens": 3190,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 107,
+      "status": "completed",
+      "started_at": "2026-08-24T03:43:16.139919+08:00",
+      "completed_at": "2026-08-24T03:43:22.066772+08:00",
+      "duration_seconds": 5.927,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2800,
+      "output_tokens": 564,
+      "total_tokens": 3364,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2800,
+        "output_tokens": 564,
+        "total_tokens": 3364,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 108,
+      "status": "completed",
+      "started_at": "2026-08-24T03:43:16.139949+08:00",
+      "completed_at": "2026-08-24T03:43:23.292214+08:00",
+      "duration_seconds": 7.152,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6386,
+      "output_tokens": 653,
+      "total_tokens": 7039,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 6386,
+        "output_tokens": 653,
+        "total_tokens": 7039,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 109,
+      "status": "completed",
+      "started_at": "2026-08-24T03:43:16.539584+08:00",
+      "completed_at": "2026-08-24T03:44:53.696326+08:00",
+      "duration_seconds": 97.157,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 23048,
+      "output_tokens": 12383,
+      "total_tokens": 35431,
+      "message_count": 13,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 23048,
+        "output_tokens": 12383,
+        "total_tokens": 35431,
+        "input_token_details": {
+          "cache_read": 512
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "end_turn"
+    },
+    {
+      "sequence": 110,
+      "status": "completed",
+      "started_at": "2026-08-24T03:43:24.692130+08:00",
+      "completed_at": "2026-08-24T03:43:29.435081+08:00",
+      "duration_seconds": 4.743,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 29248,
+      "output_tokens": 324,
+      "total_tokens": 29572,
+      "message_count": 10,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 29248,
+        "output_tokens": 324,
+        "total_tokens": 29572,
+        "input_token_details": {
+          "cache_read": 21504
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 121,
+      "status": "completed",
+      "started_at": "2026-08-24T03:43:32.409534+08:00",
+      "completed_at": "2026-08-24T03:43:38.903059+08:00",
+      "duration_seconds": 6.494,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4945,
+      "output_tokens": 615,
+      "total_tokens": 5560,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4945,
+        "output_tokens": 615,
+        "total_tokens": 5560,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 122,
+      "status": "completed",
+      "started_at": "2026-08-24T03:43:32.409640+08:00",
+      "completed_at": "2026-08-24T03:43:36.835056+08:00",
+      "duration_seconds": 4.425,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2317,
+      "output_tokens": 345,
+      "total_tokens": 2662,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2317,
+        "output_tokens": 345,
+        "total_tokens": 2662,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 123,
+      "status": "completed",
+      "started_at": "2026-08-24T03:43:32.409730+08:00",
+      "completed_at": "2026-08-24T03:43:36.936435+08:00",
+      "duration_seconds": 4.527,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2334,
+      "output_tokens": 378,
+      "total_tokens": 2712,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2334,
+        "output_tokens": 378,
+        "total_tokens": 2712,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 124,
+      "status": "completed",
+      "started_at": "2026-08-24T03:43:32.410976+08:00",
+      "completed_at": "2026-08-24T03:43:39.279269+08:00",
+      "duration_seconds": 6.868,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 15563,
+      "output_tokens": 679,
+      "total_tokens": 16242,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 15563,
+        "output_tokens": 679,
+        "total_tokens": 16242,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 125,
+      "status": "completed",
+      "started_at": "2026-08-24T03:43:32.411013+08:00",
+      "completed_at": "2026-08-24T03:43:40.367681+08:00",
+      "duration_seconds": 7.957,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4643,
+      "output_tokens": 826,
+      "total_tokens": 5469,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4643,
+        "output_tokens": 826,
+        "total_tokens": 5469,
+        "input_token_details": {
+          "cache_read": 512
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 126,
+      "status": "completed",
+      "started_at": "2026-08-24T03:43:32.411042+08:00",
+      "completed_at": "2026-08-24T03:43:36.200886+08:00",
+      "duration_seconds": 3.79,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1945,
+      "output_tokens": 307,
+      "total_tokens": 2252,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1945,
+        "output_tokens": 307,
+        "total_tokens": 2252,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 127,
+      "status": "completed",
+      "started_at": "2026-08-24T03:43:32.411068+08:00",
+      "completed_at": "2026-08-24T03:43:40.204938+08:00",
+      "duration_seconds": 7.794,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 11000,
+      "output_tokens": 756,
+      "total_tokens": 11756,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 11000,
+        "output_tokens": 756,
+        "total_tokens": 11756,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 128,
+      "status": "completed",
+      "started_at": "2026-08-24T03:43:32.411093+08:00",
+      "completed_at": "2026-08-24T03:43:38.047226+08:00",
+      "duration_seconds": 5.636,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3289,
+      "output_tokens": 584,
+      "total_tokens": 3873,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3289,
+        "output_tokens": 584,
+        "total_tokens": 3873,
+        "input_token_details": {
+          "cache_read": 512
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 129,
+      "status": "completed",
+      "started_at": "2026-08-24T03:43:32.411118+08:00",
+      "completed_at": "2026-08-24T03:43:37.633957+08:00",
+      "duration_seconds": 5.223,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2954,
+      "output_tokens": 429,
+      "total_tokens": 3383,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2954,
+        "output_tokens": 429,
+        "total_tokens": 3383,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 130,
+      "status": "completed",
+      "started_at": "2026-08-24T03:43:32.411144+08:00",
+      "completed_at": "2026-08-24T03:43:39.978723+08:00",
+      "duration_seconds": 7.568,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4823,
+      "output_tokens": 708,
+      "total_tokens": 5531,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4823,
+        "output_tokens": 708,
+        "total_tokens": 5531,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 131,
+      "status": "completed",
+      "started_at": "2026-08-24T03:43:32.411172+08:00",
+      "completed_at": "2026-08-24T03:43:39.733274+08:00",
+      "duration_seconds": 7.322,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7932,
+      "output_tokens": 698,
+      "total_tokens": 8630,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 7932,
+        "output_tokens": 698,
+        "total_tokens": 8630,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 132,
+      "status": "completed",
+      "started_at": "2026-08-24T03:43:32.411195+08:00",
+      "completed_at": "2026-08-24T03:43:36.587906+08:00",
+      "duration_seconds": 4.177,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1897,
+      "output_tokens": 345,
+      "total_tokens": 2242,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1897,
+        "output_tokens": 345,
+        "total_tokens": 2242,
+        "input_token_details": {
+          "cache_read": 512
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 133,
+      "status": "completed",
+      "started_at": "2026-08-24T03:43:40.383111+08:00",
+      "completed_at": "2026-08-24T03:43:56.437891+08:00",
+      "duration_seconds": 16.055,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 40677,
+      "output_tokens": 1640,
+      "total_tokens": 42317,
+      "message_count": 13,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 40677,
+        "output_tokens": 1640,
+        "total_tokens": 42317,
+        "input_token_details": {
+          "cache_read": 29184
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 134,
+      "status": "completed",
+      "started_at": "2026-08-24T03:43:56.445845+08:00",
+      "completed_at": "2026-08-24T03:45:14.841120+08:00",
+      "duration_seconds": 78.395,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 40559,
+      "output_tokens": 10883,
+      "total_tokens": 51442,
+      "message_count": 16,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 40559,
+        "output_tokens": 10883,
+        "total_tokens": 51442,
+        "input_token_details": {
+          "cache_read": 512
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "end_turn"
+    },
+    {
+      "sequence": 135,
+      "status": "completed",
+      "started_at": "2026-08-24T03:45:14.849069+08:00",
+      "completed_at": "2026-08-24T03:45:23.310647+08:00",
+      "duration_seconds": 8.462,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 23980,
+      "output_tokens": 764,
+      "total_tokens": 24744,
+      "message_count": 7,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 23980,
+        "output_tokens": 764,
+        "total_tokens": 24744,
+        "input_token_details": {
+          "cache_read": 1536
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 136,
+      "status": "completed",
+      "started_at": "2026-08-24T03:45:23.318178+08:00",
+      "completed_at": "2026-08-24T03:45:25.931364+08:00",
+      "duration_seconds": 2.613,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 25063,
+      "output_tokens": 108,
+      "total_tokens": 25171,
+      "message_count": 9,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 25063,
+        "output_tokens": 108,
+        "total_tokens": 25171,
+        "input_token_details": {
+          "cache_read": 23808
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 137,
+      "status": "completed",
+      "started_at": "2026-08-24T03:45:25.939205+08:00",
+      "completed_at": "2026-08-24T03:47:52.508753+08:00",
+      "duration_seconds": 146.57,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 23488,
+      "output_tokens": 19599,
+      "total_tokens": 43087,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 23488,
+        "output_tokens": 19599,
+        "total_tokens": 43087,
+        "input_token_details": {},
+        "output_token_details": {}
+      },
+      "finish_reason": "end_turn"
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "status": "completed",
+      "query": "Amethyst Initiative college presidents support lowering drinking age",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.428,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Amethyst Initiative - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Amethyst_Initiative",
+          "score": 0.9041187,
+          "raw_content_available": true,
+          "raw_content_length": 47677,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Amethyst Initiative: College Presidents and Alcohol Abuse",
+          "url": "https://www.alcoholproblemsandsolutions.org/amethyst-initiative",
+          "score": 0.9020676,
+          "raw_content_available": true,
+          "raw_content_length": 50970,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "College Presidents Urge Rethink On Drinking Age : NPR",
+          "url": "https://www.npr.org/2008/08/19/93749553/college-presidents-urge-rethink-on-drinking-age",
+          "score": 0.8961153,
+          "raw_content_available": true,
+          "raw_content_length": 7923,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Forecasting the Effect of the Amethyst Initiative on College Drinking - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4226518",
+          "score": 0.8925721,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "[PDF] Uncorking the Drinking Age Debate:A Second Call to University Presidents",
+          "url": "https://scholarworks.seattleu.edu/cgi/viewcontent.cgi?article=1042&context=magis",
+          "score": 0.7316155,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        }
+      ],
+      "sequence": 6,
+      "timestamp": "2026-08-24T03:42:28.491359+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Mark Kleiman arguments lowering drinking age",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.495,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Old Enough To Fight, Old Enough To Drink?",
+          "url": "https://www.cbsnews.com/news/old-enough-to-fight-old-enough-to-drink",
+          "score": 0.7011614,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "Drinking Age | Pros, Cons, Debate, Arguments, Alcohol, Adult, Minors ...",
+          "url": "https://www.britannica.com/procon/drinking-age-debate",
+          "score": 0.51325434,
+          "raw_content_available": true,
+          "raw_content_length": 109473,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Mark Kleiman on why we need to solve our alcohol ...",
+          "url": "https://www.washingtonpost.com/news/wonk/wp/2013/03/28/mark-kleiman-on-why-we-need-to-solve-our-alcohol-problem-to-solve-our-crime-problem",
+          "score": 0.44391435,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "lowering the legal drinking age",
+          "url": "https://docs.google.com/document/d/1_jcK2x6mxiIIOhabF5JWUXlK3m729c08mIF3O2EO-5s",
+          "score": 0.39319915,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "Controversies Surrounding Minimum Legal Drinking Age",
+          "url": "https://www.studocu.com/en-us/document/hartnell-college/college-composition-and-reading/research-essay-final-draft/23074979",
+          "score": 0.3084094,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        }
+      ],
+      "sequence": 7,
+      "timestamp": "2026-08-24T03:42:28.583518+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "John M. McCardell Choose Responsibility drinking age 18",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.65,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "“Choose Responsibility” to Reduce Underage Alcohol Abuse",
+          "url": "https://www.alcoholproblemsandsolutions.org/choose-responsibility-to-reduce-underage-alcohol-abuse",
+          "score": 0.81630427,
+          "raw_content_available": true,
+          "raw_content_length": 3192,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "The Minimum Legal Drinking Age and Public Health - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3182479",
+          "score": 0.7961819,
+          "raw_content_available": true,
+          "raw_content_length": 79399,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Choose Responsibility - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Choose_Responsibility",
+          "score": 0.6897452,
+          "raw_content_available": true,
+          "raw_content_length": 13688,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "College Presidents Urge Rethink On Drinking Age - NPR",
+          "url": "https://www.npr.org/2008/08/19/93749553/college-presidents-urge-rethink-on-drinking-age",
+          "score": 0.64880073,
+          "raw_content_available": true,
+          "raw_content_length": 7923,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Reaffirming the National Minimum Drinking Age of 21",
+          "url": "https://www.civicresearchinstitute.com/online/PDF/761600766Reaffirming%20the%20National%20Minimum%20Drinking%20Age%20of%2021.pdf",
+          "score": 0.5820878,
+          "raw_content_available": true,
+          "raw_content_length": 35072,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 8,
+      "timestamp": "2026-08-24T03:42:28.725617+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "forbidden fruit effect drinking age 21 binge drinking studies",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.757,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Underage Drinking and the Drinking Age | Hoover Institution Underage Drinking and the Drinking Age",
+          "url": "https://www.hoover.org/research/underage-drinking-and-drinking-age",
+          "score": 0.7946564,
+          "raw_content_available": true,
+          "raw_content_length": 49409,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Why is the Drinking Age 21? - MADD",
+          "url": "https://madd.org/why-21",
+          "score": 0.72559077,
+          "raw_content_available": true,
+          "raw_content_length": 20277,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Why the drinking age should be lowered: Articles: Alcohol Research and Health History: Indiana University",
+          "url": "https://alcohol.iu.edu/articles/drinking-age/index.html",
+          "score": 0.5717911,
+          "raw_content_available": true,
+          "raw_content_length": 10923,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Answering Questions About Underage Drinking | Consumer Advice",
+          "url": "https://consumer.ftc.gov/articles/0390-answering-questions-about-underage-drinking",
+          "score": 0.42162386,
+          "raw_content_available": true,
+          "raw_content_length": 9210,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Turning 21 and the Associated Changes in Drinking and Driving after Drinking Among College Students",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2925119",
+          "score": 0.37841368,
+          "raw_content_available": true,
+          "raw_content_length": 54421,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 9,
+      "timestamp": "2026-08-24T03:42:28.840569+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "NIH NIAAA adolescent brain development alcohol age 21 research",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.311,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Alcohol and the Adolescent Brain | National Institute on Alcohol Abuse and Alcoholism (NIAAA)",
+          "url": "https://www.niaaa.nih.gov/publications/alcohol-and-adolescent-brain",
+          "score": 0.8055255,
+          "raw_content_available": true,
+          "raw_content_length": 13041,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "NIH Launches Landmark Study on Substance Use and Adolescent Brain Development | Morehouse School of Medicine",
+          "url": "https://www.msm.edu/RSSFeedArticles/September2015/NIH-ABCDStudy.php",
+          "score": 0.8055255,
+          "raw_content_available": true,
+          "raw_content_length": 8218,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Get the Facts About Underage Drinking | National Institute on Alcohol Abuse and Alcoholism (NIAAA)",
+          "url": "https://www.niaaa.nih.gov/publications/brochures-and-fact-sheets/underage-drinking",
+          "score": 0.7393665,
+          "raw_content_available": true,
+          "raw_content_length": 14216,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Adolescent Brain Development and Underage Drinking in the United States: Identifying Risks of Alcohol Use in College Populations - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4669962",
+          "score": 0.56719416,
+          "raw_content_available": true,
+          "raw_content_length": 41585,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Alcohol and the Adolescent Brain: What We've Learned ... - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8999519",
+          "score": 0.47709182,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        }
+      ],
+      "sequence": 23,
+      "timestamp": "2026-08-24T03:42:28.908874+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "CDC minimum drinking age 21 findings traffic fatalities youth",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.708,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "The United States Limits Drinking by Youth Under Age 21: Does this Reduce Fatal Crash Involvements?",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3400235",
+          "score": 0.73778254,
+          "raw_content_available": true,
+          "raw_content_length": 59672,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Young Drivers",
+          "url": "https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/813313",
+          "score": 0.7065353,
+          "raw_content_available": true,
+          "raw_content_length": 32739,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Implementing Policies Targeting Underage Drinking and Alcohol-Impaired Driving | Stanford Network on Addiction Policy Bridging Science and Public Policy",
+          "url": "https://addictionpolicy.stanford.edu/implementing-policies-targeting-underage-drinking-and-alcohol-impaired-driving",
+          "score": 0.62523276,
+          "raw_content_available": true,
+          "raw_content_length": 3393,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "CDC: Teen Drinking and Driving Falls by Half",
+          "url": "https://time.com/archive/7137506/cdc-teen-drinking-and-driving-falls-by-half",
+          "score": 0.6175132,
+          "raw_content_available": true,
+          "raw_content_length": 5330,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Drunk Driving | Statistics and Resources - NHTSA",
+          "url": "https://www.nhtsa.gov/risky-driving/drunk-driving",
+          "score": 0.59401023,
+          "raw_content_available": true,
+          "raw_content_length": 11839,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 24,
+      "timestamp": "2026-08-24T03:42:29.311773+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "MADD Mothers Against Drunk Driving 21 minimum drinking age lives saved research",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.752,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "MADD Celebrates America's 21 Drinking Age Law Turning 40",
+          "url": "https://madd.org/press-release/madd-celebrates-americas-21-drinking-age-law-turning-40",
+          "score": 0.8415267,
+          "raw_content_available": true,
+          "raw_content_length": 9739,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Why is the Drinking Age 21? - MADD",
+          "url": "https://madd.org/why-21",
+          "score": 0.75616,
+          "raw_content_available": true,
+          "raw_content_length": 20277,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "MADD | Mothers Against Drunk Driving & Victim Support",
+          "url": "https://madd.org",
+          "score": 0.5769478,
+          "raw_content_available": true,
+          "raw_content_length": 14409,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "The United States Limits Drinking by Youth Under Age 21: Does this Reduce Fatal Crash Involvements?",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3400235",
+          "score": 0.56690645,
+          "raw_content_available": true,
+          "raw_content_length": 59672,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Why A Minimum Legal Drinking Age of 21 Works",
+          "url": "https://www.cdc.gov/alcohol/underage-drinking/minimum-legal-drinking-age.html",
+          "score": 0.25300226,
+          "raw_content_available": true,
+          "raw_content_length": 2653,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 25,
+      "timestamp": "2026-08-24T03:42:29.332669+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "NHTSA National Highway Traffic Safety Administration 21 drinking age lives saved statistics",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.785,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Refresh Why 21 Tom's Header - MADD",
+          "url": "https://madd.org/refresh-why-21-toms-header",
+          "score": 0.89849097,
+          "raw_content_available": true,
+          "raw_content_length": 21100,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "The United States Limits Drinking by Youth Under Age 21 - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3400235",
+          "score": 0.8958969,
+          "raw_content_available": true,
+          "raw_content_length": 59672,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Minimum Legal Drinking Age 21 Laws",
+          "url": "https://www.nhtsa.gov/book/countermeasures-that-work/alcohol-impaired-driving/countermeasures/legislation-and-licensing-5",
+          "score": 0.86441374,
+          "raw_content_available": true,
+          "raw_content_length": 5129,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Drunk Driving | Statistics and Resources - NHTSA",
+          "url": "https://www.nhtsa.gov/risky-driving/drunk-driving",
+          "score": 0.8364614,
+          "raw_content_available": true,
+          "raw_content_length": 11839,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Traffic Safety Facts",
+          "url": "https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/809860",
+          "score": 0.73868835,
+          "raw_content_available": true,
+          "raw_content_length": 8782,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 26,
+      "timestamp": "2026-08-24T03:42:29.374223+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Sandra A. Brown Susan Tapert adolescent brain development alcohol research",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 1.871,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "‪Susan Tapert‬ - ‪Google Scholar‬",
+          "url": "https://scholar.google.com/citations?user=7Z13x_AAAAAJ&hl=en",
+          "score": 0.7593865,
+          "raw_content_available": true,
+          "raw_content_length": 10453,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Adolescence and the trajectory of alcohol use: Basic to clinical studies.",
+          "url": "https://psycnet.apa.org/record/2004-16492-024",
+          "score": 0.6972179,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "Susan TAPERT | University of California San Diego - ResearchGate",
+          "url": "https://www.researchgate.net/profile/Susan-Tapert",
+          "score": 0.64478505,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "Susan Tapert | UCSD Profiles",
+          "url": "https://profiles.ucsd.edu/susan.tapert",
+          "score": 0.5928793,
+          "raw_content_available": true,
+          "raw_content_length": 10103,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Adolescent Brain Development, Substance Use, and ... - PMC - NIH",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3700608",
+          "score": 0.33095807,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        }
+      ],
+      "sequence": 45,
+      "timestamp": "2026-08-24T03:42:46.874322+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Pacific Institute for Research and Evaluation drinking age 21 study",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.366,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Minimum Drinking Age Of 21 Saves Lives, Study Finds | ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2008/07/080701083542.htm",
+          "score": 0.8963332,
+          "raw_content_available": true,
+          "raw_content_length": 13917,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "[PDF] Frequently Asked Questions: Minimum Legal Drinking Age/Age 21 - ERIC",
+          "url": "https://files.eric.ed.gov/fulltext/ED537670.pdf",
+          "score": 0.78074646,
+          "raw_content_available": true,
+          "raw_content_length": 17054,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "[PDF] KEEP THE MININUM DRINKING AGE AT 21: A Position Paper of Drug ...",
+          "url": "https://preventionactionalliance.org/wp-content/uploads/2023/07/DFAA-Position-MLDA.pdf",
+          "score": 0.72348577,
+          "raw_content_available": true,
+          "raw_content_length": 12646,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "The Minimum Legal Drinking Age and Public Health - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3182479",
+          "score": 0.58664185,
+          "raw_content_available": true,
+          "raw_content_length": 79399,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Case Closed: Research Evidence on the Positive Public Health Impact                     of the Age 21 Minimum Legal Drinking Age in the United States",
+          "url": "https://www.jsad.com/doi/10.15288/jsads.2014.s17.108",
+          "score": 0.49392182,
+          "raw_content_available": true,
+          "raw_content_length": 9045,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 46,
+      "timestamp": "2026-08-24T03:42:47.378809+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "traffic fatalities before after 1984 national minimum drinking age law",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.627,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "The fatal toll of driving to drink: The effect of minimum legal drinking age evasion on traffic fatalities",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S016762960900112X",
+          "score": 0.74563974,
+          "raw_content_available": true,
+          "raw_content_length": 27625,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Minimum Drinking Age Act: Laws, Exceptions, and Impact",
+          "url": "https://recovered.org/drug-offense-resources/national-minimum-drinking-age-act-of-1984",
+          "score": 0.72348577,
+          "raw_content_available": true,
+          "raw_content_length": 15689,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Drinking age debate | Law | Research Starters | EBSCO Research",
+          "url": "https://www.ebsco.com/research-starters/law/drinking-age-debate",
+          "score": 0.70702106,
+          "raw_content_available": true,
+          "raw_content_length": 25007,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "National Minimum Drinking Age Act - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/National_Minimum_Drinking_Age_Act",
+          "score": 0.65835214,
+          "raw_content_available": true,
+          "raw_content_length": 44102,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "The Minimum Legal Drinking Age",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6876521",
+          "score": 0.6554468,
+          "raw_content_available": true,
+          "raw_content_length": 62902,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 48,
+      "timestamp": "2026-08-24T03:42:47.652840+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Choose Responsibility drinking age debate counter arguments",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.979,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Drinking age debate | Law | Research Starters - EBSCO",
+          "url": "https://www.ebsco.com/research-starters/law/drinking-age-debate",
+          "score": 0.7237202,
+          "raw_content_available": true,
+          "raw_content_length": 25007,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Drinking Age Debate",
+          "url": "https://www.clarkeforum.org/drinking-age-debate",
+          "score": 0.70944256,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "Drinking Age | Pros, Cons, Debate, Arguments, Alcohol, Adult, Minors ...",
+          "url": "https://www.britannica.com/procon/drinking-age-debate",
+          "score": 0.5476824,
+          "raw_content_available": true,
+          "raw_content_length": 109473,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Why the drinking age should be lowered: Articles",
+          "url": "https://alcohol.iu.edu/articles/drinking-age/index.html",
+          "score": 0.4398682,
+          "raw_content_available": true,
+          "raw_content_length": 10923,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "The Minimum Legal Drinking Age: History, Effectiveness, and ... - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6876521",
+          "score": 0.24447614,
+          "raw_content_available": true,
+          "raw_content_length": 62902,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 49,
+      "timestamp": "2026-08-24T03:42:48.010022+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "drinking age debate 2024 2025 2026 research",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 3.172,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Drinking age debate | Law | Research Starters - EBSCO",
+          "url": "https://www.ebsco.com/research-starters/law/drinking-age-debate",
+          "score": 0.68344116,
+          "raw_content_available": true,
+          "raw_content_length": 25007,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Underage Drinking Rates Down for 5th Consecutive Year",
+          "url": "https://www.responsibility.org/nida-mtf-dec2025",
+          "score": 0.67063034,
+          "raw_content_available": true,
+          "raw_content_length": 15824,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Drinking Age | Pros, Cons, Debate, Arguments, Alcohol, Adult, Minors ...",
+          "url": "https://www.britannica.com/procon/drinking-age-debate",
+          "score": 0.6445166,
+          "raw_content_available": true,
+          "raw_content_length": 109473,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Why the drinking age should be lowered: Articles",
+          "url": "https://alcohol.iu.edu/articles/drinking-age/index.html",
+          "score": 0.42276734,
+          "raw_content_available": true,
+          "raw_content_length": 10923,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "The Minimum Legal Drinking Age: History, Effectiveness, and ... - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6876521",
+          "score": 0.41250706,
+          "raw_content_available": true,
+          "raw_content_length": 62902,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 50,
+      "timestamp": "2026-08-24T03:42:48.208247+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "high school alcohol access if drinking age lowered 18 study",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 3.229,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "The Impact of Raising the Minimum Legal Drinking Age on ...",
+          "url": "https://www.rfberlin.com/wp-content/uploads/2025/03/25009.pdf",
+          "score": 0.6211049,
+          "raw_content_available": true,
+          "raw_content_length": 103885,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Why the drinking age should be lowered: Articles",
+          "url": "https://alcohol.iu.edu/articles/drinking-age/index.html",
+          "score": 0.49567938,
+          "raw_content_available": true,
+          "raw_content_length": 10923,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Statistics on Underage Drinking",
+          "url": "https://www.responsibility.org/alcohol-statistics/underage-drinking-statistics",
+          "score": 0.3442235,
+          "raw_content_available": true,
+          "raw_content_length": 23852,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Drinking Age | Pros, Cons, Debate, Arguments, Alcohol, Adult, Minors ...",
+          "url": "https://www.britannica.com/procon/drinking-age-debate",
+          "score": 0.33711678,
+          "raw_content_available": true,
+          "raw_content_length": 109473,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Minimum legal drinking age and educational outcomes",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0167629625001134",
+          "score": 0.31339926,
+          "raw_content_available": true,
+          "raw_content_length": 16440,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 51,
+      "timestamp": "2026-08-24T03:42:48.248392+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "CDC underage drinking statistics 2024 2025 binge drinking rates",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.349,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Statistics on Underage Drinking",
+          "url": "https://www.responsibility.org/alcohol-statistics/underage-drinking-statistics",
+          "score": 0.9549888,
+          "raw_content_available": true,
+          "raw_content_length": 23852,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Alcohol Use in 2025: Drinking & Mental Health Statistics — South Denver Therapy",
+          "url": "https://www.southdenvertherapy.com/blog/alcohol-use-statistics",
+          "score": 0.85967577,
+          "raw_content_available": true,
+          "raw_content_length": 20439,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Alcohol Abuse Statistics 2026 | National Center for Alcohol Statistics",
+          "url": "https://alcoholabusestatistics.org",
+          "score": 0.80625874,
+          "raw_content_available": true,
+          "raw_content_length": 17879,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Underage Drinking in the United States (ages 12 to 20) | National Institute on Alcohol Abuse and Alcoholism (NIAAA)",
+          "url": "https://www.niaaa.nih.gov/alcohols-effects-health/alcohol-topics/alcohol-facts-and-statistics/underage-drinking-united-states-ages-12-20",
+          "score": 0.7587435,
+          "raw_content_available": true,
+          "raw_content_length": 11688,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Alcohol Use in the United States: Age Groups and Demographic ...",
+          "url": "https://www.niaaa.nih.gov/alcohols-effects-health/alcohol-topics-z/alcohol-facts-and-statistics/alcohol-use-united-states-age-groups-and-demographic-characteristics",
+          "score": 0.7077487,
+          "raw_content_available": true,
+          "raw_content_length": 22876,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 70,
+      "timestamp": "2026-08-24T03:42:54.435315+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "European drinking culture lower drinking age supervised vs unsupervised drinking outcomes",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.576,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Europe has lower drinking ages than the US — and worse teen drinking problems | Vox",
+          "url": "https://www.vox.com/2016/1/26/10833208/europe-lower-drinking-age",
+          "score": 0.61779,
+          "raw_content_available": true,
+          "raw_content_length": 17310,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Germany Abolishes Supervised Drinking for Teens at 14 After Science Debunks Safety Myth",
+          "url": "https://www.techtimes.com/articles/324218/20260812/germany-abolishes-supervised-drinking-teens-14-after-science-debunks-safety-myth.htm",
+          "score": 0.54695654,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "Alcohol drinking cultures of European adolescents | European Journal of Public Health | Oxford Academic",
+          "url": "https://academic.oup.com/eurpub/article/26/4/581/2467426",
+          "score": 0.48381975,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "Minimum legal drinking age and educational outcomes",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0167629625001134",
+          "score": 0.41948205,
+          "raw_content_available": true,
+          "raw_content_length": 16440,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Raising legal drinking ages: An opportunity to improve ...",
+          "url": "https://cepr.org/voxeu/columns/raising-legal-drinking-ages-opportunity-improve-european-educational-outcomes",
+          "score": 0.3375752,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        }
+      ],
+      "sequence": 71,
+      "timestamp": "2026-08-24T03:42:54.651116+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "National Minimum Drinking Age Act 1984 history effectiveness debate",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.594,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Drinking age debate | Law | Research Starters - EBSCO",
+          "url": "https://www.ebsco.com/research-starters/law/drinking-age-debate",
+          "score": 0.86331123,
+          "raw_content_available": true,
+          "raw_content_length": 25007,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Drinking Age | Pros, Cons, Debate, Arguments, Alcohol, Adult, Minors ...",
+          "url": "https://www.britannica.com/procon/drinking-age-debate",
+          "score": 0.75852895,
+          "raw_content_available": true,
+          "raw_content_length": 109473,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "National Minimum Drinking Age Act - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/National_Minimum_Drinking_Age_Act",
+          "score": 0.7355091,
+          "raw_content_available": true,
+          "raw_content_length": 44102,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "In the late 1960s and 1970s,... - The Historian's Den",
+          "url": "https://www.facebook.com/thehistoriansden/posts/in-the-late-1960s-and-1970s-alongside-the-ratification-of-the-26th-amendment-whi/1018155234592818",
+          "score": 0.6675167,
+          "raw_content_available": true,
+          "raw_content_length": 32214,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Minimum Drinking Age Act: Laws, Exceptions, and Impact",
+          "url": "https://recovered.org/drug-offense-resources/national-minimum-drinking-age-act-of-1984",
+          "score": 0.5948579,
+          "raw_content_available": true,
+          "raw_content_length": 15689,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 72,
+      "timestamp": "2026-08-24T03:42:54.675225+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "forbidden fruit effect drinking age 21 study psychology reactance theory",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.741,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Grabbing the Forbidden Fruit: Restriction-Sensitive Choice",
+          "url": "https://arxiv.org/pdf/2509.11673",
+          "score": 0.6952351,
+          "raw_content_available": true,
+          "raw_content_length": 98246,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Underage Drinking and the Drinking Age - Hoover Institution",
+          "url": "https://www.hoover.org/research/underage-drinking-and-drinking-age",
+          "score": 0.5194,
+          "raw_content_available": true,
+          "raw_content_length": 49409,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "(PDF) Reactance theory and alcohol consumption laws",
+          "url": "https://www.researchgate.net/publication/15008989_Reactance_theory_and_alcohol_consumption_laws_Further_confirmation_among_collegiate_alcohol_consumers",
+          "score": 0.51866865,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "Why the drinking age should be lowered: Articles",
+          "url": "https://alcohol.iu.edu/articles/drinking-age/index.html",
+          "score": 0.3420444,
+          "raw_content_available": true,
+          "raw_content_length": 10923,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Turning 21 and the Associated Changes in Drinking and Driving ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2925119",
+          "score": 0.27970597,
+          "raw_content_available": true,
+          "raw_content_length": 54421,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 73,
+      "timestamp": "2026-08-24T03:42:54.808020+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "US drinking age 2024 2025 2026 policy debate reform discussion",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.498,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Drinking Age | Pros, Cons, Debate, Arguments, Alcohol, Adult, Minors ...",
+          "url": "https://www.britannica.com/procon/drinking-age-debate",
+          "score": 0.585789,
+          "raw_content_available": true,
+          "raw_content_length": 109473,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Drinking age debate | Law | Research Starters - EBSCO",
+          "url": "https://www.ebsco.com/research-starters/law/drinking-age-debate",
+          "score": 0.5837973,
+          "raw_content_available": true,
+          "raw_content_length": 25007,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Drinking Age Debate | Clarke Forum for Contemporary Issues",
+          "url": "https://www.clarkeforum.org/drinking-age-debate",
+          "score": 0.44840267,
+          "raw_content_available": true,
+          "raw_content_length": 7323,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Group Stirs Debate on Legal Drinking Age - ABC News",
+          "url": "https://abcnews.com/Politics/story?id=3708133&page=1",
+          "score": 0.39866453,
+          "raw_content_available": true,
+          "raw_content_length": 6660,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "A Difference of Opinion Editors: Should the legal drinking ...",
+          "url": "https://dailybruin.com/2024/02/11/a-difference-of-opinion-editors-should-the-legal-drinking-age-in-the-us-be-lowered",
+          "score": 0.3656158,
+          "raw_content_available": true,
+          "raw_content_length": 19760,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 93,
+      "timestamp": "2026-08-24T03:43:14.021570+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "21st birthday drinking 21 drinks tradition dangerous binge drinking",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 3.008,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "[PDF] 21st birthday drinking: A dangerous phenomenon",
+          "url": "https://digitalcommons.wustl.edu/context/guzeposter2006/article/1003/viewcontent/21st_birthday_drinking_Rutledge.pdf",
+          "score": 0.8325776,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "21st Birthday Drinking: Extremely Extreme - PMC - NIH",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2668868",
+          "score": 0.734139,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "Study finds 21st birthday binge drinking extremely common",
+          "url": "https://www.apa.org/news/press/releases/2008/05/21st-birthday",
+          "score": 0.7055624,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "21st Birthday Drinking and Associated Physical Consequences ... - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3232305",
+          "score": 0.657561,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "National Helpline for Mental Health, Drug, Alcohol Issues | SAMHSA",
+          "url": "https://www.samhsa.gov/find-help/helplines/national-helpline",
+          "score": 0.03720434,
+          "raw_content_available": true,
+          "raw_content_length": 237531,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 95,
+      "timestamp": "2026-08-24T03:43:14.527057+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Mark Kleiman drinking age 21 arguments forbidden fruit disrespect law",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 3.289,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Old Enough To Fight, Old Enough To Drink?",
+          "url": "https://www.cbsnews.com/news/old-enough-to-fight-old-enough-to-drink",
+          "score": 0.735737,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "Drinking Age | Pros, Cons, Debate, Arguments, Alcohol, Adult, Minors ...",
+          "url": "https://www.britannica.com/procon/drinking-age-debate",
+          "score": 0.55709904,
+          "raw_content_available": true,
+          "raw_content_length": 109473,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Controversies Surrounding Minimum Legal Drinking Age",
+          "url": "https://www.studocu.com/en-us/document/hartnell-college/college-composition-and-reading/research-essay-final-draft/23074979",
+          "score": 0.49436116,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "Mark Kleiman on Responsibility",
+          "url": "https://www.econlib.org/archives/2010/08/mark_kleiman_on.html",
+          "score": 0.25225553,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "Mark Kleiman on why we need to solve our alcohol ...",
+          "url": "https://www.washingtonpost.com/news/wonk/wp/2013/03/28/mark-kleiman-on-why-we-need-to-solve-our-alcohol-problem-to-solve-our-crime-problem",
+          "score": 0.18826461,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        }
+      ],
+      "sequence": 96,
+      "timestamp": "2026-08-24T03:43:14.795259+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "New Zealand lowered drinking age 18 1999 effects crashes binge drinking",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 4.614,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Why is the Drinking Age 21? - MADD",
+          "url": "https://madd.org/why-21",
+          "score": 0.8747745,
+          "raw_content_available": true,
+          "raw_content_length": 20277,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Impacts of New Zealand’s Lowered Minimum Purchase Age on Context-Specific Drinking and Related Risks",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4609246",
+          "score": 0.7763013,
+          "raw_content_available": true,
+          "raw_content_length": 60171,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Alcohol.org.nz — Binge drinking",
+          "url": "https://www.alcohol.org.nz/impacts-of-alcohol/history-and-culture/binge-drinking",
+          "score": 0.71113056,
+          "raw_content_available": true,
+          "raw_content_length": 10901,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Health consequences of easier access to alcohol: New Zealand evidence",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0167629613000301",
+          "score": 0.6337056,
+          "raw_content_available": true,
+          "raw_content_length": 29905,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Alcohol in New Zealand - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Alcohol_in_New_Zealand",
+          "score": 0.57837737,
+          "raw_content_available": true,
+          "raw_content_length": 79456,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 97,
+      "timestamp": "2026-08-24T03:43:16.128340+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "alcohol related deaths ages 18-20 vs 21-24 CDC NHTSA statistics",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.431,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Alcohol-Impaired Driving Deaths* | County Health Rankings & Roadmaps",
+          "url": "https://www.countyhealthrankings.org/health-data/community-conditions/health-infrastructure/health-promotion-and-harm-reduction/alcohol-impaired-driving-deaths",
+          "score": 0.66229486,
+          "raw_content_available": true,
+          "raw_content_length": 6812,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Drunk Driving | Statistics and Resources - NHTSA",
+          "url": "https://www.nhtsa.gov/risky-driving/drunk-driving",
+          "score": 0.6453216,
+          "raw_content_available": true,
+          "raw_content_length": 11839,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Alcohol Related Deaths per Year, State & More | 2026 Analysis",
+          "url": "https://drugabusestatistics.org/alcohol-related-deaths",
+          "score": 0.63615024,
+          "raw_content_available": true,
+          "raw_content_length": 13627,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Alcohol Deaths: National Trends and Variation by Demographics ... - KFF",
+          "url": "https://www.kff.org/mental-health/alcohol-deaths-national-trends-and-variation-by-demographics-and-states",
+          "score": 0.43885794,
+          "raw_content_available": true,
+          "raw_content_length": 25938,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Facts About U.S. Deaths from Excessive Alcohol Use",
+          "url": "https://www.cdc.gov/alcohol/facts-stats/index.html",
+          "score": 0.3413854,
+          "raw_content_available": true,
+          "raw_content_length": 3213,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 111,
+      "timestamp": "2026-08-24T03:43:31.896478+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Miron Tetelbaum 2009 drinking age 21 no statistically significant effect highway funding",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.486,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "National Minimum Drinking Age Act - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/National_Minimum_Drinking_Age_Act",
+          "score": 0.7144891,
+          "raw_content_available": true,
+          "raw_content_length": 44102,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "The Minimum Legal Drinking Age and Public Health - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3182479",
+          "score": 0.56920683,
+          "raw_content_available": true,
+          "raw_content_length": 79399,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "The effect of minimum legal drinking age evasion on traffic fatalities",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S016762960900112X",
+          "score": 0.48850358,
+          "raw_content_available": true,
+          "raw_content_length": 27625,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Does The Minimum Legal Drinking Age Save Lives? - IDEAS/RePEc",
+          "url": "https://ideas.repec.org/a/bla/ecinqu/v47y2009i2p317-336.html",
+          "score": 0.1804678,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "Case Closed: Research Evidence on the Positive Public Health Impact of ...",
+          "url": "https://www.jsad.com/doi/10.15288/jsads.2014.s17.108",
+          "score": 0.125676,
+          "raw_content_available": true,
+          "raw_content_length": 9045,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 112,
+      "timestamp": "2026-08-24T03:43:31.927885+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "college binge drinking rates 2024 2025 underage drinking statistics",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.605,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Statistics on Underage Drinking",
+          "url": "https://www.responsibility.org/alcohol-statistics/underage-drinking-statistics",
+          "score": 0.942385,
+          "raw_content_available": true,
+          "raw_content_length": 23852,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Alcohol and Young Adults Ages 18 to 25",
+          "url": "https://www.niaaa.nih.gov/alcohols-effects-health/alcohol-topics-z/alcohol-facts-and-statistics/alcohol-and-young-adults-ages-18-25",
+          "score": 0.7845341,
+          "raw_content_available": true,
+          "raw_content_length": 12824,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Prevalence | College Drinking Prevention",
+          "url": "https://www.collegedrinkingprevention.gov/statistics/prevalence",
+          "score": 0.5113512,
+          "raw_content_available": true,
+          "raw_content_length": 3127,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Too young to pour: the global crisis of underage alcohol use - Frontiers",
+          "url": "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2025.1598175/full",
+          "score": 0.5008063,
+          "raw_content_available": true,
+          "raw_content_length": 72975,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Harmful and Underage College Drinking | National Institute on Alcohol Abuse and Alcoholism (NIAAA)",
+          "url": "https://www.niaaa.nih.gov/publications/brochures-and-fact-sheets/college-drinking",
+          "score": 0.4572585,
+          "raw_content_available": true,
+          "raw_content_length": 10354,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 113,
+      "timestamp": "2026-08-24T03:43:32.064400+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Germany supervised drinking age 14 abolished 2026 safety myth debunked",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.938,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Germany Abolishes Supervised Drinking for Teens at 14 After Science Debunks Safety Myth",
+          "url": "https://www.techtimes.com/articles/324218/20260812/germany-abolishes-supervised-drinking-teens-14-after-science-debunks-safety-myth.htm",
+          "score": 0.8665964,
+          "raw_content_available": true,
+          "raw_content_length": 17269,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Germany to ban supervised drinking for teenagers",
+          "url": "https://www.thelocal.de/20260813/germany-to-ban-supervised-drinking-for-teenagers",
+          "score": 0.5596998,
+          "raw_content_available": true,
+          "raw_content_length": 5058,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Will Germany end 'supervised drinking' for under-16s?",
+          "url": "https://www.dw.com/en/will-germany-end-supervised-drinking-for-under-16s/a-69627131",
+          "score": 0.4889428,
+          "raw_content_available": true,
+          "raw_content_length": 4988,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Alcohol laws in Germany - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Alcohol_laws_in_Germany",
+          "score": 0.46599558,
+          "raw_content_available": true,
+          "raw_content_length": 52283,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Germany Ends \"Accompanied Drinking\" for 14 and 15 Year Olds",
+          "url": "https://germanpedia.com/germany-ends-accompanied-drinking",
+          "score": 0.34813574,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        }
+      ],
+      "sequence": 114,
+      "timestamp": "2026-08-24T03:43:32.390615+08:00"
+    }
+  ],
+  "summary_cache_hits": 19,
+  "summary_cache_hit_urls": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC3182479",
+    "https://alcohol.iu.edu/articles/drinking-age/index.html",
+    "https://www.britannica.com/procon/drinking-age-debate",
+    "https://www.hoover.org/research/underage-drinking-and-drinking-age",
+    "https://alcohol.iu.edu/articles/drinking-age/index.html",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC2925119",
+    "https://www.sciencedirect.com/science/article/pii/S0167629625001134",
+    "https://www.britannica.com/procon/drinking-age-debate",
+    "https://recovered.org/drug-offense-resources/national-minimum-drinking-age-act-of-1984",
+    "https://www.responsibility.org/alcohol-statistics/underage-drinking-statistics",
+    "https://www.britannica.com/procon/drinking-age-debate",
+    "https://madd.org/why-21",
+    "https://www.ebsco.com/research-starters/law/drinking-age-debate",
+    "https://en.wikipedia.org/wiki/National_Minimum_Drinking_Age_Act",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC3182479",
+    "https://www.sciencedirect.com/science/article/abs/pii/S016762960900112X",
+    "https://www.jsad.com/doi/10.15288/jsads.2014.s17.108",
+    "https://www.responsibility.org/alcohol-statistics/underage-drinking-statistics",
+    "https://www.nhtsa.gov/risky-driving/drunk-driving"
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Amethyst_Initiative",
+      "status": "success",
+      "content_length": 47677,
+      "duration_seconds": 2.428,
+      "query": "Amethyst Initiative college presidents support lowering drinking age"
+    },
+    {
+      "url": "https://www.alcoholproblemsandsolutions.org/amethyst-initiative",
+      "status": "success",
+      "content_length": 50970,
+      "duration_seconds": 2.428,
+      "query": "Amethyst Initiative college presidents support lowering drinking age"
+    },
+    {
+      "url": "https://www.npr.org/2008/08/19/93749553/college-presidents-urge-rethink-on-drinking-age",
+      "status": "success",
+      "content_length": 7923,
+      "duration_seconds": 2.428,
+      "query": "Amethyst Initiative college presidents support lowering drinking age"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4226518",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.428,
+      "query": "Amethyst Initiative college presidents support lowering drinking age"
+    },
+    {
+      "url": "https://scholarworks.seattleu.edu/cgi/viewcontent.cgi?article=1042&context=magis",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.428,
+      "query": "Amethyst Initiative college presidents support lowering drinking age"
+    },
+    {
+      "url": "https://www.cbsnews.com/news/old-enough-to-fight-old-enough-to-drink",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.495,
+      "query": "Mark Kleiman arguments lowering drinking age"
+    },
+    {
+      "url": "https://www.britannica.com/procon/drinking-age-debate",
+      "status": "success",
+      "content_length": 109473,
+      "duration_seconds": 2.495,
+      "query": "Mark Kleiman arguments lowering drinking age"
+    },
+    {
+      "url": "https://www.washingtonpost.com/news/wonk/wp/2013/03/28/mark-kleiman-on-why-we-need-to-solve-our-alcohol-problem-to-solve-our-crime-problem",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.495,
+      "query": "Mark Kleiman arguments lowering drinking age"
+    },
+    {
+      "url": "https://docs.google.com/document/d/1_jcK2x6mxiIIOhabF5JWUXlK3m729c08mIF3O2EO-5s",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.495,
+      "query": "Mark Kleiman arguments lowering drinking age"
+    },
+    {
+      "url": "https://www.studocu.com/en-us/document/hartnell-college/college-composition-and-reading/research-essay-final-draft/23074979",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.495,
+      "query": "Mark Kleiman arguments lowering drinking age"
+    },
+    {
+      "url": "https://www.alcoholproblemsandsolutions.org/choose-responsibility-to-reduce-underage-alcohol-abuse",
+      "status": "success",
+      "content_length": 3192,
+      "duration_seconds": 2.65,
+      "query": "John M. McCardell Choose Responsibility drinking age 18"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3182479",
+      "status": "success",
+      "content_length": 79399,
+      "duration_seconds": 2.65,
+      "query": "John M. McCardell Choose Responsibility drinking age 18"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Choose_Responsibility",
+      "status": "success",
+      "content_length": 13688,
+      "duration_seconds": 2.65,
+      "query": "John M. McCardell Choose Responsibility drinking age 18"
+    },
+    {
+      "url": "https://www.npr.org/2008/08/19/93749553/college-presidents-urge-rethink-on-drinking-age",
+      "status": "success",
+      "content_length": 7923,
+      "duration_seconds": 2.65,
+      "query": "John M. McCardell Choose Responsibility drinking age 18"
+    },
+    {
+      "url": "https://www.civicresearchinstitute.com/online/PDF/761600766Reaffirming%20the%20National%20Minimum%20Drinking%20Age%20of%2021.pdf",
+      "status": "success",
+      "content_length": 35072,
+      "duration_seconds": 2.65,
+      "query": "John M. McCardell Choose Responsibility drinking age 18"
+    },
+    {
+      "url": "https://www.hoover.org/research/underage-drinking-and-drinking-age",
+      "status": "success",
+      "content_length": 49409,
+      "duration_seconds": 2.757,
+      "query": "forbidden fruit effect drinking age 21 binge drinking studies"
+    },
+    {
+      "url": "https://madd.org/why-21",
+      "status": "success",
+      "content_length": 20277,
+      "duration_seconds": 2.757,
+      "query": "forbidden fruit effect drinking age 21 binge drinking studies"
+    },
+    {
+      "url": "https://alcohol.iu.edu/articles/drinking-age/index.html",
+      "status": "success",
+      "content_length": 10923,
+      "duration_seconds": 2.757,
+      "query": "forbidden fruit effect drinking age 21 binge drinking studies"
+    },
+    {
+      "url": "https://consumer.ftc.gov/articles/0390-answering-questions-about-underage-drinking",
+      "status": "success",
+      "content_length": 9210,
+      "duration_seconds": 2.757,
+      "query": "forbidden fruit effect drinking age 21 binge drinking studies"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2925119",
+      "status": "success",
+      "content_length": 54421,
+      "duration_seconds": 2.757,
+      "query": "forbidden fruit effect drinking age 21 binge drinking studies"
+    },
+    {
+      "url": "https://www.niaaa.nih.gov/publications/alcohol-and-adolescent-brain",
+      "status": "success",
+      "content_length": 13041,
+      "duration_seconds": 2.311,
+      "query": "NIH NIAAA adolescent brain development alcohol age 21 research"
+    },
+    {
+      "url": "https://www.msm.edu/RSSFeedArticles/September2015/NIH-ABCDStudy.php",
+      "status": "success",
+      "content_length": 8218,
+      "duration_seconds": 2.311,
+      "query": "NIH NIAAA adolescent brain development alcohol age 21 research"
+    },
+    {
+      "url": "https://www.niaaa.nih.gov/publications/brochures-and-fact-sheets/underage-drinking",
+      "status": "success",
+      "content_length": 14216,
+      "duration_seconds": 2.311,
+      "query": "NIH NIAAA adolescent brain development alcohol age 21 research"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4669962",
+      "status": "success",
+      "content_length": 41585,
+      "duration_seconds": 2.311,
+      "query": "NIH NIAAA adolescent brain development alcohol age 21 research"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8999519",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.311,
+      "query": "NIH NIAAA adolescent brain development alcohol age 21 research"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3400235",
+      "status": "success",
+      "content_length": 59672,
+      "duration_seconds": 2.708,
+      "query": "CDC minimum drinking age 21 findings traffic fatalities youth"
+    },
+    {
+      "url": "https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/813313",
+      "status": "success",
+      "content_length": 32739,
+      "duration_seconds": 2.708,
+      "query": "CDC minimum drinking age 21 findings traffic fatalities youth"
+    },
+    {
+      "url": "https://addictionpolicy.stanford.edu/implementing-policies-targeting-underage-drinking-and-alcohol-impaired-driving",
+      "status": "success",
+      "content_length": 3393,
+      "duration_seconds": 2.708,
+      "query": "CDC minimum drinking age 21 findings traffic fatalities youth"
+    },
+    {
+      "url": "https://time.com/archive/7137506/cdc-teen-drinking-and-driving-falls-by-half",
+      "status": "success",
+      "content_length": 5330,
+      "duration_seconds": 2.708,
+      "query": "CDC minimum drinking age 21 findings traffic fatalities youth"
+    },
+    {
+      "url": "https://www.nhtsa.gov/risky-driving/drunk-driving",
+      "status": "success",
+      "content_length": 11839,
+      "duration_seconds": 2.708,
+      "query": "CDC minimum drinking age 21 findings traffic fatalities youth"
+    },
+    {
+      "url": "https://madd.org/press-release/madd-celebrates-americas-21-drinking-age-law-turning-40",
+      "status": "success",
+      "content_length": 9739,
+      "duration_seconds": 2.752,
+      "query": "MADD Mothers Against Drunk Driving 21 minimum drinking age lives saved research"
+    },
+    {
+      "url": "https://madd.org/why-21",
+      "status": "success",
+      "content_length": 20277,
+      "duration_seconds": 2.752,
+      "query": "MADD Mothers Against Drunk Driving 21 minimum drinking age lives saved research"
+    },
+    {
+      "url": "https://madd.org",
+      "status": "success",
+      "content_length": 14409,
+      "duration_seconds": 2.752,
+      "query": "MADD Mothers Against Drunk Driving 21 minimum drinking age lives saved research"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3400235",
+      "status": "success",
+      "content_length": 59672,
+      "duration_seconds": 2.752,
+      "query": "MADD Mothers Against Drunk Driving 21 minimum drinking age lives saved research"
+    },
+    {
+      "url": "https://www.cdc.gov/alcohol/underage-drinking/minimum-legal-drinking-age.html",
+      "status": "success",
+      "content_length": 2653,
+      "duration_seconds": 2.752,
+      "query": "MADD Mothers Against Drunk Driving 21 minimum drinking age lives saved research"
+    },
+    {
+      "url": "https://madd.org/refresh-why-21-toms-header",
+      "status": "success",
+      "content_length": 21100,
+      "duration_seconds": 2.785,
+      "query": "NHTSA National Highway Traffic Safety Administration 21 drinking age lives saved statistics"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3400235",
+      "status": "success",
+      "content_length": 59672,
+      "duration_seconds": 2.785,
+      "query": "NHTSA National Highway Traffic Safety Administration 21 drinking age lives saved statistics"
+    },
+    {
+      "url": "https://www.nhtsa.gov/book/countermeasures-that-work/alcohol-impaired-driving/countermeasures/legislation-and-licensing-5",
+      "status": "success",
+      "content_length": 5129,
+      "duration_seconds": 2.785,
+      "query": "NHTSA National Highway Traffic Safety Administration 21 drinking age lives saved statistics"
+    },
+    {
+      "url": "https://www.nhtsa.gov/risky-driving/drunk-driving",
+      "status": "success",
+      "content_length": 11839,
+      "duration_seconds": 2.785,
+      "query": "NHTSA National Highway Traffic Safety Administration 21 drinking age lives saved statistics"
+    },
+    {
+      "url": "https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/809860",
+      "status": "success",
+      "content_length": 8782,
+      "duration_seconds": 2.785,
+      "query": "NHTSA National Highway Traffic Safety Administration 21 drinking age lives saved statistics"
+    },
+    {
+      "url": "https://scholar.google.com/citations?user=7Z13x_AAAAAJ&hl=en",
+      "status": "success",
+      "content_length": 10453,
+      "duration_seconds": 1.871,
+      "query": "Sandra A. Brown Susan Tapert adolescent brain development alcohol research"
+    },
+    {
+      "url": "https://psycnet.apa.org/record/2004-16492-024",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 1.871,
+      "query": "Sandra A. Brown Susan Tapert adolescent brain development alcohol research"
+    },
+    {
+      "url": "https://www.researchgate.net/profile/Susan-Tapert",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 1.871,
+      "query": "Sandra A. Brown Susan Tapert adolescent brain development alcohol research"
+    },
+    {
+      "url": "https://profiles.ucsd.edu/susan.tapert",
+      "status": "success",
+      "content_length": 10103,
+      "duration_seconds": 1.871,
+      "query": "Sandra A. Brown Susan Tapert adolescent brain development alcohol research"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3700608",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 1.871,
+      "query": "Sandra A. Brown Susan Tapert adolescent brain development alcohol research"
+    },
+    {
+      "url": "https://www.sciencedaily.com/releases/2008/07/080701083542.htm",
+      "status": "success",
+      "content_length": 13917,
+      "duration_seconds": 2.366,
+      "query": "Pacific Institute for Research and Evaluation drinking age 21 study"
+    },
+    {
+      "url": "https://files.eric.ed.gov/fulltext/ED537670.pdf",
+      "status": "success",
+      "content_length": 17054,
+      "duration_seconds": 2.366,
+      "query": "Pacific Institute for Research and Evaluation drinking age 21 study"
+    },
+    {
+      "url": "https://preventionactionalliance.org/wp-content/uploads/2023/07/DFAA-Position-MLDA.pdf",
+      "status": "success",
+      "content_length": 12646,
+      "duration_seconds": 2.366,
+      "query": "Pacific Institute for Research and Evaluation drinking age 21 study"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3182479",
+      "status": "success",
+      "content_length": 79399,
+      "duration_seconds": 2.366,
+      "query": "Pacific Institute for Research and Evaluation drinking age 21 study"
+    },
+    {
+      "url": "https://www.jsad.com/doi/10.15288/jsads.2014.s17.108",
+      "status": "success",
+      "content_length": 9045,
+      "duration_seconds": 2.366,
+      "query": "Pacific Institute for Research and Evaluation drinking age 21 study"
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S016762960900112X",
+      "status": "success",
+      "content_length": 27625,
+      "duration_seconds": 2.627,
+      "query": "traffic fatalities before after 1984 national minimum drinking age law"
+    },
+    {
+      "url": "https://recovered.org/drug-offense-resources/national-minimum-drinking-age-act-of-1984",
+      "status": "success",
+      "content_length": 15689,
+      "duration_seconds": 2.627,
+      "query": "traffic fatalities before after 1984 national minimum drinking age law"
+    },
+    {
+      "url": "https://www.ebsco.com/research-starters/law/drinking-age-debate",
+      "status": "success",
+      "content_length": 25007,
+      "duration_seconds": 2.627,
+      "query": "traffic fatalities before after 1984 national minimum drinking age law"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/National_Minimum_Drinking_Age_Act",
+      "status": "success",
+      "content_length": 44102,
+      "duration_seconds": 2.627,
+      "query": "traffic fatalities before after 1984 national minimum drinking age law"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6876521",
+      "status": "success",
+      "content_length": 62902,
+      "duration_seconds": 2.627,
+      "query": "traffic fatalities before after 1984 national minimum drinking age law"
+    },
+    {
+      "url": "https://www.ebsco.com/research-starters/law/drinking-age-debate",
+      "status": "success",
+      "content_length": 25007,
+      "duration_seconds": 2.979,
+      "query": "Choose Responsibility drinking age debate counter arguments"
+    },
+    {
+      "url": "https://www.clarkeforum.org/drinking-age-debate",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.979,
+      "query": "Choose Responsibility drinking age debate counter arguments"
+    },
+    {
+      "url": "https://www.britannica.com/procon/drinking-age-debate",
+      "status": "success",
+      "content_length": 109473,
+      "duration_seconds": 2.979,
+      "query": "Choose Responsibility drinking age debate counter arguments"
+    },
+    {
+      "url": "https://alcohol.iu.edu/articles/drinking-age/index.html",
+      "status": "success",
+      "content_length": 10923,
+      "duration_seconds": 2.979,
+      "query": "Choose Responsibility drinking age debate counter arguments"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6876521",
+      "status": "success",
+      "content_length": 62902,
+      "duration_seconds": 2.979,
+      "query": "Choose Responsibility drinking age debate counter arguments"
+    },
+    {
+      "url": "https://www.ebsco.com/research-starters/law/drinking-age-debate",
+      "status": "success",
+      "content_length": 25007,
+      "duration_seconds": 3.172,
+      "query": "drinking age debate 2024 2025 2026 research"
+    },
+    {
+      "url": "https://www.responsibility.org/nida-mtf-dec2025",
+      "status": "success",
+      "content_length": 15824,
+      "duration_seconds": 3.172,
+      "query": "drinking age debate 2024 2025 2026 research"
+    },
+    {
+      "url": "https://www.britannica.com/procon/drinking-age-debate",
+      "status": "success",
+      "content_length": 109473,
+      "duration_seconds": 3.172,
+      "query": "drinking age debate 2024 2025 2026 research"
+    },
+    {
+      "url": "https://alcohol.iu.edu/articles/drinking-age/index.html",
+      "status": "success",
+      "content_length": 10923,
+      "duration_seconds": 3.172,
+      "query": "drinking age debate 2024 2025 2026 research"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6876521",
+      "status": "success",
+      "content_length": 62902,
+      "duration_seconds": 3.172,
+      "query": "drinking age debate 2024 2025 2026 research"
+    },
+    {
+      "url": "https://www.rfberlin.com/wp-content/uploads/2025/03/25009.pdf",
+      "status": "success",
+      "content_length": 103885,
+      "duration_seconds": 3.229,
+      "query": "high school alcohol access if drinking age lowered 18 study"
+    },
+    {
+      "url": "https://alcohol.iu.edu/articles/drinking-age/index.html",
+      "status": "success",
+      "content_length": 10923,
+      "duration_seconds": 3.229,
+      "query": "high school alcohol access if drinking age lowered 18 study"
+    },
+    {
+      "url": "https://www.responsibility.org/alcohol-statistics/underage-drinking-statistics",
+      "status": "success",
+      "content_length": 23852,
+      "duration_seconds": 3.229,
+      "query": "high school alcohol access if drinking age lowered 18 study"
+    },
+    {
+      "url": "https://www.britannica.com/procon/drinking-age-debate",
+      "status": "success",
+      "content_length": 109473,
+      "duration_seconds": 3.229,
+      "query": "high school alcohol access if drinking age lowered 18 study"
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S0167629625001134",
+      "status": "success",
+      "content_length": 16440,
+      "duration_seconds": 3.229,
+      "query": "high school alcohol access if drinking age lowered 18 study"
+    },
+    {
+      "url": "https://www.responsibility.org/alcohol-statistics/underage-drinking-statistics",
+      "status": "success",
+      "content_length": 23852,
+      "duration_seconds": 2.349,
+      "query": "CDC underage drinking statistics 2024 2025 binge drinking rates"
+    },
+    {
+      "url": "https://www.southdenvertherapy.com/blog/alcohol-use-statistics",
+      "status": "success",
+      "content_length": 20439,
+      "duration_seconds": 2.349,
+      "query": "CDC underage drinking statistics 2024 2025 binge drinking rates"
+    },
+    {
+      "url": "https://alcoholabusestatistics.org",
+      "status": "success",
+      "content_length": 17879,
+      "duration_seconds": 2.349,
+      "query": "CDC underage drinking statistics 2024 2025 binge drinking rates"
+    },
+    {
+      "url": "https://www.niaaa.nih.gov/alcohols-effects-health/alcohol-topics/alcohol-facts-and-statistics/underage-drinking-united-states-ages-12-20",
+      "status": "success",
+      "content_length": 11688,
+      "duration_seconds": 2.349,
+      "query": "CDC underage drinking statistics 2024 2025 binge drinking rates"
+    },
+    {
+      "url": "https://www.niaaa.nih.gov/alcohols-effects-health/alcohol-topics-z/alcohol-facts-and-statistics/alcohol-use-united-states-age-groups-and-demographic-characteristics",
+      "status": "success",
+      "content_length": 22876,
+      "duration_seconds": 2.349,
+      "query": "CDC underage drinking statistics 2024 2025 binge drinking rates"
+    },
+    {
+      "url": "https://www.vox.com/2016/1/26/10833208/europe-lower-drinking-age",
+      "status": "success",
+      "content_length": 17310,
+      "duration_seconds": 2.576,
+      "query": "European drinking culture lower drinking age supervised vs unsupervised drinking outcomes"
+    },
+    {
+      "url": "https://www.techtimes.com/articles/324218/20260812/germany-abolishes-supervised-drinking-teens-14-after-science-debunks-safety-myth.htm",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.576,
+      "query": "European drinking culture lower drinking age supervised vs unsupervised drinking outcomes"
+    },
+    {
+      "url": "https://academic.oup.com/eurpub/article/26/4/581/2467426",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.576,
+      "query": "European drinking culture lower drinking age supervised vs unsupervised drinking outcomes"
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S0167629625001134",
+      "status": "success",
+      "content_length": 16440,
+      "duration_seconds": 2.576,
+      "query": "European drinking culture lower drinking age supervised vs unsupervised drinking outcomes"
+    },
+    {
+      "url": "https://cepr.org/voxeu/columns/raising-legal-drinking-ages-opportunity-improve-european-educational-outcomes",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.576,
+      "query": "European drinking culture lower drinking age supervised vs unsupervised drinking outcomes"
+    },
+    {
+      "url": "https://www.ebsco.com/research-starters/law/drinking-age-debate",
+      "status": "success",
+      "content_length": 25007,
+      "duration_seconds": 2.594,
+      "query": "National Minimum Drinking Age Act 1984 history effectiveness debate"
+    },
+    {
+      "url": "https://www.britannica.com/procon/drinking-age-debate",
+      "status": "success",
+      "content_length": 109473,
+      "duration_seconds": 2.594,
+      "query": "National Minimum Drinking Age Act 1984 history effectiveness debate"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/National_Minimum_Drinking_Age_Act",
+      "status": "success",
+      "content_length": 44102,
+      "duration_seconds": 2.594,
+      "query": "National Minimum Drinking Age Act 1984 history effectiveness debate"
+    },
+    {
+      "url": "https://www.facebook.com/thehistoriansden/posts/in-the-late-1960s-and-1970s-alongside-the-ratification-of-the-26th-amendment-whi/1018155234592818",
+      "status": "success",
+      "content_length": 32214,
+      "duration_seconds": 2.594,
+      "query": "National Minimum Drinking Age Act 1984 history effectiveness debate"
+    },
+    {
+      "url": "https://recovered.org/drug-offense-resources/national-minimum-drinking-age-act-of-1984",
+      "status": "success",
+      "content_length": 15689,
+      "duration_seconds": 2.594,
+      "query": "National Minimum Drinking Age Act 1984 history effectiveness debate"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2509.11673",
+      "status": "success",
+      "content_length": 98246,
+      "duration_seconds": 2.741,
+      "query": "forbidden fruit effect drinking age 21 study psychology reactance theory"
+    },
+    {
+      "url": "https://www.hoover.org/research/underage-drinking-and-drinking-age",
+      "status": "success",
+      "content_length": 49409,
+      "duration_seconds": 2.741,
+      "query": "forbidden fruit effect drinking age 21 study psychology reactance theory"
+    },
+    {
+      "url": "https://www.researchgate.net/publication/15008989_Reactance_theory_and_alcohol_consumption_laws_Further_confirmation_among_collegiate_alcohol_consumers",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.741,
+      "query": "forbidden fruit effect drinking age 21 study psychology reactance theory"
+    },
+    {
+      "url": "https://alcohol.iu.edu/articles/drinking-age/index.html",
+      "status": "success",
+      "content_length": 10923,
+      "duration_seconds": 2.741,
+      "query": "forbidden fruit effect drinking age 21 study psychology reactance theory"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2925119",
+      "status": "success",
+      "content_length": 54421,
+      "duration_seconds": 2.741,
+      "query": "forbidden fruit effect drinking age 21 study psychology reactance theory"
+    },
+    {
+      "url": "https://www.britannica.com/procon/drinking-age-debate",
+      "status": "success",
+      "content_length": 109473,
+      "duration_seconds": 2.498,
+      "query": "US drinking age 2024 2025 2026 policy debate reform discussion"
+    },
+    {
+      "url": "https://www.ebsco.com/research-starters/law/drinking-age-debate",
+      "status": "success",
+      "content_length": 25007,
+      "duration_seconds": 2.498,
+      "query": "US drinking age 2024 2025 2026 policy debate reform discussion"
+    },
+    {
+      "url": "https://www.clarkeforum.org/drinking-age-debate",
+      "status": "success",
+      "content_length": 7323,
+      "duration_seconds": 2.498,
+      "query": "US drinking age 2024 2025 2026 policy debate reform discussion"
+    },
+    {
+      "url": "https://abcnews.com/Politics/story?id=3708133&page=1",
+      "status": "success",
+      "content_length": 6660,
+      "duration_seconds": 2.498,
+      "query": "US drinking age 2024 2025 2026 policy debate reform discussion"
+    },
+    {
+      "url": "https://dailybruin.com/2024/02/11/a-difference-of-opinion-editors-should-the-legal-drinking-age-in-the-us-be-lowered",
+      "status": "success",
+      "content_length": 19760,
+      "duration_seconds": 2.498,
+      "query": "US drinking age 2024 2025 2026 policy debate reform discussion"
+    },
+    {
+      "url": "https://digitalcommons.wustl.edu/context/guzeposter2006/article/1003/viewcontent/21st_birthday_drinking_Rutledge.pdf",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 3.008,
+      "query": "21st birthday drinking 21 drinks tradition dangerous binge drinking"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2668868",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 3.008,
+      "query": "21st birthday drinking 21 drinks tradition dangerous binge drinking"
+    },
+    {
+      "url": "https://www.apa.org/news/press/releases/2008/05/21st-birthday",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 3.008,
+      "query": "21st birthday drinking 21 drinks tradition dangerous binge drinking"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3232305",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 3.008,
+      "query": "21st birthday drinking 21 drinks tradition dangerous binge drinking"
+    },
+    {
+      "url": "https://www.samhsa.gov/find-help/helplines/national-helpline",
+      "status": "success",
+      "content_length": 237531,
+      "duration_seconds": 3.008,
+      "query": "21st birthday drinking 21 drinks tradition dangerous binge drinking"
+    },
+    {
+      "url": "https://www.cbsnews.com/news/old-enough-to-fight-old-enough-to-drink",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 3.289,
+      "query": "Mark Kleiman drinking age 21 arguments forbidden fruit disrespect law"
+    },
+    {
+      "url": "https://www.britannica.com/procon/drinking-age-debate",
+      "status": "success",
+      "content_length": 109473,
+      "duration_seconds": 3.289,
+      "query": "Mark Kleiman drinking age 21 arguments forbidden fruit disrespect law"
+    },
+    {
+      "url": "https://www.studocu.com/en-us/document/hartnell-college/college-composition-and-reading/research-essay-final-draft/23074979",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 3.289,
+      "query": "Mark Kleiman drinking age 21 arguments forbidden fruit disrespect law"
+    },
+    {
+      "url": "https://www.econlib.org/archives/2010/08/mark_kleiman_on.html",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 3.289,
+      "query": "Mark Kleiman drinking age 21 arguments forbidden fruit disrespect law"
+    },
+    {
+      "url": "https://www.washingtonpost.com/news/wonk/wp/2013/03/28/mark-kleiman-on-why-we-need-to-solve-our-alcohol-problem-to-solve-our-crime-problem",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 3.289,
+      "query": "Mark Kleiman drinking age 21 arguments forbidden fruit disrespect law"
+    },
+    {
+      "url": "https://madd.org/why-21",
+      "status": "success",
+      "content_length": 20277,
+      "duration_seconds": 4.614,
+      "query": "New Zealand lowered drinking age 18 1999 effects crashes binge drinking"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4609246",
+      "status": "success",
+      "content_length": 60171,
+      "duration_seconds": 4.614,
+      "query": "New Zealand lowered drinking age 18 1999 effects crashes binge drinking"
+    },
+    {
+      "url": "https://www.alcohol.org.nz/impacts-of-alcohol/history-and-culture/binge-drinking",
+      "status": "success",
+      "content_length": 10901,
+      "duration_seconds": 4.614,
+      "query": "New Zealand lowered drinking age 18 1999 effects crashes binge drinking"
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0167629613000301",
+      "status": "success",
+      "content_length": 29905,
+      "duration_seconds": 4.614,
+      "query": "New Zealand lowered drinking age 18 1999 effects crashes binge drinking"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Alcohol_in_New_Zealand",
+      "status": "success",
+      "content_length": 79456,
+      "duration_seconds": 4.614,
+      "query": "New Zealand lowered drinking age 18 1999 effects crashes binge drinking"
+    },
+    {
+      "url": "https://www.countyhealthrankings.org/health-data/community-conditions/health-infrastructure/health-promotion-and-harm-reduction/alcohol-impaired-driving-deaths",
+      "status": "success",
+      "content_length": 6812,
+      "duration_seconds": 2.431,
+      "query": "alcohol related deaths ages 18-20 vs 21-24 CDC NHTSA statistics"
+    },
+    {
+      "url": "https://www.nhtsa.gov/risky-driving/drunk-driving",
+      "status": "success",
+      "content_length": 11839,
+      "duration_seconds": 2.431,
+      "query": "alcohol related deaths ages 18-20 vs 21-24 CDC NHTSA statistics"
+    },
+    {
+      "url": "https://drugabusestatistics.org/alcohol-related-deaths",
+      "status": "success",
+      "content_length": 13627,
+      "duration_seconds": 2.431,
+      "query": "alcohol related deaths ages 18-20 vs 21-24 CDC NHTSA statistics"
+    },
+    {
+      "url": "https://www.kff.org/mental-health/alcohol-deaths-national-trends-and-variation-by-demographics-and-states",
+      "status": "success",
+      "content_length": 25938,
+      "duration_seconds": 2.431,
+      "query": "alcohol related deaths ages 18-20 vs 21-24 CDC NHTSA statistics"
+    },
+    {
+      "url": "https://www.cdc.gov/alcohol/facts-stats/index.html",
+      "status": "success",
+      "content_length": 3213,
+      "duration_seconds": 2.431,
+      "query": "alcohol related deaths ages 18-20 vs 21-24 CDC NHTSA statistics"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/National_Minimum_Drinking_Age_Act",
+      "status": "success",
+      "content_length": 44102,
+      "duration_seconds": 2.486,
+      "query": "Miron Tetelbaum 2009 drinking age 21 no statistically significant effect highway funding"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3182479",
+      "status": "success",
+      "content_length": 79399,
+      "duration_seconds": 2.486,
+      "query": "Miron Tetelbaum 2009 drinking age 21 no statistically significant effect highway funding"
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S016762960900112X",
+      "status": "success",
+      "content_length": 27625,
+      "duration_seconds": 2.486,
+      "query": "Miron Tetelbaum 2009 drinking age 21 no statistically significant effect highway funding"
+    },
+    {
+      "url": "https://ideas.repec.org/a/bla/ecinqu/v47y2009i2p317-336.html",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.486,
+      "query": "Miron Tetelbaum 2009 drinking age 21 no statistically significant effect highway funding"
+    },
+    {
+      "url": "https://www.jsad.com/doi/10.15288/jsads.2014.s17.108",
+      "status": "success",
+      "content_length": 9045,
+      "duration_seconds": 2.486,
+      "query": "Miron Tetelbaum 2009 drinking age 21 no statistically significant effect highway funding"
+    },
+    {
+      "url": "https://www.responsibility.org/alcohol-statistics/underage-drinking-statistics",
+      "status": "success",
+      "content_length": 23852,
+      "duration_seconds": 2.605,
+      "query": "college binge drinking rates 2024 2025 underage drinking statistics"
+    },
+    {
+      "url": "https://www.niaaa.nih.gov/alcohols-effects-health/alcohol-topics-z/alcohol-facts-and-statistics/alcohol-and-young-adults-ages-18-25",
+      "status": "success",
+      "content_length": 12824,
+      "duration_seconds": 2.605,
+      "query": "college binge drinking rates 2024 2025 underage drinking statistics"
+    },
+    {
+      "url": "https://www.collegedrinkingprevention.gov/statistics/prevalence",
+      "status": "success",
+      "content_length": 3127,
+      "duration_seconds": 2.605,
+      "query": "college binge drinking rates 2024 2025 underage drinking statistics"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2025.1598175/full",
+      "status": "success",
+      "content_length": 72975,
+      "duration_seconds": 2.605,
+      "query": "college binge drinking rates 2024 2025 underage drinking statistics"
+    },
+    {
+      "url": "https://www.niaaa.nih.gov/publications/brochures-and-fact-sheets/college-drinking",
+      "status": "success",
+      "content_length": 10354,
+      "duration_seconds": 2.605,
+      "query": "college binge drinking rates 2024 2025 underage drinking statistics"
+    },
+    {
+      "url": "https://www.techtimes.com/articles/324218/20260812/germany-abolishes-supervised-drinking-teens-14-after-science-debunks-safety-myth.htm",
+      "status": "success",
+      "content_length": 17269,
+      "duration_seconds": 2.938,
+      "query": "Germany supervised drinking age 14 abolished 2026 safety myth debunked"
+    },
+    {
+      "url": "https://www.thelocal.de/20260813/germany-to-ban-supervised-drinking-for-teenagers",
+      "status": "success",
+      "content_length": 5058,
+      "duration_seconds": 2.938,
+      "query": "Germany supervised drinking age 14 abolished 2026 safety myth debunked"
+    },
+    {
+      "url": "https://www.dw.com/en/will-germany-end-supervised-drinking-for-under-16s/a-69627131",
+      "status": "success",
+      "content_length": 4988,
+      "duration_seconds": 2.938,
+      "query": "Germany supervised drinking age 14 abolished 2026 safety myth debunked"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Alcohol_laws_in_Germany",
+      "status": "success",
+      "content_length": 52283,
+      "duration_seconds": 2.938,
+      "query": "Germany supervised drinking age 14 abolished 2026 safety myth debunked"
+    },
+    {
+      "url": "https://germanpedia.com/germany-ends-accompanied-drinking",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.938,
+      "query": "Germany supervised drinking age 14 abolished 2026 safety myth debunked"
+    }
+  ],
+  "run_id": "a73c4335dcb54fd7b4c36887755ffadf",
+  "status": "completed",
+  "qid": "procony5ewSmxa6EiwByts",
+  "query": "Conduct a comprehensive analysis on whether the drinking age should be lowered from 21 in the United States. In the report, I would like to have 3 pro arguments and 3 con arguments. Each pro or con argument should include: (1) A clear thesis statement (2) Multiple supporting points substantiated with credible evidence (including but not limited to statistics, direct quotes, case studies, expert testimony, industry or government reports, academic research, news sources, online forums, and social media), followed by in-depth reasoning and analysis.",
+  "duration_seconds": 345.915,
+  "report_length": 84553,
+  "context_length": 279531,
+  "token_counting": "Token counts come only from API-reported usage; missing usage is never estimated."
+}

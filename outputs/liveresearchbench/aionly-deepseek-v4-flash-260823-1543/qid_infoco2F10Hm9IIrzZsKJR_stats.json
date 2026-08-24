@@ -1,0 +1,4520 @@
+{
+  "session_id": "5b5cbfe4648f4b5da188d5830f0b98dc",
+  "total_llm_calls": 98,
+  "llm_calls_with_token_usage": 98,
+  "llm_calls_missing_token_usage": 0,
+  "token_usage_complete": true,
+  "total_input_tokens": 625568,
+  "total_output_tokens": 79688,
+  "total_tokens": 705256,
+  "counted_input_tokens": 625568,
+  "counted_output_tokens": 79688,
+  "counted_total_tokens": 705256,
+  "total_search_count": 24,
+  "total_search_results": 120,
+  "total_visit_count": 120,
+  "total_visit_success": 106,
+  "total_visit_failed": 14,
+  "source_urls_count": 99,
+  "llm_calls_detail": [
+    {
+      "sequence": 1,
+      "status": "completed",
+      "started_at": "2026-08-24T01:47:52.882241+08:00",
+      "completed_at": "2026-08-24T01:47:56.118149+08:00",
+      "duration_seconds": 3.236,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 774,
+      "output_tokens": 240,
+      "total_tokens": 1014,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 774,
+        "output_tokens": 240,
+        "total_tokens": 1014,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 2,
+      "status": "completed",
+      "started_at": "2026-08-24T01:47:56.126430+08:00",
+      "completed_at": "2026-08-24T01:48:05.892667+08:00",
+      "duration_seconds": 9.766,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1304,
+      "output_tokens": 870,
+      "total_tokens": 2174,
+      "message_count": 2,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1304,
+        "output_tokens": 870,
+        "total_tokens": 2174,
+        "input_token_details": {
+          "cache_read": 1024
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 3,
+      "status": "completed",
+      "started_at": "2026-08-24T01:48:05.899673+08:00",
+      "completed_at": "2026-08-24T01:48:10.815551+08:00",
+      "duration_seconds": 4.916,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1803,
+      "output_tokens": 388,
+      "total_tokens": 2191,
+      "message_count": 4,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1803,
+        "output_tokens": 388,
+        "total_tokens": 2191,
+        "input_token_details": {
+          "cache_read": 1280
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 4,
+      "status": "completed",
+      "started_at": "2026-08-24T01:48:10.826323+08:00",
+      "completed_at": "2026-08-24T01:48:13.765758+08:00",
+      "duration_seconds": 2.939,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1180,
+      "output_tokens": 147,
+      "total_tokens": 1327,
+      "message_count": 2,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1180,
+        "output_tokens": 147,
+        "total_tokens": 1327,
+        "input_token_details": {
+          "cache_read": 768
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 9,
+      "status": "completed",
+      "started_at": "2026-08-24T01:48:16.570656+08:00",
+      "completed_at": "2026-08-24T01:48:26.817796+08:00",
+      "duration_seconds": 10.247,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7783,
+      "output_tokens": 1082,
+      "total_tokens": 8865,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 7783,
+        "output_tokens": 1082,
+        "total_tokens": 8865,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 10,
+      "status": "completed",
+      "started_at": "2026-08-24T01:48:16.570745+08:00",
+      "completed_at": "2026-08-24T01:48:27.905033+08:00",
+      "duration_seconds": 11.334,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 11514,
+      "output_tokens": 1095,
+      "total_tokens": 12609,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 11514,
+        "output_tokens": 1095,
+        "total_tokens": 12609,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 11,
+      "status": "completed",
+      "started_at": "2026-08-24T01:48:16.570805+08:00",
+      "completed_at": "2026-08-24T01:48:21.928169+08:00",
+      "duration_seconds": 5.357,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5812,
+      "output_tokens": 489,
+      "total_tokens": 6301,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5812,
+        "output_tokens": 489,
+        "total_tokens": 6301,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 12,
+      "status": "completed",
+      "started_at": "2026-08-24T01:48:16.570838+08:00",
+      "completed_at": "2026-08-24T01:48:21.858317+08:00",
+      "duration_seconds": 5.287,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8207,
+      "output_tokens": 465,
+      "total_tokens": 8672,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 8207,
+        "output_tokens": 465,
+        "total_tokens": 8672,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 13,
+      "status": "completed",
+      "started_at": "2026-08-24T01:48:16.570865+08:00",
+      "completed_at": "2026-08-24T01:48:21.514265+08:00",
+      "duration_seconds": 4.943,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2821,
+      "output_tokens": 435,
+      "total_tokens": 3256,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2821,
+        "output_tokens": 435,
+        "total_tokens": 3256,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 14,
+      "status": "completed",
+      "started_at": "2026-08-24T01:48:16.570890+08:00",
+      "completed_at": "2026-08-24T01:48:21.573239+08:00",
+      "duration_seconds": 5.002,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1981,
+      "output_tokens": 409,
+      "total_tokens": 2390,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1981,
+        "output_tokens": 409,
+        "total_tokens": 2390,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 15,
+      "status": "completed",
+      "started_at": "2026-08-24T01:48:16.570916+08:00",
+      "completed_at": "2026-08-24T01:48:23.943608+08:00",
+      "duration_seconds": 7.373,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4997,
+      "output_tokens": 699,
+      "total_tokens": 5696,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4997,
+        "output_tokens": 699,
+        "total_tokens": 5696,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 16,
+      "status": "completed",
+      "started_at": "2026-08-24T01:48:16.570941+08:00",
+      "completed_at": "2026-08-24T01:48:21.476707+08:00",
+      "duration_seconds": 4.906,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8468,
+      "output_tokens": 404,
+      "total_tokens": 8872,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 8468,
+        "output_tokens": 404,
+        "total_tokens": 8872,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 17,
+      "status": "completed",
+      "started_at": "2026-08-24T01:48:16.570966+08:00",
+      "completed_at": "2026-08-24T01:48:21.777440+08:00",
+      "duration_seconds": 5.206,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3385,
+      "output_tokens": 420,
+      "total_tokens": 3805,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3385,
+        "output_tokens": 420,
+        "total_tokens": 3805,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 18,
+      "status": "completed",
+      "started_at": "2026-08-24T01:48:16.570991+08:00",
+      "completed_at": "2026-08-24T01:48:22.771624+08:00",
+      "duration_seconds": 6.201,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 10844,
+      "output_tokens": 545,
+      "total_tokens": 11389,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 10844,
+        "output_tokens": 545,
+        "total_tokens": 11389,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 19,
+      "status": "completed",
+      "started_at": "2026-08-24T01:48:16.571014+08:00",
+      "completed_at": "2026-08-24T01:48:21.092244+08:00",
+      "duration_seconds": 4.521,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2885,
+      "output_tokens": 373,
+      "total_tokens": 3258,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2885,
+        "output_tokens": 373,
+        "total_tokens": 3258,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 20,
+      "status": "completed",
+      "started_at": "2026-08-24T01:48:16.571038+08:00",
+      "completed_at": "2026-08-24T01:48:20.673912+08:00",
+      "duration_seconds": 4.103,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2915,
+      "output_tokens": 303,
+      "total_tokens": 3218,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2915,
+        "output_tokens": 303,
+        "total_tokens": 3218,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 21,
+      "status": "completed",
+      "started_at": "2026-08-24T01:48:16.571064+08:00",
+      "completed_at": "2026-08-24T01:48:23.625446+08:00",
+      "duration_seconds": 7.054,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3980,
+      "output_tokens": 564,
+      "total_tokens": 4544,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3980,
+        "output_tokens": 564,
+        "total_tokens": 4544,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 22,
+      "status": "completed",
+      "started_at": "2026-08-24T01:48:16.571089+08:00",
+      "completed_at": "2026-08-24T01:48:21.192543+08:00",
+      "duration_seconds": 4.621,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2433,
+      "output_tokens": 390,
+      "total_tokens": 2823,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2433,
+        "output_tokens": 390,
+        "total_tokens": 2823,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 23,
+      "status": "completed",
+      "started_at": "2026-08-24T01:48:16.571115+08:00",
+      "completed_at": "2026-08-24T01:48:22.498857+08:00",
+      "duration_seconds": 5.928,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2583,
+      "output_tokens": 493,
+      "total_tokens": 3076,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2583,
+        "output_tokens": 493,
+        "total_tokens": 3076,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 24,
+      "status": "completed",
+      "started_at": "2026-08-24T01:48:16.571138+08:00",
+      "completed_at": "2026-08-24T01:48:20.800930+08:00",
+      "duration_seconds": 4.23,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8340,
+      "output_tokens": 290,
+      "total_tokens": 8630,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 8340,
+        "output_tokens": 290,
+        "total_tokens": 8630,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 25,
+      "status": "completed",
+      "started_at": "2026-08-24T01:48:16.571164+08:00",
+      "completed_at": "2026-08-24T01:48:21.476942+08:00",
+      "duration_seconds": 4.906,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2700,
+      "output_tokens": 434,
+      "total_tokens": 3134,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2700,
+        "output_tokens": 434,
+        "total_tokens": 3134,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 26,
+      "status": "completed",
+      "started_at": "2026-08-24T01:48:16.571187+08:00",
+      "completed_at": "2026-08-24T01:48:22.008048+08:00",
+      "duration_seconds": 5.437,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2644,
+      "output_tokens": 456,
+      "total_tokens": 3100,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2644,
+        "output_tokens": 456,
+        "total_tokens": 3100,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 27,
+      "status": "completed",
+      "started_at": "2026-08-24T01:48:27.913817+08:00",
+      "completed_at": "2026-08-24T01:48:33.662398+08:00",
+      "duration_seconds": 5.749,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 11408,
+      "output_tokens": 473,
+      "total_tokens": 11881,
+      "message_count": 4,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 11408,
+        "output_tokens": 473,
+        "total_tokens": 11881,
+        "input_token_details": {
+          "cache_read": 1024
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 33,
+      "status": "completed",
+      "started_at": "2026-08-24T01:48:36.552067+08:00",
+      "completed_at": "2026-08-24T01:48:41.191009+08:00",
+      "duration_seconds": 4.639,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4750,
+      "output_tokens": 366,
+      "total_tokens": 5116,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4750,
+        "output_tokens": 366,
+        "total_tokens": 5116,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 34,
+      "status": "completed",
+      "started_at": "2026-08-24T01:48:36.552158+08:00",
+      "completed_at": "2026-08-24T01:48:42.594260+08:00",
+      "duration_seconds": 6.042,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3501,
+      "output_tokens": 522,
+      "total_tokens": 4023,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3501,
+        "output_tokens": 522,
+        "total_tokens": 4023,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 35,
+      "status": "completed",
+      "started_at": "2026-08-24T01:48:36.552219+08:00",
+      "completed_at": "2026-08-24T01:48:41.325282+08:00",
+      "duration_seconds": 4.773,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4758,
+      "output_tokens": 374,
+      "total_tokens": 5132,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4758,
+        "output_tokens": 374,
+        "total_tokens": 5132,
+        "input_token_details": {
+          "cache_read": 1536
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 36,
+      "status": "completed",
+      "started_at": "2026-08-24T01:48:36.552252+08:00",
+      "completed_at": "2026-08-24T01:48:41.318539+08:00",
+      "duration_seconds": 4.766,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1988,
+      "output_tokens": 410,
+      "total_tokens": 2398,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1988,
+        "output_tokens": 410,
+        "total_tokens": 2398,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 37,
+      "status": "completed",
+      "started_at": "2026-08-24T01:48:36.552278+08:00",
+      "completed_at": "2026-08-24T01:48:40.819889+08:00",
+      "duration_seconds": 4.268,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5087,
+      "output_tokens": 249,
+      "total_tokens": 5336,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5087,
+        "output_tokens": 249,
+        "total_tokens": 5336,
+        "input_token_details": {
+          "cache_read": 512
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 38,
+      "status": "completed",
+      "started_at": "2026-08-24T01:48:36.552303+08:00",
+      "completed_at": "2026-08-24T01:48:40.772501+08:00",
+      "duration_seconds": 4.22,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5583,
+      "output_tokens": 318,
+      "total_tokens": 5901,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5583,
+        "output_tokens": 318,
+        "total_tokens": 5901,
+        "input_token_details": {
+          "cache_read": 512
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 39,
+      "status": "completed",
+      "started_at": "2026-08-24T01:48:36.552327+08:00",
+      "completed_at": "2026-08-24T01:48:40.875956+08:00",
+      "duration_seconds": 4.324,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4286,
+      "output_tokens": 340,
+      "total_tokens": 4626,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4286,
+        "output_tokens": 340,
+        "total_tokens": 4626,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 40,
+      "status": "completed",
+      "started_at": "2026-08-24T01:48:36.552352+08:00",
+      "completed_at": "2026-08-24T01:48:40.041268+08:00",
+      "duration_seconds": 3.489,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7923,
+      "output_tokens": 195,
+      "total_tokens": 8118,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 7923,
+        "output_tokens": 195,
+        "total_tokens": 8118,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 41,
+      "status": "completed",
+      "started_at": "2026-08-24T01:48:36.552377+08:00",
+      "completed_at": "2026-08-24T01:48:42.069300+08:00",
+      "duration_seconds": 5.517,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 10575,
+      "output_tokens": 472,
+      "total_tokens": 11047,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 10575,
+        "output_tokens": 472,
+        "total_tokens": 11047,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 42,
+      "status": "completed",
+      "started_at": "2026-08-24T01:48:36.552400+08:00",
+      "completed_at": "2026-08-24T01:48:46.905471+08:00",
+      "duration_seconds": 10.353,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 10950,
+      "output_tokens": 1009,
+      "total_tokens": 11959,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 10950,
+        "output_tokens": 1009,
+        "total_tokens": 11959,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 43,
+      "status": "completed",
+      "started_at": "2026-08-24T01:48:36.552423+08:00",
+      "completed_at": "2026-08-24T01:48:43.961063+08:00",
+      "duration_seconds": 7.409,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3049,
+      "output_tokens": 703,
+      "total_tokens": 3752,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3049,
+        "output_tokens": 703,
+        "total_tokens": 3752,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 44,
+      "status": "completed",
+      "started_at": "2026-08-24T01:48:36.552447+08:00",
+      "completed_at": "2026-08-24T01:48:40.839722+08:00",
+      "duration_seconds": 4.287,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 13626,
+      "output_tokens": 343,
+      "total_tokens": 13969,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 13626,
+        "output_tokens": 343,
+        "total_tokens": 13969,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 45,
+      "status": "completed",
+      "started_at": "2026-08-24T01:48:36.552470+08:00",
+      "completed_at": "2026-08-24T01:48:42.732568+08:00",
+      "duration_seconds": 6.18,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3426,
+      "output_tokens": 561,
+      "total_tokens": 3987,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3426,
+        "output_tokens": 561,
+        "total_tokens": 3987,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 46,
+      "status": "completed",
+      "started_at": "2026-08-24T01:48:36.552493+08:00",
+      "completed_at": "2026-08-24T01:48:41.569027+08:00",
+      "duration_seconds": 5.017,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4514,
+      "output_tokens": 409,
+      "total_tokens": 4923,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4514,
+        "output_tokens": 409,
+        "total_tokens": 4923,
+        "input_token_details": {
+          "cache_read": 2560
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 47,
+      "status": "completed",
+      "started_at": "2026-08-24T01:48:36.552515+08:00",
+      "completed_at": "2026-08-24T01:48:41.450917+08:00",
+      "duration_seconds": 4.898,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3293,
+      "output_tokens": 406,
+      "total_tokens": 3699,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3293,
+        "output_tokens": 406,
+        "total_tokens": 3699,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 48,
+      "status": "completed",
+      "started_at": "2026-08-24T01:48:36.552742+08:00",
+      "completed_at": "2026-08-24T01:48:42.569173+08:00",
+      "duration_seconds": 6.016,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4794,
+      "output_tokens": 491,
+      "total_tokens": 5285,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4794,
+        "output_tokens": 491,
+        "total_tokens": 5285,
+        "input_token_details": {
+          "cache_read": 2560
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 49,
+      "status": "completed",
+      "started_at": "2026-08-24T01:48:36.552788+08:00",
+      "completed_at": "2026-08-24T01:48:42.140833+08:00",
+      "duration_seconds": 5.588,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5139,
+      "output_tokens": 449,
+      "total_tokens": 5588,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5139,
+        "output_tokens": 449,
+        "total_tokens": 5588,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 50,
+      "status": "completed",
+      "started_at": "2026-08-24T01:48:36.552817+08:00",
+      "completed_at": "2026-08-24T01:48:39.034999+08:00",
+      "duration_seconds": 2.482,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1284,
+      "output_tokens": 143,
+      "total_tokens": 1427,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1284,
+        "output_tokens": 143,
+        "total_tokens": 1427,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 51,
+      "status": "completed",
+      "started_at": "2026-08-24T01:48:36.552845+08:00",
+      "completed_at": "2026-08-24T01:48:41.175276+08:00",
+      "duration_seconds": 4.622,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7810,
+      "output_tokens": 344,
+      "total_tokens": 8154,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 7810,
+        "output_tokens": 344,
+        "total_tokens": 8154,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 52,
+      "status": "completed",
+      "started_at": "2026-08-24T01:48:46.912225+08:00",
+      "completed_at": "2026-08-24T01:48:52.907096+08:00",
+      "duration_seconds": 5.995,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 21173,
+      "output_tokens": 486,
+      "total_tokens": 21659,
+      "message_count": 7,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 21173,
+        "output_tokens": 486,
+        "total_tokens": 21659,
+        "input_token_details": {
+          "cache_read": 11264
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 58,
+      "status": "completed",
+      "started_at": "2026-08-24T01:48:55.381229+08:00",
+      "completed_at": "2026-08-24T01:48:59.788245+08:00",
+      "duration_seconds": 4.407,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1545,
+      "output_tokens": 361,
+      "total_tokens": 1906,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1545,
+        "output_tokens": 361,
+        "total_tokens": 1906,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 59,
+      "status": "completed",
+      "started_at": "2026-08-24T01:48:55.381291+08:00",
+      "completed_at": "2026-08-24T01:48:59.966906+08:00",
+      "duration_seconds": 4.586,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3445,
+      "output_tokens": 369,
+      "total_tokens": 3814,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3445,
+        "output_tokens": 369,
+        "total_tokens": 3814,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 60,
+      "status": "completed",
+      "started_at": "2026-08-24T01:48:55.381342+08:00",
+      "completed_at": "2026-08-24T01:49:04.482349+08:00",
+      "duration_seconds": 9.101,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5941,
+      "output_tokens": 948,
+      "total_tokens": 6889,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5941,
+        "output_tokens": 948,
+        "total_tokens": 6889,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 61,
+      "status": "completed",
+      "started_at": "2026-08-24T01:48:55.381366+08:00",
+      "completed_at": "2026-08-24T01:48:59.217436+08:00",
+      "duration_seconds": 3.836,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7666,
+      "output_tokens": 290,
+      "total_tokens": 7956,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 7666,
+        "output_tokens": 290,
+        "total_tokens": 7956,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 62,
+      "status": "completed",
+      "started_at": "2026-08-24T01:48:55.381382+08:00",
+      "completed_at": "2026-08-24T01:49:00.833872+08:00",
+      "duration_seconds": 5.452,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5186,
+      "output_tokens": 443,
+      "total_tokens": 5629,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5186,
+        "output_tokens": 443,
+        "total_tokens": 5629,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 63,
+      "status": "completed",
+      "started_at": "2026-08-24T01:48:55.381395+08:00",
+      "completed_at": "2026-08-24T01:48:59.148758+08:00",
+      "duration_seconds": 3.767,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1490,
+      "output_tokens": 268,
+      "total_tokens": 1758,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1490,
+        "output_tokens": 268,
+        "total_tokens": 1758,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 64,
+      "status": "completed",
+      "started_at": "2026-08-24T01:48:55.381412+08:00",
+      "completed_at": "2026-08-24T01:48:59.966705+08:00",
+      "duration_seconds": 4.585,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3565,
+      "output_tokens": 380,
+      "total_tokens": 3945,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3565,
+        "output_tokens": 380,
+        "total_tokens": 3945,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 65,
+      "status": "completed",
+      "started_at": "2026-08-24T01:48:55.381422+08:00",
+      "completed_at": "2026-08-24T01:49:00.827210+08:00",
+      "duration_seconds": 5.446,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3492,
+      "output_tokens": 439,
+      "total_tokens": 3931,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3492,
+        "output_tokens": 439,
+        "total_tokens": 3931,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 66,
+      "status": "completed",
+      "started_at": "2026-08-24T01:48:55.381436+08:00",
+      "completed_at": "2026-08-24T01:49:01.071765+08:00",
+      "duration_seconds": 5.69,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3630,
+      "output_tokens": 533,
+      "total_tokens": 4163,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3630,
+        "output_tokens": 533,
+        "total_tokens": 4163,
+        "input_token_details": {
+          "cache_read": 1280
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 67,
+      "status": "completed",
+      "started_at": "2026-08-24T01:48:55.381452+08:00",
+      "completed_at": "2026-08-24T01:48:59.369542+08:00",
+      "duration_seconds": 3.988,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2629,
+      "output_tokens": 299,
+      "total_tokens": 2928,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2629,
+        "output_tokens": 299,
+        "total_tokens": 2928,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 68,
+      "status": "completed",
+      "started_at": "2026-08-24T01:48:55.381465+08:00",
+      "completed_at": "2026-08-24T01:49:03.662707+08:00",
+      "duration_seconds": 8.281,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6141,
+      "output_tokens": 839,
+      "total_tokens": 6980,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 6141,
+        "output_tokens": 839,
+        "total_tokens": 6980,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 69,
+      "status": "completed",
+      "started_at": "2026-08-24T01:48:55.381476+08:00",
+      "completed_at": "2026-08-24T01:48:59.970084+08:00",
+      "duration_seconds": 4.589,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5537,
+      "output_tokens": 393,
+      "total_tokens": 5930,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5537,
+        "output_tokens": 393,
+        "total_tokens": 5930,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 70,
+      "status": "completed",
+      "started_at": "2026-08-24T01:48:55.381489+08:00",
+      "completed_at": "2026-08-24T01:49:01.864977+08:00",
+      "duration_seconds": 6.483,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 25919,
+      "output_tokens": 574,
+      "total_tokens": 26493,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 25919,
+        "output_tokens": 574,
+        "total_tokens": 26493,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 71,
+      "status": "completed",
+      "started_at": "2026-08-24T01:48:55.381500+08:00",
+      "completed_at": "2026-08-24T01:49:01.722626+08:00",
+      "duration_seconds": 6.341,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4915,
+      "output_tokens": 543,
+      "total_tokens": 5458,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4915,
+        "output_tokens": 543,
+        "total_tokens": 5458,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 72,
+      "status": "completed",
+      "started_at": "2026-08-24T01:48:55.381512+08:00",
+      "completed_at": "2026-08-24T01:49:03.811663+08:00",
+      "duration_seconds": 8.43,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 11968,
+      "output_tokens": 809,
+      "total_tokens": 12777,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 11968,
+        "output_tokens": 809,
+        "total_tokens": 12777,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 73,
+      "status": "completed",
+      "started_at": "2026-08-24T01:48:55.381524+08:00",
+      "completed_at": "2026-08-24T01:48:59.572297+08:00",
+      "duration_seconds": 4.191,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2065,
+      "output_tokens": 291,
+      "total_tokens": 2356,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2065,
+        "output_tokens": 291,
+        "total_tokens": 2356,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 74,
+      "status": "completed",
+      "started_at": "2026-08-24T01:48:55.381535+08:00",
+      "completed_at": "2026-08-24T01:48:59.505083+08:00",
+      "duration_seconds": 4.124,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2282,
+      "output_tokens": 306,
+      "total_tokens": 2588,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2282,
+        "output_tokens": 306,
+        "total_tokens": 2588,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 75,
+      "status": "completed",
+      "started_at": "2026-08-24T01:48:55.381547+08:00",
+      "completed_at": "2026-08-24T01:49:00.707101+08:00",
+      "duration_seconds": 5.326,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3330,
+      "output_tokens": 403,
+      "total_tokens": 3733,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3330,
+        "output_tokens": 403,
+        "total_tokens": 3733,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 76,
+      "status": "completed",
+      "started_at": "2026-08-24T01:48:55.381560+08:00",
+      "completed_at": "2026-08-24T01:49:02.137966+08:00",
+      "duration_seconds": 6.756,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3915,
+      "output_tokens": 626,
+      "total_tokens": 4541,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3915,
+        "output_tokens": 626,
+        "total_tokens": 4541,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 77,
+      "status": "completed",
+      "started_at": "2026-08-24T01:48:55.381572+08:00",
+      "completed_at": "2026-08-24T01:49:00.654277+08:00",
+      "duration_seconds": 5.273,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5693,
+      "output_tokens": 399,
+      "total_tokens": 6092,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5693,
+        "output_tokens": 399,
+        "total_tokens": 6092,
+        "input_token_details": {
+          "cache_read": 512
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 78,
+      "status": "completed",
+      "started_at": "2026-08-24T01:48:55.381585+08:00",
+      "completed_at": "2026-08-24T01:48:58.919935+08:00",
+      "duration_seconds": 3.538,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 10441,
+      "output_tokens": 231,
+      "total_tokens": 10672,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 10441,
+        "output_tokens": 231,
+        "total_tokens": 10672,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 79,
+      "status": "completed",
+      "started_at": "2026-08-24T01:49:04.489965+08:00",
+      "completed_at": "2026-08-24T01:49:09.829378+08:00",
+      "duration_seconds": 5.339,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 32810,
+      "output_tokens": 375,
+      "total_tokens": 33185,
+      "message_count": 10,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 32810,
+        "output_tokens": 375,
+        "total_tokens": 33185,
+        "input_token_details": {
+          "cache_read": 20992
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 90,
+      "status": "completed",
+      "started_at": "2026-08-24T01:49:12.998755+08:00",
+      "completed_at": "2026-08-24T01:49:17.140939+08:00",
+      "duration_seconds": 4.142,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2528,
+      "output_tokens": 362,
+      "total_tokens": 2890,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2528,
+        "output_tokens": 362,
+        "total_tokens": 2890,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 91,
+      "status": "completed",
+      "started_at": "2026-08-24T01:49:12.998850+08:00",
+      "completed_at": "2026-08-24T01:49:17.758499+08:00",
+      "duration_seconds": 4.76,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3636,
+      "output_tokens": 398,
+      "total_tokens": 4034,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3636,
+        "output_tokens": 398,
+        "total_tokens": 4034,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 92,
+      "status": "completed",
+      "started_at": "2026-08-24T01:49:12.999145+08:00",
+      "completed_at": "2026-08-24T01:49:19.664342+08:00",
+      "duration_seconds": 6.665,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4918,
+      "output_tokens": 647,
+      "total_tokens": 5565,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4918,
+        "output_tokens": 647,
+        "total_tokens": 5565,
+        "input_token_details": {
+          "cache_read": 2560
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 93,
+      "status": "completed",
+      "started_at": "2026-08-24T01:49:12.999189+08:00",
+      "completed_at": "2026-08-24T01:49:19.326562+08:00",
+      "duration_seconds": 6.327,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3812,
+      "output_tokens": 543,
+      "total_tokens": 4355,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3812,
+        "output_tokens": 543,
+        "total_tokens": 4355,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 94,
+      "status": "completed",
+      "started_at": "2026-08-24T01:49:12.999220+08:00",
+      "completed_at": "2026-08-24T01:49:18.889463+08:00",
+      "duration_seconds": 5.89,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5759,
+      "output_tokens": 451,
+      "total_tokens": 6210,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5759,
+        "output_tokens": 451,
+        "total_tokens": 6210,
+        "input_token_details": {
+          "cache_read": 512
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 95,
+      "status": "completed",
+      "started_at": "2026-08-24T01:49:12.999248+08:00",
+      "completed_at": "2026-08-24T01:49:18.252247+08:00",
+      "duration_seconds": 5.253,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5472,
+      "output_tokens": 353,
+      "total_tokens": 5825,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5472,
+        "output_tokens": 353,
+        "total_tokens": 5825,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 96,
+      "status": "completed",
+      "started_at": "2026-08-24T01:49:12.999274+08:00",
+      "completed_at": "2026-08-24T01:49:17.598509+08:00",
+      "duration_seconds": 4.599,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6312,
+      "output_tokens": 385,
+      "total_tokens": 6697,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 6312,
+        "output_tokens": 385,
+        "total_tokens": 6697,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 97,
+      "status": "completed",
+      "started_at": "2026-08-24T01:49:12.999297+08:00",
+      "completed_at": "2026-08-24T01:49:18.399318+08:00",
+      "duration_seconds": 5.4,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2858,
+      "output_tokens": 500,
+      "total_tokens": 3358,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2858,
+        "output_tokens": 500,
+        "total_tokens": 3358,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 98,
+      "status": "completed",
+      "started_at": "2026-08-24T01:49:12.999322+08:00",
+      "completed_at": "2026-08-24T01:49:17.183545+08:00",
+      "duration_seconds": 4.184,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2998,
+      "output_tokens": 302,
+      "total_tokens": 3300,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2998,
+        "output_tokens": 302,
+        "total_tokens": 3300,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 99,
+      "status": "completed",
+      "started_at": "2026-08-24T01:49:12.999346+08:00",
+      "completed_at": "2026-08-24T01:49:16.620196+08:00",
+      "duration_seconds": 3.621,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1535,
+      "output_tokens": 291,
+      "total_tokens": 1826,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1535,
+        "output_tokens": 291,
+        "total_tokens": 1826,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 100,
+      "status": "completed",
+      "started_at": "2026-08-24T01:49:12.999374+08:00",
+      "completed_at": "2026-08-24T01:49:20.101545+08:00",
+      "duration_seconds": 7.102,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 9696,
+      "output_tokens": 633,
+      "total_tokens": 10329,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 9696,
+        "output_tokens": 633,
+        "total_tokens": 10329,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 101,
+      "status": "completed",
+      "started_at": "2026-08-24T01:49:12.999398+08:00",
+      "completed_at": "2026-08-24T01:49:17.210752+08:00",
+      "duration_seconds": 4.211,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5359,
+      "output_tokens": 328,
+      "total_tokens": 5687,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5359,
+        "output_tokens": 328,
+        "total_tokens": 5687,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 102,
+      "status": "completed",
+      "started_at": "2026-08-24T01:49:12.999422+08:00",
+      "completed_at": "2026-08-24T01:49:19.128495+08:00",
+      "duration_seconds": 6.129,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5845,
+      "output_tokens": 555,
+      "total_tokens": 6400,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5845,
+        "output_tokens": 555,
+        "total_tokens": 6400,
+        "input_token_details": {
+          "cache_read": 512
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 103,
+      "status": "completed",
+      "started_at": "2026-08-24T01:49:12.999446+08:00",
+      "completed_at": "2026-08-24T01:49:16.504586+08:00",
+      "duration_seconds": 3.505,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6219,
+      "output_tokens": 262,
+      "total_tokens": 6481,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 6219,
+        "output_tokens": 262,
+        "total_tokens": 6481,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 104,
+      "status": "completed",
+      "started_at": "2026-08-24T01:49:12.999469+08:00",
+      "completed_at": "2026-08-24T01:49:19.132326+08:00",
+      "duration_seconds": 6.133,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3579,
+      "output_tokens": 476,
+      "total_tokens": 4055,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3579,
+        "output_tokens": 476,
+        "total_tokens": 4055,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 105,
+      "status": "completed",
+      "started_at": "2026-08-24T01:49:12.999497+08:00",
+      "completed_at": "2026-08-24T01:49:17.986812+08:00",
+      "duration_seconds": 4.987,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7550,
+      "output_tokens": 436,
+      "total_tokens": 7986,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 7550,
+        "output_tokens": 436,
+        "total_tokens": 7986,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 106,
+      "status": "completed",
+      "started_at": "2026-08-24T01:49:12.999520+08:00",
+      "completed_at": "2026-08-24T01:49:19.453426+08:00",
+      "duration_seconds": 6.454,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5759,
+      "output_tokens": 600,
+      "total_tokens": 6359,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5759,
+        "output_tokens": 600,
+        "total_tokens": 6359,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 107,
+      "status": "completed",
+      "started_at": "2026-08-24T01:49:12.999542+08:00",
+      "completed_at": "2026-08-24T01:49:17.668112+08:00",
+      "duration_seconds": 4.669,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2932,
+      "output_tokens": 350,
+      "total_tokens": 3282,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2932,
+        "output_tokens": 350,
+        "total_tokens": 3282,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 108,
+      "status": "completed",
+      "started_at": "2026-08-24T01:49:12.999565+08:00",
+      "completed_at": "2026-08-24T01:49:18.532759+08:00",
+      "duration_seconds": 5.533,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7431,
+      "output_tokens": 478,
+      "total_tokens": 7909,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 7431,
+        "output_tokens": 478,
+        "total_tokens": 7909,
+        "input_token_details": {},
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 109,
+      "status": "completed",
+      "started_at": "2026-08-24T01:49:20.110526+08:00",
+      "completed_at": "2026-08-24T01:49:23.083543+08:00",
+      "duration_seconds": 2.973,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 13147,
+      "output_tokens": 118,
+      "total_tokens": 13265,
+      "message_count": 13,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 13147,
+        "output_tokens": 118,
+        "total_tokens": 13265,
+        "input_token_details": {},
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 130,
+      "status": "completed",
+      "started_at": "2026-08-24T01:49:25.769821+08:00",
+      "completed_at": "2026-08-24T01:49:32.744425+08:00",
+      "duration_seconds": 6.975,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3180,
+      "output_tokens": 772,
+      "total_tokens": 3952,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3180,
+        "output_tokens": 772,
+        "total_tokens": 3952,
+        "input_token_details": {},
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 131,
+      "status": "completed",
+      "started_at": "2026-08-24T01:49:25.769913+08:00",
+      "completed_at": "2026-08-24T01:49:30.694413+08:00",
+      "duration_seconds": 4.925,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3260,
+      "output_tokens": 464,
+      "total_tokens": 3724,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3260,
+        "output_tokens": 464,
+        "total_tokens": 3724,
+        "input_token_details": {
+          "cache_read": 1024
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 132,
+      "status": "completed",
+      "started_at": "2026-08-24T01:49:25.773138+08:00",
+      "completed_at": "2026-08-24T01:49:32.249150+08:00",
+      "duration_seconds": 6.476,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 15274,
+      "output_tokens": 568,
+      "total_tokens": 15842,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 15274,
+        "output_tokens": 568,
+        "total_tokens": 15842,
+        "input_token_details": {},
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 133,
+      "status": "completed",
+      "started_at": "2026-08-24T01:49:25.773355+08:00",
+      "completed_at": "2026-08-24T01:49:30.258551+08:00",
+      "duration_seconds": 4.485,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2272,
+      "output_tokens": 420,
+      "total_tokens": 2692,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2272,
+        "output_tokens": 420,
+        "total_tokens": 2692,
+        "input_token_details": {},
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 134,
+      "status": "completed",
+      "started_at": "2026-08-24T01:49:25.773403+08:00",
+      "completed_at": "2026-08-24T01:49:30.385630+08:00",
+      "duration_seconds": 4.612,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3576,
+      "output_tokens": 418,
+      "total_tokens": 3994,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3576,
+        "output_tokens": 418,
+        "total_tokens": 3994,
+        "input_token_details": {},
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 135,
+      "status": "completed",
+      "started_at": "2026-08-24T01:49:25.773440+08:00",
+      "completed_at": "2026-08-24T01:49:30.168992+08:00",
+      "duration_seconds": 4.396,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4280,
+      "output_tokens": 325,
+      "total_tokens": 4605,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4280,
+        "output_tokens": 325,
+        "total_tokens": 4605,
+        "input_token_details": {},
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 136,
+      "status": "completed",
+      "started_at": "2026-08-24T01:49:25.773471+08:00",
+      "completed_at": "2026-08-24T01:49:30.209828+08:00",
+      "duration_seconds": 4.436,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 11099,
+      "output_tokens": 354,
+      "total_tokens": 11453,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 11099,
+        "output_tokens": 354,
+        "total_tokens": 11453,
+        "input_token_details": {},
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 137,
+      "status": "completed",
+      "started_at": "2026-08-24T01:49:25.773503+08:00",
+      "completed_at": "2026-08-24T01:49:31.187573+08:00",
+      "duration_seconds": 5.414,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4135,
+      "output_tokens": 467,
+      "total_tokens": 4602,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4135,
+        "output_tokens": 467,
+        "total_tokens": 4602,
+        "input_token_details": {},
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 138,
+      "status": "completed",
+      "started_at": "2026-08-24T01:49:25.773533+08:00",
+      "completed_at": "2026-08-24T01:49:31.945111+08:00",
+      "duration_seconds": 6.172,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6629,
+      "output_tokens": 521,
+      "total_tokens": 7150,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 6629,
+        "output_tokens": 521,
+        "total_tokens": 7150,
+        "input_token_details": {},
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 139,
+      "status": "completed",
+      "started_at": "2026-08-24T01:49:32.750098+08:00",
+      "completed_at": "2026-08-24T01:52:16.146300+08:00",
+      "duration_seconds": 163.396,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 25096,
+      "output_tokens": 20221,
+      "total_tokens": 45317,
+      "message_count": 16,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 25096,
+        "output_tokens": 20221,
+        "total_tokens": 45317,
+        "input_token_details": {},
+        "output_token_details": {}
+      },
+      "finish_reason": "end_turn"
+    },
+    {
+      "sequence": 140,
+      "status": "completed",
+      "started_at": "2026-08-24T01:52:16.154615+08:00",
+      "completed_at": "2026-08-24T01:52:40.119154+08:00",
+      "duration_seconds": 23.965,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 15717,
+      "output_tokens": 2141,
+      "total_tokens": 17858,
+      "message_count": 6,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 15717,
+        "output_tokens": 2141,
+        "total_tokens": 17858,
+        "input_token_details": {
+          "cache_read": 1024
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 141,
+      "status": "completed",
+      "started_at": "2026-08-24T01:52:40.128524+08:00",
+      "completed_at": "2026-08-24T01:52:49.867300+08:00",
+      "duration_seconds": 9.739,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 16496,
+      "output_tokens": 907,
+      "total_tokens": 17403,
+      "message_count": 8,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 16496,
+        "output_tokens": 907,
+        "total_tokens": 17403,
+        "input_token_details": {
+          "cache_read": 15360
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 142,
+      "status": "completed",
+      "started_at": "2026-08-24T01:52:49.875171+08:00",
+      "completed_at": "2026-08-24T01:54:42.584428+08:00",
+      "duration_seconds": 112.709,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 15334,
+      "output_tokens": 13469,
+      "total_tokens": 28803,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 15334,
+        "output_tokens": 13469,
+        "total_tokens": 28803,
+        "input_token_details": {},
+        "output_token_details": {}
+      },
+      "finish_reason": "end_turn"
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "status": "completed",
+      "query": "Volkswagen IDA ChatGPT voice assistant 2024 launch",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.38,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "ChatGPT is now available in many Volkswagen models | Volkswagen Group",
+          "url": "https://www.volkswagen-group.com/en/articles/chatgpt-is-now-available-in-many-volkswagen-models-18464",
+          "score": 0.89189607,
+          "raw_content_available": true,
+          "raw_content_length": 7145,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "World premiere at CES: Volkswagen integrates ChatGPT into its vehicles | Volkswagen Newsroom",
+          "url": "https://www.volkswagen-newsroom.com/en/press-releases/world-premiere-at-ces-volkswagen-integrates-chatgpt-into-its-vehicles-18048",
+          "score": 0.8795718,
+          "raw_content_available": true,
+          "raw_content_length": 6877,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Volkswagen Integrates ChatGPT into IDA Voice Assistant for Select Models",
+          "url": "https://www.facebook.com/groups/666960357264469/posts/1368971770396654",
+          "score": 0.8559598,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "Demonstration of Volkswagen's New IDA Voice assistant with ChatGPT support",
+          "url": "https://www.youtube.com/watch?v=mGZeGKQXOY4",
+          "score": 0.82220376,
+          "raw_content_available": true,
+          "raw_content_length": 13868,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "IDA voice assistant with ChatGPT - VW USA - Volkswagen",
+          "url": "https://media.vw.com/releases/1813",
+          "score": 0.40896168,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        }
+      ],
+      "sequence": 5,
+      "timestamp": "2026-08-24T01:48:16.172579+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Mercedes MBUX ChatGPT voice assistant launch June 2023",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.475,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Mercedes-Benz Launches ChatGPT Beta Test 06/16/2023",
+          "url": "https://www.mediapost.com/publications/article/386396/mercedes-benz-launches-chatgpt-beta-test.html?edition=",
+          "score": 0.935964,
+          "raw_content_available": true,
+          "raw_content_length": 3801,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Mercedes-Benz takes in-car voice control to a new level with ChatGPT",
+          "url": "https://media.mbusa.com/releases/release-b35d2af89e06f556bbd8fe420412e9c2-mercedes-benz-takes-in-car-voice-control-to-a-new-level-with-chatgpt",
+          "score": 0.9220975,
+          "raw_content_available": true,
+          "raw_content_length": 13453,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "ChatGPT Capability Added to MBUX Infotainment",
+          "url": "https://www.mercedes-benz-kingston.ca/chatgpt-capability-added-to-mbux-infotainment.html",
+          "score": 0.90692574,
+          "raw_content_available": true,
+          "raw_content_length": 22277,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Mercedes Benz 'CHATGPT Powered CAR' Takes Everyone By SURPRISE! (Now RELEASED!)",
+          "url": "https://www.youtube.com/watch?v=7jkVNtro-6c",
+          "score": 0.8674071,
+          "raw_content_available": true,
+          "raw_content_length": 11311,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Mercedes gave its new C-Class three AI assistants that compete to answer your questions",
+          "url": "https://www.howtogeek.com/mercedes-c-class-three-ai-assistants",
+          "score": 0.86713725,
+          "raw_content_available": true,
+          "raw_content_length": 29899,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 6,
+      "timestamp": "2026-08-24T01:48:16.260565+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "BMW generative AI voice assistant launch production vehicle",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.559,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "BMW’s New AI Assistant Changes Everything Inside the Car",
+          "url": "https://www.youtube.com/watch?v=5Y1ipTLA4t0",
+          "score": 0.7728226,
+          "raw_content_available": true,
+          "raw_content_length": 6088,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "BMW iX3 Establishes New Benchmark for In-Vehicle AI | AI Magazine",
+          "url": "https://aimagazine.com/news/bmw-unveils-generative-ai-assistant-for-ix3-electric-vehicle",
+          "score": 0.7487387,
+          "raw_content_available": true,
+          "raw_content_length": 6337,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Instagram",
+          "url": "https://www.instagram.com/reel/DZ9hN65ilEa",
+          "score": 0.63098115,
+          "raw_content_available": true,
+          "raw_content_length": 13534,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "BMW Group Is the First OEM to Deliver Voice Technology Using Alexa Custom Assistant",
+          "url": "https://developer.amazon.com/en-US/blogs/alexa/alexa-auto/2024/12/bmw-group-is-the-first-oem-to-deliver-voice-technology-using-ale",
+          "score": 0.6307082,
+          "raw_content_available": true,
+          "raw_content_length": 7303,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "A Milestone for Human-Vehicle Interaction. BMW Intelligent Personal Assistant expanded to include Amazon Alexa + Technology.",
+          "url": "https://www.press.bmwgroup.com/global/article/detail/T0454477EN/a-milestone-for-human-vehicle-interaction-bmw-intelligent-personal-assistant-expanded-to-include-amazon-alexa-technology?language=en",
+          "score": 0.6244086,
+          "raw_content_available": true,
+          "raw_content_length": 6777,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 7,
+      "timestamp": "2026-08-24T01:48:16.357270+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "generative AI voice assistant production vehicle launch 2023 2024 2025 automaker",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.78,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Generative AI In Automotive Market Size to Hit USD 3,900.03 Mn by 2034",
+          "url": "https://www.precedenceresearch.com/generative-ai-in-automotive-market",
+          "score": 0.81770587,
+          "raw_content_available": true,
+          "raw_content_length": 30724,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "In-Car Voice AI in 2026 | Mihup",
+          "url": "https://mihup.ai/blog/in-car-voice-ai-in-2026-how-generative-ai-and-edge-computing-are-redefining-the-software-defined-vehicle",
+          "score": 0.7763013,
+          "raw_content_available": true,
+          "raw_content_length": 84736,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Stellantis to launch AI-powered in-car assistant | WardsAuto",
+          "url": "https://www.wardsauto.com/news/archive-auto-stellantis-mistral-ai-launching-vehicle-voice-assistant-chatgpt-generative/739727",
+          "score": 0.76385427,
+          "raw_content_available": true,
+          "raw_content_length": 14454,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "AI-Enabled Vehicle Assistant Transforms Driving - IEEE Spectrum",
+          "url": "https://spectrum.ieee.org/ai-enabled-vehicle-assistant/particle-1",
+          "score": 0.7213709,
+          "raw_content_available": true,
+          "raw_content_length": 27231,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Automakers rush to boost in-vehicle AI while buyers worry about costs, privacy",
+          "url": "https://news.dealershipguy.com/p/automakers-rush-to-boost-in-vehicle-ai-while-buyers-worry-about-costs-privacy-2025-07-04",
+          "score": 0.39578846,
+          "raw_content_available": true,
+          "raw_content_length": 7245,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 8,
+      "timestamp": "2026-08-24T01:48:16.552816+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Polestar generative AI voice assistant Google built-in 2024",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 1.637,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Google Gemini brings generative AI to your Polestar so you ...",
+          "url": "https://www.facebook.com/PolestarCars/posts/google-gemini-brings-generative-ai-to-your-polestar-so-you-can-talk-naturally-pl/1236045138556222",
+          "score": 0.512376,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "Polestar EVs Will Come With Google Gemini",
+          "url": "https://www.carsdirect.com/automotive-news/polestar-evs-will-come-with-google-gemini",
+          "score": 0.4833807,
+          "raw_content_available": true,
+          "raw_content_length": 23574,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Polestar launches Google Gemini to transform the driver ...",
+          "url": "https://media.polestar.com/releases/polestar-launches-google-gemini-to-transform-the-driver-experience?lang=en_US",
+          "score": 0.3891524,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "Infotainment - Polestar 4 coupe",
+          "url": "https://www.polestar.com/us/polestar-4-models/polestar-4-coupe/technology",
+          "score": 0.31983313,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "Gemini AI assistant review for Polestar 2",
+          "url": "https://www.facebook.com/groups/2558379420861215/posts/27579142705024874",
+          "score": 0.1666079,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        }
+      ],
+      "sequence": 28,
+      "timestamp": "2026-08-24T01:48:35.333258+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "DS Automobiles DS Iris ChatGPT voice assistant launch 2024",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.344,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "AI voice assistant with integrated ChatGPT launches in Stellantis DS Automobiles in Japan | Automotive Interiors World",
+          "url": "https://www.automotiveinteriorsworld.com/news/hmi/ai-voice-assistant-with-integrated-chatgpt-launches-in-stellantis-ds-automobiles-in-japan.html",
+          "score": 0.8909888,
+          "raw_content_available": true,
+          "raw_content_length": 12919,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "DS officially integrates ChatGPT after trial: AI-driven voice assistant tested in the UK",
+          "url": "https://www.carmagazine.co.uk/car-news/tech/ds-chatgpt",
+          "score": 0.8810534,
+          "raw_content_available": true,
+          "raw_content_length": 10245,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Global First As SoundHound AI’s Voice Assistant With Integrated ChatGPT Goes Into Full Production with Stellantis DS Automobiles; In-Car Usage Sees Huge Growth   | SoundHound AI",
+          "url": "https://www.soundhound.com/newsroom/press-releases/global-first-as-soundhound-ais-voice-assistant-with-integrated-chatgpt-goes-into-full-production-with-stellantis-ds-automobiles-in-car-usage-sees-huge-growth",
+          "score": 0.8539252,
+          "raw_content_available": true,
+          "raw_content_length": 15449,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "DS AUTOMOBILES : THE FIRST CARMAKER TO INCLUDE CHATGPT AS STANDARD",
+          "url": "https://www.dsautomobiles.co.uk/ds-experience/discover/news/ds-automobiles-first-manufacturer-to-integrate-chatgpt.html",
+          "score": 0.6188962,
+          "raw_content_available": true,
+          "raw_content_length": 3677,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "DS Claims First to Offer ChatGPT as Standard Equipment | WardsAuto",
+          "url": "https://www.wardsauto.com/news/ds-claims-first-to-offer-chatgpt-as-standard-equipment/797979",
+          "score": 0.5660431,
+          "raw_content_available": true,
+          "raw_content_length": 11374,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 29,
+      "timestamp": "2026-08-24T01:48:36.012897+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Hyundai Kia Genesis generative AI voice assistant launch 2024 2025",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.394,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Kia’s generative AI voice assistant debuts on the EV3 in Europe | WardsAuto",
+          "url": "https://www.wardsauto.com/news/archive-auto-kia-debuts-ai-powered-assistant-ev3-europe/745563",
+          "score": 0.79099923,
+          "raw_content_available": true,
+          "raw_content_length": 13096,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Kia Introduces AI Voice Assistant to Enhance Connectivity ...",
+          "url": "https://worldwide.kia.com/en/newsroom/view?id=161613",
+          "score": 0.7570233,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "September 2025 Navigation Map and Software Update",
+          "url": "https://update.genesis.com/EU/EN/updateNoticeView/bCH0qx",
+          "score": 0.5689194,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "Kia AI Assistant Technology | Crain Kia of Fayetteville",
+          "url": "https://www.crainkiaoffayetteville.com/blogs/3112/ai-assistant",
+          "score": 0.5409972,
+          "raw_content_available": true,
+          "raw_content_length": 10868,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Bloomberg - Hyundai unveiled a next-generation...",
+          "url": "https://www.facebook.com/bloombergbusiness/posts/hyundai-unveiled-a-next-generation-infotainment-system-including-a-new-ai-voice-/1386266390026117",
+          "score": 0.4654124,
+          "raw_content_available": true,
+          "raw_content_length": 12349,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 30,
+      "timestamp": "2026-08-24T01:48:36.072132+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Stellantis SoundHound AI voice assistant launch production vehicle",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.445,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "SoundHound Chat AI Launches in Peugeot, Opel, and Vauxhall Vehicles Throughout Europe | SoundHound AI",
+          "url": "https://www.soundhound.com/newsroom/press-releases/soundhound-chat-ai-launches-in-peugeot-opel-and-vauxhall-vehicles-throughout-europe",
+          "score": 0.890761,
+          "raw_content_available": true,
+          "raw_content_length": 14127,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "SoundHound AI Rolls Out Voice Assistant with Generative AI to Stellantis Vehicles Across Europe | audioXpress",
+          "url": "https://audioxpress.com/news/soundhound-ai-rolls-out-voice-assistant-with-generative-ai-to-stellantis-vehicles-across-europe",
+          "score": 0.8703443,
+          "raw_content_available": true,
+          "raw_content_length": 8691,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "First For Japan As SoundHound AI’s Voice Assistant With Integrated ChatGPT Launches in Stellantis DS Automobiles  | SoundHound AI",
+          "url": "https://www.soundhound.com/newsroom/press-releases/first-for-japan-as-soundhound-ais-voice-assistant-with-integrated-chatgpt-launches-in-stellantis-ds-automobiles",
+          "score": 0.8568246,
+          "raw_content_available": true,
+          "raw_content_length": 15405,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "AI Solutions for the Automotive Industry | SoundHound AI",
+          "url": "https://www.soundhound.com/voice-ai-solutions/automotive",
+          "score": 0.6609831,
+          "raw_content_available": true,
+          "raw_content_length": 15995,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "CES 2025: SoundHound AI Debuts Its First Ever In-Vehicle Voice Assistant With On-The-Go Food...",
+          "url": "https://www.youtube.com/watch?v=eijoYq2qAFI",
+          "score": 0.5087155,
+          "raw_content_available": true,
+          "raw_content_length": 457,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 31,
+      "timestamp": "2026-08-24T01:48:36.136484+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "General Motors generative AI voice assistant production vehicle 2024 2025",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.845,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Gen AI in Automotive: Applications, Challenges, and Opportunities with ...",
+          "url": "https://arxiv.org/html/2511.00026v1",
+          "score": 0.5818027,
+          "raw_content_available": true,
+          "raw_content_length": 66240,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "In-Vehicle Assistant Market Size & Share, Forecasts Report 2035",
+          "url": "https://www.gminsights.com/industry-analysis/in-vehicle-assistant-market",
+          "score": 0.49875546,
+          "raw_content_available": true,
+          "raw_content_length": 43498,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "General Motors | Generative Design in Car Manufacturing | Autodesk",
+          "url": "https://www.autodesk.com/customer-stories/general-motors-generative-design",
+          "score": 0.39445806,
+          "raw_content_available": true,
+          "raw_content_length": 9261,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Automakers use AI assistants for personalized vehicles",
+          "url": "https://www.facebook.com/AutoNews/posts/general-motors-ford-motor-co-and-other-automakers-are-deploying-artificial-intel/1678087427510317",
+          "score": 0.38304168,
+          "raw_content_available": true,
+          "raw_content_length": 23142,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "GM announces eyes-off driving, conversational AI, and unified software platform",
+          "url": "https://news.gm.com/home.detail.html/Pages/news/us/en/2025/oct/1022-UM-GM-eyes-off-driving-conversational-AI-unified-software-platform.html",
+          "score": 0.37689888,
+          "raw_content_available": true,
+          "raw_content_length": 10896,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 32,
+      "timestamp": "2026-08-24T01:48:36.530557+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "BYD generative AI voice assistant LLM Xuanji launch 2024 2025",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.13,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "BYD - IMD business school for management and leadership courses",
+          "url": "https://www.imd.org/entity-profile/byd-ai-maturity-2025",
+          "score": 0.65861565,
+          "raw_content_available": true,
+          "raw_content_length": 1672,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "BYD Showcased the Intelligence Advancement at Dream Day 2024",
+          "url": "https://www.byd.com/us/news-list/BYD-Showcased-Intelligence-Advancement-Dream-Day-2024",
+          "score": 0.5826579,
+          "raw_content_available": true,
+          "raw_content_length": 9549,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "AUTO - Technological Innovations for a Better Life | BYD USA",
+          "url": "https://en.byd.com/news_category/auto",
+          "score": 0.5775198,
+          "raw_content_available": true,
+          "raw_content_length": 22132,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "China's BYD launches Xuanji smart car technology",
+          "url": "https://www.reuters.com/business/autos-transportation/chinas-byd-launches-intelligent-architecture-xuanji-2024-01-16",
+          "score": 0.462061,
+          "raw_content_available": true,
+          "raw_content_length": 22811,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Xuanji A3: BYD Launches China’s First 4nm Automotive Driving System-on-Chip | TechInsights",
+          "url": "https://www.techinsights.com/blog/xuanji-a3-byd-launches-chinas-first-4nm-automotive-driving-system-chip",
+          "score": 0.3704537,
+          "raw_content_available": true,
+          "raw_content_length": 16991,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 53,
+      "timestamp": "2026-08-24T01:48:55.041958+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "XPeng generative AI voice assistant launch 2024 2025",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.159,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "XPeng G9's Voice Assistant",
+          "url": "https://www.reddit.com/r/Xpeng/comments/xs6859/xpeng_g9s_voice_assistant",
+          "score": 0.7050753,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "XPENG launches industry's first AI-powered in-car OS, promoting AI-enabled smart driving experience",
+          "url": "https://www.xpeng.com/news/018f968985698f616d3f2c9e8f720154",
+          "score": 0.6617704,
+          "raw_content_available": true,
+          "raw_content_length": 17693,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "XPENG - Official Website | XPENG Motors – XPENG (SE)-XMARTOS",
+          "url": "https://www.xpeng.com/se/intelligent/xmartos",
+          "score": 0.5112048,
+          "raw_content_available": true,
+          "raw_content_length": 12905,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Xpeng brings more life-like AI voice to P7 via OTA",
+          "url": "https://cnevpost.com/2021/08/04/xpeng-brings-more-life-like-ai-voice-to-p7-via-ota",
+          "score": 0.31855983,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "Voice Assistance Language Support and Future Additions",
+          "url": "https://www.facebook.com/groups/341871730272007/posts/1431970741262095",
+          "score": 0.16067418,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        }
+      ],
+      "sequence": 54,
+      "timestamp": "2026-08-24T01:48:55.079446+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Tesla Grok AI voice assistant launch vehicle 2025",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.266,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "TeslaInsider - Tesla has begun rolling out hands-free Grok...",
+          "url": "https://www.facebook.com/teslainsiderfb/posts/tesla-has-begun-rolling-out-hands-free-grok-ai-to-its-vehicles-as-part-of-the-20/122137065710664960",
+          "score": 0.8724455,
+          "raw_content_available": true,
+          "raw_content_length": 65523,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Tesla Rolls Out Grok AI Assistant to Vehicles in Nine European Markets",
+          "url": "https://eletric-vehicles.com/tesla/tesla-rolls-out-grok-ai-assistant-to-vehicles-in-nine-european-markets",
+          "score": 0.8591094,
+          "raw_content_available": true,
+          "raw_content_length": 11578,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Tesla debuts hands-free Grok AI with update 2025.26: What you need to know",
+          "url": "https://www.teslarati.com/tesla-debuts-grok-ai-update-2025-26-what-you-need-to-know",
+          "score": 0.85157084,
+          "raw_content_available": true,
+          "raw_content_length": 41029,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Tesla's Grok AI Assistant: In-Car Features Leaked Ahead of Launch (ima – Tparts",
+          "url": "https://www.tparts.com/en-ca/blogs/tesla-knowledge-blogs/teslas-grok-ai-assistant-in-car-features-leaked-ahead-of-launch",
+          "score": 0.78650844,
+          "raw_content_available": true,
+          "raw_content_length": 3502,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Tesla adds Grok AI to vehicles but drivers face serious concerns",
+          "url": "https://www.usatoday.com/story/cars/news/2025/12/13/tesla-grok-ai-serious-concerns/87070442007",
+          "score": 0.7707586,
+          "raw_content_available": true,
+          "raw_content_length": 4763,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 55,
+      "timestamp": "2026-08-24T01:48:55.189260+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "NIO NOMI generative AI voice assistant LLM launch 2024",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.351,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Nio launches NOMI GPT: AI-Powered Voice Assistant",
+          "url": "https://www.youtube.com/watch?v=2ZsrRGeF3eU",
+          "score": 0.70702106,
+          "raw_content_available": true,
+          "raw_content_length": 1648,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Nio rolls out AI-powered voice assistant NOMI GPT - CnEVPost",
+          "url": "https://cnevpost.com/2024/04/12/nio-rolls-out-nomi-gpt",
+          "score": 0.5441965,
+          "raw_content_available": true,
+          "raw_content_length": 7788,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "NOMI with GPT function: NIO's standard AI vehicle assistant - eMove360°",
+          "url": "https://www.emove360.com/nomi-mit-gpt-funktion-nios-serienmaessiger-ki-fahrzeugassistent",
+          "score": 0.45784017,
+          "raw_content_available": true,
+          "raw_content_length": 9045,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "House of NIO #1 – Beyond Autopilot: When Artificial Intelligence Makes Your Smart Car Even Smarter - Blog | NIO",
+          "url": "https://www.nio.com/blog/house-of-nio-ep1",
+          "score": 0.43784812,
+          "raw_content_available": true,
+          "raw_content_length": 9847,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Hi, NOMI Speaks English - Blog | NIO",
+          "url": "https://www.nio.com/blog/hi-nomi-speaks-english",
+          "score": 0.33235425,
+          "raw_content_available": true,
+          "raw_content_length": 5000,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 56,
+      "timestamp": "2026-08-24T01:48:55.268475+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Ford generative AI voice assistant Lincoln SYNC launch 2025 2026",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.435,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Meet the AI Assistant That Knows Your Vehicle Better Than You Do",
+          "url": "https://www.fromtheroad.ford.com/us/en/articles/2026/ford-ai-assistant-feature-capabilities",
+          "score": 0.8232293,
+          "raw_content_available": true,
+          "raw_content_length": 9081,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Your App Just Got Smarter: Our Ford and Lincoln AI Assistant Is Open for Questions",
+          "url": "https://www.fromtheroad.ford.com/us/en/articles/2026/ford-lincoln-ai-assistant-open-for-questions",
+          "score": 0.8190992,
+          "raw_content_available": true,
+          "raw_content_length": 11925,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Ford rolling out its AI Assistant to 8M more eligible vehicles | WardsAuto",
+          "url": "https://www.wardsauto.com/news/ford-rolling-out-its-ai-assistant-to-8m-more-eligible-vehicles/827551",
+          "score": 0.55998856,
+          "raw_content_available": true,
+          "raw_content_length": 13751,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Lincoln Digital Experience Frequently Asked Questions",
+          "url": "https://www.lincoln.com/support/how-tos/lincoln-technology/lincoln-digital-experience/lincoln-digital-experience-frequently-asked-questions",
+          "score": 0.5215936,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "The Rundown - Ford is rolling out a new AI assistant for...",
+          "url": "https://www.facebook.com/rundownnewsletter/posts/ford-is-rolling-out-a-new-ai-assistant-for-ford-and-lincoln-owners-through-its-m/933191453135974",
+          "score": 0.47051823,
+          "raw_content_available": true,
+          "raw_content_length": 16967,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 57,
+      "timestamp": "2026-08-24T01:48:55.361444+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Volvo Google Gemini AI voice assistant launch 2025 2026",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 1.979,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Volvo cars now with Google Gemini | Volvo Cars Media US",
+          "url": "https://www.volvocars.com/us/media/press-releases/E84A67A6AEB4B35B",
+          "score": 0.78788257,
+          "raw_content_available": true,
+          "raw_content_length": 19286,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Volvo cars now with Google Gemini",
+          "url": "https://www.volvocars.com/intl/news/articles/volvo-cars-now-with-google-gemini",
+          "score": 0.69870013,
+          "raw_content_available": true,
+          "raw_content_length": 14247,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "What Google Gemini integration brings to the user experience in Volvo vehicles",
+          "url": "https://www.volvocarsmississauga.com/en/news/view/how-google-gemini-integration-in-volvo-vehicles-will-change-the-way-you-interact-with-your-car/143045",
+          "score": 0.6347929,
+          "raw_content_available": true,
+          "raw_content_length": 8020,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Volvo cars to feature Google's Gemini AI assistant - Facebook",
+          "url": "https://www.facebook.com/groups/2330550000438336/posts/3234288633397797",
+          "score": 0.55709904,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "Volvo Will Update Older Cars with AI Assistant",
+          "url": "https://www.kbb.com/car-news/volvo-will-update-older-cars-with-ai-assistant",
+          "score": 0.5437604,
+          "raw_content_available": true,
+          "raw_content_length": 22088,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 80,
+      "timestamp": "2026-08-24T01:49:11.830475+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Hyundai Pleos Connect Gleo AI voice assistant launch 2026",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.166,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Hyundai Motor Group Redefines In-Vehicle Experience with ‘Pleos Connect’ Next-Generation Infotainment System - Releases",
+          "url": "https://www.hyundainews.com/releases/4774",
+          "score": 0.7187726,
+          "raw_content_available": true,
+          "raw_content_length": 32843,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Hyundai Motor Group Redefines In-Vehicle Experience with 'Pleos Connect' Next-Generation Infotainment System",
+          "url": "https://www.prnewswire.com/news-releases/hyundai-motor-group-redefines-in-vehicle-experience-with-pleos-connect-next-generation-infotainment-system-302758596.html",
+          "score": 0.71113056,
+          "raw_content_available": true,
+          "raw_content_length": 11444,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Hyundai’s next-gen ‘Pleos Connect’ infotainment tech launching this month | WardsAuto",
+          "url": "https://www.wardsauto.com/news/hyundais-next-gen-pleos-connect-infotainment-tech-launching-this-month/819496",
+          "score": 0.64719695,
+          "raw_content_available": true,
+          "raw_content_length": 15009,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Hyundai Motor Unveils Tesla-Inspired New Infotainment System",
+          "url": "https://www.bloomberg.com/news/articles/2026-04-29/hyundai-motor-unveils-tesla-inspired-new-infotainment-system",
+          "score": 0.58948064,
+          "raw_content_available": true,
+          "raw_content_length": 17235,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Hyundai 42dot's Gleo AI: Next-Gen Voice Assistant",
+          "url": "https://thekoreancarblog.com/hyundais-42dot-unveils-gleo-ai-the-next-generation-in-vehicle-voice-assistant",
+          "score": 0.57437146,
+          "raw_content_available": true,
+          "raw_content_length": 8722,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 81,
+      "timestamp": "2026-08-24T01:49:12.014609+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Stellantis Mistral AI voice assistant production launch 2025",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.393,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Stellantis to launch AI-powered in-car assistant",
+          "url": "https://finance.yahoo.com/news/stellantis-launch-ai-powered-car-095100458.html",
+          "score": 0.8036831,
+          "raw_content_available": true,
+          "raw_content_length": 19077,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Stellantis to launch AI-powered in-car assistant",
+          "url": "https://www.wardsauto.com/news/archive-auto-stellantis-mistral-ai-launching-vehicle-voice-assistant-chatgpt-generative/739727",
+          "score": 0.7185356,
+          "raw_content_available": true,
+          "raw_content_length": 14454,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Stellantis and Mistral AI Strengthen Strategic Partnership to Enhance Customer Experience, Vehicle Development and Manufacturing  | Stellantis",
+          "url": "https://www.stellantis.com/en/news/press-releases/2025/february/stellantis-and-mistral-ai-strengthen-strategic-partnership-to-enhance-customer-experience-vehicle-development-and-manufacturing",
+          "score": 0.65279555,
+          "raw_content_available": true,
+          "raw_content_length": 7459,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Stellantis and Mistral AI Expand Their Collaboration to Accelerate Enterprise-Wide AI Adoption  | Stellantis",
+          "url": "https://www.stellantis.com/en/news/press-releases/2025/october/stellantis-and-mistral-ai-expand-their-collaboration-to-accelerate-enterprise-wide-ai-adoption",
+          "score": 0.6490677,
+          "raw_content_available": true,
+          "raw_content_length": 7480,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Stellantis - IMD business school for management and leadership courses",
+          "url": "https://www.imd.org/entity-profile/stellantis-ai-maturity-2025",
+          "score": 0.5855047,
+          "raw_content_available": true,
+          "raw_content_length": 1809,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 82,
+      "timestamp": "2026-08-24T01:49:12.238852+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Mercedes-Benz MBUX ChatGPT full production launch non-beta 2024",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.475,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Mercedes-Benz rolls out updated MBUX Voice Assistant to...",
+          "url": "https://www.technologyrecord.com/article/mercedes-benz-rolls-out-updated-mbux-voice-assistant-to-more-than-three-million-vehicles",
+          "score": 0.6353361,
+          "raw_content_available": true,
+          "raw_content_length": 6169,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "ChatGPT Capability Added to MBUX Infotainment",
+          "url": "https://www.mercedes-benz-kingston.ca/chatgpt-capability-added-to-mbux-infotainment.html",
+          "score": 0.58919704,
+          "raw_content_available": true,
+          "raw_content_length": 22277,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Mercedes-Benz takes in-car voice control to a new level with ChatGPT | Mercedes-Benz Group > Technology > Digitalisation > Connectivity",
+          "url": "https://group.mercedes-benz.com/technology/digitalisation/connectivity/car-voice-control-with-chatgpt.html",
+          "score": 0.53968745,
+          "raw_content_available": true,
+          "raw_content_length": 10974,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Mercedes-Benz Launches ChatGPT Beta Test 06/16/2023 - MediaPost",
+          "url": "https://www.mediapost.com/publications/article/386396/mercedes-benz-launches-chatgpt-beta-test.html?edition=",
+          "score": 0.43079433,
+          "raw_content_available": true,
+          "raw_content_length": 3801,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Enabled by MBUX Voice Assistant and AI-driven knowledge feature",
+          "url": "https://media.mbusa.com/releases/human-like-conversations-with-your-mercedes-benz-enabled-by-mbux-voice-assistant-and-ai-driven-knowledge-feature",
+          "score": 0.42019567,
+          "raw_content_available": true,
+          "raw_content_length": 12841,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 83,
+      "timestamp": "2026-08-24T01:49:12.309901+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "General Motors Google Gemini voice assistant launch 2025 production vehicles",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 3.134,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "GM is bringing Google Gemini-powered AI assistant to cars in 2026  | TechCrunch",
+          "url": "https://techcrunch.com/2025/10/22/gm-is-bringing-google-gemini-powered-ai-assistant-to-cars-in-2026",
+          "score": 0.7368747,
+          "raw_content_available": true,
+          "raw_content_length": 10686,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "GM rolling out Google's Gemini to 4M vehicles in the US",
+          "url": "https://www.wardsauto.com/news/gm-rolling-out-googles-gemini-to-4m-vehicles-in-the-us/819088",
+          "score": 0.68064564,
+          "raw_content_available": true,
+          "raw_content_length": 14198,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Automakers use AI assistants for personalized vehicles",
+          "url": "https://www.facebook.com/AutoNews/posts/general-motors-ford-motor-co-and-other-automakers-are-deploying-artificial-intel/1678087427510317",
+          "score": 0.66203266,
+          "raw_content_available": true,
+          "raw_content_length": 23142,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "GM announces eyes-off driving, conversational AI, and unified software platform",
+          "url": "https://news.gm.com/home.detail.html/Pages/news/us/en/2025/oct/1022-UM-GM-eyes-off-driving-conversational-AI-unified-software-platform.html",
+          "score": 0.609455,
+          "raw_content_available": true,
+          "raw_content_length": 10896,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "GM brings Google Gemini to millions of vehicles on the road",
+          "url": "https://news.gm.com/home.detail.html/Pages/news/us/en/2026/apr/0428-Google-Gemini.html",
+          "score": 0.58919704,
+          "raw_content_available": true,
+          "raw_content_length": 18322,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 84,
+      "timestamp": "2026-08-24T01:49:12.976042+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Mercedes-Benz ChatGPT MBUX standard production launch 2024 not beta",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.008,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Mercedes-Benz rolls out updated MBUX Voice Assistant to...",
+          "url": "https://www.technologyrecord.com/article/mercedes-benz-rolls-out-updated-mbux-voice-assistant-to-more-than-three-million-vehicles",
+          "score": 0.6108487,
+          "raw_content_available": true,
+          "raw_content_length": 6169,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Human-like conversations with your Mercedes-Benz: Enabled by MBUX Voice Assistant and AI-driven knowledge feature | Automotive World",
+          "url": "https://www.automotiveworld.com/news/human-like-conversations-with-your-mercedes-benz-enabled-by-mbux-voice-assistant-and-ai-driven-knowledge-feature",
+          "score": 0.5735118,
+          "raw_content_available": true,
+          "raw_content_length": 8498,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "ChatGPT Capability Added to MBUX Infotainment",
+          "url": "https://www.mercedes-benz-kingston.ca/chatgpt-capability-added-to-mbux-infotainment.html",
+          "score": 0.5321097,
+          "raw_content_available": true,
+          "raw_content_length": 22277,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Mercedes-Benz takes in-car voice control to a new level ...",
+          "url": "https://group.mercedes-benz.com/technology/digitalisation/connectivity/car-voice-control-with-chatgpt.html",
+          "score": 0.4598771,
+          "raw_content_available": true,
+          "raw_content_length": 10974,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Mercedes Benz 'CHATGPT Powered CAR' Takes Everyone ... - YouTube",
+          "url": "https://www.youtube.com/watch?v=7jkVNtro-6c",
+          "score": 0.4081122,
+          "raw_content_available": true,
+          "raw_content_length": 11311,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 110,
+      "timestamp": "2026-08-24T01:49:25.098110+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Volvo EX90 Google Gemini voice assistant launch",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.084,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Google Gemini is coming to your Volvo with Google built-in",
+          "url": "https://www.volvocars.com/en-th/news/technology/google-gemini-is-coming-to-your-volvo-with-google-built-in",
+          "score": 0.7742597,
+          "raw_content_available": true,
+          "raw_content_length": 9970,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Volvo cars now with Google Gemini",
+          "url": "https://www.volvocars.com/intl/news/articles/volvo-cars-now-with-google-gemini",
+          "score": 0.7402687,
+          "raw_content_available": true,
+          "raw_content_length": 14247,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Volvo cars now with Google Gemini",
+          "url": "https://www.volvocars.com/us/media/press-releases/E84A67A6AEB4B35B",
+          "score": 0.72977066,
+          "raw_content_available": true,
+          "raw_content_length": 19286,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Google Gemini Comes to Volvo Cars: 16 Models Get the Update, Back to 2020 - The Weekly Driver",
+          "url": "https://theweeklydriver.com/2026/04/volvo-google-gemini-2026-rollout",
+          "score": 0.7173491,
+          "raw_content_available": true,
+          "raw_content_length": 18616,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Volvo cars to feature Google's Gemini AI assistant - Facebook",
+          "url": "https://www.facebook.com/groups/2330550000438336/posts/3234288633397797",
+          "score": 0.58721006,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        }
+      ],
+      "sequence": 111,
+      "timestamp": "2026-08-24T01:49:25.200900+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Stellantis Mistral AI in-car assistant production launch 2025 vehicles",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.509,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Stellantis to launch AI-powered in-car assistant",
+          "url": "https://finance.yahoo.com/news/stellantis-launch-ai-powered-car-095100458.html",
+          "score": 0.86954874,
+          "raw_content_available": true,
+          "raw_content_length": 19077,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Stellantis Expands Mistral AI Partnership To Boost Vehicle Production - Design Engineering",
+          "url": "https://www.design-engineering.com/stellantis-expands-mistral-ai-partnership-to-boost-vehicles-production-1004044860",
+          "score": 0.8409005,
+          "raw_content_available": true,
+          "raw_content_length": 4871,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "PYMNTS | Stellantis and Mistral AI to Develop AI-Powered In-Car Assistant",
+          "url": "https://www.pymnts.com/partnerships/2025/stellantis-and-mistral-ai-to-develop-ai-powered-in-car-assistant",
+          "score": 0.8315952,
+          "raw_content_available": true,
+          "raw_content_length": 9249,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Stellantis to launch AI-powered in-car assistant",
+          "url": "https://www.wardsauto.com/news/archive-auto-stellantis-mistral-ai-launching-vehicle-voice-assistant-chatgpt-generative/739727",
+          "score": 0.8080827,
+          "raw_content_available": true,
+          "raw_content_length": 14454,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Stellantis and Mistral AI Strengthen Strategic Partnership to ...",
+          "url": "https://www.stellantis.com/en/news/press-releases/2025/february/stellantis-and-mistral-ai-strengthen-strategic-partnership-to-enhance-customer-experience-vehicle-development-and-manufacturing",
+          "score": 0.683948,
+          "raw_content_available": true,
+          "raw_content_length": 7459,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 112,
+      "timestamp": "2026-08-24T01:49:25.615602+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Hyundai Pleos Connect Gleo AI assistant launch 2026",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.553,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Hyundai Motor Group Redefines In-Vehicle Experience with 'Pleos ...",
+          "url": "https://www.prnewswire.com/news-releases/hyundai-motor-group-redefines-in-vehicle-experience-with-pleos-connect-next-generation-infotainment-system-302758596.html",
+          "score": 0.7272211,
+          "raw_content_available": true,
+          "raw_content_length": 11444,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Hyundai Motor Group Redefines In-Vehicle Experience with 'Pleos ...",
+          "url": "https://www.hyundainews.com/releases/4774",
+          "score": 0.72019166,
+          "raw_content_available": true,
+          "raw_content_length": 32843,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Hyundai's next-gen 'Pleos Connect' infotainment tech launching this ...",
+          "url": "https://www.wardsauto.com/news/hyundais-next-gen-pleos-connect-infotainment-tech-launching-this-month/819496",
+          "score": 0.7128128,
+          "raw_content_available": true,
+          "raw_content_length": 15009,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Hyundai's Next-Gen Infotainment Embraces AI, Keeps Real Buttons",
+          "url": "https://www.caranddriver.com/news/a71176625/hyundai-next-gen-infotainment-system-pleos-connect",
+          "score": 0.63152665,
+          "raw_content_available": true,
+          "raw_content_length": 11048,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Hyundai Motor Group introduces... - Hyundai Motor Group",
+          "url": "https://www.facebook.com/HyundaiMotorGroupNewsroom/posts/hyundai-motor-group-introduces-pleos-connect-a-next-generation-infotainment-syst/1002194622205480",
+          "score": 0.5097406,
+          "raw_content_available": true,
+          "raw_content_length": 18098,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 113,
+      "timestamp": "2026-08-24T01:49:25.664965+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "General Motors Google Gemini in-car assistant launch 2025",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.656,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "GM to launch proprietary in-vehicle AI system later this year",
+          "url": "https://www.cnbc.com/2026/07/31/gm-in-vehicle-ai-system.html",
+          "score": 0.7062922,
+          "raw_content_available": true,
+          "raw_content_length": 8063,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "GM rolling out Google's Gemini to 4M vehicles in the US",
+          "url": "https://www.wardsauto.com/news/gm-rolling-out-googles-gemini-to-4m-vehicles-in-the-us/819088",
+          "score": 0.62330866,
+          "raw_content_available": true,
+          "raw_content_length": 14198,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "GM announces eyes-off driving, conversational AI, and unified software platform",
+          "url": "https://news.gm.com/home.detail.html/Pages/news/us/en/2025/oct/1022-UM-GM-eyes-off-driving-conversational-AI-unified-software-platform.html",
+          "score": 0.61779,
+          "raw_content_available": true,
+          "raw_content_length": 10896,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "GM brings Google Gemini to millions of vehicles on the road",
+          "url": "https://news.gm.com/home.detail.html/Pages/news/us/en/2026/apr/0428-Google-Gemini.html",
+          "score": 0.6139086,
+          "raw_content_available": true,
+          "raw_content_length": 18322,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "About Google Gemini in Your Vehicle | Support",
+          "url": "https://www.chevrolet.com/support/vehicle/smartphone-connections/voice/about-google-gemini",
+          "score": 0.46832922,
+          "raw_content_available": true,
+          "raw_content_length": 45228,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 114,
+      "timestamp": "2026-08-24T01:49:25.754394+08:00"
+    }
+  ],
+  "summary_cache_hits": 20,
+  "summary_cache_hit_urls": [
+    "https://www.mercedes-benz-kingston.ca/chatgpt-capability-added-to-mbux-infotainment.html",
+    "https://www.mediapost.com/publications/article/386396/mercedes-benz-launches-chatgpt-beta-test.html?edition=",
+    "https://www.facebook.com/AutoNews/posts/general-motors-ford-motor-co-and-other-automakers-are-deploying-artificial-intel/1678087427510317",
+    "https://news.gm.com/home.detail.html/Pages/news/us/en/2025/oct/1022-UM-GM-eyes-off-driving-conversational-AI-unified-software-platform.html",
+    "https://www.wardsauto.com/news/archive-auto-stellantis-mistral-ai-launching-vehicle-voice-assistant-chatgpt-generative/739727",
+    "https://www.technologyrecord.com/article/mercedes-benz-rolls-out-updated-mbux-voice-assistant-to-more-than-three-million-vehicles",
+    "https://www.mercedes-benz-kingston.ca/chatgpt-capability-added-to-mbux-infotainment.html",
+    "https://group.mercedes-benz.com/technology/digitalisation/connectivity/car-voice-control-with-chatgpt.html",
+    "https://www.youtube.com/watch?v=7jkVNtro-6c",
+    "https://www.wardsauto.com/news/gm-rolling-out-googles-gemini-to-4m-vehicles-in-the-us/819088",
+    "https://news.gm.com/home.detail.html/Pages/news/us/en/2025/oct/1022-UM-GM-eyes-off-driving-conversational-AI-unified-software-platform.html",
+    "https://news.gm.com/home.detail.html/Pages/news/us/en/2026/apr/0428-Google-Gemini.html",
+    "https://finance.yahoo.com/news/stellantis-launch-ai-powered-car-095100458.html",
+    "https://www.wardsauto.com/news/archive-auto-stellantis-mistral-ai-launching-vehicle-voice-assistant-chatgpt-generative/739727",
+    "https://www.stellantis.com/en/news/press-releases/2025/february/stellantis-and-mistral-ai-strengthen-strategic-partnership-to-enhance-customer-experience-vehicle-development-and-manufacturing",
+    "https://www.prnewswire.com/news-releases/hyundai-motor-group-redefines-in-vehicle-experience-with-pleos-connect-next-generation-infotainment-system-302758596.html",
+    "https://www.hyundainews.com/releases/4774",
+    "https://www.wardsauto.com/news/hyundais-next-gen-pleos-connect-infotainment-tech-launching-this-month/819496",
+    "https://www.volvocars.com/intl/news/articles/volvo-cars-now-with-google-gemini",
+    "https://www.volvocars.com/us/media/press-releases/E84A67A6AEB4B35B"
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://www.volkswagen-group.com/en/articles/chatgpt-is-now-available-in-many-volkswagen-models-18464",
+      "status": "success",
+      "content_length": 7145,
+      "duration_seconds": 2.38,
+      "query": "Volkswagen IDA ChatGPT voice assistant 2024 launch"
+    },
+    {
+      "url": "https://www.volkswagen-newsroom.com/en/press-releases/world-premiere-at-ces-volkswagen-integrates-chatgpt-into-its-vehicles-18048",
+      "status": "success",
+      "content_length": 6877,
+      "duration_seconds": 2.38,
+      "query": "Volkswagen IDA ChatGPT voice assistant 2024 launch"
+    },
+    {
+      "url": "https://www.facebook.com/groups/666960357264469/posts/1368971770396654",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.38,
+      "query": "Volkswagen IDA ChatGPT voice assistant 2024 launch"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=mGZeGKQXOY4",
+      "status": "success",
+      "content_length": 13868,
+      "duration_seconds": 2.38,
+      "query": "Volkswagen IDA ChatGPT voice assistant 2024 launch"
+    },
+    {
+      "url": "https://media.vw.com/releases/1813",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.38,
+      "query": "Volkswagen IDA ChatGPT voice assistant 2024 launch"
+    },
+    {
+      "url": "https://www.mediapost.com/publications/article/386396/mercedes-benz-launches-chatgpt-beta-test.html?edition=",
+      "status": "success",
+      "content_length": 3801,
+      "duration_seconds": 2.475,
+      "query": "Mercedes MBUX ChatGPT voice assistant launch June 2023"
+    },
+    {
+      "url": "https://media.mbusa.com/releases/release-b35d2af89e06f556bbd8fe420412e9c2-mercedes-benz-takes-in-car-voice-control-to-a-new-level-with-chatgpt",
+      "status": "success",
+      "content_length": 13453,
+      "duration_seconds": 2.475,
+      "query": "Mercedes MBUX ChatGPT voice assistant launch June 2023"
+    },
+    {
+      "url": "https://www.mercedes-benz-kingston.ca/chatgpt-capability-added-to-mbux-infotainment.html",
+      "status": "success",
+      "content_length": 22277,
+      "duration_seconds": 2.475,
+      "query": "Mercedes MBUX ChatGPT voice assistant launch June 2023"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=7jkVNtro-6c",
+      "status": "success",
+      "content_length": 11311,
+      "duration_seconds": 2.475,
+      "query": "Mercedes MBUX ChatGPT voice assistant launch June 2023"
+    },
+    {
+      "url": "https://www.howtogeek.com/mercedes-c-class-three-ai-assistants",
+      "status": "success",
+      "content_length": 29899,
+      "duration_seconds": 2.475,
+      "query": "Mercedes MBUX ChatGPT voice assistant launch June 2023"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=5Y1ipTLA4t0",
+      "status": "success",
+      "content_length": 6088,
+      "duration_seconds": 2.559,
+      "query": "BMW generative AI voice assistant launch production vehicle"
+    },
+    {
+      "url": "https://aimagazine.com/news/bmw-unveils-generative-ai-assistant-for-ix3-electric-vehicle",
+      "status": "success",
+      "content_length": 6337,
+      "duration_seconds": 2.559,
+      "query": "BMW generative AI voice assistant launch production vehicle"
+    },
+    {
+      "url": "https://www.instagram.com/reel/DZ9hN65ilEa",
+      "status": "success",
+      "content_length": 13534,
+      "duration_seconds": 2.559,
+      "query": "BMW generative AI voice assistant launch production vehicle"
+    },
+    {
+      "url": "https://developer.amazon.com/en-US/blogs/alexa/alexa-auto/2024/12/bmw-group-is-the-first-oem-to-deliver-voice-technology-using-ale",
+      "status": "success",
+      "content_length": 7303,
+      "duration_seconds": 2.559,
+      "query": "BMW generative AI voice assistant launch production vehicle"
+    },
+    {
+      "url": "https://www.press.bmwgroup.com/global/article/detail/T0454477EN/a-milestone-for-human-vehicle-interaction-bmw-intelligent-personal-assistant-expanded-to-include-amazon-alexa-technology?language=en",
+      "status": "success",
+      "content_length": 6777,
+      "duration_seconds": 2.559,
+      "query": "BMW generative AI voice assistant launch production vehicle"
+    },
+    {
+      "url": "https://www.precedenceresearch.com/generative-ai-in-automotive-market",
+      "status": "success",
+      "content_length": 30724,
+      "duration_seconds": 2.78,
+      "query": "generative AI voice assistant production vehicle launch 2023 2024 2025 automaker"
+    },
+    {
+      "url": "https://mihup.ai/blog/in-car-voice-ai-in-2026-how-generative-ai-and-edge-computing-are-redefining-the-software-defined-vehicle",
+      "status": "success",
+      "content_length": 84736,
+      "duration_seconds": 2.78,
+      "query": "generative AI voice assistant production vehicle launch 2023 2024 2025 automaker"
+    },
+    {
+      "url": "https://www.wardsauto.com/news/archive-auto-stellantis-mistral-ai-launching-vehicle-voice-assistant-chatgpt-generative/739727",
+      "status": "success",
+      "content_length": 14454,
+      "duration_seconds": 2.78,
+      "query": "generative AI voice assistant production vehicle launch 2023 2024 2025 automaker"
+    },
+    {
+      "url": "https://spectrum.ieee.org/ai-enabled-vehicle-assistant/particle-1",
+      "status": "success",
+      "content_length": 27231,
+      "duration_seconds": 2.78,
+      "query": "generative AI voice assistant production vehicle launch 2023 2024 2025 automaker"
+    },
+    {
+      "url": "https://news.dealershipguy.com/p/automakers-rush-to-boost-in-vehicle-ai-while-buyers-worry-about-costs-privacy-2025-07-04",
+      "status": "success",
+      "content_length": 7245,
+      "duration_seconds": 2.78,
+      "query": "generative AI voice assistant production vehicle launch 2023 2024 2025 automaker"
+    },
+    {
+      "url": "https://www.facebook.com/PolestarCars/posts/google-gemini-brings-generative-ai-to-your-polestar-so-you-can-talk-naturally-pl/1236045138556222",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 1.637,
+      "query": "Polestar generative AI voice assistant Google built-in 2024"
+    },
+    {
+      "url": "https://www.carsdirect.com/automotive-news/polestar-evs-will-come-with-google-gemini",
+      "status": "success",
+      "content_length": 23574,
+      "duration_seconds": 1.637,
+      "query": "Polestar generative AI voice assistant Google built-in 2024"
+    },
+    {
+      "url": "https://media.polestar.com/releases/polestar-launches-google-gemini-to-transform-the-driver-experience?lang=en_US",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 1.637,
+      "query": "Polestar generative AI voice assistant Google built-in 2024"
+    },
+    {
+      "url": "https://www.polestar.com/us/polestar-4-models/polestar-4-coupe/technology",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 1.637,
+      "query": "Polestar generative AI voice assistant Google built-in 2024"
+    },
+    {
+      "url": "https://www.facebook.com/groups/2558379420861215/posts/27579142705024874",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 1.637,
+      "query": "Polestar generative AI voice assistant Google built-in 2024"
+    },
+    {
+      "url": "https://www.automotiveinteriorsworld.com/news/hmi/ai-voice-assistant-with-integrated-chatgpt-launches-in-stellantis-ds-automobiles-in-japan.html",
+      "status": "success",
+      "content_length": 12919,
+      "duration_seconds": 2.344,
+      "query": "DS Automobiles DS Iris ChatGPT voice assistant launch 2024"
+    },
+    {
+      "url": "https://www.carmagazine.co.uk/car-news/tech/ds-chatgpt",
+      "status": "success",
+      "content_length": 10245,
+      "duration_seconds": 2.344,
+      "query": "DS Automobiles DS Iris ChatGPT voice assistant launch 2024"
+    },
+    {
+      "url": "https://www.soundhound.com/newsroom/press-releases/global-first-as-soundhound-ais-voice-assistant-with-integrated-chatgpt-goes-into-full-production-with-stellantis-ds-automobiles-in-car-usage-sees-huge-growth",
+      "status": "success",
+      "content_length": 15449,
+      "duration_seconds": 2.344,
+      "query": "DS Automobiles DS Iris ChatGPT voice assistant launch 2024"
+    },
+    {
+      "url": "https://www.dsautomobiles.co.uk/ds-experience/discover/news/ds-automobiles-first-manufacturer-to-integrate-chatgpt.html",
+      "status": "success",
+      "content_length": 3677,
+      "duration_seconds": 2.344,
+      "query": "DS Automobiles DS Iris ChatGPT voice assistant launch 2024"
+    },
+    {
+      "url": "https://www.wardsauto.com/news/ds-claims-first-to-offer-chatgpt-as-standard-equipment/797979",
+      "status": "success",
+      "content_length": 11374,
+      "duration_seconds": 2.344,
+      "query": "DS Automobiles DS Iris ChatGPT voice assistant launch 2024"
+    },
+    {
+      "url": "https://www.wardsauto.com/news/archive-auto-kia-debuts-ai-powered-assistant-ev3-europe/745563",
+      "status": "success",
+      "content_length": 13096,
+      "duration_seconds": 2.394,
+      "query": "Hyundai Kia Genesis generative AI voice assistant launch 2024 2025"
+    },
+    {
+      "url": "https://worldwide.kia.com/en/newsroom/view?id=161613",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.394,
+      "query": "Hyundai Kia Genesis generative AI voice assistant launch 2024 2025"
+    },
+    {
+      "url": "https://update.genesis.com/EU/EN/updateNoticeView/bCH0qx",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.394,
+      "query": "Hyundai Kia Genesis generative AI voice assistant launch 2024 2025"
+    },
+    {
+      "url": "https://www.crainkiaoffayetteville.com/blogs/3112/ai-assistant",
+      "status": "success",
+      "content_length": 10868,
+      "duration_seconds": 2.394,
+      "query": "Hyundai Kia Genesis generative AI voice assistant launch 2024 2025"
+    },
+    {
+      "url": "https://www.facebook.com/bloombergbusiness/posts/hyundai-unveiled-a-next-generation-infotainment-system-including-a-new-ai-voice-/1386266390026117",
+      "status": "success",
+      "content_length": 12349,
+      "duration_seconds": 2.394,
+      "query": "Hyundai Kia Genesis generative AI voice assistant launch 2024 2025"
+    },
+    {
+      "url": "https://www.soundhound.com/newsroom/press-releases/soundhound-chat-ai-launches-in-peugeot-opel-and-vauxhall-vehicles-throughout-europe",
+      "status": "success",
+      "content_length": 14127,
+      "duration_seconds": 2.445,
+      "query": "Stellantis SoundHound AI voice assistant launch production vehicle"
+    },
+    {
+      "url": "https://audioxpress.com/news/soundhound-ai-rolls-out-voice-assistant-with-generative-ai-to-stellantis-vehicles-across-europe",
+      "status": "success",
+      "content_length": 8691,
+      "duration_seconds": 2.445,
+      "query": "Stellantis SoundHound AI voice assistant launch production vehicle"
+    },
+    {
+      "url": "https://www.soundhound.com/newsroom/press-releases/first-for-japan-as-soundhound-ais-voice-assistant-with-integrated-chatgpt-launches-in-stellantis-ds-automobiles",
+      "status": "success",
+      "content_length": 15405,
+      "duration_seconds": 2.445,
+      "query": "Stellantis SoundHound AI voice assistant launch production vehicle"
+    },
+    {
+      "url": "https://www.soundhound.com/voice-ai-solutions/automotive",
+      "status": "success",
+      "content_length": 15995,
+      "duration_seconds": 2.445,
+      "query": "Stellantis SoundHound AI voice assistant launch production vehicle"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=eijoYq2qAFI",
+      "status": "success",
+      "content_length": 457,
+      "duration_seconds": 2.445,
+      "query": "Stellantis SoundHound AI voice assistant launch production vehicle"
+    },
+    {
+      "url": "https://arxiv.org/html/2511.00026v1",
+      "status": "success",
+      "content_length": 66240,
+      "duration_seconds": 2.845,
+      "query": "General Motors generative AI voice assistant production vehicle 2024 2025"
+    },
+    {
+      "url": "https://www.gminsights.com/industry-analysis/in-vehicle-assistant-market",
+      "status": "success",
+      "content_length": 43498,
+      "duration_seconds": 2.845,
+      "query": "General Motors generative AI voice assistant production vehicle 2024 2025"
+    },
+    {
+      "url": "https://www.autodesk.com/customer-stories/general-motors-generative-design",
+      "status": "success",
+      "content_length": 9261,
+      "duration_seconds": 2.845,
+      "query": "General Motors generative AI voice assistant production vehicle 2024 2025"
+    },
+    {
+      "url": "https://www.facebook.com/AutoNews/posts/general-motors-ford-motor-co-and-other-automakers-are-deploying-artificial-intel/1678087427510317",
+      "status": "success",
+      "content_length": 23142,
+      "duration_seconds": 2.845,
+      "query": "General Motors generative AI voice assistant production vehicle 2024 2025"
+    },
+    {
+      "url": "https://news.gm.com/home.detail.html/Pages/news/us/en/2025/oct/1022-UM-GM-eyes-off-driving-conversational-AI-unified-software-platform.html",
+      "status": "success",
+      "content_length": 10896,
+      "duration_seconds": 2.845,
+      "query": "General Motors generative AI voice assistant production vehicle 2024 2025"
+    },
+    {
+      "url": "https://www.imd.org/entity-profile/byd-ai-maturity-2025",
+      "status": "success",
+      "content_length": 1672,
+      "duration_seconds": 2.13,
+      "query": "BYD generative AI voice assistant LLM Xuanji launch 2024 2025"
+    },
+    {
+      "url": "https://www.byd.com/us/news-list/BYD-Showcased-Intelligence-Advancement-Dream-Day-2024",
+      "status": "success",
+      "content_length": 9549,
+      "duration_seconds": 2.13,
+      "query": "BYD generative AI voice assistant LLM Xuanji launch 2024 2025"
+    },
+    {
+      "url": "https://en.byd.com/news_category/auto",
+      "status": "success",
+      "content_length": 22132,
+      "duration_seconds": 2.13,
+      "query": "BYD generative AI voice assistant LLM Xuanji launch 2024 2025"
+    },
+    {
+      "url": "https://www.reuters.com/business/autos-transportation/chinas-byd-launches-intelligent-architecture-xuanji-2024-01-16",
+      "status": "success",
+      "content_length": 22811,
+      "duration_seconds": 2.13,
+      "query": "BYD generative AI voice assistant LLM Xuanji launch 2024 2025"
+    },
+    {
+      "url": "https://www.techinsights.com/blog/xuanji-a3-byd-launches-chinas-first-4nm-automotive-driving-system-chip",
+      "status": "success",
+      "content_length": 16991,
+      "duration_seconds": 2.13,
+      "query": "BYD generative AI voice assistant LLM Xuanji launch 2024 2025"
+    },
+    {
+      "url": "https://www.reddit.com/r/Xpeng/comments/xs6859/xpeng_g9s_voice_assistant",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.159,
+      "query": "XPeng generative AI voice assistant launch 2024 2025"
+    },
+    {
+      "url": "https://www.xpeng.com/news/018f968985698f616d3f2c9e8f720154",
+      "status": "success",
+      "content_length": 17693,
+      "duration_seconds": 2.159,
+      "query": "XPeng generative AI voice assistant launch 2024 2025"
+    },
+    {
+      "url": "https://www.xpeng.com/se/intelligent/xmartos",
+      "status": "success",
+      "content_length": 12905,
+      "duration_seconds": 2.159,
+      "query": "XPeng generative AI voice assistant launch 2024 2025"
+    },
+    {
+      "url": "https://cnevpost.com/2021/08/04/xpeng-brings-more-life-like-ai-voice-to-p7-via-ota",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.159,
+      "query": "XPeng generative AI voice assistant launch 2024 2025"
+    },
+    {
+      "url": "https://www.facebook.com/groups/341871730272007/posts/1431970741262095",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.159,
+      "query": "XPeng generative AI voice assistant launch 2024 2025"
+    },
+    {
+      "url": "https://www.facebook.com/teslainsiderfb/posts/tesla-has-begun-rolling-out-hands-free-grok-ai-to-its-vehicles-as-part-of-the-20/122137065710664960",
+      "status": "success",
+      "content_length": 65523,
+      "duration_seconds": 2.266,
+      "query": "Tesla Grok AI voice assistant launch vehicle 2025"
+    },
+    {
+      "url": "https://eletric-vehicles.com/tesla/tesla-rolls-out-grok-ai-assistant-to-vehicles-in-nine-european-markets",
+      "status": "success",
+      "content_length": 11578,
+      "duration_seconds": 2.266,
+      "query": "Tesla Grok AI voice assistant launch vehicle 2025"
+    },
+    {
+      "url": "https://www.teslarati.com/tesla-debuts-grok-ai-update-2025-26-what-you-need-to-know",
+      "status": "success",
+      "content_length": 41029,
+      "duration_seconds": 2.266,
+      "query": "Tesla Grok AI voice assistant launch vehicle 2025"
+    },
+    {
+      "url": "https://www.tparts.com/en-ca/blogs/tesla-knowledge-blogs/teslas-grok-ai-assistant-in-car-features-leaked-ahead-of-launch",
+      "status": "success",
+      "content_length": 3502,
+      "duration_seconds": 2.266,
+      "query": "Tesla Grok AI voice assistant launch vehicle 2025"
+    },
+    {
+      "url": "https://www.usatoday.com/story/cars/news/2025/12/13/tesla-grok-ai-serious-concerns/87070442007",
+      "status": "success",
+      "content_length": 4763,
+      "duration_seconds": 2.266,
+      "query": "Tesla Grok AI voice assistant launch vehicle 2025"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=2ZsrRGeF3eU",
+      "status": "success",
+      "content_length": 1648,
+      "duration_seconds": 2.351,
+      "query": "NIO NOMI generative AI voice assistant LLM launch 2024"
+    },
+    {
+      "url": "https://cnevpost.com/2024/04/12/nio-rolls-out-nomi-gpt",
+      "status": "success",
+      "content_length": 7788,
+      "duration_seconds": 2.351,
+      "query": "NIO NOMI generative AI voice assistant LLM launch 2024"
+    },
+    {
+      "url": "https://www.emove360.com/nomi-mit-gpt-funktion-nios-serienmaessiger-ki-fahrzeugassistent",
+      "status": "success",
+      "content_length": 9045,
+      "duration_seconds": 2.351,
+      "query": "NIO NOMI generative AI voice assistant LLM launch 2024"
+    },
+    {
+      "url": "https://www.nio.com/blog/house-of-nio-ep1",
+      "status": "success",
+      "content_length": 9847,
+      "duration_seconds": 2.351,
+      "query": "NIO NOMI generative AI voice assistant LLM launch 2024"
+    },
+    {
+      "url": "https://www.nio.com/blog/hi-nomi-speaks-english",
+      "status": "success",
+      "content_length": 5000,
+      "duration_seconds": 2.351,
+      "query": "NIO NOMI generative AI voice assistant LLM launch 2024"
+    },
+    {
+      "url": "https://www.fromtheroad.ford.com/us/en/articles/2026/ford-ai-assistant-feature-capabilities",
+      "status": "success",
+      "content_length": 9081,
+      "duration_seconds": 2.435,
+      "query": "Ford generative AI voice assistant Lincoln SYNC launch 2025 2026"
+    },
+    {
+      "url": "https://www.fromtheroad.ford.com/us/en/articles/2026/ford-lincoln-ai-assistant-open-for-questions",
+      "status": "success",
+      "content_length": 11925,
+      "duration_seconds": 2.435,
+      "query": "Ford generative AI voice assistant Lincoln SYNC launch 2025 2026"
+    },
+    {
+      "url": "https://www.wardsauto.com/news/ford-rolling-out-its-ai-assistant-to-8m-more-eligible-vehicles/827551",
+      "status": "success",
+      "content_length": 13751,
+      "duration_seconds": 2.435,
+      "query": "Ford generative AI voice assistant Lincoln SYNC launch 2025 2026"
+    },
+    {
+      "url": "https://www.lincoln.com/support/how-tos/lincoln-technology/lincoln-digital-experience/lincoln-digital-experience-frequently-asked-questions",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.435,
+      "query": "Ford generative AI voice assistant Lincoln SYNC launch 2025 2026"
+    },
+    {
+      "url": "https://www.facebook.com/rundownnewsletter/posts/ford-is-rolling-out-a-new-ai-assistant-for-ford-and-lincoln-owners-through-its-m/933191453135974",
+      "status": "success",
+      "content_length": 16967,
+      "duration_seconds": 2.435,
+      "query": "Ford generative AI voice assistant Lincoln SYNC launch 2025 2026"
+    },
+    {
+      "url": "https://www.volvocars.com/us/media/press-releases/E84A67A6AEB4B35B",
+      "status": "success",
+      "content_length": 19286,
+      "duration_seconds": 1.979,
+      "query": "Volvo Google Gemini AI voice assistant launch 2025 2026"
+    },
+    {
+      "url": "https://www.volvocars.com/intl/news/articles/volvo-cars-now-with-google-gemini",
+      "status": "success",
+      "content_length": 14247,
+      "duration_seconds": 1.979,
+      "query": "Volvo Google Gemini AI voice assistant launch 2025 2026"
+    },
+    {
+      "url": "https://www.volvocarsmississauga.com/en/news/view/how-google-gemini-integration-in-volvo-vehicles-will-change-the-way-you-interact-with-your-car/143045",
+      "status": "success",
+      "content_length": 8020,
+      "duration_seconds": 1.979,
+      "query": "Volvo Google Gemini AI voice assistant launch 2025 2026"
+    },
+    {
+      "url": "https://www.facebook.com/groups/2330550000438336/posts/3234288633397797",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 1.979,
+      "query": "Volvo Google Gemini AI voice assistant launch 2025 2026"
+    },
+    {
+      "url": "https://www.kbb.com/car-news/volvo-will-update-older-cars-with-ai-assistant",
+      "status": "success",
+      "content_length": 22088,
+      "duration_seconds": 1.979,
+      "query": "Volvo Google Gemini AI voice assistant launch 2025 2026"
+    },
+    {
+      "url": "https://www.hyundainews.com/releases/4774",
+      "status": "success",
+      "content_length": 32843,
+      "duration_seconds": 2.166,
+      "query": "Hyundai Pleos Connect Gleo AI voice assistant launch 2026"
+    },
+    {
+      "url": "https://www.prnewswire.com/news-releases/hyundai-motor-group-redefines-in-vehicle-experience-with-pleos-connect-next-generation-infotainment-system-302758596.html",
+      "status": "success",
+      "content_length": 11444,
+      "duration_seconds": 2.166,
+      "query": "Hyundai Pleos Connect Gleo AI voice assistant launch 2026"
+    },
+    {
+      "url": "https://www.wardsauto.com/news/hyundais-next-gen-pleos-connect-infotainment-tech-launching-this-month/819496",
+      "status": "success",
+      "content_length": 15009,
+      "duration_seconds": 2.166,
+      "query": "Hyundai Pleos Connect Gleo AI voice assistant launch 2026"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-04-29/hyundai-motor-unveils-tesla-inspired-new-infotainment-system",
+      "status": "success",
+      "content_length": 17235,
+      "duration_seconds": 2.166,
+      "query": "Hyundai Pleos Connect Gleo AI voice assistant launch 2026"
+    },
+    {
+      "url": "https://thekoreancarblog.com/hyundais-42dot-unveils-gleo-ai-the-next-generation-in-vehicle-voice-assistant",
+      "status": "success",
+      "content_length": 8722,
+      "duration_seconds": 2.166,
+      "query": "Hyundai Pleos Connect Gleo AI voice assistant launch 2026"
+    },
+    {
+      "url": "https://finance.yahoo.com/news/stellantis-launch-ai-powered-car-095100458.html",
+      "status": "success",
+      "content_length": 19077,
+      "duration_seconds": 2.393,
+      "query": "Stellantis Mistral AI voice assistant production launch 2025"
+    },
+    {
+      "url": "https://www.wardsauto.com/news/archive-auto-stellantis-mistral-ai-launching-vehicle-voice-assistant-chatgpt-generative/739727",
+      "status": "success",
+      "content_length": 14454,
+      "duration_seconds": 2.393,
+      "query": "Stellantis Mistral AI voice assistant production launch 2025"
+    },
+    {
+      "url": "https://www.stellantis.com/en/news/press-releases/2025/february/stellantis-and-mistral-ai-strengthen-strategic-partnership-to-enhance-customer-experience-vehicle-development-and-manufacturing",
+      "status": "success",
+      "content_length": 7459,
+      "duration_seconds": 2.393,
+      "query": "Stellantis Mistral AI voice assistant production launch 2025"
+    },
+    {
+      "url": "https://www.stellantis.com/en/news/press-releases/2025/october/stellantis-and-mistral-ai-expand-their-collaboration-to-accelerate-enterprise-wide-ai-adoption",
+      "status": "success",
+      "content_length": 7480,
+      "duration_seconds": 2.393,
+      "query": "Stellantis Mistral AI voice assistant production launch 2025"
+    },
+    {
+      "url": "https://www.imd.org/entity-profile/stellantis-ai-maturity-2025",
+      "status": "success",
+      "content_length": 1809,
+      "duration_seconds": 2.393,
+      "query": "Stellantis Mistral AI voice assistant production launch 2025"
+    },
+    {
+      "url": "https://www.technologyrecord.com/article/mercedes-benz-rolls-out-updated-mbux-voice-assistant-to-more-than-three-million-vehicles",
+      "status": "success",
+      "content_length": 6169,
+      "duration_seconds": 2.475,
+      "query": "Mercedes-Benz MBUX ChatGPT full production launch non-beta 2024"
+    },
+    {
+      "url": "https://www.mercedes-benz-kingston.ca/chatgpt-capability-added-to-mbux-infotainment.html",
+      "status": "success",
+      "content_length": 22277,
+      "duration_seconds": 2.475,
+      "query": "Mercedes-Benz MBUX ChatGPT full production launch non-beta 2024"
+    },
+    {
+      "url": "https://group.mercedes-benz.com/technology/digitalisation/connectivity/car-voice-control-with-chatgpt.html",
+      "status": "success",
+      "content_length": 10974,
+      "duration_seconds": 2.475,
+      "query": "Mercedes-Benz MBUX ChatGPT full production launch non-beta 2024"
+    },
+    {
+      "url": "https://www.mediapost.com/publications/article/386396/mercedes-benz-launches-chatgpt-beta-test.html?edition=",
+      "status": "success",
+      "content_length": 3801,
+      "duration_seconds": 2.475,
+      "query": "Mercedes-Benz MBUX ChatGPT full production launch non-beta 2024"
+    },
+    {
+      "url": "https://media.mbusa.com/releases/human-like-conversations-with-your-mercedes-benz-enabled-by-mbux-voice-assistant-and-ai-driven-knowledge-feature",
+      "status": "success",
+      "content_length": 12841,
+      "duration_seconds": 2.475,
+      "query": "Mercedes-Benz MBUX ChatGPT full production launch non-beta 2024"
+    },
+    {
+      "url": "https://techcrunch.com/2025/10/22/gm-is-bringing-google-gemini-powered-ai-assistant-to-cars-in-2026",
+      "status": "success",
+      "content_length": 10686,
+      "duration_seconds": 3.134,
+      "query": "General Motors Google Gemini voice assistant launch 2025 production vehicles"
+    },
+    {
+      "url": "https://www.wardsauto.com/news/gm-rolling-out-googles-gemini-to-4m-vehicles-in-the-us/819088",
+      "status": "success",
+      "content_length": 14198,
+      "duration_seconds": 3.134,
+      "query": "General Motors Google Gemini voice assistant launch 2025 production vehicles"
+    },
+    {
+      "url": "https://www.facebook.com/AutoNews/posts/general-motors-ford-motor-co-and-other-automakers-are-deploying-artificial-intel/1678087427510317",
+      "status": "success",
+      "content_length": 23142,
+      "duration_seconds": 3.134,
+      "query": "General Motors Google Gemini voice assistant launch 2025 production vehicles"
+    },
+    {
+      "url": "https://news.gm.com/home.detail.html/Pages/news/us/en/2025/oct/1022-UM-GM-eyes-off-driving-conversational-AI-unified-software-platform.html",
+      "status": "success",
+      "content_length": 10896,
+      "duration_seconds": 3.134,
+      "query": "General Motors Google Gemini voice assistant launch 2025 production vehicles"
+    },
+    {
+      "url": "https://news.gm.com/home.detail.html/Pages/news/us/en/2026/apr/0428-Google-Gemini.html",
+      "status": "success",
+      "content_length": 18322,
+      "duration_seconds": 3.134,
+      "query": "General Motors Google Gemini voice assistant launch 2025 production vehicles"
+    },
+    {
+      "url": "https://www.technologyrecord.com/article/mercedes-benz-rolls-out-updated-mbux-voice-assistant-to-more-than-three-million-vehicles",
+      "status": "success",
+      "content_length": 6169,
+      "duration_seconds": 2.008,
+      "query": "Mercedes-Benz ChatGPT MBUX standard production launch 2024 not beta"
+    },
+    {
+      "url": "https://www.automotiveworld.com/news/human-like-conversations-with-your-mercedes-benz-enabled-by-mbux-voice-assistant-and-ai-driven-knowledge-feature",
+      "status": "success",
+      "content_length": 8498,
+      "duration_seconds": 2.008,
+      "query": "Mercedes-Benz ChatGPT MBUX standard production launch 2024 not beta"
+    },
+    {
+      "url": "https://www.mercedes-benz-kingston.ca/chatgpt-capability-added-to-mbux-infotainment.html",
+      "status": "success",
+      "content_length": 22277,
+      "duration_seconds": 2.008,
+      "query": "Mercedes-Benz ChatGPT MBUX standard production launch 2024 not beta"
+    },
+    {
+      "url": "https://group.mercedes-benz.com/technology/digitalisation/connectivity/car-voice-control-with-chatgpt.html",
+      "status": "success",
+      "content_length": 10974,
+      "duration_seconds": 2.008,
+      "query": "Mercedes-Benz ChatGPT MBUX standard production launch 2024 not beta"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=7jkVNtro-6c",
+      "status": "success",
+      "content_length": 11311,
+      "duration_seconds": 2.008,
+      "query": "Mercedes-Benz ChatGPT MBUX standard production launch 2024 not beta"
+    },
+    {
+      "url": "https://www.volvocars.com/en-th/news/technology/google-gemini-is-coming-to-your-volvo-with-google-built-in",
+      "status": "success",
+      "content_length": 9970,
+      "duration_seconds": 2.084,
+      "query": "Volvo EX90 Google Gemini voice assistant launch"
+    },
+    {
+      "url": "https://www.volvocars.com/intl/news/articles/volvo-cars-now-with-google-gemini",
+      "status": "success",
+      "content_length": 14247,
+      "duration_seconds": 2.084,
+      "query": "Volvo EX90 Google Gemini voice assistant launch"
+    },
+    {
+      "url": "https://www.volvocars.com/us/media/press-releases/E84A67A6AEB4B35B",
+      "status": "success",
+      "content_length": 19286,
+      "duration_seconds": 2.084,
+      "query": "Volvo EX90 Google Gemini voice assistant launch"
+    },
+    {
+      "url": "https://theweeklydriver.com/2026/04/volvo-google-gemini-2026-rollout",
+      "status": "success",
+      "content_length": 18616,
+      "duration_seconds": 2.084,
+      "query": "Volvo EX90 Google Gemini voice assistant launch"
+    },
+    {
+      "url": "https://www.facebook.com/groups/2330550000438336/posts/3234288633397797",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.084,
+      "query": "Volvo EX90 Google Gemini voice assistant launch"
+    },
+    {
+      "url": "https://finance.yahoo.com/news/stellantis-launch-ai-powered-car-095100458.html",
+      "status": "success",
+      "content_length": 19077,
+      "duration_seconds": 2.509,
+      "query": "Stellantis Mistral AI in-car assistant production launch 2025 vehicles"
+    },
+    {
+      "url": "https://www.design-engineering.com/stellantis-expands-mistral-ai-partnership-to-boost-vehicles-production-1004044860",
+      "status": "success",
+      "content_length": 4871,
+      "duration_seconds": 2.509,
+      "query": "Stellantis Mistral AI in-car assistant production launch 2025 vehicles"
+    },
+    {
+      "url": "https://www.pymnts.com/partnerships/2025/stellantis-and-mistral-ai-to-develop-ai-powered-in-car-assistant",
+      "status": "success",
+      "content_length": 9249,
+      "duration_seconds": 2.509,
+      "query": "Stellantis Mistral AI in-car assistant production launch 2025 vehicles"
+    },
+    {
+      "url": "https://www.wardsauto.com/news/archive-auto-stellantis-mistral-ai-launching-vehicle-voice-assistant-chatgpt-generative/739727",
+      "status": "success",
+      "content_length": 14454,
+      "duration_seconds": 2.509,
+      "query": "Stellantis Mistral AI in-car assistant production launch 2025 vehicles"
+    },
+    {
+      "url": "https://www.stellantis.com/en/news/press-releases/2025/february/stellantis-and-mistral-ai-strengthen-strategic-partnership-to-enhance-customer-experience-vehicle-development-and-manufacturing",
+      "status": "success",
+      "content_length": 7459,
+      "duration_seconds": 2.509,
+      "query": "Stellantis Mistral AI in-car assistant production launch 2025 vehicles"
+    },
+    {
+      "url": "https://www.prnewswire.com/news-releases/hyundai-motor-group-redefines-in-vehicle-experience-with-pleos-connect-next-generation-infotainment-system-302758596.html",
+      "status": "success",
+      "content_length": 11444,
+      "duration_seconds": 2.553,
+      "query": "Hyundai Pleos Connect Gleo AI assistant launch 2026"
+    },
+    {
+      "url": "https://www.hyundainews.com/releases/4774",
+      "status": "success",
+      "content_length": 32843,
+      "duration_seconds": 2.553,
+      "query": "Hyundai Pleos Connect Gleo AI assistant launch 2026"
+    },
+    {
+      "url": "https://www.wardsauto.com/news/hyundais-next-gen-pleos-connect-infotainment-tech-launching-this-month/819496",
+      "status": "success",
+      "content_length": 15009,
+      "duration_seconds": 2.553,
+      "query": "Hyundai Pleos Connect Gleo AI assistant launch 2026"
+    },
+    {
+      "url": "https://www.caranddriver.com/news/a71176625/hyundai-next-gen-infotainment-system-pleos-connect",
+      "status": "success",
+      "content_length": 11048,
+      "duration_seconds": 2.553,
+      "query": "Hyundai Pleos Connect Gleo AI assistant launch 2026"
+    },
+    {
+      "url": "https://www.facebook.com/HyundaiMotorGroupNewsroom/posts/hyundai-motor-group-introduces-pleos-connect-a-next-generation-infotainment-syst/1002194622205480",
+      "status": "success",
+      "content_length": 18098,
+      "duration_seconds": 2.553,
+      "query": "Hyundai Pleos Connect Gleo AI assistant launch 2026"
+    },
+    {
+      "url": "https://www.cnbc.com/2026/07/31/gm-in-vehicle-ai-system.html",
+      "status": "success",
+      "content_length": 8063,
+      "duration_seconds": 2.656,
+      "query": "General Motors Google Gemini in-car assistant launch 2025"
+    },
+    {
+      "url": "https://www.wardsauto.com/news/gm-rolling-out-googles-gemini-to-4m-vehicles-in-the-us/819088",
+      "status": "success",
+      "content_length": 14198,
+      "duration_seconds": 2.656,
+      "query": "General Motors Google Gemini in-car assistant launch 2025"
+    },
+    {
+      "url": "https://news.gm.com/home.detail.html/Pages/news/us/en/2025/oct/1022-UM-GM-eyes-off-driving-conversational-AI-unified-software-platform.html",
+      "status": "success",
+      "content_length": 10896,
+      "duration_seconds": 2.656,
+      "query": "General Motors Google Gemini in-car assistant launch 2025"
+    },
+    {
+      "url": "https://news.gm.com/home.detail.html/Pages/news/us/en/2026/apr/0428-Google-Gemini.html",
+      "status": "success",
+      "content_length": 18322,
+      "duration_seconds": 2.656,
+      "query": "General Motors Google Gemini in-car assistant launch 2025"
+    },
+    {
+      "url": "https://www.chevrolet.com/support/vehicle/smartphone-connections/voice/about-google-gemini",
+      "status": "success",
+      "content_length": 45228,
+      "duration_seconds": 2.656,
+      "query": "General Motors Google Gemini in-car assistant launch 2025"
+    }
+  ],
+  "run_id": "5b5cbfe4648f4b5da188d5830f0b98dc",
+  "status": "completed",
+  "qid": "infoco2F10Hm9IIrzZsKJR",
+  "query": "Which automakers launched a generative‑AI voice assistant in production vehicles (public rollout, not pilot) between 2023‑2026? Return automaker, assistant name, LLM partner, launch region, launch month, and links to the OEM press release and an automotive‑tech publication. Focus on only passenger vehicle automakers (e.g., no trucks, motorcycles, or commercial fleets).",
+  "duration_seconds": 409.715,
+  "report_length": 29398,
+  "context_length": 263605,
+  "token_counting": "Token counts come only from API-reported usage; missing usage is never estimated."
+}

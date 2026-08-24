@@ -1,0 +1,3490 @@
+{
+  "session_id": "d2d55508d2aa412bac226446b24a2fa8",
+  "total_llm_calls": 81,
+  "llm_calls_with_token_usage": 81,
+  "llm_calls_missing_token_usage": 0,
+  "token_usage_complete": true,
+  "total_input_tokens": 786852,
+  "total_output_tokens": 71550,
+  "total_tokens": 858402,
+  "counted_input_tokens": 786852,
+  "counted_output_tokens": 71550,
+  "counted_total_tokens": 858402,
+  "total_search_count": 17,
+  "total_search_results": 85,
+  "total_visit_count": 85,
+  "total_visit_success": 74,
+  "total_visit_failed": 11,
+  "source_urls_count": 80,
+  "llm_calls_detail": [
+    {
+      "sequence": 1,
+      "status": "completed",
+      "started_at": "2026-08-23T19:02:13.018845+08:00",
+      "completed_at": "2026-08-23T19:02:16.369561+08:00",
+      "duration_seconds": 3.351,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 778,
+      "output_tokens": 236,
+      "total_tokens": 1014,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 778,
+        "output_tokens": 236,
+        "total_tokens": 1014,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 2,
+      "status": "completed",
+      "started_at": "2026-08-23T19:02:16.374445+08:00",
+      "completed_at": "2026-08-23T19:02:22.878520+08:00",
+      "duration_seconds": 6.504,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1300,
+      "output_tokens": 556,
+      "total_tokens": 1856,
+      "message_count": 2,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1300,
+        "output_tokens": 556,
+        "total_tokens": 1856,
+        "input_token_details": {
+          "cache_read": 1024
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 3,
+      "status": "completed",
+      "started_at": "2026-08-23T19:02:22.889255+08:00",
+      "completed_at": "2026-08-23T19:02:28.081253+08:00",
+      "duration_seconds": 5.192,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1815,
+      "output_tokens": 425,
+      "total_tokens": 2240,
+      "message_count": 4,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1815,
+        "output_tokens": 425,
+        "total_tokens": 2240,
+        "input_token_details": {
+          "cache_read": 1280
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 4,
+      "status": "completed",
+      "started_at": "2026-08-23T19:02:28.086088+08:00",
+      "completed_at": "2026-08-23T19:02:30.627509+08:00",
+      "duration_seconds": 2.541,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1204,
+      "output_tokens": 133,
+      "total_tokens": 1337,
+      "message_count": 2,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1204,
+        "output_tokens": 133,
+        "total_tokens": 1337,
+        "input_token_details": {
+          "cache_read": 768
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 8,
+      "status": "completed",
+      "started_at": "2026-08-23T19:02:34.073867+08:00",
+      "completed_at": "2026-08-23T19:02:38.120927+08:00",
+      "duration_seconds": 4.047,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4748,
+      "output_tokens": 294,
+      "total_tokens": 5042,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4748,
+        "output_tokens": 294,
+        "total_tokens": 5042,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 9,
+      "status": "completed",
+      "started_at": "2026-08-23T19:02:34.073995+08:00",
+      "completed_at": "2026-08-23T19:02:42.837497+08:00",
+      "duration_seconds": 8.763,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4802,
+      "output_tokens": 861,
+      "total_tokens": 5663,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4802,
+        "output_tokens": 861,
+        "total_tokens": 5663,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 10,
+      "status": "completed",
+      "started_at": "2026-08-23T19:02:34.074052+08:00",
+      "completed_at": "2026-08-23T19:02:41.807983+08:00",
+      "duration_seconds": 7.734,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 14519,
+      "output_tokens": 738,
+      "total_tokens": 15257,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 14519,
+        "output_tokens": 738,
+        "total_tokens": 15257,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 11,
+      "status": "completed",
+      "started_at": "2026-08-23T19:02:34.074092+08:00",
+      "completed_at": "2026-08-23T19:02:42.882287+08:00",
+      "duration_seconds": 8.808,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 11916,
+      "output_tokens": 864,
+      "total_tokens": 12780,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 11916,
+        "output_tokens": 864,
+        "total_tokens": 12780,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 12,
+      "status": "completed",
+      "started_at": "2026-08-23T19:02:34.074324+08:00",
+      "completed_at": "2026-08-23T19:02:42.081331+08:00",
+      "duration_seconds": 8.007,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 15595,
+      "output_tokens": 758,
+      "total_tokens": 16353,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 15595,
+        "output_tokens": 758,
+        "total_tokens": 16353,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 13,
+      "status": "completed",
+      "started_at": "2026-08-23T19:02:34.074355+08:00",
+      "completed_at": "2026-08-23T19:02:42.664471+08:00",
+      "duration_seconds": 8.59,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4688,
+      "output_tokens": 689,
+      "total_tokens": 5377,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4688,
+        "output_tokens": 689,
+        "total_tokens": 5377,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 14,
+      "status": "completed",
+      "started_at": "2026-08-23T19:02:34.074378+08:00",
+      "completed_at": "2026-08-23T19:02:39.589867+08:00",
+      "duration_seconds": 5.515,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5031,
+      "output_tokens": 426,
+      "total_tokens": 5457,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5031,
+        "output_tokens": 426,
+        "total_tokens": 5457,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 15,
+      "status": "completed",
+      "started_at": "2026-08-23T19:02:34.074404+08:00",
+      "completed_at": "2026-08-23T19:02:43.327628+08:00",
+      "duration_seconds": 9.253,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 22725,
+      "output_tokens": 886,
+      "total_tokens": 23611,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 22725,
+        "output_tokens": 886,
+        "total_tokens": 23611,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 16,
+      "status": "completed",
+      "started_at": "2026-08-23T19:02:34.074502+08:00",
+      "completed_at": "2026-08-23T19:02:39.261480+08:00",
+      "duration_seconds": 5.187,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 16697,
+      "output_tokens": 388,
+      "total_tokens": 17085,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 16697,
+        "output_tokens": 388,
+        "total_tokens": 17085,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 17,
+      "status": "completed",
+      "started_at": "2026-08-23T19:02:34.074541+08:00",
+      "completed_at": "2026-08-23T19:02:40.353661+08:00",
+      "duration_seconds": 6.279,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 10888,
+      "output_tokens": 553,
+      "total_tokens": 11441,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 10888,
+        "output_tokens": 553,
+        "total_tokens": 11441,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 18,
+      "status": "completed",
+      "started_at": "2026-08-23T19:02:43.335184+08:00",
+      "completed_at": "2026-08-23T19:02:46.631165+08:00",
+      "duration_seconds": 3.296,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8008,
+      "output_tokens": 181,
+      "total_tokens": 8189,
+      "message_count": 4,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 8008,
+        "output_tokens": 181,
+        "total_tokens": 8189,
+        "input_token_details": {
+          "cache_read": 1024
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 19,
+      "status": "completed",
+      "started_at": "2026-08-23T19:02:46.639818+08:00",
+      "completed_at": "2026-08-23T19:02:49.197735+08:00",
+      "duration_seconds": 2.558,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8221,
+      "output_tokens": 167,
+      "total_tokens": 8388,
+      "message_count": 6,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 8221,
+        "output_tokens": 167,
+        "total_tokens": 8388,
+        "input_token_details": {
+          "cache_read": 7936
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 28,
+      "status": "completed",
+      "started_at": "2026-08-23T19:02:53.204432+08:00",
+      "completed_at": "2026-08-23T19:03:00.403294+08:00",
+      "duration_seconds": 7.199,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 19397,
+      "output_tokens": 554,
+      "total_tokens": 19951,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 19397,
+        "output_tokens": 554,
+        "total_tokens": 19951,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 29,
+      "status": "completed",
+      "started_at": "2026-08-23T19:02:53.204517+08:00",
+      "completed_at": "2026-08-23T19:02:57.533941+08:00",
+      "duration_seconds": 4.329,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2550,
+      "output_tokens": 316,
+      "total_tokens": 2866,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2550,
+        "output_tokens": 316,
+        "total_tokens": 2866,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 30,
+      "status": "completed",
+      "started_at": "2026-08-23T19:02:53.204545+08:00",
+      "completed_at": "2026-08-23T19:03:00.883431+08:00",
+      "duration_seconds": 7.679,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 11212,
+      "output_tokens": 698,
+      "total_tokens": 11910,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 11212,
+        "output_tokens": 698,
+        "total_tokens": 11910,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 31,
+      "status": "completed",
+      "started_at": "2026-08-23T19:02:53.204569+08:00",
+      "completed_at": "2026-08-23T19:02:56.765529+08:00",
+      "duration_seconds": 3.561,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8486,
+      "output_tokens": 208,
+      "total_tokens": 8694,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 8486,
+        "output_tokens": 208,
+        "total_tokens": 8694,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 32,
+      "status": "completed",
+      "started_at": "2026-08-23T19:02:53.204588+08:00",
+      "completed_at": "2026-08-23T19:02:57.578048+08:00",
+      "duration_seconds": 4.373,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8405,
+      "output_tokens": 241,
+      "total_tokens": 8646,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 8405,
+        "output_tokens": 241,
+        "total_tokens": 8646,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 33,
+      "status": "completed",
+      "started_at": "2026-08-23T19:02:53.204616+08:00",
+      "completed_at": "2026-08-23T19:02:58.952046+08:00",
+      "duration_seconds": 5.747,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5913,
+      "output_tokens": 500,
+      "total_tokens": 6413,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5913,
+        "output_tokens": 500,
+        "total_tokens": 6413,
+        "input_token_details": {
+          "cache_read": 512
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 34,
+      "status": "completed",
+      "started_at": "2026-08-23T19:02:53.204637+08:00",
+      "completed_at": "2026-08-23T19:02:56.912142+08:00",
+      "duration_seconds": 3.707,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3064,
+      "output_tokens": 240,
+      "total_tokens": 3304,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3064,
+        "output_tokens": 240,
+        "total_tokens": 3304,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 35,
+      "status": "completed",
+      "started_at": "2026-08-23T19:02:53.204655+08:00",
+      "completed_at": "2026-08-23T19:02:56.804756+08:00",
+      "duration_seconds": 3.6,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2156,
+      "output_tokens": 212,
+      "total_tokens": 2368,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2156,
+        "output_tokens": 212,
+        "total_tokens": 2368,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 36,
+      "status": "completed",
+      "started_at": "2026-08-23T19:02:53.204673+08:00",
+      "completed_at": "2026-08-23T19:02:58.207214+08:00",
+      "duration_seconds": 5.003,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4221,
+      "output_tokens": 402,
+      "total_tokens": 4623,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4221,
+        "output_tokens": 402,
+        "total_tokens": 4623,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 37,
+      "status": "completed",
+      "started_at": "2026-08-23T19:02:53.204691+08:00",
+      "completed_at": "2026-08-23T19:03:01.684719+08:00",
+      "duration_seconds": 8.48,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 9542,
+      "output_tokens": 781,
+      "total_tokens": 10323,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 9542,
+        "output_tokens": 781,
+        "total_tokens": 10323,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 38,
+      "status": "completed",
+      "started_at": "2026-08-23T19:02:53.204709+08:00",
+      "completed_at": "2026-08-23T19:03:02.086432+08:00",
+      "duration_seconds": 8.882,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5396,
+      "output_tokens": 737,
+      "total_tokens": 6133,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5396,
+        "output_tokens": 737,
+        "total_tokens": 6133,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 39,
+      "status": "completed",
+      "started_at": "2026-08-23T19:02:53.204726+08:00",
+      "completed_at": "2026-08-23T19:03:01.920042+08:00",
+      "duration_seconds": 8.715,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 20231,
+      "output_tokens": 750,
+      "total_tokens": 20981,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 20231,
+        "output_tokens": 750,
+        "total_tokens": 20981,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 40,
+      "status": "completed",
+      "started_at": "2026-08-23T19:02:53.204745+08:00",
+      "completed_at": "2026-08-23T19:02:58.750209+08:00",
+      "duration_seconds": 5.545,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8303,
+      "output_tokens": 415,
+      "total_tokens": 8718,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 8303,
+        "output_tokens": 415,
+        "total_tokens": 8718,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 41,
+      "status": "completed",
+      "started_at": "2026-08-23T19:02:53.204763+08:00",
+      "completed_at": "2026-08-23T19:02:59.081802+08:00",
+      "duration_seconds": 5.877,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6855,
+      "output_tokens": 493,
+      "total_tokens": 7348,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 6855,
+        "output_tokens": 493,
+        "total_tokens": 7348,
+        "input_token_details": {
+          "cache_read": 2048
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 42,
+      "status": "completed",
+      "started_at": "2026-08-23T19:02:53.204783+08:00",
+      "completed_at": "2026-08-23T19:03:02.504586+08:00",
+      "duration_seconds": 9.3,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 12122,
+      "output_tokens": 858,
+      "total_tokens": 12980,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 12122,
+        "output_tokens": 858,
+        "total_tokens": 12980,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 43,
+      "status": "completed",
+      "started_at": "2026-08-23T19:02:53.204801+08:00",
+      "completed_at": "2026-08-23T19:02:59.799466+08:00",
+      "duration_seconds": 6.595,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5440,
+      "output_tokens": 544,
+      "total_tokens": 5984,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5440,
+        "output_tokens": 544,
+        "total_tokens": 5984,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 44,
+      "status": "completed",
+      "started_at": "2026-08-23T19:02:53.204822+08:00",
+      "completed_at": "2026-08-23T19:02:58.870156+08:00",
+      "duration_seconds": 5.665,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 10497,
+      "output_tokens": 458,
+      "total_tokens": 10955,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 10497,
+        "output_tokens": 458,
+        "total_tokens": 10955,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 45,
+      "status": "completed",
+      "started_at": "2026-08-23T19:02:53.204841+08:00",
+      "completed_at": "2026-08-23T19:03:00.391386+08:00",
+      "duration_seconds": 7.187,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4419,
+      "output_tokens": 491,
+      "total_tokens": 4910,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4419,
+        "output_tokens": 491,
+        "total_tokens": 4910,
+        "input_token_details": {
+          "cache_read": 512
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 46,
+      "status": "completed",
+      "started_at": "2026-08-23T19:02:53.204858+08:00",
+      "completed_at": "2026-08-23T19:02:58.157716+08:00",
+      "duration_seconds": 4.953,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3059,
+      "output_tokens": 350,
+      "total_tokens": 3409,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3059,
+        "output_tokens": 350,
+        "total_tokens": 3409,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 47,
+      "status": "completed",
+      "started_at": "2026-08-23T19:02:53.204879+08:00",
+      "completed_at": "2026-08-23T19:03:01.755482+08:00",
+      "duration_seconds": 8.551,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8593,
+      "output_tokens": 791,
+      "total_tokens": 9384,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 8593,
+        "output_tokens": 791,
+        "total_tokens": 9384,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 48,
+      "status": "completed",
+      "started_at": "2026-08-23T19:02:53.204899+08:00",
+      "completed_at": "2026-08-23T19:03:00.721765+08:00",
+      "duration_seconds": 7.517,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 20391,
+      "output_tokens": 600,
+      "total_tokens": 20991,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 20391,
+        "output_tokens": 600,
+        "total_tokens": 20991,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 49,
+      "status": "completed",
+      "started_at": "2026-08-23T19:02:53.204918+08:00",
+      "completed_at": "2026-08-23T19:02:58.875515+08:00",
+      "duration_seconds": 5.671,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2312,
+      "output_tokens": 483,
+      "total_tokens": 2795,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2312,
+        "output_tokens": 483,
+        "total_tokens": 2795,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 50,
+      "status": "completed",
+      "started_at": "2026-08-23T19:02:53.204937+08:00",
+      "completed_at": "2026-08-23T19:02:58.459472+08:00",
+      "duration_seconds": 5.255,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2532,
+      "output_tokens": 475,
+      "total_tokens": 3007,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2532,
+        "output_tokens": 475,
+        "total_tokens": 3007,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 51,
+      "status": "completed",
+      "started_at": "2026-08-23T19:02:53.204954+08:00",
+      "completed_at": "2026-08-23T19:02:58.214441+08:00",
+      "duration_seconds": 5.009,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7426,
+      "output_tokens": 413,
+      "total_tokens": 7839,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 7426,
+        "output_tokens": 413,
+        "total_tokens": 7839,
+        "input_token_details": {
+          "cache_read": 512
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 52,
+      "status": "completed",
+      "started_at": "2026-08-23T19:02:53.204985+08:00",
+      "completed_at": "2026-08-23T19:03:00.317497+08:00",
+      "duration_seconds": 7.112,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 20240,
+      "output_tokens": 580,
+      "total_tokens": 20820,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 20240,
+        "output_tokens": 580,
+        "total_tokens": 20820,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 53,
+      "status": "completed",
+      "started_at": "2026-08-23T19:02:53.205007+08:00",
+      "completed_at": "2026-08-23T19:02:58.726369+08:00",
+      "duration_seconds": 5.521,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4167,
+      "output_tokens": 475,
+      "total_tokens": 4642,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4167,
+        "output_tokens": 475,
+        "total_tokens": 4642,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 54,
+      "status": "completed",
+      "started_at": "2026-08-23T19:02:53.205025+08:00",
+      "completed_at": "2026-08-23T19:02:58.554932+08:00",
+      "duration_seconds": 5.35,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3545,
+      "output_tokens": 398,
+      "total_tokens": 3943,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3545,
+        "output_tokens": 398,
+        "total_tokens": 3943,
+        "input_token_details": {
+          "cache_read": 1024
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 55,
+      "status": "completed",
+      "started_at": "2026-08-23T19:02:53.205041+08:00",
+      "completed_at": "2026-08-23T19:02:56.346880+08:00",
+      "duration_seconds": 3.142,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1869,
+      "output_tokens": 192,
+      "total_tokens": 2061,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1869,
+        "output_tokens": 192,
+        "total_tokens": 2061,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 56,
+      "status": "completed",
+      "started_at": "2026-08-23T19:02:53.205058+08:00",
+      "completed_at": "2026-08-23T19:03:01.845446+08:00",
+      "duration_seconds": 8.64,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 9302,
+      "output_tokens": 774,
+      "total_tokens": 10076,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 9302,
+        "output_tokens": 774,
+        "total_tokens": 10076,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 57,
+      "status": "completed",
+      "started_at": "2026-08-23T19:02:53.205079+08:00",
+      "completed_at": "2026-08-23T19:03:00.026345+08:00",
+      "duration_seconds": 6.821,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4656,
+      "output_tokens": 598,
+      "total_tokens": 5254,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4656,
+        "output_tokens": 598,
+        "total_tokens": 5254,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 58,
+      "status": "completed",
+      "started_at": "2026-08-23T19:02:53.205097+08:00",
+      "completed_at": "2026-08-23T19:03:00.835847+08:00",
+      "duration_seconds": 7.631,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 15024,
+      "output_tokens": 588,
+      "total_tokens": 15612,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 15024,
+        "output_tokens": 588,
+        "total_tokens": 15612,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 59,
+      "status": "completed",
+      "started_at": "2026-08-23T19:02:53.205114+08:00",
+      "completed_at": "2026-08-23T19:03:04.117781+08:00",
+      "duration_seconds": 10.913,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 16275,
+      "output_tokens": 995,
+      "total_tokens": 17270,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 16275,
+        "output_tokens": 995,
+        "total_tokens": 17270,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 60,
+      "status": "completed",
+      "started_at": "2026-08-23T19:02:53.205130+08:00",
+      "completed_at": "2026-08-23T19:02:59.667069+08:00",
+      "duration_seconds": 6.462,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3931,
+      "output_tokens": 470,
+      "total_tokens": 4401,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3931,
+        "output_tokens": 470,
+        "total_tokens": 4401,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 61,
+      "status": "completed",
+      "started_at": "2026-08-23T19:02:53.205148+08:00",
+      "completed_at": "2026-08-23T19:02:58.085574+08:00",
+      "duration_seconds": 4.88,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6831,
+      "output_tokens": 358,
+      "total_tokens": 7189,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 6831,
+        "output_tokens": 358,
+        "total_tokens": 7189,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 62,
+      "status": "completed",
+      "started_at": "2026-08-23T19:02:53.205167+08:00",
+      "completed_at": "2026-08-23T19:03:01.355881+08:00",
+      "duration_seconds": 8.151,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5801,
+      "output_tokens": 583,
+      "total_tokens": 6384,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5801,
+        "output_tokens": 583,
+        "total_tokens": 6384,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 63,
+      "status": "completed",
+      "started_at": "2026-08-23T19:02:53.205183+08:00",
+      "completed_at": "2026-08-23T19:02:59.313992+08:00",
+      "duration_seconds": 6.109,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7454,
+      "output_tokens": 554,
+      "total_tokens": 8008,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 7454,
+        "output_tokens": 554,
+        "total_tokens": 8008,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 64,
+      "status": "completed",
+      "started_at": "2026-08-23T19:02:53.205201+08:00",
+      "completed_at": "2026-08-23T19:02:59.063956+08:00",
+      "duration_seconds": 5.859,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5965,
+      "output_tokens": 463,
+      "total_tokens": 6428,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5965,
+        "output_tokens": 463,
+        "total_tokens": 6428,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 65,
+      "status": "completed",
+      "started_at": "2026-08-23T19:02:53.205218+08:00",
+      "completed_at": "2026-08-23T19:03:01.160220+08:00",
+      "duration_seconds": 7.955,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7736,
+      "output_tokens": 740,
+      "total_tokens": 8476,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 7736,
+        "output_tokens": 740,
+        "total_tokens": 8476,
+        "input_token_details": {
+          "cache_read": 1024
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 66,
+      "status": "completed",
+      "started_at": "2026-08-23T19:03:04.129835+08:00",
+      "completed_at": "2026-08-23T19:03:09.365829+08:00",
+      "duration_seconds": 5.236,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 29598,
+      "output_tokens": 319,
+      "total_tokens": 29917,
+      "message_count": 8,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 29598,
+        "output_tokens": 319,
+        "total_tokens": 29917,
+        "input_token_details": {
+          "cache_read": 8192
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 67,
+      "status": "completed",
+      "started_at": "2026-08-23T19:03:09.376876+08:00",
+      "completed_at": "2026-08-23T19:03:12.628501+08:00",
+      "duration_seconds": 3.252,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 30041,
+      "output_tokens": 147,
+      "total_tokens": 30188,
+      "message_count": 10,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 30041,
+        "output_tokens": 147,
+        "total_tokens": 30188,
+        "input_token_details": {
+          "cache_read": 29440
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 74,
+      "status": "completed",
+      "started_at": "2026-08-23T19:03:15.733699+08:00",
+      "completed_at": "2026-08-23T19:03:21.820283+08:00",
+      "duration_seconds": 6.087,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 20145,
+      "output_tokens": 444,
+      "total_tokens": 20589,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 20145,
+        "output_tokens": 444,
+        "total_tokens": 20589,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 75,
+      "status": "completed",
+      "started_at": "2026-08-23T19:03:15.733755+08:00",
+      "completed_at": "2026-08-23T19:03:22.336798+08:00",
+      "duration_seconds": 6.603,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 10685,
+      "output_tokens": 576,
+      "total_tokens": 11261,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 10685,
+        "output_tokens": 576,
+        "total_tokens": 11261,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 76,
+      "status": "completed",
+      "started_at": "2026-08-23T19:03:15.733784+08:00",
+      "completed_at": "2026-08-23T19:03:24.049256+08:00",
+      "duration_seconds": 8.315,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 17967,
+      "output_tokens": 780,
+      "total_tokens": 18747,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 17967,
+        "output_tokens": 780,
+        "total_tokens": 18747,
+        "input_token_details": {
+          "cache_read": 768
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 77,
+      "status": "completed",
+      "started_at": "2026-08-23T19:03:15.733804+08:00",
+      "completed_at": "2026-08-23T19:03:19.037876+08:00",
+      "duration_seconds": 3.304,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1387,
+      "output_tokens": 134,
+      "total_tokens": 1521,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1387,
+        "output_tokens": 134,
+        "total_tokens": 1521,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 78,
+      "status": "completed",
+      "started_at": "2026-08-23T19:03:15.733818+08:00",
+      "completed_at": "2026-08-23T19:03:22.956203+08:00",
+      "duration_seconds": 7.222,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7029,
+      "output_tokens": 645,
+      "total_tokens": 7674,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 7029,
+        "output_tokens": 645,
+        "total_tokens": 7674,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 79,
+      "status": "completed",
+      "started_at": "2026-08-23T19:03:15.733831+08:00",
+      "completed_at": "2026-08-23T19:03:23.052788+08:00",
+      "duration_seconds": 7.319,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 19775,
+      "output_tokens": 624,
+      "total_tokens": 20399,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 19775,
+        "output_tokens": 624,
+        "total_tokens": 20399,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 80,
+      "status": "completed",
+      "started_at": "2026-08-23T19:03:15.733843+08:00",
+      "completed_at": "2026-08-23T19:03:21.367727+08:00",
+      "duration_seconds": 5.634,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3897,
+      "output_tokens": 527,
+      "total_tokens": 4424,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3897,
+        "output_tokens": 527,
+        "total_tokens": 4424,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 81,
+      "status": "completed",
+      "started_at": "2026-08-23T19:03:15.733855+08:00",
+      "completed_at": "2026-08-23T19:03:24.973293+08:00",
+      "duration_seconds": 9.239,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 9712,
+      "output_tokens": 757,
+      "total_tokens": 10469,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 9712,
+        "output_tokens": 757,
+        "total_tokens": 10469,
+        "input_token_details": {
+          "cache_read": 512
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 82,
+      "status": "completed",
+      "started_at": "2026-08-23T19:03:15.734016+08:00",
+      "completed_at": "2026-08-23T19:03:22.253392+08:00",
+      "duration_seconds": 6.519,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 11348,
+      "output_tokens": 570,
+      "total_tokens": 11918,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 11348,
+        "output_tokens": 570,
+        "total_tokens": 11918,
+        "input_token_details": {
+          "cache_read": 768
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 83,
+      "status": "completed",
+      "started_at": "2026-08-23T19:03:15.734047+08:00",
+      "completed_at": "2026-08-23T19:03:22.684941+08:00",
+      "duration_seconds": 6.951,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4035,
+      "output_tokens": 498,
+      "total_tokens": 4533,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4035,
+        "output_tokens": 498,
+        "total_tokens": 4533,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 84,
+      "status": "completed",
+      "started_at": "2026-08-23T19:03:15.734063+08:00",
+      "completed_at": "2026-08-23T19:03:22.486517+08:00",
+      "duration_seconds": 6.752,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6640,
+      "output_tokens": 470,
+      "total_tokens": 7110,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 6640,
+        "output_tokens": 470,
+        "total_tokens": 7110,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 85,
+      "status": "completed",
+      "started_at": "2026-08-23T19:03:15.734076+08:00",
+      "completed_at": "2026-08-23T19:03:18.668701+08:00",
+      "duration_seconds": 2.935,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1769,
+      "output_tokens": 157,
+      "total_tokens": 1926,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1769,
+        "output_tokens": 157,
+        "total_tokens": 1926,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 86,
+      "status": "completed",
+      "started_at": "2026-08-23T19:03:15.734087+08:00",
+      "completed_at": "2026-08-23T19:03:25.325356+08:00",
+      "duration_seconds": 9.591,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8172,
+      "output_tokens": 560,
+      "total_tokens": 8732,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 8172,
+        "output_tokens": 560,
+        "total_tokens": 8732,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 87,
+      "status": "completed",
+      "started_at": "2026-08-23T19:03:15.734182+08:00",
+      "completed_at": "2026-08-23T19:03:23.494645+08:00",
+      "duration_seconds": 7.76,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 16015,
+      "output_tokens": 743,
+      "total_tokens": 16758,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 16015,
+        "output_tokens": 743,
+        "total_tokens": 16758,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 88,
+      "status": "completed",
+      "started_at": "2026-08-23T19:03:15.734198+08:00",
+      "completed_at": "2026-08-23T19:03:24.114055+08:00",
+      "duration_seconds": 8.38,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8635,
+      "output_tokens": 635,
+      "total_tokens": 9270,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 8635,
+        "output_tokens": 635,
+        "total_tokens": 9270,
+        "input_token_details": {
+          "cache_read": 2560
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 89,
+      "status": "completed",
+      "started_at": "2026-08-23T19:03:15.734210+08:00",
+      "completed_at": "2026-08-23T19:03:23.670947+08:00",
+      "duration_seconds": 7.937,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6514,
+      "output_tokens": 677,
+      "total_tokens": 7191,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 6514,
+        "output_tokens": 677,
+        "total_tokens": 7191,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 90,
+      "status": "completed",
+      "started_at": "2026-08-23T19:03:15.734221+08:00",
+      "completed_at": "2026-08-23T19:03:22.646715+08:00",
+      "duration_seconds": 6.912,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5415,
+      "output_tokens": 547,
+      "total_tokens": 5962,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5415,
+        "output_tokens": 547,
+        "total_tokens": 5962,
+        "input_token_details": {
+          "cache_read": 2560
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 91,
+      "status": "completed",
+      "started_at": "2026-08-23T19:03:15.734232+08:00",
+      "completed_at": "2026-08-23T19:03:22.253315+08:00",
+      "duration_seconds": 6.519,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5071,
+      "output_tokens": 582,
+      "total_tokens": 5653,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5071,
+        "output_tokens": 582,
+        "total_tokens": 5653,
+        "input_token_details": {
+          "cache_read": 768
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 92,
+      "status": "completed",
+      "started_at": "2026-08-23T19:03:15.734242+08:00",
+      "completed_at": "2026-08-23T19:03:23.368343+08:00",
+      "duration_seconds": 7.634,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7390,
+      "output_tokens": 714,
+      "total_tokens": 8104,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 7390,
+        "output_tokens": 714,
+        "total_tokens": 8104,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 93,
+      "status": "completed",
+      "started_at": "2026-08-23T19:03:15.734252+08:00",
+      "completed_at": "2026-08-23T19:03:24.964064+08:00",
+      "duration_seconds": 9.23,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7869,
+      "output_tokens": 785,
+      "total_tokens": 8654,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 7869,
+        "output_tokens": 785,
+        "total_tokens": 8654,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 94,
+      "status": "completed",
+      "started_at": "2026-08-23T19:03:15.734263+08:00",
+      "completed_at": "2026-08-23T19:03:23.040913+08:00",
+      "duration_seconds": 7.307,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7886,
+      "output_tokens": 704,
+      "total_tokens": 8590,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 7886,
+        "output_tokens": 704,
+        "total_tokens": 8590,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 95,
+      "status": "completed",
+      "started_at": "2026-08-23T19:03:25.330443+08:00",
+      "completed_at": "2026-08-23T19:05:41.663473+08:00",
+      "duration_seconds": 136.333,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 43537,
+      "output_tokens": 17776,
+      "total_tokens": 61313,
+      "message_count": 13,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 43537,
+        "output_tokens": 17776,
+        "total_tokens": 61313,
+        "input_token_details": {
+          "cache_read": 512
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "end_turn"
+    },
+    {
+      "sequence": 96,
+      "status": "completed",
+      "started_at": "2026-08-23T19:05:41.676723+08:00",
+      "completed_at": "2026-08-23T19:05:58.672364+08:00",
+      "duration_seconds": 16.996,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 19315,
+      "output_tokens": 1683,
+      "total_tokens": 20998,
+      "message_count": 6,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 19315,
+        "output_tokens": 1683,
+        "total_tokens": 20998,
+        "input_token_details": {
+          "cache_read": 1792
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 97,
+      "status": "completed",
+      "started_at": "2026-08-23T19:05:58.685323+08:00",
+      "completed_at": "2026-08-23T19:06:06.970161+08:00",
+      "duration_seconds": 8.285,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 19906,
+      "output_tokens": 709,
+      "total_tokens": 20615,
+      "message_count": 8,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 19906,
+        "output_tokens": 709,
+        "total_tokens": 20615,
+        "input_token_details": {
+          "cache_read": 19200
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 98,
+      "status": "completed",
+      "started_at": "2026-08-23T19:06:06.976895+08:00",
+      "completed_at": "2026-08-23T19:07:41.183714+08:00",
+      "duration_seconds": 94.207,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 18846,
+      "output_tokens": 10854,
+      "total_tokens": 29700,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 18846,
+        "output_tokens": 10854,
+        "total_tokens": 29700,
+        "input_token_details": {},
+        "output_token_details": {}
+      },
+      "finish_reason": "end_turn"
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "status": "completed",
+      "query": "best protein powder 2026 reviews ranking",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.995,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "10 Best Protein Powders, According to 3 Years of Testing (2026) | WIRED",
+          "url": "https://www.wired.com/gallery/best-protein-powders",
+          "score": 0.910998,
+          "raw_content_available": true,
+          "raw_content_length": 70123,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "6 Best Protein Powder 2026",
+          "url": "https://www.youtube.com/watch?v=N6_SsVCeSDs",
+          "score": 0.9055316,
+          "raw_content_available": true,
+          "raw_content_length": 16098,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Forbes Health Names OPTIMUM NUTRITION® Among “Best Protein Powders of",
+          "url": "https://www.optimumnutrition.com/en-us/blogs/advice-us/forbes-health-names-optimum-nutrition%C2%AE-among-best-protein-powders-of-2026",
+          "score": 0.9037116,
+          "raw_content_available": true,
+          "raw_content_length": 11505,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Best Protein Powders Of 2026: Lab Tested And Recommended By Nutrition Experts",
+          "url": "https://www.forbes.com/health/supplements/best-protein-powders",
+          "score": 0.89324445,
+          "raw_content_available": true,
+          "raw_content_length": 239511,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Best Protein Powder in 2026, According to Experts",
+          "url": "https://www.healthline.com/health/best-protein-powder",
+          "score": 0.87981987,
+          "raw_content_available": true,
+          "raw_content_length": 32674,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 5,
+      "timestamp": "2026-08-23T19:02:33.651254+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "top rated protein powder brands 2026",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 3.343,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "12 Best Protein Powder Brands in 2026",
+          "url": "https://www.ringly.io/discover/best-protein-powder-brands",
+          "score": 0.9501204,
+          "raw_content_available": true,
+          "raw_content_length": 15148,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Best Protein Powders of 2026, Compared | Paceline",
+          "url": "https://paceline.fit/blogs/nutrition/the-best-protein-powders-of-2026-compared",
+          "score": 0.94632465,
+          "raw_content_available": true,
+          "raw_content_length": 15977,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "6 Best Protein Powder 2026",
+          "url": "https://www.youtube.com/watch?v=N6_SsVCeSDs",
+          "score": 0.92604345,
+          "raw_content_available": true,
+          "raw_content_length": 16098,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "The 12 Best Protein Powders of 2026: RD Tested and Approved - Fortune",
+          "url": "https://fortune.com/article/best-protein-powders",
+          "score": 0.9205687,
+          "raw_content_available": true,
+          "raw_content_length": 77866,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Best Protein Powders 2026 - Forbes Vetted",
+          "url": "https://www.forbes.com/sites/forbes-personal-shopper/article/best-protein-powder",
+          "score": 0.9094659,
+          "raw_content_available": true,
+          "raw_content_length": 41366,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 6,
+      "timestamp": "2026-08-23T19:02:33.992905+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "best selling protein powders United States 2026",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 3.424,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Forbes Health Names OPTIMUM NUTRITION® Among “Best Protein Powders of",
+          "url": "https://www.optimumnutrition.com/en-us/blogs/advice-us/forbes-health-names-optimum-nutrition%C2%AE-among-best-protein-powders-of-2026",
+          "score": 0.9018604,
+          "raw_content_available": true,
+          "raw_content_length": 11505,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "6 Best Protein Powder 2026",
+          "url": "https://www.youtube.com/watch?v=N6_SsVCeSDs",
+          "score": 0.8775715,
+          "raw_content_available": true,
+          "raw_content_length": 16098,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "The 12 Best Protein Powders of 2026: RD Tested and Approved - Fortune",
+          "url": "https://fortune.com/article/best-protein-powders",
+          "score": 0.81770587,
+          "raw_content_available": true,
+          "raw_content_length": 77866,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Best Protein Powders 2026 - Forbes Vetted",
+          "url": "https://www.forbes.com/sites/forbes-personal-shopper/article/best-protein-powder",
+          "score": 0.79732054,
+          "raw_content_available": true,
+          "raw_content_length": 41366,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "The 11 Best Whey Protein Powders 2026, Tested by Us",
+          "url": "https://www.menshealth.com/nutrition/a19547347/best-whey-powder-review",
+          "score": 0.79022324,
+          "raw_content_available": true,
+          "raw_content_length": 58407,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 7,
+      "timestamp": "2026-08-23T19:02:34.059301+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Orgain organic protein powder price 2026",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.657,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Orgain Protein Powder in Orgain - Walmart.com",
+          "url": "https://www.walmart.com/browse/health-medicine/orgain-protein-powder/976760_1166769_9024843_9529518_6522291",
+          "score": 0.82186085,
+          "raw_content_available": true,
+          "raw_content_length": 19358,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Protein Powder | Organic Plant-Based Protein | Orgain",
+          "url": "https://orgain.com/collections/protein-powder",
+          "score": 0.75831425,
+          "raw_content_available": true,
+          "raw_content_length": 14838,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Orgain",
+          "url": "https://www.amazon.com/stores/Orgain/page/23B0D55F-4E42-4EB7-AAD7-235C4F96E4E3",
+          "score": 0.6796259,
+          "raw_content_available": true,
+          "raw_content_length": 53342,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Orgain | Organic Protein Powders, Protein Shakes & Protein Bars",
+          "url": "https://orgain.com",
+          "score": 0.63939893,
+          "raw_content_available": true,
+          "raw_content_length": 23854,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "30g Plant Based Protein Powder - Vanilla | Orgain",
+          "url": "https://orgain.com/products/30g-vanilla-plant-based-protein-powder",
+          "score": 0.638588,
+          "raw_content_available": true,
+          "raw_content_length": 19491,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 20,
+      "timestamp": "2026-08-23T19:02:51.874734+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Legion Athletics Whey+ price 2026",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 3.034,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Legion Whey Protein Review (2026) | Garage Gym Reviews",
+          "url": "https://www.garagegymreviews.com/legion-whey-protein-review",
+          "score": 0.90633047,
+          "raw_content_available": true,
+          "raw_content_length": 31799,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Legion Whey+ Protein Review (2026) | Fortune",
+          "url": "https://fortune.com/article/legion-whey-protein-review",
+          "score": 0.8877607,
+          "raw_content_available": true,
+          "raw_content_length": 13671,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Legion Whey+ | Grass-Fed Whey Protein Powder",
+          "url": "https://legionathletics.com/products/supplements/whey-protein-powder",
+          "score": 0.55998856,
+          "raw_content_available": true,
+          "raw_content_length": 58769,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Natural Science-Based Sports Supplements | Legion",
+          "url": "https://legionathletics.com",
+          "score": 0.5315261,
+          "raw_content_available": true,
+          "raw_content_length": 55945,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Whey+ | Legion Athletics | Same Day Shipping",
+          "url": "https://www.samedaysupplements.com/legion-whey-isolate-protein.html",
+          "score": 0.4295017,
+          "raw_content_available": true,
+          "raw_content_length": 10849,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 21,
+      "timestamp": "2026-08-23T19:02:52.269864+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Kaged Whey Protein Isolate price 2026",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 3.1,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Expert-Tested: Kaged Whey Protein Isolate Review(2026) | Garage Gym Reviews",
+          "url": "https://www.garagegymreviews.com/kaged-whey-protein-isolate-review",
+          "score": 0.96196854,
+          "raw_content_available": true,
+          "raw_content_length": 22908,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Kaged Whey Protein Isolate Review (2026) | Fortune",
+          "url": "https://fortune.com/article/kaged-whey-protein-isolate-review",
+          "score": 0.94475573,
+          "raw_content_available": true,
+          "raw_content_length": 18328,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Protein Isolate Elite | Whey, Casein & Milk Blend | Kaged",
+          "url": "https://www.kaged.com/products/protein-isolate-elite",
+          "score": 0.6690754,
+          "raw_content_available": true,
+          "raw_content_length": 21299,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Protein Supplements - Whey, Casein & Protein Blends | Kaged",
+          "url": "https://www.kaged.com/collections/protein-supplements",
+          "score": 0.6504012,
+          "raw_content_available": true,
+          "raw_content_length": 15490,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Whey Protein Isolate - Ultra-Filtered with Digestive Enzymes",
+          "url": "https://www.kaged.com/products/whey-protein-isolate",
+          "score": 0.6205532,
+          "raw_content_available": true,
+          "raw_content_length": 22572,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 22,
+      "timestamp": "2026-08-23T19:02:52.339219+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Isopure Zero Carb protein price 2026",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 3.162,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Isopure Zero Carb Whey Isolate Protein Powder, Unflavored 3 LB",
+          "url": "https://camelcamelcamel.com/product/B002TG3QPO",
+          "score": 0.91399205,
+          "raw_content_available": true,
+          "raw_content_length": 18195,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Amazon.com: Isopure Zero Carb Whey Isolate Protein Powder, Creamy Vanilla 3 LB | 25g Protein Per Serving, 100% Whey Protein Isolate, Gluten Free, with Added Vitamins for Immune Support & Muscle Recovery : Health & Household",
+          "url": "https://www.amazon.com/Isopure-Protein-Powder-Isolate-Flavor/dp/B000E95HP0",
+          "score": 0.7971311,
+          "raw_content_available": true,
+          "raw_content_length": 241957,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "All Products | Premium Protein Nutrition| Isopure",
+          "url": "https://www.theisopurecompany.com/collections/all",
+          "score": 0.63615024,
+          "raw_content_available": true,
+          "raw_content_length": 9424,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "ISOPURE® Flavored Protein | WHEY PROTEIN POWDER",
+          "url": "https://www.theisopurecompany.com/products/flavored-protein-powder",
+          "score": 0.6213807,
+          "raw_content_available": true,
+          "raw_content_length": 8676,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Isopure Zero Carb Protein Powder - 14.32oz: Unflavored, 25g Whey Protein Isolate Per Serving : Target",
+          "url": "https://www.target.com/p/isopure-zero-carb-protein-powder-1lb-unflavored-25g-whey-protein-isolate-per-serving/-/A-94909920",
+          "score": 0.40825373,
+          "raw_content_available": true,
+          "raw_content_length": 1984,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 23,
+      "timestamp": "2026-08-23T19:02:52.393592+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Vega protein powder price 2026",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 3.179,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Vega Protein Powder Review (2026) | Garage Gym Reviews",
+          "url": "https://www.garagegymreviews.com/vega-protein-powder-review",
+          "score": 0.92442214,
+          "raw_content_available": true,
+          "raw_content_length": 44793,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Vega Sport Premium Protein Powder is now 34% cheaper this Prime Day | Live Science",
+          "url": "https://www.livescience.com/vega-sport-premium-protein-powder-deal",
+          "score": 0.61057013,
+          "raw_content_available": true,
+          "raw_content_length": 14783,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Vega® Performance Protein + Recovery - Plant-Based Protein for Optimal Endurance – Vega US",
+          "url": "https://myvega.com/products/vega-protein-recovery-premium-protein",
+          "score": 0.595987,
+          "raw_content_available": true,
+          "raw_content_length": 26402,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Vega | Clean and Proven Performance Protein Powder – Vega US",
+          "url": "https://myvega.com",
+          "score": 0.58237284,
+          "raw_content_available": true,
+          "raw_content_length": 11505,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Protein Powders | Premium Lean Muscle, Recovery & Plant-Based Options – Vega US",
+          "url": "https://myvega.com/collections/protein-powders",
+          "score": 0.55709904,
+          "raw_content_available": true,
+          "raw_content_length": 6311,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 24,
+      "timestamp": "2026-08-23T19:02:52.401971+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Ghost Whey protein price 2026",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 3.355,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Ghost Whey Protein Review (2026) | Garage Gym Reviews",
+          "url": "https://www.garagegymreviews.com/ghost-whey-protein-review",
+          "score": 0.9405774,
+          "raw_content_available": true,
+          "raw_content_length": 30173,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Ghost Protein",
+          "url": "https://www.ebay.com/shop/ghost-protein?_nkw=ghost+protein",
+          "score": 0.8657814,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "Amazon.com: GHOST Whey Protein Powder, Cinnabon - 2LB, 25G of Protein | Whey Protein Isolate & Concentrate Blend - Post Workout Nutrition Shake, Smoothies - Soy & Gluten-Free - 2LB Tub, 27 Servings : Health & Household",
+          "url": "https://www.amazon.com/GHOST-WHEY-Protein-Powder-Post-Workout-Fitness/dp/B0BYBB4HF7",
+          "score": 0.6854659,
+          "raw_content_available": true,
+          "raw_content_length": 245436,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Ghost Whey 25g Protein Powder - Cinnabon - Shop Diet & fitness at H-E-B",
+          "url": "https://www.heb.com/product-detail/ghost-whey-25g-protein-powder-cinnabon/11451525",
+          "score": 0.64719695,
+          "raw_content_available": true,
+          "raw_content_length": 3675,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Ghost® Whey Flavors – GHOST",
+          "url": "https://www.ghostlifestyle.com/collections/ghost-whey-flavors",
+          "score": 0.63316137,
+          "raw_content_available": true,
+          "raw_content_length": 3668,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 25,
+      "timestamp": "2026-08-23T19:02:52.582755+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Optimum Nutrition Gold Standard 100% Whey price 5lb 2026 Amazon",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 3.4,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Optimum Nutrition Gold Standard 100% Whey Protein Powder, Double Rich Chocolate + Free Shipping - Amazon",
+          "url": "https://www.amazon.com/Optimum-Nutrition-Standard-Protein-Chocolate/dp/B000QSNYGI",
+          "score": 0.8687491,
+          "raw_content_available": true,
+          "raw_content_length": 260629,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Amazon.com: Optimum Nutrition Gold Standard Whey Protein Powder, Vanilla Ice Cream, 5LB | 24g 100% Whey Protein Per Serving, with BCAAs, Gluten Free, Banned Substance Tested, Easy Mixing, Muscle Support & Recovery : Everything Else",
+          "url": "https://www.amazon.com/OPTIMUM-NUTRITION-STANDARD-Protein-Vanilla/dp/B000GISU1M",
+          "score": 0.81875163,
+          "raw_content_available": true,
+          "raw_content_length": 4196,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "OPTIMUM NUTRITION",
+          "url": "https://www.amazon.com/stores/OPTIMUMNUTRITION/page/E7F66C6A-49C9-4712-9DA5-9485E3BB3BA3",
+          "score": 0.493043,
+          "raw_content_available": true,
+          "raw_content_length": 27434,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Watch Review - Optimum Nutrition Gold Standard Whey Protein Powder  on Amazon Live",
+          "url": "https://www.amazon.com/live/video/04d6349d943e49abb5e7e5fee9893f69",
+          "score": 0.42935818,
+          "raw_content_available": true,
+          "raw_content_length": 20547,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Watch Honest Review ON Gold Standard Whey Protein Powder on Amazon Live",
+          "url": "https://www.amazon.com/live/video/08dcb27418164e19b548674dc02f6826",
+          "score": 0.33672404,
+          "raw_content_available": true,
+          "raw_content_length": 20504,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 26,
+      "timestamp": "2026-08-23T19:02:52.603549+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Dymatize ISO100 price 5lb 2026",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 3.958,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Dymatize ISO100 Protein Powder, 100% Whey Isolate, Gourmet Vanilla",
+          "url": "https://camelcamelcamel.com/product/B00G6QHYZ6",
+          "score": 0.8440111,
+          "raw_content_available": true,
+          "raw_content_length": 14564,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Dymatize ISO100 5lbs Whey Protein Isolate",
+          "url": "https://www.target.com/s/dymatize+iso+100+5lbs",
+          "score": 0.7395922,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "Dymatize, ISO100 Hydrolyzed Whey Isolate Protein Powder, 5 lb - Walmart.com",
+          "url": "https://www.walmart.com/ip/Dymatize-ISO100-Hydrolyzed-Whey-Isolate-Protein-Powder-Gourmet-Chocolate-5-lb/35092797",
+          "score": 0.67243975,
+          "raw_content_available": true,
+          "raw_content_length": 4408,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Amazon.com: Dymatize ISO100 Protein Powder, 100% Whey Isolate, Gourmet Vanilla | 25g Protein, Hydrolyzed, Fast-Absorbing, Supports Muscle Health, 5.5g BCAAs, Gluten-Free, 76 Servings, 5 lb : Health & Household",
+          "url": "https://www.amazon.com/Dymatize-Protein-Isolate-Gourmet-Vanilla/dp/B00G6QHYZ6",
+          "score": 0.48528314,
+          "raw_content_available": true,
+          "raw_content_length": 3005,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "ISO100® Hydrolyzed Protein Powder | Dymatize",
+          "url": "https://dymatize.com/iso100",
+          "score": 0.23212774,
+          "raw_content_available": true,
+          "raw_content_length": 8950,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 27,
+      "timestamp": "2026-08-23T19:02:53.170354+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Ritual Essential Protein Daily Shake price 2026",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.276,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Ritual Protein Review (2026): Expert Approved | Fortune | Fortune",
+          "url": "https://fortune.com/article/ritual-protein-review",
+          "score": 0.959766,
+          "raw_content_available": true,
+          "raw_content_length": 15930,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Taste-Tested: Ritual Protein Powder Review (2026) | Garage Gym Reviews",
+          "url": "https://www.garagegymreviews.com/ritual-protein-powder-review",
+          "score": 0.9464435,
+          "raw_content_available": true,
+          "raw_content_length": 26358,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Shop Performance & Recovery Supplements",
+          "url": "https://ritual.com/collections/performance-recovery",
+          "score": 0.89997756,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "Essential Protein: Daily Shake for Pregnancy & Postpartum | Ritual",
+          "url": "https://ritual.com/products/essential-protein-pregnancy-postpartum",
+          "score": 0.80442166,
+          "raw_content_available": true,
+          "raw_content_length": 24269,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Plant-Based Protein Powder with 20g Protein | Ritual",
+          "url": "https://ritual.com/products/essential-protein-daily-shake-18",
+          "score": 0.58123237,
+          "raw_content_available": true,
+          "raw_content_length": 23984,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 68,
+      "timestamp": "2026-08-23T19:03:14.946869+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Ascent Native Fuel Whey Protein price 2026",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.314,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Ascent Native Fuel Whey Protein Powder Chocolate 4 lbs",
+          "url": "https://www.klarna.com/us/shopping/pl/cl566/3201120926/Vitamins-Supplements/Ascent-Native-Fuel-Whey-Protein-Powder-Chocolate-4-lbs",
+          "score": 0.6097339,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "Protein Powder | Ascent Protein",
+          "url": "https://www.ascentprotein.com/collections/protein-powder",
+          "score": 0.531672,
+          "raw_content_available": true,
+          "raw_content_length": 10207,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Ascent 100% Whey, Native Whey Protein Blend, Vanilla ...",
+          "url": "https://www.costco.com/p/-/ascent-100-whey-native-whey-protein-blend-vanilla-bean-425-lbs/4000177679",
+          "score": 0.3347639,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "Amazon.com: Ascent 100% Whey Protein Powder - Post Workout Whey Protein Isolate, Zero Artificial Flavors & Sweeteners, Gluten Free, 5.5g BCAA, 2.6g Leucine, Essential Amino Acids, Chocolate 2 lb : Health & Household",
+          "url": "https://www.amazon.com/Ascent-Native-Fuel-Protein-Powder/dp/B01N9V32X2",
+          "score": 0.3243108,
+          "raw_content_available": true,
+          "raw_content_length": 16671,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Ascent Native Fuel Whey Protein Powder - Chocolate - 16oz : Target",
+          "url": "https://www.target.com/p/ascent-native-fuel-whey-protein-powder-chocolate-16oz/-/A-78814348",
+          "score": 0.17934397,
+          "raw_content_available": true,
+          "raw_content_length": 1729,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 69,
+      "timestamp": "2026-08-23T19:03:14.973192+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Naked Nutrition Whey Protein price 2026",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.42,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Expert Tested: Naked Whey Protein Review (2026) | Garage Gym Reviews",
+          "url": "https://www.garagegymreviews.com/naked-whey-protein-review",
+          "score": 0.9511106,
+          "raw_content_available": true,
+          "raw_content_length": 27184,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "NAKED Nutrition: Whey Protein",
+          "url": "https://www.amazon.com/stores/NAKEDNutrition/page/C3B9538A-20EA-406C-8136-DBB78E99B2A2",
+          "score": 0.58919704,
+          "raw_content_available": true,
+          "raw_content_length": 39819,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Naked Nutrition - Nutrition With Nothing To Hide",
+          "url": "https://nakednutrition.com",
+          "score": 0.5573882,
+          "raw_content_available": true,
+          "raw_content_length": 22799,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Grass-Fed Whey Protein Powder 5lb - Naked Whey",
+          "url": "https://nakednutrition.com/products/grass-fed-whey-protein-powder",
+          "score": 0.37408215,
+          "raw_content_available": true,
+          "raw_content_length": 19308,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Whey Protein Powder | Concentrate & Isolate | Naked Nutrition",
+          "url": "https://nakednutrition.com/collections/whey-protein",
+          "score": 0.3474712,
+          "raw_content_available": true,
+          "raw_content_length": 12880,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 70,
+      "timestamp": "2026-08-23T19:03:15.084983+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Momentous Whey Protein Isolate price serving size 2026",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.645,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Momentous Essential Grass-Fed Whey Protein Review: Expert Tested (2026) | Garage Gym Reviews",
+          "url": "https://www.garagegymreviews.com/momentous-essential-grass-fed-whey-protein-review",
+          "score": 0.9119436,
+          "raw_content_available": true,
+          "raw_content_length": 24852,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Amazon.com: Momentous Grass-Fed Whey Protein Isolate Powder, 20g, Vanilla | Supports Lean Muscle & Recovery, ProHydrolase Enzymes, NSF Certified for Sport, Non-GMO & Gluten-Free (25 Servings) : Health & Household",
+          "url": "https://www.amazon.com/Momentous-Essential-Grass-Fed-Gluten-Free-Certified/dp/B09F1SWMFG",
+          "score": 0.80070794,
+          "raw_content_available": true,
+          "raw_content_length": 222260,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Whey Protein Powder: The Ultimate Guide for 2026 – Momentous",
+          "url": "https://www.livemomentous.com/blogs/product-education/whey-protein-powder-2025",
+          "score": 0.79293,
+          "raw_content_available": true,
+          "raw_content_length": 11552,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Grass Fed Whey Protein Isolate Powder - NSF Certified – Momentous",
+          "url": "https://www.livemomentous.com/products/essential-whey-protein",
+          "score": 0.58408195,
+          "raw_content_available": true,
+          "raw_content_length": 31290,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Whey Protein Isolate - Flavor Series – Momentous",
+          "url": "https://www.livemomentous.com/products/whey-protein-isolate-flavor-series",
+          "score": 0.568057,
+          "raw_content_available": true,
+          "raw_content_length": 37713,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 71,
+      "timestamp": "2026-08-23T19:03:15.291212+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Transparent Labs Grass-Fed Whey Protein Isolate price 2026",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.658,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Grass-Fed Whey Protein Isolate",
+          "url": "https://www.transparentlabs.com/products/proteinseries-100-grass-fed-whey-protein-isolate?variant=",
+          "score": 0.8900749,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "Amazon.com: Transparent Labs Grass-Fed Whey Protein - 30 Servings, Milk Chocolate | Naturally Flavored, Gluten Free Whey Protein Isolate Powder with 28g of Protein per Serving & 9 Amino Acids : Health & Household",
+          "url": "https://www.amazon.com/Transparent-Labs-Grass-Fed-Protein-Isolate/dp/B0CQ32D39X",
+          "score": 0.7244226,
+          "raw_content_available": true,
+          "raw_content_length": 223640,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Whey Protein Isolate | Grass Fed Protein Powder – Transparent Labs",
+          "url": "https://www.transparentlabs.com/products/whey-protein-isolate",
+          "score": 0.60358196,
+          "raw_content_available": true,
+          "raw_content_length": 31359,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Transparent Labs: Natural Sports Nutrition Supplements",
+          "url": "https://www.transparentlabs.com",
+          "score": 0.5996498,
+          "raw_content_available": true,
+          "raw_content_length": 84084,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Transparent Labs French Vanilla 100% Grass-Fed Whey Protein Isolate Same-Day Delivery or Pickup | Sprouts Farmers Market",
+          "url": "https://shop.sprouts.com/store/sprouts/products/50461780-french-vanilla-100-grass-fed-whey-protein-isolate-30-24-oz",
+          "score": 0.20591864,
+          "raw_content_available": true,
+          "raw_content_length": 722,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 72,
+      "timestamp": "2026-08-23T19:03:15.292265+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Garden of Life Sport Organic Plant-Based Protein price 2026",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 3.071,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "SPORT Protein",
+          "url": "https://www.gardenoflife.com/products/our-vitamins/sport-protein",
+          "score": 0.8943568,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "Garden of Life SPORT Organic Plant Based Protein to Help ...",
+          "url": "https://www.kingsoopers.com/p/garden-of-life-sport-organic-plant-based-protein-to-help-build-muscle-30g-protein-powder/0065801011943",
+          "score": 0.8886914,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "Our Protein",
+          "url": "https://www.gardenoflife.com/products/our-protein",
+          "score": 0.8058924,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "SPORT Organic Plant-Based Protein Powder - Vanilla",
+          "url": "https://www.gardenoflife.com/sport-organic-plant-based-protein-vanilla",
+          "score": 0.7938904,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "SPORT Organic Plant-Based Protein – Vanilla (30.16 oz. ...",
+          "url": "https://www.vitaminshoppe.com/p/sport-organic-plant-based-protein-vanilla-2-lb-powder/gu-1333",
+          "score": 0.7156829,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        }
+      ],
+      "sequence": 73,
+      "timestamp": "2026-08-23T19:03:15.724574+08:00"
+    }
+  ],
+  "summary_cache_hits": 0,
+  "summary_cache_hit_urls": [],
+  "visit_calls_detail": [
+    {
+      "url": "https://www.wired.com/gallery/best-protein-powders",
+      "status": "success",
+      "content_length": 70123,
+      "duration_seconds": 2.995,
+      "query": "best protein powder 2026 reviews ranking"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=N6_SsVCeSDs",
+      "status": "success",
+      "content_length": 16098,
+      "duration_seconds": 2.995,
+      "query": "best protein powder 2026 reviews ranking"
+    },
+    {
+      "url": "https://www.optimumnutrition.com/en-us/blogs/advice-us/forbes-health-names-optimum-nutrition%C2%AE-among-best-protein-powders-of-2026",
+      "status": "success",
+      "content_length": 11505,
+      "duration_seconds": 2.995,
+      "query": "best protein powder 2026 reviews ranking"
+    },
+    {
+      "url": "https://www.forbes.com/health/supplements/best-protein-powders",
+      "status": "success",
+      "content_length": 239511,
+      "duration_seconds": 2.995,
+      "query": "best protein powder 2026 reviews ranking"
+    },
+    {
+      "url": "https://www.healthline.com/health/best-protein-powder",
+      "status": "success",
+      "content_length": 32674,
+      "duration_seconds": 2.995,
+      "query": "best protein powder 2026 reviews ranking"
+    },
+    {
+      "url": "https://www.ringly.io/discover/best-protein-powder-brands",
+      "status": "success",
+      "content_length": 15148,
+      "duration_seconds": 3.343,
+      "query": "top rated protein powder brands 2026"
+    },
+    {
+      "url": "https://paceline.fit/blogs/nutrition/the-best-protein-powders-of-2026-compared",
+      "status": "success",
+      "content_length": 15977,
+      "duration_seconds": 3.343,
+      "query": "top rated protein powder brands 2026"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=N6_SsVCeSDs",
+      "status": "success",
+      "content_length": 16098,
+      "duration_seconds": 3.343,
+      "query": "top rated protein powder brands 2026"
+    },
+    {
+      "url": "https://fortune.com/article/best-protein-powders",
+      "status": "success",
+      "content_length": 77866,
+      "duration_seconds": 3.343,
+      "query": "top rated protein powder brands 2026"
+    },
+    {
+      "url": "https://www.forbes.com/sites/forbes-personal-shopper/article/best-protein-powder",
+      "status": "success",
+      "content_length": 41366,
+      "duration_seconds": 3.343,
+      "query": "top rated protein powder brands 2026"
+    },
+    {
+      "url": "https://www.optimumnutrition.com/en-us/blogs/advice-us/forbes-health-names-optimum-nutrition%C2%AE-among-best-protein-powders-of-2026",
+      "status": "success",
+      "content_length": 11505,
+      "duration_seconds": 3.424,
+      "query": "best selling protein powders United States 2026"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=N6_SsVCeSDs",
+      "status": "success",
+      "content_length": 16098,
+      "duration_seconds": 3.424,
+      "query": "best selling protein powders United States 2026"
+    },
+    {
+      "url": "https://fortune.com/article/best-protein-powders",
+      "status": "success",
+      "content_length": 77866,
+      "duration_seconds": 3.424,
+      "query": "best selling protein powders United States 2026"
+    },
+    {
+      "url": "https://www.forbes.com/sites/forbes-personal-shopper/article/best-protein-powder",
+      "status": "success",
+      "content_length": 41366,
+      "duration_seconds": 3.424,
+      "query": "best selling protein powders United States 2026"
+    },
+    {
+      "url": "https://www.menshealth.com/nutrition/a19547347/best-whey-powder-review",
+      "status": "success",
+      "content_length": 58407,
+      "duration_seconds": 3.424,
+      "query": "best selling protein powders United States 2026"
+    },
+    {
+      "url": "https://www.walmart.com/browse/health-medicine/orgain-protein-powder/976760_1166769_9024843_9529518_6522291",
+      "status": "success",
+      "content_length": 19358,
+      "duration_seconds": 2.657,
+      "query": "Orgain organic protein powder price 2026"
+    },
+    {
+      "url": "https://orgain.com/collections/protein-powder",
+      "status": "success",
+      "content_length": 14838,
+      "duration_seconds": 2.657,
+      "query": "Orgain organic protein powder price 2026"
+    },
+    {
+      "url": "https://www.amazon.com/stores/Orgain/page/23B0D55F-4E42-4EB7-AAD7-235C4F96E4E3",
+      "status": "success",
+      "content_length": 53342,
+      "duration_seconds": 2.657,
+      "query": "Orgain organic protein powder price 2026"
+    },
+    {
+      "url": "https://orgain.com",
+      "status": "success",
+      "content_length": 23854,
+      "duration_seconds": 2.657,
+      "query": "Orgain organic protein powder price 2026"
+    },
+    {
+      "url": "https://orgain.com/products/30g-vanilla-plant-based-protein-powder",
+      "status": "success",
+      "content_length": 19491,
+      "duration_seconds": 2.657,
+      "query": "Orgain organic protein powder price 2026"
+    },
+    {
+      "url": "https://www.garagegymreviews.com/legion-whey-protein-review",
+      "status": "success",
+      "content_length": 31799,
+      "duration_seconds": 3.034,
+      "query": "Legion Athletics Whey+ price 2026"
+    },
+    {
+      "url": "https://fortune.com/article/legion-whey-protein-review",
+      "status": "success",
+      "content_length": 13671,
+      "duration_seconds": 3.034,
+      "query": "Legion Athletics Whey+ price 2026"
+    },
+    {
+      "url": "https://legionathletics.com/products/supplements/whey-protein-powder",
+      "status": "success",
+      "content_length": 58769,
+      "duration_seconds": 3.034,
+      "query": "Legion Athletics Whey+ price 2026"
+    },
+    {
+      "url": "https://legionathletics.com",
+      "status": "success",
+      "content_length": 55945,
+      "duration_seconds": 3.034,
+      "query": "Legion Athletics Whey+ price 2026"
+    },
+    {
+      "url": "https://www.samedaysupplements.com/legion-whey-isolate-protein.html",
+      "status": "success",
+      "content_length": 10849,
+      "duration_seconds": 3.034,
+      "query": "Legion Athletics Whey+ price 2026"
+    },
+    {
+      "url": "https://www.garagegymreviews.com/kaged-whey-protein-isolate-review",
+      "status": "success",
+      "content_length": 22908,
+      "duration_seconds": 3.1,
+      "query": "Kaged Whey Protein Isolate price 2026"
+    },
+    {
+      "url": "https://fortune.com/article/kaged-whey-protein-isolate-review",
+      "status": "success",
+      "content_length": 18328,
+      "duration_seconds": 3.1,
+      "query": "Kaged Whey Protein Isolate price 2026"
+    },
+    {
+      "url": "https://www.kaged.com/products/protein-isolate-elite",
+      "status": "success",
+      "content_length": 21299,
+      "duration_seconds": 3.1,
+      "query": "Kaged Whey Protein Isolate price 2026"
+    },
+    {
+      "url": "https://www.kaged.com/collections/protein-supplements",
+      "status": "success",
+      "content_length": 15490,
+      "duration_seconds": 3.1,
+      "query": "Kaged Whey Protein Isolate price 2026"
+    },
+    {
+      "url": "https://www.kaged.com/products/whey-protein-isolate",
+      "status": "success",
+      "content_length": 22572,
+      "duration_seconds": 3.1,
+      "query": "Kaged Whey Protein Isolate price 2026"
+    },
+    {
+      "url": "https://camelcamelcamel.com/product/B002TG3QPO",
+      "status": "success",
+      "content_length": 18195,
+      "duration_seconds": 3.162,
+      "query": "Isopure Zero Carb protein price 2026"
+    },
+    {
+      "url": "https://www.amazon.com/Isopure-Protein-Powder-Isolate-Flavor/dp/B000E95HP0",
+      "status": "success",
+      "content_length": 241957,
+      "duration_seconds": 3.162,
+      "query": "Isopure Zero Carb protein price 2026"
+    },
+    {
+      "url": "https://www.theisopurecompany.com/collections/all",
+      "status": "success",
+      "content_length": 9424,
+      "duration_seconds": 3.162,
+      "query": "Isopure Zero Carb protein price 2026"
+    },
+    {
+      "url": "https://www.theisopurecompany.com/products/flavored-protein-powder",
+      "status": "success",
+      "content_length": 8676,
+      "duration_seconds": 3.162,
+      "query": "Isopure Zero Carb protein price 2026"
+    },
+    {
+      "url": "https://www.target.com/p/isopure-zero-carb-protein-powder-1lb-unflavored-25g-whey-protein-isolate-per-serving/-/A-94909920",
+      "status": "success",
+      "content_length": 1984,
+      "duration_seconds": 3.162,
+      "query": "Isopure Zero Carb protein price 2026"
+    },
+    {
+      "url": "https://www.garagegymreviews.com/vega-protein-powder-review",
+      "status": "success",
+      "content_length": 44793,
+      "duration_seconds": 3.179,
+      "query": "Vega protein powder price 2026"
+    },
+    {
+      "url": "https://www.livescience.com/vega-sport-premium-protein-powder-deal",
+      "status": "success",
+      "content_length": 14783,
+      "duration_seconds": 3.179,
+      "query": "Vega protein powder price 2026"
+    },
+    {
+      "url": "https://myvega.com/products/vega-protein-recovery-premium-protein",
+      "status": "success",
+      "content_length": 26402,
+      "duration_seconds": 3.179,
+      "query": "Vega protein powder price 2026"
+    },
+    {
+      "url": "https://myvega.com",
+      "status": "success",
+      "content_length": 11505,
+      "duration_seconds": 3.179,
+      "query": "Vega protein powder price 2026"
+    },
+    {
+      "url": "https://myvega.com/collections/protein-powders",
+      "status": "success",
+      "content_length": 6311,
+      "duration_seconds": 3.179,
+      "query": "Vega protein powder price 2026"
+    },
+    {
+      "url": "https://www.garagegymreviews.com/ghost-whey-protein-review",
+      "status": "success",
+      "content_length": 30173,
+      "duration_seconds": 3.355,
+      "query": "Ghost Whey protein price 2026"
+    },
+    {
+      "url": "https://www.ebay.com/shop/ghost-protein?_nkw=ghost+protein",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 3.355,
+      "query": "Ghost Whey protein price 2026"
+    },
+    {
+      "url": "https://www.amazon.com/GHOST-WHEY-Protein-Powder-Post-Workout-Fitness/dp/B0BYBB4HF7",
+      "status": "success",
+      "content_length": 245436,
+      "duration_seconds": 3.355,
+      "query": "Ghost Whey protein price 2026"
+    },
+    {
+      "url": "https://www.heb.com/product-detail/ghost-whey-25g-protein-powder-cinnabon/11451525",
+      "status": "success",
+      "content_length": 3675,
+      "duration_seconds": 3.355,
+      "query": "Ghost Whey protein price 2026"
+    },
+    {
+      "url": "https://www.ghostlifestyle.com/collections/ghost-whey-flavors",
+      "status": "success",
+      "content_length": 3668,
+      "duration_seconds": 3.355,
+      "query": "Ghost Whey protein price 2026"
+    },
+    {
+      "url": "https://www.amazon.com/Optimum-Nutrition-Standard-Protein-Chocolate/dp/B000QSNYGI",
+      "status": "success",
+      "content_length": 260629,
+      "duration_seconds": 3.4,
+      "query": "Optimum Nutrition Gold Standard 100% Whey price 5lb 2026 Amazon"
+    },
+    {
+      "url": "https://www.amazon.com/OPTIMUM-NUTRITION-STANDARD-Protein-Vanilla/dp/B000GISU1M",
+      "status": "success",
+      "content_length": 4196,
+      "duration_seconds": 3.4,
+      "query": "Optimum Nutrition Gold Standard 100% Whey price 5lb 2026 Amazon"
+    },
+    {
+      "url": "https://www.amazon.com/stores/OPTIMUMNUTRITION/page/E7F66C6A-49C9-4712-9DA5-9485E3BB3BA3",
+      "status": "success",
+      "content_length": 27434,
+      "duration_seconds": 3.4,
+      "query": "Optimum Nutrition Gold Standard 100% Whey price 5lb 2026 Amazon"
+    },
+    {
+      "url": "https://www.amazon.com/live/video/04d6349d943e49abb5e7e5fee9893f69",
+      "status": "success",
+      "content_length": 20547,
+      "duration_seconds": 3.4,
+      "query": "Optimum Nutrition Gold Standard 100% Whey price 5lb 2026 Amazon"
+    },
+    {
+      "url": "https://www.amazon.com/live/video/08dcb27418164e19b548674dc02f6826",
+      "status": "success",
+      "content_length": 20504,
+      "duration_seconds": 3.4,
+      "query": "Optimum Nutrition Gold Standard 100% Whey price 5lb 2026 Amazon"
+    },
+    {
+      "url": "https://camelcamelcamel.com/product/B00G6QHYZ6",
+      "status": "success",
+      "content_length": 14564,
+      "duration_seconds": 3.958,
+      "query": "Dymatize ISO100 price 5lb 2026"
+    },
+    {
+      "url": "https://www.target.com/s/dymatize+iso+100+5lbs",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 3.958,
+      "query": "Dymatize ISO100 price 5lb 2026"
+    },
+    {
+      "url": "https://www.walmart.com/ip/Dymatize-ISO100-Hydrolyzed-Whey-Isolate-Protein-Powder-Gourmet-Chocolate-5-lb/35092797",
+      "status": "success",
+      "content_length": 4408,
+      "duration_seconds": 3.958,
+      "query": "Dymatize ISO100 price 5lb 2026"
+    },
+    {
+      "url": "https://www.amazon.com/Dymatize-Protein-Isolate-Gourmet-Vanilla/dp/B00G6QHYZ6",
+      "status": "success",
+      "content_length": 3005,
+      "duration_seconds": 3.958,
+      "query": "Dymatize ISO100 price 5lb 2026"
+    },
+    {
+      "url": "https://dymatize.com/iso100",
+      "status": "success",
+      "content_length": 8950,
+      "duration_seconds": 3.958,
+      "query": "Dymatize ISO100 price 5lb 2026"
+    },
+    {
+      "url": "https://fortune.com/article/ritual-protein-review",
+      "status": "success",
+      "content_length": 15930,
+      "duration_seconds": 2.276,
+      "query": "Ritual Essential Protein Daily Shake price 2026"
+    },
+    {
+      "url": "https://www.garagegymreviews.com/ritual-protein-powder-review",
+      "status": "success",
+      "content_length": 26358,
+      "duration_seconds": 2.276,
+      "query": "Ritual Essential Protein Daily Shake price 2026"
+    },
+    {
+      "url": "https://ritual.com/collections/performance-recovery",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.276,
+      "query": "Ritual Essential Protein Daily Shake price 2026"
+    },
+    {
+      "url": "https://ritual.com/products/essential-protein-pregnancy-postpartum",
+      "status": "success",
+      "content_length": 24269,
+      "duration_seconds": 2.276,
+      "query": "Ritual Essential Protein Daily Shake price 2026"
+    },
+    {
+      "url": "https://ritual.com/products/essential-protein-daily-shake-18",
+      "status": "success",
+      "content_length": 23984,
+      "duration_seconds": 2.276,
+      "query": "Ritual Essential Protein Daily Shake price 2026"
+    },
+    {
+      "url": "https://www.klarna.com/us/shopping/pl/cl566/3201120926/Vitamins-Supplements/Ascent-Native-Fuel-Whey-Protein-Powder-Chocolate-4-lbs",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.314,
+      "query": "Ascent Native Fuel Whey Protein price 2026"
+    },
+    {
+      "url": "https://www.ascentprotein.com/collections/protein-powder",
+      "status": "success",
+      "content_length": 10207,
+      "duration_seconds": 2.314,
+      "query": "Ascent Native Fuel Whey Protein price 2026"
+    },
+    {
+      "url": "https://www.costco.com/p/-/ascent-100-whey-native-whey-protein-blend-vanilla-bean-425-lbs/4000177679",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.314,
+      "query": "Ascent Native Fuel Whey Protein price 2026"
+    },
+    {
+      "url": "https://www.amazon.com/Ascent-Native-Fuel-Protein-Powder/dp/B01N9V32X2",
+      "status": "success",
+      "content_length": 16671,
+      "duration_seconds": 2.314,
+      "query": "Ascent Native Fuel Whey Protein price 2026"
+    },
+    {
+      "url": "https://www.target.com/p/ascent-native-fuel-whey-protein-powder-chocolate-16oz/-/A-78814348",
+      "status": "success",
+      "content_length": 1729,
+      "duration_seconds": 2.314,
+      "query": "Ascent Native Fuel Whey Protein price 2026"
+    },
+    {
+      "url": "https://www.garagegymreviews.com/naked-whey-protein-review",
+      "status": "success",
+      "content_length": 27184,
+      "duration_seconds": 2.42,
+      "query": "Naked Nutrition Whey Protein price 2026"
+    },
+    {
+      "url": "https://www.amazon.com/stores/NAKEDNutrition/page/C3B9538A-20EA-406C-8136-DBB78E99B2A2",
+      "status": "success",
+      "content_length": 39819,
+      "duration_seconds": 2.42,
+      "query": "Naked Nutrition Whey Protein price 2026"
+    },
+    {
+      "url": "https://nakednutrition.com",
+      "status": "success",
+      "content_length": 22799,
+      "duration_seconds": 2.42,
+      "query": "Naked Nutrition Whey Protein price 2026"
+    },
+    {
+      "url": "https://nakednutrition.com/products/grass-fed-whey-protein-powder",
+      "status": "success",
+      "content_length": 19308,
+      "duration_seconds": 2.42,
+      "query": "Naked Nutrition Whey Protein price 2026"
+    },
+    {
+      "url": "https://nakednutrition.com/collections/whey-protein",
+      "status": "success",
+      "content_length": 12880,
+      "duration_seconds": 2.42,
+      "query": "Naked Nutrition Whey Protein price 2026"
+    },
+    {
+      "url": "https://www.garagegymreviews.com/momentous-essential-grass-fed-whey-protein-review",
+      "status": "success",
+      "content_length": 24852,
+      "duration_seconds": 2.645,
+      "query": "Momentous Whey Protein Isolate price serving size 2026"
+    },
+    {
+      "url": "https://www.amazon.com/Momentous-Essential-Grass-Fed-Gluten-Free-Certified/dp/B09F1SWMFG",
+      "status": "success",
+      "content_length": 222260,
+      "duration_seconds": 2.645,
+      "query": "Momentous Whey Protein Isolate price serving size 2026"
+    },
+    {
+      "url": "https://www.livemomentous.com/blogs/product-education/whey-protein-powder-2025",
+      "status": "success",
+      "content_length": 11552,
+      "duration_seconds": 2.645,
+      "query": "Momentous Whey Protein Isolate price serving size 2026"
+    },
+    {
+      "url": "https://www.livemomentous.com/products/essential-whey-protein",
+      "status": "success",
+      "content_length": 31290,
+      "duration_seconds": 2.645,
+      "query": "Momentous Whey Protein Isolate price serving size 2026"
+    },
+    {
+      "url": "https://www.livemomentous.com/products/whey-protein-isolate-flavor-series",
+      "status": "success",
+      "content_length": 37713,
+      "duration_seconds": 2.645,
+      "query": "Momentous Whey Protein Isolate price serving size 2026"
+    },
+    {
+      "url": "https://www.transparentlabs.com/products/proteinseries-100-grass-fed-whey-protein-isolate?variant=",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.658,
+      "query": "Transparent Labs Grass-Fed Whey Protein Isolate price 2026"
+    },
+    {
+      "url": "https://www.amazon.com/Transparent-Labs-Grass-Fed-Protein-Isolate/dp/B0CQ32D39X",
+      "status": "success",
+      "content_length": 223640,
+      "duration_seconds": 2.658,
+      "query": "Transparent Labs Grass-Fed Whey Protein Isolate price 2026"
+    },
+    {
+      "url": "https://www.transparentlabs.com/products/whey-protein-isolate",
+      "status": "success",
+      "content_length": 31359,
+      "duration_seconds": 2.658,
+      "query": "Transparent Labs Grass-Fed Whey Protein Isolate price 2026"
+    },
+    {
+      "url": "https://www.transparentlabs.com",
+      "status": "success",
+      "content_length": 84084,
+      "duration_seconds": 2.658,
+      "query": "Transparent Labs Grass-Fed Whey Protein Isolate price 2026"
+    },
+    {
+      "url": "https://shop.sprouts.com/store/sprouts/products/50461780-french-vanilla-100-grass-fed-whey-protein-isolate-30-24-oz",
+      "status": "success",
+      "content_length": 722,
+      "duration_seconds": 2.658,
+      "query": "Transparent Labs Grass-Fed Whey Protein Isolate price 2026"
+    },
+    {
+      "url": "https://www.gardenoflife.com/products/our-vitamins/sport-protein",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 3.071,
+      "query": "Garden of Life Sport Organic Plant-Based Protein price 2026"
+    },
+    {
+      "url": "https://www.kingsoopers.com/p/garden-of-life-sport-organic-plant-based-protein-to-help-build-muscle-30g-protein-powder/0065801011943",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 3.071,
+      "query": "Garden of Life Sport Organic Plant-Based Protein price 2026"
+    },
+    {
+      "url": "https://www.gardenoflife.com/products/our-protein",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 3.071,
+      "query": "Garden of Life Sport Organic Plant-Based Protein price 2026"
+    },
+    {
+      "url": "https://www.gardenoflife.com/sport-organic-plant-based-protein-vanilla",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 3.071,
+      "query": "Garden of Life Sport Organic Plant-Based Protein price 2026"
+    },
+    {
+      "url": "https://www.vitaminshoppe.com/p/sport-organic-plant-based-protein-vanilla-2-lb-powder/gu-1333",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 3.071,
+      "query": "Garden of Life Sport Organic Plant-Based Protein price 2026"
+    }
+  ],
+  "run_id": "d2d55508d2aa412bac226446b24a2fa8",
+  "status": "completed",
+  "qid": "rankliDwyJ6ePJgm8znsQh",
+  "query": "What are the top 12 protein powders for 2026, ranked based on protein content per serving (grams), third-party testing certifications (limited to recognized organizations such as NSF, Informed Choice, or USP), and cost per serving, with all three criteria given equal importance? In the final report, you should include a detailed table for the summarized ranked results, and also provide an analysis explaining the rationale behind the ranking.",
+  "duration_seconds": 328.18,
+  "report_length": 16908,
+  "context_length": 171763,
+  "token_counting": "Token counts come only from API-reported usage; missing usage is never estimated."
+}

@@ -1,0 +1,5099 @@
+{
+  "session_id": "62712ad8b94a4979b9e6149fc344d0a2",
+  "total_llm_calls": 109,
+  "llm_calls_with_token_usage": 108,
+  "llm_calls_missing_token_usage": 1,
+  "token_usage_complete": false,
+  "total_input_tokens": null,
+  "total_output_tokens": null,
+  "total_tokens": null,
+  "counted_input_tokens": 890092,
+  "counted_output_tokens": 116297,
+  "counted_total_tokens": 1006389,
+  "total_search_count": 28,
+  "total_search_results": 140,
+  "total_visit_count": 140,
+  "total_visit_success": 106,
+  "total_visit_failed": 34,
+  "source_urls_count": 123,
+  "llm_calls_detail": [
+    {
+      "sequence": 1,
+      "status": "completed",
+      "started_at": "2026-08-23T21:26:26.366038+08:00",
+      "completed_at": "2026-08-23T21:26:28.814245+08:00",
+      "duration_seconds": 2.448,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 755,
+      "output_tokens": 111,
+      "total_tokens": 866,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 755,
+        "output_tokens": 111,
+        "total_tokens": 866,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 2,
+      "status": "completed",
+      "started_at": "2026-08-23T21:26:28.821084+08:00",
+      "completed_at": "2026-08-23T21:26:35.445212+08:00",
+      "duration_seconds": 6.624,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1175,
+      "output_tokens": 612,
+      "total_tokens": 1787,
+      "message_count": 2,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1175,
+        "output_tokens": 612,
+        "total_tokens": 1787,
+        "input_token_details": {
+          "cache_read": 1024
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 3,
+      "status": "completed",
+      "started_at": "2026-08-23T21:26:35.453232+08:00",
+      "completed_at": "2026-08-23T21:26:45.103624+08:00",
+      "duration_seconds": 9.65,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1958,
+      "output_tokens": 888,
+      "total_tokens": 2846,
+      "message_count": 4,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1958,
+        "output_tokens": 888,
+        "total_tokens": 2846,
+        "input_token_details": {
+          "cache_read": 1024
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 4,
+      "status": "completed",
+      "started_at": "2026-08-23T21:26:45.125126+08:00",
+      "completed_at": "2026-08-23T21:26:47.484516+08:00",
+      "duration_seconds": 2.359,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1222,
+      "output_tokens": 148,
+      "total_tokens": 1370,
+      "message_count": 2,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1222,
+        "output_tokens": 148,
+        "total_tokens": 1370,
+        "input_token_details": {
+          "cache_read": 768
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 5,
+      "status": "completed",
+      "started_at": "2026-08-23T21:26:45.125189+08:00",
+      "completed_at": "2026-08-23T21:26:48.030381+08:00",
+      "duration_seconds": 2.905,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1248,
+      "output_tokens": 177,
+      "total_tokens": 1425,
+      "message_count": 2,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1248,
+        "output_tokens": 177,
+        "total_tokens": 1425,
+        "input_token_details": {
+          "cache_read": 768
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 6,
+      "status": "completed",
+      "started_at": "2026-08-23T21:26:48.042238+08:00",
+      "completed_at": "2026-08-23T21:26:50.240594+08:00",
+      "duration_seconds": 2.198,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1465,
+      "output_tokens": 109,
+      "total_tokens": 1574,
+      "message_count": 4,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1465,
+        "output_tokens": 109,
+        "total_tokens": 1574,
+        "input_token_details": {
+          "cache_read": 1024
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 10,
+      "status": "completed",
+      "started_at": "2026-08-23T21:26:51.224755+08:00",
+      "completed_at": "2026-08-23T21:26:59.240837+08:00",
+      "duration_seconds": 8.016,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7174,
+      "output_tokens": 738,
+      "total_tokens": 7912,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 7174,
+        "output_tokens": 738,
+        "total_tokens": 7912,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 11,
+      "status": "completed",
+      "started_at": "2026-08-23T21:26:51.224806+08:00",
+      "completed_at": "2026-08-23T21:26:56.888447+08:00",
+      "duration_seconds": 5.664,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7329,
+      "output_tokens": 542,
+      "total_tokens": 7871,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 7329,
+        "output_tokens": 542,
+        "total_tokens": 7871,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 12,
+      "status": "completed",
+      "started_at": "2026-08-23T21:26:51.224837+08:00",
+      "completed_at": "2026-08-23T21:26:56.779032+08:00",
+      "duration_seconds": 5.554,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5847,
+      "output_tokens": 508,
+      "total_tokens": 6355,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5847,
+        "output_tokens": 508,
+        "total_tokens": 6355,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 13,
+      "status": "completed",
+      "started_at": "2026-08-23T21:26:51.224853+08:00",
+      "completed_at": "2026-08-23T21:26:58.425353+08:00",
+      "duration_seconds": 7.201,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 19088,
+      "output_tokens": 578,
+      "total_tokens": 19666,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 19088,
+        "output_tokens": 578,
+        "total_tokens": 19666,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 14,
+      "status": "completed",
+      "started_at": "2026-08-23T21:26:51.224865+08:00",
+      "completed_at": "2026-08-23T21:26:59.688210+08:00",
+      "duration_seconds": 8.463,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8277,
+      "output_tokens": 732,
+      "total_tokens": 9009,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 8277,
+        "output_tokens": 732,
+        "total_tokens": 9009,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 15,
+      "status": "completed",
+      "started_at": "2026-08-23T21:26:51.224877+08:00",
+      "completed_at": "2026-08-23T21:26:56.606651+08:00",
+      "duration_seconds": 5.382,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2145,
+      "output_tokens": 481,
+      "total_tokens": 2626,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2145,
+        "output_tokens": 481,
+        "total_tokens": 2626,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 16,
+      "status": "completed",
+      "started_at": "2026-08-23T21:26:51.224888+08:00",
+      "completed_at": "2026-08-23T21:26:59.727263+08:00",
+      "duration_seconds": 8.502,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4537,
+      "output_tokens": 686,
+      "total_tokens": 5223,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4537,
+        "output_tokens": 686,
+        "total_tokens": 5223,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 17,
+      "status": "completed",
+      "started_at": "2026-08-23T21:26:51.224899+08:00",
+      "completed_at": "2026-08-23T21:27:11.736227+08:00",
+      "duration_seconds": 20.511,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 10056,
+      "output_tokens": 2068,
+      "total_tokens": 12124,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 10056,
+        "output_tokens": 2068,
+        "total_tokens": 12124,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 18,
+      "status": "completed",
+      "started_at": "2026-08-23T21:26:51.224909+08:00",
+      "completed_at": "2026-08-23T21:27:00.272101+08:00",
+      "duration_seconds": 9.047,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6868,
+      "output_tokens": 772,
+      "total_tokens": 7640,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 6868,
+        "output_tokens": 772,
+        "total_tokens": 7640,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 19,
+      "status": "completed",
+      "started_at": "2026-08-23T21:26:51.224919+08:00",
+      "completed_at": "2026-08-23T21:26:56.254812+08:00",
+      "duration_seconds": 5.03,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1770,
+      "output_tokens": 364,
+      "total_tokens": 2134,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1770,
+        "output_tokens": 364,
+        "total_tokens": 2134,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 20,
+      "status": "completed",
+      "started_at": "2026-08-23T21:26:51.224929+08:00",
+      "completed_at": "2026-08-23T21:26:57.413642+08:00",
+      "duration_seconds": 6.189,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3962,
+      "output_tokens": 516,
+      "total_tokens": 4478,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3962,
+        "output_tokens": 516,
+        "total_tokens": 4478,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 24,
+      "status": "completed",
+      "started_at": "2026-08-23T21:26:54.455165+08:00",
+      "completed_at": "2026-08-23T21:27:03.665544+08:00",
+      "duration_seconds": 9.21,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 10369,
+      "output_tokens": 802,
+      "total_tokens": 11171,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 10369,
+        "output_tokens": 802,
+        "total_tokens": 11171,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 25,
+      "status": "completed",
+      "started_at": "2026-08-23T21:26:54.455249+08:00",
+      "completed_at": "2026-08-23T21:27:02.384122+08:00",
+      "duration_seconds": 7.929,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3234,
+      "output_tokens": 537,
+      "total_tokens": 3771,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3234,
+        "output_tokens": 537,
+        "total_tokens": 3771,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 26,
+      "status": "completed",
+      "started_at": "2026-08-23T21:26:54.455446+08:00",
+      "completed_at": "2026-08-23T21:27:01.111410+08:00",
+      "duration_seconds": 6.656,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 17246,
+      "output_tokens": 613,
+      "total_tokens": 17859,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 17246,
+        "output_tokens": 613,
+        "total_tokens": 17859,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 27,
+      "status": "completed",
+      "started_at": "2026-08-23T21:26:54.455487+08:00",
+      "completed_at": "2026-08-23T21:27:04.766600+08:00",
+      "duration_seconds": 10.311,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5506,
+      "output_tokens": 562,
+      "total_tokens": 6068,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5506,
+        "output_tokens": 562,
+        "total_tokens": 6068,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 28,
+      "status": "completed",
+      "started_at": "2026-08-23T21:26:54.455515+08:00",
+      "completed_at": "2026-08-23T21:27:01.646422+08:00",
+      "duration_seconds": 7.191,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5878,
+      "output_tokens": 647,
+      "total_tokens": 6525,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5878,
+        "output_tokens": 647,
+        "total_tokens": 6525,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 29,
+      "status": "completed",
+      "started_at": "2026-08-23T21:26:54.455541+08:00",
+      "completed_at": "2026-08-23T21:27:03.178826+08:00",
+      "duration_seconds": 8.723,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5710,
+      "output_tokens": 749,
+      "total_tokens": 6459,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5710,
+        "output_tokens": 749,
+        "total_tokens": 6459,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 30,
+      "status": "completed",
+      "started_at": "2026-08-23T21:26:54.455566+08:00",
+      "completed_at": "2026-08-23T21:27:02.003592+08:00",
+      "duration_seconds": 7.548,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2545,
+      "output_tokens": 578,
+      "total_tokens": 3123,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2545,
+        "output_tokens": 578,
+        "total_tokens": 3123,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 31,
+      "status": "completed",
+      "started_at": "2026-08-23T21:26:54.455590+08:00",
+      "completed_at": "2026-08-23T21:27:03.433492+08:00",
+      "duration_seconds": 8.978,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4353,
+      "output_tokens": 752,
+      "total_tokens": 5105,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4353,
+        "output_tokens": 752,
+        "total_tokens": 5105,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 32,
+      "status": "completed",
+      "started_at": "2026-08-23T21:26:54.455615+08:00",
+      "completed_at": "2026-08-23T21:27:03.861273+08:00",
+      "duration_seconds": 9.406,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1631,
+      "output_tokens": 248,
+      "total_tokens": 1879,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1631,
+        "output_tokens": 248,
+        "total_tokens": 1879,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 33,
+      "status": "completed",
+      "started_at": "2026-08-23T21:26:54.455639+08:00",
+      "completed_at": "2026-08-23T21:26:59.545191+08:00",
+      "duration_seconds": 5.09,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3631,
+      "output_tokens": 427,
+      "total_tokens": 4058,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3631,
+        "output_tokens": 427,
+        "total_tokens": 4058,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 34,
+      "status": "completed",
+      "started_at": "2026-08-23T21:27:04.778680+08:00",
+      "completed_at": "2026-08-23T21:27:08.727159+08:00",
+      "duration_seconds": 3.948,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7812,
+      "output_tokens": 208,
+      "total_tokens": 8020,
+      "message_count": 6,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 7812,
+        "output_tokens": 208,
+        "total_tokens": 8020,
+        "input_token_details": {
+          "cache_read": 1280
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 35,
+      "status": "completed",
+      "started_at": "2026-08-23T21:27:08.738178+08:00",
+      "completed_at": "2026-08-23T21:27:12.193642+08:00",
+      "duration_seconds": 3.455,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8045,
+      "output_tokens": 133,
+      "total_tokens": 8178,
+      "message_count": 8,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 8045,
+        "output_tokens": 133,
+        "total_tokens": 8178,
+        "input_token_details": {
+          "cache_read": 7680
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 36,
+      "status": "completed",
+      "started_at": "2026-08-23T21:27:11.743747+08:00",
+      "completed_at": "2026-08-23T21:27:17.783448+08:00",
+      "duration_seconds": 6.04,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 9778,
+      "output_tokens": 291,
+      "total_tokens": 10069,
+      "message_count": 4,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 9778,
+        "output_tokens": 291,
+        "total_tokens": 10069,
+        "input_token_details": {
+          "cache_read": 1024
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 46,
+      "status": "completed",
+      "started_at": "2026-08-23T21:27:16.166426+08:00",
+      "completed_at": "2026-08-23T21:27:23.822182+08:00",
+      "duration_seconds": 7.656,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 19526,
+      "output_tokens": 473,
+      "total_tokens": 19999,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 19526,
+        "output_tokens": 473,
+        "total_tokens": 19999,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 47,
+      "status": "completed",
+      "started_at": "2026-08-23T21:27:16.166556+08:00",
+      "completed_at": "2026-08-23T21:27:22.311271+08:00",
+      "duration_seconds": 6.145,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2483,
+      "output_tokens": 435,
+      "total_tokens": 2918,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2483,
+        "output_tokens": 435,
+        "total_tokens": 2918,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 48,
+      "status": "completed",
+      "started_at": "2026-08-23T21:27:16.166637+08:00",
+      "completed_at": "2026-08-23T21:27:23.158595+08:00",
+      "duration_seconds": 6.992,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4696,
+      "output_tokens": 636,
+      "total_tokens": 5332,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4696,
+        "output_tokens": 636,
+        "total_tokens": 5332,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 49,
+      "status": "completed",
+      "started_at": "2026-08-23T21:27:16.166677+08:00",
+      "completed_at": "2026-08-23T21:27:21.076570+08:00",
+      "duration_seconds": 4.91,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2378,
+      "output_tokens": 362,
+      "total_tokens": 2740,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2378,
+        "output_tokens": 362,
+        "total_tokens": 2740,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 50,
+      "status": "completed",
+      "started_at": "2026-08-23T21:27:16.166778+08:00",
+      "completed_at": "2026-08-23T21:27:20.678673+08:00",
+      "duration_seconds": 4.512,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3382,
+      "output_tokens": 267,
+      "total_tokens": 3649,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3382,
+        "output_tokens": 267,
+        "total_tokens": 3649,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 51,
+      "status": "completed",
+      "started_at": "2026-08-23T21:27:16.166823+08:00",
+      "completed_at": "2026-08-23T21:27:24.375364+08:00",
+      "duration_seconds": 8.209,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 11784,
+      "output_tokens": 703,
+      "total_tokens": 12487,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 11784,
+        "output_tokens": 703,
+        "total_tokens": 12487,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 52,
+      "status": "completed",
+      "started_at": "2026-08-23T21:27:16.166855+08:00",
+      "completed_at": "2026-08-23T21:27:27.286253+08:00",
+      "duration_seconds": 11.119,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 14344,
+      "output_tokens": 1137,
+      "total_tokens": 15481,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 14344,
+        "output_tokens": 1137,
+        "total_tokens": 15481,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 53,
+      "status": "completed",
+      "started_at": "2026-08-23T21:27:16.166883+08:00",
+      "completed_at": "2026-08-23T21:27:29.864957+08:00",
+      "duration_seconds": 13.698,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 11955,
+      "output_tokens": 1074,
+      "total_tokens": 13029,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 11955,
+        "output_tokens": 1074,
+        "total_tokens": 13029,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 54,
+      "status": "completed",
+      "started_at": "2026-08-23T21:27:16.166910+08:00",
+      "completed_at": "2026-08-23T21:27:29.531792+08:00",
+      "duration_seconds": 13.365,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7200,
+      "output_tokens": 1124,
+      "total_tokens": 8324,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 7200,
+        "output_tokens": 1124,
+        "total_tokens": 8324,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 55,
+      "status": "completed",
+      "started_at": "2026-08-23T21:27:16.166936+08:00",
+      "completed_at": "2026-08-23T21:27:21.243668+08:00",
+      "duration_seconds": 5.077,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1867,
+      "output_tokens": 474,
+      "total_tokens": 2341,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1867,
+        "output_tokens": 474,
+        "total_tokens": 2341,
+        "input_token_details": {
+          "cache_read": 512
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 56,
+      "status": "completed",
+      "started_at": "2026-08-23T21:27:16.166962+08:00",
+      "completed_at": "2026-08-23T21:27:20.983797+08:00",
+      "duration_seconds": 4.817,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4273,
+      "output_tokens": 371,
+      "total_tokens": 4644,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4273,
+        "output_tokens": 371,
+        "total_tokens": 4644,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 57,
+      "status": "completed",
+      "started_at": "2026-08-23T21:27:16.166985+08:00",
+      "completed_at": "2026-08-23T21:27:22.205182+08:00",
+      "duration_seconds": 6.038,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2344,
+      "output_tokens": 355,
+      "total_tokens": 2699,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2344,
+        "output_tokens": 355,
+        "total_tokens": 2699,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 58,
+      "status": "completed",
+      "started_at": "2026-08-23T21:27:16.167011+08:00",
+      "completed_at": "2026-08-23T21:27:22.355139+08:00",
+      "duration_seconds": 6.188,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5938,
+      "output_tokens": 520,
+      "total_tokens": 6458,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5938,
+        "output_tokens": 520,
+        "total_tokens": 6458,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 66,
+      "status": "completed",
+      "started_at": "2026-08-23T21:27:22.066156+08:00",
+      "completed_at": "2026-08-23T21:27:32.249931+08:00",
+      "duration_seconds": 10.184,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 12174,
+      "output_tokens": 907,
+      "total_tokens": 13081,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 12174,
+        "output_tokens": 907,
+        "total_tokens": 13081,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 67,
+      "status": "completed",
+      "started_at": "2026-08-23T21:27:22.066250+08:00",
+      "completed_at": "2026-08-23T21:27:28.065730+08:00",
+      "duration_seconds": 5.999,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2841,
+      "output_tokens": 355,
+      "total_tokens": 3196,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2841,
+        "output_tokens": 355,
+        "total_tokens": 3196,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 68,
+      "status": "completed",
+      "started_at": "2026-08-23T21:27:22.066286+08:00",
+      "completed_at": "2026-08-23T21:27:29.832588+08:00",
+      "duration_seconds": 7.766,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5579,
+      "output_tokens": 591,
+      "total_tokens": 6170,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5579,
+        "output_tokens": 591,
+        "total_tokens": 6170,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 69,
+      "status": "completed",
+      "started_at": "2026-08-23T21:27:22.066310+08:00",
+      "completed_at": "2026-08-23T21:27:28.932843+08:00",
+      "duration_seconds": 6.867,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5691,
+      "output_tokens": 523,
+      "total_tokens": 6214,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5691,
+        "output_tokens": 523,
+        "total_tokens": 6214,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 70,
+      "status": "completed",
+      "started_at": "2026-08-23T21:27:22.066331+08:00",
+      "completed_at": "2026-08-23T21:27:27.648217+08:00",
+      "duration_seconds": 5.582,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2981,
+      "output_tokens": 394,
+      "total_tokens": 3375,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2981,
+        "output_tokens": 394,
+        "total_tokens": 3375,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 71,
+      "status": "completed",
+      "started_at": "2026-08-23T21:27:22.066371+08:00",
+      "completed_at": "2026-08-23T21:27:30.532717+08:00",
+      "duration_seconds": 8.466,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 14113,
+      "output_tokens": 642,
+      "total_tokens": 14755,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 14113,
+        "output_tokens": 642,
+        "total_tokens": 14755,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 72,
+      "status": "completed",
+      "started_at": "2026-08-23T21:27:22.066391+08:00",
+      "completed_at": "2026-08-23T21:27:28.065924+08:00",
+      "duration_seconds": 6.0,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 28393,
+      "output_tokens": 367,
+      "total_tokens": 28760,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 28393,
+        "output_tokens": 367,
+        "total_tokens": 28760,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 73,
+      "status": "completed",
+      "started_at": "2026-08-23T21:27:22.066412+08:00",
+      "completed_at": "2026-08-23T21:27:25.249331+08:00",
+      "duration_seconds": 3.183,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3369,
+      "output_tokens": 200,
+      "total_tokens": 3569,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3369,
+        "output_tokens": 200,
+        "total_tokens": 3569,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 74,
+      "status": "completed",
+      "started_at": "2026-08-23T21:27:22.066432+08:00",
+      "completed_at": "2026-08-23T21:27:30.902981+08:00",
+      "duration_seconds": 8.837,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 14370,
+      "output_tokens": 724,
+      "total_tokens": 15094,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 14370,
+        "output_tokens": 724,
+        "total_tokens": 15094,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 75,
+      "status": "completed",
+      "started_at": "2026-08-23T21:27:22.066451+08:00",
+      "completed_at": "2026-08-23T21:27:27.038821+08:00",
+      "duration_seconds": 4.972,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7742,
+      "output_tokens": 330,
+      "total_tokens": 8072,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 7742,
+        "output_tokens": 330,
+        "total_tokens": 8072,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 76,
+      "status": "completed",
+      "started_at": "2026-08-23T21:27:22.066470+08:00",
+      "completed_at": "2026-08-23T21:27:29.857289+08:00",
+      "duration_seconds": 7.791,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 14532,
+      "output_tokens": 647,
+      "total_tokens": 15179,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 14532,
+        "output_tokens": 647,
+        "total_tokens": 15179,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 77,
+      "status": "completed",
+      "started_at": "2026-08-23T21:27:22.066490+08:00",
+      "completed_at": "2026-08-23T21:27:29.730089+08:00",
+      "duration_seconds": 7.664,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 10614,
+      "output_tokens": 544,
+      "total_tokens": 11158,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 10614,
+        "output_tokens": 544,
+        "total_tokens": 11158,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 78,
+      "status": "completed",
+      "started_at": "2026-08-23T21:27:22.066508+08:00",
+      "completed_at": "2026-08-23T21:27:26.116553+08:00",
+      "duration_seconds": 4.05,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3255,
+      "output_tokens": 326,
+      "total_tokens": 3581,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3255,
+        "output_tokens": 326,
+        "total_tokens": 3581,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 79,
+      "status": "completed",
+      "started_at": "2026-08-23T21:27:22.066533+08:00",
+      "completed_at": "2026-08-23T21:27:27.182114+08:00",
+      "duration_seconds": 5.116,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5882,
+      "output_tokens": 436,
+      "total_tokens": 6318,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5882,
+        "output_tokens": 436,
+        "total_tokens": 6318,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 80,
+      "status": "completed",
+      "started_at": "2026-08-23T21:27:22.068587+08:00",
+      "completed_at": "2026-08-23T21:27:28.564829+08:00",
+      "duration_seconds": 6.496,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 17299,
+      "output_tokens": 601,
+      "total_tokens": 17900,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 17299,
+        "output_tokens": 601,
+        "total_tokens": 17900,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 81,
+      "status": "completed",
+      "started_at": "2026-08-23T21:27:22.068674+08:00",
+      "completed_at": "2026-08-23T21:27:27.058124+08:00",
+      "duration_seconds": 4.989,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5182,
+      "output_tokens": 430,
+      "total_tokens": 5612,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5182,
+        "output_tokens": 430,
+        "total_tokens": 5612,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 82,
+      "status": "completed",
+      "started_at": "2026-08-23T21:27:22.068695+08:00",
+      "completed_at": "2026-08-23T21:27:35.762068+08:00",
+      "duration_seconds": 13.693,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7170,
+      "output_tokens": 702,
+      "total_tokens": 7872,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 7170,
+        "output_tokens": 702,
+        "total_tokens": 7872,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 83,
+      "status": "completed",
+      "started_at": "2026-08-23T21:27:22.068713+08:00",
+      "completed_at": "2026-08-23T21:27:28.717347+08:00",
+      "duration_seconds": 6.649,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5219,
+      "output_tokens": 613,
+      "total_tokens": 5832,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5219,
+        "output_tokens": 613,
+        "total_tokens": 5832,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 84,
+      "status": "completed",
+      "started_at": "2026-08-23T21:27:22.068909+08:00",
+      "completed_at": "2026-08-23T21:27:26.236120+08:00",
+      "duration_seconds": 4.167,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 11873,
+      "output_tokens": 332,
+      "total_tokens": 12205,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 11873,
+        "output_tokens": 332,
+        "total_tokens": 12205,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 85,
+      "status": "completed",
+      "started_at": "2026-08-23T21:27:22.068963+08:00",
+      "completed_at": "2026-08-23T21:27:32.054136+08:00",
+      "duration_seconds": 9.985,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 9084,
+      "output_tokens": 809,
+      "total_tokens": 9893,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 9084,
+        "output_tokens": 809,
+        "total_tokens": 9893,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 86,
+      "status": "completed",
+      "started_at": "2026-08-23T21:27:22.068988+08:00",
+      "completed_at": "2026-08-23T21:27:30.192238+08:00",
+      "duration_seconds": 8.123,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6253,
+      "output_tokens": 624,
+      "total_tokens": 6877,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 6253,
+        "output_tokens": 624,
+        "total_tokens": 6877,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 87,
+      "status": "completed",
+      "started_at": "2026-08-23T21:27:22.069008+08:00",
+      "completed_at": "2026-08-23T21:27:37.671284+08:00",
+      "duration_seconds": 15.602,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 30369,
+      "output_tokens": 976,
+      "total_tokens": 31345,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 30369,
+        "output_tokens": 976,
+        "total_tokens": 31345,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 88,
+      "status": "completed",
+      "started_at": "2026-08-23T21:27:22.069026+08:00",
+      "completed_at": "2026-08-23T21:27:54.289869+08:00",
+      "duration_seconds": 32.221,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4746,
+      "output_tokens": 721,
+      "total_tokens": 5467,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4746,
+        "output_tokens": 721,
+        "total_tokens": 5467,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 89,
+      "status": "completed",
+      "started_at": "2026-08-23T21:27:22.069044+08:00",
+      "completed_at": "2026-08-23T21:27:36.704861+08:00",
+      "duration_seconds": 14.636,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 12151,
+      "output_tokens": 1336,
+      "total_tokens": 13487,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 12151,
+        "output_tokens": 1336,
+        "total_tokens": 13487,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 90,
+      "status": "completed",
+      "started_at": "2026-08-23T21:27:29.880865+08:00",
+      "completed_at": "2026-08-23T21:27:32.637177+08:00",
+      "duration_seconds": 2.756,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 19914,
+      "output_tokens": 116,
+      "total_tokens": 20030,
+      "message_count": 10,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 19914,
+        "output_tokens": 116,
+        "total_tokens": 20030,
+        "input_token_details": {
+          "cache_read": 7936
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 91,
+      "status": "completed",
+      "started_at": "2026-08-23T21:27:32.643461+08:00",
+      "completed_at": "2026-08-23T21:27:33.372598+08:00",
+      "duration_seconds": 0.729,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 0,
+      "output_tokens": 11,
+      "total_tokens": 11,
+      "message_count": 13,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 0,
+        "output_tokens": 11,
+        "total_tokens": 11,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 0
+        }
+      },
+      "finish_reason": "end_turn"
+    },
+    {
+      "sequence": 92,
+      "status": "completed",
+      "started_at": "2026-08-23T21:27:54.307064+08:00",
+      "completed_at": "2026-08-23T21:28:00.872708+08:00",
+      "duration_seconds": 6.566,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 26247,
+      "output_tokens": 293,
+      "total_tokens": 26540,
+      "message_count": 7,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 26247,
+        "output_tokens": 293,
+        "total_tokens": 26540,
+        "input_token_details": {
+          "cache_read": 9728
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 100,
+      "status": "completed",
+      "started_at": "2026-08-23T21:28:04.941212+08:00",
+      "completed_at": "2026-08-23T21:28:14.775689+08:00",
+      "duration_seconds": 9.834,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 11844,
+      "output_tokens": 917,
+      "total_tokens": 12761,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 11844,
+        "output_tokens": 917,
+        "total_tokens": 12761,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 101,
+      "status": "completed",
+      "started_at": "2026-08-23T21:28:04.941281+08:00",
+      "completed_at": "2026-08-23T21:28:12.095644+08:00",
+      "duration_seconds": 7.154,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 11156,
+      "output_tokens": 629,
+      "total_tokens": 11785,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 11156,
+        "output_tokens": 629,
+        "total_tokens": 11785,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 102,
+      "status": "completed",
+      "started_at": "2026-08-23T21:28:04.941311+08:00",
+      "completed_at": "2026-08-23T21:28:11.747763+08:00",
+      "duration_seconds": 6.806,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4774,
+      "output_tokens": 630,
+      "total_tokens": 5404,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4774,
+        "output_tokens": 630,
+        "total_tokens": 5404,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 103,
+      "status": "completed",
+      "started_at": "2026-08-23T21:28:04.941331+08:00",
+      "completed_at": "2026-08-23T21:28:10.403150+08:00",
+      "duration_seconds": 5.462,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2686,
+      "output_tokens": 458,
+      "total_tokens": 3144,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2686,
+        "output_tokens": 458,
+        "total_tokens": 3144,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 104,
+      "status": "completed",
+      "started_at": "2026-08-23T21:28:04.941347+08:00",
+      "completed_at": "2026-08-23T21:28:12.941390+08:00",
+      "duration_seconds": 8.0,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 15003,
+      "output_tokens": 728,
+      "total_tokens": 15731,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 15003,
+        "output_tokens": 728,
+        "total_tokens": 15731,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 105,
+      "status": "completed",
+      "started_at": "2026-08-23T21:28:04.941362+08:00",
+      "completed_at": "2026-08-23T21:28:12.463380+08:00",
+      "duration_seconds": 7.522,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 10770,
+      "output_tokens": 653,
+      "total_tokens": 11423,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 10770,
+        "output_tokens": 653,
+        "total_tokens": 11423,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 106,
+      "status": "completed",
+      "started_at": "2026-08-23T21:28:04.941377+08:00",
+      "completed_at": "2026-08-23T21:28:09.920721+08:00",
+      "duration_seconds": 4.979,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3108,
+      "output_tokens": 444,
+      "total_tokens": 3552,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3108,
+        "output_tokens": 444,
+        "total_tokens": 3552,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 107,
+      "status": "completed",
+      "started_at": "2026-08-23T21:28:04.941392+08:00",
+      "completed_at": "2026-08-23T21:28:33.899293+08:00",
+      "duration_seconds": 28.958,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3131,
+      "output_tokens": 537,
+      "total_tokens": 3668,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3131,
+        "output_tokens": 537,
+        "total_tokens": 3668,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 108,
+      "status": "completed",
+      "started_at": "2026-08-23T21:28:04.941408+08:00",
+      "completed_at": "2026-08-23T21:28:09.677153+08:00",
+      "duration_seconds": 4.736,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2967,
+      "output_tokens": 407,
+      "total_tokens": 3374,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2967,
+        "output_tokens": 407,
+        "total_tokens": 3374,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 109,
+      "status": "completed",
+      "started_at": "2026-08-23T21:28:04.941423+08:00",
+      "completed_at": "2026-08-23T21:28:11.839600+08:00",
+      "duration_seconds": 6.898,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3115,
+      "output_tokens": 565,
+      "total_tokens": 3680,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3115,
+        "output_tokens": 565,
+        "total_tokens": 3680,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 110,
+      "status": "completed",
+      "started_at": "2026-08-23T21:28:04.941440+08:00",
+      "completed_at": "2026-08-23T21:28:49.394633+08:00",
+      "duration_seconds": 44.453,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1905,
+      "output_tokens": 335,
+      "total_tokens": 2240,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1905,
+        "output_tokens": 335,
+        "total_tokens": 2240,
+        "input_token_details": {},
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 111,
+      "status": "completed",
+      "started_at": "2026-08-23T21:28:04.941565+08:00",
+      "completed_at": "2026-08-23T21:28:51.295779+08:00",
+      "duration_seconds": 46.354,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4013,
+      "output_tokens": 540,
+      "total_tokens": 4553,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4013,
+        "output_tokens": 540,
+        "total_tokens": 4553,
+        "input_token_details": {},
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 112,
+      "status": "completed",
+      "started_at": "2026-08-23T21:28:51.312185+08:00",
+      "completed_at": "2026-08-23T21:28:54.956786+08:00",
+      "duration_seconds": 3.645,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 10627,
+      "output_tokens": 121,
+      "total_tokens": 10748,
+      "message_count": 10,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 10627,
+        "output_tokens": 121,
+        "total_tokens": 10748,
+        "input_token_details": {},
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 113,
+      "status": "completed",
+      "started_at": "2026-08-23T21:28:54.968335+08:00",
+      "completed_at": "2026-08-23T21:28:58.358185+08:00",
+      "duration_seconds": 3.39,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 10771,
+      "output_tokens": 155,
+      "total_tokens": 10926,
+      "message_count": 12,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 10771,
+        "output_tokens": 155,
+        "total_tokens": 10926,
+        "input_token_details": {
+          "cache_read": 10240
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 122,
+      "status": "completed",
+      "started_at": "2026-08-23T21:29:02.580964+08:00",
+      "completed_at": "2026-08-23T21:29:16.449018+08:00",
+      "duration_seconds": 13.868,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4952,
+      "output_tokens": 1107,
+      "total_tokens": 6059,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4952,
+        "output_tokens": 1107,
+        "total_tokens": 6059,
+        "input_token_details": {},
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 123,
+      "status": "completed",
+      "started_at": "2026-08-23T21:29:02.581085+08:00",
+      "completed_at": "2026-08-23T21:29:12.434298+08:00",
+      "duration_seconds": 9.853,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 20687,
+      "output_tokens": 705,
+      "total_tokens": 21392,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 20687,
+        "output_tokens": 705,
+        "total_tokens": 21392,
+        "input_token_details": {},
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 124,
+      "status": "completed",
+      "started_at": "2026-08-23T21:29:02.581174+08:00",
+      "completed_at": "2026-08-23T21:29:12.418789+08:00",
+      "duration_seconds": 9.838,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5865,
+      "output_tokens": 769,
+      "total_tokens": 6634,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5865,
+        "output_tokens": 769,
+        "total_tokens": 6634,
+        "input_token_details": {},
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 125,
+      "status": "completed",
+      "started_at": "2026-08-23T21:29:02.581254+08:00",
+      "completed_at": "2026-08-23T21:29:16.922938+08:00",
+      "duration_seconds": 14.342,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5137,
+      "output_tokens": 1048,
+      "total_tokens": 6185,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5137,
+        "output_tokens": 1048,
+        "total_tokens": 6185,
+        "input_token_details": {},
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 126,
+      "status": "completed",
+      "started_at": "2026-08-23T21:29:02.581292+08:00",
+      "completed_at": "2026-08-23T21:29:15.064429+08:00",
+      "duration_seconds": 12.483,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4017,
+      "output_tokens": 1022,
+      "total_tokens": 5039,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4017,
+        "output_tokens": 1022,
+        "total_tokens": 5039,
+        "input_token_details": {},
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 127,
+      "status": "completed",
+      "started_at": "2026-08-23T21:29:02.581322+08:00",
+      "completed_at": "2026-08-23T21:29:12.714283+08:00",
+      "duration_seconds": 10.133,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5671,
+      "output_tokens": 749,
+      "total_tokens": 6420,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5671,
+        "output_tokens": 749,
+        "total_tokens": 6420,
+        "input_token_details": {},
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 128,
+      "status": "completed",
+      "started_at": "2026-08-23T21:29:02.581351+08:00",
+      "completed_at": "2026-08-23T21:29:11.877064+08:00",
+      "duration_seconds": 9.296,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4108,
+      "output_tokens": 738,
+      "total_tokens": 4846,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4108,
+        "output_tokens": 738,
+        "total_tokens": 4846,
+        "input_token_details": {},
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 129,
+      "status": "completed",
+      "started_at": "2026-08-23T21:29:02.581386+08:00",
+      "completed_at": "2026-08-23T21:29:11.531792+08:00",
+      "duration_seconds": 8.95,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5387,
+      "output_tokens": 732,
+      "total_tokens": 6119,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5387,
+        "output_tokens": 732,
+        "total_tokens": 6119,
+        "input_token_details": {},
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 130,
+      "status": "completed",
+      "started_at": "2026-08-23T21:29:02.581411+08:00",
+      "completed_at": "2026-08-23T21:29:11.847168+08:00",
+      "duration_seconds": 9.266,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3730,
+      "output_tokens": 714,
+      "total_tokens": 4444,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3730,
+        "output_tokens": 714,
+        "total_tokens": 4444,
+        "input_token_details": {},
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 131,
+      "status": "completed",
+      "started_at": "2026-08-23T21:29:02.581437+08:00",
+      "completed_at": "2026-08-23T21:29:26.717643+08:00",
+      "duration_seconds": 24.136,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 9662,
+      "output_tokens": 1780,
+      "total_tokens": 11442,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 9662,
+        "output_tokens": 1780,
+        "total_tokens": 11442,
+        "input_token_details": {},
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 132,
+      "status": "completed",
+      "started_at": "2026-08-23T21:29:02.581461+08:00",
+      "completed_at": "2026-08-23T21:29:11.957455+08:00",
+      "duration_seconds": 9.376,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2517,
+      "output_tokens": 638,
+      "total_tokens": 3155,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2517,
+        "output_tokens": 638,
+        "total_tokens": 3155,
+        "input_token_details": {},
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 133,
+      "status": "completed",
+      "started_at": "2026-08-23T21:29:02.581486+08:00",
+      "completed_at": "2026-08-23T21:29:12.743677+08:00",
+      "duration_seconds": 10.162,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2520,
+      "output_tokens": 725,
+      "total_tokens": 3245,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2520,
+        "output_tokens": 725,
+        "total_tokens": 3245,
+        "input_token_details": {},
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 134,
+      "status": "completed",
+      "started_at": "2026-08-23T21:29:02.581509+08:00",
+      "completed_at": "2026-08-23T21:29:19.398302+08:00",
+      "duration_seconds": 16.817,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 11653,
+      "output_tokens": 1226,
+      "total_tokens": 12879,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 11653,
+        "output_tokens": 1226,
+        "total_tokens": 12879,
+        "input_token_details": {},
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 135,
+      "status": "completed",
+      "started_at": "2026-08-23T21:29:02.581532+08:00",
+      "completed_at": "2026-08-23T21:29:24.801502+08:00",
+      "duration_seconds": 22.22,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 16455,
+      "output_tokens": 1706,
+      "total_tokens": 18161,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 16455,
+        "output_tokens": 1706,
+        "total_tokens": 18161,
+        "input_token_details": {},
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 136,
+      "status": "completed",
+      "started_at": "2026-08-23T21:29:02.581556+08:00",
+      "completed_at": "2026-08-23T21:29:16.612993+08:00",
+      "duration_seconds": 14.031,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5748,
+      "output_tokens": 926,
+      "total_tokens": 6674,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5748,
+        "output_tokens": 926,
+        "total_tokens": 6674,
+        "input_token_details": {},
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 137,
+      "status": "completed",
+      "started_at": "2026-08-23T21:29:02.581579+08:00",
+      "completed_at": "2026-08-23T21:29:22.135814+08:00",
+      "duration_seconds": 19.554,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 29603,
+      "output_tokens": 1629,
+      "total_tokens": 31232,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 29603,
+        "output_tokens": 1629,
+        "total_tokens": 31232,
+        "input_token_details": {},
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 138,
+      "status": "completed",
+      "started_at": "2026-08-23T21:29:02.581603+08:00",
+      "completed_at": "2026-08-23T21:29:12.636784+08:00",
+      "duration_seconds": 10.055,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3438,
+      "output_tokens": 640,
+      "total_tokens": 4078,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3438,
+        "output_tokens": 640,
+        "total_tokens": 4078,
+        "input_token_details": {},
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 139,
+      "status": "completed",
+      "started_at": "2026-08-23T21:29:02.581642+08:00",
+      "completed_at": "2026-08-23T21:29:12.959757+08:00",
+      "duration_seconds": 10.378,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2563,
+      "output_tokens": 757,
+      "total_tokens": 3320,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2563,
+        "output_tokens": 757,
+        "total_tokens": 3320,
+        "input_token_details": {},
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 140,
+      "status": "completed",
+      "started_at": "2026-08-23T21:29:02.581668+08:00",
+      "completed_at": "2026-08-23T21:29:08.269530+08:00",
+      "duration_seconds": 5.688,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4178,
+      "output_tokens": 392,
+      "total_tokens": 4570,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4178,
+        "output_tokens": 392,
+        "total_tokens": 4570,
+        "input_token_details": {},
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 141,
+      "status": "completed",
+      "started_at": "2026-08-23T21:29:02.581701+08:00",
+      "completed_at": "2026-08-23T21:29:09.613776+08:00",
+      "duration_seconds": 7.032,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2687,
+      "output_tokens": 568,
+      "total_tokens": 3255,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2687,
+        "output_tokens": 568,
+        "total_tokens": 3255,
+        "input_token_details": {},
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 142,
+      "status": "failed",
+      "started_at": "2026-08-23T21:29:26.730879+08:00",
+      "completed_at": "2026-08-23T21:33:15.699028+08:00",
+      "duration_seconds": 228.968,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": null,
+      "output_tokens": null,
+      "total_tokens": null,
+      "message_count": 15,
+      "token_usage_source": "missing",
+      "token_usage_available": false,
+      "token_usage_details": null,
+      "error_type": "BadRequestError",
+      "error": "Error code: 400 - {'error': {'message': 'Model service provider exception: {Response code: 400, body: {\"request_id\":\"8ebb0029-a879-91b7-87d2-82e776bd8036\",\"code\":\"InvalidParameter\",\"message\":\"<400> ***.***.DataInspectionFailed: Output data may contain inappropriate content.\"}}', 'type': 'bad_response_status_code', 'param': '', 'code': 'bad_response_status_code'}}"
+    },
+    {
+      "sequence": 143,
+      "status": "completed",
+      "started_at": "2026-08-23T21:33:15.705182+08:00",
+      "completed_at": "2026-08-23T21:35:14.933183+08:00",
+      "duration_seconds": 119.228,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 31336,
+      "output_tokens": 19353,
+      "total_tokens": 50689,
+      "message_count": 15,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 31336,
+        "output_tokens": 19353,
+        "total_tokens": 50689,
+        "input_token_details": {},
+        "output_token_details": {}
+      },
+      "finish_reason": "end_turn"
+    },
+    {
+      "sequence": 144,
+      "status": "completed",
+      "started_at": "2026-08-23T21:35:14.947623+08:00",
+      "completed_at": "2026-08-23T21:35:24.359380+08:00",
+      "duration_seconds": 9.412,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 21005,
+      "output_tokens": 828,
+      "total_tokens": 21833,
+      "message_count": 7,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 21005,
+        "output_tokens": 828,
+        "total_tokens": 21833,
+        "input_token_details": {},
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 145,
+      "status": "completed",
+      "started_at": "2026-08-23T21:35:24.367379+08:00",
+      "completed_at": "2026-08-23T21:35:29.538348+08:00",
+      "duration_seconds": 5.171,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 21557,
+      "output_tokens": 471,
+      "total_tokens": 22028,
+      "message_count": 9,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 21557,
+        "output_tokens": 471,
+        "total_tokens": 22028,
+        "input_token_details": {
+          "cache_read": 20736
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 146,
+      "status": "completed",
+      "started_at": "2026-08-23T21:35:29.546575+08:00",
+      "completed_at": "2026-08-23T21:38:51.316870+08:00",
+      "duration_seconds": 201.77,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 19919,
+      "output_tokens": 30897,
+      "total_tokens": 50816,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 19919,
+        "output_tokens": 30897,
+        "total_tokens": 50816,
+        "input_token_details": {},
+        "output_token_details": {}
+      },
+      "finish_reason": "end_turn"
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "status": "completed",
+      "query": "Chinese historiography War of Resistance Against Japan 1937-1945 major scholarly works",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.418,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Collaboration in Japanese-occupied China (1937-1945): Old and New Questions | Occupation Studies",
+          "url": "https://fasos-research.nl/occupationstudies/collaboration-in-japanese-occupied-china-1937-1945-old-and-new-questions",
+          "score": 0.7591723,
+          "raw_content_available": true,
+          "raw_content_length": 24664,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "China's War with Japan | Faculty of History",
+          "url": "https://www.history.ox.ac.uk/chinas-war-japan",
+          "score": 0.7092009,
+          "raw_content_available": true,
+          "raw_content_length": 26206,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Books - Secondary - Sino-Japanese War of 1937-1945: A Resource Guide - Research Guides at Library of Congress",
+          "url": "https://guides.loc.gov/sino-japanese-war-1937-1945/books-secondary",
+          "score": 0.6844544,
+          "raw_content_available": true,
+          "raw_content_length": 15850,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "The war of resistance against Japan (1937–1945) was a ...",
+          "url": "https://www.jstor.org/stable/26372424",
+          "score": 0.6721816,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "The Legacy of the Second Sino-Japanese War in ...",
+          "url": "https://apjjf.org/2022/11/tian",
+          "score": 0.07170176,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        }
+      ],
+      "sequence": 7,
+      "timestamp": "2026-08-23T21:26:49.909611+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "historiography Second Sino-Japanese War English-language scholarship overview",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 3.508,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Books - Secondary - Sino-Japanese War of 1937-1945: A Resource Guide - Research Guides at Library of Congress",
+          "url": "https://guides.loc.gov/sino-japanese-war-1937-1945/books-secondary",
+          "score": 0.5993685,
+          "raw_content_available": true,
+          "raw_content_length": 15850,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Second Sino-Japanese War",
+          "url": "https://en.wikipedia.org/wiki/Second_Sino-Japanese_War",
+          "score": 0.58664185,
+          "raw_content_available": true,
+          "raw_content_length": 582545,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Same Water Different Dreams",
+          "url": "https://www.usmcu.edu/Outreach/Marine-Corps-University-Press/MCU-Journal/JAMS-vol-11-no-2/Same-Water-Different-Dreams",
+          "score": 0.5809471,
+          "raw_content_available": true,
+          "raw_content_length": 33751,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "China's War with Japan | Faculty of History",
+          "url": "https://www.history.ox.ac.uk/chinas-war-japan",
+          "score": 0.4928966,
+          "raw_content_available": true,
+          "raw_content_length": 26206,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Historians in Asia Debate the Sino-Japanese War ... But Run into Political Divisions — History News Network",
+          "url": "https://www.hnn.us/article/historians-in-asia-debate-the-sino-japanese-war-bu",
+          "score": 0.31481943,
+          "raw_content_available": true,
+          "raw_content_length": 4939,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 8,
+      "timestamp": "2026-08-23T21:26:51.011869+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "中国抗日战争史 研究 学术史 综述",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 3.628,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "“中国抗日战争史研究的回顾与前瞻研讨会”综述",
+          "url": "http://jxyyj.ruc.edu.cn/CN/abstract/abstract15555.shtml",
+          "score": 0.8886914,
+          "raw_content_available": true,
+          "raw_content_length": 6771,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "[PDF] “抗战研究七十年:回顾与展望” 学术讨论会综述",
+          "url": "https://www.krzzjn.com/uploadfile/2020/1207/20201207100620254.pdf",
+          "score": 0.8559598,
+          "raw_content_available": true,
+          "raw_content_length": 10833,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "贺江枫、叶子锐 | 日记与中国抗日战争史学术研讨会综述",
+          "url": "http://jds.cass.cn/xscg/xslw/202403/t20240312_5737918.shtml",
+          "score": 0.8479807,
+          "raw_content_available": true,
+          "raw_content_length": 10426,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "微信读书",
+          "url": "https://weread.qq.com/web/bookDetail/a1a32140811e8a97eg011789",
+          "score": 0.8138313,
+          "raw_content_available": true,
+          "raw_content_length": 1187,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "中国历史研究院",
+          "url": "http://hrczh.cass.cn/sxqy/zgs/202502/t20250228_5853389.shtml",
+          "score": 0.81133276,
+          "raw_content_available": true,
+          "raw_content_length": 5750,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 9,
+      "timestamp": "2026-08-23T21:26:51.139128+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Chinese Civil War why Nationalists lost debate historiography",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.841,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Chinese Civil War - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Chinese_Civil_War",
+          "score": 0.6889923,
+          "raw_content_available": true,
+          "raw_content_length": 502124,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Practices of the Chinese Civil War – The Past Changes a Little Every Time We Retell It",
+          "url": "https://stg.igbis.edu.my/the-past-changes-a-little-every-time-we-retell-it/causes-and-effects-of-c20th-wars/chinese-civil-war/practices-of-the-chinese-civil-war",
+          "score": 0.6147415,
+          "raw_content_available": true,
+          "raw_content_length": 20155,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Chinese Civil War | Summary, Causes, & Results | Britannica",
+          "url": "https://www.britannica.com/event/Chinese-Civil-War",
+          "score": 0.4928966,
+          "raw_content_available": true,
+          "raw_content_length": 19369,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "The Collapse of Nationalist China: How Chiang Kai-shek Lost China’s Civil War – Fairbank Center for Chinese Studies",
+          "url": "https://fairbank.fas.harvard.edu/research/publications/the-collapse-of-nationalist-china-how-chiang-kai-shek-lost-chinas-civil-war",
+          "score": 0.48162505,
+          "raw_content_available": true,
+          "raw_content_length": 2070,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Who lost China? | Harry S. Truman",
+          "url": "https://www.trumanlibrary.gov/education/presidential-inquiries/who-lost-china",
+          "score": 0.33737868,
+          "raw_content_available": true,
+          "raw_content_length": 10215,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 21,
+      "timestamp": "2026-08-23T21:26:53.105923+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "historiography Chinese Civil War postwar period research fields perspectives",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.887,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Practices of the Chinese Civil War - IGB International School",
+          "url": "https://stg.igbis.edu.my/the-past-changes-a-little-every-time-we-retell-it/causes-and-effects-of-c20th-wars/chinese-civil-war/practices-of-the-chinese-civil-war",
+          "score": 0.65359193,
+          "raw_content_available": true,
+          "raw_content_length": 20155,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "The Chinese Civil War 1945-1949 (Documentary)",
+          "url": "https://www.youtube.com/watch?v=7slhD9PmxII",
+          "score": 0.6002124,
+          "raw_content_available": true,
+          "raw_content_length": 40904,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "The Chinese Civil War: 1945–49 - Osprey",
+          "url": "https://www.ospreypublishing.com/us/osprey-blog/2022/the-chinese-civil-war-1945-49",
+          "score": 0.30631998,
+          "raw_content_available": true,
+          "raw_content_length": 16639,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Milestones 1945-1952 – The Chinese Revolution of 1949",
+          "url": "https://history.state.gov/milestones/1945-1952/chinese-rev",
+          "score": 0.20277487,
+          "raw_content_available": true,
+          "raw_content_length": 6809,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "The Chinese Civil War: Causes, Rise Of Mao Zedong & Republic of China | HistoryExtra",
+          "url": "https://www.historyextra.com/period/20th-century/chinese-civil-war-china-chiang-kai-shek-mao-zedong-communism",
+          "score": 0.1924638,
+          "raw_content_available": true,
+          "raw_content_length": 13957,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 22,
+      "timestamp": "2026-08-23T21:26:53.143318+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Chinese Civil War historiography major scholarly works 1945-1949",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 4.195,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "The Chinese Civil War 1945-1949 (Documentary)",
+          "url": "https://www.youtube.com/watch?v=7slhD9PmxII",
+          "score": 0.84918517,
+          "raw_content_available": true,
+          "raw_content_length": 40904,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "CHINA’S CIVIL WAR: A Social History, 1945-1949 | By Diana Lary | Pacific Affairs (UBC Journal)",
+          "url": "https://pacificaffairs.ubc.ca/book-reviews/chinas-civil-war-a-social-history-1945-1949-by-diana-lary",
+          "score": 0.8312667,
+          "raw_content_available": true,
+          "raw_content_length": 9145,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Chinese Civil War - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Chinese_Civil_War",
+          "score": 0.80844593,
+          "raw_content_available": true,
+          "raw_content_length": 502124,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "The Chinese Civil War: 1945–49",
+          "url": "https://www.ospreypublishing.com/us/osprey-blog/2022/the-chinese-civil-war-1945-49",
+          "score": 0.65252984,
+          "raw_content_available": true,
+          "raw_content_length": 16639,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Chinese Civil War | Summary, Causes, & Results - Britannica",
+          "url": "https://www.britannica.com/event/Chinese-Civil-War",
+          "score": 0.57437146,
+          "raw_content_available": true,
+          "raw_content_length": 19369,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 23,
+      "timestamp": "2026-08-23T21:26:54.442216+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Zhongguo neizhan yanjiu Chinese scholarship Civil War historiography",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.342,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "[PDF] Tobie Meyer-Fong - Krieger School of Arts & Sciences",
+          "url": "https://krieger.jhu.edu/history/wp-content/uploads/sites/32/2017/08/Meyer-Fong-CV-2016.pdf",
+          "score": 0.49318945,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "Changed by War: The Changing Historiography Of Wartime China and New Interpretations Of Modern Chinese History | Faculty of History",
+          "url": "https://www.history.ox.ac.uk/publication/668733/manual",
+          "score": 0.19001694,
+          "raw_content_available": true,
+          "raw_content_length": 2765,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Ep. 119 | The Chinese Civil War (Part 1) — The China History Podcast",
+          "url": "https://teacup.media/chinahistorypodcastepisodes/ep-119-the-chinese-civil-war-part-1",
+          "score": 0.16603917,
+          "raw_content_available": true,
+          "raw_content_length": 9579,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "The Chinese Civil War 1944-1949: A Study of the Major Causes for the Defeat of Nationalist China | Redlands Repository",
+          "url": "https://inspire.redlands.edu/works/publication-dissertation/1j7es-5jk95",
+          "score": 0.1436799,
+          "raw_content_available": true,
+          "raw_content_length": 5068,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Richards Prize - The Journal of the Civil War Era",
+          "url": "https://www.journalofthecivilwarera.org/awards/richards-prize",
+          "score": 0.1200568,
+          "raw_content_available": true,
+          "raw_content_length": 21055,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 37,
+      "timestamp": "2026-08-23T21:27:14.562057+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Sino-American relations 1945-1949 historiography lost chance debate China",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.914,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Lost Chance in China",
+          "url": "https://www.jstor.org/stable/2701995",
+          "score": 0.5482629,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "Milestones 1945-1952 – The Chinese Revolution of 1949",
+          "url": "https://history.state.gov/milestones/1945-1952/chinese-rev",
+          "score": 0.4613328,
+          "raw_content_available": true,
+          "raw_content_length": 6809,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "History of China’s Foreign Relations with John Garver",
+          "url": "https://www.youtube.com/watch?v=689pAwUsNW0",
+          "score": 0.39887524,
+          "raw_content_available": true,
+          "raw_content_length": 60450,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "History of the U.S. and China",
+          "url": "https://china.usembassy-china.org.cn/history-of-the-u-s-and-china",
+          "score": 0.3388867,
+          "raw_content_available": true,
+          "raw_content_length": 89909,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "The United States and China during the Cold War",
+          "url": "https://www.gilderlehrman.org/history-resources/essays/united-states-and-china-during-cold-war",
+          "score": 0.24501769,
+          "raw_content_available": true,
+          "raw_content_length": 43719,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 38,
+      "timestamp": "2026-08-23T21:27:15.122310+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Chinese Civil War historiography key scholars books Suzanne Pepper Odd Arne Westad",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 3.049,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Chinese language - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Chinese_language",
+          "score": 0.08146875,
+          "raw_content_available": true,
+          "raw_content_length": 269293,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Chinese | Asian Studies | Liberal Arts | UT - Austin",
+          "url": "https://liberalarts.utexas.edu/asianstudies/languages-in-asian-studies/chinese.html",
+          "score": 0.051144414,
+          "raw_content_available": true,
+          "raw_content_length": 5696,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Chinese languages | History, Characteristics, Dialects, Types, & Facts | Britannica",
+          "url": "https://www.britannica.com/topic/Chinese-languages",
+          "score": 0.037881825,
+          "raw_content_available": true,
+          "raw_content_length": 15480,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Mandarin vs Chinese: What’s The Difference?",
+          "url": "https://www.pimsleur.com/blog/mandarin-vs-chinese-whats-the-difference",
+          "score": 0.02850362,
+          "raw_content_available": true,
+          "raw_content_length": 5499,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "NE Chinese Restaurant - Columbus in OH | Online Ordering",
+          "url": "https://www.nechinese.com",
+          "score": 0.015202235,
+          "raw_content_available": true,
+          "raw_content_length": 8117,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 39,
+      "timestamp": "2026-08-23T21:27:15.248423+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Chinese Civil War social history economic history scholarship 1945-1949",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 3.933,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "CHINA'S CIVIL WAR: A Social History, 1945-1949 | By Diana ...",
+          "url": "https://pacificaffairs.ubc.ca/book-reviews/chinas-civil-war-a-social-history-1945-1949-by-diana-lary",
+          "score": 0.8232293,
+          "raw_content_available": true,
+          "raw_content_length": 9145,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Chinese Civil War - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Chinese_Civil_War",
+          "score": 0.81524754,
+          "raw_content_available": true,
+          "raw_content_length": 502124,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Chinese Civil War (国共内战) Overview · The Chinese Civil War (国共内战) 1945-1949 · Chinese History for Teachers",
+          "url": "https://chinesehistoryforteachers.omeka.net/exhibits/show/civil-war/civil-war-overview",
+          "score": 0.776708,
+          "raw_content_available": true,
+          "raw_content_length": 20921,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "The Chinese Civil War 1945-1949 (Documentary)",
+          "url": "https://www.youtube.com/watch?v=7slhD9PmxII",
+          "score": 0.6773251,
+          "raw_content_available": true,
+          "raw_content_length": 40904,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Chinese Civil War | Summary, Causes, & Results - Britannica",
+          "url": "https://www.britannica.com/event/Chinese-Civil-War",
+          "score": 0.6077801,
+          "raw_content_available": true,
+          "raw_content_length": 19369,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 40,
+      "timestamp": "2026-08-23T21:27:16.147684+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Chinese wartime memory studies trauma studies 1937-1945",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.368,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "China in World War II, 1937–1945: Experience, Memory, and Legacy* | Modern Asian Studies | Cambridge Core",
+          "url": "https://www.cambridge.org/core/journals/modern-asian-studies/article/china-in-world-war-ii-19371945-experience-memory-and-legacy/FE41E41B7F9DB7C5E75CE44AFD2EDF7D",
+          "score": 0.74652773,
+          "raw_content_available": true,
+          "raw_content_length": 25801,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "China in World War II, 1937-1945: Experience, Memory, and Legacy - University of Edinburgh Research Explorer",
+          "url": "https://www.research.ed.ac.uk/en/publications/china-in-world-war-ii-1937-1945-experience-memory-and-legacy",
+          "score": 0.74385756,
+          "raw_content_available": true,
+          "raw_content_length": 8131,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "The Legacy of the Second Sino-Japanese War in ...",
+          "url": "https://apjjf.org/2022/11/tian",
+          "score": 0.72907686,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "China's Collective Memory of the War of Resistance",
+          "url": "https://www.cjfp.org/chinas-collective-memory-of-the-war-of-resistance",
+          "score": 0.69399214,
+          "raw_content_available": true,
+          "raw_content_length": 21684,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "China in World War II, 1937-1945: Experience, Memory, and ...",
+          "url": "https://www.politics.ox.ac.uk/publication/china-world-war-ii-1937-1945-experience-memory-and-legacy",
+          "score": 0.67037153,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        }
+      ],
+      "sequence": 59,
+      "timestamp": "2026-08-23T21:27:20.186852+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Rana Mitter China's War with Japan Forgotten Ally historiography",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.397,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Forgotten Ally: China's World War II - With Rana Mitter",
+          "url": "https://www.youtube.com/watch?v=wpBmOlUjDUo",
+          "score": 0.8963332,
+          "raw_content_available": true,
+          "raw_content_length": 71418,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Season 5 Episode 3: Rana Mitter, Forgotten Ally: China's World War II, 1937-1945",
+          "url": "https://bookclubwithjeffreysachs.buzzsprout.com/1648477/episodes/19098322-season-5-episode-3-rana-mitter-forgotten-ally-china-s-world-war-ii-1937-1945",
+          "score": 0.81204927,
+          "raw_content_available": true,
+          "raw_content_length": 5583,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Forgotten Ally: China's World War II 1937-1945 (Rana Mitter)",
+          "url": "https://jeffrich.substack.com/p/forgotten-ally-chinas-world-war-ii",
+          "score": 0.81133276,
+          "raw_content_available": true,
+          "raw_content_length": 18254,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Forgotten ally : China's World War II, 1937-1945 : Mitter, Rana, 1969- author : Free Download, Borrow, and Streaming : Internet Archive",
+          "url": "https://archive.org/details/forgottenallychi0000mitt",
+          "score": 0.80844593,
+          "raw_content_available": true,
+          "raw_content_length": 14969,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "China's War, China's Memories | The National WWII Museum | New Orleans",
+          "url": "https://www.nationalww2museum.org/about-us/notes-museum/chinas-war-chinas-memories",
+          "score": 0.79732054,
+          "raw_content_available": true,
+          "raw_content_length": 7279,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 60,
+      "timestamp": "2026-08-23T21:27:20.200995+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Nanjing Massacre historiography scholarly debates Iris Chang",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.431,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "The Rape of Nanking (book) - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/The_Rape_of_Nanking_(book)",
+          "score": 0.74541736,
+          "raw_content_available": true,
+          "raw_content_length": 78827,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Examining the Controversy Surrounding Iris Chang's The Rape ...",
+          "url": "https://humanityjournal.org/issue8-1/debating-history-and-memory-examining-the-controversy-surrounding-iris-changs-the-rape-of-nanking",
+          "score": 0.6654328,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "Top 10s - Iris Chang was an American author and historian...",
+          "url": "https://www.facebook.com/CharlieTop10s/posts/iris-chang-was-an-american-author-and-historian-whose-work-brought-global-attent/1429492745889405",
+          "score": 0.62852204,
+          "raw_content_available": true,
+          "raw_content_length": 61924,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "'Power of One': Situating the 'Iris Chang Phenomenon' in the ...",
+          "url": "https://www.tandfonline.com/doi/abs/10.1080/10670564.2024.2360657",
+          "score": 0.598524,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "The Nanjing Massacre: A Review Essay - Project MUSE",
+          "url": "https://muse.jhu.edu/article/8682/summary",
+          "score": 0.28986442,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        }
+      ],
+      "sequence": 61,
+      "timestamp": "2026-08-23T21:27:20.240251+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Second Sino-Japanese War social history Diana Lary Joshua Fogel",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.865,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "CHINA'S CIVIL WAR: A Social History, 1945-1949 | By Diana ...",
+          "url": "https://pacificaffairs.ubc.ca/book-reviews/chinas-civil-war-a-social-history-1945-1949-by-diana-lary",
+          "score": 0.76972175,
+          "raw_content_available": true,
+          "raw_content_length": 9145,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "(New Approaches To Asian History) Diana Lary - The Chinese People at War - Human Suffering and Social Transformation, 1937-1945-Cambridge University Press (2010) | PDF | Family | China",
+          "url": "https://www.scribd.com/document/744092009/New-Approaches-to-Asian-History-Diana-Lary-The-Chinese-People-at-War-Human-Suffering-and-Social-Transformation-1937-1945-Cambridge-University-Pr",
+          "score": 0.6058229,
+          "raw_content_available": true,
+          "raw_content_length": 4259,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Chinese women in the Second Sino-Japanese War - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Women_in_China_during_the_Second_Sino-Japanese_War",
+          "score": 0.604703,
+          "raw_content_available": true,
+          "raw_content_length": 45755,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "The Legacy of the Second Sino-Japanese War in the People's Republic of China: Mapping the Official Discourses of Memory | Asia-Pacific Journal | Cambridge Core",
+          "url": "https://www.cambridge.org/core/journals/asia-pacific-journal/article/legacy-of-the-second-sinojapanese-war-in-the-peoples-republic-of-china-mapping-the-official-discourses-of-memory/C7474BEBCC350F4E25127C01BFC12BD3",
+          "score": 0.20601448,
+          "raw_content_available": true,
+          "raw_content_length": 14349,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Second - Simple English Wikipedia, the free encyclopedia",
+          "url": "https://simple.wikipedia.org/wiki/Second",
+          "score": 0.108897865,
+          "raw_content_available": true,
+          "raw_content_length": 41871,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 62,
+      "timestamp": "2026-08-23T21:27:20.678254+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Taiwanese historiography War of Resistance Against Japan",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 3.484,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Taiwan under Japanese rule - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Taiwan_under_Japanese_rule",
+          "score": 0.5524679,
+          "raw_content_available": true,
+          "raw_content_length": 324620,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "[Photo story] The historical aftermath of Japan's colonisation of Taiwan | ThinkChina",
+          "url": "https://www.thinkchina.sg/history/photo-story-historical-aftermath-japans-colonisation-taiwan",
+          "score": 0.50329643,
+          "raw_content_available": true,
+          "raw_content_length": 18406,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Taiwan Confronts its WWII Legacy",
+          "url": "https://www.chinatalk.media/p/taiwan-confronts-wwii",
+          "score": 0.49875546,
+          "raw_content_available": true,
+          "raw_content_length": 25697,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "HISTORY - Taiwan.gov.tw - Government Portal of the ...",
+          "url": "https://www.taiwan.gov.tw/content_3.php",
+          "score": 0.35756806,
+          "raw_content_available": true,
+          "raw_content_length": 16431,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "In... - Mao Ning Chinese Foreign Ministry Spokesperson 毛宁",
+          "url": "https://www.facebook.com/61573130600577/posts/in-history-japan-forcibly-occupied-taiwan-and-exerted-colonial-rule-on-the-islan/122159189258771020",
+          "score": 0.18723702,
+          "raw_content_available": true,
+          "raw_content_length": 20111,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 63,
+      "timestamp": "2026-08-23T21:27:21.303943+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "抗日战争研究 南京大屠杀 慰安妇 学术争论",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 4.218,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "一年来抗日战争史研究综述 - 综合资料 - 抗日战争纪念网",
+          "url": "https://m.krzzjn.com/show-607-38081.html",
+          "score": 0.7413937,
+          "raw_content_available": true,
+          "raw_content_length": 13605,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "“南京大屠杀”权威研究者张宪文：我们对抗日战争的研究，不是足够，而是不够",
+          "url": "http://news.cyol.com/gb/articles/2021-12/13/content_lzbLBTWo8.html",
+          "score": 0.7159213,
+          "raw_content_available": true,
+          "raw_content_length": 9465,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "南京大屠殺 - 维基百科，自由的百科全书",
+          "url": "https://zh.wikipedia.org/wiki/%E5%8D%97%E4%BA%AC%E5%A4%A7%E5%B1%A0%E6%AE%BA",
+          "score": 0.6780931,
+          "raw_content_available": true,
+          "raw_content_length": 327808,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "日本侵华南京大屠杀研究 | 侵华日军南京大屠杀遇难同胞纪念馆",
+          "url": "https://www.19371213.com.cn/research/rbqhnjdtsyj",
+          "score": 0.53895956,
+          "raw_content_available": true,
+          "raw_content_length": 8871,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "汪海涛 | 《抗日战争研究》30年论文主题探密",
+          "url": "http://jds.cass.cn/xscg/ybwz/202302/t20230209_5587050.shtml",
+          "score": 0.47373086,
+          "raw_content_available": true,
+          "raw_content_length": 18037,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 64,
+      "timestamp": "2026-08-23T21:27:22.041614+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Timothy Brook collaboration Chinese wartime Japan scholarship",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 1.483,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Collaboration: Japanese Agents and Local Elites in ...",
+          "url": "https://www.amazon.com/Collaboration-Japanese-Agents-Elites-Wartime/dp/0674023986",
+          "score": 0.7646988,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "Timothy Brook Archives",
+          "url": "https://apjjf.org/timothy-brook",
+          "score": 0.7279179,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "Japanese Agents and Local Elites in Wartime China (review)",
+          "url": "https://muse.jhu.edu/article/212069/summary",
+          "score": 0.7244226,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "Review of Timothy Brook's Collaboration - Frog in a Well",
+          "url": "https://froginawell.net/frog/2006/04/review-of-timothy-brooks-collaboration",
+          "score": 0.6811549,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "Japanese Agents and Local Elites in Wartime China",
+          "url": "https://en.wikipedia.org/wiki/Collaboration:_Japanese_Agents_and_Local_Elites_in_Wartime_China",
+          "score": 0.5189612,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        }
+      ],
+      "sequence": 93,
+      "timestamp": "2026-08-23T21:28:02.363592+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Hans van de Ven Mark Peattie Battle for China military history",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 1.632,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Essays on the Military History of the Sino-Japanese War of 1937-1945",
+          "url": "https://www.fulcrum.org/concern/monographs/ww72bd856",
+          "score": 0.7732339,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "Review: The Battle for China: Essays on the Military History of the Sino ...",
+          "url": "https://online.ucpress.edu/jjs/article/39/2/469/201602/Review-The-Battle-for-China-Essays-on-the-Military",
+          "score": 0.76701033,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "Essays on the Military History of the Sino-Japanese war of 1937-1945 ...",
+          "url": "https://brill.com/view/journals/jcmh/1/1/article-p99_9.xml",
+          "score": 0.76321954,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "Essays on the Military History of the Sino-Japanese War of 1937–1945 ...",
+          "url": "https://muse.jhu.edu/pub/44/article/514400/pdf",
+          "score": 0.7613083,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "The Battle for China: Essays on the Military History of the Sino ...",
+          "url": "https://books.google.com/books/about/The_Battle_for_China.html?id=YBfznQEACAAJ",
+          "score": 0.7507177,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        }
+      ],
+      "sequence": 94,
+      "timestamp": "2026-08-23T21:28:02.531590+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "comfort women scholarship Yoshimi Su Zhiliang historiography",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.33,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "The Fruits of 28 years of Investigation into the “Comfort Women",
+          "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/5DD450FEFCFBE39C98D422CA893A7295/S1557466021037980a.pdf/reconstructing-the-history-of-the-comfort-women-system-the-fruits-of-28-years-of-investigation-into-the-comfort-women-issue-in-china.pdf",
+          "score": 0.7279179,
+          "raw_content_available": true,
+          "raw_content_length": 57148,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Reconstructing the History of the “Comfort Women” System",
+          "url": "https://apjjf.org/2021/5/su",
+          "score": 0.62879556,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "[PDF] JF Special Issue: 'The Comfort Women as Public History' - UCL Discovery",
+          "url": "https://discovery.ucl.ac.uk/id/eprint/10127536/3/Frost_1.%20CW%20INTRO%20FROSTVICKERS02_09%202.m.%20finally%20final%200210.pdf",
+          "score": 0.5441965,
+          "raw_content_available": true,
+          "raw_content_length": 69809,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "UCLA CKS - Comfort Women Resource Center",
+          "url": "https://www.international.ucla.edu/cks/care/overview/251594",
+          "score": 0.53692055,
+          "raw_content_available": true,
+          "raw_content_length": 18410,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Comfort Women Research & Creative Scholarship Small Grants Program | College of Ethnic Studies",
+          "url": "https://ethnicstudies.sfsu.edu/comfort-women-research-creative-scholarship-small-grants-program",
+          "score": 0.48060113,
+          "raw_content_available": true,
+          "raw_content_length": 6150,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 95,
+      "timestamp": "2026-08-23T21:28:03.221190+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "gender history wartime China Gail Hershatter women",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.367,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Gail Hershatter Discusses Her Book \"The Gender Of Memory: Rural Women And China's Collective Past\"",
+          "url": "https://www.youtube.com/watch?v=DLf0C3P28L0",
+          "score": 0.72884524,
+          "raw_content_available": true,
+          "raw_content_length": 9115,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Research | Gail Hershatter, UC Santa Cruz",
+          "url": "https://gailhershatter.sites.ucsc.edu/research",
+          "score": 0.70263255,
+          "raw_content_available": true,
+          "raw_content_length": 6022,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "The Gender of Memory: Rural Women and China’s Collective Past, by Gail Hershatter (2011) - Not Even Past",
+          "url": "https://notevenpast.org/the-gender-of-memory-rural-women-and-chinas-collective-past-by-gail-hershatter-2011",
+          "score": 0.7011614,
+          "raw_content_available": true,
+          "raw_content_length": 8329,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Gail Hershatter: Reframing the Chinese Revolution through Rural Women’s Personal Histories (Excerpts) – Barnard Center for Research on Women",
+          "url": "https://bcrw.barnard.edu/video/gail-hershatter-reframing-the-chinese-revolution-through-rural-womens-personal-histories-excerpts",
+          "score": 0.6628188,
+          "raw_content_available": true,
+          "raw_content_length": 2701,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "‪Gail Hershatter‬ - ‪Google Scholar‬",
+          "url": "https://scholar.google.com/citations?user=9fDqgVYAAAAJ&hl=en",
+          "score": 0.58976424,
+          "raw_content_available": true,
+          "raw_content_length": 7811,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 96,
+      "timestamp": "2026-08-23T21:28:03.282784+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Taiwan history War of Resistance Against Japan 抗日 研究 學者",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.888,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Taiwan Confronts its WWII Legacy",
+          "url": "https://www.chinatalk.media/p/taiwan-confronts-wwii",
+          "score": 0.51193684,
+          "raw_content_available": true,
+          "raw_content_length": 25697,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Taiwanese resistance to Japanese colonialism",
+          "url": "https://en.wikipedia.org/wiki/Taiwanese_resistance_to_Japanese_colonialism",
+          "score": 0.5021246,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "A Multi-Perspective Analysis of the Japanese Factor in the Taiwan Issue - Interpret: China",
+          "url": "https://interpret.csis.org/translations/a-multi-perspective-analysis-of-the-japanese-factor-in-the-taiwan-issue",
+          "score": 0.43813655,
+          "raw_content_available": true,
+          "raw_content_length": 69636,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "A patriotic family's half-century resistance against ...",
+          "url": "http://english.scio.gov.cn/m/in-depth/2025-08/25/content_118040928.html",
+          "score": 0.2716861,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "History in the Making--What Taiwanese Were Told About ...",
+          "url": "https://www.taiwan-panorama.com/en/Articles/Details?Guid=",
+          "score": 0.18103175,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        }
+      ],
+      "sequence": 97,
+      "timestamp": "2026-08-23T21:28:03.792933+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "oral history Chinese War of Resistance methodology",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 4.018,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Mapping the Gap: Translation and Dissemination of China’s War of Resistance Historical Documents in the Anglophone World (Since 1937)",
+          "url": "https://www.scirp.org/journal/paperinformation?paperid=144777",
+          "score": 0.49011418,
+          "raw_content_available": true,
+          "raw_content_length": 55898,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Chinese oral history project , 1958-1975",
+          "url": "https://findingaids.library.columbia.edu/archives/cul-4074387",
+          "score": 0.42634606,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "The Chinese War of Resistence against Japanese Aggression: 1931-1945: a World History Perspective (Part I) - Xi'an Jiaotong-Liverpool University",
+          "url": "https://scholar.xjtlu.edu.cn/en/publications/the-chinese-war-of-resistence-against-japanese-aggression-1931-19",
+          "score": 0.34886748,
+          "raw_content_available": true,
+          "raw_content_length": 8235,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "History of resistance war provides a wealth of research ...",
+          "url": "http://english.cssn.cn/NewEra/202607/t20260721_6060264.shtml",
+          "score": 0.3058533,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "The book offers a methodological lesson. Diplomatic ...",
+          "url": "https://www.jstor.org/stable/26923791",
+          "score": 0.16652656,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        }
+      ],
+      "sequence": 98,
+      "timestamp": "2026-08-23T21:28:04.929411+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Diana Lary Chinese People at War wartime China scholarship",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 1.611,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "The Chinese People at War: Human Suffering and Social Transformation ...",
+          "url": "https://www.researchgate.net/publication/285378668_The_Chinese_people_at_war_Human_suffering_and_social_transformation_1937-1945",
+          "score": 0.6711479,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "Book Reviews - Diana Lary - China's Civil War - Brill",
+          "url": "https://brill.com/previewpdf/journals/jcmh/5/1/article-p91_5.xml",
+          "score": 0.63723457,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "(New Approaches To Asian History) Diana Lary - The Chinese People at War - Human Suffering and Social Transformation, 1937-1945-Cambridge University Press (2010) | PDF | Family | China",
+          "url": "https://www.scribd.com/document/744092009/New-Approaches-to-Asian-History-Diana-Lary-The-Chinese-People-at-War-Human-Suffering-and-Social-Transformation-1937-1945-Cambridge-University-Pr",
+          "score": 0.6002124,
+          "raw_content_available": true,
+          "raw_content_length": 4259,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Professor Diana Lary recalls the immense suffering and remarkable ...",
+          "url": "https://www.facebook.com/cgtnamerica/videos/professor-diana-lary-recalls-the-immense-suffering-and-remarkable-resilience-of-/1346379033586331",
+          "score": 0.5602773,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "THE CHINESE PEOPLE AT WAR: Human Suffering and Social ...",
+          "url": "https://pacificaffairs.ubc.ca/book-reviews/the-chinese-people-at-war-human-suffering-and-social-transformation-1937-1945-by-diana-lary",
+          "score": 0.5345888,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        }
+      ],
+      "sequence": 114,
+      "timestamp": "2026-08-23T21:28:59.988301+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "抗战时期 大后方 研究 南开大学 学术史",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 1.977,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "国家社科基金抗日战争研究专项工程项目“中国抗战大后方历史文献资料整理与研究”结项鉴定会顺利举行-西南大学历史文化学院 民族学院",
+          "url": "http://his.swu.edu.cn/info/1218/3862.htm",
+          "score": 0.5786631,
+          "raw_content_available": true,
+          "raw_content_length": 2740,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "“抗战研究70年：回顾与展望”讨论会在南开大学闭幕",
+          "url": "http://jds.cssn.cn/newzxdt/202101/t20210128_5296230.shtml",
+          "score": 0.48879638,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "“区域、国家和全球视野下的武汉抗战与世界反法西斯战争学术研讨会”入选论文公示",
+          "url": "https://rwxy.jhun.edu.cn/59/26/c967a219430/pagem.htm",
+          "score": 0.48411235,
+          "raw_content_available": true,
+          "raw_content_length": 5483,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "西南联大抗战大后方民族社会历史调查特展”在国家海洋 ...",
+          "url": "https://news.nankai.edu.cn/ywsd/system/2025/09/04/030068598.shtml",
+          "score": 0.47154015,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "从经济与社会视角深化抗战史研究-南京大学",
+          "url": "https://www.nju.edu.cn/info/1056/468971.htm",
+          "score": 0.33528608,
+          "raw_content_available": true,
+          "raw_content_length": 3689,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 115,
+      "timestamp": "2026-08-23T21:29:00.375409+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Mitter China's Good War memory politics how China remembers",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.34,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "The Battlefield of Memory: On Rana Mitter’s “China’s Good War” | Los Angeles Review of Books",
+          "url": "https://lareviewofbooks.org/article/the-battlefield-of-memory-on-rana-mitters-chinas-good-war",
+          "score": 0.7797419,
+          "raw_content_available": true,
+          "raw_content_length": 21442,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "China’s Good War — Harvard University Press",
+          "url": "https://www.hup.harvard.edu/books/9780674278615",
+          "score": 0.7610953,
+          "raw_content_available": true,
+          "raw_content_length": 12414,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Review of China's Good War: How World War II Is Shaping ...",
+          "url": "https://journals.publishing.umich.edu/gs/article/id/3431",
+          "score": 0.7598145,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "China's War, China's Memories | The National WWII Museum | New Orleans",
+          "url": "https://www.nationalww2museum.org/about-us/notes-museum/chinas-war-chinas-memories",
+          "score": 0.74961954,
+          "raw_content_available": true,
+          "raw_content_length": 7279,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "\"China’s Good War: How World War II Is Shaping a New Nationalism\" by Rana Mitter - Asian Review of Books",
+          "url": "https://asianreviewofbooks.com/chinas-good-war-how-world-war-ii-is-shaping-a-new-nationalism-by-rana-mitter",
+          "score": 0.70702106,
+          "raw_content_available": true,
+          "raw_content_length": 17755,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 116,
+      "timestamp": "2026-08-23T21:29:00.724212+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "第二戰場 敵後戰場 正面戰場 研究 爭論 學術",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.527,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "近史所王建朗：正面战场和敌后战场两者缺一不可",
+          "url": "https://www.cass.cn/xueshuchengguo/wenzhexuebulishixuebu/201507/t20150707_2068463.shtml",
+          "score": 0.59061456,
+          "raw_content_available": true,
+          "raw_content_length": 5593,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "如何正确认识抗日战争研究中的几个热点问题",
+          "url": "https://www.dswxyjy.org.cn/n1/2019/0625/c427814-31188177.html",
+          "score": 0.46482924,
+          "raw_content_available": true,
+          "raw_content_length": 16922,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "为什么说中国抗日战争时期形成的两个战场是战争史上的奇观？-宣城市委党史地方志室",
+          "url": "https://dsfz.xuancheng.gov.cn/News/show/1519973.html",
+          "score": 0.37717408,
+          "raw_content_available": true,
+          "raw_content_length": 2942,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "中国抗战胜利网-中国共产党与抗日战争",
+          "url": "https://www.1937china.com/kzslw/views/ztgz/ztgz_zgykr.html",
+          "score": 0.117663585,
+          "raw_content_available": true,
+          "raw_content_length": 3029,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "张海鹏|抗日战争史宏观理论框架建构之我见_南京民间抗日战争博物馆",
+          "url": "http://www.1937nanjing.org/xueshujiaoliu/xueshuyanjiu/2025/1112/5719.html",
+          "score": 0.061927155,
+          "raw_content_available": true,
+          "raw_content_length": 19519,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 117,
+      "timestamp": "2026-08-23T21:29:00.916355+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "汪伪政权 研究 抗日戰爭史 学者 综述",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 3.355,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "回眸与展望: 建国以来的 沦陷区和伪政权研究 余子道 当1949 年10 月1 日第一面五星红旗在北京天安门广场冉冉",
+          "url": "https://www.krzzjn.com/uploadfile/2020/0504/20200504105553418.pdf",
+          "score": 0.7946564,
+          "raw_content_available": true,
+          "raw_content_length": 23004,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "日本有关汪精卫及汪伪政权之研究状况",
+          "url": "http://jds.cssn.cn/webpic/web/jdsww/UploadFiles/zyqk/2010/12/201012091119391154.pdf",
+          "score": 0.7668008,
+          "raw_content_available": true,
+          "raw_content_length": 6894,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "汪精卫国民政府 - 维基百科，自由的百科全书",
+          "url": "https://zh.wikipedia.org/zh-hans/汪精卫国民政府",
+          "score": 0.7018975,
+          "raw_content_available": true,
+          "raw_content_length": 157570,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "汪伪政权全史（上下卷） 9787208064867 - DOKUMEN.PUB",
+          "url": "https://dokumen.pub/9787208064867.html",
+          "score": 0.6342494,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "оΪսʷоҪ---",
+          "url": "http://theory.people.com.cn/n/2015/0819/c40531-27483456.html",
+          "score": 0.027420785,
+          "raw_content_available": true,
+          "raw_content_length": 3230,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 118,
+      "timestamp": "2026-08-23T21:29:01.748954+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "台灣 抗日戰爭史 研究 學術史 中央研究院",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 4.192,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "略論第二次中日戰爭史的研究 — 海峽評論",
+          "url": "https://haixia-info.com/articles/2423",
+          "score": 0.8033131,
+          "raw_content_available": true,
+          "raw_content_length": 5693,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "中央研究院近代史研究所 Institute of Modern History, Academia Sinica",
+          "url": "https://www.mh.sinica.edu.tw/UserDetail.aspx?userID=719&mid=16&tmid=2",
+          "score": 0.78749067,
+          "raw_content_available": true,
+          "raw_content_length": 31330,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "抗戰史研究必收：15種中日戰爭電子資源彙整",
+          "url": "https://asmhlibref.blogspot.com/2025/12/15.html",
+          "score": 0.629889,
+          "raw_content_available": true,
+          "raw_content_length": 8154,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "總統出席「戰爭的歷史與記憶：抗戰勝利七十週年國際學術研討會」開幕式暨抗戰史叢書發表會-總統府新聞-新聞與活動｜中華民國總統府",
+          "url": "https://www.president.gov.tw/NEWS/19581",
+          "score": 0.55767727,
+          "raw_content_available": true,
+          "raw_content_length": 6283,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "抗日战争史研究室",
+          "url": "http://jds.cssn.cn/bsgk/zzjg/krzzsyjs",
+          "score": 0.5518883,
+          "raw_content_available": true,
+          "raw_content_length": 5916,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 119,
+      "timestamp": "2026-08-23T21:29:02.558391+08:00"
+    }
+  ],
+  "summary_cache_hits": 9,
+  "summary_cache_hit_urls": [
+    "https://history.state.gov/milestones/1945-1952/chinese-rev",
+    "https://pacificaffairs.ubc.ca/book-reviews/chinas-civil-war-a-social-history-1945-1949-by-diana-lary",
+    "https://en.wikipedia.org/wiki/Chinese_Civil_War",
+    "https://www.youtube.com/watch?v=7slhD9PmxII",
+    "https://www.britannica.com/event/Chinese-Civil-War",
+    "https://pacificaffairs.ubc.ca/book-reviews/chinas-civil-war-a-social-history-1945-1949-by-diana-lary",
+    "https://www.chinatalk.media/p/taiwan-confronts-wwii",
+    "https://www.scribd.com/document/744092009/New-Approaches-to-Asian-History-Diana-Lary-The-Chinese-People-at-War-Human-Suffering-and-Social-Transformation-1937-1945-Cambridge-University-Pr",
+    "https://www.nationalww2museum.org/about-us/notes-museum/chinas-war-chinas-memories"
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://fasos-research.nl/occupationstudies/collaboration-in-japanese-occupied-china-1937-1945-old-and-new-questions",
+      "status": "success",
+      "content_length": 24664,
+      "duration_seconds": 2.418,
+      "query": "Chinese historiography War of Resistance Against Japan 1937-1945 major scholarly works"
+    },
+    {
+      "url": "https://www.history.ox.ac.uk/chinas-war-japan",
+      "status": "success",
+      "content_length": 26206,
+      "duration_seconds": 2.418,
+      "query": "Chinese historiography War of Resistance Against Japan 1937-1945 major scholarly works"
+    },
+    {
+      "url": "https://guides.loc.gov/sino-japanese-war-1937-1945/books-secondary",
+      "status": "success",
+      "content_length": 15850,
+      "duration_seconds": 2.418,
+      "query": "Chinese historiography War of Resistance Against Japan 1937-1945 major scholarly works"
+    },
+    {
+      "url": "https://www.jstor.org/stable/26372424",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.418,
+      "query": "Chinese historiography War of Resistance Against Japan 1937-1945 major scholarly works"
+    },
+    {
+      "url": "https://apjjf.org/2022/11/tian",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.418,
+      "query": "Chinese historiography War of Resistance Against Japan 1937-1945 major scholarly works"
+    },
+    {
+      "url": "https://guides.loc.gov/sino-japanese-war-1937-1945/books-secondary",
+      "status": "success",
+      "content_length": 15850,
+      "duration_seconds": 3.508,
+      "query": "historiography Second Sino-Japanese War English-language scholarship overview"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Second_Sino-Japanese_War",
+      "status": "success",
+      "content_length": 582545,
+      "duration_seconds": 3.508,
+      "query": "historiography Second Sino-Japanese War English-language scholarship overview"
+    },
+    {
+      "url": "https://www.usmcu.edu/Outreach/Marine-Corps-University-Press/MCU-Journal/JAMS-vol-11-no-2/Same-Water-Different-Dreams",
+      "status": "success",
+      "content_length": 33751,
+      "duration_seconds": 3.508,
+      "query": "historiography Second Sino-Japanese War English-language scholarship overview"
+    },
+    {
+      "url": "https://www.history.ox.ac.uk/chinas-war-japan",
+      "status": "success",
+      "content_length": 26206,
+      "duration_seconds": 3.508,
+      "query": "historiography Second Sino-Japanese War English-language scholarship overview"
+    },
+    {
+      "url": "https://www.hnn.us/article/historians-in-asia-debate-the-sino-japanese-war-bu",
+      "status": "success",
+      "content_length": 4939,
+      "duration_seconds": 3.508,
+      "query": "historiography Second Sino-Japanese War English-language scholarship overview"
+    },
+    {
+      "url": "http://jxyyj.ruc.edu.cn/CN/abstract/abstract15555.shtml",
+      "status": "success",
+      "content_length": 6771,
+      "duration_seconds": 3.628,
+      "query": "中国抗日战争史 研究 学术史 综述"
+    },
+    {
+      "url": "https://www.krzzjn.com/uploadfile/2020/1207/20201207100620254.pdf",
+      "status": "success",
+      "content_length": 10833,
+      "duration_seconds": 3.628,
+      "query": "中国抗日战争史 研究 学术史 综述"
+    },
+    {
+      "url": "http://jds.cass.cn/xscg/xslw/202403/t20240312_5737918.shtml",
+      "status": "success",
+      "content_length": 10426,
+      "duration_seconds": 3.628,
+      "query": "中国抗日战争史 研究 学术史 综述"
+    },
+    {
+      "url": "https://weread.qq.com/web/bookDetail/a1a32140811e8a97eg011789",
+      "status": "success",
+      "content_length": 1187,
+      "duration_seconds": 3.628,
+      "query": "中国抗日战争史 研究 学术史 综述"
+    },
+    {
+      "url": "http://hrczh.cass.cn/sxqy/zgs/202502/t20250228_5853389.shtml",
+      "status": "success",
+      "content_length": 5750,
+      "duration_seconds": 3.628,
+      "query": "中国抗日战争史 研究 学术史 综述"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Chinese_Civil_War",
+      "status": "success",
+      "content_length": 502124,
+      "duration_seconds": 2.841,
+      "query": "Chinese Civil War why Nationalists lost debate historiography"
+    },
+    {
+      "url": "https://stg.igbis.edu.my/the-past-changes-a-little-every-time-we-retell-it/causes-and-effects-of-c20th-wars/chinese-civil-war/practices-of-the-chinese-civil-war",
+      "status": "success",
+      "content_length": 20155,
+      "duration_seconds": 2.841,
+      "query": "Chinese Civil War why Nationalists lost debate historiography"
+    },
+    {
+      "url": "https://www.britannica.com/event/Chinese-Civil-War",
+      "status": "success",
+      "content_length": 19369,
+      "duration_seconds": 2.841,
+      "query": "Chinese Civil War why Nationalists lost debate historiography"
+    },
+    {
+      "url": "https://fairbank.fas.harvard.edu/research/publications/the-collapse-of-nationalist-china-how-chiang-kai-shek-lost-chinas-civil-war",
+      "status": "success",
+      "content_length": 2070,
+      "duration_seconds": 2.841,
+      "query": "Chinese Civil War why Nationalists lost debate historiography"
+    },
+    {
+      "url": "https://www.trumanlibrary.gov/education/presidential-inquiries/who-lost-china",
+      "status": "success",
+      "content_length": 10215,
+      "duration_seconds": 2.841,
+      "query": "Chinese Civil War why Nationalists lost debate historiography"
+    },
+    {
+      "url": "https://stg.igbis.edu.my/the-past-changes-a-little-every-time-we-retell-it/causes-and-effects-of-c20th-wars/chinese-civil-war/practices-of-the-chinese-civil-war",
+      "status": "success",
+      "content_length": 20155,
+      "duration_seconds": 2.887,
+      "query": "historiography Chinese Civil War postwar period research fields perspectives"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=7slhD9PmxII",
+      "status": "success",
+      "content_length": 40904,
+      "duration_seconds": 2.887,
+      "query": "historiography Chinese Civil War postwar period research fields perspectives"
+    },
+    {
+      "url": "https://www.ospreypublishing.com/us/osprey-blog/2022/the-chinese-civil-war-1945-49",
+      "status": "success",
+      "content_length": 16639,
+      "duration_seconds": 2.887,
+      "query": "historiography Chinese Civil War postwar period research fields perspectives"
+    },
+    {
+      "url": "https://history.state.gov/milestones/1945-1952/chinese-rev",
+      "status": "success",
+      "content_length": 6809,
+      "duration_seconds": 2.887,
+      "query": "historiography Chinese Civil War postwar period research fields perspectives"
+    },
+    {
+      "url": "https://www.historyextra.com/period/20th-century/chinese-civil-war-china-chiang-kai-shek-mao-zedong-communism",
+      "status": "success",
+      "content_length": 13957,
+      "duration_seconds": 2.887,
+      "query": "historiography Chinese Civil War postwar period research fields perspectives"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=7slhD9PmxII",
+      "status": "success",
+      "content_length": 40904,
+      "duration_seconds": 4.195,
+      "query": "Chinese Civil War historiography major scholarly works 1945-1949"
+    },
+    {
+      "url": "https://pacificaffairs.ubc.ca/book-reviews/chinas-civil-war-a-social-history-1945-1949-by-diana-lary",
+      "status": "success",
+      "content_length": 9145,
+      "duration_seconds": 4.195,
+      "query": "Chinese Civil War historiography major scholarly works 1945-1949"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Chinese_Civil_War",
+      "status": "success",
+      "content_length": 502124,
+      "duration_seconds": 4.195,
+      "query": "Chinese Civil War historiography major scholarly works 1945-1949"
+    },
+    {
+      "url": "https://www.ospreypublishing.com/us/osprey-blog/2022/the-chinese-civil-war-1945-49",
+      "status": "success",
+      "content_length": 16639,
+      "duration_seconds": 4.195,
+      "query": "Chinese Civil War historiography major scholarly works 1945-1949"
+    },
+    {
+      "url": "https://www.britannica.com/event/Chinese-Civil-War",
+      "status": "success",
+      "content_length": 19369,
+      "duration_seconds": 4.195,
+      "query": "Chinese Civil War historiography major scholarly works 1945-1949"
+    },
+    {
+      "url": "https://krieger.jhu.edu/history/wp-content/uploads/sites/32/2017/08/Meyer-Fong-CV-2016.pdf",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.342,
+      "query": "Zhongguo neizhan yanjiu Chinese scholarship Civil War historiography"
+    },
+    {
+      "url": "https://www.history.ox.ac.uk/publication/668733/manual",
+      "status": "success",
+      "content_length": 2765,
+      "duration_seconds": 2.342,
+      "query": "Zhongguo neizhan yanjiu Chinese scholarship Civil War historiography"
+    },
+    {
+      "url": "https://teacup.media/chinahistorypodcastepisodes/ep-119-the-chinese-civil-war-part-1",
+      "status": "success",
+      "content_length": 9579,
+      "duration_seconds": 2.342,
+      "query": "Zhongguo neizhan yanjiu Chinese scholarship Civil War historiography"
+    },
+    {
+      "url": "https://inspire.redlands.edu/works/publication-dissertation/1j7es-5jk95",
+      "status": "success",
+      "content_length": 5068,
+      "duration_seconds": 2.342,
+      "query": "Zhongguo neizhan yanjiu Chinese scholarship Civil War historiography"
+    },
+    {
+      "url": "https://www.journalofthecivilwarera.org/awards/richards-prize",
+      "status": "success",
+      "content_length": 21055,
+      "duration_seconds": 2.342,
+      "query": "Zhongguo neizhan yanjiu Chinese scholarship Civil War historiography"
+    },
+    {
+      "url": "https://www.jstor.org/stable/2701995",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.914,
+      "query": "Sino-American relations 1945-1949 historiography lost chance debate China"
+    },
+    {
+      "url": "https://history.state.gov/milestones/1945-1952/chinese-rev",
+      "status": "success",
+      "content_length": 6809,
+      "duration_seconds": 2.914,
+      "query": "Sino-American relations 1945-1949 historiography lost chance debate China"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=689pAwUsNW0",
+      "status": "success",
+      "content_length": 60450,
+      "duration_seconds": 2.914,
+      "query": "Sino-American relations 1945-1949 historiography lost chance debate China"
+    },
+    {
+      "url": "https://china.usembassy-china.org.cn/history-of-the-u-s-and-china",
+      "status": "success",
+      "content_length": 89909,
+      "duration_seconds": 2.914,
+      "query": "Sino-American relations 1945-1949 historiography lost chance debate China"
+    },
+    {
+      "url": "https://www.gilderlehrman.org/history-resources/essays/united-states-and-china-during-cold-war",
+      "status": "success",
+      "content_length": 43719,
+      "duration_seconds": 2.914,
+      "query": "Sino-American relations 1945-1949 historiography lost chance debate China"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Chinese_language",
+      "status": "success",
+      "content_length": 269293,
+      "duration_seconds": 3.049,
+      "query": "Chinese Civil War historiography key scholars books Suzanne Pepper Odd Arne Westad"
+    },
+    {
+      "url": "https://liberalarts.utexas.edu/asianstudies/languages-in-asian-studies/chinese.html",
+      "status": "success",
+      "content_length": 5696,
+      "duration_seconds": 3.049,
+      "query": "Chinese Civil War historiography key scholars books Suzanne Pepper Odd Arne Westad"
+    },
+    {
+      "url": "https://www.britannica.com/topic/Chinese-languages",
+      "status": "success",
+      "content_length": 15480,
+      "duration_seconds": 3.049,
+      "query": "Chinese Civil War historiography key scholars books Suzanne Pepper Odd Arne Westad"
+    },
+    {
+      "url": "https://www.pimsleur.com/blog/mandarin-vs-chinese-whats-the-difference",
+      "status": "success",
+      "content_length": 5499,
+      "duration_seconds": 3.049,
+      "query": "Chinese Civil War historiography key scholars books Suzanne Pepper Odd Arne Westad"
+    },
+    {
+      "url": "https://www.nechinese.com",
+      "status": "success",
+      "content_length": 8117,
+      "duration_seconds": 3.049,
+      "query": "Chinese Civil War historiography key scholars books Suzanne Pepper Odd Arne Westad"
+    },
+    {
+      "url": "https://pacificaffairs.ubc.ca/book-reviews/chinas-civil-war-a-social-history-1945-1949-by-diana-lary",
+      "status": "success",
+      "content_length": 9145,
+      "duration_seconds": 3.933,
+      "query": "Chinese Civil War social history economic history scholarship 1945-1949"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Chinese_Civil_War",
+      "status": "success",
+      "content_length": 502124,
+      "duration_seconds": 3.933,
+      "query": "Chinese Civil War social history economic history scholarship 1945-1949"
+    },
+    {
+      "url": "https://chinesehistoryforteachers.omeka.net/exhibits/show/civil-war/civil-war-overview",
+      "status": "success",
+      "content_length": 20921,
+      "duration_seconds": 3.933,
+      "query": "Chinese Civil War social history economic history scholarship 1945-1949"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=7slhD9PmxII",
+      "status": "success",
+      "content_length": 40904,
+      "duration_seconds": 3.933,
+      "query": "Chinese Civil War social history economic history scholarship 1945-1949"
+    },
+    {
+      "url": "https://www.britannica.com/event/Chinese-Civil-War",
+      "status": "success",
+      "content_length": 19369,
+      "duration_seconds": 3.933,
+      "query": "Chinese Civil War social history economic history scholarship 1945-1949"
+    },
+    {
+      "url": "https://www.cambridge.org/core/journals/modern-asian-studies/article/china-in-world-war-ii-19371945-experience-memory-and-legacy/FE41E41B7F9DB7C5E75CE44AFD2EDF7D",
+      "status": "success",
+      "content_length": 25801,
+      "duration_seconds": 2.368,
+      "query": "Chinese wartime memory studies trauma studies 1937-1945"
+    },
+    {
+      "url": "https://www.research.ed.ac.uk/en/publications/china-in-world-war-ii-1937-1945-experience-memory-and-legacy",
+      "status": "success",
+      "content_length": 8131,
+      "duration_seconds": 2.368,
+      "query": "Chinese wartime memory studies trauma studies 1937-1945"
+    },
+    {
+      "url": "https://apjjf.org/2022/11/tian",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.368,
+      "query": "Chinese wartime memory studies trauma studies 1937-1945"
+    },
+    {
+      "url": "https://www.cjfp.org/chinas-collective-memory-of-the-war-of-resistance",
+      "status": "success",
+      "content_length": 21684,
+      "duration_seconds": 2.368,
+      "query": "Chinese wartime memory studies trauma studies 1937-1945"
+    },
+    {
+      "url": "https://www.politics.ox.ac.uk/publication/china-world-war-ii-1937-1945-experience-memory-and-legacy",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.368,
+      "query": "Chinese wartime memory studies trauma studies 1937-1945"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=wpBmOlUjDUo",
+      "status": "success",
+      "content_length": 71418,
+      "duration_seconds": 2.397,
+      "query": "Rana Mitter China's War with Japan Forgotten Ally historiography"
+    },
+    {
+      "url": "https://bookclubwithjeffreysachs.buzzsprout.com/1648477/episodes/19098322-season-5-episode-3-rana-mitter-forgotten-ally-china-s-world-war-ii-1937-1945",
+      "status": "success",
+      "content_length": 5583,
+      "duration_seconds": 2.397,
+      "query": "Rana Mitter China's War with Japan Forgotten Ally historiography"
+    },
+    {
+      "url": "https://jeffrich.substack.com/p/forgotten-ally-chinas-world-war-ii",
+      "status": "success",
+      "content_length": 18254,
+      "duration_seconds": 2.397,
+      "query": "Rana Mitter China's War with Japan Forgotten Ally historiography"
+    },
+    {
+      "url": "https://archive.org/details/forgottenallychi0000mitt",
+      "status": "success",
+      "content_length": 14969,
+      "duration_seconds": 2.397,
+      "query": "Rana Mitter China's War with Japan Forgotten Ally historiography"
+    },
+    {
+      "url": "https://www.nationalww2museum.org/about-us/notes-museum/chinas-war-chinas-memories",
+      "status": "success",
+      "content_length": 7279,
+      "duration_seconds": 2.397,
+      "query": "Rana Mitter China's War with Japan Forgotten Ally historiography"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/The_Rape_of_Nanking_(book)",
+      "status": "success",
+      "content_length": 78827,
+      "duration_seconds": 2.431,
+      "query": "Nanjing Massacre historiography scholarly debates Iris Chang"
+    },
+    {
+      "url": "https://humanityjournal.org/issue8-1/debating-history-and-memory-examining-the-controversy-surrounding-iris-changs-the-rape-of-nanking",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.431,
+      "query": "Nanjing Massacre historiography scholarly debates Iris Chang"
+    },
+    {
+      "url": "https://www.facebook.com/CharlieTop10s/posts/iris-chang-was-an-american-author-and-historian-whose-work-brought-global-attent/1429492745889405",
+      "status": "success",
+      "content_length": 61924,
+      "duration_seconds": 2.431,
+      "query": "Nanjing Massacre historiography scholarly debates Iris Chang"
+    },
+    {
+      "url": "https://www.tandfonline.com/doi/abs/10.1080/10670564.2024.2360657",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.431,
+      "query": "Nanjing Massacre historiography scholarly debates Iris Chang"
+    },
+    {
+      "url": "https://muse.jhu.edu/article/8682/summary",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.431,
+      "query": "Nanjing Massacre historiography scholarly debates Iris Chang"
+    },
+    {
+      "url": "https://pacificaffairs.ubc.ca/book-reviews/chinas-civil-war-a-social-history-1945-1949-by-diana-lary",
+      "status": "success",
+      "content_length": 9145,
+      "duration_seconds": 2.865,
+      "query": "Second Sino-Japanese War social history Diana Lary Joshua Fogel"
+    },
+    {
+      "url": "https://www.scribd.com/document/744092009/New-Approaches-to-Asian-History-Diana-Lary-The-Chinese-People-at-War-Human-Suffering-and-Social-Transformation-1937-1945-Cambridge-University-Pr",
+      "status": "success",
+      "content_length": 4259,
+      "duration_seconds": 2.865,
+      "query": "Second Sino-Japanese War social history Diana Lary Joshua Fogel"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Women_in_China_during_the_Second_Sino-Japanese_War",
+      "status": "success",
+      "content_length": 45755,
+      "duration_seconds": 2.865,
+      "query": "Second Sino-Japanese War social history Diana Lary Joshua Fogel"
+    },
+    {
+      "url": "https://www.cambridge.org/core/journals/asia-pacific-journal/article/legacy-of-the-second-sinojapanese-war-in-the-peoples-republic-of-china-mapping-the-official-discourses-of-memory/C7474BEBCC350F4E25127C01BFC12BD3",
+      "status": "success",
+      "content_length": 14349,
+      "duration_seconds": 2.865,
+      "query": "Second Sino-Japanese War social history Diana Lary Joshua Fogel"
+    },
+    {
+      "url": "https://simple.wikipedia.org/wiki/Second",
+      "status": "success",
+      "content_length": 41871,
+      "duration_seconds": 2.865,
+      "query": "Second Sino-Japanese War social history Diana Lary Joshua Fogel"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Taiwan_under_Japanese_rule",
+      "status": "success",
+      "content_length": 324620,
+      "duration_seconds": 3.484,
+      "query": "Taiwanese historiography War of Resistance Against Japan"
+    },
+    {
+      "url": "https://www.thinkchina.sg/history/photo-story-historical-aftermath-japans-colonisation-taiwan",
+      "status": "success",
+      "content_length": 18406,
+      "duration_seconds": 3.484,
+      "query": "Taiwanese historiography War of Resistance Against Japan"
+    },
+    {
+      "url": "https://www.chinatalk.media/p/taiwan-confronts-wwii",
+      "status": "success",
+      "content_length": 25697,
+      "duration_seconds": 3.484,
+      "query": "Taiwanese historiography War of Resistance Against Japan"
+    },
+    {
+      "url": "https://www.taiwan.gov.tw/content_3.php",
+      "status": "success",
+      "content_length": 16431,
+      "duration_seconds": 3.484,
+      "query": "Taiwanese historiography War of Resistance Against Japan"
+    },
+    {
+      "url": "https://www.facebook.com/61573130600577/posts/in-history-japan-forcibly-occupied-taiwan-and-exerted-colonial-rule-on-the-islan/122159189258771020",
+      "status": "success",
+      "content_length": 20111,
+      "duration_seconds": 3.484,
+      "query": "Taiwanese historiography War of Resistance Against Japan"
+    },
+    {
+      "url": "https://m.krzzjn.com/show-607-38081.html",
+      "status": "success",
+      "content_length": 13605,
+      "duration_seconds": 4.218,
+      "query": "抗日战争研究 南京大屠杀 慰安妇 学术争论"
+    },
+    {
+      "url": "http://news.cyol.com/gb/articles/2021-12/13/content_lzbLBTWo8.html",
+      "status": "success",
+      "content_length": 9465,
+      "duration_seconds": 4.218,
+      "query": "抗日战争研究 南京大屠杀 慰安妇 学术争论"
+    },
+    {
+      "url": "https://zh.wikipedia.org/wiki/%E5%8D%97%E4%BA%AC%E5%A4%A7%E5%B1%A0%E6%AE%BA",
+      "status": "success",
+      "content_length": 327808,
+      "duration_seconds": 4.218,
+      "query": "抗日战争研究 南京大屠杀 慰安妇 学术争论"
+    },
+    {
+      "url": "https://www.19371213.com.cn/research/rbqhnjdtsyj",
+      "status": "success",
+      "content_length": 8871,
+      "duration_seconds": 4.218,
+      "query": "抗日战争研究 南京大屠杀 慰安妇 学术争论"
+    },
+    {
+      "url": "http://jds.cass.cn/xscg/ybwz/202302/t20230209_5587050.shtml",
+      "status": "success",
+      "content_length": 18037,
+      "duration_seconds": 4.218,
+      "query": "抗日战争研究 南京大屠杀 慰安妇 学术争论"
+    },
+    {
+      "url": "https://www.amazon.com/Collaboration-Japanese-Agents-Elites-Wartime/dp/0674023986",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 1.483,
+      "query": "Timothy Brook collaboration Chinese wartime Japan scholarship"
+    },
+    {
+      "url": "https://apjjf.org/timothy-brook",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 1.483,
+      "query": "Timothy Brook collaboration Chinese wartime Japan scholarship"
+    },
+    {
+      "url": "https://muse.jhu.edu/article/212069/summary",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 1.483,
+      "query": "Timothy Brook collaboration Chinese wartime Japan scholarship"
+    },
+    {
+      "url": "https://froginawell.net/frog/2006/04/review-of-timothy-brooks-collaboration",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 1.483,
+      "query": "Timothy Brook collaboration Chinese wartime Japan scholarship"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Collaboration:_Japanese_Agents_and_Local_Elites_in_Wartime_China",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 1.483,
+      "query": "Timothy Brook collaboration Chinese wartime Japan scholarship"
+    },
+    {
+      "url": "https://www.fulcrum.org/concern/monographs/ww72bd856",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 1.632,
+      "query": "Hans van de Ven Mark Peattie Battle for China military history"
+    },
+    {
+      "url": "https://online.ucpress.edu/jjs/article/39/2/469/201602/Review-The-Battle-for-China-Essays-on-the-Military",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 1.632,
+      "query": "Hans van de Ven Mark Peattie Battle for China military history"
+    },
+    {
+      "url": "https://brill.com/view/journals/jcmh/1/1/article-p99_9.xml",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 1.632,
+      "query": "Hans van de Ven Mark Peattie Battle for China military history"
+    },
+    {
+      "url": "https://muse.jhu.edu/pub/44/article/514400/pdf",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 1.632,
+      "query": "Hans van de Ven Mark Peattie Battle for China military history"
+    },
+    {
+      "url": "https://books.google.com/books/about/The_Battle_for_China.html?id=YBfznQEACAAJ",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 1.632,
+      "query": "Hans van de Ven Mark Peattie Battle for China military history"
+    },
+    {
+      "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/5DD450FEFCFBE39C98D422CA893A7295/S1557466021037980a.pdf/reconstructing-the-history-of-the-comfort-women-system-the-fruits-of-28-years-of-investigation-into-the-comfort-women-issue-in-china.pdf",
+      "status": "success",
+      "content_length": 57148,
+      "duration_seconds": 2.33,
+      "query": "comfort women scholarship Yoshimi Su Zhiliang historiography"
+    },
+    {
+      "url": "https://apjjf.org/2021/5/su",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.33,
+      "query": "comfort women scholarship Yoshimi Su Zhiliang historiography"
+    },
+    {
+      "url": "https://discovery.ucl.ac.uk/id/eprint/10127536/3/Frost_1.%20CW%20INTRO%20FROSTVICKERS02_09%202.m.%20finally%20final%200210.pdf",
+      "status": "success",
+      "content_length": 69809,
+      "duration_seconds": 2.33,
+      "query": "comfort women scholarship Yoshimi Su Zhiliang historiography"
+    },
+    {
+      "url": "https://www.international.ucla.edu/cks/care/overview/251594",
+      "status": "success",
+      "content_length": 18410,
+      "duration_seconds": 2.33,
+      "query": "comfort women scholarship Yoshimi Su Zhiliang historiography"
+    },
+    {
+      "url": "https://ethnicstudies.sfsu.edu/comfort-women-research-creative-scholarship-small-grants-program",
+      "status": "success",
+      "content_length": 6150,
+      "duration_seconds": 2.33,
+      "query": "comfort women scholarship Yoshimi Su Zhiliang historiography"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=DLf0C3P28L0",
+      "status": "success",
+      "content_length": 9115,
+      "duration_seconds": 2.367,
+      "query": "gender history wartime China Gail Hershatter women"
+    },
+    {
+      "url": "https://gailhershatter.sites.ucsc.edu/research",
+      "status": "success",
+      "content_length": 6022,
+      "duration_seconds": 2.367,
+      "query": "gender history wartime China Gail Hershatter women"
+    },
+    {
+      "url": "https://notevenpast.org/the-gender-of-memory-rural-women-and-chinas-collective-past-by-gail-hershatter-2011",
+      "status": "success",
+      "content_length": 8329,
+      "duration_seconds": 2.367,
+      "query": "gender history wartime China Gail Hershatter women"
+    },
+    {
+      "url": "https://bcrw.barnard.edu/video/gail-hershatter-reframing-the-chinese-revolution-through-rural-womens-personal-histories-excerpts",
+      "status": "success",
+      "content_length": 2701,
+      "duration_seconds": 2.367,
+      "query": "gender history wartime China Gail Hershatter women"
+    },
+    {
+      "url": "https://scholar.google.com/citations?user=9fDqgVYAAAAJ&hl=en",
+      "status": "success",
+      "content_length": 7811,
+      "duration_seconds": 2.367,
+      "query": "gender history wartime China Gail Hershatter women"
+    },
+    {
+      "url": "https://www.chinatalk.media/p/taiwan-confronts-wwii",
+      "status": "success",
+      "content_length": 25697,
+      "duration_seconds": 2.888,
+      "query": "Taiwan history War of Resistance Against Japan 抗日 研究 學者"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Taiwanese_resistance_to_Japanese_colonialism",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.888,
+      "query": "Taiwan history War of Resistance Against Japan 抗日 研究 學者"
+    },
+    {
+      "url": "https://interpret.csis.org/translations/a-multi-perspective-analysis-of-the-japanese-factor-in-the-taiwan-issue",
+      "status": "success",
+      "content_length": 69636,
+      "duration_seconds": 2.888,
+      "query": "Taiwan history War of Resistance Against Japan 抗日 研究 學者"
+    },
+    {
+      "url": "http://english.scio.gov.cn/m/in-depth/2025-08/25/content_118040928.html",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.888,
+      "query": "Taiwan history War of Resistance Against Japan 抗日 研究 學者"
+    },
+    {
+      "url": "https://www.taiwan-panorama.com/en/Articles/Details?Guid=",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.888,
+      "query": "Taiwan history War of Resistance Against Japan 抗日 研究 學者"
+    },
+    {
+      "url": "https://www.scirp.org/journal/paperinformation?paperid=144777",
+      "status": "success",
+      "content_length": 55898,
+      "duration_seconds": 4.018,
+      "query": "oral history Chinese War of Resistance methodology"
+    },
+    {
+      "url": "https://findingaids.library.columbia.edu/archives/cul-4074387",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 4.018,
+      "query": "oral history Chinese War of Resistance methodology"
+    },
+    {
+      "url": "https://scholar.xjtlu.edu.cn/en/publications/the-chinese-war-of-resistence-against-japanese-aggression-1931-19",
+      "status": "success",
+      "content_length": 8235,
+      "duration_seconds": 4.018,
+      "query": "oral history Chinese War of Resistance methodology"
+    },
+    {
+      "url": "http://english.cssn.cn/NewEra/202607/t20260721_6060264.shtml",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 4.018,
+      "query": "oral history Chinese War of Resistance methodology"
+    },
+    {
+      "url": "https://www.jstor.org/stable/26923791",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 4.018,
+      "query": "oral history Chinese War of Resistance methodology"
+    },
+    {
+      "url": "https://www.researchgate.net/publication/285378668_The_Chinese_people_at_war_Human_suffering_and_social_transformation_1937-1945",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 1.611,
+      "query": "Diana Lary Chinese People at War wartime China scholarship"
+    },
+    {
+      "url": "https://brill.com/previewpdf/journals/jcmh/5/1/article-p91_5.xml",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 1.611,
+      "query": "Diana Lary Chinese People at War wartime China scholarship"
+    },
+    {
+      "url": "https://www.scribd.com/document/744092009/New-Approaches-to-Asian-History-Diana-Lary-The-Chinese-People-at-War-Human-Suffering-and-Social-Transformation-1937-1945-Cambridge-University-Pr",
+      "status": "success",
+      "content_length": 4259,
+      "duration_seconds": 1.611,
+      "query": "Diana Lary Chinese People at War wartime China scholarship"
+    },
+    {
+      "url": "https://www.facebook.com/cgtnamerica/videos/professor-diana-lary-recalls-the-immense-suffering-and-remarkable-resilience-of-/1346379033586331",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 1.611,
+      "query": "Diana Lary Chinese People at War wartime China scholarship"
+    },
+    {
+      "url": "https://pacificaffairs.ubc.ca/book-reviews/the-chinese-people-at-war-human-suffering-and-social-transformation-1937-1945-by-diana-lary",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 1.611,
+      "query": "Diana Lary Chinese People at War wartime China scholarship"
+    },
+    {
+      "url": "http://his.swu.edu.cn/info/1218/3862.htm",
+      "status": "success",
+      "content_length": 2740,
+      "duration_seconds": 1.977,
+      "query": "抗战时期 大后方 研究 南开大学 学术史"
+    },
+    {
+      "url": "http://jds.cssn.cn/newzxdt/202101/t20210128_5296230.shtml",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 1.977,
+      "query": "抗战时期 大后方 研究 南开大学 学术史"
+    },
+    {
+      "url": "https://rwxy.jhun.edu.cn/59/26/c967a219430/pagem.htm",
+      "status": "success",
+      "content_length": 5483,
+      "duration_seconds": 1.977,
+      "query": "抗战时期 大后方 研究 南开大学 学术史"
+    },
+    {
+      "url": "https://news.nankai.edu.cn/ywsd/system/2025/09/04/030068598.shtml",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 1.977,
+      "query": "抗战时期 大后方 研究 南开大学 学术史"
+    },
+    {
+      "url": "https://www.nju.edu.cn/info/1056/468971.htm",
+      "status": "success",
+      "content_length": 3689,
+      "duration_seconds": 1.977,
+      "query": "抗战时期 大后方 研究 南开大学 学术史"
+    },
+    {
+      "url": "https://lareviewofbooks.org/article/the-battlefield-of-memory-on-rana-mitters-chinas-good-war",
+      "status": "success",
+      "content_length": 21442,
+      "duration_seconds": 2.34,
+      "query": "Mitter China's Good War memory politics how China remembers"
+    },
+    {
+      "url": "https://www.hup.harvard.edu/books/9780674278615",
+      "status": "success",
+      "content_length": 12414,
+      "duration_seconds": 2.34,
+      "query": "Mitter China's Good War memory politics how China remembers"
+    },
+    {
+      "url": "https://journals.publishing.umich.edu/gs/article/id/3431",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.34,
+      "query": "Mitter China's Good War memory politics how China remembers"
+    },
+    {
+      "url": "https://www.nationalww2museum.org/about-us/notes-museum/chinas-war-chinas-memories",
+      "status": "success",
+      "content_length": 7279,
+      "duration_seconds": 2.34,
+      "query": "Mitter China's Good War memory politics how China remembers"
+    },
+    {
+      "url": "https://asianreviewofbooks.com/chinas-good-war-how-world-war-ii-is-shaping-a-new-nationalism-by-rana-mitter",
+      "status": "success",
+      "content_length": 17755,
+      "duration_seconds": 2.34,
+      "query": "Mitter China's Good War memory politics how China remembers"
+    },
+    {
+      "url": "https://www.cass.cn/xueshuchengguo/wenzhexuebulishixuebu/201507/t20150707_2068463.shtml",
+      "status": "success",
+      "content_length": 5593,
+      "duration_seconds": 2.527,
+      "query": "第二戰場 敵後戰場 正面戰場 研究 爭論 學術"
+    },
+    {
+      "url": "https://www.dswxyjy.org.cn/n1/2019/0625/c427814-31188177.html",
+      "status": "success",
+      "content_length": 16922,
+      "duration_seconds": 2.527,
+      "query": "第二戰場 敵後戰場 正面戰場 研究 爭論 學術"
+    },
+    {
+      "url": "https://dsfz.xuancheng.gov.cn/News/show/1519973.html",
+      "status": "success",
+      "content_length": 2942,
+      "duration_seconds": 2.527,
+      "query": "第二戰場 敵後戰場 正面戰場 研究 爭論 學術"
+    },
+    {
+      "url": "https://www.1937china.com/kzslw/views/ztgz/ztgz_zgykr.html",
+      "status": "success",
+      "content_length": 3029,
+      "duration_seconds": 2.527,
+      "query": "第二戰場 敵後戰場 正面戰場 研究 爭論 學術"
+    },
+    {
+      "url": "http://www.1937nanjing.org/xueshujiaoliu/xueshuyanjiu/2025/1112/5719.html",
+      "status": "success",
+      "content_length": 19519,
+      "duration_seconds": 2.527,
+      "query": "第二戰場 敵後戰場 正面戰場 研究 爭論 學術"
+    },
+    {
+      "url": "https://www.krzzjn.com/uploadfile/2020/0504/20200504105553418.pdf",
+      "status": "success",
+      "content_length": 23004,
+      "duration_seconds": 3.355,
+      "query": "汪伪政权 研究 抗日戰爭史 学者 综述"
+    },
+    {
+      "url": "http://jds.cssn.cn/webpic/web/jdsww/UploadFiles/zyqk/2010/12/201012091119391154.pdf",
+      "status": "success",
+      "content_length": 6894,
+      "duration_seconds": 3.355,
+      "query": "汪伪政权 研究 抗日戰爭史 学者 综述"
+    },
+    {
+      "url": "https://zh.wikipedia.org/zh-hans/汪精卫国民政府",
+      "status": "success",
+      "content_length": 157570,
+      "duration_seconds": 3.355,
+      "query": "汪伪政权 研究 抗日戰爭史 学者 综述"
+    },
+    {
+      "url": "https://dokumen.pub/9787208064867.html",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 3.355,
+      "query": "汪伪政权 研究 抗日戰爭史 学者 综述"
+    },
+    {
+      "url": "http://theory.people.com.cn/n/2015/0819/c40531-27483456.html",
+      "status": "success",
+      "content_length": 3230,
+      "duration_seconds": 3.355,
+      "query": "汪伪政权 研究 抗日戰爭史 学者 综述"
+    },
+    {
+      "url": "https://haixia-info.com/articles/2423",
+      "status": "success",
+      "content_length": 5693,
+      "duration_seconds": 4.192,
+      "query": "台灣 抗日戰爭史 研究 學術史 中央研究院"
+    },
+    {
+      "url": "https://www.mh.sinica.edu.tw/UserDetail.aspx?userID=719&mid=16&tmid=2",
+      "status": "success",
+      "content_length": 31330,
+      "duration_seconds": 4.192,
+      "query": "台灣 抗日戰爭史 研究 學術史 中央研究院"
+    },
+    {
+      "url": "https://asmhlibref.blogspot.com/2025/12/15.html",
+      "status": "success",
+      "content_length": 8154,
+      "duration_seconds": 4.192,
+      "query": "台灣 抗日戰爭史 研究 學術史 中央研究院"
+    },
+    {
+      "url": "https://www.president.gov.tw/NEWS/19581",
+      "status": "success",
+      "content_length": 6283,
+      "duration_seconds": 4.192,
+      "query": "台灣 抗日戰爭史 研究 學術史 中央研究院"
+    },
+    {
+      "url": "http://jds.cssn.cn/bsgk/zzjg/krzzsyjs",
+      "status": "success",
+      "content_length": 5916,
+      "duration_seconds": 4.192,
+      "query": "台灣 抗日戰爭史 研究 學術史 中央研究院"
+    }
+  ],
+  "run_id": "62712ad8b94a4979b9e6149fc344d0a2",
+  "status": "completed",
+  "id": 32,
+  "prompt": "收集整理目前中国历史学界对1937-1949年（抗日战争以及战后）研究的成果和相关论著，横向对比分析这些成果的研究领域、研究视角、研究方法、理论运用、研究结论等方面，并为我预测未来最有研究潜力和研究空间的2-3个选题。",
+  "language": "zh",
+  "topic": "History",
+  "duration_seconds": 744.965,
+  "report_length": 19076,
+  "context_length": 329770
+}

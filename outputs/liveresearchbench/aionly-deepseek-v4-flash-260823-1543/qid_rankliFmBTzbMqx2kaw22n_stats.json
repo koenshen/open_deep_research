@@ -1,0 +1,2822 @@
+{
+  "session_id": "40f7a8f0c5e944e089c161348612ec24",
+  "total_llm_calls": 68,
+  "llm_calls_with_token_usage": 68,
+  "llm_calls_missing_token_usage": 0,
+  "token_usage_complete": true,
+  "total_input_tokens": 549178,
+  "total_output_tokens": 61345,
+  "total_tokens": 610523,
+  "counted_input_tokens": 549178,
+  "counted_output_tokens": 61345,
+  "counted_total_tokens": 610523,
+  "total_search_count": 13,
+  "total_search_results": 65,
+  "total_visit_count": 65,
+  "total_visit_success": 61,
+  "total_visit_failed": 4,
+  "source_urls_count": 60,
+  "llm_calls_detail": [
+    {
+      "sequence": 1,
+      "status": "completed",
+      "started_at": "2026-08-23T18:56:43.128681+08:00",
+      "completed_at": "2026-08-23T18:56:47.845427+08:00",
+      "duration_seconds": 4.717,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 760,
+      "output_tokens": 325,
+      "total_tokens": 1085,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 760,
+        "output_tokens": 325,
+        "total_tokens": 1085,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 2,
+      "status": "completed",
+      "started_at": "2026-08-23T18:56:47.856915+08:00",
+      "completed_at": "2026-08-23T18:56:56.528751+08:00",
+      "duration_seconds": 8.672,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1389,
+      "output_tokens": 666,
+      "total_tokens": 2055,
+      "message_count": 2,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1389,
+        "output_tokens": 666,
+        "total_tokens": 2055,
+        "input_token_details": {
+          "cache_read": 1024
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 3,
+      "status": "completed",
+      "started_at": "2026-08-23T18:56:56.537780+08:00",
+      "completed_at": "2026-08-23T18:57:01.648126+08:00",
+      "duration_seconds": 5.11,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1908,
+      "output_tokens": 436,
+      "total_tokens": 2344,
+      "message_count": 4,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1908,
+        "output_tokens": 436,
+        "total_tokens": 2344,
+        "input_token_details": {
+          "cache_read": 1280
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 4,
+      "status": "completed",
+      "started_at": "2026-08-23T18:57:01.670286+08:00",
+      "completed_at": "2026-08-23T18:57:04.367874+08:00",
+      "duration_seconds": 2.698,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1212,
+      "output_tokens": 151,
+      "total_tokens": 1363,
+      "message_count": 2,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1212,
+        "output_tokens": 151,
+        "total_tokens": 1363,
+        "input_token_details": {
+          "cache_read": 768
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 8,
+      "status": "completed",
+      "started_at": "2026-08-23T18:57:08.360948+08:00",
+      "completed_at": "2026-08-23T18:57:15.195360+08:00",
+      "duration_seconds": 6.834,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 9130,
+      "output_tokens": 637,
+      "total_tokens": 9767,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 9130,
+        "output_tokens": 637,
+        "total_tokens": 9767,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 9,
+      "status": "completed",
+      "started_at": "2026-08-23T18:57:08.361052+08:00",
+      "completed_at": "2026-08-23T18:57:11.764202+08:00",
+      "duration_seconds": 3.403,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2256,
+      "output_tokens": 229,
+      "total_tokens": 2485,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2256,
+        "output_tokens": 229,
+        "total_tokens": 2485,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 10,
+      "status": "completed",
+      "started_at": "2026-08-23T18:57:08.361284+08:00",
+      "completed_at": "2026-08-23T18:57:13.910908+08:00",
+      "duration_seconds": 5.55,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3646,
+      "output_tokens": 463,
+      "total_tokens": 4109,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3646,
+        "output_tokens": 463,
+        "total_tokens": 4109,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 11,
+      "status": "completed",
+      "started_at": "2026-08-23T18:57:08.361322+08:00",
+      "completed_at": "2026-08-23T18:57:16.464514+08:00",
+      "duration_seconds": 8.103,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 14168,
+      "output_tokens": 679,
+      "total_tokens": 14847,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 14168,
+        "output_tokens": 679,
+        "total_tokens": 14847,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 12,
+      "status": "completed",
+      "started_at": "2026-08-23T18:57:08.361352+08:00",
+      "completed_at": "2026-08-23T18:57:16.446726+08:00",
+      "duration_seconds": 8.085,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 16755,
+      "output_tokens": 764,
+      "total_tokens": 17519,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 16755,
+        "output_tokens": 764,
+        "total_tokens": 17519,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 13,
+      "status": "completed",
+      "started_at": "2026-08-23T18:57:08.361516+08:00",
+      "completed_at": "2026-08-23T18:57:16.190447+08:00",
+      "duration_seconds": 7.829,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 18555,
+      "output_tokens": 710,
+      "total_tokens": 19265,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 18555,
+        "output_tokens": 710,
+        "total_tokens": 19265,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 14,
+      "status": "completed",
+      "started_at": "2026-08-23T18:57:08.361625+08:00",
+      "completed_at": "2026-08-23T18:57:15.427649+08:00",
+      "duration_seconds": 7.066,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 10019,
+      "output_tokens": 714,
+      "total_tokens": 10733,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 10019,
+        "output_tokens": 714,
+        "total_tokens": 10733,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 15,
+      "status": "completed",
+      "started_at": "2026-08-23T18:57:08.361675+08:00",
+      "completed_at": "2026-08-23T18:57:12.849947+08:00",
+      "duration_seconds": 4.488,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3738,
+      "output_tokens": 355,
+      "total_tokens": 4093,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3738,
+        "output_tokens": 355,
+        "total_tokens": 4093,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 16,
+      "status": "completed",
+      "started_at": "2026-08-23T18:57:08.361718+08:00",
+      "completed_at": "2026-08-23T18:57:15.233912+08:00",
+      "duration_seconds": 6.872,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 17581,
+      "output_tokens": 541,
+      "total_tokens": 18122,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 17581,
+        "output_tokens": 541,
+        "total_tokens": 18122,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 17,
+      "status": "completed",
+      "started_at": "2026-08-23T18:57:08.361754+08:00",
+      "completed_at": "2026-08-23T18:57:16.970978+08:00",
+      "duration_seconds": 8.609,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7531,
+      "output_tokens": 800,
+      "total_tokens": 8331,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 7531,
+        "output_tokens": 800,
+        "total_tokens": 8331,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 18,
+      "status": "completed",
+      "started_at": "2026-08-23T18:57:16.980269+08:00",
+      "completed_at": "2026-08-23T18:57:19.660463+08:00",
+      "duration_seconds": 2.68,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7442,
+      "output_tokens": 145,
+      "total_tokens": 7587,
+      "message_count": 4,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 7442,
+        "output_tokens": 145,
+        "total_tokens": 7587,
+        "input_token_details": {
+          "cache_read": 1024
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 19,
+      "status": "completed",
+      "started_at": "2026-08-23T18:57:19.672329+08:00",
+      "completed_at": "2026-08-23T18:57:22.489790+08:00",
+      "duration_seconds": 2.817,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7643,
+      "output_tokens": 147,
+      "total_tokens": 7790,
+      "message_count": 6,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 7643,
+        "output_tokens": 147,
+        "total_tokens": 7790,
+        "input_token_details": {
+          "cache_read": 7424
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 25,
+      "status": "completed",
+      "started_at": "2026-08-23T18:57:26.181693+08:00",
+      "completed_at": "2026-08-23T18:57:30.952910+08:00",
+      "duration_seconds": 4.771,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6474,
+      "output_tokens": 418,
+      "total_tokens": 6892,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 6474,
+        "output_tokens": 418,
+        "total_tokens": 6892,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 26,
+      "status": "completed",
+      "started_at": "2026-08-23T18:57:26.181775+08:00",
+      "completed_at": "2026-08-23T18:57:34.799427+08:00",
+      "duration_seconds": 8.618,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6284,
+      "output_tokens": 824,
+      "total_tokens": 7108,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 6284,
+        "output_tokens": 824,
+        "total_tokens": 7108,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 27,
+      "status": "completed",
+      "started_at": "2026-08-23T18:57:26.182076+08:00",
+      "completed_at": "2026-08-23T18:57:31.111275+08:00",
+      "duration_seconds": 4.929,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7885,
+      "output_tokens": 414,
+      "total_tokens": 8299,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 7885,
+        "output_tokens": 414,
+        "total_tokens": 8299,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 28,
+      "status": "completed",
+      "started_at": "2026-08-23T18:57:26.182126+08:00",
+      "completed_at": "2026-08-23T18:57:30.406560+08:00",
+      "duration_seconds": 4.224,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4351,
+      "output_tokens": 343,
+      "total_tokens": 4694,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4351,
+        "output_tokens": 343,
+        "total_tokens": 4694,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 29,
+      "status": "completed",
+      "started_at": "2026-08-23T18:57:26.182155+08:00",
+      "completed_at": "2026-08-23T18:57:30.904374+08:00",
+      "duration_seconds": 4.722,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3144,
+      "output_tokens": 353,
+      "total_tokens": 3497,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3144,
+        "output_tokens": 353,
+        "total_tokens": 3497,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 30,
+      "status": "completed",
+      "started_at": "2026-08-23T18:57:26.182178+08:00",
+      "completed_at": "2026-08-23T18:57:32.566944+08:00",
+      "duration_seconds": 6.385,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6760,
+      "output_tokens": 575,
+      "total_tokens": 7335,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 6760,
+        "output_tokens": 575,
+        "total_tokens": 7335,
+        "input_token_details": {
+          "cache_read": 512
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 31,
+      "status": "completed",
+      "started_at": "2026-08-23T18:57:26.182197+08:00",
+      "completed_at": "2026-08-23T18:57:30.480446+08:00",
+      "duration_seconds": 4.298,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2032,
+      "output_tokens": 360,
+      "total_tokens": 2392,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2032,
+        "output_tokens": 360,
+        "total_tokens": 2392,
+        "input_token_details": {
+          "cache_read": 768
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 32,
+      "status": "completed",
+      "started_at": "2026-08-23T18:57:26.182217+08:00",
+      "completed_at": "2026-08-23T18:57:33.052011+08:00",
+      "duration_seconds": 6.87,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 17649,
+      "output_tokens": 602,
+      "total_tokens": 18251,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 17649,
+        "output_tokens": 602,
+        "total_tokens": 18251,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 33,
+      "status": "completed",
+      "started_at": "2026-08-23T18:57:26.182235+08:00",
+      "completed_at": "2026-08-23T18:57:34.963042+08:00",
+      "duration_seconds": 8.781,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 10328,
+      "output_tokens": 752,
+      "total_tokens": 11080,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 10328,
+        "output_tokens": 752,
+        "total_tokens": 11080,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 34,
+      "status": "completed",
+      "started_at": "2026-08-23T18:57:26.182254+08:00",
+      "completed_at": "2026-08-23T18:57:31.718799+08:00",
+      "duration_seconds": 5.537,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7470,
+      "output_tokens": 446,
+      "total_tokens": 7916,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 7470,
+        "output_tokens": 446,
+        "total_tokens": 7916,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 35,
+      "status": "completed",
+      "started_at": "2026-08-23T18:57:26.182272+08:00",
+      "completed_at": "2026-08-23T18:57:30.884466+08:00",
+      "duration_seconds": 4.702,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2734,
+      "output_tokens": 354,
+      "total_tokens": 3088,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2734,
+        "output_tokens": 354,
+        "total_tokens": 3088,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 36,
+      "status": "completed",
+      "started_at": "2026-08-23T18:57:26.182289+08:00",
+      "completed_at": "2026-08-23T18:57:29.779722+08:00",
+      "duration_seconds": 3.597,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6808,
+      "output_tokens": 220,
+      "total_tokens": 7028,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 6808,
+        "output_tokens": 220,
+        "total_tokens": 7028,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 37,
+      "status": "completed",
+      "started_at": "2026-08-23T18:57:26.182308+08:00",
+      "completed_at": "2026-08-23T18:57:32.323864+08:00",
+      "duration_seconds": 6.142,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4617,
+      "output_tokens": 549,
+      "total_tokens": 5166,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4617,
+        "output_tokens": 549,
+        "total_tokens": 5166,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 38,
+      "status": "completed",
+      "started_at": "2026-08-23T18:57:26.182326+08:00",
+      "completed_at": "2026-08-23T18:57:31.398601+08:00",
+      "duration_seconds": 5.216,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 16285,
+      "output_tokens": 416,
+      "total_tokens": 16701,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 16285,
+        "output_tokens": 416,
+        "total_tokens": 16701,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 39,
+      "status": "completed",
+      "started_at": "2026-08-23T18:57:26.182344+08:00",
+      "completed_at": "2026-08-23T18:57:34.024539+08:00",
+      "duration_seconds": 7.842,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6368,
+      "output_tokens": 566,
+      "total_tokens": 6934,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 6368,
+        "output_tokens": 566,
+        "total_tokens": 6934,
+        "input_token_details": {
+          "cache_read": 768
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 40,
+      "status": "completed",
+      "started_at": "2026-08-23T18:57:26.182362+08:00",
+      "completed_at": "2026-08-23T18:57:31.091030+08:00",
+      "duration_seconds": 4.909,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3662,
+      "output_tokens": 376,
+      "total_tokens": 4038,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3662,
+        "output_tokens": 376,
+        "total_tokens": 4038,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 41,
+      "status": "completed",
+      "started_at": "2026-08-23T18:57:26.182379+08:00",
+      "completed_at": "2026-08-23T18:57:31.690551+08:00",
+      "duration_seconds": 5.508,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4235,
+      "output_tokens": 415,
+      "total_tokens": 4650,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4235,
+        "output_tokens": 415,
+        "total_tokens": 4650,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 42,
+      "status": "completed",
+      "started_at": "2026-08-23T18:57:26.182396+08:00",
+      "completed_at": "2026-08-23T18:57:31.910355+08:00",
+      "duration_seconds": 5.728,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5481,
+      "output_tokens": 429,
+      "total_tokens": 5910,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5481,
+        "output_tokens": 429,
+        "total_tokens": 5910,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 43,
+      "status": "completed",
+      "started_at": "2026-08-23T18:57:26.182414+08:00",
+      "completed_at": "2026-08-23T18:57:32.375255+08:00",
+      "duration_seconds": 6.193,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7485,
+      "output_tokens": 515,
+      "total_tokens": 8000,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 7485,
+        "output_tokens": 515,
+        "total_tokens": 8000,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 44,
+      "status": "completed",
+      "started_at": "2026-08-23T18:57:26.182439+08:00",
+      "completed_at": "2026-08-23T18:57:32.490177+08:00",
+      "duration_seconds": 6.308,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3441,
+      "output_tokens": 479,
+      "total_tokens": 3920,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3441,
+        "output_tokens": 479,
+        "total_tokens": 3920,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 45,
+      "status": "completed",
+      "started_at": "2026-08-23T18:57:26.182462+08:00",
+      "completed_at": "2026-08-23T18:57:33.693694+08:00",
+      "duration_seconds": 7.511,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 12636,
+      "output_tokens": 698,
+      "total_tokens": 13334,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 12636,
+        "output_tokens": 698,
+        "total_tokens": 13334,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 46,
+      "status": "completed",
+      "started_at": "2026-08-23T18:57:26.182480+08:00",
+      "completed_at": "2026-08-23T18:57:30.941033+08:00",
+      "duration_seconds": 4.759,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2540,
+      "output_tokens": 373,
+      "total_tokens": 2913,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2540,
+        "output_tokens": 373,
+        "total_tokens": 2913,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 47,
+      "status": "completed",
+      "started_at": "2026-08-23T18:57:26.182498+08:00",
+      "completed_at": "2026-08-23T18:57:31.884304+08:00",
+      "duration_seconds": 5.702,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6307,
+      "output_tokens": 466,
+      "total_tokens": 6773,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 6307,
+        "output_tokens": 466,
+        "total_tokens": 6773,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 48,
+      "status": "completed",
+      "started_at": "2026-08-23T18:57:34.972449+08:00",
+      "completed_at": "2026-08-23T18:57:40.656126+08:00",
+      "duration_seconds": 5.684,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 19896,
+      "output_tokens": 388,
+      "total_tokens": 20284,
+      "message_count": 8,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 19896,
+        "output_tokens": 388,
+        "total_tokens": 20284,
+        "input_token_details": {
+          "cache_read": 7424
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 49,
+      "status": "completed",
+      "started_at": "2026-08-23T18:57:40.667799+08:00",
+      "completed_at": "2026-08-23T18:57:43.431609+08:00",
+      "duration_seconds": 2.764,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 20569,
+      "output_tokens": 137,
+      "total_tokens": 20706,
+      "message_count": 10,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 20569,
+        "output_tokens": 137,
+        "total_tokens": 20706,
+        "input_token_details": {
+          "cache_read": 19712
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 55,
+      "status": "completed",
+      "started_at": "2026-08-23T18:57:47.308952+08:00",
+      "completed_at": "2026-08-23T18:57:53.471618+08:00",
+      "duration_seconds": 6.163,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6654,
+      "output_tokens": 496,
+      "total_tokens": 7150,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 6654,
+        "output_tokens": 496,
+        "total_tokens": 7150,
+        "input_token_details": {
+          "cache_read": 512
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 56,
+      "status": "completed",
+      "started_at": "2026-08-23T18:57:47.309005+08:00",
+      "completed_at": "2026-08-23T18:57:55.339991+08:00",
+      "duration_seconds": 8.031,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5566,
+      "output_tokens": 745,
+      "total_tokens": 6311,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5566,
+        "output_tokens": 745,
+        "total_tokens": 6311,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 57,
+      "status": "completed",
+      "started_at": "2026-08-23T18:57:47.309138+08:00",
+      "completed_at": "2026-08-23T18:57:53.707057+08:00",
+      "duration_seconds": 6.398,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 9014,
+      "output_tokens": 457,
+      "total_tokens": 9471,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 9014,
+        "output_tokens": 457,
+        "total_tokens": 9471,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 58,
+      "status": "completed",
+      "started_at": "2026-08-23T18:57:47.309160+08:00",
+      "completed_at": "2026-08-23T18:57:57.441928+08:00",
+      "duration_seconds": 10.133,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5200,
+      "output_tokens": 1000,
+      "total_tokens": 6200,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5200,
+        "output_tokens": 1000,
+        "total_tokens": 6200,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 59,
+      "status": "completed",
+      "started_at": "2026-08-23T18:57:47.309185+08:00",
+      "completed_at": "2026-08-23T18:57:51.989626+08:00",
+      "duration_seconds": 4.68,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2067,
+      "output_tokens": 341,
+      "total_tokens": 2408,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2067,
+        "output_tokens": 341,
+        "total_tokens": 2408,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 60,
+      "status": "completed",
+      "started_at": "2026-08-23T18:57:47.309232+08:00",
+      "completed_at": "2026-08-23T18:57:53.323327+08:00",
+      "duration_seconds": 6.014,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7628,
+      "output_tokens": 486,
+      "total_tokens": 8114,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 7628,
+        "output_tokens": 486,
+        "total_tokens": 8114,
+        "input_token_details": {
+          "cache_read": 512
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 61,
+      "status": "completed",
+      "started_at": "2026-08-23T18:57:47.309249+08:00",
+      "completed_at": "2026-08-23T18:57:51.917958+08:00",
+      "duration_seconds": 4.609,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4807,
+      "output_tokens": 354,
+      "total_tokens": 5161,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4807,
+        "output_tokens": 354,
+        "total_tokens": 5161,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 62,
+      "status": "completed",
+      "started_at": "2026-08-23T18:57:47.309262+08:00",
+      "completed_at": "2026-08-23T18:57:52.414660+08:00",
+      "duration_seconds": 5.105,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3628,
+      "output_tokens": 451,
+      "total_tokens": 4079,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3628,
+        "output_tokens": 451,
+        "total_tokens": 4079,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 63,
+      "status": "completed",
+      "started_at": "2026-08-23T18:57:47.309274+08:00",
+      "completed_at": "2026-08-23T18:57:51.601950+08:00",
+      "duration_seconds": 4.293,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4418,
+      "output_tokens": 293,
+      "total_tokens": 4711,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4418,
+        "output_tokens": 293,
+        "total_tokens": 4711,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 64,
+      "status": "completed",
+      "started_at": "2026-08-23T18:57:47.309286+08:00",
+      "completed_at": "2026-08-23T18:57:53.265153+08:00",
+      "duration_seconds": 5.956,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2652,
+      "output_tokens": 570,
+      "total_tokens": 3222,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2652,
+        "output_tokens": 570,
+        "total_tokens": 3222,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 65,
+      "status": "completed",
+      "started_at": "2026-08-23T18:57:47.309298+08:00",
+      "completed_at": "2026-08-23T18:57:51.887004+08:00",
+      "duration_seconds": 4.578,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2984,
+      "output_tokens": 430,
+      "total_tokens": 3414,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2984,
+        "output_tokens": 430,
+        "total_tokens": 3414,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 66,
+      "status": "completed",
+      "started_at": "2026-08-23T18:57:47.309311+08:00",
+      "completed_at": "2026-08-23T18:57:52.752385+08:00",
+      "duration_seconds": 5.443,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6974,
+      "output_tokens": 413,
+      "total_tokens": 7387,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 6974,
+        "output_tokens": 413,
+        "total_tokens": 7387,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 67,
+      "status": "completed",
+      "started_at": "2026-08-23T18:57:47.309322+08:00",
+      "completed_at": "2026-08-23T18:57:51.975891+08:00",
+      "duration_seconds": 4.667,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2593,
+      "output_tokens": 395,
+      "total_tokens": 2988,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2593,
+        "output_tokens": 395,
+        "total_tokens": 2988,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 68,
+      "status": "completed",
+      "started_at": "2026-08-23T18:57:47.309336+08:00",
+      "completed_at": "2026-08-23T18:57:54.059321+08:00",
+      "duration_seconds": 6.75,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3775,
+      "output_tokens": 575,
+      "total_tokens": 4350,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3775,
+        "output_tokens": 575,
+        "total_tokens": 4350,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 69,
+      "status": "completed",
+      "started_at": "2026-08-23T18:57:47.309353+08:00",
+      "completed_at": "2026-08-23T18:57:52.156502+08:00",
+      "duration_seconds": 4.847,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1990,
+      "output_tokens": 325,
+      "total_tokens": 2315,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1990,
+        "output_tokens": 325,
+        "total_tokens": 2315,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 70,
+      "status": "completed",
+      "started_at": "2026-08-23T18:57:47.309366+08:00",
+      "completed_at": "2026-08-23T18:57:54.037165+08:00",
+      "duration_seconds": 6.728,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4788,
+      "output_tokens": 608,
+      "total_tokens": 5396,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4788,
+        "output_tokens": 608,
+        "total_tokens": 5396,
+        "input_token_details": {
+          "cache_read": 768
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 71,
+      "status": "completed",
+      "started_at": "2026-08-23T18:57:47.309377+08:00",
+      "completed_at": "2026-08-23T18:57:54.421968+08:00",
+      "duration_seconds": 7.113,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 17302,
+      "output_tokens": 601,
+      "total_tokens": 17903,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 17302,
+        "output_tokens": 601,
+        "total_tokens": 17903,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 72,
+      "status": "completed",
+      "started_at": "2026-08-23T18:57:47.309389+08:00",
+      "completed_at": "2026-08-23T18:57:55.008661+08:00",
+      "duration_seconds": 7.699,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 10162,
+      "output_tokens": 705,
+      "total_tokens": 10867,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 10162,
+        "output_tokens": 705,
+        "total_tokens": 10867,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 73,
+      "status": "completed",
+      "started_at": "2026-08-23T18:57:47.309401+08:00",
+      "completed_at": "2026-08-23T18:57:55.289692+08:00",
+      "duration_seconds": 7.98,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5284,
+      "output_tokens": 778,
+      "total_tokens": 6062,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5284,
+        "output_tokens": 778,
+        "total_tokens": 6062,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 74,
+      "status": "completed",
+      "started_at": "2026-08-23T18:57:47.309415+08:00",
+      "completed_at": "2026-08-23T18:57:53.036613+08:00",
+      "duration_seconds": 5.727,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4690,
+      "output_tokens": 505,
+      "total_tokens": 5195,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4690,
+        "output_tokens": 505,
+        "total_tokens": 5195,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 75,
+      "status": "completed",
+      "started_at": "2026-08-23T18:57:47.309429+08:00",
+      "completed_at": "2026-08-23T18:57:53.636020+08:00",
+      "duration_seconds": 6.327,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 19231,
+      "output_tokens": 479,
+      "total_tokens": 19710,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 19231,
+        "output_tokens": 479,
+        "total_tokens": 19710,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 76,
+      "status": "completed",
+      "started_at": "2026-08-23T18:57:47.309442+08:00",
+      "completed_at": "2026-08-23T18:57:51.336146+08:00",
+      "duration_seconds": 4.027,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7192,
+      "output_tokens": 278,
+      "total_tokens": 7470,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 7192,
+        "output_tokens": 278,
+        "total_tokens": 7470,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 77,
+      "status": "completed",
+      "started_at": "2026-08-23T18:57:47.309455+08:00",
+      "completed_at": "2026-08-23T18:57:53.636243+08:00",
+      "duration_seconds": 6.327,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4213,
+      "output_tokens": 494,
+      "total_tokens": 4707,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4213,
+        "output_tokens": 494,
+        "total_tokens": 4707,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 78,
+      "status": "completed",
+      "started_at": "2026-08-23T18:57:57.449049+08:00",
+      "completed_at": "2026-08-23T19:00:43.719036+08:00",
+      "duration_seconds": 166.27,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 33301,
+      "output_tokens": 20506,
+      "total_tokens": 53807,
+      "message_count": 13,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 33301,
+        "output_tokens": 20506,
+        "total_tokens": 53807,
+        "input_token_details": {
+          "cache_read": 512
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "end_turn"
+    },
+    {
+      "sequence": 79,
+      "status": "completed",
+      "started_at": "2026-08-23T19:00:43.731528+08:00",
+      "completed_at": "2026-08-23T19:00:52.665689+08:00",
+      "duration_seconds": 8.934,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 17843,
+      "output_tokens": 857,
+      "total_tokens": 18700,
+      "message_count": 6,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 17843,
+        "output_tokens": 857,
+        "total_tokens": 18700,
+        "input_token_details": {
+          "cache_read": 1792
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 80,
+      "status": "completed",
+      "started_at": "2026-08-23T19:00:52.680103+08:00",
+      "completed_at": "2026-08-23T19:00:59.674082+08:00",
+      "duration_seconds": 6.994,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 18612,
+      "output_tokens": 564,
+      "total_tokens": 19176,
+      "message_count": 8,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 18612,
+        "output_tokens": 564,
+        "total_tokens": 19176,
+        "input_token_details": {
+          "cache_read": 17664
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 81,
+      "status": "completed",
+      "started_at": "2026-08-23T19:00:59.682147+08:00",
+      "completed_at": "2026-08-23T19:02:12.989329+08:00",
+      "duration_seconds": 73.307,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 17436,
+      "output_tokens": 8409,
+      "total_tokens": 25845,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 17436,
+        "output_tokens": 8409,
+        "total_tokens": 25845,
+        "input_token_details": {},
+        "output_token_details": {}
+      },
+      "finish_reason": "end_turn"
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "status": "completed",
+      "query": "best selling wireless noise cancelling headphones Amazon 2026",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.827,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "The 5 Best Noise Cancelling Headphones of 2026",
+          "url": "https://www.rtings.com/headphones/reviews/best/by-feature/noise-cancelling",
+          "score": 0.91156644,
+          "raw_content_available": true,
+          "raw_content_length": 3448,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Amazon Best Sellers: Best undefined",
+          "url": "https://www.amazon.com/Best-Sellers-undefined/zgbs/undefined/509318",
+          "score": 0.88420963,
+          "raw_content_available": true,
+          "raw_content_length": 7733,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Best Noise Cancelling Headphones of 2026",
+          "url": "https://www.cnet.com/tech/mobile/best-noise-canceling-headphones",
+          "score": 0.86441374,
+          "raw_content_available": true,
+          "raw_content_length": 119459,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "The 4 Best Noise-Cancelling Headphones of 2026",
+          "url": "https://www.nytimes.com/wirecutter/reviews/best-noise-cancelling-headphones",
+          "score": 0.86303437,
+          "raw_content_available": true,
+          "raw_content_length": 68925,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "The Best Wireless Headphones to Buy in 2026",
+          "url": "https://www.youtube.com/watch?v=zbClh_tBl6o&vl=en",
+          "score": 0.8591094,
+          "raw_content_available": true,
+          "raw_content_length": 26712,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 5,
+      "timestamp": "2026-08-23T18:57:07.222449+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "best wireless noise cancelling headphones Amazon 2026",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 3.101,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Best budget noise canceling headphones for 2026",
+          "url": "https://www.soundguys.com/best-budget-noise-cancelling-headphones-7142",
+          "score": 0.92731744,
+          "raw_content_available": true,
+          "raw_content_length": 31285,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "The 5 Best Noise Cancelling Headphones of 2026",
+          "url": "https://www.rtings.com/headphones/reviews/best/by-feature/noise-cancelling",
+          "score": 0.9119436,
+          "raw_content_available": true,
+          "raw_content_length": 3448,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Departments - Amazon Best Sellers: Best undefined",
+          "url": "https://www.amazon.com/Best-Sellers-undefined/zgbs/undefined/509318",
+          "score": 0.89302075,
+          "raw_content_available": true,
+          "raw_content_length": 7733,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "The 4 Best Noise-Cancelling Headphones of 2026",
+          "url": "https://www.nytimes.com/wirecutter/reviews/best-noise-cancelling-headphones",
+          "score": 0.8588255,
+          "raw_content_available": true,
+          "raw_content_length": 68925,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Best noise-cancelling headphones 2026 – 6 sensational ...",
+          "url": "https://www.whathifi.com/best-buys/headphones/best-noise-cancelling-headphones",
+          "score": 0.85157084,
+          "raw_content_available": true,
+          "raw_content_length": 72048,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 6,
+      "timestamp": "2026-08-23T18:57:07.475698+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "top noise cancelling headphones over-ear in-ear on-ear Amazon 2026",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 3.957,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "The 5 Best Noise Cancelling Headphones of 2026",
+          "url": "https://www.rtings.com/headphones/reviews/best/by-feature/noise-cancelling",
+          "score": 0.90452427,
+          "raw_content_available": true,
+          "raw_content_length": 3448,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "The 4 Best Noise-Cancelling Headphones of 2026",
+          "url": "https://www.nytimes.com/wirecutter/reviews/best-noise-cancelling-headphones",
+          "score": 0.8943568,
+          "raw_content_available": true,
+          "raw_content_length": 68925,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Best Headphones to Buy in 2026, Tested and Reviewed",
+          "url": "https://www.cnet.com/tech/mobile/best-headphones",
+          "score": 0.87782305,
+          "raw_content_available": true,
+          "raw_content_length": 172917,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "The Ultimate Test: The Best Over-Ear Headphones in 2026",
+          "url": "https://chrislovesjulia.com/the-best-over-ear-headphones",
+          "score": 0.8588255,
+          "raw_content_available": true,
+          "raw_content_length": 30600,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Amazon Best Sellers: Best Over-Ear Headphones",
+          "url": "https://www.amazon.com/Best-Sellers-Over-Ear-Headphones/zgbs/electronics/12097479011",
+          "score": 0.68090034,
+          "raw_content_available": true,
+          "raw_content_length": 8021,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 7,
+      "timestamp": "2026-08-23T18:57:08.345603+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Sony WH-1000XM6 Amazon product page price rating battery life 2026",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.26,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Sony WH-1000XM6 The Best Noise Cancelling Wireless ...",
+          "url": "https://camelcamelcamel.com/product/B0F3PQHWTZ",
+          "score": 0.87782305,
+          "raw_content_available": true,
+          "raw_content_length": 15900,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Sony WH-1000XM6 Review: 365 Days Later... - YouTube",
+          "url": "https://www.youtube.com/watch?v=ORbaKZhb1iE",
+          "score": 0.7325349,
+          "raw_content_available": true,
+          "raw_content_length": 20224,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Sony WH-1000XM6 get a big price cut with this Amazon deal - PC Guide",
+          "url": "https://www.pcguide.com/deals/sony-wh-1000xm6-get-a-big-price-cut-with-this-amazon-deal",
+          "score": 0.72675586,
+          "raw_content_available": true,
+          "raw_content_length": 14313,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "The Sony WH-1000XM6 have crashed back to a record low price, just days before Amazon's Big Spring Sale | Android Central",
+          "url": "https://www.androidcentral.com/accessories/headphones/the-sony-wh-1000xm6-have-crashed-back-to-a-record-low-price-just-days-before-amazons-big-spring-sale",
+          "score": 0.7159213,
+          "raw_content_available": true,
+          "raw_content_length": 10594,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Sony WH-1000XM6 Best Wireless Noise Canceling ...",
+          "url": "https://electronics.sony.com/audio/headphones/headband/p/wh1000xm6-b",
+          "score": 0.71137124,
+          "raw_content_available": true,
+          "raw_content_length": 6512,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 20,
+      "timestamp": "2026-08-23T18:57:24.756068+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Soundcore Space One Amazon price rating 2026",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.972,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Amazon.com: Soundcore Anker Space One ANC Over-Ear Headphones, Voice Reduction | Active Noise Cancelling, Comfortable Fit, Bluetooth, 40H ANC Playtime, App Control, LDAC Hi-Res, 3 Mics with AI, Travel-Ready : Electronics",
+          "url": "https://www.amazon.com/Soundcore-Cancelling-Headphones-Reduction-Comfortable/dp/B0C6KKQ7ND",
+          "score": 0.8638634,
+          "raw_content_available": true,
+          "raw_content_length": 298096,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Anker Soundcore Space One review - SoundGuys",
+          "url": "https://www.soundguys.com/anker-soundcore-space-one-review-111648",
+          "score": 0.68140936,
+          "raw_content_available": true,
+          "raw_content_length": 21613,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Anker Soundcore Space One ANC Headphones Cost Nearly 7x Less Than AirPods Max on Amazon",
+          "url": "https://gizmodo.com/anker-soundcore-space-one-anc-headphones-cost-nearly-7x-less-than-airpods-max-on-amazon-2000769760",
+          "score": 0.68090034,
+          "raw_content_available": true,
+          "raw_content_length": 8937,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Soundcore Space 2 | The Budget Headphone King of 2026?",
+          "url": "https://www.youtube.com/watch?v=c4kNtwOTct0&vl=en",
+          "score": 0.6698534,
+          "raw_content_available": true,
+          "raw_content_length": 11783,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Why these budget headphones still have bomb ANC - nearly 3 years later | ZDNET",
+          "url": "https://www.zdnet.com/article/soundcore-space-one-review",
+          "score": 0.643173,
+          "raw_content_available": true,
+          "raw_content_length": 16179,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 21,
+      "timestamp": "2026-08-23T18:57:25.492008+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Apple AirPods Max 2 Amazon product page 2026",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 3.018,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Best Prime Day AirPods deals 2026: AirPods Max 2 at record-low price",
+          "url": "https://mashable.com/tech/best-prime-day-airpods-deals-2026",
+          "score": 0.76490957,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "Apple introduces AirPods Max 2",
+          "url": "https://www.apple.com/newsroom/2026/03/apple-introduces-airpods-max-2-powered-by-h2",
+          "score": 0.6578248,
+          "raw_content_available": true,
+          "raw_content_length": 6796,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "IGN - The 2026 Apple AirPods Max 2 noise canceling...",
+          "url": "https://www.facebook.com/ign/posts/the-2026-apple-airpods-max-2-noise-canceling-headphones-have-dropped-to-its-lowe/1580688903712909",
+          "score": 0.65279555,
+          "raw_content_available": true,
+          "raw_content_length": 10061,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "AirPods Max 2 Release Date and Price — This LEAK Changes Everything!",
+          "url": "https://www.youtube.com/watch?v=iAQ45T88lh0&vl=en",
+          "score": 0.4674539,
+          "raw_content_available": true,
+          "raw_content_length": 13678,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Pick Up AirPods Max 2 at Their Lowest Price Ever With This Prime ...",
+          "url": "https://www.pcmag.com/deals/airpods-max-2-headphones-lowest-price-amazon-prime-day-deal-2026",
+          "score": 0.4562407,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        }
+      ],
+      "sequence": 22,
+      "timestamp": "2026-08-23T18:57:25.532179+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Sennheiser Momentum 5 Wireless Amazon 2026",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 3.252,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Sennheiser Momentum 5 Wireless: Price, Specs, Release Date, and How It Stacks Up Against the Competition - Memeburn",
+          "url": "https://memeburn.com/sennheiser-momentum-5-wireless-price-specs-release-date",
+          "score": 0.89997756,
+          "raw_content_available": true,
+          "raw_content_length": 22041,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Introducing MOMENTUM 5 Wireless: Your Sound ...",
+          "url": "https://newsroom.sennheiser.com/introducing-momentum-5-wireless-your-sound-revelation-starts-here",
+          "score": 0.8215175,
+          "raw_content_available": true,
+          "raw_content_length": 8937,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Sennheiser MOMENTUM 5 Wireless Review: Did Sennheiser Just Undercut the HDB 630? - ecoustics.com",
+          "url": "https://www.ecoustics.com/reviews/sennheiser-momentum-5",
+          "score": 0.78014404,
+          "raw_content_available": true,
+          "raw_content_length": 42027,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Sennheiser MOMENTUM 5 Wireless launch with replaceable battery, aptX Lossless, and improved ANC",
+          "url": "https://www.soundguys.com/sennheiser-momentum-5-wireless-131570",
+          "score": 0.7001783,
+          "raw_content_available": true,
+          "raw_content_length": 5589,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Sennheiser Momentum 5 Wireless Headphones, ANC, 57 Hr Battery ...",
+          "url": "https://www.amazon.com/Sennheiser-Momentum-Wireless-Headphones-Battery/dp/B0H1YDZJQP",
+          "score": 0.69968605,
+          "raw_content_available": true,
+          "raw_content_length": 15779,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 23,
+      "timestamp": "2026-08-23T18:57:25.777352+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Bose QuietComfort Ultra Headphones 2nd Gen Amazon 2026 specs price",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 3.651,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Bose QuietComfort Ultra Bluetooth Headphones (2nd Gen), Wireless Headphones with Spatial Audio, Over Ear Noise Cancelling with Mic, Up to 30 Hours of Play time, Desert Gold - Limited Edition Color",
+          "url": "https://camelcamelcamel.com/product/B0FDKQZ18F",
+          "score": 0.93161833,
+          "raw_content_available": true,
+          "raw_content_length": 17477,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Bose QuietComfort Ultra Headphones (2nd Gen) get an unmissable discount",
+          "url": "https://www.soundguys.com/bose-quietcomfort-ultra-headphones-2nd-gen-159911",
+          "score": 0.921591,
+          "raw_content_available": true,
+          "raw_content_length": 3511,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Amazon.com: Bose QuietComfort Ultra Wireless Noise Cancelling Headphones with Spatial Audio, Over-The-Ear Headphones with Mic, Up to 24 Hours of Battery Life, Black (Renewed) : Electronics",
+          "url": "https://www.amazon.com/Bose-QuietComfort-Wireless-Cancelling-Headphones/dp/B0CTCVXXQP",
+          "score": 0.8443195,
+          "raw_content_available": true,
+          "raw_content_length": 209141,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Shop Bose QuietComfort Ultra Headphones (2nd Gen) | Bose",
+          "url": "https://www.bose.com/p/headphones/bose-quietcomfort-ultra-headphones-2nd-gen/QCUH2-HEADPHONEARN.html",
+          "score": 0.8306082,
+          "raw_content_available": true,
+          "raw_content_length": 34174,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Bose QuietComfort (2nd Gen) release: What's new, price, and why we're excited for them | Mashable",
+          "url": "https://mashable.com/tech/bose-quietcomfort-headphones-2nd-gen-release-price",
+          "score": 0.7507177,
+          "raw_content_available": true,
+          "raw_content_length": 21841,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 24,
+      "timestamp": "2026-08-23T18:57:26.158503+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Apple AirPods Pro 3 Amazon product page price 2026",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.142,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Apple AirPods Pro 3 Wireless Earbuds with Active Noise ...",
+          "url": "https://camelcamelcamel.com/product/B0FQFB8FMG",
+          "score": 0.91795975,
+          "raw_content_available": true,
+          "raw_content_length": 18600,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "AirPods Pro 3 Drop to $199 in Amazon Memorial Day 2026 Sale",
+          "url": "https://appleinsider.com/articles/26/05/22/airpods-pro-3-drop-to-199-during-amazons-memorial-day-sale",
+          "score": 0.85509074,
+          "raw_content_available": true,
+          "raw_content_length": 10892,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Amazon Goes All-Time Low on AirPods Pro 3, Apple's Official Site Stays Full Price as Always",
+          "url": "https://gizmodo.com/amazon-goes-all-time-low-on-airpods-pro-3-apples-official-site-stays-full-price-as-always-2000774930",
+          "score": 0.7467494,
+          "raw_content_available": true,
+          "raw_content_length": 8727,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Amazon Is Selling the New AirPods Pro 3 at an All-Time Low Price - Business Insider",
+          "url": "https://www.businessinsider.com/guides/deals/amazon-is-selling-airpods-pro-3-deal-2026-1",
+          "score": 0.69697046,
+          "raw_content_available": true,
+          "raw_content_length": 10688,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Apple AirPods Pro 3 Wireless Earbuds with Active Noise ...",
+          "url": "https://www.amazon.com/clp/B0FQFB8FMG",
+          "score": 0.35669366,
+          "raw_content_available": true,
+          "raw_content_length": 4664,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 50,
+      "timestamp": "2026-08-23T18:57:45.591204+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Sony WF-1000XM6 Amazon price battery life ANC dB 2026",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.405,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Sony WF-1000XM6 The Best Truly Wireless Noise Cancelling Earbuds (2026 Model), Bluetooth in-Ear Headphones, with Studio-Quality Sound, Up to 24 Hours of Battery Life, Black",
+          "url": "https://camelcamelcamel.com/product/B0G6HLWS6Q",
+          "score": 0.9311691,
+          "raw_content_available": true,
+          "raw_content_length": 16285,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Sony WF-1000XM6 | Best ANC Ever But Is It Worth $329? - YouTube",
+          "url": "https://www.youtube.com/watch?v=m1Jezh1cunQ",
+          "score": 0.86928266,
+          "raw_content_available": true,
+          "raw_content_length": 17441,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "The Sony WF-1000XM6 are here: Price, specs, where to buy | Mashable",
+          "url": "https://mashable.com/article/sony-wf-1000xm6-earbuds-launch-price",
+          "score": 0.7050753,
+          "raw_content_available": true,
+          "raw_content_length": 25109,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Sony WF-1000XM6 review: Return of the KING?",
+          "url": "https://www.youtube.com/watch?v=_Hu5caC704A",
+          "score": 0.6399392,
+          "raw_content_available": true,
+          "raw_content_length": 17792,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "open prime modal",
+          "url": "https://www.amazon.com/clp/B0G6HLWS6Q",
+          "score": 0.6155738,
+          "raw_content_available": true,
+          "raw_content_length": 2721,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 51,
+      "timestamp": "2026-08-23T18:57:45.842637+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Sony ULT Wear headphones Amazon price battery ANC 2026",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.709,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Amazon.com: Sony ULT WEAR Over-Ear Noise Canceling Wireless Headphones, Black | Massive Bass, Comfortable Design, 30-Hour Battery, Signature Noise Canceling Found in 1000X Series, Alexa Built-in, Bluetooth : Electronics",
+          "url": "https://www.amazon.com/Sony-Canceling-Wireless-Headphones-Comfortable/dp/B0CWVX1GNX",
+          "score": 0.8131201,
+          "raw_content_available": true,
+          "raw_content_length": 236102,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Best Sony deal: Save $105.04 on the black Sony ULT Wear headphones at Amazon | Mashable",
+          "url": "https://mashable.com/tech/june-5-sony-ult-wear-headphones-deal",
+          "score": 0.7447496,
+          "raw_content_available": true,
+          "raw_content_length": 19472,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Sony's big oops! ULT Wear Full Review",
+          "url": "https://www.youtube.com/watch?v=r62lLq39nUM",
+          "score": 0.5889134,
+          "raw_content_available": true,
+          "raw_content_length": 14127,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Are the Sony ULT Wear headphones worth it? - Amazon.com",
+          "url": "https://www.amazon.com/live/video/0b05e3e8f9ae45e494fd7f730d6b61fb?ref_=dp_vse_rvc_1",
+          "score": 0.5248093,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "Sony ULT WEAR Over-Ear Noise Canceling Wireless Headphones ...",
+          "url": "https://www.amazon.com/Sony-Canceling-Wireless-Headphones-Comfortable/dp/B0CWVXTK6Z",
+          "score": 0.47431523,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        }
+      ],
+      "sequence": 52,
+      "timestamp": "2026-08-23T18:57:46.177459+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Beats Studio Pro Amazon price rating ANC 2026",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 3.025,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Beats Studio Pro Premium Wireless Over-Ear Headphones- Up to 40-Hour Battery Life, Active Noise Cancelling, Great for Travel & Commuting, USB-C Lossless Audio, Apple & Android Compatible -Black | Amazon price tracker / tracking, Amazon price history charts, Amazon price watches, Amazon price drop alerts\n    |\n    camelcamelcamel.com",
+          "url": "https://camelcamelcamel.com/product/B0C8PR4W22",
+          "score": 0.8576849,
+          "raw_content_available": true,
+          "raw_content_length": 5962,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Beats Studio Pro return to huge discount thanks to this Amazon deal - PC Guide",
+          "url": "https://www.pcguide.com/deals/beats-studio-pro-return-to-huge-discount-thanks-to-this-amazon-deal",
+          "score": 0.84858394,
+          "raw_content_available": true,
+          "raw_content_length": 12939,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Beats Studio Pro Review (2026) Best Wireless Over-Ear Headphones – ANC, 40H Battery & Lossless Audio",
+          "url": "https://www.youtube.com/watch?v=L4YkEUTQ6LY",
+          "score": 0.78393924,
+          "raw_content_available": true,
+          "raw_content_length": 6976,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Beats Studio Pro Review in 2025: Buy ONLY if They’re on Sale!",
+          "url": "https://www.youtube.com/watch?v=lWlactK9PWE",
+          "score": 0.4678915,
+          "raw_content_available": true,
+          "raw_content_length": 12608,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "open prime modal",
+          "url": "https://www.amazon.com/clp/B0C8PR4W22",
+          "score": 0.3753177,
+          "raw_content_available": true,
+          "raw_content_length": 2553,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 53,
+      "timestamp": "2026-08-23T18:57:46.481759+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Soundcore Liberty 5 Pro Amazon price noise cancellation 2026",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 3.825,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Anker Soundcore Liberty 5 Pro review: Worth the wait? - SoundGuys",
+          "url": "https://www.soundguys.com/anker-soundcore-liberty-5-pro-review-worth-the-wait-157556",
+          "score": 0.8757978,
+          "raw_content_available": true,
+          "raw_content_length": 14271,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Amazon.com: Soundcore Liberty 5 by Anker Noise-Cancelling Earbuds with Dolby Audio | Stronger voice reduction, real-time adaptive ANC, fast charging, 6-mic AI clear calls, long battery life. : Electronics",
+          "url": "https://www.amazon.com/soundcore-Noise-Cancelling-Reduction-Real-Time-Cancellation/dp/B0DT4F8JWQ",
+          "score": 0.83093774,
+          "raw_content_available": true,
+          "raw_content_length": 273640,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Soundcore Liberty 5 Pro and Pro Max earbuds: First impressions, price, where to buy | Mashable",
+          "url": "https://mashable.com/tech/soundcore-liberty-5-pro-and-pro-max-launch-price-first-impressions",
+          "score": 0.6829338,
+          "raw_content_available": true,
+          "raw_content_length": 30156,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Liberty 5 Pro Series ANC Earbuds Powered by Anker Thus™ AI Chip - soundcore US",
+          "url": "https://www.soundcore.com/liberty-5-pro-series",
+          "score": 0.6304352,
+          "raw_content_available": true,
+          "raw_content_length": 15351,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Anker Soundcore Liberty 5 Pro and Liberty 5 Pro Max review: Which should you buy?",
+          "url": "https://www.youtube.com/watch?v=3NlL4WWERRI",
+          "score": 0.5749443,
+          "raw_content_available": true,
+          "raw_content_length": 15502,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 54,
+      "timestamp": "2026-08-23T18:57:47.287578+08:00"
+    }
+  ],
+  "summary_cache_hits": 0,
+  "summary_cache_hit_urls": [],
+  "visit_calls_detail": [
+    {
+      "url": "https://www.rtings.com/headphones/reviews/best/by-feature/noise-cancelling",
+      "status": "success",
+      "content_length": 3448,
+      "duration_seconds": 2.827,
+      "query": "best selling wireless noise cancelling headphones Amazon 2026"
+    },
+    {
+      "url": "https://www.amazon.com/Best-Sellers-undefined/zgbs/undefined/509318",
+      "status": "success",
+      "content_length": 7733,
+      "duration_seconds": 2.827,
+      "query": "best selling wireless noise cancelling headphones Amazon 2026"
+    },
+    {
+      "url": "https://www.cnet.com/tech/mobile/best-noise-canceling-headphones",
+      "status": "success",
+      "content_length": 119459,
+      "duration_seconds": 2.827,
+      "query": "best selling wireless noise cancelling headphones Amazon 2026"
+    },
+    {
+      "url": "https://www.nytimes.com/wirecutter/reviews/best-noise-cancelling-headphones",
+      "status": "success",
+      "content_length": 68925,
+      "duration_seconds": 2.827,
+      "query": "best selling wireless noise cancelling headphones Amazon 2026"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=zbClh_tBl6o&vl=en",
+      "status": "success",
+      "content_length": 26712,
+      "duration_seconds": 2.827,
+      "query": "best selling wireless noise cancelling headphones Amazon 2026"
+    },
+    {
+      "url": "https://www.soundguys.com/best-budget-noise-cancelling-headphones-7142",
+      "status": "success",
+      "content_length": 31285,
+      "duration_seconds": 3.101,
+      "query": "best wireless noise cancelling headphones Amazon 2026"
+    },
+    {
+      "url": "https://www.rtings.com/headphones/reviews/best/by-feature/noise-cancelling",
+      "status": "success",
+      "content_length": 3448,
+      "duration_seconds": 3.101,
+      "query": "best wireless noise cancelling headphones Amazon 2026"
+    },
+    {
+      "url": "https://www.amazon.com/Best-Sellers-undefined/zgbs/undefined/509318",
+      "status": "success",
+      "content_length": 7733,
+      "duration_seconds": 3.101,
+      "query": "best wireless noise cancelling headphones Amazon 2026"
+    },
+    {
+      "url": "https://www.nytimes.com/wirecutter/reviews/best-noise-cancelling-headphones",
+      "status": "success",
+      "content_length": 68925,
+      "duration_seconds": 3.101,
+      "query": "best wireless noise cancelling headphones Amazon 2026"
+    },
+    {
+      "url": "https://www.whathifi.com/best-buys/headphones/best-noise-cancelling-headphones",
+      "status": "success",
+      "content_length": 72048,
+      "duration_seconds": 3.101,
+      "query": "best wireless noise cancelling headphones Amazon 2026"
+    },
+    {
+      "url": "https://www.rtings.com/headphones/reviews/best/by-feature/noise-cancelling",
+      "status": "success",
+      "content_length": 3448,
+      "duration_seconds": 3.957,
+      "query": "top noise cancelling headphones over-ear in-ear on-ear Amazon 2026"
+    },
+    {
+      "url": "https://www.nytimes.com/wirecutter/reviews/best-noise-cancelling-headphones",
+      "status": "success",
+      "content_length": 68925,
+      "duration_seconds": 3.957,
+      "query": "top noise cancelling headphones over-ear in-ear on-ear Amazon 2026"
+    },
+    {
+      "url": "https://www.cnet.com/tech/mobile/best-headphones",
+      "status": "success",
+      "content_length": 172917,
+      "duration_seconds": 3.957,
+      "query": "top noise cancelling headphones over-ear in-ear on-ear Amazon 2026"
+    },
+    {
+      "url": "https://chrislovesjulia.com/the-best-over-ear-headphones",
+      "status": "success",
+      "content_length": 30600,
+      "duration_seconds": 3.957,
+      "query": "top noise cancelling headphones over-ear in-ear on-ear Amazon 2026"
+    },
+    {
+      "url": "https://www.amazon.com/Best-Sellers-Over-Ear-Headphones/zgbs/electronics/12097479011",
+      "status": "success",
+      "content_length": 8021,
+      "duration_seconds": 3.957,
+      "query": "top noise cancelling headphones over-ear in-ear on-ear Amazon 2026"
+    },
+    {
+      "url": "https://camelcamelcamel.com/product/B0F3PQHWTZ",
+      "status": "success",
+      "content_length": 15900,
+      "duration_seconds": 2.26,
+      "query": "Sony WH-1000XM6 Amazon product page price rating battery life 2026"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=ORbaKZhb1iE",
+      "status": "success",
+      "content_length": 20224,
+      "duration_seconds": 2.26,
+      "query": "Sony WH-1000XM6 Amazon product page price rating battery life 2026"
+    },
+    {
+      "url": "https://www.pcguide.com/deals/sony-wh-1000xm6-get-a-big-price-cut-with-this-amazon-deal",
+      "status": "success",
+      "content_length": 14313,
+      "duration_seconds": 2.26,
+      "query": "Sony WH-1000XM6 Amazon product page price rating battery life 2026"
+    },
+    {
+      "url": "https://www.androidcentral.com/accessories/headphones/the-sony-wh-1000xm6-have-crashed-back-to-a-record-low-price-just-days-before-amazons-big-spring-sale",
+      "status": "success",
+      "content_length": 10594,
+      "duration_seconds": 2.26,
+      "query": "Sony WH-1000XM6 Amazon product page price rating battery life 2026"
+    },
+    {
+      "url": "https://electronics.sony.com/audio/headphones/headband/p/wh1000xm6-b",
+      "status": "success",
+      "content_length": 6512,
+      "duration_seconds": 2.26,
+      "query": "Sony WH-1000XM6 Amazon product page price rating battery life 2026"
+    },
+    {
+      "url": "https://www.amazon.com/Soundcore-Cancelling-Headphones-Reduction-Comfortable/dp/B0C6KKQ7ND",
+      "status": "success",
+      "content_length": 298096,
+      "duration_seconds": 2.972,
+      "query": "Soundcore Space One Amazon price rating 2026"
+    },
+    {
+      "url": "https://www.soundguys.com/anker-soundcore-space-one-review-111648",
+      "status": "success",
+      "content_length": 21613,
+      "duration_seconds": 2.972,
+      "query": "Soundcore Space One Amazon price rating 2026"
+    },
+    {
+      "url": "https://gizmodo.com/anker-soundcore-space-one-anc-headphones-cost-nearly-7x-less-than-airpods-max-on-amazon-2000769760",
+      "status": "success",
+      "content_length": 8937,
+      "duration_seconds": 2.972,
+      "query": "Soundcore Space One Amazon price rating 2026"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=c4kNtwOTct0&vl=en",
+      "status": "success",
+      "content_length": 11783,
+      "duration_seconds": 2.972,
+      "query": "Soundcore Space One Amazon price rating 2026"
+    },
+    {
+      "url": "https://www.zdnet.com/article/soundcore-space-one-review",
+      "status": "success",
+      "content_length": 16179,
+      "duration_seconds": 2.972,
+      "query": "Soundcore Space One Amazon price rating 2026"
+    },
+    {
+      "url": "https://mashable.com/tech/best-prime-day-airpods-deals-2026",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 3.018,
+      "query": "Apple AirPods Max 2 Amazon product page 2026"
+    },
+    {
+      "url": "https://www.apple.com/newsroom/2026/03/apple-introduces-airpods-max-2-powered-by-h2",
+      "status": "success",
+      "content_length": 6796,
+      "duration_seconds": 3.018,
+      "query": "Apple AirPods Max 2 Amazon product page 2026"
+    },
+    {
+      "url": "https://www.facebook.com/ign/posts/the-2026-apple-airpods-max-2-noise-canceling-headphones-have-dropped-to-its-lowe/1580688903712909",
+      "status": "success",
+      "content_length": 10061,
+      "duration_seconds": 3.018,
+      "query": "Apple AirPods Max 2 Amazon product page 2026"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=iAQ45T88lh0&vl=en",
+      "status": "success",
+      "content_length": 13678,
+      "duration_seconds": 3.018,
+      "query": "Apple AirPods Max 2 Amazon product page 2026"
+    },
+    {
+      "url": "https://www.pcmag.com/deals/airpods-max-2-headphones-lowest-price-amazon-prime-day-deal-2026",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 3.018,
+      "query": "Apple AirPods Max 2 Amazon product page 2026"
+    },
+    {
+      "url": "https://memeburn.com/sennheiser-momentum-5-wireless-price-specs-release-date",
+      "status": "success",
+      "content_length": 22041,
+      "duration_seconds": 3.252,
+      "query": "Sennheiser Momentum 5 Wireless Amazon 2026"
+    },
+    {
+      "url": "https://newsroom.sennheiser.com/introducing-momentum-5-wireless-your-sound-revelation-starts-here",
+      "status": "success",
+      "content_length": 8937,
+      "duration_seconds": 3.252,
+      "query": "Sennheiser Momentum 5 Wireless Amazon 2026"
+    },
+    {
+      "url": "https://www.ecoustics.com/reviews/sennheiser-momentum-5",
+      "status": "success",
+      "content_length": 42027,
+      "duration_seconds": 3.252,
+      "query": "Sennheiser Momentum 5 Wireless Amazon 2026"
+    },
+    {
+      "url": "https://www.soundguys.com/sennheiser-momentum-5-wireless-131570",
+      "status": "success",
+      "content_length": 5589,
+      "duration_seconds": 3.252,
+      "query": "Sennheiser Momentum 5 Wireless Amazon 2026"
+    },
+    {
+      "url": "https://www.amazon.com/Sennheiser-Momentum-Wireless-Headphones-Battery/dp/B0H1YDZJQP",
+      "status": "success",
+      "content_length": 15779,
+      "duration_seconds": 3.252,
+      "query": "Sennheiser Momentum 5 Wireless Amazon 2026"
+    },
+    {
+      "url": "https://camelcamelcamel.com/product/B0FDKQZ18F",
+      "status": "success",
+      "content_length": 17477,
+      "duration_seconds": 3.651,
+      "query": "Bose QuietComfort Ultra Headphones 2nd Gen Amazon 2026 specs price"
+    },
+    {
+      "url": "https://www.soundguys.com/bose-quietcomfort-ultra-headphones-2nd-gen-159911",
+      "status": "success",
+      "content_length": 3511,
+      "duration_seconds": 3.651,
+      "query": "Bose QuietComfort Ultra Headphones 2nd Gen Amazon 2026 specs price"
+    },
+    {
+      "url": "https://www.amazon.com/Bose-QuietComfort-Wireless-Cancelling-Headphones/dp/B0CTCVXXQP",
+      "status": "success",
+      "content_length": 209141,
+      "duration_seconds": 3.651,
+      "query": "Bose QuietComfort Ultra Headphones 2nd Gen Amazon 2026 specs price"
+    },
+    {
+      "url": "https://www.bose.com/p/headphones/bose-quietcomfort-ultra-headphones-2nd-gen/QCUH2-HEADPHONEARN.html",
+      "status": "success",
+      "content_length": 34174,
+      "duration_seconds": 3.651,
+      "query": "Bose QuietComfort Ultra Headphones 2nd Gen Amazon 2026 specs price"
+    },
+    {
+      "url": "https://mashable.com/tech/bose-quietcomfort-headphones-2nd-gen-release-price",
+      "status": "success",
+      "content_length": 21841,
+      "duration_seconds": 3.651,
+      "query": "Bose QuietComfort Ultra Headphones 2nd Gen Amazon 2026 specs price"
+    },
+    {
+      "url": "https://camelcamelcamel.com/product/B0FQFB8FMG",
+      "status": "success",
+      "content_length": 18600,
+      "duration_seconds": 2.142,
+      "query": "Apple AirPods Pro 3 Amazon product page price 2026"
+    },
+    {
+      "url": "https://appleinsider.com/articles/26/05/22/airpods-pro-3-drop-to-199-during-amazons-memorial-day-sale",
+      "status": "success",
+      "content_length": 10892,
+      "duration_seconds": 2.142,
+      "query": "Apple AirPods Pro 3 Amazon product page price 2026"
+    },
+    {
+      "url": "https://gizmodo.com/amazon-goes-all-time-low-on-airpods-pro-3-apples-official-site-stays-full-price-as-always-2000774930",
+      "status": "success",
+      "content_length": 8727,
+      "duration_seconds": 2.142,
+      "query": "Apple AirPods Pro 3 Amazon product page price 2026"
+    },
+    {
+      "url": "https://www.businessinsider.com/guides/deals/amazon-is-selling-airpods-pro-3-deal-2026-1",
+      "status": "success",
+      "content_length": 10688,
+      "duration_seconds": 2.142,
+      "query": "Apple AirPods Pro 3 Amazon product page price 2026"
+    },
+    {
+      "url": "https://www.amazon.com/clp/B0FQFB8FMG",
+      "status": "success",
+      "content_length": 4664,
+      "duration_seconds": 2.142,
+      "query": "Apple AirPods Pro 3 Amazon product page price 2026"
+    },
+    {
+      "url": "https://camelcamelcamel.com/product/B0G6HLWS6Q",
+      "status": "success",
+      "content_length": 16285,
+      "duration_seconds": 2.405,
+      "query": "Sony WF-1000XM6 Amazon price battery life ANC dB 2026"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=m1Jezh1cunQ",
+      "status": "success",
+      "content_length": 17441,
+      "duration_seconds": 2.405,
+      "query": "Sony WF-1000XM6 Amazon price battery life ANC dB 2026"
+    },
+    {
+      "url": "https://mashable.com/article/sony-wf-1000xm6-earbuds-launch-price",
+      "status": "success",
+      "content_length": 25109,
+      "duration_seconds": 2.405,
+      "query": "Sony WF-1000XM6 Amazon price battery life ANC dB 2026"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=_Hu5caC704A",
+      "status": "success",
+      "content_length": 17792,
+      "duration_seconds": 2.405,
+      "query": "Sony WF-1000XM6 Amazon price battery life ANC dB 2026"
+    },
+    {
+      "url": "https://www.amazon.com/clp/B0G6HLWS6Q",
+      "status": "success",
+      "content_length": 2721,
+      "duration_seconds": 2.405,
+      "query": "Sony WF-1000XM6 Amazon price battery life ANC dB 2026"
+    },
+    {
+      "url": "https://www.amazon.com/Sony-Canceling-Wireless-Headphones-Comfortable/dp/B0CWVX1GNX",
+      "status": "success",
+      "content_length": 236102,
+      "duration_seconds": 2.709,
+      "query": "Sony ULT Wear headphones Amazon price battery ANC 2026"
+    },
+    {
+      "url": "https://mashable.com/tech/june-5-sony-ult-wear-headphones-deal",
+      "status": "success",
+      "content_length": 19472,
+      "duration_seconds": 2.709,
+      "query": "Sony ULT Wear headphones Amazon price battery ANC 2026"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=r62lLq39nUM",
+      "status": "success",
+      "content_length": 14127,
+      "duration_seconds": 2.709,
+      "query": "Sony ULT Wear headphones Amazon price battery ANC 2026"
+    },
+    {
+      "url": "https://www.amazon.com/live/video/0b05e3e8f9ae45e494fd7f730d6b61fb?ref_=dp_vse_rvc_1",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.709,
+      "query": "Sony ULT Wear headphones Amazon price battery ANC 2026"
+    },
+    {
+      "url": "https://www.amazon.com/Sony-Canceling-Wireless-Headphones-Comfortable/dp/B0CWVXTK6Z",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.709,
+      "query": "Sony ULT Wear headphones Amazon price battery ANC 2026"
+    },
+    {
+      "url": "https://camelcamelcamel.com/product/B0C8PR4W22",
+      "status": "success",
+      "content_length": 5962,
+      "duration_seconds": 3.025,
+      "query": "Beats Studio Pro Amazon price rating ANC 2026"
+    },
+    {
+      "url": "https://www.pcguide.com/deals/beats-studio-pro-return-to-huge-discount-thanks-to-this-amazon-deal",
+      "status": "success",
+      "content_length": 12939,
+      "duration_seconds": 3.025,
+      "query": "Beats Studio Pro Amazon price rating ANC 2026"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=L4YkEUTQ6LY",
+      "status": "success",
+      "content_length": 6976,
+      "duration_seconds": 3.025,
+      "query": "Beats Studio Pro Amazon price rating ANC 2026"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=lWlactK9PWE",
+      "status": "success",
+      "content_length": 12608,
+      "duration_seconds": 3.025,
+      "query": "Beats Studio Pro Amazon price rating ANC 2026"
+    },
+    {
+      "url": "https://www.amazon.com/clp/B0C8PR4W22",
+      "status": "success",
+      "content_length": 2553,
+      "duration_seconds": 3.025,
+      "query": "Beats Studio Pro Amazon price rating ANC 2026"
+    },
+    {
+      "url": "https://www.soundguys.com/anker-soundcore-liberty-5-pro-review-worth-the-wait-157556",
+      "status": "success",
+      "content_length": 14271,
+      "duration_seconds": 3.825,
+      "query": "Soundcore Liberty 5 Pro Amazon price noise cancellation 2026"
+    },
+    {
+      "url": "https://www.amazon.com/soundcore-Noise-Cancelling-Reduction-Real-Time-Cancellation/dp/B0DT4F8JWQ",
+      "status": "success",
+      "content_length": 273640,
+      "duration_seconds": 3.825,
+      "query": "Soundcore Liberty 5 Pro Amazon price noise cancellation 2026"
+    },
+    {
+      "url": "https://mashable.com/tech/soundcore-liberty-5-pro-and-pro-max-launch-price-first-impressions",
+      "status": "success",
+      "content_length": 30156,
+      "duration_seconds": 3.825,
+      "query": "Soundcore Liberty 5 Pro Amazon price noise cancellation 2026"
+    },
+    {
+      "url": "https://www.soundcore.com/liberty-5-pro-series",
+      "status": "success",
+      "content_length": 15351,
+      "duration_seconds": 3.825,
+      "query": "Soundcore Liberty 5 Pro Amazon price noise cancellation 2026"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=3NlL4WWERRI",
+      "status": "success",
+      "content_length": 15502,
+      "duration_seconds": 3.825,
+      "query": "Soundcore Liberty 5 Pro Amazon price noise cancellation 2026"
+    }
+  ],
+  "run_id": "40f7a8f0c5e944e089c161348612ec24",
+  "status": "completed",
+  "qid": "rankliFmBTzbMqx2kaw22n",
+  "query": "What are the top 25 wireless headphones available on Amazon in 2026, ranked equally by noise cancellation rating (dB), battery life (hours), and Amazon customer rating (stars)? In the final report, you should include a detailed table for the summarized ranked results, and also provide an analysis explaining the rationale behind the ranking.",
+  "duration_seconds": 329.868,
+  "report_length": 27048,
+  "context_length": 130130,
+  "token_counting": "Token counts come only from API-reported usage; missing usage is never estimated."
+}

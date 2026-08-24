@@ -1,0 +1,5651 @@
+{
+  "session_id": "0e86b624da8444f3b6e2951d7205bd0e",
+  "total_llm_calls": 137,
+  "llm_calls_with_token_usage": 137,
+  "llm_calls_missing_token_usage": 0,
+  "token_usage_complete": true,
+  "total_input_tokens": 1434175,
+  "total_output_tokens": 125556,
+  "total_tokens": 1559731,
+  "counted_input_tokens": 1434175,
+  "counted_output_tokens": 125556,
+  "counted_total_tokens": 1559731,
+  "total_search_count": 26,
+  "total_search_results": 130,
+  "total_visit_count": 130,
+  "total_visit_success": 129,
+  "total_visit_failed": 1,
+  "source_urls_count": 108,
+  "llm_calls_detail": [
+    {
+      "sequence": 1,
+      "status": "completed",
+      "started_at": "2026-08-23T19:17:11.202191+08:00",
+      "completed_at": "2026-08-23T19:17:17.571882+08:00",
+      "duration_seconds": 6.37,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 847,
+      "output_tokens": 340,
+      "total_tokens": 1187,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 847,
+        "output_tokens": 340,
+        "total_tokens": 1187,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 2,
+      "status": "completed",
+      "started_at": "2026-08-23T19:17:17.581025+08:00",
+      "completed_at": "2026-08-23T19:17:22.744988+08:00",
+      "duration_seconds": 5.164,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1404,
+      "output_tokens": 458,
+      "total_tokens": 1862,
+      "message_count": 2,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1404,
+        "output_tokens": 458,
+        "total_tokens": 1862,
+        "input_token_details": {
+          "cache_read": 1024
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 3,
+      "status": "completed",
+      "started_at": "2026-08-23T19:17:22.751978+08:00",
+      "completed_at": "2026-08-23T19:17:32.183398+08:00",
+      "duration_seconds": 9.431,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1827,
+      "output_tokens": 862,
+      "total_tokens": 2689,
+      "message_count": 4,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1827,
+        "output_tokens": 862,
+        "total_tokens": 2689,
+        "input_token_details": {
+          "cache_read": 1280
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 4,
+      "status": "completed",
+      "started_at": "2026-08-23T19:17:32.203988+08:00",
+      "completed_at": "2026-08-23T19:17:34.783437+08:00",
+      "duration_seconds": 2.579,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1095,
+      "output_tokens": 142,
+      "total_tokens": 1237,
+      "message_count": 2,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1095,
+        "output_tokens": 142,
+        "total_tokens": 1237,
+        "input_token_details": {
+          "cache_read": 768
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 5,
+      "status": "completed",
+      "started_at": "2026-08-23T19:17:32.204085+08:00",
+      "completed_at": "2026-08-23T19:17:35.138183+08:00",
+      "duration_seconds": 2.934,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1083,
+      "output_tokens": 151,
+      "total_tokens": 1234,
+      "message_count": 2,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1083,
+        "output_tokens": 151,
+        "total_tokens": 1234,
+        "input_token_details": {
+          "cache_read": 768
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 6,
+      "status": "completed",
+      "started_at": "2026-08-23T19:17:32.204285+08:00",
+      "completed_at": "2026-08-23T19:17:35.137895+08:00",
+      "duration_seconds": 2.934,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1139,
+      "output_tokens": 157,
+      "total_tokens": 1296,
+      "message_count": 2,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1139,
+        "output_tokens": 157,
+        "total_tokens": 1296,
+        "input_token_details": {
+          "cache_read": 768
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 11,
+      "status": "completed",
+      "started_at": "2026-08-23T19:17:37.772942+08:00",
+      "completed_at": "2026-08-23T19:17:44.818757+08:00",
+      "duration_seconds": 7.046,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2480,
+      "output_tokens": 642,
+      "total_tokens": 3122,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2480,
+        "output_tokens": 642,
+        "total_tokens": 3122,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 12,
+      "status": "completed",
+      "started_at": "2026-08-23T19:17:37.773238+08:00",
+      "completed_at": "2026-08-23T19:17:45.807722+08:00",
+      "duration_seconds": 8.035,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4543,
+      "output_tokens": 676,
+      "total_tokens": 5219,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4543,
+        "output_tokens": 676,
+        "total_tokens": 5219,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 13,
+      "status": "completed",
+      "started_at": "2026-08-23T19:17:37.773282+08:00",
+      "completed_at": "2026-08-23T19:17:43.715611+08:00",
+      "duration_seconds": 5.942,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3124,
+      "output_tokens": 493,
+      "total_tokens": 3617,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3124,
+        "output_tokens": 493,
+        "total_tokens": 3617,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 14,
+      "status": "completed",
+      "started_at": "2026-08-23T19:17:37.773312+08:00",
+      "completed_at": "2026-08-23T19:17:44.771137+08:00",
+      "duration_seconds": 6.998,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4962,
+      "output_tokens": 665,
+      "total_tokens": 5627,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4962,
+        "output_tokens": 665,
+        "total_tokens": 5627,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 15,
+      "status": "completed",
+      "started_at": "2026-08-23T19:17:37.773338+08:00",
+      "completed_at": "2026-08-23T19:17:44.168819+08:00",
+      "duration_seconds": 6.396,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 16944,
+      "output_tokens": 557,
+      "total_tokens": 17501,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 16944,
+        "output_tokens": 557,
+        "total_tokens": 17501,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 16,
+      "status": "completed",
+      "started_at": "2026-08-23T19:17:37.773362+08:00",
+      "completed_at": "2026-08-23T19:17:44.400686+08:00",
+      "duration_seconds": 6.627,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 9125,
+      "output_tokens": 557,
+      "total_tokens": 9682,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 9125,
+        "output_tokens": 557,
+        "total_tokens": 9682,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 17,
+      "status": "completed",
+      "started_at": "2026-08-23T19:17:37.773386+08:00",
+      "completed_at": "2026-08-23T19:17:45.747927+08:00",
+      "duration_seconds": 7.975,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8058,
+      "output_tokens": 795,
+      "total_tokens": 8853,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 8058,
+        "output_tokens": 795,
+        "total_tokens": 8853,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 18,
+      "status": "completed",
+      "started_at": "2026-08-23T19:17:37.773408+08:00",
+      "completed_at": "2026-08-23T19:17:44.605109+08:00",
+      "duration_seconds": 6.832,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7019,
+      "output_tokens": 639,
+      "total_tokens": 7658,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 7019,
+        "output_tokens": 639,
+        "total_tokens": 7658,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 19,
+      "status": "completed",
+      "started_at": "2026-08-23T19:17:37.773433+08:00",
+      "completed_at": "2026-08-23T19:17:45.506103+08:00",
+      "duration_seconds": 7.733,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 9947,
+      "output_tokens": 750,
+      "total_tokens": 10697,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 9947,
+        "output_tokens": 750,
+        "total_tokens": 10697,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 20,
+      "status": "completed",
+      "started_at": "2026-08-23T19:17:37.773457+08:00",
+      "completed_at": "2026-08-23T19:17:44.872263+08:00",
+      "duration_seconds": 7.099,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7907,
+      "output_tokens": 579,
+      "total_tokens": 8486,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 7907,
+        "output_tokens": 579,
+        "total_tokens": 8486,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 21,
+      "status": "completed",
+      "started_at": "2026-08-23T19:17:37.773478+08:00",
+      "completed_at": "2026-08-23T19:17:43.005976+08:00",
+      "duration_seconds": 5.233,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4900,
+      "output_tokens": 425,
+      "total_tokens": 5325,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4900,
+        "output_tokens": 425,
+        "total_tokens": 5325,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 22,
+      "status": "completed",
+      "started_at": "2026-08-23T19:17:37.773611+08:00",
+      "completed_at": "2026-08-23T19:17:41.490247+08:00",
+      "duration_seconds": 3.717,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1595,
+      "output_tokens": 268,
+      "total_tokens": 1863,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1595,
+        "output_tokens": 268,
+        "total_tokens": 1863,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 23,
+      "status": "completed",
+      "started_at": "2026-08-23T19:17:37.773635+08:00",
+      "completed_at": "2026-08-23T19:17:44.169057+08:00",
+      "duration_seconds": 6.395,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6999,
+      "output_tokens": 552,
+      "total_tokens": 7551,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 6999,
+        "output_tokens": 552,
+        "total_tokens": 7551,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 24,
+      "status": "completed",
+      "started_at": "2026-08-23T19:17:37.773658+08:00",
+      "completed_at": "2026-08-23T19:17:42.969960+08:00",
+      "duration_seconds": 5.196,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 16450,
+      "output_tokens": 357,
+      "total_tokens": 16807,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 16450,
+        "output_tokens": 357,
+        "total_tokens": 16807,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 25,
+      "status": "completed",
+      "started_at": "2026-08-23T19:17:37.773681+08:00",
+      "completed_at": "2026-08-23T19:17:43.185168+08:00",
+      "duration_seconds": 5.412,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2137,
+      "output_tokens": 410,
+      "total_tokens": 2547,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2137,
+        "output_tokens": 410,
+        "total_tokens": 2547,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 31,
+      "status": "completed",
+      "started_at": "2026-08-23T19:17:38.926765+08:00",
+      "completed_at": "2026-08-23T19:17:48.750119+08:00",
+      "duration_seconds": 9.823,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5857,
+      "output_tokens": 897,
+      "total_tokens": 6754,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5857,
+        "output_tokens": 897,
+        "total_tokens": 6754,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 32,
+      "status": "completed",
+      "started_at": "2026-08-23T19:17:38.926917+08:00",
+      "completed_at": "2026-08-23T19:17:49.341837+08:00",
+      "duration_seconds": 10.415,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5615,
+      "output_tokens": 926,
+      "total_tokens": 6541,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5615,
+        "output_tokens": 926,
+        "total_tokens": 6541,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 33,
+      "status": "completed",
+      "started_at": "2026-08-23T19:17:38.926984+08:00",
+      "completed_at": "2026-08-23T19:17:45.866243+08:00",
+      "duration_seconds": 6.939,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7349,
+      "output_tokens": 668,
+      "total_tokens": 8017,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 7349,
+        "output_tokens": 668,
+        "total_tokens": 8017,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 34,
+      "status": "completed",
+      "started_at": "2026-08-23T19:17:38.927021+08:00",
+      "completed_at": "2026-08-23T19:17:42.488139+08:00",
+      "duration_seconds": 3.561,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1949,
+      "output_tokens": 267,
+      "total_tokens": 2216,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1949,
+        "output_tokens": 267,
+        "total_tokens": 2216,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 35,
+      "status": "completed",
+      "started_at": "2026-08-23T19:17:38.927052+08:00",
+      "completed_at": "2026-08-23T19:17:45.032807+08:00",
+      "duration_seconds": 6.106,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4289,
+      "output_tokens": 516,
+      "total_tokens": 4805,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4289,
+        "output_tokens": 516,
+        "total_tokens": 4805,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 36,
+      "status": "completed",
+      "started_at": "2026-08-23T19:17:38.927080+08:00",
+      "completed_at": "2026-08-23T19:17:44.440085+08:00",
+      "duration_seconds": 5.513,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3403,
+      "output_tokens": 464,
+      "total_tokens": 3867,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3403,
+        "output_tokens": 464,
+        "total_tokens": 3867,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 37,
+      "status": "completed",
+      "started_at": "2026-08-23T19:17:38.927108+08:00",
+      "completed_at": "2026-08-23T19:17:45.866027+08:00",
+      "duration_seconds": 6.939,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 11982,
+      "output_tokens": 683,
+      "total_tokens": 12665,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 11982,
+        "output_tokens": 683,
+        "total_tokens": 12665,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 38,
+      "status": "completed",
+      "started_at": "2026-08-23T19:17:38.927136+08:00",
+      "completed_at": "2026-08-23T19:17:47.538201+08:00",
+      "duration_seconds": 8.611,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 9066,
+      "output_tokens": 869,
+      "total_tokens": 9935,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 9066,
+        "output_tokens": 869,
+        "total_tokens": 9935,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 39,
+      "status": "completed",
+      "started_at": "2026-08-23T19:17:38.927164+08:00",
+      "completed_at": "2026-08-23T19:17:45.452519+08:00",
+      "duration_seconds": 6.525,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4582,
+      "output_tokens": 603,
+      "total_tokens": 5185,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4582,
+        "output_tokens": 603,
+        "total_tokens": 5185,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 40,
+      "status": "completed",
+      "started_at": "2026-08-23T19:17:38.927191+08:00",
+      "completed_at": "2026-08-23T19:17:49.497149+08:00",
+      "duration_seconds": 10.57,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 12474,
+      "output_tokens": 1048,
+      "total_tokens": 13522,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 12474,
+        "output_tokens": 1048,
+        "total_tokens": 13522,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 41,
+      "status": "completed",
+      "started_at": "2026-08-23T19:17:38.927218+08:00",
+      "completed_at": "2026-08-23T19:17:47.960443+08:00",
+      "duration_seconds": 9.033,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4543,
+      "output_tokens": 840,
+      "total_tokens": 5383,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4543,
+        "output_tokens": 840,
+        "total_tokens": 5383,
+        "input_token_details": {
+          "cache_read": 4352
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 42,
+      "status": "completed",
+      "started_at": "2026-08-23T19:17:38.927243+08:00",
+      "completed_at": "2026-08-23T19:17:49.992328+08:00",
+      "duration_seconds": 11.065,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 23945,
+      "output_tokens": 1017,
+      "total_tokens": 24962,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 23945,
+        "output_tokens": 1017,
+        "total_tokens": 24962,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 43,
+      "status": "completed",
+      "started_at": "2026-08-23T19:17:38.927269+08:00",
+      "completed_at": "2026-08-23T19:17:47.032095+08:00",
+      "duration_seconds": 8.105,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3040,
+      "output_tokens": 766,
+      "total_tokens": 3806,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3040,
+        "output_tokens": 766,
+        "total_tokens": 3806,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 44,
+      "status": "completed",
+      "started_at": "2026-08-23T19:17:38.927295+08:00",
+      "completed_at": "2026-08-23T19:17:46.023354+08:00",
+      "duration_seconds": 7.096,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3970,
+      "output_tokens": 661,
+      "total_tokens": 4631,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3970,
+        "output_tokens": 661,
+        "total_tokens": 4631,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 45,
+      "status": "completed",
+      "started_at": "2026-08-23T19:17:38.927320+08:00",
+      "completed_at": "2026-08-23T19:17:45.344542+08:00",
+      "duration_seconds": 6.417,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3124,
+      "output_tokens": 559,
+      "total_tokens": 3683,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3124,
+        "output_tokens": 559,
+        "total_tokens": 3683,
+        "input_token_details": {
+          "cache_read": 3072
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 47,
+      "status": "completed",
+      "started_at": "2026-08-23T19:17:39.229786+08:00",
+      "completed_at": "2026-08-23T19:17:51.498192+08:00",
+      "duration_seconds": 12.269,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 9938,
+      "output_tokens": 1147,
+      "total_tokens": 11085,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 9938,
+        "output_tokens": 1147,
+        "total_tokens": 11085,
+        "input_token_details": {
+          "cache_read": 768
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 48,
+      "status": "completed",
+      "started_at": "2026-08-23T19:17:39.229881+08:00",
+      "completed_at": "2026-08-23T19:17:47.888702+08:00",
+      "duration_seconds": 8.659,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 14469,
+      "output_tokens": 715,
+      "total_tokens": 15184,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 14469,
+        "output_tokens": 715,
+        "total_tokens": 15184,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 49,
+      "status": "completed",
+      "started_at": "2026-08-23T19:17:39.229949+08:00",
+      "completed_at": "2026-08-23T19:17:45.505887+08:00",
+      "duration_seconds": 6.276,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3272,
+      "output_tokens": 515,
+      "total_tokens": 3787,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3272,
+        "output_tokens": 515,
+        "total_tokens": 3787,
+        "input_token_details": {
+          "cache_read": 512
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 50,
+      "status": "completed",
+      "started_at": "2026-08-23T19:17:39.229990+08:00",
+      "completed_at": "2026-08-23T19:17:47.200720+08:00",
+      "duration_seconds": 7.971,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5430,
+      "output_tokens": 737,
+      "total_tokens": 6167,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5430,
+        "output_tokens": 737,
+        "total_tokens": 6167,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 51,
+      "status": "completed",
+      "started_at": "2026-08-23T19:17:39.230021+08:00",
+      "completed_at": "2026-08-23T19:17:47.071128+08:00",
+      "duration_seconds": 7.841,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 16944,
+      "output_tokens": 641,
+      "total_tokens": 17585,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 16944,
+        "output_tokens": 641,
+        "total_tokens": 17585,
+        "input_token_details": {
+          "cache_read": 16896
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 52,
+      "status": "completed",
+      "started_at": "2026-08-23T19:17:39.230052+08:00",
+      "completed_at": "2026-08-23T19:17:46.187535+08:00",
+      "duration_seconds": 6.958,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4826,
+      "output_tokens": 642,
+      "total_tokens": 5468,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4826,
+        "output_tokens": 642,
+        "total_tokens": 5468,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 53,
+      "status": "completed",
+      "started_at": "2026-08-23T19:17:39.230080+08:00",
+      "completed_at": "2026-08-23T19:17:46.733876+08:00",
+      "duration_seconds": 7.504,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8342,
+      "output_tokens": 535,
+      "total_tokens": 8877,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 8342,
+        "output_tokens": 535,
+        "total_tokens": 8877,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 54,
+      "status": "completed",
+      "started_at": "2026-08-23T19:17:39.230107+08:00",
+      "completed_at": "2026-08-23T19:17:45.807996+08:00",
+      "duration_seconds": 6.578,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4133,
+      "output_tokens": 585,
+      "total_tokens": 4718,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4133,
+        "output_tokens": 585,
+        "total_tokens": 4718,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 55,
+      "status": "completed",
+      "started_at": "2026-08-23T19:17:39.230134+08:00",
+      "completed_at": "2026-08-23T19:17:47.070914+08:00",
+      "duration_seconds": 7.841,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4621,
+      "output_tokens": 665,
+      "total_tokens": 5286,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4621,
+        "output_tokens": 665,
+        "total_tokens": 5286,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 56,
+      "status": "completed",
+      "started_at": "2026-08-23T19:17:39.230163+08:00",
+      "completed_at": "2026-08-23T19:17:44.369184+08:00",
+      "duration_seconds": 5.139,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4038,
+      "output_tokens": 463,
+      "total_tokens": 4501,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4038,
+        "output_tokens": 463,
+        "total_tokens": 4501,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 57,
+      "status": "completed",
+      "started_at": "2026-08-23T19:17:39.230190+08:00",
+      "completed_at": "2026-08-23T19:17:47.530574+08:00",
+      "duration_seconds": 8.3,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 12987,
+      "output_tokens": 787,
+      "total_tokens": 13774,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 12987,
+        "output_tokens": 787,
+        "total_tokens": 13774,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 58,
+      "status": "completed",
+      "started_at": "2026-08-23T19:17:39.230230+08:00",
+      "completed_at": "2026-08-23T19:17:46.521472+08:00",
+      "duration_seconds": 7.291,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7907,
+      "output_tokens": 694,
+      "total_tokens": 8601,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 7907,
+        "output_tokens": 694,
+        "total_tokens": 8601,
+        "input_token_details": {
+          "cache_read": 7680
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 59,
+      "status": "completed",
+      "started_at": "2026-08-23T19:17:39.230257+08:00",
+      "completed_at": "2026-08-23T19:17:45.095192+08:00",
+      "duration_seconds": 5.865,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5264,
+      "output_tokens": 554,
+      "total_tokens": 5818,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5264,
+        "output_tokens": 554,
+        "total_tokens": 5818,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 60,
+      "status": "completed",
+      "started_at": "2026-08-23T19:17:39.230284+08:00",
+      "completed_at": "2026-08-23T19:17:44.169143+08:00",
+      "duration_seconds": 4.939,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3403,
+      "output_tokens": 391,
+      "total_tokens": 3794,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3403,
+        "output_tokens": 391,
+        "total_tokens": 3794,
+        "input_token_details": {
+          "cache_read": 3328
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 61,
+      "status": "completed",
+      "started_at": "2026-08-23T19:17:39.230311+08:00",
+      "completed_at": "2026-08-23T19:17:45.242966+08:00",
+      "duration_seconds": 6.013,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 9447,
+      "output_tokens": 436,
+      "total_tokens": 9883,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 9447,
+        "output_tokens": 436,
+        "total_tokens": 9883,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 62,
+      "status": "completed",
+      "started_at": "2026-08-23T19:17:39.230339+08:00",
+      "completed_at": "2026-08-23T19:17:44.570537+08:00",
+      "duration_seconds": 5.34,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4596,
+      "output_tokens": 446,
+      "total_tokens": 5042,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4596,
+        "output_tokens": 446,
+        "total_tokens": 5042,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 63,
+      "status": "completed",
+      "started_at": "2026-08-23T19:17:39.230364+08:00",
+      "completed_at": "2026-08-23T19:17:44.440368+08:00",
+      "duration_seconds": 5.21,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3378,
+      "output_tokens": 443,
+      "total_tokens": 3821,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3378,
+        "output_tokens": 443,
+        "total_tokens": 3821,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 64,
+      "status": "completed",
+      "started_at": "2026-08-23T19:17:39.230390+08:00",
+      "completed_at": "2026-08-23T19:17:49.623064+08:00",
+      "duration_seconds": 10.393,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 29926,
+      "output_tokens": 1058,
+      "total_tokens": 30984,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 29926,
+        "output_tokens": 1058,
+        "total_tokens": 30984,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 65,
+      "status": "completed",
+      "started_at": "2026-08-23T19:17:39.230416+08:00",
+      "completed_at": "2026-08-23T19:17:44.933898+08:00",
+      "duration_seconds": 5.704,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4057,
+      "output_tokens": 472,
+      "total_tokens": 4529,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4057,
+        "output_tokens": 472,
+        "total_tokens": 4529,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 66,
+      "status": "completed",
+      "started_at": "2026-08-23T19:17:45.818552+08:00",
+      "completed_at": "2026-08-23T19:17:49.460251+08:00",
+      "duration_seconds": 3.642,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 10097,
+      "output_tokens": 257,
+      "total_tokens": 10354,
+      "message_count": 4,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 10097,
+        "output_tokens": 257,
+        "total_tokens": 10354,
+        "input_token_details": {
+          "cache_read": 1024
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 67,
+      "status": "completed",
+      "started_at": "2026-08-23T19:17:50.005678+08:00",
+      "completed_at": "2026-08-23T19:17:58.942181+08:00",
+      "duration_seconds": 8.937,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 12447,
+      "output_tokens": 775,
+      "total_tokens": 13222,
+      "message_count": 4,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 12447,
+        "output_tokens": 775,
+        "total_tokens": 13222,
+        "input_token_details": {
+          "cache_read": 1024
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 68,
+      "status": "completed",
+      "started_at": "2026-08-23T19:17:51.507034+08:00",
+      "completed_at": "2026-08-23T19:17:55.548845+08:00",
+      "duration_seconds": 4.042,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 13653,
+      "output_tokens": 263,
+      "total_tokens": 13916,
+      "message_count": 4,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 13653,
+        "output_tokens": 263,
+        "total_tokens": 13916,
+        "input_token_details": {
+          "cache_read": 1024
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 72,
+      "status": "completed",
+      "started_at": "2026-08-23T19:17:55.562833+08:00",
+      "completed_at": "2026-08-23T19:17:59.522475+08:00",
+      "duration_seconds": 3.96,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 14048,
+      "output_tokens": 132,
+      "total_tokens": 14180,
+      "message_count": 6,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 14048,
+        "output_tokens": 132,
+        "total_tokens": 14180,
+        "input_token_details": {
+          "cache_read": 13568
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 77,
+      "status": "completed",
+      "started_at": "2026-08-23T19:17:56.985320+08:00",
+      "completed_at": "2026-08-23T19:18:05.197851+08:00",
+      "duration_seconds": 8.213,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 11784,
+      "output_tokens": 662,
+      "total_tokens": 12446,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 11784,
+        "output_tokens": 662,
+        "total_tokens": 12446,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 78,
+      "status": "completed",
+      "started_at": "2026-08-23T19:17:56.985418+08:00",
+      "completed_at": "2026-08-23T19:18:05.518836+08:00",
+      "duration_seconds": 8.533,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8855,
+      "output_tokens": 847,
+      "total_tokens": 9702,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 8855,
+        "output_tokens": 847,
+        "total_tokens": 9702,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 79,
+      "status": "completed",
+      "started_at": "2026-08-23T19:17:56.985490+08:00",
+      "completed_at": "2026-08-23T19:18:02.126541+08:00",
+      "duration_seconds": 5.141,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5577,
+      "output_tokens": 393,
+      "total_tokens": 5970,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5577,
+        "output_tokens": 393,
+        "total_tokens": 5970,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 80,
+      "status": "completed",
+      "started_at": "2026-08-23T19:17:56.985527+08:00",
+      "completed_at": "2026-08-23T19:18:05.846777+08:00",
+      "duration_seconds": 8.861,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6908,
+      "output_tokens": 877,
+      "total_tokens": 7785,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 6908,
+        "output_tokens": 877,
+        "total_tokens": 7785,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 81,
+      "status": "completed",
+      "started_at": "2026-08-23T19:17:56.985557+08:00",
+      "completed_at": "2026-08-23T19:18:02.974018+08:00",
+      "duration_seconds": 5.988,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 10256,
+      "output_tokens": 519,
+      "total_tokens": 10775,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 10256,
+        "output_tokens": 519,
+        "total_tokens": 10775,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 82,
+      "status": "completed",
+      "started_at": "2026-08-23T19:17:56.985583+08:00",
+      "completed_at": "2026-08-23T19:18:04.537116+08:00",
+      "duration_seconds": 7.552,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5529,
+      "output_tokens": 651,
+      "total_tokens": 6180,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5529,
+        "output_tokens": 651,
+        "total_tokens": 6180,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 83,
+      "status": "completed",
+      "started_at": "2026-08-23T19:17:56.985605+08:00",
+      "completed_at": "2026-08-23T19:18:04.927390+08:00",
+      "duration_seconds": 7.942,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4519,
+      "output_tokens": 642,
+      "total_tokens": 5161,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4519,
+        "output_tokens": 642,
+        "total_tokens": 5161,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 84,
+      "status": "completed",
+      "started_at": "2026-08-23T19:17:56.985628+08:00",
+      "completed_at": "2026-08-23T19:18:04.893924+08:00",
+      "duration_seconds": 7.908,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2921,
+      "output_tokens": 630,
+      "total_tokens": 3551,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2921,
+        "output_tokens": 630,
+        "total_tokens": 3551,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 85,
+      "status": "completed",
+      "started_at": "2026-08-23T19:17:56.985652+08:00",
+      "completed_at": "2026-08-23T19:18:02.727502+08:00",
+      "duration_seconds": 5.742,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3431,
+      "output_tokens": 418,
+      "total_tokens": 3849,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3431,
+        "output_tokens": 418,
+        "total_tokens": 3849,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 86,
+      "status": "completed",
+      "started_at": "2026-08-23T19:17:56.985674+08:00",
+      "completed_at": "2026-08-23T19:18:03.078409+08:00",
+      "duration_seconds": 6.093,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5466,
+      "output_tokens": 476,
+      "total_tokens": 5942,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5466,
+        "output_tokens": 476,
+        "total_tokens": 5942,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 87,
+      "status": "completed",
+      "started_at": "2026-08-23T19:17:56.985696+08:00",
+      "completed_at": "2026-08-23T19:18:02.187104+08:00",
+      "duration_seconds": 5.201,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4751,
+      "output_tokens": 369,
+      "total_tokens": 5120,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4751,
+        "output_tokens": 369,
+        "total_tokens": 5120,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 88,
+      "status": "completed",
+      "started_at": "2026-08-23T19:17:56.985718+08:00",
+      "completed_at": "2026-08-23T19:18:03.364575+08:00",
+      "duration_seconds": 6.379,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6545,
+      "output_tokens": 561,
+      "total_tokens": 7106,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 6545,
+        "output_tokens": 561,
+        "total_tokens": 7106,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 89,
+      "status": "completed",
+      "started_at": "2026-08-23T19:17:56.985740+08:00",
+      "completed_at": "2026-08-23T19:18:05.175488+08:00",
+      "duration_seconds": 8.19,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6309,
+      "output_tokens": 741,
+      "total_tokens": 7050,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 6309,
+        "output_tokens": 741,
+        "total_tokens": 7050,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 90,
+      "status": "completed",
+      "started_at": "2026-08-23T19:17:56.985763+08:00",
+      "completed_at": "2026-08-23T19:18:03.569185+08:00",
+      "duration_seconds": 6.583,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6479,
+      "output_tokens": 618,
+      "total_tokens": 7097,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 6479,
+        "output_tokens": 618,
+        "total_tokens": 7097,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 91,
+      "status": "completed",
+      "started_at": "2026-08-23T19:17:56.985785+08:00",
+      "completed_at": "2026-08-23T19:18:03.811658+08:00",
+      "duration_seconds": 6.826,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7098,
+      "output_tokens": 564,
+      "total_tokens": 7662,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 7098,
+        "output_tokens": 564,
+        "total_tokens": 7662,
+        "input_token_details": {
+          "cache_read": 2304
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 92,
+      "status": "completed",
+      "started_at": "2026-08-23T19:17:56.985808+08:00",
+      "completed_at": "2026-08-23T19:18:05.807834+08:00",
+      "duration_seconds": 8.822,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 11033,
+      "output_tokens": 831,
+      "total_tokens": 11864,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 11033,
+        "output_tokens": 831,
+        "total_tokens": 11864,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 93,
+      "status": "completed",
+      "started_at": "2026-08-23T19:17:56.985829+08:00",
+      "completed_at": "2026-08-23T19:18:04.405383+08:00",
+      "duration_seconds": 7.42,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8107,
+      "output_tokens": 727,
+      "total_tokens": 8834,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 8107,
+        "output_tokens": 727,
+        "total_tokens": 8834,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 94,
+      "status": "completed",
+      "started_at": "2026-08-23T19:17:58.959210+08:00",
+      "completed_at": "2026-08-23T19:18:01.774978+08:00",
+      "duration_seconds": 2.816,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 12778,
+      "output_tokens": 128,
+      "total_tokens": 12906,
+      "message_count": 6,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 12778,
+        "output_tokens": 128,
+        "total_tokens": 12906,
+        "input_token_details": {
+          "cache_read": 12288
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 102,
+      "status": "completed",
+      "started_at": "2026-08-23T19:18:03.453778+08:00",
+      "completed_at": "2026-08-23T19:18:10.842366+08:00",
+      "duration_seconds": 7.389,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 14152,
+      "output_tokens": 711,
+      "total_tokens": 14863,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 14152,
+        "output_tokens": 711,
+        "total_tokens": 14863,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 103,
+      "status": "completed",
+      "started_at": "2026-08-23T19:18:03.455005+08:00",
+      "completed_at": "2026-08-23T19:18:10.848072+08:00",
+      "duration_seconds": 7.393,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4816,
+      "output_tokens": 684,
+      "total_tokens": 5500,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4816,
+        "output_tokens": 684,
+        "total_tokens": 5500,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 104,
+      "status": "completed",
+      "started_at": "2026-08-23T19:18:03.455029+08:00",
+      "completed_at": "2026-08-23T19:18:10.183159+08:00",
+      "duration_seconds": 6.728,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 11313,
+      "output_tokens": 582,
+      "total_tokens": 11895,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 11313,
+        "output_tokens": 582,
+        "total_tokens": 11895,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 105,
+      "status": "completed",
+      "started_at": "2026-08-23T19:18:03.455047+08:00",
+      "completed_at": "2026-08-23T19:18:09.974179+08:00",
+      "duration_seconds": 6.519,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5225,
+      "output_tokens": 529,
+      "total_tokens": 5754,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5225,
+        "output_tokens": 529,
+        "total_tokens": 5754,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 106,
+      "status": "completed",
+      "started_at": "2026-08-23T19:18:03.455062+08:00",
+      "completed_at": "2026-08-23T19:18:07.335710+08:00",
+      "duration_seconds": 3.881,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2036,
+      "output_tokens": 296,
+      "total_tokens": 2332,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2036,
+        "output_tokens": 296,
+        "total_tokens": 2332,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 107,
+      "status": "completed",
+      "started_at": "2026-08-23T19:18:03.455074+08:00",
+      "completed_at": "2026-08-23T19:18:09.633277+08:00",
+      "duration_seconds": 6.178,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4023,
+      "output_tokens": 561,
+      "total_tokens": 4584,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4023,
+        "output_tokens": 561,
+        "total_tokens": 4584,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 108,
+      "status": "completed",
+      "started_at": "2026-08-23T19:18:03.455087+08:00",
+      "completed_at": "2026-08-23T19:18:11.146900+08:00",
+      "duration_seconds": 7.692,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 12270,
+      "output_tokens": 717,
+      "total_tokens": 12987,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 12270,
+        "output_tokens": 717,
+        "total_tokens": 12987,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 109,
+      "status": "completed",
+      "started_at": "2026-08-23T19:18:03.455104+08:00",
+      "completed_at": "2026-08-23T19:18:13.041678+08:00",
+      "duration_seconds": 9.587,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6791,
+      "output_tokens": 822,
+      "total_tokens": 7613,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 6791,
+        "output_tokens": 822,
+        "total_tokens": 7613,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 110,
+      "status": "completed",
+      "started_at": "2026-08-23T19:18:03.455116+08:00",
+      "completed_at": "2026-08-23T19:18:12.326593+08:00",
+      "duration_seconds": 8.871,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 25064,
+      "output_tokens": 673,
+      "total_tokens": 25737,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 25064,
+        "output_tokens": 673,
+        "total_tokens": 25737,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 111,
+      "status": "completed",
+      "started_at": "2026-08-23T19:18:03.455127+08:00",
+      "completed_at": "2026-08-23T19:18:09.278951+08:00",
+      "duration_seconds": 5.824,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4858,
+      "output_tokens": 479,
+      "total_tokens": 5337,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4858,
+        "output_tokens": 479,
+        "total_tokens": 5337,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 112,
+      "status": "completed",
+      "started_at": "2026-08-23T19:18:03.455140+08:00",
+      "completed_at": "2026-08-23T19:18:14.109167+08:00",
+      "duration_seconds": 10.654,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7534,
+      "output_tokens": 1011,
+      "total_tokens": 8545,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 7534,
+        "output_tokens": 1011,
+        "total_tokens": 8545,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 113,
+      "status": "completed",
+      "started_at": "2026-08-23T19:18:03.455152+08:00",
+      "completed_at": "2026-08-23T19:18:13.213815+08:00",
+      "duration_seconds": 9.759,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5830,
+      "output_tokens": 684,
+      "total_tokens": 6514,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5830,
+        "output_tokens": 684,
+        "total_tokens": 6514,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 114,
+      "status": "completed",
+      "started_at": "2026-08-23T19:18:03.455165+08:00",
+      "completed_at": "2026-08-23T19:18:10.542427+08:00",
+      "duration_seconds": 7.087,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4591,
+      "output_tokens": 563,
+      "total_tokens": 5154,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4591,
+        "output_tokens": 563,
+        "total_tokens": 5154,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 115,
+      "status": "completed",
+      "started_at": "2026-08-23T19:18:03.455177+08:00",
+      "completed_at": "2026-08-23T19:18:09.789562+08:00",
+      "duration_seconds": 6.334,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 9486,
+      "output_tokens": 509,
+      "total_tokens": 9995,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 9486,
+        "output_tokens": 509,
+        "total_tokens": 9995,
+        "input_token_details": {
+          "cache_read": 2304
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 116,
+      "status": "completed",
+      "started_at": "2026-08-23T19:18:03.455189+08:00",
+      "completed_at": "2026-08-23T19:18:09.533963+08:00",
+      "duration_seconds": 6.079,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6026,
+      "output_tokens": 526,
+      "total_tokens": 6552,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 6026,
+        "output_tokens": 526,
+        "total_tokens": 6552,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 117,
+      "status": "completed",
+      "started_at": "2026-08-23T19:18:03.455352+08:00",
+      "completed_at": "2026-08-23T19:18:09.156424+08:00",
+      "duration_seconds": 5.701,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5155,
+      "output_tokens": 474,
+      "total_tokens": 5629,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5155,
+        "output_tokens": 474,
+        "total_tokens": 5629,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 118,
+      "status": "completed",
+      "started_at": "2026-08-23T19:18:03.455374+08:00",
+      "completed_at": "2026-08-23T19:18:09.896311+08:00",
+      "duration_seconds": 6.441,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7058,
+      "output_tokens": 460,
+      "total_tokens": 7518,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 7058,
+        "output_tokens": 460,
+        "total_tokens": 7518,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 119,
+      "status": "completed",
+      "started_at": "2026-08-23T19:18:03.455390+08:00",
+      "completed_at": "2026-08-23T19:18:12.497468+08:00",
+      "duration_seconds": 9.042,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6800,
+      "output_tokens": 751,
+      "total_tokens": 7551,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 6800,
+        "output_tokens": 751,
+        "total_tokens": 7551,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 120,
+      "status": "completed",
+      "started_at": "2026-08-23T19:18:03.455403+08:00",
+      "completed_at": "2026-08-23T19:18:10.605102+08:00",
+      "duration_seconds": 7.15,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7046,
+      "output_tokens": 505,
+      "total_tokens": 7551,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 7046,
+        "output_tokens": 505,
+        "total_tokens": 7551,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 121,
+      "status": "completed",
+      "started_at": "2026-08-23T19:18:03.455416+08:00",
+      "completed_at": "2026-08-23T19:18:11.405147+08:00",
+      "duration_seconds": 7.95,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7735,
+      "output_tokens": 776,
+      "total_tokens": 8511,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 7735,
+        "output_tokens": 776,
+        "total_tokens": 8511,
+        "input_token_details": {
+          "cache_read": 512
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 122,
+      "status": "completed",
+      "started_at": "2026-08-23T19:18:03.455430+08:00",
+      "completed_at": "2026-08-23T19:18:09.118245+08:00",
+      "duration_seconds": 5.663,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3732,
+      "output_tokens": 531,
+      "total_tokens": 4263,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3732,
+        "output_tokens": 531,
+        "total_tokens": 4263,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 123,
+      "status": "completed",
+      "started_at": "2026-08-23T19:18:03.455444+08:00",
+      "completed_at": "2026-08-23T19:18:10.628706+08:00",
+      "duration_seconds": 7.173,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8107,
+      "output_tokens": 689,
+      "total_tokens": 8796,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 8107,
+        "output_tokens": 689,
+        "total_tokens": 8796,
+        "input_token_details": {
+          "cache_read": 7936
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 126,
+      "status": "completed",
+      "started_at": "2026-08-23T19:18:05.856438+08:00",
+      "completed_at": "2026-08-23T19:18:10.273633+08:00",
+      "duration_seconds": 4.417,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 23432,
+      "output_tokens": 300,
+      "total_tokens": 23732,
+      "message_count": 7,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 23432,
+        "output_tokens": 300,
+        "total_tokens": 23732,
+        "input_token_details": {
+          "cache_read": 9984
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 130,
+      "status": "completed",
+      "started_at": "2026-08-23T19:18:06.062509+08:00",
+      "completed_at": "2026-08-23T19:18:11.884833+08:00",
+      "duration_seconds": 5.822,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5583,
+      "output_tokens": 459,
+      "total_tokens": 6042,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5583,
+        "output_tokens": 459,
+        "total_tokens": 6042,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 131,
+      "status": "completed",
+      "started_at": "2026-08-23T19:18:06.062567+08:00",
+      "completed_at": "2026-08-23T19:18:12.313832+08:00",
+      "duration_seconds": 6.251,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 28239,
+      "output_tokens": 483,
+      "total_tokens": 28722,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 28239,
+        "output_tokens": 483,
+        "total_tokens": 28722,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 132,
+      "status": "completed",
+      "started_at": "2026-08-23T19:18:06.062599+08:00",
+      "completed_at": "2026-08-23T19:18:21.245634+08:00",
+      "duration_seconds": 15.183,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 29302,
+      "output_tokens": 1361,
+      "total_tokens": 30663,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 29302,
+        "output_tokens": 1361,
+        "total_tokens": 30663,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 133,
+      "status": "completed",
+      "started_at": "2026-08-23T19:18:06.062626+08:00",
+      "completed_at": "2026-08-23T19:18:19.442246+08:00",
+      "duration_seconds": 13.38,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 34297,
+      "output_tokens": 1395,
+      "total_tokens": 35692,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 34297,
+        "output_tokens": 1395,
+        "total_tokens": 35692,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 134,
+      "status": "completed",
+      "started_at": "2026-08-23T19:18:06.062650+08:00",
+      "completed_at": "2026-08-23T19:18:18.339647+08:00",
+      "duration_seconds": 12.277,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 30804,
+      "output_tokens": 1052,
+      "total_tokens": 31856,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 30804,
+        "output_tokens": 1052,
+        "total_tokens": 31856,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 135,
+      "status": "completed",
+      "started_at": "2026-08-23T19:18:06.062673+08:00",
+      "completed_at": "2026-08-23T19:18:15.761677+08:00",
+      "duration_seconds": 9.699,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8250,
+      "output_tokens": 939,
+      "total_tokens": 9189,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 8250,
+        "output_tokens": 939,
+        "total_tokens": 9189,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 136,
+      "status": "completed",
+      "started_at": "2026-08-23T19:18:06.062697+08:00",
+      "completed_at": "2026-08-23T19:18:15.857541+08:00",
+      "duration_seconds": 9.795,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8139,
+      "output_tokens": 936,
+      "total_tokens": 9075,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 8139,
+        "output_tokens": 936,
+        "total_tokens": 9075,
+        "input_token_details": {
+          "cache_read": 768
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 137,
+      "status": "completed",
+      "started_at": "2026-08-23T19:18:06.062719+08:00",
+      "completed_at": "2026-08-23T19:18:16.475309+08:00",
+      "duration_seconds": 10.413,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 9285,
+      "output_tokens": 780,
+      "total_tokens": 10065,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 9285,
+        "output_tokens": 780,
+        "total_tokens": 10065,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 138,
+      "status": "completed",
+      "started_at": "2026-08-23T19:18:06.062742+08:00",
+      "completed_at": "2026-08-23T19:18:15.669553+08:00",
+      "duration_seconds": 9.607,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 9224,
+      "output_tokens": 877,
+      "total_tokens": 10101,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 9224,
+        "output_tokens": 877,
+        "total_tokens": 10101,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 139,
+      "status": "completed",
+      "started_at": "2026-08-23T19:18:06.062766+08:00",
+      "completed_at": "2026-08-23T19:18:13.349747+08:00",
+      "duration_seconds": 7.287,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5664,
+      "output_tokens": 720,
+      "total_tokens": 6384,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5664,
+        "output_tokens": 720,
+        "total_tokens": 6384,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 140,
+      "status": "completed",
+      "started_at": "2026-08-23T19:18:06.062788+08:00",
+      "completed_at": "2026-08-23T19:18:13.686199+08:00",
+      "duration_seconds": 7.623,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4643,
+      "output_tokens": 691,
+      "total_tokens": 5334,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4643,
+        "output_tokens": 691,
+        "total_tokens": 5334,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 141,
+      "status": "completed",
+      "started_at": "2026-08-23T19:18:06.062950+08:00",
+      "completed_at": "2026-08-23T19:18:23.949568+08:00",
+      "duration_seconds": 17.887,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 28129,
+      "output_tokens": 1368,
+      "total_tokens": 29497,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 28129,
+        "output_tokens": 1368,
+        "total_tokens": 29497,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 142,
+      "status": "completed",
+      "started_at": "2026-08-23T19:18:06.062982+08:00",
+      "completed_at": "2026-08-23T19:18:12.239680+08:00",
+      "duration_seconds": 6.177,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3954,
+      "output_tokens": 462,
+      "total_tokens": 4416,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3954,
+        "output_tokens": 462,
+        "total_tokens": 4416,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 154,
+      "status": "completed",
+      "started_at": "2026-08-23T19:18:13.080929+08:00",
+      "completed_at": "2026-08-23T19:18:19.141158+08:00",
+      "duration_seconds": 6.06,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5930,
+      "output_tokens": 435,
+      "total_tokens": 6365,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5930,
+        "output_tokens": 435,
+        "total_tokens": 6365,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 155,
+      "status": "completed",
+      "started_at": "2026-08-23T19:18:13.081014+08:00",
+      "completed_at": "2026-08-23T19:18:20.041912+08:00",
+      "duration_seconds": 6.961,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 9866,
+      "output_tokens": 625,
+      "total_tokens": 10491,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 9866,
+        "output_tokens": 625,
+        "total_tokens": 10491,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 156,
+      "status": "completed",
+      "started_at": "2026-08-23T19:18:13.081065+08:00",
+      "completed_at": "2026-08-23T19:18:18.300320+08:00",
+      "duration_seconds": 5.219,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4069,
+      "output_tokens": 428,
+      "total_tokens": 4497,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4069,
+        "output_tokens": 428,
+        "total_tokens": 4497,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 157,
+      "status": "completed",
+      "started_at": "2026-08-23T19:18:13.083136+08:00",
+      "completed_at": "2026-08-23T19:18:19.083181+08:00",
+      "duration_seconds": 6.0,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7846,
+      "output_tokens": 482,
+      "total_tokens": 8328,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 7846,
+        "output_tokens": 482,
+        "total_tokens": 8328,
+        "input_token_details": {
+          "cache_read": 2304
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 158,
+      "status": "completed",
+      "started_at": "2026-08-23T19:18:13.083204+08:00",
+      "completed_at": "2026-08-23T19:18:23.021617+08:00",
+      "duration_seconds": 9.938,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8811,
+      "output_tokens": 882,
+      "total_tokens": 9693,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 8811,
+        "output_tokens": 882,
+        "total_tokens": 9693,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 159,
+      "status": "completed",
+      "started_at": "2026-08-23T19:18:13.083244+08:00",
+      "completed_at": "2026-08-23T19:18:18.020343+08:00",
+      "duration_seconds": 4.937,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4139,
+      "output_tokens": 405,
+      "total_tokens": 4544,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4139,
+        "output_tokens": 405,
+        "total_tokens": 4544,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 160,
+      "status": "completed",
+      "started_at": "2026-08-23T19:18:13.083277+08:00",
+      "completed_at": "2026-08-23T19:18:20.232132+08:00",
+      "duration_seconds": 7.149,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 10831,
+      "output_tokens": 660,
+      "total_tokens": 11491,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 10831,
+        "output_tokens": 660,
+        "total_tokens": 11491,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 161,
+      "status": "completed",
+      "started_at": "2026-08-23T19:18:13.083307+08:00",
+      "completed_at": "2026-08-23T19:18:19.903506+08:00",
+      "duration_seconds": 6.82,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4483,
+      "output_tokens": 634,
+      "total_tokens": 5117,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4483,
+        "output_tokens": 634,
+        "total_tokens": 5117,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 162,
+      "status": "completed",
+      "started_at": "2026-08-23T19:18:13.083335+08:00",
+      "completed_at": "2026-08-23T19:18:19.350530+08:00",
+      "duration_seconds": 6.267,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 22150,
+      "output_tokens": 492,
+      "total_tokens": 22642,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 22150,
+        "output_tokens": 492,
+        "total_tokens": 22642,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 163,
+      "status": "completed",
+      "started_at": "2026-08-23T19:18:13.083363+08:00",
+      "completed_at": "2026-08-23T19:18:19.997633+08:00",
+      "duration_seconds": 6.914,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3380,
+      "output_tokens": 624,
+      "total_tokens": 4004,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3380,
+        "output_tokens": 624,
+        "total_tokens": 4004,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 164,
+      "status": "completed",
+      "started_at": "2026-08-23T19:18:13.083390+08:00",
+      "completed_at": "2026-08-23T19:18:20.927007+08:00",
+      "duration_seconds": 7.844,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3649,
+      "output_tokens": 675,
+      "total_tokens": 4324,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3649,
+        "output_tokens": 675,
+        "total_tokens": 4324,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 165,
+      "status": "completed",
+      "started_at": "2026-08-23T19:18:13.083416+08:00",
+      "completed_at": "2026-08-23T19:18:22.557257+08:00",
+      "duration_seconds": 9.474,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3664,
+      "output_tokens": 906,
+      "total_tokens": 4570,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3664,
+        "output_tokens": 906,
+        "total_tokens": 4570,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 166,
+      "status": "completed",
+      "started_at": "2026-08-23T19:18:14.117937+08:00",
+      "completed_at": "2026-08-23T19:18:21.055477+08:00",
+      "duration_seconds": 6.938,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 29515,
+      "output_tokens": 532,
+      "total_tokens": 30047,
+      "message_count": 8,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 29515,
+        "output_tokens": 532,
+        "total_tokens": 30047,
+        "input_token_details": {
+          "cache_read": 13824
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 167,
+      "status": "completed",
+      "started_at": "2026-08-23T19:18:21.068724+08:00",
+      "completed_at": "2026-08-23T19:18:24.107898+08:00",
+      "duration_seconds": 3.039,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 30088,
+      "output_tokens": 52,
+      "total_tokens": 30140,
+      "message_count": 10,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 30088,
+        "output_tokens": 52,
+        "total_tokens": 30140,
+        "input_token_details": {
+          "cache_read": 29440
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 168,
+      "status": "completed",
+      "started_at": "2026-08-23T19:18:23.030653+08:00",
+      "completed_at": "2026-08-23T19:18:27.693131+08:00",
+      "duration_seconds": 4.662,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 36534,
+      "output_tokens": 337,
+      "total_tokens": 36871,
+      "message_count": 10,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 36534,
+        "output_tokens": 337,
+        "total_tokens": 36871,
+        "input_token_details": {
+          "cache_read": 23296
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 169,
+      "status": "completed",
+      "started_at": "2026-08-23T19:18:23.958063+08:00",
+      "completed_at": "2026-08-23T19:18:33.065552+08:00",
+      "duration_seconds": 9.107,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 27057,
+      "output_tokens": 866,
+      "total_tokens": 27923,
+      "message_count": 8,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 27057,
+        "output_tokens": 866,
+        "total_tokens": 27923,
+        "input_token_details": {
+          "cache_read": 12544
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 170,
+      "status": "completed",
+      "started_at": "2026-08-23T19:18:24.115799+08:00",
+      "completed_at": "2026-08-23T19:19:52.519235+08:00",
+      "duration_seconds": 88.403,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 29860,
+      "output_tokens": 9727,
+      "total_tokens": 39587,
+      "message_count": 13,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 29860,
+        "output_tokens": 9727,
+        "total_tokens": 39587,
+        "input_token_details": {
+          "cache_read": 512
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "end_turn"
+    },
+    {
+      "sequence": 171,
+      "status": "completed",
+      "started_at": "2026-08-23T19:18:27.704743+08:00",
+      "completed_at": "2026-08-23T19:18:30.322186+08:00",
+      "duration_seconds": 2.617,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 37035,
+      "output_tokens": 44,
+      "total_tokens": 37079,
+      "message_count": 12,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 37035,
+        "output_tokens": 44,
+        "total_tokens": 37079,
+        "input_token_details": {
+          "cache_read": 36352
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 172,
+      "status": "completed",
+      "started_at": "2026-08-23T19:18:30.330406+08:00",
+      "completed_at": "2026-08-23T19:20:38.539910+08:00",
+      "duration_seconds": 128.209,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 36807,
+      "output_tokens": 15524,
+      "total_tokens": 52331,
+      "message_count": 15,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 36807,
+        "output_tokens": 15524,
+        "total_tokens": 52331,
+        "input_token_details": {
+          "cache_read": 512
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "end_turn"
+    },
+    {
+      "sequence": 173,
+      "status": "completed",
+      "started_at": "2026-08-23T19:18:33.076334+08:00",
+      "completed_at": "2026-08-23T19:18:35.303849+08:00",
+      "duration_seconds": 2.228,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 27390,
+      "output_tokens": 51,
+      "total_tokens": 27441,
+      "message_count": 10,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 27390,
+        "output_tokens": 51,
+        "total_tokens": 27441,
+        "input_token_details": {
+          "cache_read": 26880
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 174,
+      "status": "completed",
+      "started_at": "2026-08-23T19:18:35.312756+08:00",
+      "completed_at": "2026-08-23T19:20:12.249847+08:00",
+      "duration_seconds": 96.937,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 27162,
+      "output_tokens": 11169,
+      "total_tokens": 38331,
+      "message_count": 13,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 27162,
+        "output_tokens": 11169,
+        "total_tokens": 38331,
+        "input_token_details": {
+          "cache_read": 512
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "end_turn"
+    },
+    {
+      "sequence": 175,
+      "status": "completed",
+      "started_at": "2026-08-23T19:20:38.549784+08:00",
+      "completed_at": "2026-08-23T19:20:48.706500+08:00",
+      "duration_seconds": 10.157,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 36814,
+      "output_tokens": 737,
+      "total_tokens": 37551,
+      "message_count": 8,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 36814,
+        "output_tokens": 737,
+        "total_tokens": 37551,
+        "input_token_details": {
+          "cache_read": 1792
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 176,
+      "status": "completed",
+      "started_at": "2026-08-23T19:20:48.717996+08:00",
+      "completed_at": "2026-08-23T19:20:51.350790+08:00",
+      "duration_seconds": 2.633,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 37911,
+      "output_tokens": 95,
+      "total_tokens": 38006,
+      "message_count": 10,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 37911,
+        "output_tokens": 95,
+        "total_tokens": 38006,
+        "input_token_details": {
+          "cache_read": 36608
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 177,
+      "status": "completed",
+      "started_at": "2026-08-23T19:20:51.359076+08:00",
+      "completed_at": "2026-08-23T19:22:02.989075+08:00",
+      "duration_seconds": 71.63,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 36249,
+      "output_tokens": 8552,
+      "total_tokens": 44801,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 36249,
+        "output_tokens": 8552,
+        "total_tokens": 44801,
+        "input_token_details": {},
+        "output_token_details": {}
+      },
+      "finish_reason": "end_turn"
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "status": "completed",
+      "query": "Gartner魔力象限 低代码 平台 2024 2025 Forrester Wave",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.227,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "The Forrester Wave: Application Development Future",
+          "url": "https://www.outsystems.com/blog/posts/application-generation-future",
+          "score": 0.77751994,
+          "raw_content_available": true,
+          "raw_content_length": 14981,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Gartner® 企业低代码应用程序平台魔力象限™",
+          "url": "https://www.mendix.com/zh-CN/%E8%B5%84%E6%BA%90/Gartner-%E4%BD%8E%E4%BB%A3%E7%A0%81%E5%BA%94%E7%94%A8%E5%B9%B3%E5%8F%B0%E9%AD%94%E5%8A%9B%E8%B1%A1%E9%99%90",
+          "score": 0.76321954,
+          "raw_content_available": true,
+          "raw_content_length": 1016,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Gartner Insights on Low-Code vs No-Code Platforms - Updated 2026",
+          "url": "https://kissflow.com/low-code/gartners-magic-quadrant-about-low-code-vs-no-code-2025",
+          "score": 0.7552947,
+          "raw_content_available": true,
+          "raw_content_length": 26471,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "魔力象限Magic Quadrant",
+          "url": "https://www.gartner.com/cn/research/magic-quadrant",
+          "score": 0.55709904,
+          "raw_content_available": true,
+          "raw_content_length": 48506,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "奖励和认可",
+          "url": "https://www.tableau.com/zh-cn/about/awards-and-recognition",
+          "score": 0.5446325,
+          "raw_content_available": true,
+          "raw_content_length": 2666,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 7,
+      "timestamp": "2026-08-23T19:17:37.389893+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "low-code no-code platform productivity improvement data study",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.285,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Low-Code Growth: Key Statistics That Show Its Impact- Joget",
+          "url": "https://joget.com/low-code-growth-key-statistics-facts-that-show-its-impact",
+          "score": 0.7576693,
+          "raw_content_available": true,
+          "raw_content_length": 11170,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "No‑Code Platform Statistics 2026: Usage Trends Now",
+          "url": "https://sqmagazine.co.uk/nocode-platform-statistics",
+          "score": 0.75027883,
+          "raw_content_available": true,
+          "raw_content_length": 43134,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "No-Code Transformations Usage Trends — 45 Statistics Every ...",
+          "url": "https://www.integrate.io/blog/no-code-transformations-usage-trends",
+          "score": 0.7031221,
+          "raw_content_available": true,
+          "raw_content_length": 28898,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "How Low-Code and No-Code Apps Fuel Digital Transformation",
+          "url": "https://www.reworked.co/information-management/whats-behind-the-explosion-of-low-code-and-no-code-applications",
+          "score": 0.5993685,
+          "raw_content_available": true,
+          "raw_content_length": 18362,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Low-Code/No-Code Platforms: Benefits, Limits & Use Cases | CDP.com",
+          "url": "https://cdp.com/articles/low-code-no-code-development",
+          "score": 0.52115494,
+          "raw_content_available": true,
+          "raw_content_length": 11717,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 8,
+      "timestamp": "2026-08-23T19:17:37.463710+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "低代码 无代码 平台 案例研究 企业 成功 失败 2024 2025",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.488,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "报告厅 - 互联互通社区",
+          "url": "https://hulianhutongshequ.com/report/1-18",
+          "score": 0.7251239,
+          "raw_content_available": true,
+          "raw_content_length": 2562,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "2025主流低代码平台盘点：AI 赋能下的企业数字化新引擎_中华网",
+          "url": "https://mtz.china.com/touzi/2025/1017/197614.html",
+          "score": 0.68090034,
+          "raw_content_available": true,
+          "raw_content_length": 6679,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "IDC：低代码与零代码深度融合生成式AI，重构开发范式",
+          "url": "https://mfe-prod.idc.com/getdoc.jsp?containerId=prCHC53666825",
+          "score": 0.562874,
+          "raw_content_available": true,
+          "raw_content_length": 5245,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "低代码示例和用例 | Mendix",
+          "url": "https://www.mendix.com/zh-CN/%E4%BD%8E%E4%BB%A3%E7%A0%81%E6%8C%87%E5%8D%97/%E4%BD%8E%E4%BB%A3%E7%A0%81%E7%94%A8%E4%BE%8B",
+          "score": 0.32995334,
+          "raw_content_available": true,
+          "raw_content_length": 8535,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "什么是低代码应用开发？",
+          "url": "https://cloud.google.com/discover/what-is-low-code?hl=zh-CN",
+          "score": 0.18839897,
+          "raw_content_available": true,
+          "raw_content_length": 57066,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 9,
+      "timestamp": "2026-08-23T19:17:37.634987+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "low-code no-code platform case studies enterprise success failure 2024 2025",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.595,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Low Code Development Future: Trends, Stats & Predictions for 2026",
+          "url": "https://blog.tooljet.com/low-code-development-future",
+          "score": 0.6693348,
+          "raw_content_available": true,
+          "raw_content_length": 29254,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Low-Code/No-Code Platforms: 2026 Funding Trends, Growth & Investment Insights",
+          "url": "https://qubit.capital/blog/low-code-no-code-software-platforms-investment-opportunities",
+          "score": 0.5654673,
+          "raw_content_available": true,
+          "raw_content_length": 27333,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Why Accounting Teams Need Workflow Management Software",
+          "url": "https://kissflow.com/low-code/low-code-case-studies",
+          "score": 0.46701634,
+          "raw_content_available": true,
+          "raw_content_length": 27535,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Why Most Low-Code Platforms Eventually Face Limitations—and Strategic Considerations for the Future",
+          "url": "https://www.baytechconsulting.com/blog/why-most-low-code-platforms-eventually-face-limitations-and-strategic-considerations-for-the-future",
+          "score": 0.4527543,
+          "raw_content_available": true,
+          "raw_content_length": 49611,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "No-Code Transformations Usage Trends — 45 Statistics Every ...",
+          "url": "https://www.integrate.io/blog/no-code-transformations-usage-trends",
+          "score": 0.39494804,
+          "raw_content_available": true,
+          "raw_content_length": 28898,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 10,
+      "timestamp": "2026-08-23T19:17:37.750667+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "低代码无代码平台 生产力 维护成本 权衡",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.928,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "低代码平台隐藏成本揭秘：从开发效率到长期维护的权衡_低代码_雪叶雨林-葡萄城开发者空间",
+          "url": "https://grapecity.csdn.net/6a18f3bd662f9a54cb78339f.html",
+          "score": 0.83742094,
+          "raw_content_available": true,
+          "raw_content_length": 7145,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "旗舰版和团队的15个顶级低代码无代码平台",
+          "url": "https://www.larksuite.com/zh_cn/blog/low-code-no-code-platforms",
+          "score": 0.52758485,
+          "raw_content_available": true,
+          "raw_content_length": 14695,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "什么是低代码/无代码开发？| SAP",
+          "url": "https://www.sap.cn/resources/what-is-low-code-no-code",
+          "score": 0.47694567,
+          "raw_content_available": true,
+          "raw_content_length": 6090,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "什么是低代码？低代码开发指南 - Oracle",
+          "url": "https://www.oracle.com/cn/application-development/low-code",
+          "score": 0.45464227,
+          "raw_content_available": true,
+          "raw_content_length": 7006,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "什么是低代码开发？| Mendix",
+          "url": "https://www.mendix.com/zh-CN/%E4%BD%8E%E4%BB%A3%E7%A0%81%E6%8C%87%E5%8D%97",
+          "score": 0.42534322,
+          "raw_content_available": true,
+          "raw_content_length": 8366,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 26,
+      "timestamp": "2026-08-23T19:17:38.101854+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "低代码 无代码 市场规模 2024 2025 Gartner Forrester 增长率",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 3.331,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "2025年主流低代码开发平台全景洞察：趋势、选型与实践__财经头条__新浪财经",
+          "url": "https://t.cj.sina.cn/articles/view/7670233722/1c92e7a7a00101ftkq",
+          "score": 0.92091084,
+          "raw_content_available": true,
+          "raw_content_length": 9688,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "2025国内外主流低代码平台深度评测：头部厂商全解析（最新版）在数字化转型进入深水区的当下，低代码开发平台已成为企业破解 - 掘金",
+          "url": "https://juejin.cn/post/7572880767584534579",
+          "score": 0.8773195,
+          "raw_content_available": true,
+          "raw_content_length": 7974,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "无代码和低代码开发平台软件市场规模和增长报告，2035 年",
+          "url": "https://www.marketgrowthreports.com/zh/market-reports/no-code-and-low-code-development-platforms-software-market-107271",
+          "score": 0.8335554,
+          "raw_content_available": true,
+          "raw_content_length": 16053,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "IDC：预计到2029年中国低代码与零代码软件市场规模将达到129.8亿元",
+          "url": "https://www.cls.cn/detail/2074887",
+          "score": 0.8033131,
+          "raw_content_available": true,
+          "raw_content_length": 2036,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "后端 - 低代码平台如何选？2026主流低代码开发平台TOP12排名出炉 - AI爱好者 - SegmentFault 思否",
+          "url": "https://segmentfault.com/a/1190000047528507",
+          "score": 0.7491794,
+          "raw_content_available": true,
+          "raw_content_length": 5944,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 27,
+      "timestamp": "2026-08-23T19:17:38.122320+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "低代码平台 技术债务 可维护性 评估",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 3.238,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "低代码平台缺点有哪些 | 零代码企业数字化知识站",
+          "url": "https://www.jiandaoyun.com/blog/article/1014684",
+          "score": 0.8080827,
+          "raw_content_available": true,
+          "raw_content_length": 20800,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "低代码平台如何解决技术债务问题？零代码能用于核心业务系统吗？ | 普元",
+          "url": "https://www.primeton.com/blog/4433.html",
+          "score": 0.7498395,
+          "raw_content_available": true,
+          "raw_content_length": 6750,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "低代码如何减少技术债务 - Zoho低代码",
+          "url": "https://www.zoho.com.cn/creator/articles/technical-debt.html",
+          "score": 0.69622743,
+          "raw_content_available": true,
+          "raw_content_length": 5299,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "低代码平台快速开发排名：从需求到上线周期实测对比 - JNPF 知识分享中心",
+          "url": "https://knowledge.jnpfsoft.com/posts/2026-05-25/didaipingtaikuaisukaifapaimingcongxuqiudaoshangxianzhouqishiduibi",
+          "score": 0.5815176,
+          "raw_content_available": true,
+          "raw_content_length": 71267,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "代码质量与技术债务，不可小视 - 小强找BUG - 博客园",
+          "url": "https://www.cnblogs.com/zgq123456/articles/11479206.html",
+          "score": 0.51662046,
+          "raw_content_available": true,
+          "raw_content_length": 5956,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 28,
+      "timestamp": "2026-08-23T19:17:38.420614+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "中国低代码平台 企业采用率 行业应用 2024 2025",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 3.703,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "2025主流低代码平台盘点：AI 赋能下的企业数字化新引擎_中华网",
+          "url": "https://mtz.china.com/touzi/2025/1017/197614.html",
+          "score": 0.88564163,
+          "raw_content_available": true,
+          "raw_content_length": 6679,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "[PDF] 中国低代码行业研究报告",
+          "url": "https://pdf.dfcfw.com/pdf/H3_AP202208191577363820_1.pdf",
+          "score": 0.8763069,
+          "raw_content_available": true,
+          "raw_content_length": 38816,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "2025中国十大低代码平台深度解析与选型-开发者社区-阿里云",
+          "url": "https://developer.aliyun.com/article/1678970",
+          "score": 0.85186684,
+          "raw_content_available": true,
+          "raw_content_length": 3708,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "客户案例详情_企业数字化建设实践-得帆智能",
+          "url": "https://www.definesys.com/cases/261",
+          "score": 0.8003337,
+          "raw_content_available": true,
+          "raw_content_length": 6355,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "IDC：低代码与零代码深度融合生成式AI，重构开发范式",
+          "url": "https://mfe-prod.idc.com/getdoc.jsp?containerId=prCHC53666825",
+          "score": 0.7969415,
+          "raw_content_available": true,
+          "raw_content_length": 5245,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 29,
+      "timestamp": "2026-08-23T19:17:38.513526+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "low-code no-code market size 2024 2025 Gartner Forrester IDC growth rate",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 4.105,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Low-Code/No-Code Platforms: Benefits, Limits & Use Cases",
+          "url": "https://cdp.com/articles/low-code-no-code-development",
+          "score": 0.9489978,
+          "raw_content_available": true,
+          "raw_content_length": 11717,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Game-Changing Top 60 No-Code Low-Code Citizen Development Statistics",
+          "url": "https://quixy.com/blog/no-code-low-code-citizen-development-statistics-facts",
+          "score": 0.8825193,
+          "raw_content_available": true,
+          "raw_content_length": 38288,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Low-Code Development Platform Market Size to Surpass USD 95.82 Bn by 2035",
+          "url": "https://www.precedenceresearch.com/low-code-development-platform-market",
+          "score": 0.85825616,
+          "raw_content_available": true,
+          "raw_content_length": 38512,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "No-Code & Low-Code Statistics 2026 | 50+ Data Points & Insights | Searchlab",
+          "url": "https://searchlab.nl/en/statistics/no-code-low-code-statistics-2026",
+          "score": 0.84858394,
+          "raw_content_available": true,
+          "raw_content_length": 13195,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "The State of No-Code in 2026: Market Trends and What's Next | Caspio",
+          "url": "https://www.caspio.com/blog/state-of-no-code-2026",
+          "score": 0.8088086,
+          "raw_content_available": true,
+          "raw_content_length": 44255,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 30,
+      "timestamp": "2026-08-23T19:17:38.908473+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "低代码平台 开发效率 提高 数据 研究 报告",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 4.043,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "2025年低代码开发平台行业研究报告：普元引领，众商竞逐__财经头条__新浪财经",
+          "url": "https://t.cj.sina.cn/articles/view/7869353232/1d50ccd1000101lu36",
+          "score": 0.87139857,
+          "raw_content_available": true,
+          "raw_content_length": 17693,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "2023年中国低/零代码行业研究报告",
+          "url": "https://pdf.dfcfw.com/pdf/H3_AP202401261618317487_1.pdf",
+          "score": 0.76659125,
+          "raw_content_available": true,
+          "raw_content_length": 23260,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Agentic AI推动低代码市场变革，有哪三大关键趋势？ - IDC-Login",
+          "url": "https://my.idc.com/getdoc.jsp?containerId=prCHC53671625",
+          "score": 0.72278196,
+          "raw_content_available": true,
+          "raw_content_length": 4639,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "什么是低代码开发？| Mendix",
+          "url": "https://www.mendix.com/zh-CN/%E4%BD%8E%E4%BB%A3%E7%A0%81%E6%8C%87%E5%8D%97",
+          "score": 0.6030211,
+          "raw_content_available": true,
+          "raw_content_length": 8366,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "什么是低代码应用开发？",
+          "url": "https://cloud.google.com/discover/what-is-low-code?hl=zh-CN",
+          "score": 0.5968332,
+          "raw_content_available": true,
+          "raw_content_length": 57066,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 46,
+      "timestamp": "2026-08-23T19:17:39.212634+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "AI-assisted low-code development trends 2025 2026 future outlook",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.68,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "AI Low-Code Development Platforms 2026: Trends & Future Outlook",
+          "url": "https://www.ainformat.com/detail/1915",
+          "score": 0.95386744,
+          "raw_content_available": true,
+          "raw_content_length": 27953,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Low‑Code Trends & Statistics Shaping Enterprise IT in 2026 (Updated)",
+          "url": "https://kissflow.com/low-code/low-code-trends-statistics",
+          "score": 0.92620385,
+          "raw_content_available": true,
+          "raw_content_length": 22711,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Low-Code Statistics 2026: 60+ Facts, Figures & Trends Business Leaders Need to Know",
+          "url": "https://blog.tooljet.com/low-code-statistics-market-ai-trends-2026",
+          "score": 0.8808076,
+          "raw_content_available": true,
+          "raw_content_length": 20629,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Software Development Trends 2026: Enterprise Technology ...",
+          "url": "https://keyholesoftware.com/software-development-trends-2026",
+          "score": 0.86052185,
+          "raw_content_available": true,
+          "raw_content_length": 59575,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Dead or Transformed? The Future of Low-Code Development Platforms in an AI-Driven World - Software Testing and Development Company",
+          "url": "https://shiftasia.com/column/dead-or-transformed-the-future-of-low-code-development-platforms-in-an-ai-driven-world",
+          "score": 0.79732054,
+          "raw_content_available": true,
+          "raw_content_length": 34128,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 69,
+      "timestamp": "2026-08-23T19:17:52.171786+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "low-code no-code empirical research academic study effectiveness 2023 2024 2025",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.861,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Low-code vs. the developer: An empirical study on the ...",
+          "url": "https://www.uni-kassel.de/eecs/index.php?eID=dumpFile&t=f&f=40025&token=b1a175d421589348da54f15ffb99610ac0d45cd4",
+          "score": 0.6803909,
+          "raw_content_available": true,
+          "raw_content_length": 60522,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "56+ Critical Low-Code Statistics to Review for 2024",
+          "url": "https://www.quandarycg.com/low-code-statistics",
+          "score": 0.586926,
+          "raw_content_available": true,
+          "raw_content_length": 31695,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "What does current research say about the viability of low- ...",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0164121226001263",
+          "score": 0.49948794,
+          "raw_content_available": true,
+          "raw_content_length": 16419,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Low-Code Statistics And Trends 2025 – App Builder™",
+          "url": "https://www.appbuilder.dev/low-code-statistics",
+          "score": 0.48557588,
+          "raw_content_available": true,
+          "raw_content_length": 23600,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Enhancing Business Efficiency through Low-Code/No-Code Technology Adoption: Insights from an Extended UTAUT Model | Journal of Human, Earth, and Future",
+          "url": "https://www.hefjournal.org/index.php/HEF/article/view/266",
+          "score": 0.46337196,
+          "raw_content_available": true,
+          "raw_content_length": 29138,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 70,
+      "timestamp": "2026-08-23T19:17:52.331838+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "low-code platform failure cases limitations when not to use",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 3.966,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Why Most Low-Code Platforms Eventually Face Limitations ...",
+          "url": "https://www.baytechconsulting.com/blog/why-most-low-code-platforms-eventually-face-limitations-and-strategic-considerations-for-the-future",
+          "score": 0.75616,
+          "raw_content_available": true,
+          "raw_content_length": 49611,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Inherent limitations: Where low code platforms fall short | Okoone",
+          "url": "https://www.okoone.com/spark/technology-innovation/inherent-limitations-where-low-code-platforms-fall-short",
+          "score": 0.7555112,
+          "raw_content_available": true,
+          "raw_content_length": 20225,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Low-Code/No-Code Platforms: Benefits, Limits & Use Cases",
+          "url": "https://cdp.com/articles/low-code-no-code-development",
+          "score": 0.7382357,
+          "raw_content_available": true,
+          "raw_content_length": 11717,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "When Business Technologists Should Avoid Low-Code - Planet Crust",
+          "url": "https://www.planetcrust.com/when-business-technologists-avoid-low-code",
+          "score": 0.683948,
+          "raw_content_available": true,
+          "raw_content_length": 13606,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Common Pitfalls Of No-Code Platforms And How To Overcome Them",
+          "url": "https://twinr.dev/blogs/common-pitfalls-of-no-code-platforms",
+          "score": 0.6150191,
+          "raw_content_available": true,
+          "raw_content_length": 22046,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 71,
+      "timestamp": "2026-08-23T19:17:53.452834+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "低代码 失败 案例 局限性 不适用 场景 复杂业务",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 7.484,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "[PDF] 低代码平台——数字化企业的核心 - PwC",
+          "url": "https://www.pwc.com/gx/en/news-room/assets/analyst-citations/idc-pwc-digital-maker-chinese-translation.pdf",
+          "score": 0.6721816,
+          "raw_content_available": true,
+          "raw_content_length": 8322,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "低代码平台中的“不可能三角” | Thoughtworks China",
+          "url": "https://www.thoughtworks.com/zh-cn/insights/blog/platforms/impossible-triangle-in-low-code-platform",
+          "score": 0.6266047,
+          "raw_content_available": true,
+          "raw_content_length": 9043,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "用低代码？请三思而后行 - Coding Ideal World | Coding完美世界 | 企业架构 | gudaoxuri | 孤岛旭日",
+          "url": "https://idealworld.group/2025/01/10/use-low-code-please-wait",
+          "score": 0.58862966,
+          "raw_content_available": true,
+          "raw_content_length": 3494,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "低代码示例和用例",
+          "url": "https://www.mendix.com/zh-CN/%E4%BD%8E%E4%BB%A3%E7%A0%81%E6%8C%87%E5%8D%97/%E4%BD%8E%E4%BB%A3%E7%A0%81%E7%94%A8%E4%BE%8B",
+          "score": 0.3667717,
+          "raw_content_available": true,
+          "raw_content_length": 8535,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "什么是低代码？",
+          "url": "https://aws.amazon.com/cn/what-is/low-code",
+          "score": 0.24128416,
+          "raw_content_available": true,
+          "raw_content_length": 5196,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 73,
+      "timestamp": "2026-08-23T19:17:56.963430+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "low-code developer vs management perspective productivity maintenance trade-off",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.406,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Low Code Vs Pro Code, What Fits Your Enterprise Needs",
+          "url": "https://blog.tooljet.com/low-code-vs-pro-code",
+          "score": 0.588062,
+          "raw_content_available": true,
+          "raw_content_length": 36336,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Low-Code Platforms in 2026: Speed vs Lock-In",
+          "url": "https://reflex.dev/blog/low-code-platforms-in-2026-speed-without-the-lock-in",
+          "score": 0.5021246,
+          "raw_content_available": true,
+          "raw_content_length": 25267,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "What Is Low Code? A Guide to Low-Code Development",
+          "url": "https://www.oracle.com/application-development/low-code",
+          "score": 0.46964246,
+          "raw_content_available": true,
+          "raw_content_length": 21152,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "What is Low-Code Development? A Guide for IT Leaders - OutSystems",
+          "url": "https://www.outsystems.com/low-code",
+          "score": 0.41392776,
+          "raw_content_available": true,
+          "raw_content_length": 24544,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "10 Best Low-Code Platforms in 2026: Reviewed and Ranked",
+          "url": "https://www.weweb.io/blog/low-code-platforms-guide",
+          "score": 0.34727195,
+          "raw_content_available": true,
+          "raw_content_length": 26082,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 95,
+      "timestamp": "2026-08-23T19:18:01.958959+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "低代码平台 技术债务 长期维护成本 学术研究",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.65,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "自承认技术债的研究: 问题、进展与挑战",
+          "url": "https://www.jos.org.cn/jos/article/html/6292",
+          "score": 0.5446325,
+          "raw_content_available": true,
+          "raw_content_length": 81699,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "技术债务的真实成本 | AppMaster",
+          "url": "https://appmaster.io/zh/blog/ji-zhu-zhai-wu-de-zhen-shi-cheng-ben",
+          "score": 0.45871297,
+          "raw_content_available": true,
+          "raw_content_length": 8112,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "15_system",
+          "url": "https://www.huaxiaozhuan.com/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/chapters/17_system.html",
+          "score": 0.34389287,
+          "raw_content_available": true,
+          "raw_content_length": 13836,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "研发团队必看的技术债务管理的方法与工具-腾讯云开发者社区-腾讯云",
+          "url": "https://cloud.tencent.com/developer/article/2613762",
+          "score": 0.3402007,
+          "raw_content_available": true,
+          "raw_content_length": 10858,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "什么是技术债务？迹象与有效管理方法 | Atlassian",
+          "url": "https://www.atlassian.com/zh/agile/software-development/technical-debt",
+          "score": 0.3217162,
+          "raw_content_available": true,
+          "raw_content_length": 7048,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 96,
+      "timestamp": "2026-08-23T19:18:02.196254+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "low-code platform scalability limitations enterprise case study",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.732,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "An Evaluation : Low-Code for Enterprise",
+          "url": "https://www.fabricgroup.com.au/blog/an-evaluation-low-code-for-enterprise",
+          "score": 0.834852,
+          "raw_content_available": true,
+          "raw_content_length": 12667,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Why Most Low-Code Platforms Eventually Face Limitations ...",
+          "url": "https://www.baytechconsulting.com/blog/why-most-low-code-platforms-eventually-face-limitations-and-strategic-considerations-for-the-future",
+          "score": 0.74004334,
+          "raw_content_available": true,
+          "raw_content_length": 49611,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Integrating Low-Code Platforms In Enterprise IT: Best Practices",
+          "url": "https://www.intellinez.com/blog/low-code-platforms-in-enterprise-it",
+          "score": 0.7171114,
+          "raw_content_available": true,
+          "raw_content_length": 147291,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Inherent limitations: Where low code platforms fall short",
+          "url": "https://www.okoone.com/spark/technology-innovation/inherent-limitations-where-low-code-platforms-fall-short",
+          "score": 0.6912478,
+          "raw_content_available": true,
+          "raw_content_length": 20225,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Low-Code Platforms for Large Corporations: Guide & Best Practices",
+          "url": "https://phenomenonstudio.com/article/low-code-and-no-code-platforms-in-large-corporations-opportunities-and-limitations",
+          "score": 0.65359193,
+          "raw_content_available": true,
+          "raw_content_length": 27300,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 97,
+      "timestamp": "2026-08-23T19:18:02.270789+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Gartner Forrester low-code platform vendor lock-in maintenance cost analysis",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 3.474,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Low-Code Hits $44.5B: Gartner 2026 Forecast Explained | byteiota",
+          "url": "https://byteiota.com/low-code-hits-44-5b-gartner-2026-forecast-explained-2",
+          "score": 0.60750073,
+          "raw_content_available": true,
+          "raw_content_length": 22005,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Low-Code ETL Platform Benefits Metrics – 42 Statistics Every Data Leader Should Know in 2026 | Integrate.io",
+          "url": "https://www.integrate.io/blog/low-code-etl-platform-benefits-metrics",
+          "score": 0.52130115,
+          "raw_content_available": true,
+          "raw_content_length": 30919,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "An Evaluation : Low-Code for Enterprise",
+          "url": "https://www.fabricgroup.com.au/blog/an-evaluation-low-code-for-enterprise",
+          "score": 0.5068117,
+          "raw_content_available": true,
+          "raw_content_length": 12667,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "[PDF] Low-Code/No-Code Development Platforms: Empowering the Next ...",
+          "url": "https://ijres.org/papers/Volume-13/Issue-4/1304229232.pdf",
+          "score": 0.49655825,
+          "raw_content_available": true,
+          "raw_content_length": 13479,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Dead or Transformed? The Future of Low-Code Development ...",
+          "url": "https://shiftasia.com/column/dead-or-transformed-the-future-of-low-code-development-platforms-in-an-ai-driven-world",
+          "score": 0.46075046,
+          "raw_content_available": true,
+          "raw_content_length": 34128,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 98,
+      "timestamp": "2026-08-23T19:18:03.032184+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "low-code platform technical debt empirical study academic research",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 3.835,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Developer discussion topics on the adoption and barriers of low code software development platforms",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9643911",
+          "score": 0.7327644,
+          "raw_content_available": true,
+          "raw_content_length": 251095,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "No-code and Low-code Just introducing technical Debt in Software Development",
+          "url": "https://www.youtube.com/watch?v=XcOx3cgya78",
+          "score": 0.6366926,
+          "raw_content_available": true,
+          "raw_content_length": 19494,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "The Nature of Technical Debt in Research Software",
+          "url": "https://arxiv.org/html/2603.20415v1",
+          "score": 0.5155961,
+          "raw_content_available": true,
+          "raw_content_length": 115497,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Research and Insights | CodeScene",
+          "url": "https://codescene.com/resources/research-and-insights",
+          "score": 0.4135014,
+          "raw_content_available": true,
+          "raw_content_length": 15061,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Medium",
+          "url": "https://medium.com/agileinsider/can-low-code-really-solve-the-problem-of-technical-debt-2d4db965b8f5",
+          "score": 0.30978584,
+          "raw_content_available": true,
+          "raw_content_length": 3203,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 99,
+      "timestamp": "2026-08-23T19:18:03.364315+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "low-code platform market share OutSystems Mendix Microsoft Power Platform Appian 2024 2025",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.514,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Low Code Development Platform Market Size, Share [2034]",
+          "url": "https://www.fortunebusinessinsights.com/low-code-development-platform-market-102972",
+          "score": 0.8729662,
+          "raw_content_available": true,
+          "raw_content_length": 32447,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Low-Code and No-Code Development Platforms Market ...",
+          "url": "https://www.precedenceresearch.com/low-code-and-no-code-development-platforms-market",
+          "score": 0.8194462,
+          "raw_content_available": true,
+          "raw_content_length": 33806,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Low Code Development Platform Market Size, Share & Growth 2026",
+          "url": "https://www.datamintelligence.com/research-report/low-code-development-platform-market",
+          "score": 0.818055,
+          "raw_content_available": true,
+          "raw_content_length": 37280,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Low Code Development Platform Market Size Analysis, 2031",
+          "url": "https://www.mordorintelligence.com/industry-reports/low-code-development-platform-market",
+          "score": 0.78788257,
+          "raw_content_available": true,
+          "raw_content_length": 37390,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Low-Code Development Platform Market Size, Share, Growth, 2034",
+          "url": "https://straitsresearch.com/report/low-code-development-platform-market",
+          "score": 0.767429,
+          "raw_content_available": true,
+          "raw_content_length": 22535,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 124,
+      "timestamp": "2026-08-23T19:18:04.306198+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "低代码 无代码 部署模式 中心化IT 业务部门 自助式 citizen development governance",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 3.763,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "全民开发时代，如何规避低代码带来的“影子IT”风险？ - JNPF 知识分享中心",
+          "url": "https://knowledge.jnpfsoft.com/posts/2026-08-12/quanminkaifashidairuheguididaidailaideyingziitfeng",
+          "score": 0.49875546,
+          "raw_content_available": true,
+          "raw_content_length": 8273,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "[PDF] 亚洲城市状况报告2010/2011",
+          "url": "https://unhabitat.org/sites/default/files/download-manager-files/State%20of%20Asian%20Cities%202010-11cn.pdf",
+          "score": 0.086054444,
+          "raw_content_available": true,
+          "raw_content_length": 510819,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "海尔智家(600690)_公司公告_海尔智家：2025环境、社会及管治报告新浪财经_新浪网",
+          "url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=600690&id=12225677",
+          "score": 0.053112928,
+          "raw_content_available": true,
+          "raw_content_length": 204435,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "[PDF] 從電訊企業變革成為ICT領袖 - HKEXnews",
+          "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2025/0808/11789689/2025080801538_c.pdf",
+          "score": 0.04248727,
+          "raw_content_available": true,
+          "raw_content_length": 197617,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "[PDF] 2021 可持续发展报告 - 台达",
+          "url": "https://filecenter.delta-china.com.cn/about/download/2021_Delta_ESG_Report_SC.pdf",
+          "score": 0.025489958,
+          "raw_content_available": true,
+          "raw_content_length": 71039,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 125,
+      "timestamp": "2026-08-23T19:18:05.544941+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "低代码 行业应用 金融 制造 零售 政府 采用率 案例",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 4.246,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "[PDF] 中国低代码行业研究报告",
+          "url": "https://pdf.dfcfw.com/pdf/H3_AP202208191577363820_1.pdf",
+          "score": 0.81025416,
+          "raw_content_available": true,
+          "raw_content_length": 38816,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "2025年低代码开发平台行业研究报告：普元引领，众商竞逐",
+          "url": "https://t.cj.sina.cn/articles/view/7869353232/1d50ccd1000101lu36",
+          "score": 0.69622743,
+          "raw_content_available": true,
+          "raw_content_length": 17693,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "数字化转型浪潮下，中国低/无代码市场发展现状分析",
+          "url": "http://ex.chinadaily.com.cn/exchange/partners/82/rss/channel/cn/columns/snl9a7/stories/WS6009262fa3101e7ce973c018.html",
+          "score": 0.5264164,
+          "raw_content_available": true,
+          "raw_content_length": 6171,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "数据要素× 工业制造",
+          "url": "https://www.nda.gov.cn/sjj/swdt/dfdt/0829/ff808081-91d66ab2-0191-da74a75f-0025.pdf",
+          "score": 0.4766533,
+          "raw_content_available": true,
+          "raw_content_length": 206270,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "低代码开发与无代码开发 - Google Cloud",
+          "url": "https://cloud.google.com/discover/low-code-vs-no-code?hl=zh-CN",
+          "score": 0.18608062,
+          "raw_content_available": true,
+          "raw_content_length": 7432,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 127,
+      "timestamp": "2026-08-23T19:18:06.045859+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Forrester Wave low-code development platforms 2025 leaders",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.442,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "The 2025 Forrester Wave™ and the future of app development",
+          "url": "https://www.outsystems.com/blog/posts/application-generation-future",
+          "score": 0.95921934,
+          "raw_content_available": true,
+          "raw_content_length": 14981,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Forrester: A Leader in Low-Code Platforms - Workflow®",
+          "url": "https://www.servicenow.com/workflow/app-development/forrester-leader-low-code-platforms.html",
+          "score": 0.94109917,
+          "raw_content_available": true,
+          "raw_content_length": 22990,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Top 10 Low-Code Companies & Platforms for Enterprise App Development (2026)",
+          "url": "https://kissflow.com/low-code/best-low-code-company",
+          "score": 0.933969,
+          "raw_content_available": true,
+          "raw_content_length": 60697,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Microsoft is leader in 2025 Forrester Wave™ for low-code platforms ...",
+          "url": "https://www.microsoft.com/en-us/power-platform/blog/power-apps/microsoft-is-a-leader-in-2025-forrester-wave-low-code-platforms-for-professional-developers",
+          "score": 0.9338243,
+          "raw_content_available": true,
+          "raw_content_length": 12937,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Forrester Wave on Low-Code Development Platforms Report 2026",
+          "url": "https://blog.tooljet.com/forrester-wave-on-low-code-development-platforms",
+          "score": 0.9242583,
+          "raw_content_available": true,
+          "raw_content_length": 23370,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 143,
+      "timestamp": "2026-08-23T19:18:12.721789+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "低代码 失败 迁移 成本 高 维护 企业 案例",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.695,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "低代码平台中的“不可能三角” - Thoughtworks",
+          "url": "https://www.thoughtworks.com/zh-cn/insights/blog/platforms/impossible-triangle-in-low-code-platform",
+          "score": 0.54840803,
+          "raw_content_available": true,
+          "raw_content_length": 9043,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "飞书低代码平台应用案例精选- 飞书官网",
+          "url": "https://www.feishu.cn/content/feishu-lowcode-case-selection",
+          "score": 0.49655825,
+          "raw_content_available": true,
+          "raw_content_length": 14513,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "MS Access数据迁移到低代码平台：中小企业数字化升级新选择 - Zoho低代码",
+          "url": "https://www.zoho.com.cn/creator/articles/ms0424.html",
+          "score": 0.49084634,
+          "raw_content_available": true,
+          "raw_content_length": 6746,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "用低代码？请三思而后行 - Coding Ideal World",
+          "url": "https://idealworld.group/2025/01/10/use-low-code-please-wait",
+          "score": 0.48762518,
+          "raw_content_available": true,
+          "raw_content_length": 3494,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "低代码示例和用例",
+          "url": "https://www.mendix.com/zh-CN/%E4%BD%8E%E4%BB%A3%E7%A0%81%E6%8C%87%E5%8D%97/%E4%BD%8E%E4%BB%A3%E7%A0%81%E7%94%A8%E4%BE%8B",
+          "score": 0.42534322,
+          "raw_content_available": true,
+          "raw_content_length": 8535,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 144,
+      "timestamp": "2026-08-23T19:18:12.983965+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "低代码 无代码 学术研究 实证 研究 2024 2025",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.689,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "低代码无代码平台技术发展及行业市场研究报告（2025年）_IIM信息 ▂ ▅ ▇",
+          "url": "https://www.iim.net.cn/2358/view-2745-1.html",
+          "score": 0.7449724,
+          "raw_content_available": true,
+          "raw_content_length": 5143,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "2023年中国低/零代码行业研究报告",
+          "url": "https://pdf.dfcfw.com/pdf/H3_AP202401261618317487_1.pdf",
+          "score": 0.61057013,
+          "raw_content_available": true,
+          "raw_content_length": 23260,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "2025年低代码开发平台行业研究报告：普元引领，众商竞逐",
+          "url": "https://t.cj.sina.cn/articles/view/7869353232/1d50ccd1000101lu36",
+          "score": 0.56719416,
+          "raw_content_available": true,
+          "raw_content_length": 17693,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "IDC：低代码与零代码深度融合生成式AI，重构开发范式",
+          "url": "https://mfe-prod.idc.com/getdoc.jsp?containerId=prCHC53666825",
+          "score": 0.55391616,
+          "raw_content_available": true,
+          "raw_content_length": 5245,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "2025年推荐5款好用的低代码开发平台 - 大龄码农有梦想 - 博客园",
+          "url": "https://www.cnblogs.com/hibpm/p/18896754",
+          "score": 0.42448413,
+          "raw_content_available": true,
+          "raw_content_length": 4879,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 145,
+      "timestamp": "2026-08-23T19:18:12.993158+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "OutSystems Mendix Microsoft Power Apps enterprise case study success failure",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.768,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Using Microsoft PowerApps, Mendix and OutSystems in ...",
+          "url": "https://www.researchgate.net/publication/357212800_Using_Microsoft_PowerApps_Mendix_and_OutSystems_in_Two_Development_Scenarios_An_Experience_Report",
+          "score": 0.78611463,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "Mendix vs Microsoft Power Apps (2026)",
+          "url": "https://www.peerspot.com/products/comparisons/mendix_vs_microsoft-power-apps",
+          "score": 0.65676886,
+          "raw_content_available": true,
+          "raw_content_length": 39780,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Power Apps vs OutSystems vs Mendix Comparison 2026",
+          "url": "https://nareshit.com/blogs/power-apps-vs-outsystems-vs-mendix-low-code-comparison",
+          "score": 0.52758485,
+          "raw_content_available": true,
+          "raw_content_length": 14711,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Power Apps vs. Mendix vs. Outsystems - Low-code Development Platform",
+          "url": "https://saxon.ai/blogs/power-apps-vs-mendix-vs-outsystems-comparison-of-low-code-development-platforms",
+          "score": 0.4893821,
+          "raw_content_available": true,
+          "raw_content_length": 39910,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "How to Decide Between Mendix and Microsoft Power Apps",
+          "url": "https://www.mendix.com/blog/how-to-decide-between-mendix-and-microsoft-power-apps-for-software-delivery",
+          "score": 0.41648865,
+          "raw_content_available": true,
+          "raw_content_length": 9975,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 146,
+      "timestamp": "2026-08-23T19:18:13.065082+08:00"
+    }
+  ],
+  "summary_cache_hits": 14,
+  "summary_cache_hit_urls": [
+    "https://www.mendix.com/zh-CN/%E4%BD%8E%E4%BB%A3%E7%A0%81%E6%8C%87%E5%8D%97/%E4%BD%8E%E4%BB%A3%E7%A0%81%E7%94%A8%E4%BE%8B",
+    "https://www.baytechconsulting.com/blog/why-most-low-code-platforms-eventually-face-limitations-and-strategic-considerations-for-the-future",
+    "https://cdp.com/articles/low-code-no-code-development",
+    "https://www.baytechconsulting.com/blog/why-most-low-code-platforms-eventually-face-limitations-and-strategic-considerations-for-the-future",
+    "https://www.okoone.com/spark/technology-innovation/inherent-limitations-where-low-code-platforms-fall-short",
+    "https://pdf.dfcfw.com/pdf/H3_AP202208191577363820_1.pdf",
+    "https://t.cj.sina.cn/articles/view/7869353232/1d50ccd1000101lu36",
+    "https://www.outsystems.com/blog/posts/application-generation-future",
+    "https://www.thoughtworks.com/zh-cn/insights/blog/platforms/impossible-triangle-in-low-code-platform",
+    "https://idealworld.group/2025/01/10/use-low-code-please-wait",
+    "https://www.mendix.com/zh-CN/%E4%BD%8E%E4%BB%A3%E7%A0%81%E6%8C%87%E5%8D%97/%E4%BD%8E%E4%BB%A3%E7%A0%81%E7%94%A8%E4%BE%8B",
+    "https://pdf.dfcfw.com/pdf/H3_AP202401261618317487_1.pdf",
+    "https://t.cj.sina.cn/articles/view/7869353232/1d50ccd1000101lu36",
+    "https://mfe-prod.idc.com/getdoc.jsp?containerId=prCHC53666825"
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://www.outsystems.com/blog/posts/application-generation-future",
+      "status": "success",
+      "content_length": 14981,
+      "duration_seconds": 2.227,
+      "query": "Gartner魔力象限 低代码 平台 2024 2025 Forrester Wave"
+    },
+    {
+      "url": "https://www.mendix.com/zh-CN/%E8%B5%84%E6%BA%90/Gartner-%E4%BD%8E%E4%BB%A3%E7%A0%81%E5%BA%94%E7%94%A8%E5%B9%B3%E5%8F%B0%E9%AD%94%E5%8A%9B%E8%B1%A1%E9%99%90",
+      "status": "success",
+      "content_length": 1016,
+      "duration_seconds": 2.227,
+      "query": "Gartner魔力象限 低代码 平台 2024 2025 Forrester Wave"
+    },
+    {
+      "url": "https://kissflow.com/low-code/gartners-magic-quadrant-about-low-code-vs-no-code-2025",
+      "status": "success",
+      "content_length": 26471,
+      "duration_seconds": 2.227,
+      "query": "Gartner魔力象限 低代码 平台 2024 2025 Forrester Wave"
+    },
+    {
+      "url": "https://www.gartner.com/cn/research/magic-quadrant",
+      "status": "success",
+      "content_length": 48506,
+      "duration_seconds": 2.227,
+      "query": "Gartner魔力象限 低代码 平台 2024 2025 Forrester Wave"
+    },
+    {
+      "url": "https://www.tableau.com/zh-cn/about/awards-and-recognition",
+      "status": "success",
+      "content_length": 2666,
+      "duration_seconds": 2.227,
+      "query": "Gartner魔力象限 低代码 平台 2024 2025 Forrester Wave"
+    },
+    {
+      "url": "https://joget.com/low-code-growth-key-statistics-facts-that-show-its-impact",
+      "status": "success",
+      "content_length": 11170,
+      "duration_seconds": 2.285,
+      "query": "low-code no-code platform productivity improvement data study"
+    },
+    {
+      "url": "https://sqmagazine.co.uk/nocode-platform-statistics",
+      "status": "success",
+      "content_length": 43134,
+      "duration_seconds": 2.285,
+      "query": "low-code no-code platform productivity improvement data study"
+    },
+    {
+      "url": "https://www.integrate.io/blog/no-code-transformations-usage-trends",
+      "status": "success",
+      "content_length": 28898,
+      "duration_seconds": 2.285,
+      "query": "low-code no-code platform productivity improvement data study"
+    },
+    {
+      "url": "https://www.reworked.co/information-management/whats-behind-the-explosion-of-low-code-and-no-code-applications",
+      "status": "success",
+      "content_length": 18362,
+      "duration_seconds": 2.285,
+      "query": "low-code no-code platform productivity improvement data study"
+    },
+    {
+      "url": "https://cdp.com/articles/low-code-no-code-development",
+      "status": "success",
+      "content_length": 11717,
+      "duration_seconds": 2.285,
+      "query": "low-code no-code platform productivity improvement data study"
+    },
+    {
+      "url": "https://hulianhutongshequ.com/report/1-18",
+      "status": "success",
+      "content_length": 2562,
+      "duration_seconds": 2.488,
+      "query": "低代码 无代码 平台 案例研究 企业 成功 失败 2024 2025"
+    },
+    {
+      "url": "https://mtz.china.com/touzi/2025/1017/197614.html",
+      "status": "success",
+      "content_length": 6679,
+      "duration_seconds": 2.488,
+      "query": "低代码 无代码 平台 案例研究 企业 成功 失败 2024 2025"
+    },
+    {
+      "url": "https://mfe-prod.idc.com/getdoc.jsp?containerId=prCHC53666825",
+      "status": "success",
+      "content_length": 5245,
+      "duration_seconds": 2.488,
+      "query": "低代码 无代码 平台 案例研究 企业 成功 失败 2024 2025"
+    },
+    {
+      "url": "https://www.mendix.com/zh-CN/%E4%BD%8E%E4%BB%A3%E7%A0%81%E6%8C%87%E5%8D%97/%E4%BD%8E%E4%BB%A3%E7%A0%81%E7%94%A8%E4%BE%8B",
+      "status": "success",
+      "content_length": 8535,
+      "duration_seconds": 2.488,
+      "query": "低代码 无代码 平台 案例研究 企业 成功 失败 2024 2025"
+    },
+    {
+      "url": "https://cloud.google.com/discover/what-is-low-code?hl=zh-CN",
+      "status": "success",
+      "content_length": 57066,
+      "duration_seconds": 2.488,
+      "query": "低代码 无代码 平台 案例研究 企业 成功 失败 2024 2025"
+    },
+    {
+      "url": "https://blog.tooljet.com/low-code-development-future",
+      "status": "success",
+      "content_length": 29254,
+      "duration_seconds": 2.595,
+      "query": "low-code no-code platform case studies enterprise success failure 2024 2025"
+    },
+    {
+      "url": "https://qubit.capital/blog/low-code-no-code-software-platforms-investment-opportunities",
+      "status": "success",
+      "content_length": 27333,
+      "duration_seconds": 2.595,
+      "query": "low-code no-code platform case studies enterprise success failure 2024 2025"
+    },
+    {
+      "url": "https://kissflow.com/low-code/low-code-case-studies",
+      "status": "success",
+      "content_length": 27535,
+      "duration_seconds": 2.595,
+      "query": "low-code no-code platform case studies enterprise success failure 2024 2025"
+    },
+    {
+      "url": "https://www.baytechconsulting.com/blog/why-most-low-code-platforms-eventually-face-limitations-and-strategic-considerations-for-the-future",
+      "status": "success",
+      "content_length": 49611,
+      "duration_seconds": 2.595,
+      "query": "low-code no-code platform case studies enterprise success failure 2024 2025"
+    },
+    {
+      "url": "https://www.integrate.io/blog/no-code-transformations-usage-trends",
+      "status": "success",
+      "content_length": 28898,
+      "duration_seconds": 2.595,
+      "query": "low-code no-code platform case studies enterprise success failure 2024 2025"
+    },
+    {
+      "url": "https://grapecity.csdn.net/6a18f3bd662f9a54cb78339f.html",
+      "status": "success",
+      "content_length": 7145,
+      "duration_seconds": 2.928,
+      "query": "低代码无代码平台 生产力 维护成本 权衡"
+    },
+    {
+      "url": "https://www.larksuite.com/zh_cn/blog/low-code-no-code-platforms",
+      "status": "success",
+      "content_length": 14695,
+      "duration_seconds": 2.928,
+      "query": "低代码无代码平台 生产力 维护成本 权衡"
+    },
+    {
+      "url": "https://www.sap.cn/resources/what-is-low-code-no-code",
+      "status": "success",
+      "content_length": 6090,
+      "duration_seconds": 2.928,
+      "query": "低代码无代码平台 生产力 维护成本 权衡"
+    },
+    {
+      "url": "https://www.oracle.com/cn/application-development/low-code",
+      "status": "success",
+      "content_length": 7006,
+      "duration_seconds": 2.928,
+      "query": "低代码无代码平台 生产力 维护成本 权衡"
+    },
+    {
+      "url": "https://www.mendix.com/zh-CN/%E4%BD%8E%E4%BB%A3%E7%A0%81%E6%8C%87%E5%8D%97",
+      "status": "success",
+      "content_length": 8366,
+      "duration_seconds": 2.928,
+      "query": "低代码无代码平台 生产力 维护成本 权衡"
+    },
+    {
+      "url": "https://t.cj.sina.cn/articles/view/7670233722/1c92e7a7a00101ftkq",
+      "status": "success",
+      "content_length": 9688,
+      "duration_seconds": 3.331,
+      "query": "低代码 无代码 市场规模 2024 2025 Gartner Forrester 增长率"
+    },
+    {
+      "url": "https://juejin.cn/post/7572880767584534579",
+      "status": "success",
+      "content_length": 7974,
+      "duration_seconds": 3.331,
+      "query": "低代码 无代码 市场规模 2024 2025 Gartner Forrester 增长率"
+    },
+    {
+      "url": "https://www.marketgrowthreports.com/zh/market-reports/no-code-and-low-code-development-platforms-software-market-107271",
+      "status": "success",
+      "content_length": 16053,
+      "duration_seconds": 3.331,
+      "query": "低代码 无代码 市场规模 2024 2025 Gartner Forrester 增长率"
+    },
+    {
+      "url": "https://www.cls.cn/detail/2074887",
+      "status": "success",
+      "content_length": 2036,
+      "duration_seconds": 3.331,
+      "query": "低代码 无代码 市场规模 2024 2025 Gartner Forrester 增长率"
+    },
+    {
+      "url": "https://segmentfault.com/a/1190000047528507",
+      "status": "success",
+      "content_length": 5944,
+      "duration_seconds": 3.331,
+      "query": "低代码 无代码 市场规模 2024 2025 Gartner Forrester 增长率"
+    },
+    {
+      "url": "https://www.jiandaoyun.com/blog/article/1014684",
+      "status": "success",
+      "content_length": 20800,
+      "duration_seconds": 3.238,
+      "query": "低代码平台 技术债务 可维护性 评估"
+    },
+    {
+      "url": "https://www.primeton.com/blog/4433.html",
+      "status": "success",
+      "content_length": 6750,
+      "duration_seconds": 3.238,
+      "query": "低代码平台 技术债务 可维护性 评估"
+    },
+    {
+      "url": "https://www.zoho.com.cn/creator/articles/technical-debt.html",
+      "status": "success",
+      "content_length": 5299,
+      "duration_seconds": 3.238,
+      "query": "低代码平台 技术债务 可维护性 评估"
+    },
+    {
+      "url": "https://knowledge.jnpfsoft.com/posts/2026-05-25/didaipingtaikuaisukaifapaimingcongxuqiudaoshangxianzhouqishiduibi",
+      "status": "success",
+      "content_length": 71267,
+      "duration_seconds": 3.238,
+      "query": "低代码平台 技术债务 可维护性 评估"
+    },
+    {
+      "url": "https://www.cnblogs.com/zgq123456/articles/11479206.html",
+      "status": "success",
+      "content_length": 5956,
+      "duration_seconds": 3.238,
+      "query": "低代码平台 技术债务 可维护性 评估"
+    },
+    {
+      "url": "https://mtz.china.com/touzi/2025/1017/197614.html",
+      "status": "success",
+      "content_length": 6679,
+      "duration_seconds": 3.703,
+      "query": "中国低代码平台 企业采用率 行业应用 2024 2025"
+    },
+    {
+      "url": "https://pdf.dfcfw.com/pdf/H3_AP202208191577363820_1.pdf",
+      "status": "success",
+      "content_length": 38816,
+      "duration_seconds": 3.703,
+      "query": "中国低代码平台 企业采用率 行业应用 2024 2025"
+    },
+    {
+      "url": "https://developer.aliyun.com/article/1678970",
+      "status": "success",
+      "content_length": 3708,
+      "duration_seconds": 3.703,
+      "query": "中国低代码平台 企业采用率 行业应用 2024 2025"
+    },
+    {
+      "url": "https://www.definesys.com/cases/261",
+      "status": "success",
+      "content_length": 6355,
+      "duration_seconds": 3.703,
+      "query": "中国低代码平台 企业采用率 行业应用 2024 2025"
+    },
+    {
+      "url": "https://mfe-prod.idc.com/getdoc.jsp?containerId=prCHC53666825",
+      "status": "success",
+      "content_length": 5245,
+      "duration_seconds": 3.703,
+      "query": "中国低代码平台 企业采用率 行业应用 2024 2025"
+    },
+    {
+      "url": "https://cdp.com/articles/low-code-no-code-development",
+      "status": "success",
+      "content_length": 11717,
+      "duration_seconds": 4.105,
+      "query": "low-code no-code market size 2024 2025 Gartner Forrester IDC growth rate"
+    },
+    {
+      "url": "https://quixy.com/blog/no-code-low-code-citizen-development-statistics-facts",
+      "status": "success",
+      "content_length": 38288,
+      "duration_seconds": 4.105,
+      "query": "low-code no-code market size 2024 2025 Gartner Forrester IDC growth rate"
+    },
+    {
+      "url": "https://www.precedenceresearch.com/low-code-development-platform-market",
+      "status": "success",
+      "content_length": 38512,
+      "duration_seconds": 4.105,
+      "query": "low-code no-code market size 2024 2025 Gartner Forrester IDC growth rate"
+    },
+    {
+      "url": "https://searchlab.nl/en/statistics/no-code-low-code-statistics-2026",
+      "status": "success",
+      "content_length": 13195,
+      "duration_seconds": 4.105,
+      "query": "low-code no-code market size 2024 2025 Gartner Forrester IDC growth rate"
+    },
+    {
+      "url": "https://www.caspio.com/blog/state-of-no-code-2026",
+      "status": "success",
+      "content_length": 44255,
+      "duration_seconds": 4.105,
+      "query": "low-code no-code market size 2024 2025 Gartner Forrester IDC growth rate"
+    },
+    {
+      "url": "https://t.cj.sina.cn/articles/view/7869353232/1d50ccd1000101lu36",
+      "status": "success",
+      "content_length": 17693,
+      "duration_seconds": 4.043,
+      "query": "低代码平台 开发效率 提高 数据 研究 报告"
+    },
+    {
+      "url": "https://pdf.dfcfw.com/pdf/H3_AP202401261618317487_1.pdf",
+      "status": "success",
+      "content_length": 23260,
+      "duration_seconds": 4.043,
+      "query": "低代码平台 开发效率 提高 数据 研究 报告"
+    },
+    {
+      "url": "https://my.idc.com/getdoc.jsp?containerId=prCHC53671625",
+      "status": "success",
+      "content_length": 4639,
+      "duration_seconds": 4.043,
+      "query": "低代码平台 开发效率 提高 数据 研究 报告"
+    },
+    {
+      "url": "https://www.mendix.com/zh-CN/%E4%BD%8E%E4%BB%A3%E7%A0%81%E6%8C%87%E5%8D%97",
+      "status": "success",
+      "content_length": 8366,
+      "duration_seconds": 4.043,
+      "query": "低代码平台 开发效率 提高 数据 研究 报告"
+    },
+    {
+      "url": "https://cloud.google.com/discover/what-is-low-code?hl=zh-CN",
+      "status": "success",
+      "content_length": 57066,
+      "duration_seconds": 4.043,
+      "query": "低代码平台 开发效率 提高 数据 研究 报告"
+    },
+    {
+      "url": "https://www.ainformat.com/detail/1915",
+      "status": "success",
+      "content_length": 27953,
+      "duration_seconds": 2.68,
+      "query": "AI-assisted low-code development trends 2025 2026 future outlook"
+    },
+    {
+      "url": "https://kissflow.com/low-code/low-code-trends-statistics",
+      "status": "success",
+      "content_length": 22711,
+      "duration_seconds": 2.68,
+      "query": "AI-assisted low-code development trends 2025 2026 future outlook"
+    },
+    {
+      "url": "https://blog.tooljet.com/low-code-statistics-market-ai-trends-2026",
+      "status": "success",
+      "content_length": 20629,
+      "duration_seconds": 2.68,
+      "query": "AI-assisted low-code development trends 2025 2026 future outlook"
+    },
+    {
+      "url": "https://keyholesoftware.com/software-development-trends-2026",
+      "status": "success",
+      "content_length": 59575,
+      "duration_seconds": 2.68,
+      "query": "AI-assisted low-code development trends 2025 2026 future outlook"
+    },
+    {
+      "url": "https://shiftasia.com/column/dead-or-transformed-the-future-of-low-code-development-platforms-in-an-ai-driven-world",
+      "status": "success",
+      "content_length": 34128,
+      "duration_seconds": 2.68,
+      "query": "AI-assisted low-code development trends 2025 2026 future outlook"
+    },
+    {
+      "url": "https://www.uni-kassel.de/eecs/index.php?eID=dumpFile&t=f&f=40025&token=b1a175d421589348da54f15ffb99610ac0d45cd4",
+      "status": "success",
+      "content_length": 60522,
+      "duration_seconds": 2.861,
+      "query": "low-code no-code empirical research academic study effectiveness 2023 2024 2025"
+    },
+    {
+      "url": "https://www.quandarycg.com/low-code-statistics",
+      "status": "success",
+      "content_length": 31695,
+      "duration_seconds": 2.861,
+      "query": "low-code no-code empirical research academic study effectiveness 2023 2024 2025"
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S0164121226001263",
+      "status": "success",
+      "content_length": 16419,
+      "duration_seconds": 2.861,
+      "query": "low-code no-code empirical research academic study effectiveness 2023 2024 2025"
+    },
+    {
+      "url": "https://www.appbuilder.dev/low-code-statistics",
+      "status": "success",
+      "content_length": 23600,
+      "duration_seconds": 2.861,
+      "query": "low-code no-code empirical research academic study effectiveness 2023 2024 2025"
+    },
+    {
+      "url": "https://www.hefjournal.org/index.php/HEF/article/view/266",
+      "status": "success",
+      "content_length": 29138,
+      "duration_seconds": 2.861,
+      "query": "low-code no-code empirical research academic study effectiveness 2023 2024 2025"
+    },
+    {
+      "url": "https://www.baytechconsulting.com/blog/why-most-low-code-platforms-eventually-face-limitations-and-strategic-considerations-for-the-future",
+      "status": "success",
+      "content_length": 49611,
+      "duration_seconds": 3.966,
+      "query": "low-code platform failure cases limitations when not to use"
+    },
+    {
+      "url": "https://www.okoone.com/spark/technology-innovation/inherent-limitations-where-low-code-platforms-fall-short",
+      "status": "success",
+      "content_length": 20225,
+      "duration_seconds": 3.966,
+      "query": "low-code platform failure cases limitations when not to use"
+    },
+    {
+      "url": "https://cdp.com/articles/low-code-no-code-development",
+      "status": "success",
+      "content_length": 11717,
+      "duration_seconds": 3.966,
+      "query": "low-code platform failure cases limitations when not to use"
+    },
+    {
+      "url": "https://www.planetcrust.com/when-business-technologists-avoid-low-code",
+      "status": "success",
+      "content_length": 13606,
+      "duration_seconds": 3.966,
+      "query": "low-code platform failure cases limitations when not to use"
+    },
+    {
+      "url": "https://twinr.dev/blogs/common-pitfalls-of-no-code-platforms",
+      "status": "success",
+      "content_length": 22046,
+      "duration_seconds": 3.966,
+      "query": "low-code platform failure cases limitations when not to use"
+    },
+    {
+      "url": "https://www.pwc.com/gx/en/news-room/assets/analyst-citations/idc-pwc-digital-maker-chinese-translation.pdf",
+      "status": "success",
+      "content_length": 8322,
+      "duration_seconds": 7.484,
+      "query": "低代码 失败 案例 局限性 不适用 场景 复杂业务"
+    },
+    {
+      "url": "https://www.thoughtworks.com/zh-cn/insights/blog/platforms/impossible-triangle-in-low-code-platform",
+      "status": "success",
+      "content_length": 9043,
+      "duration_seconds": 7.484,
+      "query": "低代码 失败 案例 局限性 不适用 场景 复杂业务"
+    },
+    {
+      "url": "https://idealworld.group/2025/01/10/use-low-code-please-wait",
+      "status": "success",
+      "content_length": 3494,
+      "duration_seconds": 7.484,
+      "query": "低代码 失败 案例 局限性 不适用 场景 复杂业务"
+    },
+    {
+      "url": "https://www.mendix.com/zh-CN/%E4%BD%8E%E4%BB%A3%E7%A0%81%E6%8C%87%E5%8D%97/%E4%BD%8E%E4%BB%A3%E7%A0%81%E7%94%A8%E4%BE%8B",
+      "status": "success",
+      "content_length": 8535,
+      "duration_seconds": 7.484,
+      "query": "低代码 失败 案例 局限性 不适用 场景 复杂业务"
+    },
+    {
+      "url": "https://aws.amazon.com/cn/what-is/low-code",
+      "status": "success",
+      "content_length": 5196,
+      "duration_seconds": 7.484,
+      "query": "低代码 失败 案例 局限性 不适用 场景 复杂业务"
+    },
+    {
+      "url": "https://blog.tooljet.com/low-code-vs-pro-code",
+      "status": "success",
+      "content_length": 36336,
+      "duration_seconds": 2.406,
+      "query": "low-code developer vs management perspective productivity maintenance trade-off"
+    },
+    {
+      "url": "https://reflex.dev/blog/low-code-platforms-in-2026-speed-without-the-lock-in",
+      "status": "success",
+      "content_length": 25267,
+      "duration_seconds": 2.406,
+      "query": "low-code developer vs management perspective productivity maintenance trade-off"
+    },
+    {
+      "url": "https://www.oracle.com/application-development/low-code",
+      "status": "success",
+      "content_length": 21152,
+      "duration_seconds": 2.406,
+      "query": "low-code developer vs management perspective productivity maintenance trade-off"
+    },
+    {
+      "url": "https://www.outsystems.com/low-code",
+      "status": "success",
+      "content_length": 24544,
+      "duration_seconds": 2.406,
+      "query": "low-code developer vs management perspective productivity maintenance trade-off"
+    },
+    {
+      "url": "https://www.weweb.io/blog/low-code-platforms-guide",
+      "status": "success",
+      "content_length": 26082,
+      "duration_seconds": 2.406,
+      "query": "low-code developer vs management perspective productivity maintenance trade-off"
+    },
+    {
+      "url": "https://www.jos.org.cn/jos/article/html/6292",
+      "status": "success",
+      "content_length": 81699,
+      "duration_seconds": 2.65,
+      "query": "低代码平台 技术债务 长期维护成本 学术研究"
+    },
+    {
+      "url": "https://appmaster.io/zh/blog/ji-zhu-zhai-wu-de-zhen-shi-cheng-ben",
+      "status": "success",
+      "content_length": 8112,
+      "duration_seconds": 2.65,
+      "query": "低代码平台 技术债务 长期维护成本 学术研究"
+    },
+    {
+      "url": "https://www.huaxiaozhuan.com/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/chapters/17_system.html",
+      "status": "success",
+      "content_length": 13836,
+      "duration_seconds": 2.65,
+      "query": "低代码平台 技术债务 长期维护成本 学术研究"
+    },
+    {
+      "url": "https://cloud.tencent.com/developer/article/2613762",
+      "status": "success",
+      "content_length": 10858,
+      "duration_seconds": 2.65,
+      "query": "低代码平台 技术债务 长期维护成本 学术研究"
+    },
+    {
+      "url": "https://www.atlassian.com/zh/agile/software-development/technical-debt",
+      "status": "success",
+      "content_length": 7048,
+      "duration_seconds": 2.65,
+      "query": "低代码平台 技术债务 长期维护成本 学术研究"
+    },
+    {
+      "url": "https://www.fabricgroup.com.au/blog/an-evaluation-low-code-for-enterprise",
+      "status": "success",
+      "content_length": 12667,
+      "duration_seconds": 2.732,
+      "query": "low-code platform scalability limitations enterprise case study"
+    },
+    {
+      "url": "https://www.baytechconsulting.com/blog/why-most-low-code-platforms-eventually-face-limitations-and-strategic-considerations-for-the-future",
+      "status": "success",
+      "content_length": 49611,
+      "duration_seconds": 2.732,
+      "query": "low-code platform scalability limitations enterprise case study"
+    },
+    {
+      "url": "https://www.intellinez.com/blog/low-code-platforms-in-enterprise-it",
+      "status": "success",
+      "content_length": 147291,
+      "duration_seconds": 2.732,
+      "query": "low-code platform scalability limitations enterprise case study"
+    },
+    {
+      "url": "https://www.okoone.com/spark/technology-innovation/inherent-limitations-where-low-code-platforms-fall-short",
+      "status": "success",
+      "content_length": 20225,
+      "duration_seconds": 2.732,
+      "query": "low-code platform scalability limitations enterprise case study"
+    },
+    {
+      "url": "https://phenomenonstudio.com/article/low-code-and-no-code-platforms-in-large-corporations-opportunities-and-limitations",
+      "status": "success",
+      "content_length": 27300,
+      "duration_seconds": 2.732,
+      "query": "low-code platform scalability limitations enterprise case study"
+    },
+    {
+      "url": "https://byteiota.com/low-code-hits-44-5b-gartner-2026-forecast-explained-2",
+      "status": "success",
+      "content_length": 22005,
+      "duration_seconds": 3.474,
+      "query": "Gartner Forrester low-code platform vendor lock-in maintenance cost analysis"
+    },
+    {
+      "url": "https://www.integrate.io/blog/low-code-etl-platform-benefits-metrics",
+      "status": "success",
+      "content_length": 30919,
+      "duration_seconds": 3.474,
+      "query": "Gartner Forrester low-code platform vendor lock-in maintenance cost analysis"
+    },
+    {
+      "url": "https://www.fabricgroup.com.au/blog/an-evaluation-low-code-for-enterprise",
+      "status": "success",
+      "content_length": 12667,
+      "duration_seconds": 3.474,
+      "query": "Gartner Forrester low-code platform vendor lock-in maintenance cost analysis"
+    },
+    {
+      "url": "https://ijres.org/papers/Volume-13/Issue-4/1304229232.pdf",
+      "status": "success",
+      "content_length": 13479,
+      "duration_seconds": 3.474,
+      "query": "Gartner Forrester low-code platform vendor lock-in maintenance cost analysis"
+    },
+    {
+      "url": "https://shiftasia.com/column/dead-or-transformed-the-future-of-low-code-development-platforms-in-an-ai-driven-world",
+      "status": "success",
+      "content_length": 34128,
+      "duration_seconds": 3.474,
+      "query": "Gartner Forrester low-code platform vendor lock-in maintenance cost analysis"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9643911",
+      "status": "success",
+      "content_length": 251095,
+      "duration_seconds": 3.835,
+      "query": "low-code platform technical debt empirical study academic research"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=XcOx3cgya78",
+      "status": "success",
+      "content_length": 19494,
+      "duration_seconds": 3.835,
+      "query": "low-code platform technical debt empirical study academic research"
+    },
+    {
+      "url": "https://arxiv.org/html/2603.20415v1",
+      "status": "success",
+      "content_length": 115497,
+      "duration_seconds": 3.835,
+      "query": "low-code platform technical debt empirical study academic research"
+    },
+    {
+      "url": "https://codescene.com/resources/research-and-insights",
+      "status": "success",
+      "content_length": 15061,
+      "duration_seconds": 3.835,
+      "query": "low-code platform technical debt empirical study academic research"
+    },
+    {
+      "url": "https://medium.com/agileinsider/can-low-code-really-solve-the-problem-of-technical-debt-2d4db965b8f5",
+      "status": "success",
+      "content_length": 3203,
+      "duration_seconds": 3.835,
+      "query": "low-code platform technical debt empirical study academic research"
+    },
+    {
+      "url": "https://www.fortunebusinessinsights.com/low-code-development-platform-market-102972",
+      "status": "success",
+      "content_length": 32447,
+      "duration_seconds": 2.514,
+      "query": "low-code platform market share OutSystems Mendix Microsoft Power Platform Appian 2024 2025"
+    },
+    {
+      "url": "https://www.precedenceresearch.com/low-code-and-no-code-development-platforms-market",
+      "status": "success",
+      "content_length": 33806,
+      "duration_seconds": 2.514,
+      "query": "low-code platform market share OutSystems Mendix Microsoft Power Platform Appian 2024 2025"
+    },
+    {
+      "url": "https://www.datamintelligence.com/research-report/low-code-development-platform-market",
+      "status": "success",
+      "content_length": 37280,
+      "duration_seconds": 2.514,
+      "query": "low-code platform market share OutSystems Mendix Microsoft Power Platform Appian 2024 2025"
+    },
+    {
+      "url": "https://www.mordorintelligence.com/industry-reports/low-code-development-platform-market",
+      "status": "success",
+      "content_length": 37390,
+      "duration_seconds": 2.514,
+      "query": "low-code platform market share OutSystems Mendix Microsoft Power Platform Appian 2024 2025"
+    },
+    {
+      "url": "https://straitsresearch.com/report/low-code-development-platform-market",
+      "status": "success",
+      "content_length": 22535,
+      "duration_seconds": 2.514,
+      "query": "low-code platform market share OutSystems Mendix Microsoft Power Platform Appian 2024 2025"
+    },
+    {
+      "url": "https://knowledge.jnpfsoft.com/posts/2026-08-12/quanminkaifashidairuheguididaidailaideyingziitfeng",
+      "status": "success",
+      "content_length": 8273,
+      "duration_seconds": 3.763,
+      "query": "低代码 无代码 部署模式 中心化IT 业务部门 自助式 citizen development governance"
+    },
+    {
+      "url": "https://unhabitat.org/sites/default/files/download-manager-files/State%20of%20Asian%20Cities%202010-11cn.pdf",
+      "status": "success",
+      "content_length": 510819,
+      "duration_seconds": 3.763,
+      "query": "低代码 无代码 部署模式 中心化IT 业务部门 自助式 citizen development governance"
+    },
+    {
+      "url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=600690&id=12225677",
+      "status": "success",
+      "content_length": 204435,
+      "duration_seconds": 3.763,
+      "query": "低代码 无代码 部署模式 中心化IT 业务部门 自助式 citizen development governance"
+    },
+    {
+      "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2025/0808/11789689/2025080801538_c.pdf",
+      "status": "success",
+      "content_length": 197617,
+      "duration_seconds": 3.763,
+      "query": "低代码 无代码 部署模式 中心化IT 业务部门 自助式 citizen development governance"
+    },
+    {
+      "url": "https://filecenter.delta-china.com.cn/about/download/2021_Delta_ESG_Report_SC.pdf",
+      "status": "success",
+      "content_length": 71039,
+      "duration_seconds": 3.763,
+      "query": "低代码 无代码 部署模式 中心化IT 业务部门 自助式 citizen development governance"
+    },
+    {
+      "url": "https://pdf.dfcfw.com/pdf/H3_AP202208191577363820_1.pdf",
+      "status": "success",
+      "content_length": 38816,
+      "duration_seconds": 4.246,
+      "query": "低代码 行业应用 金融 制造 零售 政府 采用率 案例"
+    },
+    {
+      "url": "https://t.cj.sina.cn/articles/view/7869353232/1d50ccd1000101lu36",
+      "status": "success",
+      "content_length": 17693,
+      "duration_seconds": 4.246,
+      "query": "低代码 行业应用 金融 制造 零售 政府 采用率 案例"
+    },
+    {
+      "url": "http://ex.chinadaily.com.cn/exchange/partners/82/rss/channel/cn/columns/snl9a7/stories/WS6009262fa3101e7ce973c018.html",
+      "status": "success",
+      "content_length": 6171,
+      "duration_seconds": 4.246,
+      "query": "低代码 行业应用 金融 制造 零售 政府 采用率 案例"
+    },
+    {
+      "url": "https://www.nda.gov.cn/sjj/swdt/dfdt/0829/ff808081-91d66ab2-0191-da74a75f-0025.pdf",
+      "status": "success",
+      "content_length": 206270,
+      "duration_seconds": 4.246,
+      "query": "低代码 行业应用 金融 制造 零售 政府 采用率 案例"
+    },
+    {
+      "url": "https://cloud.google.com/discover/low-code-vs-no-code?hl=zh-CN",
+      "status": "success",
+      "content_length": 7432,
+      "duration_seconds": 4.246,
+      "query": "低代码 行业应用 金融 制造 零售 政府 采用率 案例"
+    },
+    {
+      "url": "https://www.outsystems.com/blog/posts/application-generation-future",
+      "status": "success",
+      "content_length": 14981,
+      "duration_seconds": 2.442,
+      "query": "Forrester Wave low-code development platforms 2025 leaders"
+    },
+    {
+      "url": "https://www.servicenow.com/workflow/app-development/forrester-leader-low-code-platforms.html",
+      "status": "success",
+      "content_length": 22990,
+      "duration_seconds": 2.442,
+      "query": "Forrester Wave low-code development platforms 2025 leaders"
+    },
+    {
+      "url": "https://kissflow.com/low-code/best-low-code-company",
+      "status": "success",
+      "content_length": 60697,
+      "duration_seconds": 2.442,
+      "query": "Forrester Wave low-code development platforms 2025 leaders"
+    },
+    {
+      "url": "https://www.microsoft.com/en-us/power-platform/blog/power-apps/microsoft-is-a-leader-in-2025-forrester-wave-low-code-platforms-for-professional-developers",
+      "status": "success",
+      "content_length": 12937,
+      "duration_seconds": 2.442,
+      "query": "Forrester Wave low-code development platforms 2025 leaders"
+    },
+    {
+      "url": "https://blog.tooljet.com/forrester-wave-on-low-code-development-platforms",
+      "status": "success",
+      "content_length": 23370,
+      "duration_seconds": 2.442,
+      "query": "Forrester Wave low-code development platforms 2025 leaders"
+    },
+    {
+      "url": "https://www.thoughtworks.com/zh-cn/insights/blog/platforms/impossible-triangle-in-low-code-platform",
+      "status": "success",
+      "content_length": 9043,
+      "duration_seconds": 2.695,
+      "query": "低代码 失败 迁移 成本 高 维护 企业 案例"
+    },
+    {
+      "url": "https://www.feishu.cn/content/feishu-lowcode-case-selection",
+      "status": "success",
+      "content_length": 14513,
+      "duration_seconds": 2.695,
+      "query": "低代码 失败 迁移 成本 高 维护 企业 案例"
+    },
+    {
+      "url": "https://www.zoho.com.cn/creator/articles/ms0424.html",
+      "status": "success",
+      "content_length": 6746,
+      "duration_seconds": 2.695,
+      "query": "低代码 失败 迁移 成本 高 维护 企业 案例"
+    },
+    {
+      "url": "https://idealworld.group/2025/01/10/use-low-code-please-wait",
+      "status": "success",
+      "content_length": 3494,
+      "duration_seconds": 2.695,
+      "query": "低代码 失败 迁移 成本 高 维护 企业 案例"
+    },
+    {
+      "url": "https://www.mendix.com/zh-CN/%E4%BD%8E%E4%BB%A3%E7%A0%81%E6%8C%87%E5%8D%97/%E4%BD%8E%E4%BB%A3%E7%A0%81%E7%94%A8%E4%BE%8B",
+      "status": "success",
+      "content_length": 8535,
+      "duration_seconds": 2.695,
+      "query": "低代码 失败 迁移 成本 高 维护 企业 案例"
+    },
+    {
+      "url": "https://www.iim.net.cn/2358/view-2745-1.html",
+      "status": "success",
+      "content_length": 5143,
+      "duration_seconds": 2.689,
+      "query": "低代码 无代码 学术研究 实证 研究 2024 2025"
+    },
+    {
+      "url": "https://pdf.dfcfw.com/pdf/H3_AP202401261618317487_1.pdf",
+      "status": "success",
+      "content_length": 23260,
+      "duration_seconds": 2.689,
+      "query": "低代码 无代码 学术研究 实证 研究 2024 2025"
+    },
+    {
+      "url": "https://t.cj.sina.cn/articles/view/7869353232/1d50ccd1000101lu36",
+      "status": "success",
+      "content_length": 17693,
+      "duration_seconds": 2.689,
+      "query": "低代码 无代码 学术研究 实证 研究 2024 2025"
+    },
+    {
+      "url": "https://mfe-prod.idc.com/getdoc.jsp?containerId=prCHC53666825",
+      "status": "success",
+      "content_length": 5245,
+      "duration_seconds": 2.689,
+      "query": "低代码 无代码 学术研究 实证 研究 2024 2025"
+    },
+    {
+      "url": "https://www.cnblogs.com/hibpm/p/18896754",
+      "status": "success",
+      "content_length": 4879,
+      "duration_seconds": 2.689,
+      "query": "低代码 无代码 学术研究 实证 研究 2024 2025"
+    },
+    {
+      "url": "https://www.researchgate.net/publication/357212800_Using_Microsoft_PowerApps_Mendix_and_OutSystems_in_Two_Development_Scenarios_An_Experience_Report",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.768,
+      "query": "OutSystems Mendix Microsoft Power Apps enterprise case study success failure"
+    },
+    {
+      "url": "https://www.peerspot.com/products/comparisons/mendix_vs_microsoft-power-apps",
+      "status": "success",
+      "content_length": 39780,
+      "duration_seconds": 2.768,
+      "query": "OutSystems Mendix Microsoft Power Apps enterprise case study success failure"
+    },
+    {
+      "url": "https://nareshit.com/blogs/power-apps-vs-outsystems-vs-mendix-low-code-comparison",
+      "status": "success",
+      "content_length": 14711,
+      "duration_seconds": 2.768,
+      "query": "OutSystems Mendix Microsoft Power Apps enterprise case study success failure"
+    },
+    {
+      "url": "https://saxon.ai/blogs/power-apps-vs-mendix-vs-outsystems-comparison-of-low-code-development-platforms",
+      "status": "success",
+      "content_length": 39910,
+      "duration_seconds": 2.768,
+      "query": "OutSystems Mendix Microsoft Power Apps enterprise case study success failure"
+    },
+    {
+      "url": "https://www.mendix.com/blog/how-to-decide-between-mendix-and-microsoft-power-apps-for-software-delivery",
+      "status": "success",
+      "content_length": 9975,
+      "duration_seconds": 2.768,
+      "query": "OutSystems Mendix Microsoft Power Apps enterprise case study success failure"
+    }
+  ],
+  "run_id": "0e86b624da8444f3b6e2951d7205bd0e",
+  "status": "completed",
+  "id": 17,
+  "prompt": "\"“在当今软件开发行业中，低代码/无代码平台对传统开发流程的影响有多大？它们是否真正提高了开发效率，还是在特定场景下反而增加了维护成本？”\n为什么这个问题有价值？\n行业趋势：低代码/无代码开发近年来发展迅速，许多企业尝试采用它们来加快产品交付速度。 \n生产力 vs. 维护成本：这些工具宣称能降低开发门槛，但长期来看，它们是否真的能提高效率，还是在维护和扩展时带来了更多问题？ \n开发者视角 vs. 业务视角：企业管理者可能认为它们降低了成本，但开发者可能认为它们限制了可扩展性和灵活性。 \n未来发展预测：是否会有越来越多企业完全转向低代码/无代码，还是它们只适用于特定业务场景？\"",
+  "language": "zh",
+  "topic": "Software Development",
+  "duration_seconds": 291.798,
+  "report_length": 17413,
+  "context_length": 380485
+}

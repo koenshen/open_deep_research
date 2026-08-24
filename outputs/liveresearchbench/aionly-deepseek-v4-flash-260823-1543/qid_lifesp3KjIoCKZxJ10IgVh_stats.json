@@ -1,0 +1,5375 @@
+{
+  "session_id": "fa709f39e77f4a5a9d8d7baad9f2852b",
+  "total_llm_calls": 126,
+  "llm_calls_with_token_usage": 126,
+  "llm_calls_missing_token_usage": 0,
+  "token_usage_complete": true,
+  "total_input_tokens": 1144761,
+  "total_output_tokens": 100701,
+  "total_tokens": 1245462,
+  "counted_input_tokens": 1144761,
+  "counted_output_tokens": 100701,
+  "counted_total_tokens": 1245462,
+  "total_search_count": 26,
+  "total_search_results": 130,
+  "total_visit_count": 130,
+  "total_visit_success": 113,
+  "total_visit_failed": 17,
+  "source_urls_count": 125,
+  "llm_calls_detail": [
+    {
+      "sequence": 1,
+      "status": "completed",
+      "started_at": "2026-08-24T04:06:35.750365+08:00",
+      "completed_at": "2026-08-24T04:06:39.222885+08:00",
+      "duration_seconds": 3.473,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 809,
+      "output_tokens": 237,
+      "total_tokens": 1046,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 809,
+        "output_tokens": 237,
+        "total_tokens": 1046,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 2,
+      "status": "completed",
+      "started_at": "2026-08-24T04:06:39.231281+08:00",
+      "completed_at": "2026-08-24T04:06:46.424230+08:00",
+      "duration_seconds": 7.193,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1301,
+      "output_tokens": 668,
+      "total_tokens": 1969,
+      "message_count": 2,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1301,
+        "output_tokens": 668,
+        "total_tokens": 1969,
+        "input_token_details": {
+          "cache_read": 1024
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 3,
+      "status": "completed",
+      "started_at": "2026-08-24T04:06:46.430617+08:00",
+      "completed_at": "2026-08-24T04:06:56.833041+08:00",
+      "duration_seconds": 10.402,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1846,
+      "output_tokens": 964,
+      "total_tokens": 2810,
+      "message_count": 4,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1846,
+        "output_tokens": 964,
+        "total_tokens": 2810,
+        "input_token_details": {
+          "cache_read": 1280
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 4,
+      "status": "completed",
+      "started_at": "2026-08-24T04:06:56.847712+08:00",
+      "completed_at": "2026-08-24T04:06:59.809002+08:00",
+      "duration_seconds": 2.961,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1325,
+      "output_tokens": 216,
+      "total_tokens": 1541,
+      "message_count": 2,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1325,
+        "output_tokens": 216,
+        "total_tokens": 1541,
+        "input_token_details": {
+          "cache_read": 768
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 5,
+      "status": "completed",
+      "started_at": "2026-08-24T04:06:56.847818+08:00",
+      "completed_at": "2026-08-24T04:06:59.464872+08:00",
+      "duration_seconds": 2.617,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1209,
+      "output_tokens": 159,
+      "total_tokens": 1368,
+      "message_count": 2,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1209,
+        "output_tokens": 159,
+        "total_tokens": 1368,
+        "input_token_details": {
+          "cache_read": 768
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 10,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:02.602211+08:00",
+      "completed_at": "2026-08-24T04:07:07.792987+08:00",
+      "duration_seconds": 5.191,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3132,
+      "output_tokens": 413,
+      "total_tokens": 3545,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3132,
+        "output_tokens": 413,
+        "total_tokens": 3545,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 11,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:02.602278+08:00",
+      "completed_at": "2026-08-24T04:07:09.933272+08:00",
+      "duration_seconds": 7.331,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6811,
+      "output_tokens": 704,
+      "total_tokens": 7515,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 6811,
+        "output_tokens": 704,
+        "total_tokens": 7515,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 12,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:02.602309+08:00",
+      "completed_at": "2026-08-24T04:07:07.951411+08:00",
+      "duration_seconds": 5.349,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5741,
+      "output_tokens": 426,
+      "total_tokens": 6167,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5741,
+        "output_tokens": 426,
+        "total_tokens": 6167,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 13,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:02.602332+08:00",
+      "completed_at": "2026-08-24T04:07:08.268104+08:00",
+      "duration_seconds": 5.666,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7842,
+      "output_tokens": 493,
+      "total_tokens": 8335,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 7842,
+        "output_tokens": 493,
+        "total_tokens": 8335,
+        "input_token_details": {
+          "cache_read": 1536
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 14,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:02.602354+08:00",
+      "completed_at": "2026-08-24T04:07:11.791118+08:00",
+      "duration_seconds": 9.189,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 11880,
+      "output_tokens": 936,
+      "total_tokens": 12816,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 11880,
+        "output_tokens": 936,
+        "total_tokens": 12816,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 15,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:02.602375+08:00",
+      "completed_at": "2026-08-24T04:07:08.106083+08:00",
+      "duration_seconds": 5.504,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 13127,
+      "output_tokens": 502,
+      "total_tokens": 13629,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 13127,
+        "output_tokens": 502,
+        "total_tokens": 13629,
+        "input_token_details": {
+          "cache_read": 768
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 16,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:02.602395+08:00",
+      "completed_at": "2026-08-24T04:07:08.025137+08:00",
+      "duration_seconds": 5.423,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2919,
+      "output_tokens": 471,
+      "total_tokens": 3390,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2919,
+        "output_tokens": 471,
+        "total_tokens": 3390,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 17,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:02.602417+08:00",
+      "completed_at": "2026-08-24T04:07:08.468175+08:00",
+      "duration_seconds": 5.866,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4714,
+      "output_tokens": 506,
+      "total_tokens": 5220,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4714,
+        "output_tokens": 506,
+        "total_tokens": 5220,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 18,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:02.602437+08:00",
+      "completed_at": "2026-08-24T04:07:07.144755+08:00",
+      "duration_seconds": 4.542,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2619,
+      "output_tokens": 413,
+      "total_tokens": 3032,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2619,
+        "output_tokens": 413,
+        "total_tokens": 3032,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 19,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:02.602459+08:00",
+      "completed_at": "2026-08-24T04:07:07.451319+08:00",
+      "duration_seconds": 4.849,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5219,
+      "output_tokens": 401,
+      "total_tokens": 5620,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5219,
+        "output_tokens": 401,
+        "total_tokens": 5620,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 20,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:02.602480+08:00",
+      "completed_at": "2026-08-24T04:07:07.500810+08:00",
+      "duration_seconds": 4.898,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2350,
+      "output_tokens": 425,
+      "total_tokens": 2775,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2350,
+        "output_tokens": 425,
+        "total_tokens": 2775,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 21,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:02.602501+08:00",
+      "completed_at": "2026-08-24T04:07:07.086020+08:00",
+      "duration_seconds": 4.484,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6310,
+      "output_tokens": 408,
+      "total_tokens": 6718,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 6310,
+        "output_tokens": 408,
+        "total_tokens": 6718,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 22,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:02.602521+08:00",
+      "completed_at": "2026-08-24T04:07:06.973756+08:00",
+      "duration_seconds": 4.371,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4195,
+      "output_tokens": 337,
+      "total_tokens": 4532,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4195,
+        "output_tokens": 337,
+        "total_tokens": 4532,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 27,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:04.425226+08:00",
+      "completed_at": "2026-08-24T04:07:09.435650+08:00",
+      "duration_seconds": 5.01,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2531,
+      "output_tokens": 435,
+      "total_tokens": 2966,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2531,
+        "output_tokens": 435,
+        "total_tokens": 2966,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 28,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:04.425280+08:00",
+      "completed_at": "2026-08-24T04:07:11.378296+08:00",
+      "duration_seconds": 6.953,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 15524,
+      "output_tokens": 687,
+      "total_tokens": 16211,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 15524,
+        "output_tokens": 687,
+        "total_tokens": 16211,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 29,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:04.425306+08:00",
+      "completed_at": "2026-08-24T04:07:09.357004+08:00",
+      "duration_seconds": 4.932,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5134,
+      "output_tokens": 414,
+      "total_tokens": 5548,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5134,
+        "output_tokens": 414,
+        "total_tokens": 5548,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 30,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:04.425327+08:00",
+      "completed_at": "2026-08-24T04:07:10.234767+08:00",
+      "duration_seconds": 5.809,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4058,
+      "output_tokens": 508,
+      "total_tokens": 4566,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4058,
+        "output_tokens": 508,
+        "total_tokens": 4566,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 31,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:04.425350+08:00",
+      "completed_at": "2026-08-24T04:07:08.821163+08:00",
+      "duration_seconds": 4.396,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1880,
+      "output_tokens": 356,
+      "total_tokens": 2236,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1880,
+        "output_tokens": 356,
+        "total_tokens": 2236,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 32,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:04.425371+08:00",
+      "completed_at": "2026-08-24T04:07:10.551904+08:00",
+      "duration_seconds": 6.127,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 13095,
+      "output_tokens": 602,
+      "total_tokens": 13697,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 13095,
+        "output_tokens": 602,
+        "total_tokens": 13697,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 33,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:04.425392+08:00",
+      "completed_at": "2026-08-24T04:07:11.969235+08:00",
+      "duration_seconds": 7.544,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 17334,
+      "output_tokens": 714,
+      "total_tokens": 18048,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 17334,
+        "output_tokens": 714,
+        "total_tokens": 18048,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 34,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:04.425412+08:00",
+      "completed_at": "2026-08-24T04:07:13.282119+08:00",
+      "duration_seconds": 8.857,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 11343,
+      "output_tokens": 849,
+      "total_tokens": 12192,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 11343,
+        "output_tokens": 849,
+        "total_tokens": 12192,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 35,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:04.425431+08:00",
+      "completed_at": "2026-08-24T04:07:11.300388+08:00",
+      "duration_seconds": 6.875,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 14949,
+      "output_tokens": 639,
+      "total_tokens": 15588,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 14949,
+        "output_tokens": 639,
+        "total_tokens": 15588,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 36,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:04.425450+08:00",
+      "completed_at": "2026-08-24T04:07:10.832109+08:00",
+      "duration_seconds": 6.407,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4623,
+      "output_tokens": 594,
+      "total_tokens": 5217,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4623,
+        "output_tokens": 594,
+        "total_tokens": 5217,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 37,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:04.425475+08:00",
+      "completed_at": "2026-08-24T04:07:11.364912+08:00",
+      "duration_seconds": 6.939,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 13317,
+      "output_tokens": 668,
+      "total_tokens": 13985,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 13317,
+        "output_tokens": 668,
+        "total_tokens": 13985,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 38,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:04.425495+08:00",
+      "completed_at": "2026-08-24T04:07:11.078831+08:00",
+      "duration_seconds": 6.653,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5887,
+      "output_tokens": 638,
+      "total_tokens": 6525,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5887,
+        "output_tokens": 638,
+        "total_tokens": 6525,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 39,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:04.425515+08:00",
+      "completed_at": "2026-08-24T04:07:10.457239+08:00",
+      "duration_seconds": 6.032,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4703,
+      "output_tokens": 536,
+      "total_tokens": 5239,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4703,
+        "output_tokens": 536,
+        "total_tokens": 5239,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 40,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:04.425532+08:00",
+      "completed_at": "2026-08-24T04:07:09.513066+08:00",
+      "duration_seconds": 5.088,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3926,
+      "output_tokens": 417,
+      "total_tokens": 4343,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3926,
+        "output_tokens": 417,
+        "total_tokens": 4343,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 41,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:04.425553+08:00",
+      "completed_at": "2026-08-24T04:07:14.161843+08:00",
+      "duration_seconds": 9.736,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 12847,
+      "output_tokens": 992,
+      "total_tokens": 13839,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 12847,
+        "output_tokens": 992,
+        "total_tokens": 13839,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 42,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:04.425574+08:00",
+      "completed_at": "2026-08-24T04:07:23.190668+08:00",
+      "duration_seconds": 18.765,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5892,
+      "output_tokens": 975,
+      "total_tokens": 6867,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5892,
+        "output_tokens": 975,
+        "total_tokens": 6867,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 43,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:04.425591+08:00",
+      "completed_at": "2026-08-24T04:07:10.832315+08:00",
+      "duration_seconds": 6.407,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5011,
+      "output_tokens": 564,
+      "total_tokens": 5575,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5011,
+        "output_tokens": 564,
+        "total_tokens": 5575,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 44,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:04.425608+08:00",
+      "completed_at": "2026-08-24T04:07:11.258537+08:00",
+      "duration_seconds": 6.833,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4398,
+      "output_tokens": 657,
+      "total_tokens": 5055,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4398,
+        "output_tokens": 657,
+        "total_tokens": 5055,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 45,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:04.425627+08:00",
+      "completed_at": "2026-08-24T04:07:08.820880+08:00",
+      "duration_seconds": 4.395,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2523,
+      "output_tokens": 342,
+      "total_tokens": 2865,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2523,
+        "output_tokens": 342,
+        "total_tokens": 2865,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 46,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:04.425646+08:00",
+      "completed_at": "2026-08-24T04:07:11.278534+08:00",
+      "duration_seconds": 6.853,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 14478,
+      "output_tokens": 648,
+      "total_tokens": 15126,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 14478,
+        "output_tokens": 648,
+        "total_tokens": 15126,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 47,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:04.425853+08:00",
+      "completed_at": "2026-08-24T04:07:09.091273+08:00",
+      "duration_seconds": 4.665,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4830,
+      "output_tokens": 340,
+      "total_tokens": 5170,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4830,
+        "output_tokens": 340,
+        "total_tokens": 5170,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 48,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:04.425876+08:00",
+      "completed_at": "2026-08-24T04:07:09.293950+08:00",
+      "duration_seconds": 4.868,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2818,
+      "output_tokens": 389,
+      "total_tokens": 3207,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2818,
+        "output_tokens": 389,
+        "total_tokens": 3207,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 49,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:11.800478+08:00",
+      "completed_at": "2026-08-24T04:07:16.022659+08:00",
+      "duration_seconds": 4.222,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8792,
+      "output_tokens": 327,
+      "total_tokens": 9119,
+      "message_count": 4,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 8792,
+        "output_tokens": 327,
+        "total_tokens": 9119,
+        "input_token_details": {
+          "cache_read": 1024
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 53,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:19.332830+08:00",
+      "completed_at": "2026-08-24T04:07:24.365571+08:00",
+      "duration_seconds": 5.033,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7286,
+      "output_tokens": 411,
+      "total_tokens": 7697,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 7286,
+        "output_tokens": 411,
+        "total_tokens": 7697,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 54,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:19.332935+08:00",
+      "completed_at": "2026-08-24T04:07:29.705229+08:00",
+      "duration_seconds": 10.372,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 13606,
+      "output_tokens": 1128,
+      "total_tokens": 14734,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 13606,
+        "output_tokens": 1128,
+        "total_tokens": 14734,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 55,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:19.333012+08:00",
+      "completed_at": "2026-08-24T04:07:28.300858+08:00",
+      "duration_seconds": 8.968,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 13259,
+      "output_tokens": 834,
+      "total_tokens": 14093,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 13259,
+        "output_tokens": 834,
+        "total_tokens": 14093,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 56,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:19.333053+08:00",
+      "completed_at": "2026-08-24T04:07:26.807734+08:00",
+      "duration_seconds": 7.475,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 12909,
+      "output_tokens": 704,
+      "total_tokens": 13613,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 12909,
+        "output_tokens": 704,
+        "total_tokens": 13613,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 57,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:19.333086+08:00",
+      "completed_at": "2026-08-24T04:07:23.937883+08:00",
+      "duration_seconds": 4.605,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6570,
+      "output_tokens": 365,
+      "total_tokens": 6935,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 6570,
+        "output_tokens": 365,
+        "total_tokens": 6935,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 58,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:19.333118+08:00",
+      "completed_at": "2026-08-24T04:07:26.268352+08:00",
+      "duration_seconds": 6.935,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 12841,
+      "output_tokens": 668,
+      "total_tokens": 13509,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 12841,
+        "output_tokens": 668,
+        "total_tokens": 13509,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 59,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:19.333151+08:00",
+      "completed_at": "2026-08-24T04:07:24.730914+08:00",
+      "duration_seconds": 5.398,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8202,
+      "output_tokens": 446,
+      "total_tokens": 8648,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 8202,
+        "output_tokens": 446,
+        "total_tokens": 8648,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 60,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:19.333182+08:00",
+      "completed_at": "2026-08-24T04:07:27.941378+08:00",
+      "duration_seconds": 8.608,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 13283,
+      "output_tokens": 770,
+      "total_tokens": 14053,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 13283,
+        "output_tokens": 770,
+        "total_tokens": 14053,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 61,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:19.333215+08:00",
+      "completed_at": "2026-08-24T04:07:25.167252+08:00",
+      "duration_seconds": 5.834,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 13438,
+      "output_tokens": 526,
+      "total_tokens": 13964,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 13438,
+        "output_tokens": 526,
+        "total_tokens": 13964,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 62,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:19.333242+08:00",
+      "completed_at": "2026-08-24T04:07:24.158356+08:00",
+      "duration_seconds": 4.825,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2603,
+      "output_tokens": 366,
+      "total_tokens": 2969,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2603,
+        "output_tokens": 366,
+        "total_tokens": 2969,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 63,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:19.333271+08:00",
+      "completed_at": "2026-08-24T04:07:26.858809+08:00",
+      "duration_seconds": 7.526,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 9080,
+      "output_tokens": 724,
+      "total_tokens": 9804,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 9080,
+        "output_tokens": 724,
+        "total_tokens": 9804,
+        "input_token_details": {
+          "cache_read": 1536
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 64,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:19.333298+08:00",
+      "completed_at": "2026-08-24T04:07:25.051322+08:00",
+      "duration_seconds": 5.718,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4098,
+      "output_tokens": 499,
+      "total_tokens": 4597,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4098,
+        "output_tokens": 499,
+        "total_tokens": 4597,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 65,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:19.333326+08:00",
+      "completed_at": "2026-08-24T04:07:27.451887+08:00",
+      "duration_seconds": 8.119,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 14564,
+      "output_tokens": 746,
+      "total_tokens": 15310,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 14564,
+        "output_tokens": 746,
+        "total_tokens": 15310,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 66,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:23.199708+08:00",
+      "completed_at": "2026-08-24T04:07:28.301070+08:00",
+      "duration_seconds": 5.101,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 15322,
+      "output_tokens": 399,
+      "total_tokens": 15721,
+      "message_count": 4,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 15322,
+        "output_tokens": 399,
+        "total_tokens": 15721,
+        "input_token_details": {
+          "cache_read": 1280
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 67,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:28.312468+08:00",
+      "completed_at": "2026-08-24T04:07:31.126725+08:00",
+      "duration_seconds": 2.814,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 15559,
+      "output_tokens": 145,
+      "total_tokens": 15704,
+      "message_count": 6,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 15559,
+        "output_tokens": 145,
+        "total_tokens": 15704,
+        "input_token_details": {
+          "cache_read": 15104
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 68,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:29.713966+08:00",
+      "completed_at": "2026-08-24T04:07:35.175165+08:00",
+      "duration_seconds": 5.461,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 17954,
+      "output_tokens": 369,
+      "total_tokens": 18323,
+      "message_count": 7,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 17954,
+        "output_tokens": 369,
+        "total_tokens": 18323,
+        "input_token_details": {
+          "cache_read": 8704
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 75,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:34.019626+08:00",
+      "completed_at": "2026-08-24T04:07:40.194119+08:00",
+      "duration_seconds": 6.174,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 14102,
+      "output_tokens": 545,
+      "total_tokens": 14647,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 14102,
+        "output_tokens": 545,
+        "total_tokens": 14647,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 76,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:34.019715+08:00",
+      "completed_at": "2026-08-24T04:07:39.134132+08:00",
+      "duration_seconds": 5.114,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6818,
+      "output_tokens": 469,
+      "total_tokens": 7287,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 6818,
+        "output_tokens": 469,
+        "total_tokens": 7287,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 77,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:34.019780+08:00",
+      "completed_at": "2026-08-24T04:07:41.234270+08:00",
+      "duration_seconds": 7.214,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7390,
+      "output_tokens": 650,
+      "total_tokens": 8040,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 7390,
+        "output_tokens": 650,
+        "total_tokens": 8040,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 78,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:34.019815+08:00",
+      "completed_at": "2026-08-24T04:07:39.508948+08:00",
+      "duration_seconds": 5.489,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4111,
+      "output_tokens": 449,
+      "total_tokens": 4560,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4111,
+        "output_tokens": 449,
+        "total_tokens": 4560,
+        "input_token_details": {
+          "cache_read": 512
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 79,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:34.019845+08:00",
+      "completed_at": "2026-08-24T04:07:40.569745+08:00",
+      "duration_seconds": 6.55,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5840,
+      "output_tokens": 534,
+      "total_tokens": 6374,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5840,
+        "output_tokens": 534,
+        "total_tokens": 6374,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 80,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:34.019873+08:00",
+      "completed_at": "2026-08-24T04:07:38.157433+08:00",
+      "duration_seconds": 4.138,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5067,
+      "output_tokens": 348,
+      "total_tokens": 5415,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5067,
+        "output_tokens": 348,
+        "total_tokens": 5415,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 81,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:34.019902+08:00",
+      "completed_at": "2026-08-24T04:07:41.365146+08:00",
+      "duration_seconds": 7.345,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5144,
+      "output_tokens": 691,
+      "total_tokens": 5835,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5144,
+        "output_tokens": 691,
+        "total_tokens": 5835,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 82,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:34.019928+08:00",
+      "completed_at": "2026-08-24T04:07:38.628389+08:00",
+      "duration_seconds": 4.608,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2158,
+      "output_tokens": 437,
+      "total_tokens": 2595,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2158,
+        "output_tokens": 437,
+        "total_tokens": 2595,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 83,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:34.019953+08:00",
+      "completed_at": "2026-08-24T04:07:40.291810+08:00",
+      "duration_seconds": 6.272,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5360,
+      "output_tokens": 569,
+      "total_tokens": 5929,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5360,
+        "output_tokens": 569,
+        "total_tokens": 5929,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 84,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:34.019977+08:00",
+      "completed_at": "2026-08-24T04:07:42.189618+08:00",
+      "duration_seconds": 8.17,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7608,
+      "output_tokens": 755,
+      "total_tokens": 8363,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 7608,
+        "output_tokens": 755,
+        "total_tokens": 8363,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 85,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:34.019999+08:00",
+      "completed_at": "2026-08-24T04:07:39.651946+08:00",
+      "duration_seconds": 5.632,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3301,
+      "output_tokens": 412,
+      "total_tokens": 3713,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3301,
+        "output_tokens": 412,
+        "total_tokens": 3713,
+        "input_token_details": {
+          "cache_read": 512
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 86,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:34.020022+08:00",
+      "completed_at": "2026-08-24T04:07:40.305133+08:00",
+      "duration_seconds": 6.285,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4342,
+      "output_tokens": 533,
+      "total_tokens": 4875,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4342,
+        "output_tokens": 533,
+        "total_tokens": 4875,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 87,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:34.020048+08:00",
+      "completed_at": "2026-08-24T04:07:40.754373+08:00",
+      "duration_seconds": 6.734,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7174,
+      "output_tokens": 633,
+      "total_tokens": 7807,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 7174,
+        "output_tokens": 633,
+        "total_tokens": 7807,
+        "input_token_details": {
+          "cache_read": 2048
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 88,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:34.020070+08:00",
+      "completed_at": "2026-08-24T04:07:41.148673+08:00",
+      "duration_seconds": 7.129,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 12885,
+      "output_tokens": 666,
+      "total_tokens": 13551,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 12885,
+        "output_tokens": 666,
+        "total_tokens": 13551,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 89,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:34.020094+08:00",
+      "completed_at": "2026-08-24T04:07:39.948391+08:00",
+      "duration_seconds": 5.928,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3485,
+      "output_tokens": 538,
+      "total_tokens": 4023,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3485,
+        "output_tokens": 538,
+        "total_tokens": 4023,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 90,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:34.020116+08:00",
+      "completed_at": "2026-08-24T04:07:38.151295+08:00",
+      "duration_seconds": 4.131,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1766,
+      "output_tokens": 303,
+      "total_tokens": 2069,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1766,
+        "output_tokens": 303,
+        "total_tokens": 2069,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 95,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:38.661224+08:00",
+      "completed_at": "2026-08-24T04:07:47.364238+08:00",
+      "duration_seconds": 8.703,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 14744,
+      "output_tokens": 847,
+      "total_tokens": 15591,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 14744,
+        "output_tokens": 847,
+        "total_tokens": 15591,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 96,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:38.661312+08:00",
+      "completed_at": "2026-08-24T04:07:43.336749+08:00",
+      "duration_seconds": 4.675,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2414,
+      "output_tokens": 410,
+      "total_tokens": 2824,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2414,
+        "output_tokens": 410,
+        "total_tokens": 2824,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 97,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:38.661457+08:00",
+      "completed_at": "2026-08-24T04:07:44.421635+08:00",
+      "duration_seconds": 5.76,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5475,
+      "output_tokens": 442,
+      "total_tokens": 5917,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5475,
+        "output_tokens": 442,
+        "total_tokens": 5917,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 98,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:38.661491+08:00",
+      "completed_at": "2026-08-24T04:07:46.510749+08:00",
+      "duration_seconds": 7.849,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6248,
+      "output_tokens": 773,
+      "total_tokens": 7021,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 6248,
+        "output_tokens": 773,
+        "total_tokens": 7021,
+        "input_token_details": {
+          "cache_read": 1280
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 99,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:38.661520+08:00",
+      "completed_at": "2026-08-24T04:07:45.307809+08:00",
+      "duration_seconds": 6.646,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 12677,
+      "output_tokens": 614,
+      "total_tokens": 13291,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 12677,
+        "output_tokens": 614,
+        "total_tokens": 13291,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 100,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:38.661545+08:00",
+      "completed_at": "2026-08-24T04:07:46.153010+08:00",
+      "duration_seconds": 7.491,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 11750,
+      "output_tokens": 716,
+      "total_tokens": 12466,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 11750,
+        "output_tokens": 716,
+        "total_tokens": 12466,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 101,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:38.661569+08:00",
+      "completed_at": "2026-08-24T04:07:44.051368+08:00",
+      "duration_seconds": 5.39,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4244,
+      "output_tokens": 454,
+      "total_tokens": 4698,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4244,
+        "output_tokens": 454,
+        "total_tokens": 4698,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 102,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:38.661593+08:00",
+      "completed_at": "2026-08-24T04:07:45.394031+08:00",
+      "duration_seconds": 6.732,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5110,
+      "output_tokens": 641,
+      "total_tokens": 5751,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5110,
+        "output_tokens": 641,
+        "total_tokens": 5751,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 103,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:38.661617+08:00",
+      "completed_at": "2026-08-24T04:07:48.496486+08:00",
+      "duration_seconds": 9.835,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 13829,
+      "output_tokens": 993,
+      "total_tokens": 14822,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 13829,
+        "output_tokens": 993,
+        "total_tokens": 14822,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 104,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:38.661639+08:00",
+      "completed_at": "2026-08-24T04:07:43.953188+08:00",
+      "duration_seconds": 5.292,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4723,
+      "output_tokens": 444,
+      "total_tokens": 5167,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4723,
+        "output_tokens": 444,
+        "total_tokens": 5167,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 105,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:38.661661+08:00",
+      "completed_at": "2026-08-24T04:07:46.611215+08:00",
+      "duration_seconds": 7.95,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 11376,
+      "output_tokens": 714,
+      "total_tokens": 12090,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 11376,
+        "output_tokens": 714,
+        "total_tokens": 12090,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 106,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:38.661684+08:00",
+      "completed_at": "2026-08-24T04:07:46.334290+08:00",
+      "duration_seconds": 7.673,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6216,
+      "output_tokens": 690,
+      "total_tokens": 6906,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 6216,
+        "output_tokens": 690,
+        "total_tokens": 6906,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 107,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:38.661706+08:00",
+      "completed_at": "2026-08-24T04:07:44.155960+08:00",
+      "duration_seconds": 5.494,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5900,
+      "output_tokens": 494,
+      "total_tokens": 6394,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 5900,
+        "output_tokens": 494,
+        "total_tokens": 6394,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 108,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:38.661730+08:00",
+      "completed_at": "2026-08-24T04:07:45.172541+08:00",
+      "duration_seconds": 6.511,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6237,
+      "output_tokens": 647,
+      "total_tokens": 6884,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 6237,
+        "output_tokens": 647,
+        "total_tokens": 6884,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 109,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:38.661753+08:00",
+      "completed_at": "2026-08-24T04:07:44.141582+08:00",
+      "duration_seconds": 5.48,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3568,
+      "output_tokens": 448,
+      "total_tokens": 4016,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3568,
+        "output_tokens": 448,
+        "total_tokens": 4016,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 110,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:42.198610+08:00",
+      "completed_at": "2026-08-24T04:07:48.674267+08:00",
+      "duration_seconds": 6.476,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 25805,
+      "output_tokens": 502,
+      "total_tokens": 26307,
+      "message_count": 8,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 25805,
+        "output_tokens": 502,
+        "total_tokens": 26307,
+        "input_token_details": {
+          "cache_read": 15360
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 111,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:48.500509+08:00",
+      "completed_at": "2026-08-24T04:07:52.409855+08:00",
+      "duration_seconds": 3.909,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 28663,
+      "output_tokens": 245,
+      "total_tokens": 28908,
+      "message_count": 10,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 28663,
+        "output_tokens": 245,
+        "total_tokens": 28908,
+        "input_token_details": {
+          "cache_read": 17920
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 112,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:48.685766+08:00",
+      "completed_at": "2026-08-24T04:07:52.930871+08:00",
+      "duration_seconds": 4.245,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 26056,
+      "output_tokens": 231,
+      "total_tokens": 26287,
+      "message_count": 10,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 26056,
+        "output_tokens": 231,
+        "total_tokens": 26287,
+        "input_token_details": {
+          "cache_read": 25600
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 116,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:55.109529+08:00",
+      "completed_at": "2026-08-24T04:08:00.448479+08:00",
+      "duration_seconds": 5.339,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3825,
+      "output_tokens": 516,
+      "total_tokens": 4341,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3825,
+        "output_tokens": 516,
+        "total_tokens": 4341,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 117,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:55.109607+08:00",
+      "completed_at": "2026-08-24T04:08:03.978129+08:00",
+      "duration_seconds": 8.869,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 11729,
+      "output_tokens": 921,
+      "total_tokens": 12650,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 11729,
+        "output_tokens": 921,
+        "total_tokens": 12650,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 118,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:55.109643+08:00",
+      "completed_at": "2026-08-24T04:08:01.625402+08:00",
+      "duration_seconds": 6.516,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 12157,
+      "output_tokens": 618,
+      "total_tokens": 12775,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 12157,
+        "output_tokens": 618,
+        "total_tokens": 12775,
+        "input_token_details": {
+          "cache_read": 1536
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 119,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:55.109673+08:00",
+      "completed_at": "2026-08-24T04:08:01.650371+08:00",
+      "duration_seconds": 6.541,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 12864,
+      "output_tokens": 599,
+      "total_tokens": 13463,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 12864,
+        "output_tokens": 599,
+        "total_tokens": 13463,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 120,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:55.109705+08:00",
+      "completed_at": "2026-08-24T04:08:01.367010+08:00",
+      "duration_seconds": 6.257,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7123,
+      "output_tokens": 544,
+      "total_tokens": 7667,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 7123,
+        "output_tokens": 544,
+        "total_tokens": 7667,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 121,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:55.109728+08:00",
+      "completed_at": "2026-08-24T04:07:59.322553+08:00",
+      "duration_seconds": 4.213,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2404,
+      "output_tokens": 347,
+      "total_tokens": 2751,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2404,
+        "output_tokens": 347,
+        "total_tokens": 2751,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 122,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:55.109752+08:00",
+      "completed_at": "2026-08-24T04:08:01.427366+08:00",
+      "duration_seconds": 6.318,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3810,
+      "output_tokens": 544,
+      "total_tokens": 4354,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3810,
+        "output_tokens": 544,
+        "total_tokens": 4354,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 123,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:55.109777+08:00",
+      "completed_at": "2026-08-24T04:07:59.607509+08:00",
+      "duration_seconds": 4.498,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2686,
+      "output_tokens": 360,
+      "total_tokens": 3046,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2686,
+        "output_tokens": 360,
+        "total_tokens": 3046,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 124,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:55.109803+08:00",
+      "completed_at": "2026-08-24T04:07:59.741100+08:00",
+      "duration_seconds": 4.631,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2142,
+      "output_tokens": 368,
+      "total_tokens": 2510,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2142,
+        "output_tokens": 368,
+        "total_tokens": 2510,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 125,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:55.109826+08:00",
+      "completed_at": "2026-08-24T04:08:03.251913+08:00",
+      "duration_seconds": 8.142,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 12611,
+      "output_tokens": 748,
+      "total_tokens": 13359,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 12611,
+        "output_tokens": 748,
+        "total_tokens": 13359,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 126,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:55.109851+08:00",
+      "completed_at": "2026-08-24T04:08:00.064412+08:00",
+      "duration_seconds": 4.955,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3346,
+      "output_tokens": 403,
+      "total_tokens": 3749,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3346,
+        "output_tokens": 403,
+        "total_tokens": 3749,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 127,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:55.109875+08:00",
+      "completed_at": "2026-08-24T04:08:00.258422+08:00",
+      "duration_seconds": 5.149,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3236,
+      "output_tokens": 439,
+      "total_tokens": 3675,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3236,
+        "output_tokens": 439,
+        "total_tokens": 3675,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 128,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:55.109899+08:00",
+      "completed_at": "2026-08-24T04:08:01.978164+08:00",
+      "duration_seconds": 6.868,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 14283,
+      "output_tokens": 753,
+      "total_tokens": 15036,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 14283,
+        "output_tokens": 753,
+        "total_tokens": 15036,
+        "input_token_details": {
+          "cache_read": 1536
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 134,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:56.289472+08:00",
+      "completed_at": "2026-08-24T04:08:02.271972+08:00",
+      "duration_seconds": 5.983,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 13801,
+      "output_tokens": 536,
+      "total_tokens": 14337,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 13801,
+        "output_tokens": 536,
+        "total_tokens": 14337,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 135,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:56.289536+08:00",
+      "completed_at": "2026-08-24T04:08:05.095183+08:00",
+      "duration_seconds": 8.806,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 10156,
+      "output_tokens": 842,
+      "total_tokens": 10998,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 10156,
+        "output_tokens": 842,
+        "total_tokens": 10998,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 136,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:56.289570+08:00",
+      "completed_at": "2026-08-24T04:08:01.761789+08:00",
+      "duration_seconds": 5.472,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3862,
+      "output_tokens": 476,
+      "total_tokens": 4338,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3862,
+        "output_tokens": 476,
+        "total_tokens": 4338,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 137,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:56.289596+08:00",
+      "completed_at": "2026-08-24T04:08:00.744020+08:00",
+      "duration_seconds": 4.454,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2144,
+      "output_tokens": 369,
+      "total_tokens": 2513,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2144,
+        "output_tokens": 369,
+        "total_tokens": 2513,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 138,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:56.289623+08:00",
+      "completed_at": "2026-08-24T04:08:00.112445+08:00",
+      "duration_seconds": 3.823,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2187,
+      "output_tokens": 321,
+      "total_tokens": 2508,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2187,
+        "output_tokens": 321,
+        "total_tokens": 2508,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 139,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:56.289648+08:00",
+      "completed_at": "2026-08-24T04:08:06.807202+08:00",
+      "duration_seconds": 10.518,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7013,
+      "output_tokens": 1107,
+      "total_tokens": 8120,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 7013,
+        "output_tokens": 1107,
+        "total_tokens": 8120,
+        "input_token_details": {
+          "cache_read": 512
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 140,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:56.289673+08:00",
+      "completed_at": "2026-08-24T04:08:01.549072+08:00",
+      "duration_seconds": 5.259,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 19098,
+      "output_tokens": 470,
+      "total_tokens": 19568,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 19098,
+        "output_tokens": 470,
+        "total_tokens": 19568,
+        "input_token_details": {
+          "cache_read": 512
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 141,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:56.289957+08:00",
+      "completed_at": "2026-08-24T04:08:00.948636+08:00",
+      "duration_seconds": 4.659,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3219,
+      "output_tokens": 415,
+      "total_tokens": 3634,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3219,
+        "output_tokens": 415,
+        "total_tokens": 3634,
+        "input_token_details": {
+          "cache_read": 768
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 142,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:56.290013+08:00",
+      "completed_at": "2026-08-24T04:08:03.728873+08:00",
+      "duration_seconds": 7.439,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 14489,
+      "output_tokens": 717,
+      "total_tokens": 15206,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 14489,
+        "output_tokens": 717,
+        "total_tokens": 15206,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 143,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:56.290046+08:00",
+      "completed_at": "2026-08-24T04:08:04.766638+08:00",
+      "duration_seconds": 8.477,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 13694,
+      "output_tokens": 829,
+      "total_tokens": 14523,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 13694,
+        "output_tokens": 829,
+        "total_tokens": 14523,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 144,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:56.290074+08:00",
+      "completed_at": "2026-08-24T04:08:05.847560+08:00",
+      "duration_seconds": 9.557,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 10978,
+      "output_tokens": 960,
+      "total_tokens": 11938,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 10978,
+        "output_tokens": 960,
+        "total_tokens": 11938,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 145,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:56.290100+08:00",
+      "completed_at": "2026-08-24T04:08:02.403910+08:00",
+      "duration_seconds": 6.114,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2639,
+      "output_tokens": 478,
+      "total_tokens": 3117,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2639,
+        "output_tokens": 478,
+        "total_tokens": 3117,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 146,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:56.290127+08:00",
+      "completed_at": "2026-08-24T04:08:01.845592+08:00",
+      "duration_seconds": 5.555,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2671,
+      "output_tokens": 502,
+      "total_tokens": 3173,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2671,
+        "output_tokens": 502,
+        "total_tokens": 3173,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 147,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:56.290151+08:00",
+      "completed_at": "2026-08-24T04:08:02.990323+08:00",
+      "duration_seconds": 6.7,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4624,
+      "output_tokens": 651,
+      "total_tokens": 5275,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4624,
+        "output_tokens": 651,
+        "total_tokens": 5275,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 148,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:56.290177+08:00",
+      "completed_at": "2026-08-24T04:08:01.003965+08:00",
+      "duration_seconds": 4.714,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2306,
+      "output_tokens": 368,
+      "total_tokens": 2674,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2306,
+        "output_tokens": 368,
+        "total_tokens": 2674,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 149,
+      "status": "completed",
+      "started_at": "2026-08-24T04:07:56.290203+08:00",
+      "completed_at": "2026-08-24T04:08:00.326825+08:00",
+      "duration_seconds": 4.037,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7055,
+      "output_tokens": 309,
+      "total_tokens": 7364,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 7055,
+        "output_tokens": 309,
+        "total_tokens": 7364,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 150,
+      "status": "completed",
+      "started_at": "2026-08-24T04:08:03.987168+08:00",
+      "completed_at": "2026-08-24T04:08:10.848602+08:00",
+      "duration_seconds": 6.861,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 36689,
+      "output_tokens": 650,
+      "total_tokens": 37339,
+      "message_count": 13,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 36689,
+        "output_tokens": 650,
+        "total_tokens": 37339,
+        "input_token_details": {
+          "cache_read": 28416
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 151,
+      "status": "completed",
+      "started_at": "2026-08-24T04:08:06.811438+08:00",
+      "completed_at": "2026-08-24T04:09:40.336683+08:00",
+      "duration_seconds": 93.525,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 36570,
+      "output_tokens": 13001,
+      "total_tokens": 49571,
+      "message_count": 13,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 36570,
+        "output_tokens": 13001,
+        "total_tokens": 49571,
+        "input_token_details": {
+          "cache_read": 512
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "end_turn"
+    },
+    {
+      "sequence": 152,
+      "status": "completed",
+      "started_at": "2026-08-24T04:08:10.855040+08:00",
+      "completed_at": "2026-08-24T04:09:46.210247+08:00",
+      "duration_seconds": 95.355,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 36585,
+      "output_tokens": 13630,
+      "total_tokens": 50215,
+      "message_count": 16,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 36585,
+        "output_tokens": 13630,
+        "total_tokens": 50215,
+        "input_token_details": {
+          "cache_read": 512
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "end_turn"
+    },
+    {
+      "sequence": 153,
+      "status": "completed",
+      "started_at": "2026-08-24T04:09:46.219207+08:00",
+      "completed_at": "2026-08-24T04:09:55.480899+08:00",
+      "duration_seconds": 9.262,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 29161,
+      "output_tokens": 848,
+      "total_tokens": 30009,
+      "message_count": 7,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 29161,
+        "output_tokens": 848,
+        "total_tokens": 30009,
+        "input_token_details": {
+          "cache_read": 1792
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 154,
+      "status": "completed",
+      "started_at": "2026-08-24T04:09:55.490886+08:00",
+      "completed_at": "2026-08-24T04:09:57.844056+08:00",
+      "duration_seconds": 2.353,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 29928,
+      "output_tokens": 56,
+      "total_tokens": 29984,
+      "message_count": 9,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 29928,
+        "output_tokens": 56,
+        "total_tokens": 29984,
+        "input_token_details": {
+          "cache_read": 28928
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 155,
+      "status": "completed",
+      "started_at": "2026-08-24T04:09:57.851725+08:00",
+      "completed_at": "2026-08-24T04:10:52.065450+08:00",
+      "duration_seconds": 54.214,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 28274,
+      "output_tokens": 6099,
+      "total_tokens": 34373,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 28274,
+        "output_tokens": 6099,
+        "total_tokens": 34373,
+        "input_token_details": {},
+        "output_token_details": {}
+      },
+      "finish_reason": "end_turn"
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "status": "completed",
+      "query": "hand grip weakness little finger tennis player sports medicine",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.307,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Tennis Wrist Pain Treatment - Georgia Hand, Shoulder & Elbow",
+          "url": "https://www.gahand.org/services/hand-wrist-sports-injuries/tennis-wrist-pain",
+          "score": 0.48323447,
+          "raw_content_available": true,
+          "raw_content_length": 12794,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Common Tennis Injuries | Orion Orthopaedic Surgery",
+          "url": "https://www.orionortho.sg/common-tennis-injuries",
+          "score": 0.35702986,
+          "raw_content_available": true,
+          "raw_content_length": 25171,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Prevent Ulnar Wrist Pain from Tennis",
+          "url": "https://se-ortho.com/prevent-ulnar-wrist-pain-tennis",
+          "score": 0.30185622,
+          "raw_content_available": true,
+          "raw_content_length": 5035,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "10 causes of weakness in hands and what to do",
+          "url": "https://www.medicalnewstoday.com/articles/hand-weakness",
+          "score": 0.28442243,
+          "raw_content_available": true,
+          "raw_content_length": 20650,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Ulnar Wrist Pain in Tennis – Tips to Help Prevent Injury - Orthopedic Specialists of Seattle",
+          "url": "https://orthopedicspecialistsofseattle.com/healthcare/guidelines/ulnar",
+          "score": 0.26309782,
+          "raw_content_available": true,
+          "raw_content_length": 12324,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 6,
+      "timestamp": "2026-08-24T04:07:01.798613+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "bilateral pinky finger stiffness grip weakness tennis player treatment 2020-2026",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.685,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Ulnar Neuropathy in Tennis Players: Ring Finger Numbness, Clawing & Weak Grip Explained - ALL WELL Scoliosis Centre",
+          "url": "https://www.allwellscoliosis.com/articles/ulnar-neuropathy-in-tennis-players-ring-finger-numbness-clawing-and-weak-grip-explained",
+          "score": 0.44261298,
+          "raw_content_available": true,
+          "raw_content_length": 9551,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Common Tennis Injuries - ORION Orthopaedic Surgery",
+          "url": "https://www.orionortho.sg/common-tennis-injuries",
+          "score": 0.37572992,
+          "raw_content_available": true,
+          "raw_content_length": 25171,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "5 Powerful Exercises to Fix Hand Pain & Weak Grip",
+          "url": "https://www.youtube.com/watch?v=KEBajOTDfLM",
+          "score": 0.358174,
+          "raw_content_available": true,
+          "raw_content_length": 17206,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Stiff fingers: Causes, treatment, stretches",
+          "url": "https://www.healthline.com/health/psoriatic-arthritis/prevent-stiffness",
+          "score": 0.3300505,
+          "raw_content_available": true,
+          "raw_content_length": 24788,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Upper Extremity Injuries in Tennis Players: Diagnosis, Treatment, and Management",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5125509",
+          "score": 0.28712824,
+          "raw_content_available": true,
+          "raw_content_length": 115318,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 7,
+      "timestamp": "2026-08-24T04:07:02.156012+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "hypothenar hammer syndrome tennis players diagnosis 2020 2025",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.371,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Hypothenar Hammer Syndrome | Radsource",
+          "url": "https://radsource.us/hypothenar-hammer-syndrome",
+          "score": 0.5749443,
+          "raw_content_available": true,
+          "raw_content_length": 20319,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Hypothenar hammer syndrome caused by playing tennis",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/8616661",
+          "score": 0.52203226,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "Hypothenar Hammer Syndrome Due to Penetrating Trauma: Case Report & Brief Review",
+          "url": "https://www.gavinpublishers.com/article/view/hypothenar-hammer-syndrome-due-to-penetrating-trauma-case-report-brief-review",
+          "score": 0.49377534,
+          "raw_content_available": true,
+          "raw_content_length": 16475,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Hypothenar hammer syndrome | Radiology Reference Article",
+          "url": "https://radiopaedia.org/articles/hypothenar-hammer-syndrome?lang=us",
+          "score": 0.3634441,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "Hypothenar hammer syndrome caused by playing tennis.",
+          "url": "https://www.semanticscholar.org/paper/51840d5fb087a44f89d7329c29fdf41fe968a432",
+          "score": 0.35113358,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        }
+      ],
+      "sequence": 8,
+      "timestamp": "2026-08-24T04:07:02.207374+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "ulnar nerve entrapment tennis players Guyon's canal treatment systematic review",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 3.103,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Diagnosis and Treatment of Posterior Interosseous Nerve Entrapment: Systematic Review",
+          "url": "https://www.academia.edu/124553071/Diagnosis_and_Treatment_of_Posterior_Interosseous_Nerve_Entrapment_Systematic_Review",
+          "score": 0.77364457,
+          "raw_content_available": true,
+          "raw_content_length": 50288,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "ULNAR ENTRAPMENT GUYON'S | Hand Surgery Resource",
+          "url": "https://www.handsurgeryresource.net/ulnar-entrapment-guyons",
+          "score": 0.6496014,
+          "raw_content_available": true,
+          "raw_content_length": 7405,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "[PDF] Ulnar nerve entrapment in Guyon's canal due to recurrent carpal tunnel syndrome: case report. | Semantic Scholar",
+          "url": "https://www.semanticscholar.org/paper/Ulnar-nerve-entrapment-in-Guyon%27s-canal-due-to-case-Ozdemir-Cali%C5%9Faneller/c8fd19612be71c57da622ce3e5736ea085430622",
+          "score": 0.63316137,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "Ulnar Nerve Entrapment",
+          "url": "https://www.motionspecificrelease.com/post/resolving-ulnar-nerve-entrapment",
+          "score": 0.60049355,
+          "raw_content_available": true,
+          "raw_content_length": 16367,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Ulnar-Nerve-Entrapment-at-the-Wrist-Guyon's-Canal ...",
+          "url": "https://www.drgordongroh.com/wp-content/uploads/2018/07/Ulnar-Nerve-Entrapment-at-the-Wrist-Guyon%E2%80%99s-Canal-Syndrome-Dr-Gordon-Groh-Orthopaedic-Surgeon-Asheville-NC.pdf",
+          "score": 0.59401023,
+          "raw_content_available": true,
+          "raw_content_length": 7426,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 9,
+      "timestamp": "2026-08-24T04:07:02.587034+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Dupuytren contracture young adults epidemiology 2020 2025",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.903,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Epidemiology and Treatment Trends in the Management of ...",
+          "url": "https://www.cureus.com/articles/306817-epidemiology-and-treatment-trends-in-the-management-of-dupuytrens-disease-from-2016-to-2022.pdf",
+          "score": 0.6972179,
+          "raw_content_available": true,
+          "raw_content_length": 36680,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Dupuytren Contractures: An Update of Recent Literature",
+          "url": "https://www.jhandsurg.org/article/S0363-5023(21)00427-5/fulltext",
+          "score": 0.5112048,
+          "raw_content_available": true,
+          "raw_content_length": 187504,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Dupuytren's Disease Market Report, Market trends",
+          "url": "https://www.delveinsight.com/report-store/dupuytrens-disease-market",
+          "score": 0.4813325,
+          "raw_content_available": true,
+          "raw_content_length": 39720,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "The incidence and prevalence of Dupuytren’s disease in primary care: results from a text mining approach on registration data",
+          "url": "https://www.tandfonline.com/doi/full/10.1080/02813432.2024.2416678",
+          "score": 0.47636098,
+          "raw_content_available": true,
+          "raw_content_length": 110913,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Dupuytren contracture",
+          "url": "https://dermnetnz.org/topics/dupuytren-contracture",
+          "score": 0.46249792,
+          "raw_content_available": true,
+          "raw_content_length": 12914,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 23,
+      "timestamp": "2026-08-24T04:07:02.726292+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "flexor tendon injuries pinky finger tennis overuse tenosynovitis 2020 2025",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.94,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Nonoperative Treatment of Finger Flexor Tenosynovitis in Sport Climbers—A Retrospective Descriptive Study Based on a Clinical 10-Year Database",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9220062",
+          "score": 0.5425973,
+          "raw_content_available": true,
+          "raw_content_length": 72226,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Tenosynovitis: Symptoms, Causes, Types & Treatment",
+          "url": "https://my.clevelandclinic.org/health/diseases/23448-tenosynovitis",
+          "score": 0.42620277,
+          "raw_content_available": true,
+          "raw_content_length": 18245,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Flexor Tendon Injuries - OrthoInfo - AAOS",
+          "url": "https://www.orthoinfo.org/diseases--conditions/flexor-tendon-injuries",
+          "score": 0.3984538,
+          "raw_content_available": true,
+          "raw_content_length": 15576,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Flexor Tendonitis | Florida Orthopaedic Institute",
+          "url": "https://www.floridaortho.com/specialties/hand-wrist/flexor-tendonitis",
+          "score": 0.38020703,
+          "raw_content_available": true,
+          "raw_content_length": 12080,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Tenosynovitis: Practice Essentials, Pathophysiology, Etiology",
+          "url": "https://emedicine.medscape.com/article/2189339-overview",
+          "score": 0.35407615,
+          "raw_content_available": true,
+          "raw_content_length": 46692,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 24,
+      "timestamp": "2026-08-24T04:07:02.770610+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "ulnar nerve entrapment tennis players Guyon's canal pinky finger symptoms 2020 2025",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 3.209,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Ulnar Nerve Entrapment – Elbow, Wrist, Finger Neuropathy",
+          "url": "https://www.hss.edu/health-library/conditions-and-treatments/list/ulnar-nerve-entrapment",
+          "score": 0.5634506,
+          "raw_content_available": true,
+          "raw_content_length": 5407,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Long-Term Patient-Reported Outcomes After Release of the Ulnar Nerve in Guyon’s Canal",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11955979",
+          "score": 0.55767727,
+          "raw_content_available": true,
+          "raw_content_length": 88294,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Physical therapy in Middleton for Hand - Guyon's Canal Syndrome",
+          "url": "https://www.sportsrehabu.com/Injuries-Conditions/Hand/Hand-Issues/Guyon-s-Canal-Syndrome/a~286/article.html",
+          "score": 0.529045,
+          "raw_content_available": true,
+          "raw_content_length": 16670,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Guyon’s Canal Syndrome | Wrist Conditions | IHTSC",
+          "url": "https://www.indianahandtoshoulder.com/blog/guyons-canal-syndrome",
+          "score": 0.5192538,
+          "raw_content_available": true,
+          "raw_content_length": 12702,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "GUYON'S CANAL SYNDROME AFTER CUBITAL TUNNEL RELEASE: A CASE REPORT",
+          "url": "https://unthsc-ir.tdl.org/items/1f64ab97-7ad0-4d90-a56f-a88d4ac9734d",
+          "score": 0.4558047,
+          "raw_content_available": true,
+          "raw_content_length": 2948,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 25,
+      "timestamp": "2026-08-24T04:07:03.024139+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "trigger finger little finger sports medicine overuse 2020 2025",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 4.563,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Trigger Finger Release | Common Myths About Trigger Finger – Debunked!",
+          "url": "https://bostontriggerfinger.com/blog/common-myths-about-trigger-finger-debunked",
+          "score": 0.4338141,
+          "raw_content_available": true,
+          "raw_content_length": 13291,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Trigger Finger Treatment Options",
+          "url": "https://www.toportho.com/blog/trigger-finger-treatment-options",
+          "score": 0.33359057,
+          "raw_content_available": true,
+          "raw_content_length": 6832,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Physical therapies for the conservative treatment of the trigger ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7459363",
+          "score": 0.29401273,
+          "raw_content_available": true,
+          "raw_content_length": 48669,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Managing Trigger Finger: Treatment Without Surgery - Watauga Orthopaedics",
+          "url": "https://www.wataugaortho.com/2025/03/07/managing-trigger-finger-treatment-without-surgery",
+          "score": 0.27337962,
+          "raw_content_available": true,
+          "raw_content_length": 13145,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Can Trigger Finger Be Treated with Conservative Methods?",
+          "url": "https://www.woodlandssportsmedicine.com/blog/can-trigger-finger-be-treated-with-conservative-methods",
+          "score": 0.2337505,
+          "raw_content_available": true,
+          "raw_content_length": 7294,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 26,
+      "timestamp": "2026-08-24T04:07:04.405369+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "tennis players hand injury prevention stretching strengthening protocol evidence-based",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.507,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Systematic development of a tennis injury prevention programme - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5926669",
+          "score": 0.6929958,
+          "raw_content_available": true,
+          "raw_content_length": 33182,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Tennis Injury Prevention & Recovery | Twin Boro Physical Therapy - New Jersey",
+          "url": "https://twinboro.com/tennis-injury-prevention-recovery-nj.html",
+          "score": 0.6246834,
+          "raw_content_available": true,
+          "raw_content_length": 12845,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "A systematic review of the best-practice return to play programs in tennis players",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11922287",
+          "score": 0.58123237,
+          "raw_content_available": true,
+          "raw_content_length": 79253,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Injury Prevention in Tennis: The Dynamic Exercise",
+          "url": "https://setptusa.com/blog/sports/tennis-injury-prevention-warm-ups",
+          "score": 0.3393463,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "Best Wrist and Forearm Exercises to Enhance Your Tennis ...",
+          "url": "https://www.virtue-healthcare.co.uk/post/strengthening-your-game-the-ultimate-guide-to-wrist-training-for-tennis-players",
+          "score": 0.25429174,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        }
+      ],
+      "sequence": 50,
+      "timestamp": "2026-08-24T04:07:18.553523+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "ulnar nerve entrapment conservative treatment RCT splinting physical therapy outcomes",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.801,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Conservative therapy in ulnar neuropathy at the elbow (Review) - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9257949",
+          "score": 0.7938904,
+          "raw_content_available": true,
+          "raw_content_length": 48046,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "[PDF] Outcomes of Rigid Night Splinting and Activity Modification in the ...",
+          "url": "https://hely-weber.com/img/product/description/Product%20Studies/Outcomes%20of%20Rigid%20Night%20Splinting%20and%20Activity%20Modification%20in%20the%20Treatment.pdf",
+          "score": 0.7295395,
+          "raw_content_available": true,
+          "raw_content_length": 29472,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Ulnar Neuropathy Treatment & Management: Approach Considerations, Nonsurgical Therapy, Options for Surgical Intervention",
+          "url": "https://emedicine.medscape.com/article/1141515-treatment",
+          "score": 0.6882385,
+          "raw_content_available": true,
+          "raw_content_length": 89528,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Conservative treatment of cubital tunnel syndrome: A systematic review",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6589621",
+          "score": 0.60917604,
+          "raw_content_available": true,
+          "raw_content_length": 42570,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "The Role of Physical Therapy in Healing Elbow Conditions, Part 4: Ulnar Nerve Entrapment — When Elbow Pain Is More Than Just a T",
+          "url": "https://www.lifestyleptny.com/blog/2026/may/the-role-of-physical-therapy-in-healing-elbow-co2",
+          "score": 0.588062,
+          "raw_content_available": true,
+          "raw_content_length": 6869,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 51,
+      "timestamp": "2026-08-24T04:07:18.840343+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "cubital tunnel syndrome treatment systematic review meta-analysis 2020 2021 2022 2023 2024 2025 2026",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 3.288,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Cubital Tunnel Syndrome: Therapy Treatment",
+          "url": "https://otpotential.com/treatment/cubital-tunnel-syndrome-therapy",
+          "score": 0.82492816,
+          "raw_content_available": true,
+          "raw_content_length": 22726,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Cubital tunnel syndrome: ulnar neuropathy at the elbow",
+          "url": "https://physio-learning.com/en/ressources/le-syndrome-du-tunnel-cubital-compression-ulnaire-au-coude",
+          "score": 0.81595254,
+          "raw_content_available": true,
+          "raw_content_length": 63712,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Modern Treatment of Cubital Tunnel Syndrome: Evidence and Controversy",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10382899",
+          "score": 0.7997713,
+          "raw_content_available": true,
+          "raw_content_length": 153316,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "A Comprehensive Review of Cubital Tunnel Syndrome | Published in Orthopedic Reviews",
+          "url": "https://orthopedicreviews.openmedicalpublishing.org/article/38239-a-comprehensive-review-of-cubital-tunnel-syndrome",
+          "score": 0.79484755,
+          "raw_content_available": true,
+          "raw_content_length": 82974,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Perineural Steroid Injections in Cubital Tunnel Syndrome: A Systematic Review and Meta-Analysis | Cureus",
+          "url": "https://www.cureus.com/articles/460722-perineural-steroid-injections-in-cubital-tunnel-syndrome-a-systematic-review-and-meta-analysis",
+          "score": 0.50227106,
+          "raw_content_available": true,
+          "raw_content_length": 20129,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 52,
+      "timestamp": "2026-08-24T04:07:19.317095+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "bilateral pinky finger stiffness cannot bend diagnosis sports medicine",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.361,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Stiff fingers: Causes, treatment, stretches",
+          "url": "https://www.healthline.com/health/psoriatic-arthritis/prevent-stiffness",
+          "score": 0.3825571,
+          "raw_content_available": true,
+          "raw_content_length": 24788,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Stiff fingers: Causes, treatment, and stretches",
+          "url": "https://www.medicalnewstoday.com/articles/326867",
+          "score": 0.33196434,
+          "raw_content_available": true,
+          "raw_content_length": 24607,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Top 10 Common Finger Issues and When to Seek Orthopaedic Care - Princeton Orthopaedic Associates",
+          "url": "https://www.princetonorthopaedic.com/top-10-common-figer-issues-and-when-to-seek-orthopaedic-care",
+          "score": 0.28678355,
+          "raw_content_available": true,
+          "raw_content_length": 48655,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Common Causes of Finger Stiffness - The Orthopaedic Institute",
+          "url": "https://www.toi-health.com/physician-articles/common-causes-finger-stiffness",
+          "score": 0.2447739,
+          "raw_content_available": true,
+          "raw_content_length": 10451,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Trigger finger",
+          "url": "https://www.nhs.uk/conditions/trigger-finger",
+          "score": 0.21927938,
+          "raw_content_available": true,
+          "raw_content_length": 2766,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 69,
+      "timestamp": "2026-08-24T04:07:33.516743+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "lumbrical interosseous muscle overuse hand tennis grip 2020 2025",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.616,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Lumbricals of the Hand",
+          "url": "https://www.physio-pedia.com/Lumbricals_of_the_Hand",
+          "score": 0.3153252,
+          "raw_content_available": true,
+          "raw_content_length": 98887,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Lumbrical muscle tear: clinical presentation, imaging ...",
+          "url": "https://d-nb.info/1209741490/34",
+          "score": 0.21065299,
+          "raw_content_available": true,
+          "raw_content_length": 23901,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "What Climbers Should Know About Lumbricals (Pain After Climbing Pockets) — Hooper's Beta",
+          "url": "https://www.hoopersbeta.com/library/lumbricals-strange-and-important-muscles-for-climbers-anatomy-injuries-rehab-and-more",
+          "score": 0.17895623,
+          "raw_content_available": true,
+          "raw_content_length": 23469,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "What Climbers Should Know About Lumbricals (STRANGE ...",
+          "url": "https://www.youtube.com/watch?v=lKuidJ9QTMU",
+          "score": 0.13483313,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "Interosseous-lumbrical adhesions secondary to an infection",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4164319",
+          "score": 0.12055289,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        }
+      ],
+      "sequence": 70,
+      "timestamp": "2026-08-24T04:07:33.749368+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "tennis grip biomechanics ulnar nerve hand pinky finger",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.618,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Ulnar Wrist Pain, Numbness & Weak Grip in Tennis Players",
+          "url": "https://www.allwellscoliosis.com/articles/ulnar-neuropathy-in-tennis-players-ring-finger-numbness-clawing-and-weak-grip-explained",
+          "score": 0.6562404,
+          "raw_content_available": true,
+          "raw_content_length": 9551,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Ulnar Nerve Entrapment Causing Pinky Or Ring Finger Numbness – Exercises To Do | Physiotherapists in Toronto | Yorkville Sports Medicine Clinic",
+          "url": "https://www.yorkvillesportsmed.com/blog/exercises-to-do-ulnar-nerve-entrapment-causing-pinky-or-ring-finger-numbness",
+          "score": 0.43482184,
+          "raw_content_available": true,
+          "raw_content_length": 16295,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Ulnar Nerve: Syndromes, Exercises & Treatment — Performance Place",
+          "url": "https://www.p2sportscare.com/articles/upper-extremity/ulnar-nerve",
+          "score": 0.40006998,
+          "raw_content_available": true,
+          "raw_content_length": 28838,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Ulnar Nerve Entrapment: Causes, Symptoms & Treatment",
+          "url": "https://my.clevelandclinic.org/health/diseases/22272-ulnar-nerve-entrapment",
+          "score": 0.2698251,
+          "raw_content_available": true,
+          "raw_content_length": 8579,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Fix Cubital Tunnel Syndrome! [Exercises For Ulnar Nerve Entrapment]",
+          "url": "https://www.youtube.com/watch?v=sfVIl4uHrnQ&vl=en",
+          "score": 0.25945768,
+          "raw_content_available": true,
+          "raw_content_length": 14421,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 71,
+      "timestamp": "2026-08-24T04:07:33.768023+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "jersey finger FDP avulsion repetitive microtrauma sports 2020 2025",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.858,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Jersey Finger - StatPearls - NCBI Bookshelf",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK545291",
+          "score": 0.6161283,
+          "raw_content_available": true,
+          "raw_content_length": 13090,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Diagnosis and Management of Flexor Digitorum Profundus Tendon Avulsion (Jersey Finger) - Journal of Urgent Care Medicine",
+          "url": "https://www.jucm.com/diagnosis-and-management-of-flexor-digitorum-profundus-tendon-avulsion-jersey-finger",
+          "score": 0.57064295,
+          "raw_content_available": true,
+          "raw_content_length": 18679,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Jersey Finger: Treatment For a Common Contact Sport Injury",
+          "url": "https://www.3pointproducts.com/blog/health-arthritis-finger-and-toe-conditions/jersey-finger-a-common-contact-sport-injury",
+          "score": 0.5035894,
+          "raw_content_available": true,
+          "raw_content_length": 13779,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "FLEXOR TENDON AVULSION (JERSEY FINGER) | Hand Surgery Resource",
+          "url": "https://www.handsurgeryresource.net/flexor-tendon-avulsion",
+          "score": 0.49509352,
+          "raw_content_available": true,
+          "raw_content_length": 15307,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Jersey Finger - Hand - Orthobullets",
+          "url": "https://www.orthobullets.com/hand/6015/jersey-finger",
+          "score": 0.22885413,
+          "raw_content_available": true,
+          "raw_content_length": 3404,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 72,
+      "timestamp": "2026-08-24T04:07:33.999354+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "trigger finger tenosynovitis tennis player corticosteroid injection efficacy",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.381,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "The Efficacy of Steroid Injection in the Treatment of Trigger Finger",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3504690",
+          "score": 0.8201387,
+          "raw_content_available": true,
+          "raw_content_length": 39079,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Trigger Finger: Evaluation, Management, and Outcomes",
+          "url": "https://surgicoll.scholasticahq.com/article/68065-trigger-finger-evaluation-management-and-outcomes",
+          "score": 0.8170061,
+          "raw_content_available": true,
+          "raw_content_length": 37819,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Corticosteroid injection therapy for trigger finger or thumb: A retrospective review of 577 digits - Johns Hopkins University",
+          "url": "https://pure.johnshopkins.edu/en/publications/corticosteroid-injection-therapy-for-trigger-finger-or-thumb-a-re-4",
+          "score": 0.7946564,
+          "raw_content_available": true,
+          "raw_content_length": 11960,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Trigger Finger Release | Cortisone Injections for Trigger Finger: Are…",
+          "url": "https://bostontriggerfinger.com/blog/cortisone-injections-for-trigger-finger-are-they-worth-it",
+          "score": 0.72489023,
+          "raw_content_available": true,
+          "raw_content_length": 15682,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Trigger Finger Treatment & Management",
+          "url": "https://emedicine.medscape.com/article/1244693-treatment",
+          "score": 0.7154444,
+          "raw_content_available": true,
+          "raw_content_length": 49411,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 91,
+      "timestamp": "2026-08-24T04:07:37.571312+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "tennis racket grip size modification injury prevention hand finger",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.502,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Tennis Racket Grip Size Guide: How to Measure, Choose & Adjust Your Grip",
+          "url": "https://pro-stringer.com/blog/tennis-racket-grip-size-guide",
+          "score": 0.6490677,
+          "raw_content_available": true,
+          "raw_content_length": 17417,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Tennis Grip Too Big or Too Small? Here's the Easy Fix",
+          "url": "https://tennisexpress.com/blogs/news/tennis-grip-too-big-or-too-small-heres-the-easy-fix",
+          "score": 0.52393246,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "How to measure Your Tennis Grip Size - HEAD",
+          "url": "https://www.youtube.com/watch?v=jovTIg-Rbfc",
+          "score": 0.4902606,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "The Effect of Grip Size on the Hitting Force During a Soft ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3445130",
+          "score": 0.32872388,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "Racquet Grip size and how it affects play? : r/10s",
+          "url": "https://www.reddit.com/r/10s/comments/wlhia8/racquet_grip_size_and_how_it_affects_play",
+          "score": 0.21645878,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        }
+      ],
+      "sequence": 92,
+      "timestamp": "2026-08-24T04:07:37.701107+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Dupuytren contracture tennis player treatment evidence 2020 2024",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.718,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Treatments for early-stage Dupuytren’s disease: an evidence-based approach",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9996772",
+          "score": 0.5752307,
+          "raw_content_available": true,
+          "raw_content_length": 75591,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Dupuytren disease: Prevalence, treatment and outcome | Lund University",
+          "url": "https://www.lunduniversity.lu.se/publication/bd599d65-2cc1-42ed-88a9-da36cd554b0d",
+          "score": 0.43194416,
+          "raw_content_available": true,
+          "raw_content_length": 5212,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Dupuytren’s contracture – Overview of Information and Clinical Research",
+          "url": "https://clinicaltrials.eu/disease/dupuytrens-contracture",
+          "score": 0.40952834,
+          "raw_content_available": true,
+          "raw_content_length": 18229,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Dupuytren's Disease",
+          "url": "https://www.orthoinfo.org/diseases--conditions/dupuytrens-disease",
+          "score": 0.36799732,
+          "raw_content_available": true,
+          "raw_content_length": 22295,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "(PDF) Dupuytren's Contracture in Athletes",
+          "url": "https://www.researchgate.net/publication/393651712_Dupuytren's_Contracture_in_Athletes_Prevalence_Causes_Treatment_A_Literature_Review_and_guide_for_sport_professionals",
+          "score": 0.356492,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        }
+      ],
+      "sequence": 93,
+      "timestamp": "2026-08-24T04:07:37.899615+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "vibration dampening tennis racket hand injury prevention evidence",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 3.437,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Vibration Absorption In the Tennis Grip and the Effects On Racquet Dynamics",
+          "url": "https://www.sensorprod.com/research-articles/vibration-absorption-in-the-tennis-grip-and-the-effects-on-racquet-dynamics",
+          "score": 0.7548612,
+          "raw_content_available": true,
+          "raw_content_length": 310193,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Tennis Racket Dampeners: Why They’re Worth It | ADV",
+          "url": "https://www.getadv.com/blogs/tennis-gear/tennis-racket-dampeners-why-theyre-worth-the-investment",
+          "score": 0.74697095,
+          "raw_content_available": true,
+          "raw_content_length": 23175,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Tennis Dampeners - Reduce Vibration & Add Comfort | ADV",
+          "url": "https://www.getadv.com/blogs/tennis-gear/how-tennis-dampeners-reduce-vibrations-and-enhance-comfort",
+          "score": 0.74318707,
+          "raw_content_available": true,
+          "raw_content_length": 21385,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Tennis Dampeners - What They Do & Best Picks | ADV Tennis",
+          "url": "https://www.getadv.com/blogs/tennis-gear/tennis-dampeners-what-they-do-and-how-to-choose-the-best-one",
+          "score": 0.65412235,
+          "raw_content_available": true,
+          "raw_content_length": 23409,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "A Comprehensive Analysis of Tennis Racquet Dampeners: The Science Behind Vibration Dampening in Tennis | AMbelievable",
+          "url": "https://www.ambelievable.com/blog/tennis-dampener-the-blog-1/a-comprehensive-analysis-of-tennis-racquet-dampeners-the-science-behind-vibration-dampening-in-tennis-9",
+          "score": 0.6410185,
+          "raw_content_available": true,
+          "raw_content_length": 10476,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 94,
+      "timestamp": "2026-08-24T04:07:38.641895+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "tennis injury prevention program RCT results 2020 2024",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 1.771,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "randomised controlled trial in adult recreational tennis players - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32001517",
+          "score": 0.61779,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "Tennis Injury Prevention Program — Nick Ilic Physio Clinician",
+          "url": "https://www.physioclinician.com.au/injuryprevention",
+          "score": 0.50490767,
+          "raw_content_available": true,
+          "raw_content_length": 3971,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "(PDF) Systematic development of a tennis injury prevention programme",
+          "url": "https://www.researchgate.net/publication/324756484_Systematic_development_of_a_tennis_injury_prevention_programme",
+          "score": 0.3713423,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "Prevent Tennis Injuries: A Complete Safety Guide",
+          "url": "https://www.tennisfitness.com/blog/tennis-injury-prevention-guide",
+          "score": 0.30448663,
+          "raw_content_available": true,
+          "raw_content_length": 11047,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Injury Prevention in Tennis: What Rackets Academy Does to Keep Players Healthy | Rackets Academy",
+          "url": "https://racketsacademy.com/injury-prevention-in-tennis-what-rackets-academy-does-to-keep-players-healthy",
+          "score": 0.26475188,
+          "raw_content_available": true,
+          "raw_content_length": 7337,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 113,
+      "timestamp": "2026-08-24T04:07:54.196359+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "NSAIDs tennis elbow lateral epicondylitis systematic review 2020 2024",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.602,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Non-steroidal anti-inflammatory drugs (NSAIDs) for treating tennis elbow pain in adults | Cochrane",
+          "url": "https://www.cochrane.org/evidence/CD003686_non-steroidal-anti-inflammatory-drugs-nsaids-treating-tennis-elbow-pain-adults",
+          "score": 0.8282873,
+          "raw_content_available": true,
+          "raw_content_length": 11791,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Lateral Epicondylitis (Tennis Elbow) Treatment & Management: Treatment Options, Acute Phase, Recovery Phase",
+          "url": "https://emedicine.medscape.com/article/96969-treatment",
+          "score": 0.7587435,
+          "raw_content_available": true,
+          "raw_content_length": 89746,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Effectiveness of non-invasive therapies on pain, maximum grip strength, disability, and quality of life for lateral elbow tendinopathy: A systematic review and meta-analysis - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10904251",
+          "score": 0.7485182,
+          "raw_content_available": true,
+          "raw_content_length": 42579,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Impact of lifestyle and clinical factors on the prognosis of tennis elbow | Scientific Reports",
+          "url": "https://www.nature.com/articles/s41598-024-53669-x",
+          "score": 0.71948266,
+          "raw_content_available": true,
+          "raw_content_length": 42059,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Non-operative Management Strategies for Lateral Epicondylitis: A Comprehensive Literature Review | AOAO",
+          "url": "https://aoao.org/2025/11/25/non-operative-management-strategies-for-lateral-epicondylitis-a-comprehensive-literature-review",
+          "score": 0.67501575,
+          "raw_content_available": true,
+          "raw_content_length": 24779,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 114,
+      "timestamp": "2026-08-24T04:07:55.018864+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "hand intrinsic strengthening exercises tennis players evidence",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.663,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Hand Surgery & Orthopedic Surgery Columbus, OH - Top 5 Hand-Strengthening Exercises for Summer Athletes",
+          "url": "https://www.handandmicro.com/top-5-hand-strengthening-exercises-for-summer-athletes",
+          "score": 0.6147415,
+          "raw_content_available": true,
+          "raw_content_length": 4093,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "The Evidence-Based Guide to Grip Strength Training & Forearm Muscle Development • Stronger by Science",
+          "url": "https://www.strongerbyscience.com/grip",
+          "score": 0.5195463,
+          "raw_content_available": true,
+          "raw_content_length": 235118,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Tennis Wrist Injuries | Arm Exercise | Stretches - Tennis Fitness",
+          "url": "https://www.tennisfitness.com/blog/tennis-wrist-injuries",
+          "score": 0.47504577,
+          "raw_content_available": true,
+          "raw_content_length": 9087,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Tennis-Related Wrist Pain? Find Relief With These 5 PT Exercises",
+          "url": "https://foreverfitptw.com/blog/5-beginner-friendly-pt-exercises-to-ease-tennis-related-wrist-pain",
+          "score": 0.3784826,
+          "raw_content_available": true,
+          "raw_content_length": 8960,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Hand-Focused Strength and Proprioceptive Training for Improving Grip Strength and Manual Dexterity in Healthy Adults: A Systematic Review and Meta-Analysis - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12524766",
+          "score": 0.29205537,
+          "raw_content_available": true,
+          "raw_content_length": 77616,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 115,
+      "timestamp": "2026-08-24T04:07:55.095306+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "tennis grip vibration ulnar neuropathy hand bilateral 2020 2025",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.602,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Ulnar Neuropathy (Handlebar Palsy): Exercises",
+          "url": "https://myhealth.alberta.ca/Health/aftercareinformation/pages/conditions.aspx?hwid=zp4521",
+          "score": 0.29378474,
+          "raw_content_available": true,
+          "raw_content_length": 4185,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Ulnar Neuropathy - StatPearls - NCBI Bookshelf",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK534226",
+          "score": 0.25293308,
+          "raw_content_available": true,
+          "raw_content_length": 27225,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Compressive Neuropathy of the Hand and Wrist",
+          "url": "https://link.springer.com/rwe/10.1007/978-3-030-65430-6_176-1",
+          "score": 0.22096418,
+          "raw_content_available": true,
+          "raw_content_length": 98377,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Ulnar nerve dysfunction: MedlinePlus Medical Encyclopedia",
+          "url": "https://medlineplus.gov/ency/article/000789.htm",
+          "score": 0.21011764,
+          "raw_content_available": true,
+          "raw_content_length": 8556,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Ulnar Nerve Entrapment",
+          "url": "https://www.physio-pedia.com/Ulnar_Nerve_Entrapment",
+          "score": 0.1799484,
+          "raw_content_available": true,
+          "raw_content_length": 91042,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 129,
+      "timestamp": "2026-08-24T04:07:55.550426+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "loss of active flexion pinky finger differential diagnosis ulnar nerve motor",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.628,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Tendon Transfers Part II: Transfers for Ulnar Nerve Palsy and Median Nerve Palsy",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2741332",
+          "score": 0.6133529,
+          "raw_content_available": true,
+          "raw_content_length": 64282,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Ulnar Nerve Entrapment",
+          "url": "https://www.physio-pedia.com/Ulnar_Nerve_Entrapment",
+          "score": 0.5654673,
+          "raw_content_available": true,
+          "raw_content_length": 91042,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Ulnar Nerve Mononeuropathy at the Elbow | PM&R KnowledgeNow",
+          "url": "https://now.aapmr.org/ulnar-nerve-mononeuropathy-at-the-elbow-2",
+          "score": 0.43972388,
+          "raw_content_available": true,
+          "raw_content_length": 39197,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "5 Things to know about Ulnar Neuropathy | Neurology Consultants",
+          "url": "https://neurologycentersofchicago.com/5-things-to-know-about-ulnar-neuropathy",
+          "score": 0.4051433,
+          "raw_content_available": true,
+          "raw_content_length": 6921,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "ULNAR NERVE INJURY ,CAUSES ,SYMPTOMS ,DIAGNOSIS  AND TREATMENT. Cubital tunnel syndrome.",
+          "url": "https://www.youtube.com/watch?v=auP95Xr59F0",
+          "score": 0.3863703,
+          "raw_content_available": true,
+          "raw_content_length": 6953,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 130,
+      "timestamp": "2026-08-24T04:07:55.583208+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "deep motor branch ulnar nerve Guyon's canal anatomy hypothenar muscles",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.698,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Unveiling Guyon’s Canal: Insights into Clinical Anatomy, Pathology, and Imaging",
+          "url": "https://www.mdpi.com/2075-4418/15/5/592",
+          "score": 0.83742094,
+          "raw_content_available": true,
+          "raw_content_length": 92645,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Guyon’s Canal | Radsource",
+          "url": "https://radsource.us/guyons-canal",
+          "score": 0.8145405,
+          "raw_content_available": true,
+          "raw_content_length": 32353,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Variations in the Anatomical Structures of the Guyon Canal",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5626180",
+          "score": 0.78552294,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "The Ulnar Canal - Guyon's - Borders - Contents - Compression - TeachMeAnatomy",
+          "url": "https://teachmeanatomy.info/upper-limb/areas/ulnar-canal",
+          "score": 0.65359193,
+          "raw_content_available": true,
+          "raw_content_length": 10382,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Ulnar Tunnel Syndrome - Hand - Orthobullets",
+          "url": "https://www.orthobullets.com/hand/6022/ulnar-tunnel-syndrome",
+          "score": 0.43655056,
+          "raw_content_available": true,
+          "raw_content_length": 3198,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 131,
+      "timestamp": "2026-08-24T04:07:55.638178+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "tennis racket handle grip hypothenar eminence impact repetitive",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 3.308,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Vibration Absorption In the Tennis Grip and the Effects On Racquet Dynamics",
+          "url": "https://www.sensorprod.com/research-articles/vibration-absorption-in-the-tennis-grip-and-the-effects-on-racquet-dynamics",
+          "score": 0.70799106,
+          "raw_content_available": true,
+          "raw_content_length": 310193,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Ultimate Tennis Grip System Guide: Every Grip Explained",
+          "url": "https://www.tennisnation.com/free-lessons/technique/ultimate-tennis-grip-system-guide",
+          "score": 0.28543717,
+          "raw_content_available": true,
+          "raw_content_length": 14219,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "The effect of tennis racket grip size on forearm muscle firing ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/16861576",
+          "score": 0.15111576,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "How Does Grip Size Affect Performance | Tennis Tutorial |",
+          "url": "https://www.youtube.com/watch?v=9xWRt6YJ-bk",
+          "score": 0.11621146,
+          "raw_content_available": true,
+          "raw_content_length": 4873,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Instagram",
+          "url": "https://www.instagram.com/reel/DZaRJV6OTAN",
+          "score": 0.105976254,
+          "raw_content_available": true,
+          "raw_content_length": 11236,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 132,
+      "timestamp": "2026-08-24T04:07:56.268803+08:00"
+    }
+  ],
+  "summary_cache_hits": 3,
+  "summary_cache_hit_urls": [
+    "https://www.allwellscoliosis.com/articles/ulnar-neuropathy-in-tennis-players-ring-finger-numbness-clawing-and-weak-grip-explained",
+    "https://www.healthline.com/health/psoriatic-arthritis/prevent-stiffness",
+    "https://www.sensorprod.com/research-articles/vibration-absorption-in-the-tennis-grip-and-the-effects-on-racquet-dynamics"
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://www.gahand.org/services/hand-wrist-sports-injuries/tennis-wrist-pain",
+      "status": "success",
+      "content_length": 12794,
+      "duration_seconds": 2.307,
+      "query": "hand grip weakness little finger tennis player sports medicine"
+    },
+    {
+      "url": "https://www.orionortho.sg/common-tennis-injuries",
+      "status": "success",
+      "content_length": 25171,
+      "duration_seconds": 2.307,
+      "query": "hand grip weakness little finger tennis player sports medicine"
+    },
+    {
+      "url": "https://se-ortho.com/prevent-ulnar-wrist-pain-tennis",
+      "status": "success",
+      "content_length": 5035,
+      "duration_seconds": 2.307,
+      "query": "hand grip weakness little finger tennis player sports medicine"
+    },
+    {
+      "url": "https://www.medicalnewstoday.com/articles/hand-weakness",
+      "status": "success",
+      "content_length": 20650,
+      "duration_seconds": 2.307,
+      "query": "hand grip weakness little finger tennis player sports medicine"
+    },
+    {
+      "url": "https://orthopedicspecialistsofseattle.com/healthcare/guidelines/ulnar",
+      "status": "success",
+      "content_length": 12324,
+      "duration_seconds": 2.307,
+      "query": "hand grip weakness little finger tennis player sports medicine"
+    },
+    {
+      "url": "https://www.allwellscoliosis.com/articles/ulnar-neuropathy-in-tennis-players-ring-finger-numbness-clawing-and-weak-grip-explained",
+      "status": "success",
+      "content_length": 9551,
+      "duration_seconds": 2.685,
+      "query": "bilateral pinky finger stiffness grip weakness tennis player treatment 2020-2026"
+    },
+    {
+      "url": "https://www.orionortho.sg/common-tennis-injuries",
+      "status": "success",
+      "content_length": 25171,
+      "duration_seconds": 2.685,
+      "query": "bilateral pinky finger stiffness grip weakness tennis player treatment 2020-2026"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=KEBajOTDfLM",
+      "status": "success",
+      "content_length": 17206,
+      "duration_seconds": 2.685,
+      "query": "bilateral pinky finger stiffness grip weakness tennis player treatment 2020-2026"
+    },
+    {
+      "url": "https://www.healthline.com/health/psoriatic-arthritis/prevent-stiffness",
+      "status": "success",
+      "content_length": 24788,
+      "duration_seconds": 2.685,
+      "query": "bilateral pinky finger stiffness grip weakness tennis player treatment 2020-2026"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5125509",
+      "status": "success",
+      "content_length": 115318,
+      "duration_seconds": 2.685,
+      "query": "bilateral pinky finger stiffness grip weakness tennis player treatment 2020-2026"
+    },
+    {
+      "url": "https://radsource.us/hypothenar-hammer-syndrome",
+      "status": "success",
+      "content_length": 20319,
+      "duration_seconds": 2.371,
+      "query": "hypothenar hammer syndrome tennis players diagnosis 2020 2025"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/8616661",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.371,
+      "query": "hypothenar hammer syndrome tennis players diagnosis 2020 2025"
+    },
+    {
+      "url": "https://www.gavinpublishers.com/article/view/hypothenar-hammer-syndrome-due-to-penetrating-trauma-case-report-brief-review",
+      "status": "success",
+      "content_length": 16475,
+      "duration_seconds": 2.371,
+      "query": "hypothenar hammer syndrome tennis players diagnosis 2020 2025"
+    },
+    {
+      "url": "https://radiopaedia.org/articles/hypothenar-hammer-syndrome?lang=us",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.371,
+      "query": "hypothenar hammer syndrome tennis players diagnosis 2020 2025"
+    },
+    {
+      "url": "https://www.semanticscholar.org/paper/51840d5fb087a44f89d7329c29fdf41fe968a432",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.371,
+      "query": "hypothenar hammer syndrome tennis players diagnosis 2020 2025"
+    },
+    {
+      "url": "https://www.academia.edu/124553071/Diagnosis_and_Treatment_of_Posterior_Interosseous_Nerve_Entrapment_Systematic_Review",
+      "status": "success",
+      "content_length": 50288,
+      "duration_seconds": 3.103,
+      "query": "ulnar nerve entrapment tennis players Guyon's canal treatment systematic review"
+    },
+    {
+      "url": "https://www.handsurgeryresource.net/ulnar-entrapment-guyons",
+      "status": "success",
+      "content_length": 7405,
+      "duration_seconds": 3.103,
+      "query": "ulnar nerve entrapment tennis players Guyon's canal treatment systematic review"
+    },
+    {
+      "url": "https://www.semanticscholar.org/paper/Ulnar-nerve-entrapment-in-Guyon%27s-canal-due-to-case-Ozdemir-Cali%C5%9Faneller/c8fd19612be71c57da622ce3e5736ea085430622",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 3.103,
+      "query": "ulnar nerve entrapment tennis players Guyon's canal treatment systematic review"
+    },
+    {
+      "url": "https://www.motionspecificrelease.com/post/resolving-ulnar-nerve-entrapment",
+      "status": "success",
+      "content_length": 16367,
+      "duration_seconds": 3.103,
+      "query": "ulnar nerve entrapment tennis players Guyon's canal treatment systematic review"
+    },
+    {
+      "url": "https://www.drgordongroh.com/wp-content/uploads/2018/07/Ulnar-Nerve-Entrapment-at-the-Wrist-Guyon%E2%80%99s-Canal-Syndrome-Dr-Gordon-Groh-Orthopaedic-Surgeon-Asheville-NC.pdf",
+      "status": "success",
+      "content_length": 7426,
+      "duration_seconds": 3.103,
+      "query": "ulnar nerve entrapment tennis players Guyon's canal treatment systematic review"
+    },
+    {
+      "url": "https://www.cureus.com/articles/306817-epidemiology-and-treatment-trends-in-the-management-of-dupuytrens-disease-from-2016-to-2022.pdf",
+      "status": "success",
+      "content_length": 36680,
+      "duration_seconds": 2.903,
+      "query": "Dupuytren contracture young adults epidemiology 2020 2025"
+    },
+    {
+      "url": "https://www.jhandsurg.org/article/S0363-5023(21)00427-5/fulltext",
+      "status": "success",
+      "content_length": 187504,
+      "duration_seconds": 2.903,
+      "query": "Dupuytren contracture young adults epidemiology 2020 2025"
+    },
+    {
+      "url": "https://www.delveinsight.com/report-store/dupuytrens-disease-market",
+      "status": "success",
+      "content_length": 39720,
+      "duration_seconds": 2.903,
+      "query": "Dupuytren contracture young adults epidemiology 2020 2025"
+    },
+    {
+      "url": "https://www.tandfonline.com/doi/full/10.1080/02813432.2024.2416678",
+      "status": "success",
+      "content_length": 110913,
+      "duration_seconds": 2.903,
+      "query": "Dupuytren contracture young adults epidemiology 2020 2025"
+    },
+    {
+      "url": "https://dermnetnz.org/topics/dupuytren-contracture",
+      "status": "success",
+      "content_length": 12914,
+      "duration_seconds": 2.903,
+      "query": "Dupuytren contracture young adults epidemiology 2020 2025"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9220062",
+      "status": "success",
+      "content_length": 72226,
+      "duration_seconds": 2.94,
+      "query": "flexor tendon injuries pinky finger tennis overuse tenosynovitis 2020 2025"
+    },
+    {
+      "url": "https://my.clevelandclinic.org/health/diseases/23448-tenosynovitis",
+      "status": "success",
+      "content_length": 18245,
+      "duration_seconds": 2.94,
+      "query": "flexor tendon injuries pinky finger tennis overuse tenosynovitis 2020 2025"
+    },
+    {
+      "url": "https://www.orthoinfo.org/diseases--conditions/flexor-tendon-injuries",
+      "status": "success",
+      "content_length": 15576,
+      "duration_seconds": 2.94,
+      "query": "flexor tendon injuries pinky finger tennis overuse tenosynovitis 2020 2025"
+    },
+    {
+      "url": "https://www.floridaortho.com/specialties/hand-wrist/flexor-tendonitis",
+      "status": "success",
+      "content_length": 12080,
+      "duration_seconds": 2.94,
+      "query": "flexor tendon injuries pinky finger tennis overuse tenosynovitis 2020 2025"
+    },
+    {
+      "url": "https://emedicine.medscape.com/article/2189339-overview",
+      "status": "success",
+      "content_length": 46692,
+      "duration_seconds": 2.94,
+      "query": "flexor tendon injuries pinky finger tennis overuse tenosynovitis 2020 2025"
+    },
+    {
+      "url": "https://www.hss.edu/health-library/conditions-and-treatments/list/ulnar-nerve-entrapment",
+      "status": "success",
+      "content_length": 5407,
+      "duration_seconds": 3.209,
+      "query": "ulnar nerve entrapment tennis players Guyon's canal pinky finger symptoms 2020 2025"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11955979",
+      "status": "success",
+      "content_length": 88294,
+      "duration_seconds": 3.209,
+      "query": "ulnar nerve entrapment tennis players Guyon's canal pinky finger symptoms 2020 2025"
+    },
+    {
+      "url": "https://www.sportsrehabu.com/Injuries-Conditions/Hand/Hand-Issues/Guyon-s-Canal-Syndrome/a~286/article.html",
+      "status": "success",
+      "content_length": 16670,
+      "duration_seconds": 3.209,
+      "query": "ulnar nerve entrapment tennis players Guyon's canal pinky finger symptoms 2020 2025"
+    },
+    {
+      "url": "https://www.indianahandtoshoulder.com/blog/guyons-canal-syndrome",
+      "status": "success",
+      "content_length": 12702,
+      "duration_seconds": 3.209,
+      "query": "ulnar nerve entrapment tennis players Guyon's canal pinky finger symptoms 2020 2025"
+    },
+    {
+      "url": "https://unthsc-ir.tdl.org/items/1f64ab97-7ad0-4d90-a56f-a88d4ac9734d",
+      "status": "success",
+      "content_length": 2948,
+      "duration_seconds": 3.209,
+      "query": "ulnar nerve entrapment tennis players Guyon's canal pinky finger symptoms 2020 2025"
+    },
+    {
+      "url": "https://bostontriggerfinger.com/blog/common-myths-about-trigger-finger-debunked",
+      "status": "success",
+      "content_length": 13291,
+      "duration_seconds": 4.563,
+      "query": "trigger finger little finger sports medicine overuse 2020 2025"
+    },
+    {
+      "url": "https://www.toportho.com/blog/trigger-finger-treatment-options",
+      "status": "success",
+      "content_length": 6832,
+      "duration_seconds": 4.563,
+      "query": "trigger finger little finger sports medicine overuse 2020 2025"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7459363",
+      "status": "success",
+      "content_length": 48669,
+      "duration_seconds": 4.563,
+      "query": "trigger finger little finger sports medicine overuse 2020 2025"
+    },
+    {
+      "url": "https://www.wataugaortho.com/2025/03/07/managing-trigger-finger-treatment-without-surgery",
+      "status": "success",
+      "content_length": 13145,
+      "duration_seconds": 4.563,
+      "query": "trigger finger little finger sports medicine overuse 2020 2025"
+    },
+    {
+      "url": "https://www.woodlandssportsmedicine.com/blog/can-trigger-finger-be-treated-with-conservative-methods",
+      "status": "success",
+      "content_length": 7294,
+      "duration_seconds": 4.563,
+      "query": "trigger finger little finger sports medicine overuse 2020 2025"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5926669",
+      "status": "success",
+      "content_length": 33182,
+      "duration_seconds": 2.507,
+      "query": "tennis players hand injury prevention stretching strengthening protocol evidence-based"
+    },
+    {
+      "url": "https://twinboro.com/tennis-injury-prevention-recovery-nj.html",
+      "status": "success",
+      "content_length": 12845,
+      "duration_seconds": 2.507,
+      "query": "tennis players hand injury prevention stretching strengthening protocol evidence-based"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11922287",
+      "status": "success",
+      "content_length": 79253,
+      "duration_seconds": 2.507,
+      "query": "tennis players hand injury prevention stretching strengthening protocol evidence-based"
+    },
+    {
+      "url": "https://setptusa.com/blog/sports/tennis-injury-prevention-warm-ups",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.507,
+      "query": "tennis players hand injury prevention stretching strengthening protocol evidence-based"
+    },
+    {
+      "url": "https://www.virtue-healthcare.co.uk/post/strengthening-your-game-the-ultimate-guide-to-wrist-training-for-tennis-players",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.507,
+      "query": "tennis players hand injury prevention stretching strengthening protocol evidence-based"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9257949",
+      "status": "success",
+      "content_length": 48046,
+      "duration_seconds": 2.801,
+      "query": "ulnar nerve entrapment conservative treatment RCT splinting physical therapy outcomes"
+    },
+    {
+      "url": "https://hely-weber.com/img/product/description/Product%20Studies/Outcomes%20of%20Rigid%20Night%20Splinting%20and%20Activity%20Modification%20in%20the%20Treatment.pdf",
+      "status": "success",
+      "content_length": 29472,
+      "duration_seconds": 2.801,
+      "query": "ulnar nerve entrapment conservative treatment RCT splinting physical therapy outcomes"
+    },
+    {
+      "url": "https://emedicine.medscape.com/article/1141515-treatment",
+      "status": "success",
+      "content_length": 89528,
+      "duration_seconds": 2.801,
+      "query": "ulnar nerve entrapment conservative treatment RCT splinting physical therapy outcomes"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6589621",
+      "status": "success",
+      "content_length": 42570,
+      "duration_seconds": 2.801,
+      "query": "ulnar nerve entrapment conservative treatment RCT splinting physical therapy outcomes"
+    },
+    {
+      "url": "https://www.lifestyleptny.com/blog/2026/may/the-role-of-physical-therapy-in-healing-elbow-co2",
+      "status": "success",
+      "content_length": 6869,
+      "duration_seconds": 2.801,
+      "query": "ulnar nerve entrapment conservative treatment RCT splinting physical therapy outcomes"
+    },
+    {
+      "url": "https://otpotential.com/treatment/cubital-tunnel-syndrome-therapy",
+      "status": "success",
+      "content_length": 22726,
+      "duration_seconds": 3.288,
+      "query": "cubital tunnel syndrome treatment systematic review meta-analysis 2020 2021 2022 2023 2024 2025 2026"
+    },
+    {
+      "url": "https://physio-learning.com/en/ressources/le-syndrome-du-tunnel-cubital-compression-ulnaire-au-coude",
+      "status": "success",
+      "content_length": 63712,
+      "duration_seconds": 3.288,
+      "query": "cubital tunnel syndrome treatment systematic review meta-analysis 2020 2021 2022 2023 2024 2025 2026"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10382899",
+      "status": "success",
+      "content_length": 153316,
+      "duration_seconds": 3.288,
+      "query": "cubital tunnel syndrome treatment systematic review meta-analysis 2020 2021 2022 2023 2024 2025 2026"
+    },
+    {
+      "url": "https://orthopedicreviews.openmedicalpublishing.org/article/38239-a-comprehensive-review-of-cubital-tunnel-syndrome",
+      "status": "success",
+      "content_length": 82974,
+      "duration_seconds": 3.288,
+      "query": "cubital tunnel syndrome treatment systematic review meta-analysis 2020 2021 2022 2023 2024 2025 2026"
+    },
+    {
+      "url": "https://www.cureus.com/articles/460722-perineural-steroid-injections-in-cubital-tunnel-syndrome-a-systematic-review-and-meta-analysis",
+      "status": "success",
+      "content_length": 20129,
+      "duration_seconds": 3.288,
+      "query": "cubital tunnel syndrome treatment systematic review meta-analysis 2020 2021 2022 2023 2024 2025 2026"
+    },
+    {
+      "url": "https://www.healthline.com/health/psoriatic-arthritis/prevent-stiffness",
+      "status": "success",
+      "content_length": 24788,
+      "duration_seconds": 2.361,
+      "query": "bilateral pinky finger stiffness cannot bend diagnosis sports medicine"
+    },
+    {
+      "url": "https://www.medicalnewstoday.com/articles/326867",
+      "status": "success",
+      "content_length": 24607,
+      "duration_seconds": 2.361,
+      "query": "bilateral pinky finger stiffness cannot bend diagnosis sports medicine"
+    },
+    {
+      "url": "https://www.princetonorthopaedic.com/top-10-common-figer-issues-and-when-to-seek-orthopaedic-care",
+      "status": "success",
+      "content_length": 48655,
+      "duration_seconds": 2.361,
+      "query": "bilateral pinky finger stiffness cannot bend diagnosis sports medicine"
+    },
+    {
+      "url": "https://www.toi-health.com/physician-articles/common-causes-finger-stiffness",
+      "status": "success",
+      "content_length": 10451,
+      "duration_seconds": 2.361,
+      "query": "bilateral pinky finger stiffness cannot bend diagnosis sports medicine"
+    },
+    {
+      "url": "https://www.nhs.uk/conditions/trigger-finger",
+      "status": "success",
+      "content_length": 2766,
+      "duration_seconds": 2.361,
+      "query": "bilateral pinky finger stiffness cannot bend diagnosis sports medicine"
+    },
+    {
+      "url": "https://www.physio-pedia.com/Lumbricals_of_the_Hand",
+      "status": "success",
+      "content_length": 98887,
+      "duration_seconds": 2.616,
+      "query": "lumbrical interosseous muscle overuse hand tennis grip 2020 2025"
+    },
+    {
+      "url": "https://d-nb.info/1209741490/34",
+      "status": "success",
+      "content_length": 23901,
+      "duration_seconds": 2.616,
+      "query": "lumbrical interosseous muscle overuse hand tennis grip 2020 2025"
+    },
+    {
+      "url": "https://www.hoopersbeta.com/library/lumbricals-strange-and-important-muscles-for-climbers-anatomy-injuries-rehab-and-more",
+      "status": "success",
+      "content_length": 23469,
+      "duration_seconds": 2.616,
+      "query": "lumbrical interosseous muscle overuse hand tennis grip 2020 2025"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=lKuidJ9QTMU",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.616,
+      "query": "lumbrical interosseous muscle overuse hand tennis grip 2020 2025"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4164319",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.616,
+      "query": "lumbrical interosseous muscle overuse hand tennis grip 2020 2025"
+    },
+    {
+      "url": "https://www.allwellscoliosis.com/articles/ulnar-neuropathy-in-tennis-players-ring-finger-numbness-clawing-and-weak-grip-explained",
+      "status": "success",
+      "content_length": 9551,
+      "duration_seconds": 2.618,
+      "query": "tennis grip biomechanics ulnar nerve hand pinky finger"
+    },
+    {
+      "url": "https://www.yorkvillesportsmed.com/blog/exercises-to-do-ulnar-nerve-entrapment-causing-pinky-or-ring-finger-numbness",
+      "status": "success",
+      "content_length": 16295,
+      "duration_seconds": 2.618,
+      "query": "tennis grip biomechanics ulnar nerve hand pinky finger"
+    },
+    {
+      "url": "https://www.p2sportscare.com/articles/upper-extremity/ulnar-nerve",
+      "status": "success",
+      "content_length": 28838,
+      "duration_seconds": 2.618,
+      "query": "tennis grip biomechanics ulnar nerve hand pinky finger"
+    },
+    {
+      "url": "https://my.clevelandclinic.org/health/diseases/22272-ulnar-nerve-entrapment",
+      "status": "success",
+      "content_length": 8579,
+      "duration_seconds": 2.618,
+      "query": "tennis grip biomechanics ulnar nerve hand pinky finger"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=sfVIl4uHrnQ&vl=en",
+      "status": "success",
+      "content_length": 14421,
+      "duration_seconds": 2.618,
+      "query": "tennis grip biomechanics ulnar nerve hand pinky finger"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK545291",
+      "status": "success",
+      "content_length": 13090,
+      "duration_seconds": 2.858,
+      "query": "jersey finger FDP avulsion repetitive microtrauma sports 2020 2025"
+    },
+    {
+      "url": "https://www.jucm.com/diagnosis-and-management-of-flexor-digitorum-profundus-tendon-avulsion-jersey-finger",
+      "status": "success",
+      "content_length": 18679,
+      "duration_seconds": 2.858,
+      "query": "jersey finger FDP avulsion repetitive microtrauma sports 2020 2025"
+    },
+    {
+      "url": "https://www.3pointproducts.com/blog/health-arthritis-finger-and-toe-conditions/jersey-finger-a-common-contact-sport-injury",
+      "status": "success",
+      "content_length": 13779,
+      "duration_seconds": 2.858,
+      "query": "jersey finger FDP avulsion repetitive microtrauma sports 2020 2025"
+    },
+    {
+      "url": "https://www.handsurgeryresource.net/flexor-tendon-avulsion",
+      "status": "success",
+      "content_length": 15307,
+      "duration_seconds": 2.858,
+      "query": "jersey finger FDP avulsion repetitive microtrauma sports 2020 2025"
+    },
+    {
+      "url": "https://www.orthobullets.com/hand/6015/jersey-finger",
+      "status": "success",
+      "content_length": 3404,
+      "duration_seconds": 2.858,
+      "query": "jersey finger FDP avulsion repetitive microtrauma sports 2020 2025"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3504690",
+      "status": "success",
+      "content_length": 39079,
+      "duration_seconds": 2.381,
+      "query": "trigger finger tenosynovitis tennis player corticosteroid injection efficacy"
+    },
+    {
+      "url": "https://surgicoll.scholasticahq.com/article/68065-trigger-finger-evaluation-management-and-outcomes",
+      "status": "success",
+      "content_length": 37819,
+      "duration_seconds": 2.381,
+      "query": "trigger finger tenosynovitis tennis player corticosteroid injection efficacy"
+    },
+    {
+      "url": "https://pure.johnshopkins.edu/en/publications/corticosteroid-injection-therapy-for-trigger-finger-or-thumb-a-re-4",
+      "status": "success",
+      "content_length": 11960,
+      "duration_seconds": 2.381,
+      "query": "trigger finger tenosynovitis tennis player corticosteroid injection efficacy"
+    },
+    {
+      "url": "https://bostontriggerfinger.com/blog/cortisone-injections-for-trigger-finger-are-they-worth-it",
+      "status": "success",
+      "content_length": 15682,
+      "duration_seconds": 2.381,
+      "query": "trigger finger tenosynovitis tennis player corticosteroid injection efficacy"
+    },
+    {
+      "url": "https://emedicine.medscape.com/article/1244693-treatment",
+      "status": "success",
+      "content_length": 49411,
+      "duration_seconds": 2.381,
+      "query": "trigger finger tenosynovitis tennis player corticosteroid injection efficacy"
+    },
+    {
+      "url": "https://pro-stringer.com/blog/tennis-racket-grip-size-guide",
+      "status": "success",
+      "content_length": 17417,
+      "duration_seconds": 2.502,
+      "query": "tennis racket grip size modification injury prevention hand finger"
+    },
+    {
+      "url": "https://tennisexpress.com/blogs/news/tennis-grip-too-big-or-too-small-heres-the-easy-fix",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.502,
+      "query": "tennis racket grip size modification injury prevention hand finger"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=jovTIg-Rbfc",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.502,
+      "query": "tennis racket grip size modification injury prevention hand finger"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3445130",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.502,
+      "query": "tennis racket grip size modification injury prevention hand finger"
+    },
+    {
+      "url": "https://www.reddit.com/r/10s/comments/wlhia8/racquet_grip_size_and_how_it_affects_play",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.502,
+      "query": "tennis racket grip size modification injury prevention hand finger"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9996772",
+      "status": "success",
+      "content_length": 75591,
+      "duration_seconds": 2.718,
+      "query": "Dupuytren contracture tennis player treatment evidence 2020 2024"
+    },
+    {
+      "url": "https://www.lunduniversity.lu.se/publication/bd599d65-2cc1-42ed-88a9-da36cd554b0d",
+      "status": "success",
+      "content_length": 5212,
+      "duration_seconds": 2.718,
+      "query": "Dupuytren contracture tennis player treatment evidence 2020 2024"
+    },
+    {
+      "url": "https://clinicaltrials.eu/disease/dupuytrens-contracture",
+      "status": "success",
+      "content_length": 18229,
+      "duration_seconds": 2.718,
+      "query": "Dupuytren contracture tennis player treatment evidence 2020 2024"
+    },
+    {
+      "url": "https://www.orthoinfo.org/diseases--conditions/dupuytrens-disease",
+      "status": "success",
+      "content_length": 22295,
+      "duration_seconds": 2.718,
+      "query": "Dupuytren contracture tennis player treatment evidence 2020 2024"
+    },
+    {
+      "url": "https://www.researchgate.net/publication/393651712_Dupuytren's_Contracture_in_Athletes_Prevalence_Causes_Treatment_A_Literature_Review_and_guide_for_sport_professionals",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.718,
+      "query": "Dupuytren contracture tennis player treatment evidence 2020 2024"
+    },
+    {
+      "url": "https://www.sensorprod.com/research-articles/vibration-absorption-in-the-tennis-grip-and-the-effects-on-racquet-dynamics",
+      "status": "success",
+      "content_length": 310193,
+      "duration_seconds": 3.437,
+      "query": "vibration dampening tennis racket hand injury prevention evidence"
+    },
+    {
+      "url": "https://www.getadv.com/blogs/tennis-gear/tennis-racket-dampeners-why-theyre-worth-the-investment",
+      "status": "success",
+      "content_length": 23175,
+      "duration_seconds": 3.437,
+      "query": "vibration dampening tennis racket hand injury prevention evidence"
+    },
+    {
+      "url": "https://www.getadv.com/blogs/tennis-gear/how-tennis-dampeners-reduce-vibrations-and-enhance-comfort",
+      "status": "success",
+      "content_length": 21385,
+      "duration_seconds": 3.437,
+      "query": "vibration dampening tennis racket hand injury prevention evidence"
+    },
+    {
+      "url": "https://www.getadv.com/blogs/tennis-gear/tennis-dampeners-what-they-do-and-how-to-choose-the-best-one",
+      "status": "success",
+      "content_length": 23409,
+      "duration_seconds": 3.437,
+      "query": "vibration dampening tennis racket hand injury prevention evidence"
+    },
+    {
+      "url": "https://www.ambelievable.com/blog/tennis-dampener-the-blog-1/a-comprehensive-analysis-of-tennis-racquet-dampeners-the-science-behind-vibration-dampening-in-tennis-9",
+      "status": "success",
+      "content_length": 10476,
+      "duration_seconds": 3.437,
+      "query": "vibration dampening tennis racket hand injury prevention evidence"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32001517",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 1.771,
+      "query": "tennis injury prevention program RCT results 2020 2024"
+    },
+    {
+      "url": "https://www.physioclinician.com.au/injuryprevention",
+      "status": "success",
+      "content_length": 3971,
+      "duration_seconds": 1.771,
+      "query": "tennis injury prevention program RCT results 2020 2024"
+    },
+    {
+      "url": "https://www.researchgate.net/publication/324756484_Systematic_development_of_a_tennis_injury_prevention_programme",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 1.771,
+      "query": "tennis injury prevention program RCT results 2020 2024"
+    },
+    {
+      "url": "https://www.tennisfitness.com/blog/tennis-injury-prevention-guide",
+      "status": "success",
+      "content_length": 11047,
+      "duration_seconds": 1.771,
+      "query": "tennis injury prevention program RCT results 2020 2024"
+    },
+    {
+      "url": "https://racketsacademy.com/injury-prevention-in-tennis-what-rackets-academy-does-to-keep-players-healthy",
+      "status": "success",
+      "content_length": 7337,
+      "duration_seconds": 1.771,
+      "query": "tennis injury prevention program RCT results 2020 2024"
+    },
+    {
+      "url": "https://www.cochrane.org/evidence/CD003686_non-steroidal-anti-inflammatory-drugs-nsaids-treating-tennis-elbow-pain-adults",
+      "status": "success",
+      "content_length": 11791,
+      "duration_seconds": 2.602,
+      "query": "NSAIDs tennis elbow lateral epicondylitis systematic review 2020 2024"
+    },
+    {
+      "url": "https://emedicine.medscape.com/article/96969-treatment",
+      "status": "success",
+      "content_length": 89746,
+      "duration_seconds": 2.602,
+      "query": "NSAIDs tennis elbow lateral epicondylitis systematic review 2020 2024"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10904251",
+      "status": "success",
+      "content_length": 42579,
+      "duration_seconds": 2.602,
+      "query": "NSAIDs tennis elbow lateral epicondylitis systematic review 2020 2024"
+    },
+    {
+      "url": "https://www.nature.com/articles/s41598-024-53669-x",
+      "status": "success",
+      "content_length": 42059,
+      "duration_seconds": 2.602,
+      "query": "NSAIDs tennis elbow lateral epicondylitis systematic review 2020 2024"
+    },
+    {
+      "url": "https://aoao.org/2025/11/25/non-operative-management-strategies-for-lateral-epicondylitis-a-comprehensive-literature-review",
+      "status": "success",
+      "content_length": 24779,
+      "duration_seconds": 2.602,
+      "query": "NSAIDs tennis elbow lateral epicondylitis systematic review 2020 2024"
+    },
+    {
+      "url": "https://www.handandmicro.com/top-5-hand-strengthening-exercises-for-summer-athletes",
+      "status": "success",
+      "content_length": 4093,
+      "duration_seconds": 2.663,
+      "query": "hand intrinsic strengthening exercises tennis players evidence"
+    },
+    {
+      "url": "https://www.strongerbyscience.com/grip",
+      "status": "success",
+      "content_length": 235118,
+      "duration_seconds": 2.663,
+      "query": "hand intrinsic strengthening exercises tennis players evidence"
+    },
+    {
+      "url": "https://www.tennisfitness.com/blog/tennis-wrist-injuries",
+      "status": "success",
+      "content_length": 9087,
+      "duration_seconds": 2.663,
+      "query": "hand intrinsic strengthening exercises tennis players evidence"
+    },
+    {
+      "url": "https://foreverfitptw.com/blog/5-beginner-friendly-pt-exercises-to-ease-tennis-related-wrist-pain",
+      "status": "success",
+      "content_length": 8960,
+      "duration_seconds": 2.663,
+      "query": "hand intrinsic strengthening exercises tennis players evidence"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12524766",
+      "status": "success",
+      "content_length": 77616,
+      "duration_seconds": 2.663,
+      "query": "hand intrinsic strengthening exercises tennis players evidence"
+    },
+    {
+      "url": "https://myhealth.alberta.ca/Health/aftercareinformation/pages/conditions.aspx?hwid=zp4521",
+      "status": "success",
+      "content_length": 4185,
+      "duration_seconds": 2.602,
+      "query": "tennis grip vibration ulnar neuropathy hand bilateral 2020 2025"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK534226",
+      "status": "success",
+      "content_length": 27225,
+      "duration_seconds": 2.602,
+      "query": "tennis grip vibration ulnar neuropathy hand bilateral 2020 2025"
+    },
+    {
+      "url": "https://link.springer.com/rwe/10.1007/978-3-030-65430-6_176-1",
+      "status": "success",
+      "content_length": 98377,
+      "duration_seconds": 2.602,
+      "query": "tennis grip vibration ulnar neuropathy hand bilateral 2020 2025"
+    },
+    {
+      "url": "https://medlineplus.gov/ency/article/000789.htm",
+      "status": "success",
+      "content_length": 8556,
+      "duration_seconds": 2.602,
+      "query": "tennis grip vibration ulnar neuropathy hand bilateral 2020 2025"
+    },
+    {
+      "url": "https://www.physio-pedia.com/Ulnar_Nerve_Entrapment",
+      "status": "success",
+      "content_length": 91042,
+      "duration_seconds": 2.602,
+      "query": "tennis grip vibration ulnar neuropathy hand bilateral 2020 2025"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2741332",
+      "status": "success",
+      "content_length": 64282,
+      "duration_seconds": 2.628,
+      "query": "loss of active flexion pinky finger differential diagnosis ulnar nerve motor"
+    },
+    {
+      "url": "https://www.physio-pedia.com/Ulnar_Nerve_Entrapment",
+      "status": "success",
+      "content_length": 91042,
+      "duration_seconds": 2.628,
+      "query": "loss of active flexion pinky finger differential diagnosis ulnar nerve motor"
+    },
+    {
+      "url": "https://now.aapmr.org/ulnar-nerve-mononeuropathy-at-the-elbow-2",
+      "status": "success",
+      "content_length": 39197,
+      "duration_seconds": 2.628,
+      "query": "loss of active flexion pinky finger differential diagnosis ulnar nerve motor"
+    },
+    {
+      "url": "https://neurologycentersofchicago.com/5-things-to-know-about-ulnar-neuropathy",
+      "status": "success",
+      "content_length": 6921,
+      "duration_seconds": 2.628,
+      "query": "loss of active flexion pinky finger differential diagnosis ulnar nerve motor"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=auP95Xr59F0",
+      "status": "success",
+      "content_length": 6953,
+      "duration_seconds": 2.628,
+      "query": "loss of active flexion pinky finger differential diagnosis ulnar nerve motor"
+    },
+    {
+      "url": "https://www.mdpi.com/2075-4418/15/5/592",
+      "status": "success",
+      "content_length": 92645,
+      "duration_seconds": 2.698,
+      "query": "deep motor branch ulnar nerve Guyon's canal anatomy hypothenar muscles"
+    },
+    {
+      "url": "https://radsource.us/guyons-canal",
+      "status": "success",
+      "content_length": 32353,
+      "duration_seconds": 2.698,
+      "query": "deep motor branch ulnar nerve Guyon's canal anatomy hypothenar muscles"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5626180",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.698,
+      "query": "deep motor branch ulnar nerve Guyon's canal anatomy hypothenar muscles"
+    },
+    {
+      "url": "https://teachmeanatomy.info/upper-limb/areas/ulnar-canal",
+      "status": "success",
+      "content_length": 10382,
+      "duration_seconds": 2.698,
+      "query": "deep motor branch ulnar nerve Guyon's canal anatomy hypothenar muscles"
+    },
+    {
+      "url": "https://www.orthobullets.com/hand/6022/ulnar-tunnel-syndrome",
+      "status": "success",
+      "content_length": 3198,
+      "duration_seconds": 2.698,
+      "query": "deep motor branch ulnar nerve Guyon's canal anatomy hypothenar muscles"
+    },
+    {
+      "url": "https://www.sensorprod.com/research-articles/vibration-absorption-in-the-tennis-grip-and-the-effects-on-racquet-dynamics",
+      "status": "success",
+      "content_length": 310193,
+      "duration_seconds": 3.308,
+      "query": "tennis racket handle grip hypothenar eminence impact repetitive"
+    },
+    {
+      "url": "https://www.tennisnation.com/free-lessons/technique/ultimate-tennis-grip-system-guide",
+      "status": "success",
+      "content_length": 14219,
+      "duration_seconds": 3.308,
+      "query": "tennis racket handle grip hypothenar eminence impact repetitive"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16861576",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 3.308,
+      "query": "tennis racket handle grip hypothenar eminence impact repetitive"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=9xWRt6YJ-bk",
+      "status": "success",
+      "content_length": 4873,
+      "duration_seconds": 3.308,
+      "query": "tennis racket handle grip hypothenar eminence impact repetitive"
+    },
+    {
+      "url": "https://www.instagram.com/reel/DZaRJV6OTAN",
+      "status": "success",
+      "content_length": 11236,
+      "duration_seconds": 3.308,
+      "query": "tennis racket handle grip hypothenar eminence impact repetitive"
+    }
+  ],
+  "run_id": "fa709f39e77f4a5a9d8d7baad9f2852b",
+  "status": "completed",
+  "qid": "lifesp3KjIoCKZxJ10IgVh",
+  "query": "For young adult recreational tennis players who, after months of daily play, develop stiffness in both pinky fingers, can’t bend them on their own, and notice weaker grip, what are the most likely causes? Based on high-quality evidence from 2015–2026 (medical case reports/series, clinical studies, and guidelines), which treatments—at-home care, splints/therapy, injections, or surgery—tend to work best, and what simple steps help prevent it from coming back after recovery—with extra weight given to findings since 2020?",
+  "duration_seconds": 256.329,
+  "report_length": 12529,
+  "context_length": 328125,
+  "token_counting": "Token counts come only from API-reported usage; missing usage is never estimated."
+}

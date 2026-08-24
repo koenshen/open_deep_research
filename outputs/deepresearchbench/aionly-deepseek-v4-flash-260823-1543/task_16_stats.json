@@ -1,0 +1,5121 @@
+{
+  "session_id": "1148bd0cb42a41ad95392beaba008ad6",
+  "total_llm_calls": 119,
+  "llm_calls_with_token_usage": 119,
+  "llm_calls_missing_token_usage": 0,
+  "token_usage_complete": true,
+  "total_input_tokens": 1363940,
+  "total_output_tokens": 107440,
+  "total_tokens": 1471380,
+  "counted_input_tokens": 1363940,
+  "counted_output_tokens": 107440,
+  "counted_total_tokens": 1471380,
+  "total_search_count": 25,
+  "total_search_results": 125,
+  "total_visit_count": 125,
+  "total_visit_success": 112,
+  "total_visit_failed": 13,
+  "source_urls_count": 113,
+  "llm_calls_detail": [
+    {
+      "sequence": 1,
+      "status": "completed",
+      "started_at": "2026-08-23T19:11:48.182184+08:00",
+      "completed_at": "2026-08-23T19:11:53.076786+08:00",
+      "duration_seconds": 4.895,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 719,
+      "output_tokens": 364,
+      "total_tokens": 1083,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 719,
+        "output_tokens": 364,
+        "total_tokens": 1083,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 2,
+      "status": "completed",
+      "started_at": "2026-08-23T19:11:53.096633+08:00",
+      "completed_at": "2026-08-23T19:11:58.933077+08:00",
+      "duration_seconds": 5.836,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1438,
+      "output_tokens": 552,
+      "total_tokens": 1990,
+      "message_count": 2,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1438,
+        "output_tokens": 552,
+        "total_tokens": 1990,
+        "input_token_details": {},
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 3,
+      "status": "completed",
+      "started_at": "2026-08-23T19:11:58.938331+08:00",
+      "completed_at": "2026-08-23T19:12:08.561345+08:00",
+      "duration_seconds": 9.623,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1934,
+      "output_tokens": 909,
+      "total_tokens": 2843,
+      "message_count": 4,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1934,
+        "output_tokens": 909,
+        "total_tokens": 2843,
+        "input_token_details": {
+          "cache_read": 1024
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 4,
+      "status": "completed",
+      "started_at": "2026-08-23T19:12:08.577329+08:00",
+      "completed_at": "2026-08-23T19:12:11.694079+08:00",
+      "duration_seconds": 3.117,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1262,
+      "output_tokens": 200,
+      "total_tokens": 1462,
+      "message_count": 2,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1262,
+        "output_tokens": 200,
+        "total_tokens": 1462,
+        "input_token_details": {
+          "cache_read": 768
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 5,
+      "status": "completed",
+      "started_at": "2026-08-23T19:12:08.577411+08:00",
+      "completed_at": "2026-08-23T19:12:11.559493+08:00",
+      "duration_seconds": 2.982,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1250,
+      "output_tokens": 195,
+      "total_tokens": 1445,
+      "message_count": 2,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1250,
+        "output_tokens": 195,
+        "total_tokens": 1445,
+        "input_token_details": {
+          "cache_read": 768
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 10,
+      "status": "completed",
+      "started_at": "2026-08-23T19:12:14.593335+08:00",
+      "completed_at": "2026-08-23T19:12:22.155397+08:00",
+      "duration_seconds": 7.562,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 10532,
+      "output_tokens": 682,
+      "total_tokens": 11214,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 10532,
+        "output_tokens": 682,
+        "total_tokens": 11214,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 11,
+      "status": "completed",
+      "started_at": "2026-08-23T19:12:14.593445+08:00",
+      "completed_at": "2026-08-23T19:12:20.554345+08:00",
+      "duration_seconds": 5.961,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8887,
+      "output_tokens": 511,
+      "total_tokens": 9398,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 8887,
+        "output_tokens": 511,
+        "total_tokens": 9398,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 12,
+      "status": "completed",
+      "started_at": "2026-08-23T19:12:14.593597+08:00",
+      "completed_at": "2026-08-23T19:12:23.282188+08:00",
+      "duration_seconds": 8.689,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 14296,
+      "output_tokens": 793,
+      "total_tokens": 15089,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 14296,
+        "output_tokens": 793,
+        "total_tokens": 15089,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 13,
+      "status": "completed",
+      "started_at": "2026-08-23T19:12:14.593638+08:00",
+      "completed_at": "2026-08-23T19:12:20.277515+08:00",
+      "duration_seconds": 5.684,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 10602,
+      "output_tokens": 449,
+      "total_tokens": 11051,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 10602,
+        "output_tokens": 449,
+        "total_tokens": 11051,
+        "input_token_details": {
+          "cache_read": 1024
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 14,
+      "status": "completed",
+      "started_at": "2026-08-23T19:12:14.593677+08:00",
+      "completed_at": "2026-08-23T19:12:26.262131+08:00",
+      "duration_seconds": 11.668,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 13873,
+      "output_tokens": 1022,
+      "total_tokens": 14895,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 13873,
+        "output_tokens": 1022,
+        "total_tokens": 14895,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 15,
+      "status": "completed",
+      "started_at": "2026-08-23T19:12:14.593702+08:00",
+      "completed_at": "2026-08-23T19:12:20.116447+08:00",
+      "duration_seconds": 5.523,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2271,
+      "output_tokens": 422,
+      "total_tokens": 2693,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2271,
+        "output_tokens": 422,
+        "total_tokens": 2693,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 16,
+      "status": "completed",
+      "started_at": "2026-08-23T19:12:14.593744+08:00",
+      "completed_at": "2026-08-23T19:12:23.506032+08:00",
+      "duration_seconds": 8.912,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8114,
+      "output_tokens": 782,
+      "total_tokens": 8896,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 8114,
+        "output_tokens": 782,
+        "total_tokens": 8896,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 17,
+      "status": "completed",
+      "started_at": "2026-08-23T19:12:14.593768+08:00",
+      "completed_at": "2026-08-23T19:12:21.953753+08:00",
+      "duration_seconds": 7.36,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7501,
+      "output_tokens": 692,
+      "total_tokens": 8193,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 7501,
+        "output_tokens": 692,
+        "total_tokens": 8193,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 18,
+      "status": "completed",
+      "started_at": "2026-08-23T19:12:14.593790+08:00",
+      "completed_at": "2026-08-23T19:12:21.876869+08:00",
+      "duration_seconds": 7.283,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3632,
+      "output_tokens": 638,
+      "total_tokens": 4270,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3632,
+        "output_tokens": 638,
+        "total_tokens": 4270,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 19,
+      "status": "completed",
+      "started_at": "2026-08-23T19:12:14.593813+08:00",
+      "completed_at": "2026-08-23T19:12:24.089985+08:00",
+      "duration_seconds": 9.496,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 9207,
+      "output_tokens": 875,
+      "total_tokens": 10082,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 9207,
+        "output_tokens": 875,
+        "total_tokens": 10082,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 20,
+      "status": "completed",
+      "started_at": "2026-08-23T19:12:14.593835+08:00",
+      "completed_at": "2026-08-23T19:12:23.281944+08:00",
+      "duration_seconds": 8.688,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 10412,
+      "output_tokens": 771,
+      "total_tokens": 11183,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 10412,
+        "output_tokens": 771,
+        "total_tokens": 11183,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 21,
+      "status": "completed",
+      "started_at": "2026-08-23T19:12:14.593856+08:00",
+      "completed_at": "2026-08-23T19:12:20.902148+08:00",
+      "duration_seconds": 6.308,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4345,
+      "output_tokens": 534,
+      "total_tokens": 4879,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4345,
+        "output_tokens": 534,
+        "total_tokens": 4879,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 22,
+      "status": "completed",
+      "started_at": "2026-08-23T19:12:14.593877+08:00",
+      "completed_at": "2026-08-23T19:12:23.325262+08:00",
+      "duration_seconds": 8.731,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 10184,
+      "output_tokens": 833,
+      "total_tokens": 11017,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 10184,
+        "output_tokens": 833,
+        "total_tokens": 11017,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 25,
+      "status": "completed",
+      "started_at": "2026-08-23T19:12:15.258593+08:00",
+      "completed_at": "2026-08-23T19:12:23.572853+08:00",
+      "duration_seconds": 8.314,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 17159,
+      "output_tokens": 710,
+      "total_tokens": 17869,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 17159,
+        "output_tokens": 710,
+        "total_tokens": 17869,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 26,
+      "status": "completed",
+      "started_at": "2026-08-23T19:12:15.258692+08:00",
+      "completed_at": "2026-08-23T19:12:22.028279+08:00",
+      "duration_seconds": 6.77,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 12774,
+      "output_tokens": 629,
+      "total_tokens": 13403,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 12774,
+        "output_tokens": 629,
+        "total_tokens": 13403,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 27,
+      "status": "completed",
+      "started_at": "2026-08-23T19:12:15.258775+08:00",
+      "completed_at": "2026-08-23T19:12:20.963780+08:00",
+      "duration_seconds": 5.705,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6050,
+      "output_tokens": 480,
+      "total_tokens": 6530,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 6050,
+        "output_tokens": 480,
+        "total_tokens": 6530,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 28,
+      "status": "completed",
+      "started_at": "2026-08-23T19:12:15.258820+08:00",
+      "completed_at": "2026-08-23T19:12:20.098540+08:00",
+      "duration_seconds": 4.84,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 10596,
+      "output_tokens": 393,
+      "total_tokens": 10989,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 10596,
+        "output_tokens": 393,
+        "total_tokens": 10989,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 29,
+      "status": "completed",
+      "started_at": "2026-08-23T19:12:15.258853+08:00",
+      "completed_at": "2026-08-23T19:12:22.248242+08:00",
+      "duration_seconds": 6.989,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 15260,
+      "output_tokens": 626,
+      "total_tokens": 15886,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 15260,
+        "output_tokens": 626,
+        "total_tokens": 15886,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 30,
+      "status": "completed",
+      "started_at": "2026-08-23T19:12:15.258883+08:00",
+      "completed_at": "2026-08-23T19:12:25.796529+08:00",
+      "duration_seconds": 10.538,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 15165,
+      "output_tokens": 978,
+      "total_tokens": 16143,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 15165,
+        "output_tokens": 978,
+        "total_tokens": 16143,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 31,
+      "status": "completed",
+      "started_at": "2026-08-23T19:12:15.258914+08:00",
+      "completed_at": "2026-08-23T19:12:20.012464+08:00",
+      "duration_seconds": 4.754,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3115,
+      "output_tokens": 378,
+      "total_tokens": 3493,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3115,
+        "output_tokens": 378,
+        "total_tokens": 3493,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 32,
+      "status": "completed",
+      "started_at": "2026-08-23T19:12:15.258941+08:00",
+      "completed_at": "2026-08-23T19:12:21.527776+08:00",
+      "duration_seconds": 6.269,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 15144,
+      "output_tokens": 557,
+      "total_tokens": 15701,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 15144,
+        "output_tokens": 557,
+        "total_tokens": 15701,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 33,
+      "status": "completed",
+      "started_at": "2026-08-23T19:12:15.258982+08:00",
+      "completed_at": "2026-08-23T19:12:22.926396+08:00",
+      "duration_seconds": 7.667,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 10228,
+      "output_tokens": 726,
+      "total_tokens": 10954,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 10228,
+        "output_tokens": 726,
+        "total_tokens": 10954,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 34,
+      "status": "completed",
+      "started_at": "2026-08-23T19:12:15.259010+08:00",
+      "completed_at": "2026-08-23T19:12:19.576092+08:00",
+      "duration_seconds": 4.317,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1821,
+      "output_tokens": 314,
+      "total_tokens": 2135,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1821,
+        "output_tokens": 314,
+        "total_tokens": 2135,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 35,
+      "status": "completed",
+      "started_at": "2026-08-23T19:12:15.259401+08:00",
+      "completed_at": "2026-08-23T19:12:21.091638+08:00",
+      "duration_seconds": 5.832,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 11256,
+      "output_tokens": 552,
+      "total_tokens": 11808,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 11256,
+        "output_tokens": 552,
+        "total_tokens": 11808,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 36,
+      "status": "completed",
+      "started_at": "2026-08-23T19:12:15.259480+08:00",
+      "completed_at": "2026-08-23T19:12:21.103680+08:00",
+      "duration_seconds": 5.844,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 12641,
+      "output_tokens": 445,
+      "total_tokens": 13086,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 12641,
+        "output_tokens": 445,
+        "total_tokens": 13086,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 37,
+      "status": "completed",
+      "started_at": "2026-08-23T19:12:15.259524+08:00",
+      "completed_at": "2026-08-23T19:12:21.008371+08:00",
+      "duration_seconds": 5.749,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6556,
+      "output_tokens": 497,
+      "total_tokens": 7053,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 6556,
+        "output_tokens": 497,
+        "total_tokens": 7053,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 38,
+      "status": "completed",
+      "started_at": "2026-08-23T19:12:15.259553+08:00",
+      "completed_at": "2026-08-23T19:12:21.828534+08:00",
+      "duration_seconds": 6.569,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 14851,
+      "output_tokens": 583,
+      "total_tokens": 15434,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 14851,
+        "output_tokens": 583,
+        "total_tokens": 15434,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 39,
+      "status": "completed",
+      "started_at": "2026-08-23T19:12:15.259577+08:00",
+      "completed_at": "2026-08-23T19:12:23.294163+08:00",
+      "duration_seconds": 8.035,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 12205,
+      "output_tokens": 739,
+      "total_tokens": 12944,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 12205,
+        "output_tokens": 739,
+        "total_tokens": 12944,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 40,
+      "status": "completed",
+      "started_at": "2026-08-23T19:12:25.805382+08:00",
+      "completed_at": "2026-08-23T19:12:31.264591+08:00",
+      "duration_seconds": 5.459,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 10520,
+      "output_tokens": 394,
+      "total_tokens": 10914,
+      "message_count": 4,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 10520,
+        "output_tokens": 394,
+        "total_tokens": 10914,
+        "input_token_details": {
+          "cache_read": 1024
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 41,
+      "status": "completed",
+      "started_at": "2026-08-23T19:12:26.269899+08:00",
+      "completed_at": "2026-08-23T19:12:33.442421+08:00",
+      "duration_seconds": 7.173,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 10934,
+      "output_tokens": 499,
+      "total_tokens": 11433,
+      "message_count": 4,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 10934,
+        "output_tokens": 499,
+        "total_tokens": 11433,
+        "input_token_details": {
+          "cache_read": 1024
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 42,
+      "status": "completed",
+      "started_at": "2026-08-23T19:12:31.274830+08:00",
+      "completed_at": "2026-08-23T19:12:34.483329+08:00",
+      "duration_seconds": 3.208,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 10755,
+      "output_tokens": 148,
+      "total_tokens": 10903,
+      "message_count": 6,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 10755,
+        "output_tokens": 148,
+        "total_tokens": 10903,
+        "input_token_details": {
+          "cache_read": 10496
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 49,
+      "status": "completed",
+      "started_at": "2026-08-23T19:12:37.382903+08:00",
+      "completed_at": "2026-08-23T19:12:44.003984+08:00",
+      "duration_seconds": 6.621,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 15340,
+      "output_tokens": 598,
+      "total_tokens": 15938,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 15340,
+        "output_tokens": 598,
+        "total_tokens": 15938,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 50,
+      "status": "completed",
+      "started_at": "2026-08-23T19:12:37.383001+08:00",
+      "completed_at": "2026-08-23T19:12:43.202802+08:00",
+      "duration_seconds": 5.82,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2715,
+      "output_tokens": 474,
+      "total_tokens": 3189,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2715,
+        "output_tokens": 474,
+        "total_tokens": 3189,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 51,
+      "status": "completed",
+      "started_at": "2026-08-23T19:12:37.383205+08:00",
+      "completed_at": "2026-08-23T19:12:43.105129+08:00",
+      "duration_seconds": 5.722,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 9796,
+      "output_tokens": 510,
+      "total_tokens": 10306,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 9796,
+        "output_tokens": 510,
+        "total_tokens": 10306,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 52,
+      "status": "completed",
+      "started_at": "2026-08-23T19:12:37.383248+08:00",
+      "completed_at": "2026-08-23T19:12:47.807510+08:00",
+      "duration_seconds": 10.424,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7221,
+      "output_tokens": 1011,
+      "total_tokens": 8232,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 7221,
+        "output_tokens": 1011,
+        "total_tokens": 8232,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 53,
+      "status": "completed",
+      "started_at": "2026-08-23T19:12:37.383278+08:00",
+      "completed_at": "2026-08-23T19:12:43.986109+08:00",
+      "duration_seconds": 6.603,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8285,
+      "output_tokens": 571,
+      "total_tokens": 8856,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 8285,
+        "output_tokens": 571,
+        "total_tokens": 8856,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 54,
+      "status": "completed",
+      "started_at": "2026-08-23T19:12:37.383305+08:00",
+      "completed_at": "2026-08-23T19:12:44.172689+08:00",
+      "duration_seconds": 6.789,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 12230,
+      "output_tokens": 558,
+      "total_tokens": 12788,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 12230,
+        "output_tokens": 558,
+        "total_tokens": 12788,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 55,
+      "status": "completed",
+      "started_at": "2026-08-23T19:12:37.383330+08:00",
+      "completed_at": "2026-08-23T19:12:45.277143+08:00",
+      "duration_seconds": 7.894,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 25377,
+      "output_tokens": 657,
+      "total_tokens": 26034,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 25377,
+        "output_tokens": 657,
+        "total_tokens": 26034,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 56,
+      "status": "completed",
+      "started_at": "2026-08-23T19:12:37.383353+08:00",
+      "completed_at": "2026-08-23T19:12:44.885881+08:00",
+      "duration_seconds": 7.503,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8480,
+      "output_tokens": 693,
+      "total_tokens": 9173,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 8480,
+        "output_tokens": 693,
+        "total_tokens": 9173,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 57,
+      "status": "completed",
+      "started_at": "2026-08-23T19:12:37.383378+08:00",
+      "completed_at": "2026-08-23T19:12:42.665692+08:00",
+      "duration_seconds": 5.282,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8886,
+      "output_tokens": 347,
+      "total_tokens": 9233,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 8886,
+        "output_tokens": 347,
+        "total_tokens": 9233,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 58,
+      "status": "completed",
+      "started_at": "2026-08-23T19:12:37.383409+08:00",
+      "completed_at": "2026-08-23T19:12:44.492461+08:00",
+      "duration_seconds": 7.109,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 10966,
+      "output_tokens": 574,
+      "total_tokens": 11540,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 10966,
+        "output_tokens": 574,
+        "total_tokens": 11540,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 59,
+      "status": "completed",
+      "started_at": "2026-08-23T19:12:37.383432+08:00",
+      "completed_at": "2026-08-23T19:12:43.212728+08:00",
+      "duration_seconds": 5.829,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 12222,
+      "output_tokens": 468,
+      "total_tokens": 12690,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 12222,
+        "output_tokens": 468,
+        "total_tokens": 12690,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 60,
+      "status": "completed",
+      "started_at": "2026-08-23T19:12:37.383454+08:00",
+      "completed_at": "2026-08-23T19:12:43.782235+08:00",
+      "duration_seconds": 6.399,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 18508,
+      "output_tokens": 550,
+      "total_tokens": 19058,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 18508,
+        "output_tokens": 550,
+        "total_tokens": 19058,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 64,
+      "status": "completed",
+      "started_at": "2026-08-23T19:12:40.257126+08:00",
+      "completed_at": "2026-08-23T19:12:45.572967+08:00",
+      "duration_seconds": 5.316,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4404,
+      "output_tokens": 478,
+      "total_tokens": 4882,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4404,
+        "output_tokens": 478,
+        "total_tokens": 4882,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 65,
+      "status": "completed",
+      "started_at": "2026-08-23T19:12:40.257205+08:00",
+      "completed_at": "2026-08-23T19:12:44.595399+08:00",
+      "duration_seconds": 4.338,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1881,
+      "output_tokens": 387,
+      "total_tokens": 2268,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1881,
+        "output_tokens": 387,
+        "total_tokens": 2268,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 66,
+      "status": "completed",
+      "started_at": "2026-08-23T19:12:40.257252+08:00",
+      "completed_at": "2026-08-23T19:12:44.992076+08:00",
+      "duration_seconds": 4.735,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 13509,
+      "output_tokens": 380,
+      "total_tokens": 13889,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 13509,
+        "output_tokens": 380,
+        "total_tokens": 13889,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 67,
+      "status": "completed",
+      "started_at": "2026-08-23T19:12:40.257294+08:00",
+      "completed_at": "2026-08-23T19:12:44.462158+08:00",
+      "duration_seconds": 4.205,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2654,
+      "output_tokens": 339,
+      "total_tokens": 2993,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2654,
+        "output_tokens": 339,
+        "total_tokens": 2993,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 68,
+      "status": "completed",
+      "started_at": "2026-08-23T19:12:40.257317+08:00",
+      "completed_at": "2026-08-23T19:12:44.808778+08:00",
+      "duration_seconds": 4.551,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 11191,
+      "output_tokens": 349,
+      "total_tokens": 11540,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 11191,
+        "output_tokens": 349,
+        "total_tokens": 11540,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 69,
+      "status": "completed",
+      "started_at": "2026-08-23T19:12:40.257335+08:00",
+      "completed_at": "2026-08-23T19:12:47.695912+08:00",
+      "duration_seconds": 7.439,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 12885,
+      "output_tokens": 690,
+      "total_tokens": 13575,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 12885,
+        "output_tokens": 690,
+        "total_tokens": 13575,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 70,
+      "status": "completed",
+      "started_at": "2026-08-23T19:12:40.257351+08:00",
+      "completed_at": "2026-08-23T19:12:51.343871+08:00",
+      "duration_seconds": 11.087,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 13370,
+      "output_tokens": 896,
+      "total_tokens": 14266,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 13370,
+        "output_tokens": 896,
+        "total_tokens": 14266,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 71,
+      "status": "completed",
+      "started_at": "2026-08-23T19:12:40.257366+08:00",
+      "completed_at": "2026-08-23T19:12:47.155877+08:00",
+      "duration_seconds": 6.899,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 13883,
+      "output_tokens": 541,
+      "total_tokens": 14424,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 13883,
+        "output_tokens": 541,
+        "total_tokens": 14424,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 72,
+      "status": "completed",
+      "started_at": "2026-08-23T19:12:40.257380+08:00",
+      "completed_at": "2026-08-23T19:12:43.687495+08:00",
+      "duration_seconds": 3.43,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1697,
+      "output_tokens": 240,
+      "total_tokens": 1937,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1697,
+        "output_tokens": 240,
+        "total_tokens": 1937,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 73,
+      "status": "completed",
+      "started_at": "2026-08-23T19:12:40.257395+08:00",
+      "completed_at": "2026-08-23T19:12:47.094483+08:00",
+      "duration_seconds": 6.837,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 11687,
+      "output_tokens": 617,
+      "total_tokens": 12304,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 11687,
+        "output_tokens": 617,
+        "total_tokens": 12304,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 74,
+      "status": "completed",
+      "started_at": "2026-08-23T19:12:40.257409+08:00",
+      "completed_at": "2026-08-23T19:12:47.957704+08:00",
+      "duration_seconds": 7.7,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 13199,
+      "output_tokens": 724,
+      "total_tokens": 13923,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 13199,
+        "output_tokens": 724,
+        "total_tokens": 13923,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 75,
+      "status": "completed",
+      "started_at": "2026-08-23T19:12:40.257423+08:00",
+      "completed_at": "2026-08-23T19:12:48.076467+08:00",
+      "duration_seconds": 7.819,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 13461,
+      "output_tokens": 734,
+      "total_tokens": 14195,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 13461,
+        "output_tokens": 734,
+        "total_tokens": 14195,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 76,
+      "status": "completed",
+      "started_at": "2026-08-23T19:12:40.257439+08:00",
+      "completed_at": "2026-08-23T19:12:47.090360+08:00",
+      "duration_seconds": 6.833,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 12976,
+      "output_tokens": 548,
+      "total_tokens": 13524,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 12976,
+        "output_tokens": 548,
+        "total_tokens": 13524,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 77,
+      "status": "completed",
+      "started_at": "2026-08-23T19:12:40.257454+08:00",
+      "completed_at": "2026-08-23T19:12:48.748347+08:00",
+      "duration_seconds": 8.491,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 13015,
+      "output_tokens": 781,
+      "total_tokens": 13796,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 13015,
+        "output_tokens": 781,
+        "total_tokens": 13796,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 78,
+      "status": "completed",
+      "started_at": "2026-08-23T19:12:40.257468+08:00",
+      "completed_at": "2026-08-23T19:12:45.437422+08:00",
+      "duration_seconds": 5.18,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1746,
+      "output_tokens": 406,
+      "total_tokens": 2152,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1746,
+        "output_tokens": 406,
+        "total_tokens": 2152,
+        "input_token_details": {
+          "cache_read": 512
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 79,
+      "status": "completed",
+      "started_at": "2026-08-23T19:12:40.257482+08:00",
+      "completed_at": "2026-08-23T19:12:45.763905+08:00",
+      "duration_seconds": 5.506,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7882,
+      "output_tokens": 474,
+      "total_tokens": 8356,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 7882,
+        "output_tokens": 474,
+        "total_tokens": 8356,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 80,
+      "status": "completed",
+      "started_at": "2026-08-23T19:12:40.257497+08:00",
+      "completed_at": "2026-08-23T19:12:44.670820+08:00",
+      "duration_seconds": 4.413,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1909,
+      "output_tokens": 336,
+      "total_tokens": 2245,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1909,
+        "output_tokens": 336,
+        "total_tokens": 2245,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 81,
+      "status": "completed",
+      "started_at": "2026-08-23T19:12:40.257511+08:00",
+      "completed_at": "2026-08-23T19:12:49.322109+08:00",
+      "duration_seconds": 9.065,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 12574,
+      "output_tokens": 877,
+      "total_tokens": 13451,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 12574,
+        "output_tokens": 877,
+        "total_tokens": 13451,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 82,
+      "status": "completed",
+      "started_at": "2026-08-23T19:12:40.257541+08:00",
+      "completed_at": "2026-08-23T19:12:45.991907+08:00",
+      "duration_seconds": 5.734,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 12849,
+      "output_tokens": 431,
+      "total_tokens": 13280,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 12849,
+        "output_tokens": 431,
+        "total_tokens": 13280,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 83,
+      "status": "completed",
+      "started_at": "2026-08-23T19:12:40.257555+08:00",
+      "completed_at": "2026-08-23T19:12:44.314854+08:00",
+      "duration_seconds": 4.057,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1535,
+      "output_tokens": 301,
+      "total_tokens": 1836,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1535,
+        "output_tokens": 301,
+        "total_tokens": 1836,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 84,
+      "status": "completed",
+      "started_at": "2026-08-23T19:12:47.823281+08:00",
+      "completed_at": "2026-08-23T19:12:51.829711+08:00",
+      "duration_seconds": 4.006,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 18941,
+      "output_tokens": 223,
+      "total_tokens": 19164,
+      "message_count": 7,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 18941,
+        "output_tokens": 223,
+        "total_tokens": 19164,
+        "input_token_details": {
+          "cache_read": 10752
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 85,
+      "status": "completed",
+      "started_at": "2026-08-23T19:12:51.353848+08:00",
+      "completed_at": "2026-08-23T19:12:57.199784+08:00",
+      "duration_seconds": 5.846,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 22663,
+      "output_tokens": 158,
+      "total_tokens": 22821,
+      "message_count": 8,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 22663,
+        "output_tokens": 158,
+        "total_tokens": 22821,
+        "input_token_details": {
+          "cache_read": 10752
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 91,
+      "status": "completed",
+      "started_at": "2026-08-23T19:12:56.331023+08:00",
+      "completed_at": "2026-08-23T19:13:03.015381+08:00",
+      "duration_seconds": 6.684,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 13153,
+      "output_tokens": 495,
+      "total_tokens": 13648,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 13153,
+        "output_tokens": 495,
+        "total_tokens": 13648,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 92,
+      "status": "completed",
+      "started_at": "2026-08-23T19:12:56.331120+08:00",
+      "completed_at": "2026-08-23T19:13:01.153452+08:00",
+      "duration_seconds": 4.822,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2841,
+      "output_tokens": 396,
+      "total_tokens": 3237,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2841,
+        "output_tokens": 396,
+        "total_tokens": 3237,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 93,
+      "status": "completed",
+      "started_at": "2026-08-23T19:12:56.331477+08:00",
+      "completed_at": "2026-08-23T19:13:02.599507+08:00",
+      "duration_seconds": 6.268,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 13251,
+      "output_tokens": 558,
+      "total_tokens": 13809,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 13251,
+        "output_tokens": 558,
+        "total_tokens": 13809,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 94,
+      "status": "completed",
+      "started_at": "2026-08-23T19:12:56.331521+08:00",
+      "completed_at": "2026-08-23T19:13:00.364673+08:00",
+      "duration_seconds": 4.033,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1806,
+      "output_tokens": 329,
+      "total_tokens": 2135,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1806,
+        "output_tokens": 329,
+        "total_tokens": 2135,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 95,
+      "status": "completed",
+      "started_at": "2026-08-23T19:12:56.331550+08:00",
+      "completed_at": "2026-08-23T19:13:07.219942+08:00",
+      "duration_seconds": 10.888,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6527,
+      "output_tokens": 998,
+      "total_tokens": 7525,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 6527,
+        "output_tokens": 998,
+        "total_tokens": 7525,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 96,
+      "status": "completed",
+      "started_at": "2026-08-23T19:12:56.331575+08:00",
+      "completed_at": "2026-08-23T19:13:06.343768+08:00",
+      "duration_seconds": 10.012,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 23872,
+      "output_tokens": 841,
+      "total_tokens": 24713,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 23872,
+        "output_tokens": 841,
+        "total_tokens": 24713,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 97,
+      "status": "completed",
+      "started_at": "2026-08-23T19:12:56.331598+08:00",
+      "completed_at": "2026-08-23T19:13:01.417531+08:00",
+      "duration_seconds": 5.086,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2196,
+      "output_tokens": 460,
+      "total_tokens": 2656,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2196,
+        "output_tokens": 460,
+        "total_tokens": 2656,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 98,
+      "status": "completed",
+      "started_at": "2026-08-23T19:12:56.331622+08:00",
+      "completed_at": "2026-08-23T19:13:02.588427+08:00",
+      "duration_seconds": 6.257,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2722,
+      "output_tokens": 571,
+      "total_tokens": 3293,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2722,
+        "output_tokens": 571,
+        "total_tokens": 3293,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 99,
+      "status": "completed",
+      "started_at": "2026-08-23T19:12:56.331647+08:00",
+      "completed_at": "2026-08-23T19:13:03.211422+08:00",
+      "duration_seconds": 6.88,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 14577,
+      "output_tokens": 686,
+      "total_tokens": 15263,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 14577,
+        "output_tokens": 686,
+        "total_tokens": 15263,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 100,
+      "status": "completed",
+      "started_at": "2026-08-23T19:12:56.331671+08:00",
+      "completed_at": "2026-08-23T19:13:04.403778+08:00",
+      "duration_seconds": 8.072,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 15290,
+      "output_tokens": 752,
+      "total_tokens": 16042,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 15290,
+        "output_tokens": 752,
+        "total_tokens": 16042,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 101,
+      "status": "completed",
+      "started_at": "2026-08-23T19:12:56.331694+08:00",
+      "completed_at": "2026-08-23T19:13:02.842248+08:00",
+      "duration_seconds": 6.511,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6655,
+      "output_tokens": 584,
+      "total_tokens": 7239,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 6655,
+        "output_tokens": 584,
+        "total_tokens": 7239,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 102,
+      "status": "completed",
+      "started_at": "2026-08-23T19:12:56.331716+08:00",
+      "completed_at": "2026-08-23T19:13:03.512956+08:00",
+      "duration_seconds": 7.181,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 12399,
+      "output_tokens": 639,
+      "total_tokens": 13038,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 12399,
+        "output_tokens": 639,
+        "total_tokens": 13038,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 103,
+      "status": "completed",
+      "started_at": "2026-08-23T19:12:56.331738+08:00",
+      "completed_at": "2026-08-23T19:13:04.191276+08:00",
+      "duration_seconds": 7.86,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 12593,
+      "output_tokens": 631,
+      "total_tokens": 13224,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 12593,
+        "output_tokens": 631,
+        "total_tokens": 13224,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 104,
+      "status": "completed",
+      "started_at": "2026-08-23T19:12:56.331759+08:00",
+      "completed_at": "2026-08-23T19:13:03.739901+08:00",
+      "duration_seconds": 7.408,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4832,
+      "output_tokens": 724,
+      "total_tokens": 5556,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4832,
+        "output_tokens": 724,
+        "total_tokens": 5556,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 105,
+      "status": "completed",
+      "started_at": "2026-08-23T19:12:56.331783+08:00",
+      "completed_at": "2026-08-23T19:13:05.720635+08:00",
+      "duration_seconds": 9.389,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 12592,
+      "output_tokens": 924,
+      "total_tokens": 13516,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 12592,
+        "output_tokens": 924,
+        "total_tokens": 13516,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 106,
+      "status": "completed",
+      "started_at": "2026-08-23T19:12:56.331806+08:00",
+      "completed_at": "2026-08-23T19:13:02.654675+08:00",
+      "duration_seconds": 6.323,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 10031,
+      "output_tokens": 529,
+      "total_tokens": 10560,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 10031,
+        "output_tokens": 529,
+        "total_tokens": 10560,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 107,
+      "status": "completed",
+      "started_at": "2026-08-23T19:12:56.331830+08:00",
+      "completed_at": "2026-08-23T19:13:03.505254+08:00",
+      "duration_seconds": 7.173,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 15533,
+      "output_tokens": 602,
+      "total_tokens": 16135,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 15533,
+        "output_tokens": 602,
+        "total_tokens": 16135,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 116,
+      "status": "completed",
+      "started_at": "2026-08-23T19:13:01.305924+08:00",
+      "completed_at": "2026-08-23T19:13:09.038529+08:00",
+      "duration_seconds": 7.733,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 12734,
+      "output_tokens": 577,
+      "total_tokens": 13311,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 12734,
+        "output_tokens": 577,
+        "total_tokens": 13311,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 117,
+      "status": "completed",
+      "started_at": "2026-08-23T19:13:01.306014+08:00",
+      "completed_at": "2026-08-23T19:13:08.681850+08:00",
+      "duration_seconds": 7.376,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 15026,
+      "output_tokens": 691,
+      "total_tokens": 15717,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 15026,
+        "output_tokens": 691,
+        "total_tokens": 15717,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 118,
+      "status": "completed",
+      "started_at": "2026-08-23T19:13:01.306103+08:00",
+      "completed_at": "2026-08-23T19:13:07.956701+08:00",
+      "duration_seconds": 6.651,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7560,
+      "output_tokens": 550,
+      "total_tokens": 8110,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 7560,
+        "output_tokens": 550,
+        "total_tokens": 8110,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 119,
+      "status": "completed",
+      "started_at": "2026-08-23T19:13:01.306141+08:00",
+      "completed_at": "2026-08-23T19:13:08.051511+08:00",
+      "duration_seconds": 6.745,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 14172,
+      "output_tokens": 554,
+      "total_tokens": 14726,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 14172,
+        "output_tokens": 554,
+        "total_tokens": 14726,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 120,
+      "status": "completed",
+      "started_at": "2026-08-23T19:13:01.306172+08:00",
+      "completed_at": "2026-08-23T19:13:09.210402+08:00",
+      "duration_seconds": 7.904,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 13919,
+      "output_tokens": 691,
+      "total_tokens": 14610,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 13919,
+        "output_tokens": 691,
+        "total_tokens": 14610,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 121,
+      "status": "completed",
+      "started_at": "2026-08-23T19:13:01.306197+08:00",
+      "completed_at": "2026-08-23T19:13:09.089047+08:00",
+      "duration_seconds": 7.783,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 12125,
+      "output_tokens": 663,
+      "total_tokens": 12788,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 12125,
+        "output_tokens": 663,
+        "total_tokens": 12788,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 122,
+      "status": "completed",
+      "started_at": "2026-08-23T19:13:01.306220+08:00",
+      "completed_at": "2026-08-23T19:13:08.087181+08:00",
+      "duration_seconds": 6.781,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 13547,
+      "output_tokens": 580,
+      "total_tokens": 14127,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 13547,
+        "output_tokens": 580,
+        "total_tokens": 14127,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 123,
+      "status": "completed",
+      "started_at": "2026-08-23T19:13:01.306255+08:00",
+      "completed_at": "2026-08-23T19:13:08.911479+08:00",
+      "duration_seconds": 7.605,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8500,
+      "output_tokens": 595,
+      "total_tokens": 9095,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 8500,
+        "output_tokens": 595,
+        "total_tokens": 9095,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 124,
+      "status": "completed",
+      "started_at": "2026-08-23T19:13:01.306278+08:00",
+      "completed_at": "2026-08-23T19:13:08.897541+08:00",
+      "duration_seconds": 7.591,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 12812,
+      "output_tokens": 587,
+      "total_tokens": 13399,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 12812,
+        "output_tokens": 587,
+        "total_tokens": 13399,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 125,
+      "status": "completed",
+      "started_at": "2026-08-23T19:13:01.306300+08:00",
+      "completed_at": "2026-08-23T19:13:07.899070+08:00",
+      "duration_seconds": 6.593,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 14062,
+      "output_tokens": 541,
+      "total_tokens": 14603,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 14062,
+        "output_tokens": 541,
+        "total_tokens": 14603,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 126,
+      "status": "completed",
+      "started_at": "2026-08-23T19:13:01.306323+08:00",
+      "completed_at": "2026-08-23T19:13:10.815002+08:00",
+      "duration_seconds": 9.509,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 14564,
+      "output_tokens": 733,
+      "total_tokens": 15297,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 14564,
+        "output_tokens": 733,
+        "total_tokens": 15297,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 127,
+      "status": "completed",
+      "started_at": "2026-08-23T19:13:01.306344+08:00",
+      "completed_at": "2026-08-23T19:13:08.031867+08:00",
+      "duration_seconds": 6.726,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 11434,
+      "output_tokens": 614,
+      "total_tokens": 12048,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 11434,
+        "output_tokens": 614,
+        "total_tokens": 12048,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 128,
+      "status": "completed",
+      "started_at": "2026-08-23T19:13:01.306365+08:00",
+      "completed_at": "2026-08-23T19:13:04.191523+08:00",
+      "duration_seconds": 2.885,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3289,
+      "output_tokens": 165,
+      "total_tokens": 3454,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3289,
+        "output_tokens": 165,
+        "total_tokens": 3454,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 129,
+      "status": "completed",
+      "started_at": "2026-08-23T19:13:01.306385+08:00",
+      "completed_at": "2026-08-23T19:13:06.251094+08:00",
+      "duration_seconds": 4.945,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3873,
+      "output_tokens": 365,
+      "total_tokens": 4238,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3873,
+        "output_tokens": 365,
+        "total_tokens": 4238,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 130,
+      "status": "completed",
+      "started_at": "2026-08-23T19:13:01.306408+08:00",
+      "completed_at": "2026-08-23T19:13:08.178277+08:00",
+      "duration_seconds": 6.872,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 12020,
+      "output_tokens": 484,
+      "total_tokens": 12504,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 12020,
+        "output_tokens": 484,
+        "total_tokens": 12504,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 131,
+      "status": "completed",
+      "started_at": "2026-08-23T19:13:01.306429+08:00",
+      "completed_at": "2026-08-23T19:13:08.193639+08:00",
+      "duration_seconds": 6.887,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 12018,
+      "output_tokens": 590,
+      "total_tokens": 12608,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 12018,
+        "output_tokens": 590,
+        "total_tokens": 12608,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 132,
+      "status": "completed",
+      "started_at": "2026-08-23T19:13:01.306450+08:00",
+      "completed_at": "2026-08-23T19:13:07.336920+08:00",
+      "duration_seconds": 6.03,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 12520,
+      "output_tokens": 502,
+      "total_tokens": 13022,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 12520,
+        "output_tokens": 502,
+        "total_tokens": 13022,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 133,
+      "status": "completed",
+      "started_at": "2026-08-23T19:13:01.306487+08:00",
+      "completed_at": "2026-08-23T19:13:05.937823+08:00",
+      "duration_seconds": 4.631,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1826,
+      "output_tokens": 315,
+      "total_tokens": 2141,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 1826,
+        "output_tokens": 315,
+        "total_tokens": 2141,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 134,
+      "status": "completed",
+      "started_at": "2026-08-23T19:13:01.306570+08:00",
+      "completed_at": "2026-08-23T19:13:09.624140+08:00",
+      "duration_seconds": 8.318,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 13974,
+      "output_tokens": 726,
+      "total_tokens": 14700,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 13974,
+        "output_tokens": 726,
+        "total_tokens": 14700,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 135,
+      "status": "completed",
+      "started_at": "2026-08-23T19:13:07.230883+08:00",
+      "completed_at": "2026-08-23T19:13:16.499802+08:00",
+      "duration_seconds": 9.269,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 31371,
+      "output_tokens": 751,
+      "total_tokens": 32122,
+      "message_count": 9,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 31371,
+        "output_tokens": 751,
+        "total_tokens": 32122,
+        "input_token_details": {},
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 136,
+      "status": "completed",
+      "started_at": "2026-08-23T19:13:10.823599+08:00",
+      "completed_at": "2026-08-23T19:13:14.140337+08:00",
+      "duration_seconds": 3.322,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 35871,
+      "output_tokens": 126,
+      "total_tokens": 35997,
+      "message_count": 10,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 35871,
+        "output_tokens": 126,
+        "total_tokens": 35997,
+        "input_token_details": {
+          "cache_read": 22528
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 137,
+      "status": "completed",
+      "started_at": "2026-08-23T19:13:16.515103+08:00",
+      "completed_at": "2026-08-23T19:14:12.235336+08:00",
+      "duration_seconds": 55.72,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 31528,
+      "output_tokens": 6225,
+      "total_tokens": 37753,
+      "message_count": 11,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 31528,
+        "output_tokens": 6225,
+        "total_tokens": 37753,
+        "input_token_details": {
+          "cache_read": 18688
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "end_turn"
+    },
+    {
+      "sequence": 144,
+      "status": "completed",
+      "started_at": "2026-08-23T19:13:17.345860+08:00",
+      "completed_at": "2026-08-23T19:13:27.720713+08:00",
+      "duration_seconds": 10.375,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 11296,
+      "output_tokens": 976,
+      "total_tokens": 12272,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 11296,
+        "output_tokens": 976,
+        "total_tokens": 12272,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 145,
+      "status": "completed",
+      "started_at": "2026-08-23T19:13:17.345956+08:00",
+      "completed_at": "2026-08-23T19:13:23.384507+08:00",
+      "duration_seconds": 6.039,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2842,
+      "output_tokens": 472,
+      "total_tokens": 3314,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 2842,
+        "output_tokens": 472,
+        "total_tokens": 3314,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 146,
+      "status": "completed",
+      "started_at": "2026-08-23T19:13:17.346006+08:00",
+      "completed_at": "2026-08-23T19:13:24.451949+08:00",
+      "duration_seconds": 7.106,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4974,
+      "output_tokens": 563,
+      "total_tokens": 5537,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 4974,
+        "output_tokens": 563,
+        "total_tokens": 5537,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 147,
+      "status": "completed",
+      "started_at": "2026-08-23T19:13:17.346047+08:00",
+      "completed_at": "2026-08-23T19:13:22.212911+08:00",
+      "duration_seconds": 4.867,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3640,
+      "output_tokens": 364,
+      "total_tokens": 4004,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 3640,
+        "output_tokens": 364,
+        "total_tokens": 4004,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 148,
+      "status": "completed",
+      "started_at": "2026-08-23T19:13:17.346078+08:00",
+      "completed_at": "2026-08-23T19:13:23.697842+08:00",
+      "duration_seconds": 6.352,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 9860,
+      "output_tokens": 580,
+      "total_tokens": 10440,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 9860,
+        "output_tokens": 580,
+        "total_tokens": 10440,
+        "input_token_details": {
+          "cache_read": 256
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 149,
+      "status": "completed",
+      "started_at": "2026-08-23T19:13:27.726270+08:00",
+      "completed_at": "2026-08-23T19:15:42.054105+08:00",
+      "duration_seconds": 134.327,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 41469,
+      "output_tokens": 16750,
+      "total_tokens": 58219,
+      "message_count": 13,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 41469,
+        "output_tokens": 16750,
+        "total_tokens": 58219,
+        "input_token_details": {
+          "cache_read": 512
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "end_turn"
+    },
+    {
+      "sequence": 150,
+      "status": "completed",
+      "started_at": "2026-08-23T19:14:12.243049+08:00",
+      "completed_at": "2026-08-23T19:15:51.878461+08:00",
+      "duration_seconds": 99.635,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 37463,
+      "output_tokens": 12594,
+      "total_tokens": 50057,
+      "message_count": 13,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 37463,
+        "output_tokens": 12594,
+        "total_tokens": 50057,
+        "input_token_details": {
+          "cache_read": 512
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "end_turn"
+    },
+    {
+      "sequence": 151,
+      "status": "completed",
+      "started_at": "2026-08-23T19:15:51.889843+08:00",
+      "completed_at": "2026-08-23T19:16:00.966080+08:00",
+      "duration_seconds": 9.076,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 31936,
+      "output_tokens": 572,
+      "total_tokens": 32508,
+      "message_count": 7,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 31936,
+        "output_tokens": 572,
+        "total_tokens": 32508,
+        "input_token_details": {
+          "cache_read": 1792
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 152,
+      "status": "completed",
+      "started_at": "2026-08-23T19:16:00.976859+08:00",
+      "completed_at": "2026-08-23T19:16:03.617563+08:00",
+      "duration_seconds": 2.641,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 32502,
+      "output_tokens": 62,
+      "total_tokens": 32564,
+      "message_count": 9,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 32502,
+        "output_tokens": 62,
+        "total_tokens": 32564,
+        "input_token_details": {
+          "cache_read": 31744
+        },
+        "output_token_details": {}
+      },
+      "finish_reason": "tool_use"
+    },
+    {
+      "sequence": 153,
+      "status": "completed",
+      "started_at": "2026-08-23T19:16:03.626286+08:00",
+      "completed_at": "2026-08-23T19:17:11.128660+08:00",
+      "duration_seconds": 67.502,
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 30917,
+      "output_tokens": 7370,
+      "total_tokens": 38287,
+      "message_count": 1,
+      "token_usage_source": "AIMessage.usage_metadata",
+      "token_usage_available": true,
+      "token_usage_details": {
+        "input_tokens": 30917,
+        "output_tokens": 7370,
+        "total_tokens": 38287,
+        "input_token_details": {},
+        "output_token_details": {}
+      },
+      "finish_reason": "end_turn"
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "status": "completed",
+      "query": "非接触式感知 视觉 摄像头 人体姿态估计 深度学习 2024 2025 前沿算法",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.804,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "基于深度学习的人体姿态估计综述",
+          "url": "https://wap.oajrc.org/ArticleDetail.aspx?cid=21205&type=PDF",
+          "score": 0.72629017,
+          "raw_content_available": true,
+          "raw_content_length": 21080,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "面向嵌入式平台的红外人体姿态估计系统",
+          "url": "https://pdf.hanspub.org/csa2024145_131543251.pdf",
+          "score": 0.5602773,
+          "raw_content_available": true,
+          "raw_content_length": 16279,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "基于深度学习的人体姿态估计与追踪张雪芹 ...",
+          "url": "https://journal.ecust.edu.cn/cn/article/pdf/preview/10.14135/j.cnki.1006-3080.20231018001.pdf",
+          "score": 0.51866865,
+          "raw_content_available": true,
+          "raw_content_length": 27171,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "基于深度学习的遮挡人体姿态估计进展综述",
+          "url": "https://www.cjig.cn/zh/article/doi/10.11834/jig.230730",
+          "score": 0.51091194,
+          "raw_content_available": true,
+          "raw_content_length": 28240,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "IRMV Lab - Research",
+          "url": "https://irmv.sjtu.edu.cn/research_cn",
+          "score": 0.26200938,
+          "raw_content_available": true,
+          "raw_content_length": 25572,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 6,
+      "timestamp": "2026-08-23T19:12:14.371368+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "红外热成像 非接触式感知 人体检测 温度检测 算法 2024",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.824,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "[PDF] 基于热成像技术的非接触式生命体征测量方法",
+          "url": "https://hwjs.nvir.cn/cn/article/pdf/preview/1b780bc8-22e6-495f-90bb-ecb14a233cb2.pdf",
+          "score": 0.52700067,
+          "raw_content_available": true,
+          "raw_content_length": 19024,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "基于红外注意力提升机制的热成像测温区域实例分割",
+          "url": "https://jeit.ac.cn/cn/article/doi/10.11999/JEIT200862?viewType=HTML",
+          "score": 0.42062396,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "一种基于人工智能的红外热成像体温检测方法和装置",
+          "url": "https://patents.google.com/patent/CN107049253A/zh",
+          "score": 0.38560653,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "红外热像仪 IRSX 系列 | AT Sensors",
+          "url": "https://www.at-sensors.com/zh/products/infrared-camera-irsx-series",
+          "score": 0.22243017,
+          "raw_content_available": true,
+          "raw_content_length": 6871,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "HIKMICRO",
+          "url": "https://www.hikmicrotech.com/news-detail/92",
+          "score": 0.084954865,
+          "raw_content_available": true,
+          "raw_content_length": 28372,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 7,
+      "timestamp": "2026-08-23T19:12:14.406542+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "WiFi CSI human pose estimation deep learning 2024 2025",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.801,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "GitHub - euaziel/WiFi-CSI-Human-Pose-Detection: Human pose estimation using WiFi Channel State Information (CSI) and deep learning — enabling camera-free sensing through walls. · GitHub",
+          "url": "https://github.com/euaziel/WiFi-CSI-Human-Pose-Detection",
+          "score": 0.8655088,
+          "raw_content_available": true,
+          "raw_content_length": 81041,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "CSIPose: Unveiling Human Poses Using Commodity WiFi Devices Through the Wall",
+          "url": "https://www.computer.org/csdl/journal/tm/2025/10/11006977/26QkkvvYGFW",
+          "score": 0.80844593,
+          "raw_content_available": true,
+          "raw_content_length": 7837,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "CSI-Channel Spatial Decomposition for WiFi-Based Human Pose Estimation",
+          "url": "https://www.mdpi.com/2079-9292/14/4/756",
+          "score": 0.7602419,
+          "raw_content_available": true,
+          "raw_content_length": 125810,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "3D Human Pose Estimation using WiFi CSI data",
+          "url": "https://repositorio-aberto.up.pt/bitstream/10216/172859/2/760995.pdf",
+          "score": 0.69820654,
+          "raw_content_available": true,
+          "raw_content_length": 113017,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "CVPR Poster Person-in-WiFi 3D: End-to-End Multi-Person 3D Pose Estimation with Wi-Fi",
+          "url": "https://cvpr.thecvf.com/virtual/2024/poster/30463",
+          "score": 0.5046147,
+          "raw_content_available": true,
+          "raw_content_length": 2378,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 8,
+      "timestamp": "2026-08-23T19:12:14.509022+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "基于视觉的远程心率检测 rPPG 最新论文 准确率",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.994,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "[论文评述] R2I-rPPG: A Robust Region of Interest Selection Method for Remote Photoplethysmography to Extract Heart Rate",
+          "url": "https://www.themoonlight.io/zh/review/r2i-rppg-a-robust-region-of-interest-selection-method-for-remote-photoplethysmography-to-extract-heart-rate",
+          "score": 0.80070794,
+          "raw_content_available": true,
+          "raw_content_length": 2390,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "基于视频分析的rPPG心率检测综述-腾讯云开发者社区-腾讯云",
+          "url": "https://cloud.tencent.com/developer/article/1513208",
+          "score": 0.7120925,
+          "raw_content_available": true,
+          "raw_content_length": 16480,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "面向远程光体积描记的人脸检测与跟踪",
+          "url": "https://www.cjig.cn/zh/article/doi/10.11834/jig.200314",
+          "score": 0.66203266,
+          "raw_content_available": true,
+          "raw_content_length": 17068,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "训练rPPG模型时，使用来自不同身体部位的视频和目标数据，效果会有多不理想？ | alphaXiv",
+          "url": "https://www.alphaxiv.org/zh/abs/2403.10582",
+          "score": 0.6496014,
+          "raw_content_available": true,
+          "raw_content_length": 5055,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "A review of deep learning methods for non-contact heart rate ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11955325",
+          "score": 0.64880073,
+          "raw_content_available": true,
+          "raw_content_length": 19201,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 9,
+      "timestamp": "2026-08-23T19:12:14.571409+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "WiFi-based non-contact sensing Transformer CNN LSTM state-of-the-art",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.999,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Real-Time, Non-Intrusive Fall Detection via Wi-Fi CSI: A Comparative Study of CNN-LSTM, GNN, and Transformer Models | IntechOpen",
+          "url": "https://www.intechopen.com/journals/1/articles/693",
+          "score": 0.64585793,
+          "raw_content_available": true,
+          "raw_content_length": 89963,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Motion Pattern Recognition via CNN-LSTM-Attention Model Using Array-Based Wi-Fi CSI Sensors in GNSS-Denied Areas",
+          "url": "https://www.mdpi.com/2079-9292/14/8/1594",
+          "score": 0.5412882,
+          "raw_content_available": true,
+          "raw_content_length": 74786,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "LSTM-CNN network for human activity recognition using WiFi CSI data | Semantic Scholar",
+          "url": "https://www.semanticscholar.org/paper/LSTM-CNN-network-for-human-activity-recognition-CSI-Shang-Luo/b8070c007d75f4175d5da21bb2fb9e53deb3577e",
+          "score": 0.5066652,
+          "raw_content_available": true,
+          "raw_content_length": 18251,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "WiFi-based non-contact human presence detection technology",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10864388",
+          "score": 0.46832922,
+          "raw_content_available": true,
+          "raw_content_length": 56392,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Edinburgh Research Explorer - SenseFi - Sign in",
+          "url": "https://www.pure.ed.ac.uk/ws/files/334748124/SenseFi_YANG_DOA06022023_VOR_CC_BY.pdf",
+          "score": 0.44087905,
+          "raw_content_available": true,
+          "raw_content_length": 104356,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 23,
+      "timestamp": "2026-08-23T19:12:14.715250+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Widar3.0 WiFi sensing CSI gesture recognition deep learning",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 3.542,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Wireless Sensing with Deep Learning | Hands-on Wireless Sensing with Wi-Fi: A Tutorial",
+          "url": "https://tns.thss.tsinghua.edu.cn/wst/docs/model",
+          "score": 0.82186085,
+          "raw_content_available": true,
+          "raw_content_length": 64897,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Wi-AM: Enabling Cross-Domain Gesture Recognition with Commodity Wi-Fi",
+          "url": "https://www.mdpi.com/1424-8220/24/5/1354",
+          "score": 0.81418616,
+          "raw_content_available": true,
+          "raw_content_length": 112518,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Widar 3.0: WiFi-based Activity Recognition Dataset | IEEE DataPort",
+          "url": "https://ieee-dataport.org/open-access/widar-30-wifi-based-activity-recognition-dataset",
+          "score": 0.81097376,
+          "raw_content_available": true,
+          "raw_content_length": 16486,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Widar3.0: Zero-Effort Cross-Domain Gesture Recognition With Wi-Fi | Semantic Scholar",
+          "url": "https://www.semanticscholar.org/paper/Widar3.0%3A-Zero-Effort-Cross-Domain-Gesture-With-Zhang-Zheng/db88f53e1037bcc269aa1a5a407a8d72afd7bb55",
+          "score": 0.79119295,
+          "raw_content_available": true,
+          "raw_content_length": 27178,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Wi-CBR: WiFi-based Cross-domain Behavior Recognition via Multimodal Collaborative Awareness",
+          "url": "https://arxiv.org/html/2506.11616v1",
+          "score": 0.7634314,
+          "raw_content_available": true,
+          "raw_content_length": 50758,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 24,
+      "timestamp": "2026-08-23T19:12:15.241717+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "超声波 手势识别 非接触式感知 深度学习 算法 论文 2024",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.599,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "基于DenseNet和卷积注意力模块的高精度手势识别",
+          "url": "https://jeit.ac.cn/cn/article/doi/10.11999/JEIT230165?viewType=HTML",
+          "score": 0.8145405,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "Deep vision-based real-time hand gesture recognition: a review",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12453657",
+          "score": 0.73505294,
+          "raw_content_available": true,
+          "raw_content_length": 182163,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "基于深度学习的手势识别研究",
+          "url": "https://www.hanspub.org/journal/paperinformation?paperid=91044",
+          "score": 0.5167668,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "基于深度学习的常见手势识别系统（YOLOv12完整代码+论文 ...",
+          "url": "https://blog.csdn.net/2401_88848122/article/details/156110494",
+          "score": 0.47753036,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "面向嵌入式平台的轻量化神经网络手势识别方法",
+          "url": "https://www.hplpb.com.cn/cn/article/doi/10.11884/HPLPB202234.210335",
+          "score": 0.24929686,
+          "raw_content_available": true,
+          "raw_content_length": 4746,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 43,
+      "timestamp": "2026-08-23T19:12:36.045970+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "多模态融合 非接触式感知 Wi-Fi 视觉 毫米波 雷达 融合算法 2024 2025",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 3.407,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "开芯课堂丨视觉与4D毫米波前融合感知算法设计-黑芝麻智能科技有限公司",
+          "url": "https://www.blacksesame.com/zh/brand-center/791.html",
+          "score": 0.7286136,
+          "raw_content_available": true,
+          "raw_content_length": 17881,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "一种基于摄像头和毫米波雷达的多模态信息融合算法",
+          "url": "https://www.hanspub.org/journal/paperinformation?paperid=58139",
+          "score": 0.5012457,
+          "raw_content_available": true,
+          "raw_content_length": 21225,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "[PDF] 基于多模态深度融合网络的无人机轨迹预测 - arXiv",
+          "url": "https://arxiv.org/pdf/2602.00107",
+          "score": 0.43755972,
+          "raw_content_available": true,
+          "raw_content_length": 21525,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "基于多传感器融合的协同感知方法",
+          "url": "https://radars.ac.cn/article/doi/10.12000/JR23184",
+          "score": 0.40896168,
+          "raw_content_available": true,
+          "raw_content_length": 30294,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "GitHub - Linfeng-Tang/Image-Fusion: Deep Learning-based Image Fusion: A Survey · GitHub",
+          "url": "https://github.com/Linfeng-Tang/Image-Fusion",
+          "score": 0.3648686,
+          "raw_content_available": true,
+          "raw_content_length": 58759,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 44,
+      "timestamp": "2026-08-23T19:12:36.909078+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "PointNet++ mmWave radar point cloud human pose estimation",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.521,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "A High-Fidelity mmWave Radar Dataset for Privacy-Sensitive Human Pose Estimation",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12383697",
+          "score": 0.85967577,
+          "raw_content_available": true,
+          "raw_content_length": 76922,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "SUPER: Seated Upper Body Pose Estimation using mmWave Radars",
+          "url": "https://arxiv.org/html/2407.02455v1",
+          "score": 0.826278,
+          "raw_content_available": true,
+          "raw_content_length": 50651,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "RPDiff: Multi-hypothesis Human Pose Estimation based on ...",
+          "url": "https://ieeexplore.ieee.org/document/10966631",
+          "score": 0.79883134,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "Human Parsing with Joint Learning for Dynamic mmWave ...",
+          "url": "https://liux4189.github.io/files/Parsing_Ubicomp23.pdf",
+          "score": 0.78749067,
+          "raw_content_available": true,
+          "raw_content_length": 82469,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "NeurIPS Poster MiliPoint: A Point Cloud Dataset for mmWave Radar",
+          "url": "https://neurips.cc/virtual/2023/poster/73646",
+          "score": 0.5363378,
+          "raw_content_available": true,
+          "raw_content_length": 1852,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 45,
+      "timestamp": "2026-08-23T19:12:37.031620+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Person-in-WiFi 3D CVPR 2024 multi-person pose estimation WiFi",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.705,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Person-in-WiFi 3D: End-to-End Multi-Person 3D Pose Estimation with Wi-Fi - Xi'an Jiaotong University",
+          "url": "https://scholar.xjtu.edu.cn/en/publications/person-in-wifi-3d-end-to-end-multi-person-3d-pose-estimation-with",
+          "score": 0.91490877,
+          "raw_content_available": true,
+          "raw_content_length": 11905,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "CVPR 2024 Open Access Repository",
+          "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Yan_Person-in-WiFi_3D_End-to-End_Multi-Person_3D_Pose_Estimation_with_Wi-Fi_CVPR_2024_paper.html",
+          "score": 0.9075175,
+          "raw_content_available": true,
+          "raw_content_length": 2840,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "[PDF] Person-in-WiFi 3D: End-to-End Multi-Person 3D Pose Estimation with Wi-Fi | Semantic Scholar",
+          "url": "https://www.semanticscholar.org/paper/Person-in-WiFi-3D%3A-End-to-End-Multi-Person-3D-Pose-Yan-Wang/354a25269ca7d7b9f0cc43c08d18419a9e04c54c",
+          "score": 0.8896154,
+          "raw_content_available": true,
+          "raw_content_length": 35495,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "End-to-End Multi-Person 3D Pose Estimation with Wi-Fi",
+          "url": "https://aiotgroup.github.io/Person-in-WiFi-3D",
+          "score": 0.87706697,
+          "raw_content_available": true,
+          "raw_content_length": 5205,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "End-to-End Multi-Person 3D Pose Estimation with Wi-Fi",
+          "url": "https://cvpr.thecvf.com/virtual/2024/poster/30463",
+          "score": 0.8351749,
+          "raw_content_available": true,
+          "raw_content_length": 2378,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 46,
+      "timestamp": "2026-08-23T19:12:37.198054+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "mRI mmWave radar imaging RF-based human sensing paper",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.831,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "mRI: Multi-modal 3D Human Pose Estimation Dataset ...",
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/af9c9c6d2da701da5a0acf91ec217815-Paper-Datasets_and_Benchmarks.pdf",
+          "score": 0.79542017,
+          "raw_content_available": true,
+          "raw_content_length": 46218,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "ProbRadarM3F: mmWave Radar-based Human Skeletal Pose Estimation with Probability Map Guided Multi-Format Feature Fusion",
+          "url": "https://arxiv.org/html/2405.05164",
+          "score": 0.5928793,
+          "raw_content_available": true,
+          "raw_content_length": 50138,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "CVPR Poster MVDoppler-Pose: Multi-Modal Multi-View mmWave Sensing for Long-Distance Self-Occluded Human Walking Pose Estimation",
+          "url": "https://cvpr.thecvf.com/virtual/2025/poster/33124",
+          "score": 0.5760895,
+          "raw_content_available": true,
+          "raw_content_length": 2517,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Single mmWave Radar-Based Pose Detection for Non ...",
+          "url": "https://eprints.gla.ac.uk/360344/1/360344.pdf",
+          "score": 0.5363378,
+          "raw_content_available": true,
+          "raw_content_length": 30233,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "mRI: Multi-modal 3D Human Pose Estimation Dataset using mmWave, RGB-D, and Inertial Sensors",
+          "url": "https://sizhean.github.io/mri",
+          "score": 0.53385985,
+          "raw_content_available": true,
+          "raw_content_length": 2992,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 47,
+      "timestamp": "2026-08-23T19:12:37.337658+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "RFID 人体活动识别 非接触式感知 定位 算法 论文 2024",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 3.872,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "RFID-based Human Activity Recognition Using Multimodal Convolutional Neural Networks | Semantic Scholar",
+          "url": "https://www.semanticscholar.org/paper/RFID-based-Human-Activity-Recognition-Using-Neural-Golipoor-Sigg/16ca2a438f49c33638ad4844fc7dd8f90be8bb07",
+          "score": 0.74563974,
+          "raw_content_available": true,
+          "raw_content_length": 26925,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "科研进展 | 张大庆课题组在泛在无线感知研究领域取得重要系列进展-高可信软件技术教育部重点实验室(北京大学)",
+          "url": "https://hcst.pku.edu.cn/info/1029/1811.htm",
+          "score": 0.49567938,
+          "raw_content_available": true,
+          "raw_content_length": 10435,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "基于RFID 的可标记无源感知",
+          "url": "https://cs.nju.edu.cn/lxie/publication/CCCF2021RFID.pdf",
+          "score": 0.462061,
+          "raw_content_available": true,
+          "raw_content_length": 14097,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Deep Learning for RFID-Based Activity Recognition",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6205502",
+          "score": 0.43972388,
+          "raw_content_available": true,
+          "raw_content_length": 88745,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "基于RFID的无源感知机制研究综述",
+          "url": "https://www.jos.org.cn/html/2022/1/6344.htm",
+          "score": 0.341583,
+          "raw_content_available": true,
+          "raw_content_length": 82872,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 48,
+      "timestamp": "2026-08-23T19:12:37.363298+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "mmWave radar 60GHz 77GHz human activity recognition gesture recognition state-of-the-art",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 3.018,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Rodar: Robust Gesture Recognition Based on mmWave Radar Under Human Activity Interference - ADS",
+          "url": "https://ui.adsabs.harvard.edu/abs/2024ITMC...2311735J/abstract",
+          "score": 0.6894943,
+          "raw_content_available": true,
+          "raw_content_length": 2128,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "A Survey of Deep Learning-Based Human Activity Recognition in Radar | MDPI",
+          "url": "https://www.mdpi.com/2072-4292/11/9/1068",
+          "score": 0.6102915,
+          "raw_content_available": true,
+          "raw_content_length": 123191,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "US10928499B2 - Millimeter-wave radar sensor system for gesture and movement analysis - Google Patents",
+          "url": "https://patents.google.com/patent/US10928499B2/en",
+          "score": 0.59089786,
+          "raw_content_available": true,
+          "raw_content_length": 113845,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "GitHub - Armorhtk/awesome-mmwave-radar-perception: A curated list of awesome papers, datasets, and resources for millimeter-wave (mmWave) radar perception, with a focus on deep learning methods. · GitHub",
+          "url": "https://github.com/Armorhtk/awesome-mmwave-radar-perception",
+          "score": 0.56719416,
+          "raw_content_available": true,
+          "raw_content_length": 272033,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Recent Advances in mmWave-Radar-Based Sensing, Its Applications, and Machine Learning Techniques: A Review",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10650102",
+          "score": 0.5608546,
+          "raw_content_available": true,
+          "raw_content_length": 135477,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 61,
+      "timestamp": "2026-08-23T19:12:37.520333+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "mmWave radar FMCW human pose estimation point cloud deep learning 2024 2025",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 5.736,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "[PDF] Fast and Scalable Human Pose Estimation using mmWave Point Cloud | Semantic Scholar",
+          "url": "https://www.semanticscholar.org/paper/Fast-and-Scalable-Human-Pose-Estimation-using-Point-An-Ogras/1576b51c049af66bdba867b8792a078fc2d6a2ad",
+          "score": 0.86632514,
+          "raw_content_available": true,
+          "raw_content_length": 31355,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "A Novel Deep Learning Model for Human Skeleton Estimation Using FMCW Radar",
+          "url": "https://www.mdpi.com/1424-8220/25/13/3909",
+          "score": 0.81630427,
+          "raw_content_available": true,
+          "raw_content_length": 115250,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Armorhtk/awesome-mmwave-radar-perception",
+          "url": "https://github.com/Armorhtk/awesome-mmwave-radar-perception",
+          "score": 0.78054583,
+          "raw_content_available": true,
+          "raw_content_length": 272033,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Advanced Millimeter Wave Radar-Based Human Pose ...",
+          "url": "https://ieeexplore.ieee.org/iel8/9171629/10931039/10904474.pdf",
+          "score": 0.7783298,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "Seated Upper Body Pose Estimation using mmWave Radars",
+          "url": "https://arxiv.org/html/2407.02455v1",
+          "score": 0.55449516,
+          "raw_content_available": true,
+          "raw_content_length": 50651,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 62,
+      "timestamp": "2026-08-23T19:12:40.236125+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "PhysFormer DeepPhys rPPG heart rate accuracy benchmark dataset 2024",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.786,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "A comprehensive review of heart rate measurement using remote photoplethysmography and deep learning",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12181896",
+          "score": 0.62770075,
+          "raw_content_available": true,
+          "raw_content_length": 116710,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Deep Learning for rPPG Vital Sign Extraction",
+          "url": "https://circadify.com/blog/deep-learning-rppg-vital-sign-extraction-advances",
+          "score": 0.62633044,
+          "raw_content_available": true,
+          "raw_content_length": 18249,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "GitHub - ubicomplab/rPPG-Toolbox: rPPG-Toolbox: Deep Remote PPG Toolbox (NeurIPS 2023) · GitHub",
+          "url": "https://github.com/ubicomplab/rPPG-Toolbox",
+          "score": 0.5758033,
+          "raw_content_available": true,
+          "raw_content_length": 38531,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Spiking-PhysFormer: Camera-based remote ...",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0893608025000073",
+          "score": 0.53954184,
+          "raw_content_available": true,
+          "raw_content_length": 36879,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Spiking-PhysFormer: Camera-Based Remote Photoplethysmography with Parallel Spike-driven Transformer",
+          "url": "https://arxiv.org/html/2402.04798v2",
+          "score": 0.50432175,
+          "raw_content_available": true,
+          "raw_content_length": 75230,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 86,
+      "timestamp": "2026-08-23T19:12:54.642026+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "WiFi 视觉 多模态融合 人体感知 跌倒检测 跨模态 2024 论文",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 3.532,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "[PDF] 基于多模型融合的高精度实时摔倒检测系统",
+          "url": "https://pdf.hanspub.org/csa2024149_121543322.pdf",
+          "score": 0.7742597,
+          "raw_content_available": true,
+          "raw_content_length": 12629,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "基于金字塔型空洞卷积残差模型的Wi-Fi室内人体姿态估计方法",
+          "url": "https://radars.ac.cn/cn/article/pdf/preview/10.12000/JR26024.pdf",
+          "score": 0.52071625,
+          "raw_content_available": true,
+          "raw_content_length": 42123,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "[论文评述] Real-Time Fall Detection Using Smartphone Accelerometers and WiFi Channel State Information",
+          "url": "https://www.themoonlight.io/zh/review/real-time-fall-detection-using-smartphone-accelerometers-and-wifi-channel-state-information",
+          "score": 0.5195463,
+          "raw_content_available": true,
+          "raw_content_length": 2323,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "P2MFDS：面向浴室环境老年人的隐私保护多模态跌倒检测系统 | alphaXiv",
+          "url": "https://www.alphaxiv.org/zh/abs/2506.17332v1",
+          "score": 0.42362547,
+          "raw_content_available": true,
+          "raw_content_length": 3055,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "总第39 期 - CCF专业委员会网站列表- 中国计算机学会",
+          "url": "http://tc.ccf.org.cn/ccfcv/zwjb/2024-04-09/817113.shtml",
+          "score": 0.1310511,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        }
+      ],
+      "sequence": 87,
+      "timestamp": "2026-08-23T19:12:55.379437+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "超声波 手势识别 非接触 感知 声波 算法 论文 会议 2023 2024",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 3.893,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "End-to-End Ultrasonic Hand Gesture Recognition",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11086334",
+          "score": 0.7274535,
+          "raw_content_available": true,
+          "raw_content_length": 128250,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "融合情境感知信息的超声波手势识别方法",
+          "url": "https://www.jcad.cn/article/doi/10.3724/SP.J.1089.2018.16176",
+          "score": 0.5920305,
+          "raw_content_available": true,
+          "raw_content_length": 4768,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "UltrasonicGS: A Highly Robust Gesture and Sign Language Recognition Method Based on Ultrasonic Signals",
+          "url": "https://www.mdpi.com/1424-8220/23/4/1790",
+          "score": 0.5694942,
+          "raw_content_available": true,
+          "raw_content_length": 98707,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "基于深度学习的手势识别研究",
+          "url": "https://www.hanspub.org/journal/paperinformation?paperid=91044",
+          "score": 0.50856906,
+          "raw_content_available": true,
+          "raw_content_length": 1241,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "王砚文 - 湖南大学电气与信息工程学院",
+          "url": "http://eeit.hnu.edu.cn/info/1588/8246.htm",
+          "score": 0.5008063,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        }
+      ],
+      "sequence": 88,
+      "timestamp": "2026-08-23T19:12:55.728304+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "mmWave radar vision fusion human activity recognition 2024 paper",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 4.458,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Human Multi-Activities Classification Using mmWave Radar: Feature Fusion in Time-Domain and PCANet",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11359101",
+          "score": 0.86052185,
+          "raw_content_available": true,
+          "raw_content_length": 95174,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "A Hybrid Millimeter-Wave Radar&ndash;Ultrasonic Fusion System for Robust Human Activity Recognition with Attention-Enhanced Deep Learning",
+          "url": "https://www.mdpi.com/1424-8220/26/3/1057",
+          "score": 0.85186684,
+          "raw_content_available": true,
+          "raw_content_length": 122697,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Armorhtk/awesome-mmwave-radar-perception",
+          "url": "https://github.com/Armorhtk/awesome-mmwave-radar-perception",
+          "score": 0.8080827,
+          "raw_content_available": true,
+          "raw_content_length": 272033,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "mmWave-CSARNet: Continuous human activity recognition with cross-attentive boundary-frame fusion in mmWave radar",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0031320326007958",
+          "score": 0.8066246,
+          "raw_content_available": true,
+          "raw_content_length": 24191,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Millimeter Wave Radar-based Human Activity Recognition for Healthcare Monitoring Robot",
+          "url": "https://arxiv.org/html/2405.01882v1",
+          "score": 0.66229486,
+          "raw_content_available": true,
+          "raw_content_length": 53279,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 89,
+      "timestamp": "2026-08-23T19:12:56.309903+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "mmMesh mmWave radar 3D human mesh reconstruction paper",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.268,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "mmMesh: Towards 3D Real-Time Dynamic Human Mesh ...",
+          "url": "https://havocfixer.github.io/resource/21_MobiSys.pdf",
+          "score": 0.89053273,
+          "raw_content_available": true,
+          "raw_content_length": 76737,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "mmMesh: towards 3D real-time dynamic human mesh ...",
+          "url": "https://www.semanticscholar.org/paper/mmMesh%3A-towards-3D-real-time-dynamic-human-mesh-Xue-Ju/220d9a89d29c24d07be64e4f64b99ed9b08b7032",
+          "score": 0.8763069,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "mmMesh",
+          "url": "https://havocfixer.github.io/mmMesh",
+          "score": 0.8657814,
+          "raw_content_available": true,
+          "raw_content_length": 2662,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "M4Human: A Large-Scale Multimodal mmWave Radar Benchmark for Human Mesh Reconstruction",
+          "url": "https://arxiv.org/html/2512.12378v2",
+          "score": 0.7961819,
+          "raw_content_available": true,
+          "raw_content_length": 44686,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "mmMesh: towards 3D real-time dynamic human mesh ...",
+          "url": "https://dl.acm.org/doi/10.1145/3458864.3467679",
+          "score": 0.77751994,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        }
+      ],
+      "sequence": 108,
+      "timestamp": "2026-08-23T19:12:59.494243+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "WiFi CSI fall detection deep learning dataset accuracy 2024 2025",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.649,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Deep Learning Fall Detection via WiFi CSI | PDF | Wi Fi | Deep Learning",
+          "url": "https://www.scribd.com/document/733157362/Deep-Learning-Based-Fall-Detection-Using-WiFi-Channel-State-Information",
+          "score": 0.7451949,
+          "raw_content_available": true,
+          "raw_content_length": 4120,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Deep Learning Based Fall Detection using WiFi Channel State Information - York Research Database",
+          "url": "https://pure.york.ac.uk/portal/en/publications/deep-learning-based-fall-detection-using-wifi-channel-state-infor",
+          "score": 0.7327644,
+          "raw_content_available": true,
+          "raw_content_length": 11473,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Deep Learning Based Fall Detection using WiFi Channel ...",
+          "url": "https://eprints.whiterose.ac.uk/id/eprint/202278/8/Deep_Learning_Based_Fall_Detection_Using_WiFi_Channel_State_Information.pdf",
+          "score": 0.7244226,
+          "raw_content_available": true,
+          "raw_content_length": 83499,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Deep-Learning-Based Baseline Evaluation of Public WiFi CSI Datasets for Contactless RF-Based Human Activity Recognition",
+          "url": "https://www.mdpi.com/1424-8220/26/12/3821",
+          "score": 0.72348577,
+          "raw_content_available": true,
+          "raw_content_length": 93653,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Real-Time, Non-Intrusive Fall Detection via Wi-Fi CSI",
+          "url": "https://www.intechopen.com/journals/1/articles/693",
+          "score": 0.6882385,
+          "raw_content_available": true,
+          "raw_content_length": 89963,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 109,
+      "timestamp": "2026-08-23T19:12:59.871890+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "Wi-Pose WiFi pose estimation MobiCom 2020 dataset accuracy",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 3.062,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Towards 3D Human Pose Construction Using WiFi",
+          "url": "https://havocfixer.github.io/resource/20_MobiCom.pdf",
+          "score": 0.7520312,
+          "raw_content_available": true,
+          "raw_content_length": 76685,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "TOWARDS ROBUST AND REALISTIC HUMAN POSE ES",
+          "url": "https://openreview.net/pdf/f2428bc8d58ea4dffc8cf664c03aaaf5394e5bc9.pdf",
+          "score": 0.599087,
+          "raw_content_available": true,
+          "raw_content_length": 54906,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "3D Moving Human Pose Estimation Using Commodity WiFi",
+          "url": "https://arxiv.org/pdf/2012.14066",
+          "score": 0.51457167,
+          "raw_content_available": true,
+          "raw_content_length": 26618,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "End-to-End Multi-Person 3D Pose Estimation with Wi-Fi",
+          "url": "https://cvpr.thecvf.com/virtual/2024/poster/30463",
+          "score": 0.3925004,
+          "raw_content_available": true,
+          "raw_content_length": 2378,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "WiFi DensePose: WiFi-based dense human pose estimation system through walls | Hacker News",
+          "url": "https://news.ycombinator.com/item?id=46388904",
+          "score": 0.28007504,
+          "raw_content_available": true,
+          "raw_content_length": 49195,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 110,
+      "timestamp": "2026-08-23T19:13:00.266334+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "mmWave radar fall detection FMCW point cloud deep learning accuracy 2024 2025",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 3.659,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "Armorhtk/awesome-mmwave-radar-perception",
+          "url": "https://github.com/Armorhtk/awesome-mmwave-radar-perception",
+          "score": 0.6246834,
+          "raw_content_available": true,
+          "raw_content_length": 272033,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Fall Detection System Based on Point Cloud Enhancement Model for 24 GHz FMCW Radar",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10820484",
+          "score": 0.564027,
+          "raw_content_available": true,
+          "raw_content_length": 80365,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Advances in object detection for autonomous driving using mmwave radar and camera: A comprehensive survey",
+          "url": "https://link.springer.com/article/10.1007/s44443-025-00302-0",
+          "score": 0.43828082,
+          "raw_content_available": true,
+          "raw_content_length": 300268,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Point Cloud Classification Fall Detection Method Based on ...",
+          "url": "https://dl.acm.org/doi/10.1145/3696474.3696488",
+          "score": 0.42935818,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "Diffusion-Based mmWave Radar Point Cloud Enhancement Driven by Range Images",
+          "url": "https://arxiv.org/html/2503.02300v1",
+          "score": 0.33053654,
+          "raw_content_available": true,
+          "raw_content_length": 40203,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 111,
+      "timestamp": "2026-08-23T19:13:00.877607+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "mmWave radar gesture recognition Google Soli transformer model accuracy",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 4.07,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "TRANS-CNN Based Gesture Recognition for mmWave Radar",
+          "url": "https://www.preprints.org/manuscript/202402.0228",
+          "score": 0.8286204,
+          "raw_content_available": true,
+          "raw_content_length": 65226,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "[PDF] Soli: Ubiquitous Gesture Sensing with Millimeter Wave Radar",
+          "url": "https://modernmobile.cs.washington.edu/docs/soli.pdf",
+          "score": 0.8232293,
+          "raw_content_available": true,
+          "raw_content_length": 105434,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "TRANS-CNN-Based Gesture Recognition for mmWave Radar",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10974769",
+          "score": 0.8131201,
+          "raw_content_available": true,
+          "raw_content_length": 79725,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "mmGesture: Semi-supervised gesture recognition system using mmWave radar",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0957417422020607",
+          "score": 0.7969415,
+          "raw_content_available": true,
+          "raw_content_length": 29449,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Local Pyramid Vision Transformer: Millimeter-Wave Radar Gesture Recognition Based on Transformer with Integrated Local and Global Awareness",
+          "url": "https://www.mdpi.com/2072-4292/16/23/4602",
+          "score": 0.7272211,
+          "raw_content_available": true,
+          "raw_content_length": 82438,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 112,
+      "timestamp": "2026-08-23T19:13:01.283053+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "mmWave radar human pose estimation GitHub open source code mmMesh mmFree-Pose",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 2.611,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "bh6aol/mmHPE: This repository represents the official ...",
+          "url": "https://github.com/bh6aol/mmHPE",
+          "score": 0.66621506,
+          "raw_content_available": false,
+          "raw_content_length": 0,
+          "content_fetch_status": "missing"
+        },
+        {
+          "title": "A High-Fidelity mmWave Radar Dataset for Privacy-Sensitive ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12383697",
+          "score": 0.6493346,
+          "raw_content_available": true,
+          "raw_content_length": 76922,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "GitHub - robert80203/HuPR-A-Benchmark-for-Human-Pose-Estimation-Using-Millimeter-Wave-Radar: The official implementation of HuPR: A Benchmark for Human Pose Estimation Using Millimeter Wave Radar · GitHub",
+          "url": "https://github.com/robert80203/HuPR-A-Benchmark-for-Human-Pose-Estimation-Using-Millimeter-Wave-Radar",
+          "score": 0.6469293,
+          "raw_content_available": true,
+          "raw_content_length": 8362,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "mmMesh",
+          "url": "https://havocfixer.github.io/mmMesh",
+          "score": 0.6155738,
+          "raw_content_available": true,
+          "raw_content_length": 2662,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Fast and Scalable Human Pose Estimation using mmWave ...",
+          "url": "https://arxiv.org/pdf/2205.00097",
+          "score": 0.614464,
+          "raw_content_available": true,
+          "raw_content_length": 36756,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 138,
+      "timestamp": "2026-08-23T19:13:16.779868+08:00"
+    },
+    {
+      "status": "completed",
+      "query": "WiFi CSI sensing GitHub open source code Widar Wi-Pose Person-in-WiFi",
+      "retriever": "tavily",
+      "topic": "general",
+      "max_results": 5,
+      "include_raw_content": true,
+      "duration_seconds": 3.172,
+      "num_results": 5,
+      "results": [
+        {
+          "title": "euaziel/WiFi-CSI-Human-Pose-Detection",
+          "url": "https://github.com/euaziel/WiFi-CSI-Human-Pose-Detection",
+          "score": 0.7380092,
+          "raw_content_available": true,
+          "raw_content_length": 81041,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "GitHub - NTUMARS/Awesome-WiFi-CSI-Sensing: A list of awesome papers and cool resources on WiFi CSI sensing. · GitHub",
+          "url": "https://github.com/NTUMARS/Awesome-WiFi-CSI-Sensing",
+          "score": 0.71305263,
+          "raw_content_available": true,
+          "raw_content_length": 37040,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "WiFi Human Detection: How CSI Sensing Finds Presence Without Cameras",
+          "url": "https://ruview.blog/wifi-human-detection",
+          "score": 0.5849357,
+          "raw_content_available": true,
+          "raw_content_length": 8696,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "Build a Wi-Fi Motion Detector: ESP32 & CSI Practical Guide",
+          "url": "https://www.youtube.com/watch?v=7XwgxTXPJKM",
+          "score": 0.3648686,
+          "raw_content_available": true,
+          "raw_content_length": 16917,
+          "content_fetch_status": "success"
+        },
+        {
+          "title": "End-to-End Multi-Person 3D Pose Estimation with Wi-Fi",
+          "url": "https://aiotgroup.github.io/Person-in-WiFi-3D",
+          "score": 0.3027522,
+          "raw_content_available": true,
+          "raw_content_length": 5205,
+          "content_fetch_status": "success"
+        }
+      ],
+      "sequence": 139,
+      "timestamp": "2026-08-23T19:13:17.334807+08:00"
+    }
+  ],
+  "summary_cache_hits": 9,
+  "summary_cache_hit_urls": [
+    "https://cvpr.thecvf.com/virtual/2024/poster/30463",
+    "https://github.com/Armorhtk/awesome-mmwave-radar-perception",
+    "https://cvpr.thecvf.com/virtual/2024/poster/30463",
+    "https://github.com/Armorhtk/awesome-mmwave-radar-perception",
+    "https://www.intechopen.com/journals/1/articles/693",
+    "https://github.com/euaziel/WiFi-CSI-Human-Pose-Detection",
+    "https://aiotgroup.github.io/Person-in-WiFi-3D",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC12383697",
+    "https://havocfixer.github.io/mmMesh"
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://wap.oajrc.org/ArticleDetail.aspx?cid=21205&type=PDF",
+      "status": "success",
+      "content_length": 21080,
+      "duration_seconds": 2.804,
+      "query": "非接触式感知 视觉 摄像头 人体姿态估计 深度学习 2024 2025 前沿算法"
+    },
+    {
+      "url": "https://pdf.hanspub.org/csa2024145_131543251.pdf",
+      "status": "success",
+      "content_length": 16279,
+      "duration_seconds": 2.804,
+      "query": "非接触式感知 视觉 摄像头 人体姿态估计 深度学习 2024 2025 前沿算法"
+    },
+    {
+      "url": "https://journal.ecust.edu.cn/cn/article/pdf/preview/10.14135/j.cnki.1006-3080.20231018001.pdf",
+      "status": "success",
+      "content_length": 27171,
+      "duration_seconds": 2.804,
+      "query": "非接触式感知 视觉 摄像头 人体姿态估计 深度学习 2024 2025 前沿算法"
+    },
+    {
+      "url": "https://www.cjig.cn/zh/article/doi/10.11834/jig.230730",
+      "status": "success",
+      "content_length": 28240,
+      "duration_seconds": 2.804,
+      "query": "非接触式感知 视觉 摄像头 人体姿态估计 深度学习 2024 2025 前沿算法"
+    },
+    {
+      "url": "https://irmv.sjtu.edu.cn/research_cn",
+      "status": "success",
+      "content_length": 25572,
+      "duration_seconds": 2.804,
+      "query": "非接触式感知 视觉 摄像头 人体姿态估计 深度学习 2024 2025 前沿算法"
+    },
+    {
+      "url": "https://hwjs.nvir.cn/cn/article/pdf/preview/1b780bc8-22e6-495f-90bb-ecb14a233cb2.pdf",
+      "status": "success",
+      "content_length": 19024,
+      "duration_seconds": 2.824,
+      "query": "红外热成像 非接触式感知 人体检测 温度检测 算法 2024"
+    },
+    {
+      "url": "https://jeit.ac.cn/cn/article/doi/10.11999/JEIT200862?viewType=HTML",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.824,
+      "query": "红外热成像 非接触式感知 人体检测 温度检测 算法 2024"
+    },
+    {
+      "url": "https://patents.google.com/patent/CN107049253A/zh",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.824,
+      "query": "红外热成像 非接触式感知 人体检测 温度检测 算法 2024"
+    },
+    {
+      "url": "https://www.at-sensors.com/zh/products/infrared-camera-irsx-series",
+      "status": "success",
+      "content_length": 6871,
+      "duration_seconds": 2.824,
+      "query": "红外热成像 非接触式感知 人体检测 温度检测 算法 2024"
+    },
+    {
+      "url": "https://www.hikmicrotech.com/news-detail/92",
+      "status": "success",
+      "content_length": 28372,
+      "duration_seconds": 2.824,
+      "query": "红外热成像 非接触式感知 人体检测 温度检测 算法 2024"
+    },
+    {
+      "url": "https://github.com/euaziel/WiFi-CSI-Human-Pose-Detection",
+      "status": "success",
+      "content_length": 81041,
+      "duration_seconds": 2.801,
+      "query": "WiFi CSI human pose estimation deep learning 2024 2025"
+    },
+    {
+      "url": "https://www.computer.org/csdl/journal/tm/2025/10/11006977/26QkkvvYGFW",
+      "status": "success",
+      "content_length": 7837,
+      "duration_seconds": 2.801,
+      "query": "WiFi CSI human pose estimation deep learning 2024 2025"
+    },
+    {
+      "url": "https://www.mdpi.com/2079-9292/14/4/756",
+      "status": "success",
+      "content_length": 125810,
+      "duration_seconds": 2.801,
+      "query": "WiFi CSI human pose estimation deep learning 2024 2025"
+    },
+    {
+      "url": "https://repositorio-aberto.up.pt/bitstream/10216/172859/2/760995.pdf",
+      "status": "success",
+      "content_length": 113017,
+      "duration_seconds": 2.801,
+      "query": "WiFi CSI human pose estimation deep learning 2024 2025"
+    },
+    {
+      "url": "https://cvpr.thecvf.com/virtual/2024/poster/30463",
+      "status": "success",
+      "content_length": 2378,
+      "duration_seconds": 2.801,
+      "query": "WiFi CSI human pose estimation deep learning 2024 2025"
+    },
+    {
+      "url": "https://www.themoonlight.io/zh/review/r2i-rppg-a-robust-region-of-interest-selection-method-for-remote-photoplethysmography-to-extract-heart-rate",
+      "status": "success",
+      "content_length": 2390,
+      "duration_seconds": 2.994,
+      "query": "基于视觉的远程心率检测 rPPG 最新论文 准确率"
+    },
+    {
+      "url": "https://cloud.tencent.com/developer/article/1513208",
+      "status": "success",
+      "content_length": 16480,
+      "duration_seconds": 2.994,
+      "query": "基于视觉的远程心率检测 rPPG 最新论文 准确率"
+    },
+    {
+      "url": "https://www.cjig.cn/zh/article/doi/10.11834/jig.200314",
+      "status": "success",
+      "content_length": 17068,
+      "duration_seconds": 2.994,
+      "query": "基于视觉的远程心率检测 rPPG 最新论文 准确率"
+    },
+    {
+      "url": "https://www.alphaxiv.org/zh/abs/2403.10582",
+      "status": "success",
+      "content_length": 5055,
+      "duration_seconds": 2.994,
+      "query": "基于视觉的远程心率检测 rPPG 最新论文 准确率"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11955325",
+      "status": "success",
+      "content_length": 19201,
+      "duration_seconds": 2.994,
+      "query": "基于视觉的远程心率检测 rPPG 最新论文 准确率"
+    },
+    {
+      "url": "https://www.intechopen.com/journals/1/articles/693",
+      "status": "success",
+      "content_length": 89963,
+      "duration_seconds": 2.999,
+      "query": "WiFi-based non-contact sensing Transformer CNN LSTM state-of-the-art"
+    },
+    {
+      "url": "https://www.mdpi.com/2079-9292/14/8/1594",
+      "status": "success",
+      "content_length": 74786,
+      "duration_seconds": 2.999,
+      "query": "WiFi-based non-contact sensing Transformer CNN LSTM state-of-the-art"
+    },
+    {
+      "url": "https://www.semanticscholar.org/paper/LSTM-CNN-network-for-human-activity-recognition-CSI-Shang-Luo/b8070c007d75f4175d5da21bb2fb9e53deb3577e",
+      "status": "success",
+      "content_length": 18251,
+      "duration_seconds": 2.999,
+      "query": "WiFi-based non-contact sensing Transformer CNN LSTM state-of-the-art"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10864388",
+      "status": "success",
+      "content_length": 56392,
+      "duration_seconds": 2.999,
+      "query": "WiFi-based non-contact sensing Transformer CNN LSTM state-of-the-art"
+    },
+    {
+      "url": "https://www.pure.ed.ac.uk/ws/files/334748124/SenseFi_YANG_DOA06022023_VOR_CC_BY.pdf",
+      "status": "success",
+      "content_length": 104356,
+      "duration_seconds": 2.999,
+      "query": "WiFi-based non-contact sensing Transformer CNN LSTM state-of-the-art"
+    },
+    {
+      "url": "https://tns.thss.tsinghua.edu.cn/wst/docs/model",
+      "status": "success",
+      "content_length": 64897,
+      "duration_seconds": 3.542,
+      "query": "Widar3.0 WiFi sensing CSI gesture recognition deep learning"
+    },
+    {
+      "url": "https://www.mdpi.com/1424-8220/24/5/1354",
+      "status": "success",
+      "content_length": 112518,
+      "duration_seconds": 3.542,
+      "query": "Widar3.0 WiFi sensing CSI gesture recognition deep learning"
+    },
+    {
+      "url": "https://ieee-dataport.org/open-access/widar-30-wifi-based-activity-recognition-dataset",
+      "status": "success",
+      "content_length": 16486,
+      "duration_seconds": 3.542,
+      "query": "Widar3.0 WiFi sensing CSI gesture recognition deep learning"
+    },
+    {
+      "url": "https://www.semanticscholar.org/paper/Widar3.0%3A-Zero-Effort-Cross-Domain-Gesture-With-Zhang-Zheng/db88f53e1037bcc269aa1a5a407a8d72afd7bb55",
+      "status": "success",
+      "content_length": 27178,
+      "duration_seconds": 3.542,
+      "query": "Widar3.0 WiFi sensing CSI gesture recognition deep learning"
+    },
+    {
+      "url": "https://arxiv.org/html/2506.11616v1",
+      "status": "success",
+      "content_length": 50758,
+      "duration_seconds": 3.542,
+      "query": "Widar3.0 WiFi sensing CSI gesture recognition deep learning"
+    },
+    {
+      "url": "https://jeit.ac.cn/cn/article/doi/10.11999/JEIT230165?viewType=HTML",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.599,
+      "query": "超声波 手势识别 非接触式感知 深度学习 算法 论文 2024"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12453657",
+      "status": "success",
+      "content_length": 182163,
+      "duration_seconds": 2.599,
+      "query": "超声波 手势识别 非接触式感知 深度学习 算法 论文 2024"
+    },
+    {
+      "url": "https://www.hanspub.org/journal/paperinformation?paperid=91044",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.599,
+      "query": "超声波 手势识别 非接触式感知 深度学习 算法 论文 2024"
+    },
+    {
+      "url": "https://blog.csdn.net/2401_88848122/article/details/156110494",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.599,
+      "query": "超声波 手势识别 非接触式感知 深度学习 算法 论文 2024"
+    },
+    {
+      "url": "https://www.hplpb.com.cn/cn/article/doi/10.11884/HPLPB202234.210335",
+      "status": "success",
+      "content_length": 4746,
+      "duration_seconds": 2.599,
+      "query": "超声波 手势识别 非接触式感知 深度学习 算法 论文 2024"
+    },
+    {
+      "url": "https://www.blacksesame.com/zh/brand-center/791.html",
+      "status": "success",
+      "content_length": 17881,
+      "duration_seconds": 3.407,
+      "query": "多模态融合 非接触式感知 Wi-Fi 视觉 毫米波 雷达 融合算法 2024 2025"
+    },
+    {
+      "url": "https://www.hanspub.org/journal/paperinformation?paperid=58139",
+      "status": "success",
+      "content_length": 21225,
+      "duration_seconds": 3.407,
+      "query": "多模态融合 非接触式感知 Wi-Fi 视觉 毫米波 雷达 融合算法 2024 2025"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2602.00107",
+      "status": "success",
+      "content_length": 21525,
+      "duration_seconds": 3.407,
+      "query": "多模态融合 非接触式感知 Wi-Fi 视觉 毫米波 雷达 融合算法 2024 2025"
+    },
+    {
+      "url": "https://radars.ac.cn/article/doi/10.12000/JR23184",
+      "status": "success",
+      "content_length": 30294,
+      "duration_seconds": 3.407,
+      "query": "多模态融合 非接触式感知 Wi-Fi 视觉 毫米波 雷达 融合算法 2024 2025"
+    },
+    {
+      "url": "https://github.com/Linfeng-Tang/Image-Fusion",
+      "status": "success",
+      "content_length": 58759,
+      "duration_seconds": 3.407,
+      "query": "多模态融合 非接触式感知 Wi-Fi 视觉 毫米波 雷达 融合算法 2024 2025"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12383697",
+      "status": "success",
+      "content_length": 76922,
+      "duration_seconds": 2.521,
+      "query": "PointNet++ mmWave radar point cloud human pose estimation"
+    },
+    {
+      "url": "https://arxiv.org/html/2407.02455v1",
+      "status": "success",
+      "content_length": 50651,
+      "duration_seconds": 2.521,
+      "query": "PointNet++ mmWave radar point cloud human pose estimation"
+    },
+    {
+      "url": "https://ieeexplore.ieee.org/document/10966631",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.521,
+      "query": "PointNet++ mmWave radar point cloud human pose estimation"
+    },
+    {
+      "url": "https://liux4189.github.io/files/Parsing_Ubicomp23.pdf",
+      "status": "success",
+      "content_length": 82469,
+      "duration_seconds": 2.521,
+      "query": "PointNet++ mmWave radar point cloud human pose estimation"
+    },
+    {
+      "url": "https://neurips.cc/virtual/2023/poster/73646",
+      "status": "success",
+      "content_length": 1852,
+      "duration_seconds": 2.521,
+      "query": "PointNet++ mmWave radar point cloud human pose estimation"
+    },
+    {
+      "url": "https://scholar.xjtu.edu.cn/en/publications/person-in-wifi-3d-end-to-end-multi-person-3d-pose-estimation-with",
+      "status": "success",
+      "content_length": 11905,
+      "duration_seconds": 2.705,
+      "query": "Person-in-WiFi 3D CVPR 2024 multi-person pose estimation WiFi"
+    },
+    {
+      "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Yan_Person-in-WiFi_3D_End-to-End_Multi-Person_3D_Pose_Estimation_with_Wi-Fi_CVPR_2024_paper.html",
+      "status": "success",
+      "content_length": 2840,
+      "duration_seconds": 2.705,
+      "query": "Person-in-WiFi 3D CVPR 2024 multi-person pose estimation WiFi"
+    },
+    {
+      "url": "https://www.semanticscholar.org/paper/Person-in-WiFi-3D%3A-End-to-End-Multi-Person-3D-Pose-Yan-Wang/354a25269ca7d7b9f0cc43c08d18419a9e04c54c",
+      "status": "success",
+      "content_length": 35495,
+      "duration_seconds": 2.705,
+      "query": "Person-in-WiFi 3D CVPR 2024 multi-person pose estimation WiFi"
+    },
+    {
+      "url": "https://aiotgroup.github.io/Person-in-WiFi-3D",
+      "status": "success",
+      "content_length": 5205,
+      "duration_seconds": 2.705,
+      "query": "Person-in-WiFi 3D CVPR 2024 multi-person pose estimation WiFi"
+    },
+    {
+      "url": "https://cvpr.thecvf.com/virtual/2024/poster/30463",
+      "status": "success",
+      "content_length": 2378,
+      "duration_seconds": 2.705,
+      "query": "Person-in-WiFi 3D CVPR 2024 multi-person pose estimation WiFi"
+    },
+    {
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/af9c9c6d2da701da5a0acf91ec217815-Paper-Datasets_and_Benchmarks.pdf",
+      "status": "success",
+      "content_length": 46218,
+      "duration_seconds": 2.831,
+      "query": "mRI mmWave radar imaging RF-based human sensing paper"
+    },
+    {
+      "url": "https://arxiv.org/html/2405.05164",
+      "status": "success",
+      "content_length": 50138,
+      "duration_seconds": 2.831,
+      "query": "mRI mmWave radar imaging RF-based human sensing paper"
+    },
+    {
+      "url": "https://cvpr.thecvf.com/virtual/2025/poster/33124",
+      "status": "success",
+      "content_length": 2517,
+      "duration_seconds": 2.831,
+      "query": "mRI mmWave radar imaging RF-based human sensing paper"
+    },
+    {
+      "url": "https://eprints.gla.ac.uk/360344/1/360344.pdf",
+      "status": "success",
+      "content_length": 30233,
+      "duration_seconds": 2.831,
+      "query": "mRI mmWave radar imaging RF-based human sensing paper"
+    },
+    {
+      "url": "https://sizhean.github.io/mri",
+      "status": "success",
+      "content_length": 2992,
+      "duration_seconds": 2.831,
+      "query": "mRI mmWave radar imaging RF-based human sensing paper"
+    },
+    {
+      "url": "https://www.semanticscholar.org/paper/RFID-based-Human-Activity-Recognition-Using-Neural-Golipoor-Sigg/16ca2a438f49c33638ad4844fc7dd8f90be8bb07",
+      "status": "success",
+      "content_length": 26925,
+      "duration_seconds": 3.872,
+      "query": "RFID 人体活动识别 非接触式感知 定位 算法 论文 2024"
+    },
+    {
+      "url": "https://hcst.pku.edu.cn/info/1029/1811.htm",
+      "status": "success",
+      "content_length": 10435,
+      "duration_seconds": 3.872,
+      "query": "RFID 人体活动识别 非接触式感知 定位 算法 论文 2024"
+    },
+    {
+      "url": "https://cs.nju.edu.cn/lxie/publication/CCCF2021RFID.pdf",
+      "status": "success",
+      "content_length": 14097,
+      "duration_seconds": 3.872,
+      "query": "RFID 人体活动识别 非接触式感知 定位 算法 论文 2024"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6205502",
+      "status": "success",
+      "content_length": 88745,
+      "duration_seconds": 3.872,
+      "query": "RFID 人体活动识别 非接触式感知 定位 算法 论文 2024"
+    },
+    {
+      "url": "https://www.jos.org.cn/html/2022/1/6344.htm",
+      "status": "success",
+      "content_length": 82872,
+      "duration_seconds": 3.872,
+      "query": "RFID 人体活动识别 非接触式感知 定位 算法 论文 2024"
+    },
+    {
+      "url": "https://ui.adsabs.harvard.edu/abs/2024ITMC...2311735J/abstract",
+      "status": "success",
+      "content_length": 2128,
+      "duration_seconds": 3.018,
+      "query": "mmWave radar 60GHz 77GHz human activity recognition gesture recognition state-of-the-art"
+    },
+    {
+      "url": "https://www.mdpi.com/2072-4292/11/9/1068",
+      "status": "success",
+      "content_length": 123191,
+      "duration_seconds": 3.018,
+      "query": "mmWave radar 60GHz 77GHz human activity recognition gesture recognition state-of-the-art"
+    },
+    {
+      "url": "https://patents.google.com/patent/US10928499B2/en",
+      "status": "success",
+      "content_length": 113845,
+      "duration_seconds": 3.018,
+      "query": "mmWave radar 60GHz 77GHz human activity recognition gesture recognition state-of-the-art"
+    },
+    {
+      "url": "https://github.com/Armorhtk/awesome-mmwave-radar-perception",
+      "status": "success",
+      "content_length": 272033,
+      "duration_seconds": 3.018,
+      "query": "mmWave radar 60GHz 77GHz human activity recognition gesture recognition state-of-the-art"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10650102",
+      "status": "success",
+      "content_length": 135477,
+      "duration_seconds": 3.018,
+      "query": "mmWave radar 60GHz 77GHz human activity recognition gesture recognition state-of-the-art"
+    },
+    {
+      "url": "https://www.semanticscholar.org/paper/Fast-and-Scalable-Human-Pose-Estimation-using-Point-An-Ogras/1576b51c049af66bdba867b8792a078fc2d6a2ad",
+      "status": "success",
+      "content_length": 31355,
+      "duration_seconds": 5.736,
+      "query": "mmWave radar FMCW human pose estimation point cloud deep learning 2024 2025"
+    },
+    {
+      "url": "https://www.mdpi.com/1424-8220/25/13/3909",
+      "status": "success",
+      "content_length": 115250,
+      "duration_seconds": 5.736,
+      "query": "mmWave radar FMCW human pose estimation point cloud deep learning 2024 2025"
+    },
+    {
+      "url": "https://github.com/Armorhtk/awesome-mmwave-radar-perception",
+      "status": "success",
+      "content_length": 272033,
+      "duration_seconds": 5.736,
+      "query": "mmWave radar FMCW human pose estimation point cloud deep learning 2024 2025"
+    },
+    {
+      "url": "https://ieeexplore.ieee.org/iel8/9171629/10931039/10904474.pdf",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 5.736,
+      "query": "mmWave radar FMCW human pose estimation point cloud deep learning 2024 2025"
+    },
+    {
+      "url": "https://arxiv.org/html/2407.02455v1",
+      "status": "success",
+      "content_length": 50651,
+      "duration_seconds": 5.736,
+      "query": "mmWave radar FMCW human pose estimation point cloud deep learning 2024 2025"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12181896",
+      "status": "success",
+      "content_length": 116710,
+      "duration_seconds": 2.786,
+      "query": "PhysFormer DeepPhys rPPG heart rate accuracy benchmark dataset 2024"
+    },
+    {
+      "url": "https://circadify.com/blog/deep-learning-rppg-vital-sign-extraction-advances",
+      "status": "success",
+      "content_length": 18249,
+      "duration_seconds": 2.786,
+      "query": "PhysFormer DeepPhys rPPG heart rate accuracy benchmark dataset 2024"
+    },
+    {
+      "url": "https://github.com/ubicomplab/rPPG-Toolbox",
+      "status": "success",
+      "content_length": 38531,
+      "duration_seconds": 2.786,
+      "query": "PhysFormer DeepPhys rPPG heart rate accuracy benchmark dataset 2024"
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0893608025000073",
+      "status": "success",
+      "content_length": 36879,
+      "duration_seconds": 2.786,
+      "query": "PhysFormer DeepPhys rPPG heart rate accuracy benchmark dataset 2024"
+    },
+    {
+      "url": "https://arxiv.org/html/2402.04798v2",
+      "status": "success",
+      "content_length": 75230,
+      "duration_seconds": 2.786,
+      "query": "PhysFormer DeepPhys rPPG heart rate accuracy benchmark dataset 2024"
+    },
+    {
+      "url": "https://pdf.hanspub.org/csa2024149_121543322.pdf",
+      "status": "success",
+      "content_length": 12629,
+      "duration_seconds": 3.532,
+      "query": "WiFi 视觉 多模态融合 人体感知 跌倒检测 跨模态 2024 论文"
+    },
+    {
+      "url": "https://radars.ac.cn/cn/article/pdf/preview/10.12000/JR26024.pdf",
+      "status": "success",
+      "content_length": 42123,
+      "duration_seconds": 3.532,
+      "query": "WiFi 视觉 多模态融合 人体感知 跌倒检测 跨模态 2024 论文"
+    },
+    {
+      "url": "https://www.themoonlight.io/zh/review/real-time-fall-detection-using-smartphone-accelerometers-and-wifi-channel-state-information",
+      "status": "success",
+      "content_length": 2323,
+      "duration_seconds": 3.532,
+      "query": "WiFi 视觉 多模态融合 人体感知 跌倒检测 跨模态 2024 论文"
+    },
+    {
+      "url": "https://www.alphaxiv.org/zh/abs/2506.17332v1",
+      "status": "success",
+      "content_length": 3055,
+      "duration_seconds": 3.532,
+      "query": "WiFi 视觉 多模态融合 人体感知 跌倒检测 跨模态 2024 论文"
+    },
+    {
+      "url": "http://tc.ccf.org.cn/ccfcv/zwjb/2024-04-09/817113.shtml",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 3.532,
+      "query": "WiFi 视觉 多模态融合 人体感知 跌倒检测 跨模态 2024 论文"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11086334",
+      "status": "success",
+      "content_length": 128250,
+      "duration_seconds": 3.893,
+      "query": "超声波 手势识别 非接触 感知 声波 算法 论文 会议 2023 2024"
+    },
+    {
+      "url": "https://www.jcad.cn/article/doi/10.3724/SP.J.1089.2018.16176",
+      "status": "success",
+      "content_length": 4768,
+      "duration_seconds": 3.893,
+      "query": "超声波 手势识别 非接触 感知 声波 算法 论文 会议 2023 2024"
+    },
+    {
+      "url": "https://www.mdpi.com/1424-8220/23/4/1790",
+      "status": "success",
+      "content_length": 98707,
+      "duration_seconds": 3.893,
+      "query": "超声波 手势识别 非接触 感知 声波 算法 论文 会议 2023 2024"
+    },
+    {
+      "url": "https://www.hanspub.org/journal/paperinformation?paperid=91044",
+      "status": "success",
+      "content_length": 1241,
+      "duration_seconds": 3.893,
+      "query": "超声波 手势识别 非接触 感知 声波 算法 论文 会议 2023 2024"
+    },
+    {
+      "url": "http://eeit.hnu.edu.cn/info/1588/8246.htm",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 3.893,
+      "query": "超声波 手势识别 非接触 感知 声波 算法 论文 会议 2023 2024"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11359101",
+      "status": "success",
+      "content_length": 95174,
+      "duration_seconds": 4.458,
+      "query": "mmWave radar vision fusion human activity recognition 2024 paper"
+    },
+    {
+      "url": "https://www.mdpi.com/1424-8220/26/3/1057",
+      "status": "success",
+      "content_length": 122697,
+      "duration_seconds": 4.458,
+      "query": "mmWave radar vision fusion human activity recognition 2024 paper"
+    },
+    {
+      "url": "https://github.com/Armorhtk/awesome-mmwave-radar-perception",
+      "status": "success",
+      "content_length": 272033,
+      "duration_seconds": 4.458,
+      "query": "mmWave radar vision fusion human activity recognition 2024 paper"
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0031320326007958",
+      "status": "success",
+      "content_length": 24191,
+      "duration_seconds": 4.458,
+      "query": "mmWave radar vision fusion human activity recognition 2024 paper"
+    },
+    {
+      "url": "https://arxiv.org/html/2405.01882v1",
+      "status": "success",
+      "content_length": 53279,
+      "duration_seconds": 4.458,
+      "query": "mmWave radar vision fusion human activity recognition 2024 paper"
+    },
+    {
+      "url": "https://havocfixer.github.io/resource/21_MobiSys.pdf",
+      "status": "success",
+      "content_length": 76737,
+      "duration_seconds": 2.268,
+      "query": "mmMesh mmWave radar 3D human mesh reconstruction paper"
+    },
+    {
+      "url": "https://www.semanticscholar.org/paper/mmMesh%3A-towards-3D-real-time-dynamic-human-mesh-Xue-Ju/220d9a89d29c24d07be64e4f64b99ed9b08b7032",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.268,
+      "query": "mmMesh mmWave radar 3D human mesh reconstruction paper"
+    },
+    {
+      "url": "https://havocfixer.github.io/mmMesh",
+      "status": "success",
+      "content_length": 2662,
+      "duration_seconds": 2.268,
+      "query": "mmMesh mmWave radar 3D human mesh reconstruction paper"
+    },
+    {
+      "url": "https://arxiv.org/html/2512.12378v2",
+      "status": "success",
+      "content_length": 44686,
+      "duration_seconds": 2.268,
+      "query": "mmMesh mmWave radar 3D human mesh reconstruction paper"
+    },
+    {
+      "url": "https://dl.acm.org/doi/10.1145/3458864.3467679",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.268,
+      "query": "mmMesh mmWave radar 3D human mesh reconstruction paper"
+    },
+    {
+      "url": "https://www.scribd.com/document/733157362/Deep-Learning-Based-Fall-Detection-Using-WiFi-Channel-State-Information",
+      "status": "success",
+      "content_length": 4120,
+      "duration_seconds": 2.649,
+      "query": "WiFi CSI fall detection deep learning dataset accuracy 2024 2025"
+    },
+    {
+      "url": "https://pure.york.ac.uk/portal/en/publications/deep-learning-based-fall-detection-using-wifi-channel-state-infor",
+      "status": "success",
+      "content_length": 11473,
+      "duration_seconds": 2.649,
+      "query": "WiFi CSI fall detection deep learning dataset accuracy 2024 2025"
+    },
+    {
+      "url": "https://eprints.whiterose.ac.uk/id/eprint/202278/8/Deep_Learning_Based_Fall_Detection_Using_WiFi_Channel_State_Information.pdf",
+      "status": "success",
+      "content_length": 83499,
+      "duration_seconds": 2.649,
+      "query": "WiFi CSI fall detection deep learning dataset accuracy 2024 2025"
+    },
+    {
+      "url": "https://www.mdpi.com/1424-8220/26/12/3821",
+      "status": "success",
+      "content_length": 93653,
+      "duration_seconds": 2.649,
+      "query": "WiFi CSI fall detection deep learning dataset accuracy 2024 2025"
+    },
+    {
+      "url": "https://www.intechopen.com/journals/1/articles/693",
+      "status": "success",
+      "content_length": 89963,
+      "duration_seconds": 2.649,
+      "query": "WiFi CSI fall detection deep learning dataset accuracy 2024 2025"
+    },
+    {
+      "url": "https://havocfixer.github.io/resource/20_MobiCom.pdf",
+      "status": "success",
+      "content_length": 76685,
+      "duration_seconds": 3.062,
+      "query": "Wi-Pose WiFi pose estimation MobiCom 2020 dataset accuracy"
+    },
+    {
+      "url": "https://openreview.net/pdf/f2428bc8d58ea4dffc8cf664c03aaaf5394e5bc9.pdf",
+      "status": "success",
+      "content_length": 54906,
+      "duration_seconds": 3.062,
+      "query": "Wi-Pose WiFi pose estimation MobiCom 2020 dataset accuracy"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2012.14066",
+      "status": "success",
+      "content_length": 26618,
+      "duration_seconds": 3.062,
+      "query": "Wi-Pose WiFi pose estimation MobiCom 2020 dataset accuracy"
+    },
+    {
+      "url": "https://cvpr.thecvf.com/virtual/2024/poster/30463",
+      "status": "success",
+      "content_length": 2378,
+      "duration_seconds": 3.062,
+      "query": "Wi-Pose WiFi pose estimation MobiCom 2020 dataset accuracy"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=46388904",
+      "status": "success",
+      "content_length": 49195,
+      "duration_seconds": 3.062,
+      "query": "Wi-Pose WiFi pose estimation MobiCom 2020 dataset accuracy"
+    },
+    {
+      "url": "https://github.com/Armorhtk/awesome-mmwave-radar-perception",
+      "status": "success",
+      "content_length": 272033,
+      "duration_seconds": 3.659,
+      "query": "mmWave radar fall detection FMCW point cloud deep learning accuracy 2024 2025"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10820484",
+      "status": "success",
+      "content_length": 80365,
+      "duration_seconds": 3.659,
+      "query": "mmWave radar fall detection FMCW point cloud deep learning accuracy 2024 2025"
+    },
+    {
+      "url": "https://link.springer.com/article/10.1007/s44443-025-00302-0",
+      "status": "success",
+      "content_length": 300268,
+      "duration_seconds": 3.659,
+      "query": "mmWave radar fall detection FMCW point cloud deep learning accuracy 2024 2025"
+    },
+    {
+      "url": "https://dl.acm.org/doi/10.1145/3696474.3696488",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 3.659,
+      "query": "mmWave radar fall detection FMCW point cloud deep learning accuracy 2024 2025"
+    },
+    {
+      "url": "https://arxiv.org/html/2503.02300v1",
+      "status": "success",
+      "content_length": 40203,
+      "duration_seconds": 3.659,
+      "query": "mmWave radar fall detection FMCW point cloud deep learning accuracy 2024 2025"
+    },
+    {
+      "url": "https://www.preprints.org/manuscript/202402.0228",
+      "status": "success",
+      "content_length": 65226,
+      "duration_seconds": 4.07,
+      "query": "mmWave radar gesture recognition Google Soli transformer model accuracy"
+    },
+    {
+      "url": "https://modernmobile.cs.washington.edu/docs/soli.pdf",
+      "status": "success",
+      "content_length": 105434,
+      "duration_seconds": 4.07,
+      "query": "mmWave radar gesture recognition Google Soli transformer model accuracy"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10974769",
+      "status": "success",
+      "content_length": 79725,
+      "duration_seconds": 4.07,
+      "query": "mmWave radar gesture recognition Google Soli transformer model accuracy"
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0957417422020607",
+      "status": "success",
+      "content_length": 29449,
+      "duration_seconds": 4.07,
+      "query": "mmWave radar gesture recognition Google Soli transformer model accuracy"
+    },
+    {
+      "url": "https://www.mdpi.com/2072-4292/16/23/4602",
+      "status": "success",
+      "content_length": 82438,
+      "duration_seconds": 4.07,
+      "query": "mmWave radar gesture recognition Google Soli transformer model accuracy"
+    },
+    {
+      "url": "https://github.com/bh6aol/mmHPE",
+      "status": "missing",
+      "content_length": 0,
+      "duration_seconds": 2.611,
+      "query": "mmWave radar human pose estimation GitHub open source code mmMesh mmFree-Pose"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12383697",
+      "status": "success",
+      "content_length": 76922,
+      "duration_seconds": 2.611,
+      "query": "mmWave radar human pose estimation GitHub open source code mmMesh mmFree-Pose"
+    },
+    {
+      "url": "https://github.com/robert80203/HuPR-A-Benchmark-for-Human-Pose-Estimation-Using-Millimeter-Wave-Radar",
+      "status": "success",
+      "content_length": 8362,
+      "duration_seconds": 2.611,
+      "query": "mmWave radar human pose estimation GitHub open source code mmMesh mmFree-Pose"
+    },
+    {
+      "url": "https://havocfixer.github.io/mmMesh",
+      "status": "success",
+      "content_length": 2662,
+      "duration_seconds": 2.611,
+      "query": "mmWave radar human pose estimation GitHub open source code mmMesh mmFree-Pose"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2205.00097",
+      "status": "success",
+      "content_length": 36756,
+      "duration_seconds": 2.611,
+      "query": "mmWave radar human pose estimation GitHub open source code mmMesh mmFree-Pose"
+    },
+    {
+      "url": "https://github.com/euaziel/WiFi-CSI-Human-Pose-Detection",
+      "status": "success",
+      "content_length": 81041,
+      "duration_seconds": 3.172,
+      "query": "WiFi CSI sensing GitHub open source code Widar Wi-Pose Person-in-WiFi"
+    },
+    {
+      "url": "https://github.com/NTUMARS/Awesome-WiFi-CSI-Sensing",
+      "status": "success",
+      "content_length": 37040,
+      "duration_seconds": 3.172,
+      "query": "WiFi CSI sensing GitHub open source code Widar Wi-Pose Person-in-WiFi"
+    },
+    {
+      "url": "https://ruview.blog/wifi-human-detection",
+      "status": "success",
+      "content_length": 8696,
+      "duration_seconds": 3.172,
+      "query": "WiFi CSI sensing GitHub open source code Widar Wi-Pose Person-in-WiFi"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=7XwgxTXPJKM",
+      "status": "success",
+      "content_length": 16917,
+      "duration_seconds": 3.172,
+      "query": "WiFi CSI sensing GitHub open source code Widar Wi-Pose Person-in-WiFi"
+    },
+    {
+      "url": "https://aiotgroup.github.io/Person-in-WiFi-3D",
+      "status": "success",
+      "content_length": 5205,
+      "duration_seconds": 3.172,
+      "query": "WiFi CSI sensing GitHub open source code Widar Wi-Pose Person-in-WiFi"
+    }
+  ],
+  "run_id": "1148bd0cb42a41ad95392beaba008ad6",
+  "status": "completed",
+  "id": 16,
+  "prompt": "收集整理目前非接触式感知领域做的最好的算法策略，并为我评估他们的输入信号与准确率",
+  "language": "zh",
+  "topic": "Software Development",
+  "duration_seconds": 322.956,
+  "report_length": 15284,
+  "context_length": 328869
+}
